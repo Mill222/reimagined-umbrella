@@ -1,0 +1,42 @@
+
+state={
+	id=992
+	name="STATE_992"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = WUR
+		add_core_of = WUR
+		add_claim_by = GER
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			
+			6581 = {
+				bunker = 3
+			}
+			3574 = {
+				bunker = 3
+			}
+			589 = {
+				bunker = 3
+			}
+			6568 = {
+				bunker = 1
+			}
+			3530 = {
+				bunker = 1
+			}
+		}
+
+	}
+
+	provinces={
+		589 3530 3574 3692 3692 6542 6568 6581 6712 11640 
+	}
+	manpower=2312462
+	buildings_max_level_factor=1.000
+	state_category=city
+}

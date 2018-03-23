@@ -1,0 +1,28 @@
+
+state={
+	id=829
+	name="STATE_829"
+	resources={
+		oil=350.000
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		823 941 986 1562 1651 3784 3840 4518 4657 4727 6861 6881 7517 7667 7986 9855 9911 10387 10483 11757 11763 11795 11859 11876 12303 12374 
+	}
+	manpower=224546
+	buildings_max_level_factor=1.000
+	state_category=city
+}

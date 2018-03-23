@@ -1,0 +1,17 @@
+﻿l_english:
+
+### Autonomy Levels ###
+sp_integrated:0 "Integrated"
+sp_occupied:0 "Occupied"
+sp_default_puppet:0 "Puppet"
+sp_autonomous:0 "Autonomous"
+sp_colony:0 "Colony"
+sp_protectorate:0 "Protectorate"
+
+### Tooltips ###
+can_lower_autonomy_level:0 "Can lower autonomy level\n"
+can_raise_autonomy_level:0 "Can raise autonomy level\n"
+puppet_can_become_free:0 "May become independent\n"
+puppet_can_be_annexed:0 "May be annexed by the overlord\n"
+may_raise_autonomy:0 "§Y[Root.GetNameDef]§! may now raise autonomy level\n"
+may_become_free:0 "§Y[Root.GetNameDef]§! may now work towards independence\n"

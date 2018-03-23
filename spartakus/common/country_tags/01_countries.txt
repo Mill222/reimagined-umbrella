@@ -1,0 +1,5 @@
+BAV = "countries/BAV - Bavaria.txt"
+WUR = "countries/WUR - Wurttemburg.txt"
+WEI = "countries/WEI - Weimar.txt"
+AOF = "countries/AOF - French West Africa.txt"
+AEF = "countries/AEF - French East Africa.txt"

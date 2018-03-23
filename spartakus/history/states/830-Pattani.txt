@@ -1,0 +1,26 @@
+
+state={
+	id=830
+	name="STATE_830"
+	resources={
+		tungsten=20.000
+	}
+
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SIA
+		add_claim_by = MLY
+
+	}
+
+	provinces={
+		1279 1291 4297 7342 10156 12131 12144 
+	}
+	manpower=161700
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

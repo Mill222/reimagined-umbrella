@@ -1,0 +1,19 @@
+state={
+	id=990
+	name="STATE_990"
+	provinces={
+		7454 10403 10472 12376 
+	}
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SOV
+		add_claim_by = TUR
+	}
+	manpower=204536
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,194 @@
+﻿l_english:
+
+### Stability ###
+very_low_stability:0 "Very Low Stability"
+very_low_stability_desc:0 "You'll end up at very low stability if your stability value goes under §Y20%§!, you'll have to pass above §Y20%§! to go up to low stability."
+low_stability:0 "Low Stability"
+low_stability_desc:0 "You'll end up at very low stability if your stability value goes under §Y40%§!, you'll have to pass above §Y40%§! to go up to normal stability."
+normal_stability:0 "Average Stability"
+normal_stability_desc:0 "The basic level of stability.\n\n"
+good_stability:0 "Good Stability"
+good_stability_desc:0 "If your stability value is above §Y60%§! you will go up to good stability. You'll go down to normal stability if your stability value goes under §Y60%§!."
+very_good_stability:0 "Very Good Stability"
+very_good_stability_desc:0 "If your stability value is above §Y80%§! you will go up to very good stability. You'll go down to good stability if you let your stability value go under §Y80%§!."
+stability:0 "Stability"
+EFFECT_CHANGE_LAW_stability:0 "Change our country's stability to '$NAME|Y$' which grants ($DESC$)."
+
+### Popularity ###
+very_low_popularity:0 "Very Low Popularity"
+very_low_popularity_desc:0 "You'll be at Very Low Popularity if your ruling party is under §Y20%§! popularity."
+low_popularity:0 "Low Popularity"
+low_popularity_desc:0 "You'll be at Low Popularity if your ruling party is between §Y20%§! and §Y40%§! popularity."
+normal_popularity:0 "Medium Popularity"
+normal_popularity_desc:0 "You'll be at Medium Popularity if your ruling party is between §Y40%§! and §Y60%§! popularity."
+high_popularity:0 "High Popularity"
+high_popularity_desc:0 "You'll be at High Popularity if your ruling party is between §Y60%§! and §Y80%§! popularity."
+very_high_popularity:0 "Very High Popularity"
+very_high_popularity_desc:0 "You'll be at Very High Popularity if your ruling party is above §Y80%§! popularity."
+popularity:0 "Popularity"
+
+### Economic Health ###
+boom_economy:0 "WIP" #Boom Economy WIP!!!
+good_economy:0 "WIP" #Good Economy WIP!!!
+medium_economy:0 "WIP" #Medium Economy WIP!!!
+bad_economy:0 "WIP" #Bad Economy WIP!!!
+bust_economy:0 "WIP" #Bust Economy WIP!!!
+crash_economy:0 "WIP" #Crash Economy WIP!!!
+economic_health:0 "Work in progress, don't worry about this" #Economic Health WIP!!!
+
+### Stability Events ###
+sp.political.1.t:0 "Downfall in Stability!"
+sp.political.1.d:0 "Due to our fall in national stability, parts of our society have begun to normalize. Some workers have lost their jobs, a few businesses have ceased to thrive and the overall support for waging war has decreased slightly."
+sp.political.1.a:0 "All good things must come to an end."
+
+sp.political.2.t:0 "Downfall in Stability!"
+sp.political.2.d:0 "Due to our fall in national stability, our society has normalized. We are back to an average sized workforce, businesses are making average amounts of revenue and support for waging war has become average."
+sp.political.2.a:0 "This is concerning."
+
+sp.political.3.t:0 "Downfall in Stability!"
+sp.political.3.d:0 "Due to our fall in national stability, parts of our society have begun to break down. Workers have begun to strike, some businesses have closed and the overall support for waging war has decreased."
+sp.political.3.a:0 "This is only a temporary situation."
+
+sp.political.4.t:0 "Downfall in Stability!"
+sp.political.4.d:0 "Due to our fall in national stability, much of our society have begun to break down. The strikes have devolved into major unrest, much of the government has been shut down, most businesses have closed and the overall support for waging war is almost nonexistant."
+sp.political.4.a:0 "This doesn't bode well."
+
+sp.political.5.t:0 "Increase in Stability"
+sp.political.5.d:0 "Due to an increase in national stability, parts of our society have begun to recover. The unrest has fallen back into strikes again, parts of the government have returned to normal, a few businesses have reopned and the overall support for waging war has increased slightly."
+sp.political.5.a:0 "The country is recovering."
+
+sp.political.6.t:0 "Increase in Stability!"
+sp.political.6.d:0 "Due to an increase in national stability, most of our society has recovered. The strikes have ceased, the government has completely returned to normal, most businesses have reopened and the overall support for waging war has become average."
+sp.political.6.a:0 "We are back to normal."
+
+sp.political.7.t:0 "Increase in Stability!"
+sp.political.7.d:0 "Due to an increase in national stability, parts of our society have begun to thrive. Factories are producing more than normal, some businesses are thriving and the overall support for waging war has increased."
+sp.political.7.a:0 "We are thriving!"
+
+sp.political.8.t:0 "Increase in Stability!"
+sp.political.8.d:0 "Due to an increase in national stability, parts of our society have begun to thrive. Factories are running at record high efficiency, many businesses are thriving and the overall support for waging war is high."
+sp.political.8.a:0 "[Root.GetNameDef] is strong."
+
+### Popularity Events ###
+sp.political.11.t:0 "Very High Popularity"
+sp.political.11.d:0 "The civilian support for the ruling party has reached a very high level, which has positively influenced our political power. Our political opposition is nearly nonexistent and we are in a position to pass any reform we please."
+sp.political.11.a:0 "Great!"
+
+sp.political.12.t:0 "High Popularity"
+sp.political.12.d:0 "The civilian support for the ruling party has reached a high level, which has positively influenced our political power. Our political opposition is entrenched and only the most divisive reforms need our personal investment."
+sp.political.12.a:0 "Nice!"
+
+sp.political.13.t:0 "Average Popularity"
+sp.political.13.d:0 "The civilian support for the ruling party has reached an average level, which has influenced our political power. While we may need to consult our opposition for some reforms, we can still govern well and efficiently."
+sp.political.13.a:0 "Good."
+
+sp.political.14.t:0 "Low Popularity"
+sp.political.14.d:0 "The civilian support for the ruling party has reached a low level, which has negatively influenced our political power. Our opposition is strong enough to form coalitions against us, forcing us to consult and compromise with them often."
+sp.political.14.a:0 "This is bad."
+
+sp.political.15.t:0 "Very Low Popularity"
+sp.political.15.d:0 "The civilian support for the ruling party has reached a very low level, which has negatively influenced our political power. Our party is nearly nonexistent, and our reforms live or die on the whims of the opposition."
+sp.political.15.a:0 "This is a catastrophe!"
+
+### Minister Influences Ruling Party Events ###
+sp.political.16.t:0 "A Minister Supports His Ideology"
+sp.political.16.d:0 "Our current government contains a Minister who belongs to a different ideology. He has begun supporting his own ideology which has damaged our own party popularity. We must act now if we are to reverse his actions."
+sp.political.16.a:0 "There is nothing we can do."
+sp.political.16.b:0 "Use our influence to revert his efforts."
+
+sp.political.17.t:0 "Our Ideology Has Grown"
+sp.political.17.d:0 "Due to his popular policies, one of our loyal ministers has managed to strengthen our ideology. With some additional influence we could use this to increase our popularity."
+sp.political.17.a:0 "Excellent."
+sp.political.17.b:0 "We don't need this."
+
+sp.political.18.t:0 "Our Ideology Has Grown"
+sp.political.18.d:0 "Due to his popular policies, one of our loyal ministers has managed to strengthen our ideology. With some additional influence we could use this to increase our popularity."
+sp.political.18.a:0 "Excellent."
+sp.political.18.b:0 "We don't need this."
+
+sp.political.19.t:0 "Our Ideology Has Grown"
+sp.political.19.d:0 "Due to his popular policies, one of our loyal ministers has managed to strengthen our ideology. With some additional influence we could use this to increase our popularity."
+sp.political.19.a:0 "Excellent."
+sp.political.19.b:0 "We don't need this."
+
+sp.political.20.t:0 "Our Ideology Has Grown"
+sp.political.20.d:0 "Due to his popular policies, one of our loyal ministers has managed to strengthen our ideology. With some additional influence we could use this to increase our popularity."
+sp.political.20.a:0 "Excellent."
+sp.political.20.b:0 "We don't need this."
+
+sp.political.21.t:0 "A Minister supports his Ideology"
+sp.political.21.d:0 "Our current government contains a Minister who belongs to a different ideology. He has begun supporting his own ideology which has damaged our own party popularity. We must act now if we are to reverse his actions."
+sp.political.21.a:0 "There is nothing we can do."
+sp.political.21.b:0 "Use our influence to revert his efforts."
+
+sp.political.22.t:0 "A Minister supports his Ideology"
+sp.political.22.d:0 "Our current government contains a Minister who belongs to a different ideology. He has begun supporting his own ideology which has damaged our own party popularity. We must act now if we are to reverse his actions."
+sp.political.22.a:0 "There is nothing we can do."
+sp.political.22.b:0 "Use our influence to revert his efforts."
+
+sp.political.23.t:0 "A Minister supports his Ideology"
+sp.political.23.d:0 "Our current government contains a Minister who belongs to a different ideology. He has begun supporting his own ideology which has damaged our own party popularity. We must act now if we are to reverse his actions."
+sp.political.23.a:0 "There is nothing we can do."
+sp.political.23.b:0 "Use our influence to revert his efforts."
+
+### Starting Events ###
+sp.political.24.t:0 "Kaiserreich Alpha 0.5.4 - 'Birthday Cake'"
+sp.political.24.d:0 "The Kaiserreich Team proudly present Kaiserreich Alpha version 0.5.4 - 'Birthday Cake' for Hearts of Iron 4! For months now, our team has worked from every corner of the world to bring this mod to you. We hope you will enjoy playing it as much as we did making it.\n\nFirst off, there are several things we'd like to point out regarding our new mechanics: if you check the politics tab of your country, you'll see we added all kinds of exciting new things. Keep in mind that your stability level is directly influenced by your Political Power balance (Positive PP = GOOD, negative PP = BAD), so keep an eye on that! \n\nSecond, you should also be aware that the mod is designed with the assumption that the player will always annex all possible states in peace treaties, so you should make sure to do that!\n\nFinally, we'd like to remind you this is still alpha, so expect bugs, crashes and various headaches. If (...when...) you encounter any of these, please report them on steam, our discord channel, or on our section of the Paradox forums. If you have any other questions, don't hesitate to ask us, but please check the in game FAQ first.\n\nEnjoy! \n                - The KR4 Team, team list found in the credits"
+sp.political.24.a:0 "Thank you Kaiserreich team!"
+sp.political.24.b:0 "Tell me more about this exciting new stability system..."
+sp.political.24.c:0 "But wait I have more questions... (Go to FAQ)"
+sp.political.24.e:0 "I think there shouldn't be faction joining limits..."
+
+sp.political.27.t:0 "The Stability System"
+sp.political.27.d:0 "Kaiserreich for HOI4 introduces a new mechanic: The Stability System. Stability is present in the form of laws which you can see in your political screen next to the trade laws. These are influenced by your political power. Going under -50PP will cause you to go down to low stability, under -250 and you'll go to very low stability and under -500 and you will be in a disaster; you want to avoid that, trust me. On the contrary you'll be able to go up to very low stability if you're above -500, to low stability if you're above -250 and to average stability if you're above -50. \n\nGoing up up to good and very good stability is a bit different, you must get 150PP and then select the corresponding law in the stability screen. You'll get a reminder the first time this is possible. If you ever go under 0PP you'll lose the positive stability levels. \n\nPlease keep in mind that the events adding or removing your stability don't instantly fire and can take several months to fire. Finally, if you happen to forget what you read here you'll be able to see the requirements for each level as tooltips if you hover over the stability ideas in the law screen, but there is no reason that you would forget right?"
+sp.political.27.a:0 "I wanted that PP..."
+
+sp.political.33.t:0 "That's not very nice!"
+sp.political.33.d:0 "If you don't like Kaiserreich, why are you here?"
+sp.political.33.a:0 "That is a very good question..."
+sp.political.33.b:0 "I liked it back on April 1st..."
+
+sp.political.34.t:0 "FAQ Part 1"
+sp.political.34.d:0 "How come I can't puppet anything?\nAll puppetting is now done via events or focuses rather than through peace conferences.\n\nWhen will the next patch come out?\nWe aim for one big release every two months, and of course hot-fixes wherever needed.\n\nWhy are some of the models black?\nWe use some DLC assets in our mod, so if you don't have that DLC, you will get blank textures, don't worry though, they are just cosmetic errors. We are working on setting up backup textures to avoid this, so keep an eye out for updates.\n\nI want to do bug testing/art/music/coding for KR, where can I sign up?\nWonderful! Head to our discord, link on the forums, and message either ~mw~, Nijato or Zankoas.\n\nUpdate X broke my saves!\nThat isn't a question, but if you are having issues, try loading the save, saving again straight away without unpausing, then reloading using that new save. Not using ironman can also sometimes also help. If all else fails, remember past version are available for download on the KR4 forums.\n\nAre there any other parts to KR4?\nThe only other part is the music mod, which can be found in the steam workshop description or on the forums. You should definitely go get it."
+sp.political.34.a:0 "I will, I will."
+
+sp.political.35.t:0 "FAQ Part 2"
+sp.political.35.d:0 "Is any DLC required?\nNo, while we will of course make use of DLC features, we won't make it a requirement to enjoy KR4.\n\nAre there any known bugs I should be aware of?\nNote this isn't an exhaustive list of in game bugs, just ones that we are aware of and haven't been able to fix.\n1. Very rarely, slight changes to mod files can cause all events to refire when loading a save. Making a new save or reverting back to the old version avoids this issue.\n\nI found a bug, how can I make by bug report as helpful as possible?\nReport it only once per patch, we are busy people so don't worry if it takes us a few days to answer. The paradox forums bug report thread, or the steam workshop bug report thread are the best places to report, but please only report it on one of them. Try and check the last few pages to see if someone else has reported it. The more detail the better; screen shots and saves are much appreciated. Also try and check back a few days after reporting, we might have asked a question about your bug or just want to thank you. And as always, we really appreciate you taking the time to make KR4 the best it can be!"
+sp.political.35.a:0 "Do you have to take that PP away?"
+
+sp.political.28.t:0 "News Events"
+sp.political.28.d:0 "This is the president of the International News Tribune speaking. Kaiserreich is a mod deeply entrenched in lore and storytelling, conveyed through events, national focuses and other means. However, as the player, you might not even realise this, because most of the happenings in foreign countries are unknown to your eyes. Therefore we have created a system of news events that tell you about the major events that happened recently in other countries. They contain titbits of lore to help you understand the meaning and reasons for the events of the world, and they are also pretty and stuff. \n\nHowever, you may be a game tester or have a serious addiction with this being your 1000th game this week, or just a player who doesn't want popups in your face all the time, so you also have the option to turn this feature off entirely or allow only the important news events to fire. It's your choice..."
+sp.political.28.a:0 "I want to know everything, EVERYTHING!"
+sp.political.28.b:0 "Only inform me about major events."
+sp.political.28.c:0 "I want none of this nonsense."
+sp.political.28.e:0 "I don't even like this mod..."
+
+sp.political.36.t:0 "Where is the April Fools Joke?"
+sp.political.36.d:0 "In order to prevent Kaiserreich from ruining multiplayer games, this event no longer automatically activates the April Fools joke. Instead, all you have to do is open the in game console and type: "event april.1", simple!\n\nIf you would like to use it in multiplayer, head into the game files, go to extra, and then to April Fool's Enabled, then copy KR_Political.txt from there to the events folder. All other players must do the same in order to join you. Once you have done this, come back to this event and the April Fools joke will trigger."
+sp.political.36.a:0 "Got it!"
+
+sp.political.37.t:0 "Want to remove faction joining limits?"
+sp.political.37.d:0 "You want to ignore the lore of KR? You want to defy hundreds of years of history? You want to break the cosmos? Well we won't stop you... open the in game console and type: "event sp.political.38" and you can join factions to your hearts content. IF YOU USE THIS THERE WILL BE BUGS! Please don't report bugs you find in this mode.\n\nIf you would like to use it in multiplayer, head into the game files, go to extra, and then to No Faction Join Limits, then copy KR_Political.txt from there to the events folder. All other players must do the same in order to join you. Once you have done this, come back to this event and faction joining limits will be removed."
+sp.political.37.a:0 "I am a bad person and should feel bad."
+
+sp.political.38.t:0 "Remove Faction Joining Limits"
+sp.political.38.d:0 "This event will remove faction joining limits for all players, if you didn't activate this event on purpose please submit a bug report. Note that it may take a few days to apply."
+sp.political.38.a:0 "I CAN GO WILD!"
+
+### Remove Independent War Event ###
+sp.political.30.t:0 "End of Our Independent War"
+sp.political.30.d:0 "Now that our independent war is over we can call our allies to war again."
+sp.political.30.a:0 "Understood"
+
+### Gamestart Opinion Modifiers ###
+sp.political.40.t:0 "Setting Opinion Modifiers"
+sp.political.40.d:0 "If you can see this, make a bug report!"
+sp.political.40.a:0 "Seriously, report it."
+
+KR_different_ideology:0 "Different Ideology"
+KR_similar_ideology:0 "Similar Ideology"
+KR_same_ideology:0 "Same Ideology"
+same_ruling_party:0 "Base"
+different_party_types:0 "Base"
+
+KR_factional_rivalry:0 "Factional Rivalry"

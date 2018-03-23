@@ -1,0 +1,752 @@
+﻿division_template = {
+	name = "Rote Frontkämpfer" #Militia
+
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Volksarmee Division" #Infantry
+
+	division_names_group = GER_Inf_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Panzerdivision" #Armored
+
+	division_names_group = GER_Arm_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Motorisierte Schützendivision" #Motorized
+
+	division_names_group = GER_MOT_02
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		
+		motorized = { x = 2 y = 0 }
+	    motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Volksbergbrigade" #Mountaineers
+	division_names_group = GER_Mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Volksmarinedivision" #Marines		
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 1 y = 0 }
+   		marine = { x = 1 y = 1 }
+
+  		
+		
+	}
+}
+division_template = {
+	name = "Volkskavallerie Brigade" #Cavalry
+
+	division_names_group = GER_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	    artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+
+	#Berlin
+	division= {	
+		name = "1. Volksarmee Division Berlin"
+		location = 6521
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "2. Volksarmee Division Berlin"
+		location = 6521
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "3. Volksarmee Division Berlin"
+		location = 6521
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volksmarinedivision Berlin"
+		location = 6521
+		division_template = "Volksmarinedivision"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Motorisierte Schützendivision Berlin"
+		location = 6521
+		division_template = "Motorisierte Schützendivision"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "1. Rote Frontkämpfer Berlin"
+		location = 6521
+		division_template = "Rote Frontkämpfer"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "2. Rote Frontkämpfer Berlin"
+		location = 6521
+		division_template = "Rote Frontkämpfer"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volkskavallerie Brigade Berlin"
+		location = 6521
+		division_template = "Volkskavallerie Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	#Essen
+	division= {	
+		name = "1. Volksarmee Division Essen"
+		location = 6469
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "2. Volksarmee Division Essen"
+		location = 6469
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "3. Volksarmee Division Essen"
+		location = 6469
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "4. Volksarmee Division Essen"
+		location = 529
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "1. Volksarmee Division Dortmund"
+		location = 495
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "2. Volksarmee Division Dortmund"
+		location = 495
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Panzerdivision Essen"
+		location = 6469
+		division_template = "Panzerdivision"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Rote Frontkämpfer Essen"
+		location = 6469
+		division_template = "Rote Frontkämpfer"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	#Frankfurt
+	division= {	
+		name = "1. Volksarmee Division Frankfurt"
+		location = 6488
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "2. Volksarmee Division Frankfurt"
+		location = 6488
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Motorisierte Schützendivision Frankfurt"
+		location = 6488
+		division_template = "Motorisierte Schützendivision"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Rote Frontkämpfer Frankfurt"
+		location = 6488
+		division_template = "Rote Frontkämpfer"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	#Hamburg
+	division= {	
+		name = "Volksarmee Division Hamburg"
+		location = 9347
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Rote Frontkämpfer Hamburg"
+		location = 9347
+		division_template = "Rote Frontkämpfer"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volksmarinedivision Hamburg"
+		location = 9347
+		division_template = "Volksmarinedivision"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1.0
+	}
+	#South
+	division= {	
+		name = "Volksarmee Division Leipzig"
+		location = 3535
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volksbergbrigade Dresden"
+		location = 514
+		division_template = "Volksbergbrigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volksarmee Division Breslau"
+		location = 9570
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volksbergbrigade Breslau"
+		location = 9570
+		division_template = "Volksbergbrigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volksarmee Division Kattowitz"
+		location = 6464
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volksarmee Division Posen"
+		location = 6558
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Rote Frontkämpfer Posen"
+		location = 6558
+		division_template = "Rote Frontkämpfer"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Rote Frontkämpfer Erfurt"
+		location = 6524
+		division_template = "Rote Frontkämpfer"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Rote Frontkämpfer Nuremburg"
+		location = 11544
+		division_template = "Rote Frontkämpfer"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Rote Frontkämpfer Munich"
+		location = 692
+		division_template = "Rote Frontkämpfer"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	#North
+	division= {	
+		name = "Volksarmee Division Hannover"
+		location = 6377
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volksarmee Division Hannover"
+		location = 3326
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volkskavallerie Brigade Marxhafen"
+		location = 241
+		division_template = "Volkskavallerie Brigade"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volksarmee Division Hannover"
+		location = 3326
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volksmarinedivision Kiel"
+		location = 6389
+		division_template = "Volksmarinedivision"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volksarmee Division Magdeburg"
+		location = 3522
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Rote Frontkämpfer Rostock"
+		location = 321
+		division_template = "Rote Frontkämpfer"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Rote Frontkämpfer Stettin"
+		location = 6282
+		division_template = "Rote Frontkämpfer"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Motorisierte Schützendivision Volksstadt"
+		location = 6332
+		division_template = "Motorisierte Schützendivision"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volksarmee Division Volksstadt"
+		location = 6332
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volksarmee Division Danzig"
+		location = 362
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volksarmee Division Flensburg"
+		location = 11366
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	##### NAVAL UNITS #####
+
+	navy = {
+		name = "Kriegsmarine"
+		base = 241
+		location = 241  # Wilhemshaven
+		ship = { name = "Schleswig-Holstein" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Hannover" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Braunschweig" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER version_name = "Braunschweig Class"} } }
+		ship = { name = "Elsass" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER version_name = "Braunschweig Class" } } }
+		ship = { name = "Deutschland" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }		
+		ship = { name = "Volksstadt" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Volksstadt Class" } } }			
+		ship = { name = "Karlsruhe" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Volksstadt Class" } } }	
+		ship = { name = "Stuttgart" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Volksstadt Class" } } }			
+		ship = { name = "Emden" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Köln" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Volksstadt Class" } } }			
+		ship = { name = "Essen" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER } } }
+		# 1. Torpedobootflottille
+		ship = { name = "Rotfront" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Spartakus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Hammer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Arbeiter" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Gleich" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Falke" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Kondor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Wolf" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Iltis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Union" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Solidarität" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Wolf" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Meuterei" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+	}
+
+	navy = {
+		name = "Ostseeflotte"
+		base = 6332
+		location = 6332  # Konigsberg
+		ship = { name = "Schlesien" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER } } }	
+		ship = { name = "Hessen" definition = battleship equipment = { battleship_1 = { amount = 1 owner = GER version_name = "Braunschweig Class" } } }
+		ship = { name = "Admiral Scheer" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }		
+		ship = { name = "Leipzig" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER } } }			
+		ship = { name = "Volksboot" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Berliner" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "Revolution" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+	}
+	
+	navy = {
+		name = "Unterseebootsflotte Weddigen"
+		base = 6389
+		location = 6389  # Kiel
+		ship = { name = "U-7" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GER } } }
+		ship = { name = "U-8" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GER } } }
+		ship = { name = "U-9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GER } } }
+		ship = { name = "U-10" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GER } } }
+		ship = { name = "U-11" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GER } } }
+		ship = { name = "U-12" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GER } } }
+		ship = { name = "U-13" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
+		ship = { name = "U-14" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
+		ship = { name = "U-15" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
+		ship = { name = "U-16" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
+		ship = { name = "U-17" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
+		ship = { name = "U-18" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
+	}
+
+	navy = {
+		name = "Unterseeboots-Schule"
+		base = 241
+		location = 241  # Wilhemshaven
+		ship = { name = "U-1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GER } } }
+		ship = { name = "U-2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GER } } }
+		ship = { name = "U-3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GER } } }
+		ship = { name = "U-4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GER } } }
+		ship = { name = "U-5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GER } } }
+		ship = { name = "U-6" definition = submarine equipment = { submarine_2 = { amount = 1 owner = GER } } }
+	}
+}
+
+### Air oob
+air_wings = {
+	### I. Luftkreiskommando -- Konigsberg ###
+	5 = { 
+		# Jagdgeschwader 232 	
+		fighter_equipment_0 =  {		# He 51
+			owner = "GER" 
+			amount = 40
+		}
+		name = "Jagdgeschwader 232"
+	}
+
+	### II. Luftkreiskommando -- Berlin ###
+	64 = { 
+		# Jagdgeschwader 132 'Richtofen'		
+		fighter_equipment_0 =  {		# Ar 68
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Jagdgeschwader 132"
+		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_0).
+			modifier="fighter_genius"
+			name="Erich"
+			surname="Hartmann"
+			callsign="Bubi"
+			portrait=1 # Pick random index here, or make special GFX_GER_ace_Erich_Hartmann to override.
+		}
+		# Kampfgeschwader 153		
+		tac_bomber_equipment_0 = {		# Do 23
+			owner = "GER" 
+			amount = 80
+		}
+		tac_bomber_equipment_0 = {		# Ju 86
+			owner = "GER" 
+			amount = 40
+			version_name = "Ju 86"
+		}
+		name = "Kampfgeschwader 153"
+		# TODO: REMOVE THIS LATER ???
+		transport_plane_equipment_1 = {
+			owner = "GER" 
+			amount = 4
+		}
+	}
+
+	### III. Luftkreiskommando -- Breslau ###
+	66 = { 
+		# Kampfgeschwader 253 'General Wever'		
+		tac_bomber_equipment_0 = {		# He 45 or Do 23 ?
+			owner = "GER" 
+			amount = 120
+		}
+		name = "Kampfgeschwader 253"
+		# Sturzkampfgeschwader 162		
+		CAS_equipment_1 =  {			# Hs 123
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Sturzkampfgeschwader 162"	
+	}
+
+	### IV. Luftkreiskommando -- Kassel ###
+	57 = { 
+		# Jagdgeschwader 134 'Horst Wessel'		
+		fighter_equipment_0 =  {		# He 51 # Ar 68
+			owner = "GER" 
+			amount = 120
+		}
+		name = "Jagdgeschwader 134"
+		# Kampfgeschwader 152 'Hindenburg'	
+		tac_bomber_equipment_1 = {		# Do 23
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Kampfgeschwader 152"
+		# Kampfgeschwader 155	
+		tac_bomber_equipment_0 = {		# He 45 or Do 23 ? (light bomber)
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Kampfgeschwader 155"
+	}
+
+	### V. Luftkreiskommando -- Munich ###
+	52 = { 
+		# Jagdgeschwader 136		
+		fighter_equipment_0 =  {		# He 51
+			owner = "GER" 
+			amount = 40
+		}
+		name = "Jagdgeschwader 136"
+		# Kampfgeschwader 154	
+		tac_bomber_equipment_0 = {		# Do 23
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Kampfgeschwader 154"
+	}
+
+	### VI. Luftkreiskommando -- Kiel ###
+	58 = { 
+		# Küstenfliegergruppe 106		
+		nav_bomber_equipment_1 =  {		# He 59, Do 18
+			owner = "GER" 
+			amount = 72
+		}
+		name = "Küstenfliegergruppe 106"
+		# Küstenfliegergruppe 206
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 10
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_2
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+
+	### Ships Under Contruction ###
+	add_equipment_production = {
+		equipment = {
+			type = submarine_2
+			creator = "GER" 
+		}
+		requested_factories = 3
+		progress = 0.75
+		amount = 4
+	}
+	# Deutschland
+	add_equipment_production = {
+		equipment = {
+			type = heavy_cruiser_1
+			creator = "GER"
+			version_name = "Deutschland Class"
+		}
+		requested_factories = 5
+		progress = 0.8
+		amount = 1
+	}
+	# Admiral Scheer
+	add_equipment_production = {
+		equipment = {
+			type = heavy_cruiser_1
+			creator = "GER"
+			version_name = "Deutschland Class"
+		}
+		requested_factories = 4
+		progress = 0.55
+		amount = 1
+	}
+}
+
+#####################

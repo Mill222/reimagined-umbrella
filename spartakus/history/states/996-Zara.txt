@@ -1,0 +1,21 @@
+state=
+{
+	id=996
+	name="STATE_996"
+	manpower = 18000
+	
+	state_category = enclave
+	
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 5
+			3943 = {
+				naval_base = 1
+			}
+		}
+	} 
+	provinces={	
+		3943 
+	}
+}

@@ -1,0 +1,329 @@
+ideologies = {
+	marxist_leninist = {
+		types = {
+			marxist_leninist_subtype = {}
+			}
+		dynamic_faction_names = {
+			"FACTION_NAME_MARXIST_LENINIST_1"
+			"FACTION_NAME_MARXIST_LENINIST_2"
+			"FACTION_NAME_MARXIST_LENINIST_3"
+			"FACTION_NAME_MARXIST_LENINIST_4"
+			"FACTION_NAME_MARXIST_LENINIST_5"
+			"FACTION_NAME_MARXIST_LENINIST_6"
+		}
+		color = { 45 5 15 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes	
+		can_be_boosted = no
+
+	}
+	
+	libertarian_marxist = {
+		types = {
+			libertarian_marxist_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERTARIAN_MARXIST_1"
+			"FACTION_NAME_LIBERTARIAN_MARXIST_2"
+			"FACTION_NAME_LIBERTARIAN_MARXIST_3"
+			"FACTION_NAME_LIBERTARIAN_MARXIST_4"
+			"FACTION_NAME_LIBERTARIAN_MARXIST_5"
+			"FACTION_NAME_LIBERTARIAN_MARXIST_6"
+		}
+		color = { 95 20 45 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
+		}
+		ai_neutral = yes		
+		can_be_boosted = no
+
+	}
+	
+	revolutionary_socialist = {
+		types = {
+			revolutionary_socialist_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_REVOLUTIONARY_SOCIALIST_1"
+			"FACTION_NAME_REVOLUTIONARY_SOCIALIST_2"
+			"FACTION_NAME_REVOLUTIONARY_SOCIALIST_3"
+			"FACTION_NAME_REVOLUTIONARY_SOCIALIST_4"
+			"FACTION_NAME_REVOLUTIONARY_SOCIALIST_5"
+			"FACTION_NAME_REVOLUTIONARY_SOCIALIST_6"
+		}
+		color = { 233 58 58 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
+		}
+		ai_neutral = yes		
+		can_be_boosted = no
+
+	}
+	
+	democratic_socialist = {
+		types = {
+		democratic_socialist_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_SOCIALIST_1"
+			"FACTION_NAME_DEMOCRATIC_SOCIALIST_2"
+			"FACTION_NAME_DEMOCRATIC_SOCIALIST_3"
+			"FACTION_NAME_DEMOCRATIC_SOCIALIST_4"
+			"FACTION_NAME_DEMOCRATIC_SOCIALIST_5"
+			"FACTION_NAME_DEMOCRATIC_SOCIALIST_6"
+		}
+		color = { 125 25 25 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	
+	social_democrat = {
+		types = {
+			social_democrat_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_DEMOCRAT_1"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_2"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_3"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_4"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_5"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_6"
+		}
+		color = { 194 30 86 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
+		}
+		ai_neutral = yes	
+		can_be_boosted = no
+
+	}
+	
+	social_liberal = {
+		types = {
+		social_liberal_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_LIBERAL_1"
+			"FACTION_NAME_SOCIAL_LIBERAL_2"
+			"FACTION_NAME_SOCIAL_LIBERAL_3"
+			"FACTION_NAME_SOCIAL_LIBERAL_4"
+			"FACTION_NAME_SOCIAL_LIBERAL_5"
+			"FACTION_NAME_SOCIAL_LIBERAL_6"
+		}
+		color = { 255 170 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
+		}
+		ai_neutral = yes		
+		can_be_boosted = no
+	}
+
+	liberal_conservative = {
+		types = {
+		liberal_conservative_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERAL_CONYUGVATIVE_1"
+			"FACTION_NAME_LIBERAL_CONYUGVATIVE_2"
+			"FACTION_NAME_LIBERAL_CONYUGVATIVE_3"
+			"FACTION_NAME_LIBERAL_CONYUGVATIVE_4"
+			"FACTION_NAME_LIBERAL_CONYUGVATIVE_5"
+			"FACTION_NAME_LIBERAL_CONYUGVATIVE_6"
+		}
+		color = { 255 216 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
+		}
+		ai_neutral = yes	
+		can_be_boosted = no
+	}
+	
+	social_conservative = {
+		types = {
+		social_conservative_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_CONYUGVATIVE_1"
+			"FACTION_NAME_SOCIAL_CONYUGVATIVE_2"
+			"FACTION_NAME_SOCIAL_CONYUGVATIVE_3"
+			"FACTION_NAME_SOCIAL_CONYUGVATIVE_4"
+			"FACTION_NAME_SOCIAL_CONYUGVATIVE_5"
+			"FACTION_NAME_SOCIAL_CONYUGVATIVE_6"
+		}
+		color = { 0 0 255 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
+		}
+		ai_neutral = yes		
+		can_be_boosted = no
+	}
+	
+	authoritarian_democrat = {
+		types = {
+		authoritarian_democrat_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
+		}
+		color = { 55 60 90 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	
+	right_wing_populist = {
+		types = {
+		right_wing_populist_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_RIGHT_WING_POPULIST_1"
+			"FACTION_NAME_RIGHT_WING_POPULIST_2"
+			"FACTION_NAME_RIGHT_WING_POPULIST_3"
+			"FACTION_NAME_RIGHT_WING_POPULIST_4"
+			"FACTION_NAME_RIGHT_WING_POPULIST_5"
+			"FACTION_NAME_RIGHT_WING_POPULIST_6"
+		}
+		color = { 110 110 110 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes	
+		can_be_boosted = no
+	}
+	
+	national_syndicalist = {
+		types = {
+		national_syndicalist_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_NATIONAL_SYNDICALIST_1"
+			"FACTION_NAME_NATIONAL_SYNDICALIST_2"
+			"FACTION_NAME_NATIONAL_SYNDICALIST_3"
+			"FACTION_NAME_NATIONAL_SYNDICALIST_4"
+			"FACTION_NAME_NATIONAL_SYNDICALIST_5"
+			"FACTION_NAME_NATIONAL_SYNDICALIST_6"
+		}
+		color = { 45 45 45 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
+		}
+		ai_neutral = yes		
+		can_be_boosted = no
+	}
+	
+	corporatist_fascist = {
+		types = {
+		corporatist_fascist_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_CORPORATIST_FASCIST_1"
+			"FACTION_NAME_CORPORATIST_FASCIST_2"
+			"FACTION_NAME_CORPORATIST_FASCIST_3"
+			"FACTION_NAME_CORPORATIST_FASCIST_4"
+			"FACTION_NAME_CORPORATIST_FASCIST_5"
+			"FACTION_NAME_CORPORATIST_FASCIST_6"
+		}
+		color = { 142 57 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+}

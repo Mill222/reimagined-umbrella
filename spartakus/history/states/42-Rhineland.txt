@@ -1,0 +1,36 @@
+
+state={
+	id=42
+	name="STATE_42"
+	resources={
+		steel=70.000
+		aluminium=14.000
+	}
+
+	history={
+		owner = WEI
+		add_claim_by = GER
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			
+			3558 = {
+				bunker = 1
+			}
+			11560 = {
+				bunker = 2
+			}
+			3423 = {
+				bunker = 2
+			}
+		}
+
+	}
+
+	provinces={
+		563 3423 3558 9575 11547 11560 
+	}
+	manpower=2213163
+	buildings_max_level_factor=1.000
+	state_category=city
+}

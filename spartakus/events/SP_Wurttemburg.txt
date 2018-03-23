@@ -1,0 +1,317 @@
+﻿###########################
+# Wurttemburg Events
+###########################
+
+add_namespace = wur
+
+#### Darkest Day Trigger ####
+country_event = {
+	id = wur.1
+
+	hidden = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		country_exists = GER
+		date > 1932.5.1
+	}
+	
+	immediate = {
+		GER = {
+			news_event = {
+				id = wur.2
+			}
+		}
+	}
+
+	option = {
+		name = wur.1.a
+	}
+
+}
+
+#### Darkest Day Event ####
+news_event = {
+	id = wur.2
+	title = wur.2.t
+	desc = wur.2.d
+	picture = GFX_darkestday1
+	is_triggered_only = yes
+
+	option = {
+		name = wur.2.a
+		add_ideas = WUR_darkest_day
+		add_political_power = -20
+		add_popularity = {
+			ideology = revolutionary_socialist popularity = 0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = wur.3 days = 1
+			}
+		}
+	}
+}
+
+#### Riots ####
+country_event = {
+	id = wur.3
+	title = wur.3.t
+	desc = wur.3.d
+	picture = GFX_darkestday2
+	is_triggered_only = yes
+
+	option = {
+		name = wur.3.a
+		add_ideas = WUR_riots
+		add_political_power = -80
+		add_popularity = {
+			ideology = revolutionary_socialist popularity = 0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = wur.4 days = 3
+			}
+		}
+	}
+}
+
+#### Kaiser Flees ####
+country_event = {
+	id = wur.4
+	title = wur.4.t
+	desc = wur.4.d
+	picture = GFX_darkestday3
+	is_triggered_only = yes
+
+	option = {
+		name = wur.4.a
+		add_political_power = -100
+		add_popularity = {
+			ideology = revolutionary_socialist popularity = 0.05
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat popularity = -0.10
+		}
+		hidden_effect = {
+			country_event = {
+				id = wur.5 days = 5
+			}
+		}
+	}
+}
+
+#### Freikorps Form ####
+country_event = {
+	id = wur.5
+	title = wur.5.t
+	desc = wur.5.d
+	picture = GFX_darkestday4
+	is_triggered_only = yes
+
+	option = {
+		name = wur.5.a
+		add_political_power = 25
+		add_ideas = WUR_freikorps
+		add_popularity = {
+			ideology = national_syndicalist popularity = 0.05
+		}
+		add_popularity = {
+			ideology = corporatist_fascist popularity = 0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = wur.6 days = 8
+			}
+		}
+	}
+}
+
+#### Army Organizes ####
+country_event = {
+	id = wur.6
+	title = wur.6.t
+	desc = wur.6.d
+	picture = GFX_darkestday5
+	is_triggered_only = yes
+
+	option = {
+		name = wur.6.a
+		add_ideas = WUR_organized_army
+		add_political_power = 20
+		add_popularity = {
+			ideology = authoritarian_democrat popularity = 0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = wur.7 days = 3
+			}
+		}
+	}
+}
+
+#### Army Marches ####
+country_event = {
+	id = wur.7
+	title = wur.7.t
+	desc = wur.7.d
+	picture = GFX_darkestday6
+	is_triggered_only = yes
+
+	option = {
+		name = wur.7.a
+		add_political_power = 50
+		remove_ideas = WUR_riots
+		add_popularity = {
+			ideology = revolutionary_socialist popularity = -0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = wur.8 days = 5
+			}
+		}
+	}
+	option = {
+		name = wur.7.b
+		add_political_power = -100
+		remove_ideas = WUR_riots
+		remove_ideas = WUR_freikorps
+		remove_ideas = WUR_darkest_day
+		set_politics = { ruling_party = revolutionary_socialist elections_allowed = no }
+		add_popularity = {
+			ideology = revolutionary_socialist popularity = 0.15
+		}
+	}
+}
+
+#### Freikorps Refuse ####
+country_event = {
+	id = wur.8
+	title = wur.8.t
+	desc = wur.8.d
+	picture = GFX_darkestday7
+	is_triggered_only = yes
+
+	option = {
+		name = wur.8.a
+		add_political_power = -15
+		set_country_flag = WUR_right_wing
+		add_popularity = {
+			ideology = national_syndicalist popularity = 0.05
+		}
+		add_popularity = {
+			ideology = corporatist_fascist popularity = 0.05
+		}
+		country_event = { id = wur.9 days = 3 }
+	}
+	option = {
+		name = wur.8.b
+		add_political_power = 30
+		set_country_flag = WUR_kaiser_status_quo
+		add_popularity = {
+			ideology = authoritarian_democrat popularity = 0.10
+		}
+		country_event = { id = wur.10 days = 3 }
+	}
+	option = {
+		name = wur.8.c
+		add_political_power = 15
+		set_country_flag = WUR_moderate_wing
+		add_popularity = {
+			ideology = social_liberal popularity = 0.05
+		}
+		add_popularity = {
+			ideology = social_conservative popularity = 0.05
+		}
+		country_event = { id = wur.11 days = 3 }
+	}
+}
+
+#### Right Wing ####
+country_event = {
+	id = wur.9
+	title = wur.9.t
+	desc = wur.9.d
+	picture = GFX_darkestday8
+	is_triggered_only = yes
+
+	option = {
+		name = wur.9.a
+		add_political_power = -10
+		add_popularity = {
+			ideology = national_syndicalist popularity = 0.05
+		}
+		add_popularity = {
+			ideology = corporatist_fascist popularity = 0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = wur.12 days = 3
+			}
+		}
+	}
+}
+
+#### Status Quo ####
+country_event = {
+	id = wur.10
+	title = wur.10.t
+	desc = wur.10.d
+	picture = GFX_darkestday8
+	is_triggered_only = yes
+
+	option = {
+		name = wur.10.a
+		add_political_power = 15
+		add_popularity = {
+			ideology = authoritarian_democrat popularity = 0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = wur.12 days = 3
+			}
+		}
+	}
+}
+
+#### Moderates ####
+country_event = {
+	id = wur.11
+	title = wur.11.t
+	desc = wur.11.d
+	picture = GFX_darkestday8
+	is_triggered_only = yes
+
+	option = {
+		name = wur.11.a
+		add_political_power = 10
+		add_popularity = {
+			ideology = social_liberal popularity = 0.05
+		}
+		add_popularity = {
+			ideology = social_conservative popularity = 0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = wur.12 days = 3
+			}
+		}
+	}
+}
+
+#### End of the Crisis ####
+country_event = {
+	id = wur.12
+	title = wur.12.t
+	desc = wur.12.d
+	picture = GFX_darkestday9
+	is_triggered_only = yes
+
+	option = {
+		name = wur.12.a
+		add_political_power = 50
+		set_country_flag = WUR_end_of_crisis
+		remove_ideas = WUR_darkest_day
+	}
+}

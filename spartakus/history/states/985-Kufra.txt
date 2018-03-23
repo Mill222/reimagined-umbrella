@@ -1,0 +1,22 @@
+
+state={
+	id=985
+	name="STATE_985"
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1057 1060 1140 7076 10104 10754 10785 
+	}
+	manpower=32600
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}
