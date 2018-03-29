@@ -357,7 +357,6 @@ ideas = {
 			
 			modifier = {
 				min_export = 0
-				unity_factor = -0.05
 			}
 			
 			on_add = {
@@ -501,7 +500,6 @@ ideas = {
 				industrial_capacity_dockyard = -0.1
 				production_speed_buildings_factor = -0.1
 				training_time_factor = 0.2
-				unity_factor = -0.05
 			}
 
 			ai_will_do = {
@@ -538,7 +536,6 @@ ideas = {
 				production_speed_buildings_factor = -0.3
 				#XP from reinforcement penalty (small)
 				training_time_factor = 0.3
-				unity_factor = -0.1
 			}
 
 			ai_will_do = {
@@ -575,7 +572,6 @@ ideas = {
 				industrial_capacity_dockyard = -0.4
 				production_speed_buildings_factor = -0.4
 				training_time_factor = 0.5
-				unity_factor = -0.15
 			}
 			
 			ai_will_do = {

@@ -13,12 +13,12 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		country_exists = GER
+		country_exists = WUR
 		date > 1932.5.1
 	}
 	
 	immediate = {
-		GER = {
+		WUR = {
 			news_event = {
 				id = wur.2
 			}

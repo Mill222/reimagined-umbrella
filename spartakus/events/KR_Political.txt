@@ -18,7 +18,7 @@ country_event = { #Very Good Stability -> Good Stability
 	picture = GFX_report_event_generic_rally_3
 
 	trigger = {
-		has_stability < 0.799
+		has_stability < 0.8
 		has_idea = very_good_stability
 	}
 
@@ -27,8 +27,8 @@ country_event = { #Very Good Stability -> Good Stability
 
 		modifier = {
 			factor = 1
-			has_stability < 0.799
-			has_stability > 0.601
+			has_stability < 0.8
+			has_stability > 0.6
 		}
 	}
 
@@ -61,7 +61,7 @@ country_event = { #Good Stability -> Normal Stability
 	picture = GFX_report_event_crowd_in_prague
 
 	trigger = {
-		has_stability < 0.599
+		has_stability < 0.6
 		has_idea = good_stability
 	}
 
@@ -70,8 +70,8 @@ country_event = { #Good Stability -> Normal Stability
 
 		modifier = {
 			factor = 1
-			has_stability < 0.599
-			has_stability > 0.401
+			has_stability < 0.6
+			has_stability > 0.4
 		}
 	}
 
@@ -104,8 +104,8 @@ country_event = { #Normal Stability -> Low Stability
 	picture = GFX_report_event_gathering_protest
 
 	trigger = {
-		has_stability < 0.399
-		has_idea = good_stability
+		has_stability < 0.4
+		has_idea = normal_stability
 	}
 
 	mean_time_to_happen = {
@@ -113,8 +113,8 @@ country_event = { #Normal Stability -> Low Stability
 
 		modifier = {
 			factor = 1
-			has_stability < 0.399
-			has_stability > 0.201
+			has_stability < 0.4
+			has_stability > 0.2
 		}
 	}
 
@@ -146,8 +146,8 @@ country_event = { #Low Stability -> Very Low Stability
 	picture = GFX_report_event_generic_riot
 
 	trigger = {
-		has_stability < 0.199
-		has_idea = good_stability
+		has_stability < 0.2
+		has_idea = low_stability
 	}
 
 	mean_time_to_happen = {
@@ -155,7 +155,7 @@ country_event = { #Low Stability -> Very Low Stability
 
 		modifier = {
 			factor = 1
-			has_stability < 0.199
+			has_stability < 0.2
 			has_stability > 0
 		}
 	}
@@ -191,8 +191,8 @@ country_event = { #Very Low Stability -> Low Stability
 	picture = GFX_report_event_generic_rally_3
 
 	trigger = {
-		has_stability > 0.201
-		has_idea = good_stability
+		has_stability > 0.2
+		has_idea = very_low_stability
 	}
 
 	mean_time_to_happen = {
@@ -200,8 +200,8 @@ country_event = { #Very Low Stability -> Low Stability
 
 		modifier = {
 			factor = 1
-			has_stability > 0.201
-			has_stability < 0.399
+			has_stability > 0.2
+			has_stability < 0.4
 		}
 	}
 
@@ -221,8 +221,8 @@ country_event = { #Low Stability -> Normal Stability
 	picture = popularity_rising
 
 	trigger = {
-		has_stability > 0.401
-		has_idea = good_stability
+		has_stability > 0.4
+		has_idea = low_stability
 	}
 
 	mean_time_to_happen = {
@@ -230,8 +230,8 @@ country_event = { #Low Stability -> Normal Stability
 
 		modifier = {
 			factor = 1
-			has_stability > 0.401
-			has_stability < 0.599
+			has_stability > 0.4
+			has_stability < 0.6
 		}
 	}
 
@@ -251,8 +251,8 @@ country_event = { #Normal Stability -> High Stability
 	picture = popularity_rising
 
 	trigger = {
-		has_stability > 0.601
-		has_idea = good_stability
+		has_stability > 0.6
+		has_idea = normal_stability
 	}
 
 	mean_time_to_happen = {
@@ -260,8 +260,8 @@ country_event = { #Normal Stability -> High Stability
 
 		modifier = {
 			factor = 1
-			has_stability > 0.601
-			has_stability < 0.799
+			has_stability > 0.6
+			has_stability < 0.8
 		}
 	}
 
@@ -269,7 +269,7 @@ country_event = { #Normal Stability -> High Stability
 		name = sp.political.7.a
 		swap_ideas = {
 			remove_idea = normal_stability
-			add_idea = high_stability
+			add_idea = good_stability
 		}
 	}
 }
@@ -281,7 +281,7 @@ country_event = { #High Stability -> Very High Stability
 	picture = popularity_rising
 
 	trigger = {
-		has_stability > 0.799
+		has_stability > 0.8
 		has_idea = good_stability
 	}
 
@@ -290,7 +290,7 @@ country_event = { #High Stability -> Very High Stability
 
 		modifier = {
 			factor = 1
-			has_stability > 0.799
+			has_stability > 0.8
 			has_stability < 1
 		}
 	}
@@ -298,8 +298,8 @@ country_event = { #High Stability -> Very High Stability
 	option = {
 		name = sp.political.8.a
 		swap_ideas = {
-			remove_idea = high_stability
-			add_idea = very_high_stability
+			remove_idea = good_stability
+			add_idea = very_good_stability
 		}
 	}
 }

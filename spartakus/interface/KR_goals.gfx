@@ -3521,6 +3521,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_Reclaim_Place.dds"
 	}
 	SpriteType = {
+		name = "GFX_goal_POR_army"
+		texturefile = "gfx/interface/goals/goal_POR_army.dds"
+	}
+	SpriteType = {
 		name = "GFX_goal_Arms_Export"
 		texturefile = "gfx/interface/goals/goal_arms_export.dds"
 	}
