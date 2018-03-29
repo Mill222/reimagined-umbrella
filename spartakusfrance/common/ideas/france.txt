@@ -1,0 +1,83 @@
+ideas = {
+
+	country = {
+		FRA_the_great_depression = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 1
+				consumer_goods_factor = 0.3
+				conscription_factor = -0.5
+				join_faction_tension = 0.20
+			}
+		}
+
+		FRA_disjointed_government = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			picture = generic_disjointed_gov
+			
+			modifier = {
+				political_power_cost = 0.8
+				stability_factor = -0.20
+				surrender_limit = -0.5
+			}
+		}
+
+		FRA_victors_of_wwi = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_victors_of_ww1
+			
+			research_bonus = {
+				land_doctrine = -0.75
+			}
+			modifier = {
+				conscription = -0.003
+				war_support_factor = -0.05
+			}
+		}
+
+		FRA_p_d_s_i = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
+	}
+}
