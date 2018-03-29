@@ -142,14 +142,14 @@ ideas = {
 
 	country = {
 
-		radical_socialist_influence = {
+		revolutionary_socialist_influence = {
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = radical_socialist
+				has_government = revolutionary_socialist
 			}
 
 			removal_cost = -1
@@ -157,19 +157,19 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				radical_socialist_drift = 0.1
-				radical_socialist_acceptance = 85
+				revolutionary_socialist_drift = 0.1
+				revolutionary_socialist_acceptance = 85
 			}
 		}
 		
-		syndicalist_influence = {
+		libertarian_marxist_influence = {
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = syndicalist
+				has_government = libertarian_marxist
 			}
 
 			removal_cost = -1
@@ -177,11 +177,11 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				syndicalist_drift = 0.1
-				syndicalist_acceptance = 85
+				libertarian_marxist_drift = 0.1
+				libertarian_marxist_acceptance = 85
 			}
 		}
-		totalist_influence = {
+		marxist_leninist_influence = {
 			
 			
 			allowed = {
@@ -189,7 +189,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = totalist
+				has_government = marxist_leninist
 			}
 
 			removal_cost = -1
@@ -197,10 +197,31 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				totalist_drift = 0.1
-				totalist_acceptance = 85
+				marxist_leninist_drift = 0.1
+				marxist_leninist_acceptance = 85
 			}
 		}
+		democratic_socialist_influence = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic_socialist
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				democratic_socialist_drift = 0.1
+				democratic_socialist_acceptance = 85
+			}
+		}
+
 
 		social_democrat_influence = {
 
@@ -242,14 +263,14 @@ ideas = {
 			}
 		}
 
-		market_liberal_influence = {
+		liberal_conservative_influence = {
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = market_liberal
+				has_government = liberal_conservative
 			}
 
 			removal_cost = -1
@@ -257,8 +278,8 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				market_liberal_drift = 0.1
-				market_liberal_acceptance = 85
+				liberal_conservative_drift = 0.1
+				liberal_conservative_acceptance = 85
 			}
 		}
 
@@ -302,14 +323,14 @@ ideas = {
 			}
 		}
 
-		paternal_autocrat_influence = {
+		right_wing_populist_influence = {
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = paternal_autocrat
+				has_government = right_wing_populist
 			}
 
 			removal_cost = -1
@@ -317,8 +338,28 @@ ideas = {
 			picture = generic_fascist_drift_bonus
 			
 			modifier = {
-				paternal_autocrat_drift = 0.1
-				paternal_autocrat_acceptance = 85
+				right_wing_populist_drift = 0.1
+				right_wing_populist_acceptance = 85
+			}
+		}
+		
+		national_syndicalist_influence = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = national_syndicalist
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascist_drift_bonus
+			
+			modifier = {
+				national_syndicalist_drift = 0.1
+				national_syndicalist_acceptance = 85
 			}
 		}
 
@@ -337,8 +378,8 @@ ideas = {
 			picture = generic_fascist_drift_bonus
 			
 			modifier = {
-				national_populist_drift = 0.1
-				national_populist_acceptance = 85
+				corporatist_fascist_drift = 0.1
+				corporatist_fascist_acceptance = 85
 			}
 		}
 		

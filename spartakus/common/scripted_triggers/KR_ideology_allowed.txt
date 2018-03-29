@@ -1,0 +1,124 @@
+
+marxist_leninist_allowed = {
+	OR = {
+		has_government = marxist_leninist
+		has_government = libertarian_marxist
+		has_government = revolutionary_socialist
+	}
+}
+
+libertarian_marxist_allowed = {
+	OR = {
+		has_government = marxist_leninist
+		has_government = libertarian_marxist
+		has_government = revolutionary_socialist
+		has_government = democratic_socialist
+		has_government = social_democrat
+	}
+}
+
+revolutionary_socialist_allowed = {
+	OR = {
+		has_government = marxist_leninist
+		has_government = libertarian_marxist
+		has_government = revolutionary_socialist
+		has_government = democratic_socialist
+		has_government = social_democrat
+		has_government = social_liberal
+	}
+}
+
+democratic_socialist_allowed = {
+	OR = {
+		has_government = libertarian_marxist
+		has_government = revolutionary_socialist
+		has_government = democratic_socialist
+		has_government = social_liberal
+		has_government = liberal_conservative
+	}
+}
+
+social_democrat_allowed = {
+	OR = {
+		has_government = revolutionary_socialist
+		has_government = democratic_socialist
+		has_government = social_liberal
+		has_government = liberal_conservative
+		has_government = social_conservative
+		has_government = authoritarian_democrat
+	}
+}
+
+social_liberal_allowed = {
+	OR = {
+		has_government = revolutionary_socialist
+		has_government = democratic_socialist
+		has_government = social_liberal
+		has_government = liberal_conservative
+		has_government = social_conservative
+		has_government = authoritarian_democrat
+		has_government = right_wing_populist
+	}
+}
+
+liberal_conservative_allowed = {
+	OR = {
+		has_government = social_democrat
+		has_government = social_liberal
+		has_government = liberal_conservative
+		has_government = social_conservative
+		has_government = authoritarian_democrat
+		has_government = right_wing_populist
+		has_government = national_syndicalist
+	}
+}
+
+social_conservative_allowed = {
+	OR = {
+		has_government = social_liberal
+		has_government = liberal_conservative
+		has_government = social_conservative
+		has_government = authoritarian_democrat
+		has_government = right_wing_populist
+		has_government = national_syndicalist
+		has_government = corporatist_fascist
+	}
+}
+
+authoritarian_democrat_allowed = {
+	OR = {
+		has_government = liberal_conservative
+		has_government = social_conservative
+		has_government = authoritarian_democrat
+		has_government = right_wing_populist
+		has_government = national_syndicalist
+		has_government = corporatist_fascist
+	}
+}
+
+right_wing_populist_allowed = {
+	OR = {
+		has_government = social_conservative
+		has_government = authoritarian_democrat
+		has_government = right_wing_populist
+		has_government = national_syndicalist
+		has_government = corporatist_fascist
+	}
+}
+
+national_syndicalist_allowed = {
+	OR = {
+		has_government = authoritarian_democrat
+		has_government = right_wing_populist
+		has_government = national_syndicalist
+		has_government = corporatist_fascist
+	}
+}
+
+corporatist_fascist_allowed = {
+	OR = {
+		has_government = right_wing_populist
+		has_government = national_syndicalist
+		has_government = corporatist_fascist
+	}
+}

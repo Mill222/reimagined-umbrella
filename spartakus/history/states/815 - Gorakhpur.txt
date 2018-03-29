@@ -7,8 +7,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = NEP
-		add_core_of = NEP
+		owner = RAJ
+		add_core_of = RAJ
 		victory_points = { 4459 1 } #Gorakhpur
 		buildings = {
 			infrastructure = 4

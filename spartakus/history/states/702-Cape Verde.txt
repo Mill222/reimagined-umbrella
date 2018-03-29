@@ -6,7 +6,7 @@ state={
 	state_category = small_island
 
 	history={
-		owner = POR
+		owner = PRM
 		buildings = {
 			infrastructure = 3
 			13014 ={
@@ -14,6 +14,7 @@ state={
 			}
 		}
 		add_core_of = POR
+		add_core_of = PRM
 		add_core_of = CVG
 	}
 

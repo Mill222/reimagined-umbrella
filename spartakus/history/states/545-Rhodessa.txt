@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = SAF
+		owner = ZIM
 		add_core_of = ZIM
 		buildings = {
 			infrastructure = 3

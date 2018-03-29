@@ -4,8 +4,9 @@ state={
 	name="STATE_961"
 
 	history={
-		owner=ETH
+		owner=ERT
 		add_core_of=ERT
+		add_claim_by=ETH
 		buildings={
 			infrastructure=2
 		}

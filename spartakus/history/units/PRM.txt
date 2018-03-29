@@ -1,0 +1,164 @@
+﻿division_template = {
+	name = "Divisão de Infanteria"
+	division_names_group = POR_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }   
+	}
+}
+
+division_template = {
+	name = "Brigada de Cavalaria"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Força de Caçadores"		
+	regiments = {
+		garrison = { x = 0 y = 0 }
+		garrison = { x = 0 y = 1 }
+		garrison = { x = 0 y = 2 }
+	}
+	priority = 2
+	}
+	
+division_template = {
+	name = "Brigada Monarquista"		
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	}
+
+units = {
+	###### Exército Portugues #####
+	division = {
+		name = "1a Divisão de Infantaria"
+		location = 6941
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "1a Brigada Monarquista"
+		location = 6996
+		division_template = "Brigada Monarquista"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division = {
+		name = "2a Brigada Monarquista"
+		location = 9787
+		division_template = "Brigada Monarquista"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division = {
+		name = "1a Brigada de Cavalaria"
+		location = 9817
+		division_template = "Brigada de Cavalaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division = {
+		name = "2a Caçadores de Moçambique"
+		location = 6924
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "2a Caçadores de Angola"
+		location = 11885
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.3
+	}
+
+	### Colonial Forces ###
+	division = { 
+		name = "Caçadores de Azores"
+		location = 1751
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "1a Caçadores de Angola"
+		location = 8248
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "1a Caçadores de Moçambique"
+		location = 8245
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.3
+	}
+
+	##### NAVAL UNITS #####
+	navy = {				
+		name = "Marinha de Portugal"			
+		base = 9817
+		location = 9817 # Porto
+		# Destroyers
+		ship = { name = "NRP Tamega" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRM create_if_missing = yes } } }
+		ship = { name = "NRP Guadiana" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = PRM create_if_missing = yes } } }
+		# Submarines
+		ship = { name = "NRP Foca" definition = submarine equipment = { submarine_pre = { amount = 1 owner = PRM create_if_missing = yes } } }		
+		ship = { name = "NRP Espadarte" definition = submarine equipment = { submarine_pre = { amount = 1 owner = PRM create_if_missing = yes } } }	
+	}				
+
+}
+
+
+### Aeronáutica Militar ###
+air_wings = {
+	180 = {
+		# Noite Esquadrão de Bombardeiro  -- Ju 52/3m bombers
+		tac_bomber_equipment_0 = {
+			owner = "PRM" 
+			amount = 6
+		}
+		# Dia Esquadrão de Bombardeiro  -- Vickers Valparaiso light bombers
+		CAS_equipment_1 = {
+			owner = "PRM" 
+			amount = 6
+		}
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_weapons
+			creator = "PRM"
+		}
+		requested_factories = 2
+		progress = 0.50
+		efficiency = 100
+	}
+}

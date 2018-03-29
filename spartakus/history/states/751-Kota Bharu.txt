@@ -9,8 +9,7 @@ state={
 	}
 
 	history={
-		owner = SIA
-		add_core_of = SIA
+		owner = MLY
 		add_core_of = MLY
 		victory_points = {
 			7329 2 

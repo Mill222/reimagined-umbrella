@@ -76,9 +76,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Wilhelm II"
-	desc = "POLITICS_WILHELM_II_DESC"
-	picture = "Portrait_Wilhelm_II.tga"
+	name = "King Albrecht of Wurttemberg"
+	desc = "POLITICS_ALBRECHT_WUR_DESC"
+	picture = "Portrait_Albrecht.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {

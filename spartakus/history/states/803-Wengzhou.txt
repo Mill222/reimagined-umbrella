@@ -5,11 +5,9 @@ state= {
 	state_category = city
 
 	history= {
-		owner = AOG
-		add_core_of = QIE
-		add_core_of = SQI
-		add_core_of = AOG
-		add_core_of = FNG
+		owner = ZHL
+		add_core_of = ZHL
+		add_core_of = CHI
 		
 		victory_points = {
 			4013 1

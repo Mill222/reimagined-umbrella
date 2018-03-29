@@ -1,0 +1,165 @@
+﻿division_template = {
+	name = "Divisão de Infanteria"
+	division_names_group = POR_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }   
+	}
+}
+
+division_template = {
+	name = "Brigada de Cavalaria"
+	division_names_group = POR_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Batalhão de Guarnição"		
+	regiments = {
+		garrison = { x = 0 y = 0 }
+		garrison = { x = 0 y = 1 }
+		garrison = { x = 0 y = 2 }
+   		garrison = { x = 1 y = 0 }
+		garrison = { x = 1 y = 1 }
+		garrison = { x = 1 y = 2 }
+		
+	}
+	}
+	
+division_template = {
+	name = "Brigada Republicana"		
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		
+	}
+	}
+
+units = {
+	###### Exército Portugues #####
+	# Governo Militar Portugues #
+	division = {
+		name = "1a Divisão de Infanteria"
+		location = 11805
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "1a Brigada Republicana"
+		location = 799
+		division_template = "Brigada Republicana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "2a Brigada Republicana"
+		location = 924
+		division_template = "Brigada Republicana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "3a Brigada Republicana"
+		location = 844
+		division_template = "Brigada Republicana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "4a Brigada Republicana"
+		location = 3926
+		division_template = "Brigada Republicana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "5a Brigada Republicana"
+		location = 3798
+		division_template = "Brigada Republicana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "1a Batalhão de Guarnição"
+		location = 3118
+		division_template = "Batalhão de Guarnição"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "1a Brigada de Cavalaria"
+		location = 11805
+		division_template = "Brigada de Cavalaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	##### NAVAL UNITS #####
+	navy = {				
+		name = "Marinha de Portugal"			
+		base = 11805
+		location = 11805 # Lisbon
+		# Destroyers
+		ship = { name = "NRP Douro" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = POR create_if_missing = yes } } }
+		ship = { name = "NRP Vouga" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = POR create_if_missing = yes } } }	
+		ship = { name = "NRP Tejo" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = POR create_if_missing = yes } } }	
+		# Submarines
+		ship = { name = "NRP Golfinho" definition = submarine equipment = { submarine_pre = { amount = 1 owner = POR create_if_missing = yes } } }
+		ship = { name = "NRP Hidra" definition = submarine equipment = { submarine_pre = { amount = 1 owner = POR create_if_missing = yes } } }		
+	}				
+
+}
+
+
+### Aeronáutica Militar ###
+air_wings = {
+	112 = {
+		# Noite Esquadrão de Bombardeiro  -- Ju 52/3m bombers
+		tac_bomber_equipment_0 = {
+			owner = "POR" 
+			amount = 6
+		}
+		# Dia Esquadrão de Bombardeiro  -- Vickers Valparaiso light bombers
+		CAS_equipment_1 = {
+			owner = "POR" 
+			amount = 6
+		}
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_weapons
+			creator = "POR"
+		}
+		requested_factories = 2
+		progress = 0.50
+		efficiency = 100
+	}
+}

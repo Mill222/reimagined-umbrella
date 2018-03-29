@@ -6,11 +6,8 @@ state=
 	state_category = large_town
 	history=
 	{
-		owner = LEC
-		add_core_of = QIE
-		add_core_of = SQI
-		add_core_of = LEC
-		add_core_of = FNG
+		owner = ENG
+		add_core_of = CHI
 		victory_points = {
 			10062 1
 		}

@@ -7,8 +7,9 @@ state=
 	state_category = rural
 	history=
 	{
-		owner = ETH
+		owner = ERT
 		add_core_of = ERT
+		add_claim_by = ETH
 		victory_points = {
 			12766 1
 		}

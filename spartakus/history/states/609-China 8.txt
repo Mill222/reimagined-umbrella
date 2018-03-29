@@ -4,11 +4,9 @@ state={
 	name="STATE_609"
 
 	history={
-		owner = LEC
-		add_core_of = QIE
-		add_core_of = SQI
-		add_core_of = LEC
+		owner = FNG
 		add_core_of = FNG
+		add_core_of = CHI
 		victory_points = {
 			10068 1 
 		}

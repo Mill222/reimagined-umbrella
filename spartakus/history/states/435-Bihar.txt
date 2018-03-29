@@ -7,10 +7,8 @@ state={
 	state_category = large_town
 
 	history={
-		owner = BHC
-		add_core_of = BHC
-		add_claim_by = PRF
-		add_claim_by = DEH
+		owner = RAJ
+		add_core_of = RAJ
 		victory_points = { 4516 5 } #Patna
 		buildings = {
 			infrastructure = 5

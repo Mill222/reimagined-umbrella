@@ -3,8 +3,8 @@ state={
 	name="STATE_665"
 
 	history={
-		owner = AOF
-		add_core_of = AOF
+		owner = TUN
+		add_core_of = TUN
 		buildings = {
 			infrastructure = 4
 		industrial_complex = 1

@@ -4,7 +4,7 @@ state={
 	name="STATE_892"
 
 	history={
-		owner = MAF
+		owner = SOM
 		add_core_of = KEN
 		add_core_of = SOM
 		buildings = {

@@ -79,8 +79,23 @@ spriteTypes = {
 		textureFile = "gfx/interface/autonomy/autonomy_level_button.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_autonomy_reichskommissariat_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_reichskommissariat_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_reichsprotectorate_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_reichsprotectorate_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_satellite_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_satellite.dds"
+	}
+	
 	#-------------
-
+	
 	spriteType = {
 		name = "GFX_ongoing_focus_goal_icon"
 		textureFile = "gfx/interface/ongoing_focus_goal_icon.dds"
@@ -109,7 +124,7 @@ spriteTypes = {
 		allwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
-
+	
 	spriteType = {
 		name = "GFX_dismantle_faction_button"
 		textureFile = "gfx/interface/dismantle_faction_button.dds"
@@ -136,25 +151,30 @@ spriteTypes = {
 		name = "GFX_rules_sum_icon"
 		textureFile = "gfx/interface/rules_sum_icon.dds"
 	}
-
+	
 	spriteType = {
-		name = "GFX_idea_slot_high_command"
+		name = "GFX_idea_slot_decisions"
 		textureFile = "gfx/interface/idea_slot_high_command.dds"
 	}
 
 	spriteType = {
-		name = "GFX_idea_slot_air_chief"
+		textureFile = "gfx/interface/idea_slot_high_command.dds"
+		name = "GFX_idea_slot_chief_of_staff"
+	}
+
+	spriteType = {
 		textureFile = "gfx/interface/idea_slot_air_chief.dds"
+		name = "GFX_idea_slot_chief_of_air_force"
 	}
 
 	spriteType = {
-		name = "GFX_idea_slot_navy_chief"
 		textureFile = "gfx/interface/idea_slot_navy_chief.dds"
+		name = "GFX_idea_slot_chief_of_navy"
 	}
 
 	spriteType = {
-		name = "GFX_idea_slot_army_chief"
 		textureFile = "gfx/interface/idea_slot_army_chief.dds"
+		name = "GFX_idea_slot_chief_of_army"
 	}
 
 	spriteType = {
@@ -191,6 +211,33 @@ spriteTypes = {
 		name = "GFX_idea_slot_political_advisor"
 		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_head_of_government"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_foreign_minister"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_economy_minister"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_security_minister"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	
+	spriteType = {
+		textureFile = "gfx/interface/idea_slot_intel_minister.dds"
+		name = "GFX_idea_slot_head_of_intel"
+	}
+	
+
 
 	spriteType = {
 		name = "GFX_goal_entry_pp_bg"
@@ -314,6 +361,81 @@ spriteTypes = {
 		name = "GFX_pol_factions_strip"
 		texturefile = "gfx\\interface\\pol_factions_strip.tga"
 		noOfFrames = 4
+	}
+
+	spriteType = {
+		name = "GFX_ideology_democratic_group"
+		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_socialist_group"
+		texturefile = "gfx/interface/ideologies/socialist_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_marxist_leninist_group"
+		texturefile = "gfx/interface/ideologies/marxist_leninist_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_libertarian_marxist_group"
+		texturefile = "gfx/interface/ideologies/libertarian_marxist_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_revolutionary_socialist_group"
+		texturefile = "gfx/interface/ideologies/revolutionary_socialist_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_democratic_socialist_group"
+		texturefile = "gfx/interface/ideologies/democratic_socialist_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_democrat_group"
+		texturefile = "gfx/interface/ideologies/social_democrat_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_liberal_group"
+		texturefile = "gfx/interface/ideologies/social_liberal_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_liberal_conservative_group"
+		texturefile = "gfx/interface/ideologies/liberal_conservative_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_conservative_group"
+		texturefile = "gfx/interface/ideologies/social_conservative_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democrat_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_democrat_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_right_wing_populist_group"
+		texturefile = "gfx/interface/ideologies/right_wing_populist_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_national_syndicalist_group"
+		texturefile = "gfx/interface/ideologies/national_syndicalist_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_corporatist_fascist_group"
+		texturefile = "gfx/interface/ideologies/corporatist_fascist_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_neutral_group"
+		texturefile = "gfx/interface/ideologies/neutral_group.dds"
 	}
 	
 	spriteType = {

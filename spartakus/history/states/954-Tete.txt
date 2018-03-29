@@ -4,7 +4,7 @@ state={
 	name="STATE_954"
 
 	history={
-		owner=POR
+		owner=PRM
 		add_core_of=MOZ
 		buildings={
 			infrastructure=3

@@ -8,8 +8,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = MAF
-		add_core_of = MAF
+		owner = UGA
 		add_core_of = UGA
 		victory_points = { 12989 3 } #Kampala
 		buildings = {

@@ -7,8 +7,8 @@ state={
 	state_category = enclave
 
 	history={
-		owner = GER
-		add_core_of = SOM
+		owner = DJI
+		add_core_of = DJI
 		buildings = {
 			infrastructure = 3
 			air_base = 2

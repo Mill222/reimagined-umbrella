@@ -4,7 +4,7 @@ state={
 	name="STATE_813"
 
 	history={
-		owner = MAF
+		owner = ZAM
 		add_core_of = ZAM
 		victory_points = { 5199 1 } #Lusaka
 		buildings = {

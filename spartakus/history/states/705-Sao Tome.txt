@@ -5,7 +5,7 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = POR
+		owner = PRM
 		buildings = {
 			infrastructure = 2
 			13015 ={
@@ -13,6 +13,7 @@ state={
 			}
 		}
 		add_core_of = POR
+		add_core_of = PRM
 	}
 
 	provinces={

@@ -8,10 +8,8 @@ state={
 
 	history={
 		owner = XSM
-		add_core_of = QIE
-		add_core_of = SQI
+		add_core_of = CHI
 		add_core_of = XSM
-		add_core_of = FNG
 		
 		add_claim_by = TIB
 		

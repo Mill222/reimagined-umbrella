@@ -7,18 +7,17 @@ state={
 	}
 
 	history={
-		owner = SIA
+		owner = MLY
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = SIA
-		add_claim_by = MLY
+		add_core_of = MLY
 
 	}
 
 	provinces={
-		1279 1291 4297 7342 10156 12131 12144 
+		1279 1291 4297 7342 12144 
 	}
 	manpower=161700
 	buildings_max_level_factor=1.000

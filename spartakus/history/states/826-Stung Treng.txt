@@ -5,7 +5,7 @@ state={
 		rubber=34
 	}
 	history={
-		owner = GER
+		owner = INC
 		add_core_of = CAM
 		add_core_of = INC
 #		victory_points = {

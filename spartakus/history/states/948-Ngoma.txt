@@ -5,8 +5,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = MAF
-		add_core_of = MAF		
+		owner = CNR
 		add_core_of = CNR
 		buildings = {
 			infrastructure = 2

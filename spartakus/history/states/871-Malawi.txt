@@ -4,7 +4,7 @@ state={
 	name="STATE_871"
 
 	history={
-		owner = MAF
+		owner = MLW
 		add_core_of = MLW		
 		buildings = {
 			infrastructure = 3

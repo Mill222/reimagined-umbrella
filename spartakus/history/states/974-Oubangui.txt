@@ -4,8 +4,8 @@ state={
 	name="STATE_974"
 
 	history={
-		owner=MAF
-		add_core_of=MAF
+		owner=AEF
+		add_core_of=AEF
 		add_core_of=CNR
 		buildings={
 			infrastructure=2

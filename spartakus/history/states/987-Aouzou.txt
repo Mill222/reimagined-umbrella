@@ -5,8 +5,9 @@ state={
 		1994 
 	}
 	history={
-		owner = FRA
-		add_claim_by = LBA
+		owner = AEF
+		add_core_of = AEF
+		add_core_of = LBA
 		buildings = {
 			infrastructure = 0
 			}

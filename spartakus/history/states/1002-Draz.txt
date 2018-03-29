@@ -1,0 +1,18 @@
+state={
+	id=1002
+	name="STATE_1002"
+	provinces={
+		9608 
+	}
+	history={
+		owner = YUG
+		add_core_of = YUG
+		add_claim_by = HUN
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=12754
+	state_category = enclave
+	buildings_max_level_factor=1.000
+}

@@ -4,18 +4,19 @@ state={
 	name="STATE_977"
 
 	history={
-		owner=MAF
-		add_core_of=MAF
-		add_core_of=CNR
-		buildings={
-			infrastructure=2
+		owner = CNR
+		add_core_of = CNR
+		buildings = {
+			infrastructure = 2
+
 		}
+
 	}
 
 	provinces={
-		1181 13176 13595 13642
+		1181 7161 10766 13176 13595 13642 
 	}
 	manpower=717550
-	buildings_max_level_factor=1
+	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

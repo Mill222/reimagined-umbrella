@@ -7,11 +7,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = AFG
-		add_core_of = AFG
-		add_core_of = DEH
-		add_claim_by = BHC
-		add_claim_by = PRF
+		owner = RAJ
+		add_core_of = PAK
 		victory_points = { 8098 1 } #Quetta
 		buildings = {
 			infrastructure = 3

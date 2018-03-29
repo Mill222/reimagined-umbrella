@@ -1,0 +1,937 @@
+### Portuguese Ideas ###
+
+ideas = {
+##############
+# Country
+##############
+country = {
+	POR_secret_police = {
+			allowed = {always = no}
+			modifier = {
+					conscription = 0.005
+					drift_defence_factor = 0.1
+			}
+			picture = generic_spy_intel
+	}
+	POR_black_monday = {
+			allowed = { always = no }
+			modifier = {
+					consumer_goods_factor = 0.1
+					production_factory_max_efficiency_factor = -0.20
+					industrial_capacity_factory = -0.2
+			}
+			removal_cost = -1
+			picture = ROM_king_carol_emptied_accounts
+	}
+	POR_partial_recovery = {
+			allowed = { always = no }
+			modifier = {
+					consumer_goods_factor = 0.05
+					production_factory_max_efficiency_factor = -0.10
+					industrial_capacity_factory = -0.1
+			}
+			removal_cost = -1
+			picture = great_depression
+	}
+	
+	POR_austerity = {
+	removal_cost = -1
+			picture = generic_foreign_capital
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05
+			}
+	}
+	
+		POR_kingpath = {
+		allowed = {always = no}
+		modifier = { political_power_factor = 0.05 }
+		removal_cost = -1
+		picture = generic_pp_unity_bonus
+	
+	}
+	
+	POR_burden_or_civilization	 = {
+		allowed = {always = no}
+		modifier = { political_power_factor = 0.05 }
+		removal_cost = -1
+		picture = generic_intel_bonus
+	
+	}
+	
+		PORder_moderador = {
+		allowed = {always = no}
+		modifier = { political_power_factor = 0.08 }
+		removal_cost = -1
+		picture = neutrality_idea
+	
+	}
+	
+		POR_royal_edictos = {
+		allowed = {always = no}
+		modifier = { industrial_capacity_factory = 0.03 unity_factor = 0.15  }
+		removal_cost = -1
+		picture = generic_constitutional_guarantees
+	}
+	
+       POR_unlimited_powa = {
+		allowed = {always = no}
+		modifier = { industrial_capacity_factory = 0.05 production_speed_buildings_factor = 0.25   }
+		removal_cost = -1
+		picture = ast_abandon_the_westminster_system_fascism
+	}
+	
+	POR_tarrafall = {
+		allowed = {always = no}
+		modifier = { foreign_subversive_activites = -0.75 }
+		removal_cost = -1
+		picture = ast_classify_aliens
+	}
+	
+	POR_organic_kingdomi = {
+		allowed = {always = no}
+		modifier = { conscription = 0.010 army_morale_factor = 0.05  }
+		removal_cost = -1
+		picture = triumphant_will
+	}
+	
+	POR_jovens	 = {
+		allowed = {always = no}
+		modifier = { conscription_factor = 0.1 }
+		removal_cost = -1
+		picture = generic_infantry_bonus
+	}
+	
+	POR_patriot_youth	 = {
+		allowed = {always = no}
+		modifier = { conscription_factor = 0.2 }
+		removal_cost = -1
+		picture = generic_reserve_divisions
+	}
+	
+	POR_yournewempire		 = {
+		allowed = {always = no}
+		modifier = { foreign_subversive_activites = -0.75 }
+		removal_cost = -1
+		picture = generic_pp_unity_bonus
+	}
+	
+	POR_parliament_suspended = {
+		allowed = {always = no}
+		modifier = { political_power_cost = -0.10 }
+		removal_cost = -1
+		picture = generic_fascism_drift_bonus
+	}
+	
+	POR_non_ironic_anarcho_monarchism_for_fucks_sake = {
+		allowed = {always = no}
+		modifier = { conscription = 0.015 army_morale_factor = 0.1 }
+		removal_cost = -1
+		picture = generic_morale_bonus
+	}
+	
+	POR_parliament_abolished = {
+		allowed = {always = no}
+		modifier = { political_power_cost = -0.15 }
+		removal_cost = -1
+		picture = generic_fascism_drift_2
+	}
+	
+	POR_organic_eco = {
+		allowed = {always = no}
+		modifier = { production_speed_buildings_factor = 0.25 industrial_capacity_factory = 0.15 }
+		removal_cost = -1
+		picture = state_economy
+	}
+
+	POR_colonial_act = {
+		allowed = {always = no}
+		modifier = { political_power_cost = -0.10 }
+		removal_cost = -1
+		picture = ast_abandon_the_westminster_system
+	}		
+	
+	POR_colonial_admin = {
+		allowed = {always = no}
+		modifier = { political_power_cost = -0.15 }
+		removal_cost = -1
+		picture = ast_abandon_the_westminster_system
+	}
+
+	POR_estudantes = {
+		allowed = {always = no}
+		modifier = { research_time_factor = -0.05 }
+		removal_cost = -1
+		picture = country_focus_political
+	}
+
+	POR_encruzilhada = {
+		allowed = {always = no}
+		modifier = { industrial_capacity_factory = 0.02 }
+		removal_cost = -1
+		picture = generic_local_self_management
+	}
+
+	POR_contratados = {
+		allowed = {always = no}
+		modifier = { industrial_capacity_factory = 0.1
+				industry_repair_factor = 0.3 }
+		removal_cost = -1
+		picture = generic_agrarian_society
+	}
+
+      POR_macaud	 = {
+		allowed = {always = no}
+		modifier = { industrial_capacity_factory = 0.01 }
+		removal_cost = -1
+		picture = generic_agrarian_society
+	}
+
+	POR_state_of_india	 = {
+		allowed = {always = no}
+		modifier = { industrial_capacity_factory = 0.01 }
+		removal_cost = -1
+		picture = generic_agrarian_society
+	}
+
+	POR_heavyshipbuildcost	 = {
+		allowed = {always = no}
+			equipment_bonus = {
+				capital_ship = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				carrier = {
+					build_cost_ic = -0.05 instant = yes
+				}
+		} 
+		removal_cost = -1
+		picture = generic_coastal_defense_ships2
+	}
+
+	POR_smallshipbuildcost		 = {
+		allowed = {always = no}
+			equipment_bonus = {
+		screen_ship = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				submarine = {
+					build_cost_ic = -0.05 instant = yes
+				} }
+		removal_cost = -1
+		picture = generic_navy_bonus
+	}	
+	
+	POR_african_triumph			 = {
+		allowed = {always = no}
+		modifier = { political_power_cost = -0.1 conscription_factor = 0.05  army_morale_factor = 0.05 }
+		removal_cost = -1
+		picture = generic_wall_line
+	}
+	
+	POR_loyal_mozambique = {
+		allowed = {always = no}
+		modifier = { industrial_capacity_factory = 0.02 }
+		removal_cost = -1
+		picture = raj_marginalized_muslim_community_happy
+	}
+	
+	POR_milprod = {
+		allowed = {always = no}
+ equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
+			 }
+		removal_cost = -1
+		picture = generic_license_production
+	}
+	
+	POR_knights	 = {
+		allowed = {always = no}
+		modifier = {  cavalry_attack_factor = 0.10
+				cavalry_defence_factor = 0.10 }
+		removal_cost = -1
+		picture = MON_scourge_of_the_steppes
+	}
+	POR_trainingi = {
+		allowed = {always = no}
+		modifier = { training_time_factor = -0.1 }
+		removal_cost = -1
+		picture = generic_army_war_college
+	}
+
+	 POR_bravery	 = {
+		allowed = {always = no}
+		modifier = { army_morale_factor = 0.1 }
+		removal_cost = -1
+		picture = generic_war_preparation
+	}
+
+	POR_herois_do_mari = {
+		allowed = {always = no}
+		modifier = { amphibious_invasion = 0.15 }
+		removal_cost = -1
+		picture = generic_reserve_divisions
+	}	
+	
+	POR_faith_and_state = {
+		allowed = {always = no}
+		modifier = { conscription_factor = 0.05 industrial_capacity_factory = 0.04 }
+		removal_cost = -1
+		picture = BRA_faith_unity
+	}
+	
+	
+	
+	POR_spanish_economic_cooperation = {
+			allowed = { always = no }
+			available = {
+				OR = {
+					AND = {
+						country_exists = CAR
+						NOT = { has_war_with = CAR }
+					}
+					AND = {
+						country_exists = SPR
+						NOT = { has_war_with = SPR }
+						NOT = { has_global_flag = SPR_carlists_have_risen }
+					}
+				}
+			}
+			modifier = {
+					production_factory_max_efficiency_factor = 0.05
+					industrial_capacity_factory = 0.05
+			}
+			removal_cost = -1
+			picture = idea_generic_trade
+			
+	}           
+	POR_integralist_ethos = {			
+            allowed = {always = no }
+			removal_cost = -1
+			picture = vittoria_mutilata
+			modifier = {
+				ai_focus_aggressive_factor = 0.5
+				justify_war_goal_time = -0.05
+			}
+	}
+}
+
+##############
+# Companies
+##############
+
+#### General ####
+industrial_concern = {
+
+	companhia_fabril = {
+		allowed = { original_tag = POR }
+		traits = { industrial_manufacturer  }
+		modifier = {
+			production_speed_arms_factory_factor = 0.1
+			production_speed_industrial_complex_factor = 0.1
+		}
+		research_bonus = {
+			industry = 0.1
+		}
+	}
+		
+	ap_telephone = {
+		allowed = {original_tag = POR }
+		traits = {electronics_manufacturer  }
+		modifier = {}
+		research_bonus = {
+			electronics = 0.1
+		}
+	}
+		
+	sacor = {
+		allowed = {original_tag = POR }
+		traits = {chemical_producer }
+		research_bonus = {
+			synth_resources = 0.1
+		}
+	}
+
+}
+
+#### Weapons Manufacturer ####
+weapons_manufacturer = {
+	designer = yes
+	
+	fabrica_militar_prata = {
+		allowed = { original_tag = POR }
+		traits = { infantry_equipment_producer_offense_1   }
+		modifier = {}
+		research_bonus = {
+			infantry_weapons = 0.1
+		}
+	}
+}
+
+#### Heavy Equipment Manufacturer ####
+tank_manufacturer = {
+	designer = yes
+	
+	ogme = {
+		allowed = { original_tag = POR }
+		traits = { artillery_producer_mass_0  }
+		modifier = {}
+		research_bonus = {
+			artillery = 0.05
+		}
+	}
+	
+	edfor = {
+		allowed = { original_tag = POR }
+		traits = { motorised_equipment_producer_offense_1   }
+		modifier = {}
+		research_bonus = {
+			motorized_equipment = 0.05
+		}
+	}
+	
+	companhia_dos_caminhos = {
+		allowed = { original_tag = POR }
+		traits = { small_tank_producer_defense_1  }
+		modifier = {}
+		research_bonus = {
+			armor = 0.05
+		}
+	}
+}
+	
+#### Air and Naval Manufacturer ####
+air_naval_manufacturer = {
+	designer = yes
+
+	ogma = {
+		allowed = { original_tag = POR }
+		traits = { fighter_producer_defense_1  }
+		modifier = {}
+		research_bonus = {
+			air_equipment = 0.05
+		}
+	}
+	
+	arsenal_alfeite = {
+		allowed = { original_tag = POR }
+		traits = { cruiser_producer_offense_1  }
+		modifier = {}
+		research_bonus = {
+			naval_equipment = 0.05
+		}
+	}
+		
+	estaleiros_navais = {
+		allowed = { original_tag = POR }
+		traits = { small_ship_producer_mass_0 }
+		modifier = {}
+		research_bonus = {
+			naval_equipment = 0.05
+		}
+	}	
+
+	lisnave = {
+		allowed = { original_tag = POR }
+		traits = { small_ship_producer_offense_1 }
+		modifier = {}
+		research_bonus = {
+			naval_equipment = 0.05
+		}
+	}
+}
+
+################################################################################################################################################################################################
+  ### POR
+  ################################################################################################################################################################################################
+
+	head_of_government = { ### Head of Government ###
+		POR_Bento_Goncalves_hog_syn = { 
+			allowed = {original_tag = POR}
+			available = {
+				has_government = marxist_leninist
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Bento_Goncalves_dead}
+				NOT = {has_country_flag = Bento_Goncalves_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				marxist_leninist
+				hog_happy_amateur
+			}
+			cancel_if_invalid = no
+		}
+		
+		POR_Antonio_Pinto_Quartim_hog_syn = { 
+			allowed = {original_tag = POR}
+			available = {
+				has_government = revolutionary_socialist
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Antonio_Pinto_Quartim_dead}
+				NOT = {has_country_flag = Antonio_Pinto_Quartim_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				revolutionary_socialist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Jaime_Cortesao_hog_sde = { 
+			allowed = {original_tag = POR}
+			available = {
+				has_government = social_democrat
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Jaime_Cortesao_dead}
+				NOT = {has_country_flag = Jaime_Cortesao_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				hog_smiling_oilman
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Aquilino_Ribeiro_hog_sco = { 
+			allowed = {original_tag = POR}
+			available = {
+				has_government = liberal_conservative
+				has_country_flag = can_replace_hog
+				NOT = {has_country_flag = Aquilino_Ribeiro_dead}
+				NOT = {has_country_flag = Aquilino_Ribeiro_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+			traits = {
+				head_of_government
+				liberal_conservative
+				hog_political_protege
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+
+	foreign_minister = { ### Foreign Minister ###
+		POR_Maria_da_Cunha_Lamas_for_rso = { 
+			allowed = {original_tag = POR}
+			available = {
+				libertarian_marxist_allowed = yes
+				NOT = {has_country_flag = Maria_da_Cunha_Lamas_dead}
+				NOT = {has_country_flag = Maria_da_Cunha_Lamas_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				libertarian_marxist
+				for_great_compromiser
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Ruy_Ulrich_for_sde = { 
+			allowed = {original_tag = POR}
+			available = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = Ruy_Ulrich_dead}
+				NOT = {has_country_flag = Ruy_Ulrich_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				social_democrat
+				for_great_compromiser
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Francisco_Cunha_Leal_for_sli = { 
+			allowed = {original_tag = POR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Francisco_Cunha_Leal_dead}
+				NOT = {has_country_flag = Francisco_Cunha_Leal_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				for_the_cloak_n_dagger_schemer
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Alfonso_Costa_for_sco = { 
+			allowed = {original_tag = POR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Alfonso_Costa_dead}
+				NOT = {has_country_flag = Alfonso_Costa_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				for_the_cloak_n_dagger_schemer
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Quintao_Meireles_for_sco = { 
+			allowed = {original_tag = POR}
+			available = {
+				liberal_conservative_allowed = yes
+				NOT = {has_country_flag = Quintao_Meireles_dead}
+				NOT = {has_country_flag = Quintao_Meireles_for_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = for_cannot_be_replaced}
+			}
+			traits = {
+				foreign_minister
+				liberal_conservative
+				for_general_staffer
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+
+	economy_minister = { ### Economy Minister ###
+	
+		POR_Jose_Gomes_Ferreira_eco_rso = { 
+			allowed = {original_tag = POR}
+			available = {
+				marxist_leninist_allowed = yes
+				NOT = {has_country_flag = Jose_Gomes_Ferreira_dead}
+				NOT = {has_country_flag = Jose_Gomes_Ferreira_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				marxist_leninist
+				eco_administrative_genius
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Jaime_Cortesao_eco_sde = { 
+			allowed = {original_tag = POR}
+			available = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = Jaime_Cortesao_dead}
+				NOT = {has_country_flag = Jaime_Cortesao_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				social_democrat
+				eco_tank_proponent
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Antonio_M_B_Ferreira_eco_sco = { 
+			allowed = {original_tag = POR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Antonio_M_B_Ferreira_dead}
+				NOT = {has_country_flag = Antonio_M_B_Ferreira_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_tank_proponent
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Joao_Chagas_eco_sco = { 
+			allowed = {original_tag = POR}
+			available = {
+				liberal_conservative_allowed = yes
+				NOT = {has_country_flag = Joao_Chagas_dead}
+				NOT = {has_country_flag = Joao_Chagas_eco_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = eco_cannot_be_replaced}
+			}
+			traits = {
+				economy_minister
+				liberal_conservative
+				eco_military_entrepreneur
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+
+	security_minister = { ### Security Minister ###
+		POR_Alvaro_Cunhal_sec_syn = { 
+			allowed = {original_tag = POR}
+			available = {
+				marxist_leninist_allowed = yes
+				NOT = {has_country_flag = Alvaro_Cunhal_dead}
+				NOT = {has_country_flag = Alvaro_Cunhal_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				marxist_leninist
+				sec_man_of_the_people
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Manuel_Ribeiro_sec_syn = { 
+			allowed = {original_tag = POR}
+			available = {
+				libertarian_marxist_allowed = yes
+				NOT = {has_country_flag = Manuel_Ribeiro_dead}
+				NOT = {has_country_flag = Manuel_Ribeiro_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				libertarian_marxist
+				sec_crime_fighter
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Raul_Proenca_sec_sde = { 
+			allowed = {original_tag = POR}
+			available = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = Raul_Proenca_dead}
+				NOT = {has_country_flag = Raul_Proenca_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				social_democrat
+				sec_back_stabber
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Aquilino_Ribeiro_sec_sco = { 
+			allowed = {original_tag = POR}
+			available = {
+				liberal_conservative_allowed = yes
+				NOT = {has_country_flag = Aquilino_Ribeiro_dead}
+				NOT = {has_country_flag = Aquilino_Ribeiro_sec_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+				NOT = {has_country_flag = sec_cannot_be_replaced}
+			}
+			traits = {
+				security_minister
+				liberal_conservative
+				sec_crime_fighter
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+
+	head_of_intel = { ### Head of Intel ###
+		POR_Antonio_Sergo_int_rso = { 
+			allowed = {original_tag = POR}
+			available = {
+				democratic_socialist_allowed = yes
+				NOT = {has_country_flag = Antonio_Sergo_dead}
+				NOT = {has_country_flag = Antonio_Sergo_int_fired}
+			}
+			traits = {
+				head_of_intel
+				democratic_socialist
+				int_industrial_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Augusto_Vasconcellos_int_ade = { 
+			allowed = {original_tag = POR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Augusto_Vasconcellos_dead}
+				NOT = {has_country_flag = Augusto_Vasconcellos_int_fired}
+			}
+			traits = {
+				head_of_intel
+				social_liberal
+				int_technical_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Julio_Dantas_int_ade = { 
+			allowed = {original_tag = POR}
+			available = {
+				liberal_conservative_allowed = yes
+				NOT = {has_country_flag = Julio_Dantas_dead}
+				NOT = {has_country_flag = Julio_Dantas_int_fired}
+			}
+			traits = {
+				head_of_intel
+				liberal_conservative
+				int_industrial_specialist
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+
+	chief_of_staff = { ### Chief of Staff ###
+		POR_Jose_AP_Rebelo_cos_syn = { 
+			allowed = {original_tag = POR}
+			available = {
+				revolutionary_socialist_allowed = yes
+				NOT = {has_country_flag = Jose_AP_Rebelo_dead}
+				NOT = {has_country_flag = Jose_AP_Rebelo_cos_fired}
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_psychology
+			}
+			cancel_if_invalid = no
+		}
+		
+	}
+
+	chief_of_army = { ### Chief of Army ###
+		POR_Jose_AP_Rebelo_carm_rso = { 
+			allowed = {original_tag = POR}
+			available = {
+				revolutionary_socialist_allowed = yes
+				NOT = {has_country_flag = Jose_AP_Rebelo_dead}
+				NOT = {has_country_flag = Jose_AP_Rebelo_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_guns_and_butter_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Humberto_Carmona_carm_sli = { 
+			allowed = {original_tag = POR}
+			available = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = Humberto_Carmona_dead}
+				NOT = {has_country_flag = Humberto_Carmona_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_static_defence_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_JM_Norton_Matos_carm_sli = { 
+			allowed = {original_tag = POR}
+			available = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = JM_Norton_Matos_dead}
+				NOT = {has_country_flag = JM_Norton_Matos_carm_fired}
+			}
+			traits = {
+				chief_of_army
+				carm_static_defence_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+
+	chief_of_navy = { ### Chief of Navy ###
+		POR_Bento_Goncalves_cnav_syn = { 
+			allowed = {original_tag = POR}
+			available = {
+				revolutionary_socialist_allowed = yes
+				NOT = {has_country_flag = Bento_Goncalves_dead}
+				NOT = {has_country_flag = Bento_Goncalves_cnav_fired}
+			}
+			traits = {
+				chief_of_navy
+				cnav_power_projection_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Jose_Sarmento_Pimentel_cnav_sde = { 
+			allowed = {original_tag = POR}
+			available = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = Jose_Sarmento_Pimentel_dead}
+				NOT = {has_country_flag = Jose_Sarmento_Pimentel_cnav_fired}
+			}
+			traits = {
+				chief_of_navy
+				cnav_base_control_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+
+	chief_of_air_force = { ### Chief of Air Force ###
+		POR_Antonio_Sergo_cair_rso = { 
+			allowed = {original_tag = POR}
+			available = {
+				revolutionary_socialist_allowed = yes
+				NOT = {has_country_flag = Antonio_Sergo_dead}
+				NOT = {has_country_flag = Antonio_Sergo_cair_fired}
+			}
+			traits = {
+				chief_of_air_force
+				cair_carpet_bombing_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_JM_Sarmento_Beires_cair_sde = { 
+			allowed = {original_tag = POR}
+			available = {
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = JM_Sarmento_Beires_dead}
+				NOT = {has_country_flag = JM_Sarmento_Beires_cair_fired}
+			}
+			traits = {
+				chief_of_air_force
+				cair_naval_aviation_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+		POR_Humberto_Delgado_cair_sli = { 
+			allowed = {original_tag = POR}
+			available = {
+				social_liberal_allowed = yes
+				NOT = {has_country_flag = Humberto_Delgado_dead}
+				NOT = {has_country_flag = Humberto_Delgado_cair_fired}
+			}
+			traits = {
+				chief_of_air_force
+				cair_air_superiority_doctrine
+			}
+			cancel_if_invalid = no
+		}
+
+	}	
+}

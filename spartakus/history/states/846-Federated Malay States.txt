@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = GER
+		owner = MLY
 		add_core_of = MLY
 		victory_points = {
 			10297 3 # Kuala Lumpur

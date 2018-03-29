@@ -7,7 +7,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = POR
+		owner = PRM
 		victory_points = {
 			12190 1 # Dili
 		}

@@ -2,33 +2,41 @@
 state={
 	id=320
 	name="STATE_320"
-	manpower = 14086410
 	resources={
-		steel=10
-		rubber=12
+		steel=10.000
+		rubber=12.000
 	}
 
-	state_category = city
-
 	history={
-		owner = MAD
-		add_core_of = MAD
-		add_claim_by = BHC
-		add_claim_by = DEH
-		victory_points = { 10278 3 } #Madras
-		victory_points = { 10149 1 } #Pondicherry
+		owner = RAJ
+		add_core_of=RAJ
+		victory_points = {
+			10278 3 
+		}
+		victory_points = {
+			10149 1 
+		}
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 3
 			10149 = {
 				naval_base = 1
+
 			}
 			10278 = {
 				naval_base = 4
+
 			}
+
 		}
+
 	}
 
-	provinces={ 10149 10278 7436 4420 10808 8067 10246 12164 1268 }
+	provinces={
+		1268 4420 7436 8067 10246 10278 10808 12164 
+	}
+	manpower=14086410
+	buildings_max_level_factor=1.000
+	state_category=city
 }

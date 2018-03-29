@@ -1,0 +1,93 @@
+﻿capital = 716
+OOB = "SCH"
+set_research_slots = 2
+set_technology = {
+	#### MOD ####
+	#### General ####
+	shipbuild_basics = 1
+	#### Navy ####
+	early_destroyer = 1
+	#### Tanks ####
+	gwtank = 1
+	#### INF ####
+	infantry_weapons = 1
+	tech_support = 1
+	gw_artillery = 1
+	#### AIR ####
+	early_fighter = 1
+	early_bomber = 1
+}
+
+set_politics = {
+
+	parties = {
+		marxist_leninist = {
+			popularity = 4
+		}
+		libertarian_marxist = {
+			popularity = 2
+		}
+		revolutionary_socialist = {
+			popularity = 8
+		}
+		demcoratic_socialist = {
+			popularity = 2
+		}
+		social_democrat = {
+			popularity = 4
+		}
+		social_liberal = {
+			popularity = 10
+		}
+		market_liberal = {
+			popularity = 12
+		}
+		social_conservative = {
+			popularity = 16
+		}
+		authoritarian_democrat = {
+			popularity = 50
+		}
+		right_wing_populist = {
+			popularity = 4
+		}
+		national_syndicalist = {
+			popularity = 4
+		}
+		corporatist_fascist = {
+			popularity = 2
+		}
+	}
+	
+	ruling_party = authoritarian_democrat
+	last_election = "1888.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = { 
+	limited_conscription
+}
+
+create_country_leader = {
+	name = "Liu Xiang"
+	desc = "FNG_Liu_Xiang_desc"
+	picture = "Portrait_Liu_Xiang.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+set_convoys = 30
+
+### Field Marshal
+create_field_marshal = {
+	name = "Liu Xiang"
+	picture = "Portrait_Liu_Xiang.tga"
+	traits = {
+		offensive_doctrine
+	}
+	skill = 3
+}
+
+### Navy Leader
