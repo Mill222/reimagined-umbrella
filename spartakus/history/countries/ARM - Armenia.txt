@@ -1,6 +1,6 @@
 ﻿capital = 230
 
-oob = "AZR"
+oob = "ARM"
 
 set_research_slots = 3
 
@@ -13,8 +13,6 @@ set_technology = {
 }
 
 set_politics = {
-
-	set_politics = {
 
 	parties = {
 		marxist_leninist = {

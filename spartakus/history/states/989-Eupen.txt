@@ -5,8 +5,8 @@ state={
 		3488 
 	}
 	history={
-		owner=RHI
-		add_core_of=RHI
+		owner=WEI
+		add_core_of=WEI
 		add_claim_by=GER
 		buildings={
 			infrastructure=3
