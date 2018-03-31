@@ -12,10 +12,12 @@ ideas = {
 			}
 
 			removal_cost = -1
+
+			picture = great_depression
 			
 			modifier = {
 				political_power_cost = 1
-				consumer_goods_factor = 0.3
+				consumer_goods_factor = 0.5
 				conscription_factor = -0.5
 				join_faction_tension = 0.20
 			}
@@ -74,6 +76,8 @@ ideas = {
 			}
 
 			removal_cost = -1
+
+			picture = FRA_factory_strikes
 			
 			modifier = {
 				consumer_goods_factor = -0.15

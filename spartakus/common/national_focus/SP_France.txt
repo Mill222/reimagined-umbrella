@@ -9,8 +9,10 @@ focus_tree = {
 			tag = FRA
 		}
 	}
-	
+		
 	default = no
+
+###INDUSTRIAL TREE###
 
 	focus = {
 		id = FRA_begin_recovery
@@ -442,6 +444,236 @@ focus = {
 		completion_reward = {
 			add_political_power = 120
 			#PP +120
+		}
+	}
+
+###POLITICAL TREE###
+
+	focus = {
+		id = FRA_government
+		icon = GFX_goal_generic_demand_territory
+		
+		prerequisite = {  }
+		x = 11
+		y = 0
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = FRA_left
+		icon = GFX_goal_support_communism
+		prerequisite = { focus = FRA_government }
+		mutually_exclusive = { focus = FRA_center focus = FRA_right }
+		x = 5
+		y = 1.5
+		#relative_position_id = WUR_political_1
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = FRA_center
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = FRA_government }
+		mutually_exclusive = { focus = FRA_left focus = FRA_right }
+		x = 11
+		y = 1.5
+		#relative_position_id = WUR_political_1
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = FRA_right
+		icon = GFX_goal_support_fascism
+		prerequisite = { focus = FRA_government }
+		mutually_exclusive = { focus = FRA_left focus = FRA_center }
+		x = 17
+		y = 1.5
+		#relative_position_id = WUR_political_1
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+###LEFT WING###
+	
+	focus = {
+		id = FRA_go_with_radicals_left
+		icon = GFX_focus_generic_join_comintern
+		prerequisite = { focus = FRA_left }
+		mutually_exclusive = { focus = FRA_go_with_moderates_left }
+		available = {
+			#has_government = social_liberal
+		}
+		x = 4
+		y = 2.5
+		#relative_position_id = FRA_left
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		completion_reward = {
+			add_political_power = -60
+			#add_ideas = WUR_appease_socialists
+			add_popularity = { ideology = marxist_leninist popularity = 0.05 }
+			add_popularity = { ideology = libertarian_marxist popularity = 0.05 }
+			add_popularity = { ideology = revolutionary_socialist popularity = 0.05 }
+			add_popularity = { ideology = democratic_socialist popularity = -0.03 }
+			add_popularity = { ideology = social_democrat popularity = -0.03 }
+		}
+	}
+	
+	focus = {
+		id = FRA_go_with_moderates_left
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = FRA_left }
+		mutually_exclusive = { focus = FRA_go_with_radicals_left }
+		available = {
+			#has_government = social_liberal
+		}
+		x = 6
+		y = 2.5
+		#relative_position_id = FRA_left
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		completion_reward = {
+			add_political_power = -60
+			#add_ideas = WUR_appease_socialists
+			add_popularity = { ideology = marxist_leninist popularity = -0.03 }
+			add_popularity = { ideology = libertarian_marxist popularity = -0.03 }
+			add_popularity = { ideology = revolutionary_socialist popularity = -0.03 }
+			add_popularity = { ideology = democratic_socialist popularity = 0.05 }
+			add_popularity = { ideology = social_democrat popularity = 0.05 }
+		}
+	}
+	
+	focus = {
+		id = FRA_people_sing
+		icon = GFX_focus_YUG_pan_slavic_congress
+		prerequisite = { focus = FRA_go_with_radicals_left }
+		available = {
+			#has_government = social_liberal
+		}
+		x = 4
+		y = 3.5
+		#relative_position_id = FRA_left
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		completion_reward = {
+			add_political_power = 100
+			#add_ideas = WUR_appease_socialists
+			add_popularity = { ideology = marxist_leninist popularity = 0.10 }
+			add_popularity = { ideology = libertarian_marxist popularity = 0.10 }
+			add_popularity = { ideology = revolutionary_socialist popularity = 0.10 }
+		}
+	}
+
+	focus = {
+		id = FRA_strengthen_position
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = FRA_go_with_moderates_left }
+		available = {
+			#has_government = social_liberal
+		}
+		x = 6
+		y = 3.5
+		#relative_position_id = FRA_left
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		completion_reward = {
+			add_political_power = 100
+			#add_ideas = WUR_appease_socialists
+			add_popularity = { ideology = democratic_socialist popularity = 0.1 }
+			add_popularity = { ideology = social_democrat popularity = 0.1 }
+		}
+	}
+
+	focus = {
+		id = FRA_eliminate_moderates_left
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = FRA_people_sing }
+		available = {
+			#has_government = social_liberal
+		}
+		x = 4
+		y = 4.5
+		#relative_position_id = FRA_left
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+			#add_ideas = WUR_appease_socialists
+			add_popularity = { ideology = democratic_socialist popularity = -0.2 }
+			add_popularity = { ideology = social_democrat popularity = -0.2 }
+		}
+	}
+
+	focus = {
+		id = FRA_eliminate_radicals_left
+		icon = GFX_goal_anti_comintern_pact
+		prerequisite = { focus = FRA_strengthen_position }
+		available = {
+			#has_government = social_liberal
+		}
+		x = 6
+		y = 4.5
+		#relative_position_id = FRA_left
+		cost = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+			#add_ideas = WUR_appease_socialists
+			add_popularity = { ideology = marxist_leninist popularity = -0.2 }
+			add_popularity = { ideology = libertarian_marxist popularity = -0.2 }
+			add_popularity = { ideology = revolutionary_socialist popularity = -0.2 }
 		}
 	}
 }
