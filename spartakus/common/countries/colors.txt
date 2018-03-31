@@ -5,16 +5,16 @@ PRM = {
 	color_ui = rgb { 0 147 175 }
 }
 ZHL = {
-	color = rgb { 131 212 183 }
-	color_ui = rgb { 131 212 183 }
+	color = rgb { 69 232 196 }
+	color_ui = rgb { 69 232 196 }
 }
 SCH = {
 	color = rgb { 173 207 145 }
 	color_ui = rgb { 173 207 145 }
 }
 KMC = {
-	color = rgb { 223 249 140 }
-	color_ui = rgb { 223 249 140 }
+	color = rgb { 218 232 69 }
+	color_ui = rgb { 218 232 69 }
 }
 NGR = {
 	color = rgb { 255 169 169 }
@@ -237,8 +237,8 @@ ELS = {
 	color_ui = rgb { 198 169 248 }
 }
 ENG = {
-	color = rgb { 208 12 39 }
-	color_ui = rgb { 208 12 39 }
+	color = rgb { 215 70 62 }
+	color_ui = rgb { 215 70 62 }
 }
 ERT = {
 	color = rgb { 146 213 90 }

@@ -364,88 +364,10 @@ PRM_secret_police:0 "Polícia Internacional e de Defesa do Estado"
 ### Leader Descriptions ###
 
 ### Events ###
-cog.1.t:0 "Portuguese Demand the Manikong to Bend the Knee"
-cog.1.d:0 "Portugal, our former colonial overlord, which dethroned us and kicked us out of our ancestral home of Mbanza Kongo, now demands us to bend the knee. In return, we will be granted our capital back, in addition to the region of Cabinda. If we refuse, it's almost certain they will issue a declaration of war."
-cog.1.a:0 "Our survival in these trying times is more important than our pride"
-cog.1.b:0 "We will meet them in battle!"
+prm.1.t:0 "The Kingdom of Portugal"
+prm.1.d:0 "After a disastrous military showing in the Great War and the crushing defeats in Mozambique without any significant territorial gain, the Portuguese Republic was brought to the brink of collapse by 1919. The government had experienced the same humiliation and ineffectiveness that ended the Kingdom of Portugal less than a decade earlier, and it became clear that much of the country had begun to reconsider the Republican Revolution when pro-Monarchist militias seized the north in the first revolt. The army reluctantly put down the rebellion, however many of its leaders were let free because of their status as war heroes and icons. \n\nHowever, with much of Europe succumbing to socialist revolutions in the 1920s, tensions between the far right and far left in Portugal skyrocketed, and the moderate Republican government found itself becoming increasingly alienated among the populace. These tensions continued to boil as the government slowly collapsed and the economy with it. The military attempted to execute a coup in 1926, however the strong left wing supported the Republican government and the coup was only narrowly defeated. The government pursued the conspirators, whom many fled across the border to Spain or to the north where the stronger right wing base sheltered them. Despite the coup being defeated, the Republic continued its downward spiral as moderate leaders found their attempts to keep the left wing coalition which had saved the republic from consolidating power. \n\nThese attempts failed, however, when the Revolução Rosa of October 1931 overthrew the government relatively peacefully in Lisbon, the more rural right wing leaning north was quick to oppose this move, and the city of Porto erupted in a full out rebellion, with barricades being erected on every street manned by man and women alike. However, the government in the south had found other issues, such as an embargo by both Spain and the United Kingdom. This delayed the response to the rebellion in the north, and the rebels declared the republic defunct and illegitimate, proclaiming the Kingdom of Portugal in its place once again. However, the movement was quick to spread across the countryside, and enjoyed the support of its neighbors. British support ensured that the overseas territories of Portugal came under the control of the new monarchy, and Manuel II officially endorsed the revolt in November, returning to Portugal through Spain in November. \n\nIt is now the start of 1932, and the few months of small skirmishes have begun to show cracks as the conflict evolves further into a Civil War. No matter which side emerges victorious, no one can doubt that this period will have a significant impact on the future of Portugal."
+prm.1.a:0 "Avante!"
 
-cog.2.t:0 "Kongo accepts"
-cog.2.d:0 "The Manikong has accepted our offer and submitted, bringing peace to his lands. In return, we will allow him to keep his German equipment and personnel, with a large degree of autonomy. Now, however, Portugal can finally claim ownership of the Congo."
-cog.2.a:0 "Welcome back!"
-
-por.4.t:0 "The Kingdom of Portugal"
-por.4.d:0 "After the disaster in the Weltkrieg, and the collapse of our forces in Mozambique and France, Portugal's usurper republic simply lacked the face and the military support to resist the Glorious Restoration, which brought Manuel II back to the throne, and his once rival claimant Duarte Nuno as his heir. The restoration, which occurred shortly after the war's end, saw the beginning of recovery for the economy. However, reliance on British imports and exports was too great for Portugal to properly weather the storm of 1925. We were unable to even unite our lands after the fall of the British Empire, for Germany, in an act of aggression, seized those lands. With such an extensive political crisis on his hands, the then Prime Minister Paiva Couçeiro called for elections; the victorious Integralists have an extensive reform agenda, while viciously anti-republican policies have polarised opinions even amongst the most staunch monarchists. However, they defer to the King for now, and they claim that they will so indefinitely, and Spain's sickness seems to never end, as more chaos looms in the world and threatens Portugal. In Africa, Hermann von Göring and his Hunnic goons sabotage our endeavours, forcing our hand to return the favour, and tensions are fast escalating. But no matter what may come, we trust that Portugal will stand tall.”"
-por.4.a:0 "Avante!"
-
-por.300.t:0 "The Colonial Exposition of 1936"
-por.300.d:0 "Thousands have gathered for Portugal's first large scale Colonial Exposition. While the Kingdom's restoration, and other trials and tribulations it has been forced to endure, has challenged it, Portugal did not shy away from its civilising burden and redoubled its efforts to improve the Ultramarine Provinces, which are as essential as Porto or Lisbon. Many wonders and trinkets from all over the world have been brought to Lisbon for the occasion, including an entire Angolan village as an anthropological curiosity. While the endeavour was expensive, it reinforces our commitment to the Colonial Cause."
-por.300.a:0 "Grand!"
-
-por.301.t:0 "Black Monday Hits Portugal"
-por.301.d:0 "While economic ties between us and Germany have never been as large or interconnected as with other European nations, the cascade effect of the Black Monday Crisis has hit Portugal with great force. With an economy mostly based on agricultural exports, and most industries focused on the rearmament plan, our usual consumers cannot afford our products and, thus, Portugal’s economic situation is, yet again, in dire straits. Let us hope that we’ve learnt much from the lessons of the ’26 Crisis and that we can, hopefully, recover much quicker this time."
-por.301.a:0 "This spells trouble!"
-
-por.302.t:0 "The Coronation of Maria Ana I "
-por.302.d:0 "As the old monarch was deemed unfit to rule and was forced into abdication, Maria Anna of Braganza has been crowned as Maria Ana I, and was recognised as such by the Chamber of Most Worthy Peers. Hopefully, her ascension will bring lasting peace to Portugal."
-por.302.a:0 "Long Live the Queen!"
-
-por.303.t:0 "The Coronation of Maria Adelaide as Maria III"
-por.303.d:0 "With the passing of Duarte II, who remained childless for the duration of his life, the question of succession had the chance of devolving into a contentious affair. However, his youngest sister, Maria Adelaide, was almost unanimously agreed as the best fit for the next Queen of Portugal by both the upper and lower houses for, despite her young age, she always was the Princess of the people. Long may Maria III reign, hopefully under peace and stability."
-por.303.a:0 "Long Live the Queen!" 
-
-por.304.t:0 "Regicide!"
-por.304.d:0 "As Duarte II was returning from a routine trip to the Chamber of Most Worthy Peers, his convoy was assailed by four men, clad in black and well armed. The machine gun fire did not gravely wound the Queen, Maria Francisca of Orléans-Braganza, luckily enough, but innocent subjects of the Crown were gravely injured. The wounds of the 1908 terrorist attack were re-opened, and many in the Realm demand justice. While two of the 'soldiers' of the Legião Vermelha were shot down during the ensuing firefight, two terrorists spotted on camera, Mário Castelhano and Emídio Santana, who are apart of the well known Anarchist brigands, have fled, presumably to seek refuge in the Spanish regime of the CNT-FAI. Given the gravity of the crime committed, all options are on the table, including a harsh ultimatum. Careful analysis of diplomatic consequences would be advisable, but these two murderers will be brought to justice!"
-por.304.a:0 "The CNT-FAI must surrender those responsible!"
-por.304.b:0 "We must be remain cautious..."
-
-por.305.t:0 "Portugal demands the return of the Regicide"
-por.305.d:0 "While our struggle has been long, our problems are not yet over. Portugal's King, Duarte II, has been assassinated on the way back to his Palace after addressing the Upper House. Two men, Mário Castelhano and Emídio Santana, have crossed into our borders while on the run from Portuguese authorities. Despite the successful assassination, public reception has not been unanimous and many bystanders were wounded during the operation. However, the men were armed here and, by all accounts, even without the approval of the FAI, accepting the Portuguese demand of deportation could be seen by the world as an admission of guilt; not to mention the men are likely to face execution if we hand them over. Also it is important to remember the weight of this decision on a global level. Starting a war against Portugal and their reactionary allies while we are in a weakened state and so recently after the Civil War may prove unwise, even with our allies behind us. A choice must be made, regardless; Will we hand over the duo as demanded, or prepare for the Reactionary Retaliation?"
-por.305.a:0 "We are not in a condition to fight the Entente as of now. We must comply with their demands."
-por.305.b:0 "We refuse to betray these heroes!"
-
-por.306.t:0 "The CNT-FAI Has Handed Over the Murderers"
-por.306.d:0 "Thankfully, the government of Spain has not completely lost its mind. They've refused to grant asylum to either of the two criminals and both are to be handed over to our authorities and be hanged in short order."
-por.306.a:0 "We have no choice but to thank them for their help..."
-
-por.307.t:0 "The CNT-FAI Refuses Our Ultimatum"
-por.307.d:0 "The treacherous dogs in Spain have granted asylum to the duo of criminals responsible for murdering our Most Faithful Majesty. Now every man must do his duty, for the final struggle against Syndicalism will soon begin!"
-por.307.a:0 "As Armas!"
-
-por.308.t:0 "Occupy Galicia?"
-por.308.d:0 "The region of Galicia, Portuguese speaking in all but in name, and long under Spain's yoke, is under the very real threat of falling under the Syndicalist menace. While some Integralists argue for an intervention to protect our brothers, many politicians have openly expressed their concern at allowing Santiago de Compostela and the relics there to be looted by Anarchist bandits. Doing that could potentially weaken the Carlists even more, however, and will ruin any chance of good relations with them if they ever manage to turn this conflict around."
-por.308.a:0 "We must secure Galicia from the failing Carlists!"
-por.308.b:0 "By doing this, we would be helping the Syndicalist Hydra."
-
-por.309.t:0 "Portugal Seizes Galicia!" 
-por.309.d:0 "The slithering snakes in Portugal have occupied Galicia while our forces struggle against the godless forces of the CNT-FAI. While they claim it's to ensure their Galician 'brothers' are safe from the yoke of Syndicalism, it’s abundantly clear that this land grab is little more than blatant opportunism!"
-por.309.a:0 "We will correct this later..."
-
-por.310.t:0 "Seize Olivença?"
-por.310.d:0 "Olivença has been illegally under Spanish control since an accidental mishap in the 1801 Treaty of Badajoz. With Spain fighting a three way civil war, they are not in any position to contest our claim, for while the border dispute has great potential propaganda value for us, the town is virtually worthless strategically."
-por.310.a:0 "Let's liberate the town from the Spanish Yoke!"
-por.310.b:0 "Why betray a monarch while he struggles against atheists and traitors?"
-
-por.311.t:0 "Portugal Seizes Olivença!"
-por.311.d:0 "Portugal has occupied the small town of Olivenza, claiming that it is long lost Portuguese territory. We are not currently in a position to put them back in their place. If we wish to recover it, it will have to happen at a later date!"
-por.311.a:0 "Jackals! Vultures!"
-
-por.312.t:0 "The Matters of the Realm"
-por.312.d:0 "Much turmoil has befallen our Realm during this disastrous century. However, our nation endures and is stronger than ever. Now, the time has come to reform our government and wash away the last remnants of the corrupt republic, to help secure a better future."
-por.312.a:0 "The future beckons!"
-
-por.313.t:0 "For King and Country"
-por.313.d:0 "The Integralists and other manipulative demagogues have, for far too long, interfered in the nation's well being. The King, his advisers, and parliament should be making the decisions about Portugal's future; not pampered intellectuals living in Lisbon or hiding in Paris. We will shape the Monarchy into something truly grand!"
-por.313.a:0 "Vida Longa ao Rei!"
-
-por.314.t:0 "The Burden We Bear"
-por.314.d:0 "We must rise above our petty differences and unite under our Faith, our Country, and our People. And most importantly, we must bring the light of civilisation to the poor and unfortunate souls who need Christ in their lives. It is neither an expensive nor glorious endeavour to build outposts in the dark of the jungle and spread civilisation, but, nonetheless, it is our ultimate goal. And, of course, so is defending our faith against those who seek to destroy it!"
-por.314.a:0 "Forward towards a better Portugal and a better World"
-
-por.315.t:0 "Portugal Formally Rejoins the Entente"
-por.315.d:0 "After the end of the Weltkrieg with the signing of the Peace with Honour, and even more so after the Revolution in ’25, Britain and Portugal have drifter further and further apart despite being in a formal alliance. But now, as dangerous times begin to threaten us, would it be wise to turn to our oldest friend for aid?"
-por.315.a:0 "We will renew the old's oldest and greatest alliance, and beat back the Syndicalist Hydra"
-por.315.b:0 "We'll refrain for now."
-
-por.316.t:0 "Portugal Asks Us To Rejoin the Entente Formally"
-por.316.d:0 "After the end of the Weltkrieg with the signing of the Peace with Honour, and even more so after the Revolution in ’25, Britain and Portugal have drifter further and further apart despite remaining in a formal alliance. But now, as dangerous times begin to threaten Europe, and the time to reclaim the birthright is fast approaching, Portugal asks us for support and will, in turn, provide support during the fast approaching Second Great War."
-por.316.a:0 "With the renewal of this treaty, we will stop Syndicalism!"
+prm.2.t:0 "Large Skirmish at Coimbra"
+prm.2.d:0 "After months of minor skirmishes that have only ended in stalemate, our forces, without orders, have converged on the city of Coimbra near the de facto 'front line'. Although this wouldn't usually be of much concern, thousands of Republican forces have been reported to be moving to reinforce the city, and skirmishes have been reported across the whole front line. Our generals have recommended to begin a wide offensive before the Republicans can organize, and Manuel II seems to agree."
+prm.3.a:0 "For Portugal, for the King!"

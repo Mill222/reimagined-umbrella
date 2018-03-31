@@ -1002,4 +1002,6 @@
  STATE_1001:0 "Basutoland"
  STATE_1002:0 "Draz"
  STATE_1003:0 "Pondicherry"
- STATE_1004:0 "Gambia"
+ STATE_1004:0 "STATE_1004"
+ STATE_1005:0 "Malacca"
+ STATE_1006:0 "Penang"

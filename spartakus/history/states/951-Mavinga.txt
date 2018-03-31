@@ -4,7 +4,7 @@ state={
 	name="STATE_951"
 
 	history={
-		owner=PRM
+		owner=ANG
 		add_core_of=ANG
 		buildings={
 			infrastructure=2

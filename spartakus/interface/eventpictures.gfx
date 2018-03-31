@@ -6,6 +6,16 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_portugalflag"
+		texturefile = "gfx/event_pictures/portugalflag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portugalmonarchyflag"
+		texturefile = "gfx/event_pictures/portugalmonarchyflag.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_darkestday1"
 		texturefile = "gfx/event_pictures/darkestday1.dds"
 	}

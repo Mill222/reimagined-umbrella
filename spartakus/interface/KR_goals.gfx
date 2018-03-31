@@ -11,6 +11,16 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_GER_diplomacy"
+		texturefile = "gfx/interface/goals/GER_diplomacy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_POR_diplomacy"
+		texturefile = "gfx/interface/goals/POR_diplomacy.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_focus_WUR_flag"
 		texturefile = "gfx/interface/goals/focus_WUR_flag.dds"
 	}
@@ -1647,6 +1657,12 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_IRE_women_industry"
 		texturefile = "gfx/interface/goals/goal_women_industry.dds"
+
+	}
+	
+	SpriteType = {
+		name = "GFX_POR_flag"
+		texturefile = "gfx/interface/goals/POR_flag.dds"
 
 	}
 

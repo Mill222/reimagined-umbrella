@@ -4,6 +4,8 @@ oob = "POR"
 
 add_ideas = {
 	limited_conscription
+	POR_divided_country
+	POR_revolution
 	POR_Maria_da_Cunha_Lamas_for_rso
 	POR_Antonio_Pinto_Quartim_hog_syn
 	POR_Jose_Gomes_Ferreira_eco_rso
@@ -36,7 +38,7 @@ set_technology = {
 }
 
 set_convoys = 50
-country_event = { id = por.1 days = 0 }
+country_event = { id = por.1 days = 1 }
 set_politics = {
 
 	parties = {
