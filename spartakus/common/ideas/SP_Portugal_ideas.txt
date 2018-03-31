@@ -23,6 +23,18 @@ country = {
 		removal_cost = -1
 		picture = home_of_revolution
 	}
+	
+	POR_recovering_civil_war = {
+		allowed = {always = no}
+		modifier = {
+					consumer_goods_factor = 0.05
+					production_factory_max_efficiency_factor = -0.05
+					industrial_capacity_factory = -0.15
+					war_support_factor = -0.25
+			}
+		removal_cost = -1
+		picture = FRA_scw_intervention_republicans_focus
+	}
 }
 
 ##############

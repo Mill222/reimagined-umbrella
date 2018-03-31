@@ -598,6 +598,127 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = POR_recovery
+		icon = GFX_goal_graveyard
+		x = 20
+		y = 4
+		available = {
+			OR = {
+				has_country_flag = POR_civil_war_over
+			}
+		}
+		cost = 8.6
+		completion_reward = {	
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1 amount = 500 producer = POR
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_recovery1
+		icon = GFX_goal_HOL_black_monday
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery }
+		x = 1
+		y = 1
+		available = {
+			OR = {
+				has_country_flag = POR_civil_war_over
+			}
+		}
+		cost = 8.6
+		completion_reward = {	
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1 amount = 500 producer = POR
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_recovery2
+		icon = GFX_goal_USA_new_deal
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery }
+		x = -1
+		y = 1
+		available = {
+			OR = {
+				has_country_flag = POR_civil_war_over
+			}
+		}
+		cost = 8.6
+		completion_reward = {	
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1 amount = 500 producer = POR
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_recovery3
+		icon = GFX_goal_Schelle
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery }
+		x = 3
+		y = 1
+		available = {
+			OR = {
+				has_country_flag = POR_civil_war_over
+			}
+		}
+		cost = 8.6
+		completion_reward = {	
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1 amount = 500 producer = POR
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_recovery4
+		icon = GFX_goal_famine
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery }
+		x = -3
+		y = 1
+		available = {
+			OR = {
+				has_country_flag = POR_civil_war_over
+			}
+		}
+		cost = 8.6
+		completion_reward = {	
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1 amount = 500 producer = POR
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_final
+		icon = GFX_goal_construction_engineering
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery1 }
+		prerequisite = { focus = POR_recovery2 }
+		prerequisite = { focus = POR_recovery3 }
+		prerequisite = { focus = POR_recovery4 }
+		x = 0
+		y = 2
+		available = {
+			OR = {
+				has_country_flag = POR_civil_war_over
+			}
+		}
+		cost = 8.6
+		completion_reward = {	
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1 amount = 500 producer = POR
+			}
+		}
+	}
+	
+	focus = {
 		id = POR_diplomacy_a
 		icon = GFX_POR_flag
 		x = 10
@@ -955,7 +1076,7 @@ focus_tree = {
 	focus = {
 		id = POR_economic
 		icon = GFX_goal_generic_production
-		x = 27
+		x = 33
 		y = 0
 		cost = 10
 		available = {
@@ -1490,8 +1611,13 @@ focus_tree = {
 	
 	focus = {
 		id = POR_army
-		icon = GFX_focus_generic_commonwealth_build_infantry		
-		x = 37
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		available = {
+			OR = {
+				has_country_flag = POR_civil_war_over
+			}
+		}
+		x = 27
 		y = 0
 		cost = 10
 		completion_reward = {	
@@ -1502,8 +1628,9 @@ focus_tree = {
 		focus = {
 		id = POR_mic
 		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = POR_army
 		prerequisite = { focus = POR_army } 		
-		x = 40
+		x = 0
 		y = 1
 		cost = 10
 		completion_reward = {	
@@ -1543,8 +1670,9 @@ focus_tree = {
 		focus = {
 		id = POR_buildnavapower
 		icon = GFX_goal_generic_build_navy
+		relative_position_id = POR_army
 		prerequisite = { focus = POR_mic } 		
-		x = 40
+		x = 0
 		y = 2
 		cost = 10
 		completion_reward = {	
@@ -1570,8 +1698,9 @@ focus_tree = {
 			focus = {
 		id = POR_miltech
 		icon = GFX_focus_research
+		relative_position_id = POR_army
 		prerequisite = { focus = POR_buildnavapower} 		
-		x = 40
+		x = 0
 		y = 3
 		cost = 10
 		completion_reward = {	
@@ -1587,8 +1716,9 @@ focus_tree = {
 				focus = {
 		id = POR_milindu
 		icon = GFX_goal_economic_control
+		relative_position_id = POR_army
 		prerequisite = { focus = POR_miltech} 		
-		x = 40
+		x = 0
 		y = 4
 		cost = 10
 		completion_reward = {	
@@ -1628,8 +1758,9 @@ focus_tree = {
 		focus = {
 		id = POR_prodeff
 		icon = GFX_focus_generic_license_production
+		relative_position_id = POR_army
 		prerequisite = { focus = POR_milindu } 		
-		x = 40
+		x = 0
 		y = 5
 		cost = 10
 		completion_reward = {	
@@ -1640,8 +1771,9 @@ focus_tree = {
 					focus = {
 		id = POR_linha_vedras
 		icon = GFX_goal_nested_fortifications
-		prerequisite = { focus = POR_miltech} 		
-		x = 42
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_artillerybattalion} 		
+		x = 2
 		y = 4
 		cost = 10
 		completion_reward = {	
@@ -1670,10 +1802,11 @@ focus_tree = {
 	
 						focus = {
 		id = POR_state_construction
-		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = POR_linha_vedras } 		
-		x = 42
-		y = 5
+		icon = GFX_focus_prc_infiltration
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_prodeff focus = POR_support_squads focus = POR_spotter_squads } 		
+		x = 0
+		y = 6
 		cost = 10
 		completion_reward = {	
 		random_owned_state = {
@@ -1712,8 +1845,9 @@ focus_tree = {
 	focus = {
 		id = POR_infeq
 		icon = GFX_goal_generic_small_arms
+		relative_position_id = POR_army
 		prerequisite = { focus = POR_army } 		
-		x = 38
+		x = 2
 		y = 1
 		cost = 10
 		completion_reward = {	
@@ -1729,8 +1863,9 @@ focus_tree = {
 		focus = {
 		id = POR_training
 		icon = GFX_focus_generic_little_entente
+		relative_position_id = POR_army
 		prerequisite = { focus = POR_infeq } 		
-		x = 38
+		x = 2
 		y = 2
 		cost = 10
 		completion_reward = {	
@@ -1740,9 +1875,10 @@ focus_tree = {
 	
 			focus = {
 		id = POR_artillerybattalion
+		relative_position_id = POR_army
 		icon = GFX_goal_generic_army_artillery2
 		prerequisite = { focus = POR_training } 		
-		x = 38
+		x = 2
 		y = 3
 		cost = 10
 		completion_reward = {	
@@ -1759,8 +1895,9 @@ focus_tree = {
 					focus = {
 		id = POR_spotter_squads
 		icon = GFX_goal_munitions_factories
-		prerequisite = { focus = POR_artillerybattalion } 		
-		x = 38
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_linha_vedras } 		
+		x = 2
 		y = 5
 		cost = 10
 		completion_reward = {	
@@ -1777,9 +1914,10 @@ focus_tree = {
 	
 	focus = {
 		id = POR_knights
-		icon = GFX_goal_POR_knights_of_portugal
+		icon = GFX_goal_generic_axis_build_infantry
+		relative_position_id = POR_army
 		prerequisite = { focus = POR_army } 		
-		x = 36
+		x = -2
 		y = 1
 		cost = 10
 		completion_reward = {	
@@ -1790,8 +1928,9 @@ focus_tree = {
 		focus = {
 		id = POR_motorized_dragoons
 		icon = GFX_goal_generic_army_motorized
+		relative_position_id = POR_army
 		prerequisite = { focus = POR_knights } 		
-		x = 36
+		x = -2
 		y = 2
 		cost = 10
 		completion_reward = {	
@@ -1807,8 +1946,9 @@ focus_tree = {
 			focus = {
 		id = POR_loghtank
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = POR_motorized_dragoons } 		
-		x = 36
+		prerequisite = { focus = POR_motorized_dragoons } 	
+		relative_position_id = POR_army		
+		x = -2
 		y = 3
 		cost = 10
 		completion_reward = {	
@@ -1824,8 +1964,9 @@ focus_tree = {
 				focus = {
 		id = POR_tankarmy
 		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = POR_loghtank } 		
-		x = 35
+		prerequisite = { focus = POR_loghtank } 
+		relative_position_id = POR_army		
+		x = -2
 		y = 4
 		cost = 10
 		completion_reward = {	
@@ -1841,8 +1982,9 @@ focus_tree = {
 					focus = {
 		id = POR_support_squads
 		icon = GFX_focus_generic_air_defense
+		relative_position_id = POR_army
 		prerequisite = { focus = POR_tankarmy } 		
-		x = 34
+		x = -2
 		y = 5
 		cost = 10
 		completion_reward = {	
@@ -1851,132 +1993,6 @@ focus_tree = {
 				bonus = 0.75
 				uses = 1
 				category = support_tech
-			}	
-		}
-	}
-	
-					focus = {
-		id = POR_doctrine_reform
-		icon = GFX_goal_RUS_Markov_plan
-		prerequisite = { focus = POR_tankarmy }
-		prerequisite = { focus = POR_hearvy_art_batteries }  		
-		x = 36
-		y = 5
-		cost = 10
-		completion_reward = {	
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 0.5
-				uses = 1
-				category = land_doctrine
-			}	
-		}
-	}
-	
-						focus = {
-		id = POR_herois_do_mar
-		icon = GFX_focus_secret_rearmament
-		prerequisite = { focus = POR_doctrine_reform }		
-		x = 34
-		y = 6
-		cost = 10
-		completion_reward = {	
-		add_ideas = POR_herois_do_mari
-				add_tech_bonus = {
-				name = special_forces_bonus
-				bonus = 0.85
-				uses = 1
-				technology = marines
-				technology = marines2
-				technology = marines3
-			}
-        		
-		}
-	}
-	
-							focus = {
-		id = POR_our_legacy
-		icon = GFX_goal_national_mobilization
-		prerequisite = { focus = POR_doctrine_reform }		
-		x = 36
-		y = 6
-		cost = 10
-		completion_reward = {	
-		army_experience = 15
-        add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 0.5
-				uses = 1
-				category = land_doctrine
-			}		
-		}
-	}
-	
-								focus = {
-		id = POR_suebi
-		icon = GFX_goal_authority
-		prerequisite = { focus = POR_doctrine_reform }		
-		x = 38
-		y = 6
-		cost = 10
-		completion_reward = {	
-		add_ideas = POR_bravery	
-		}
-	}
-	
-					focus = {
-		id = POR_hearvy_art_batteries
-		icon = GFX_goal_national_artillery
-		prerequisite = { focus = POR_artillerybattalion focus = POR_loghtank } 		
-		x = 37
-		y = 4
-		cost = 10
-		completion_reward = {	
-		add_tech_bonus = {
-				name = infantry_weapons_bonus
-				bonus = 0.75
-				uses = 1
-				category = artillery
-				
-		}
-	}
-	}
-
-
-	focus = {
-		id = POR_paratroop
-		icon = GFX_focus_generic_paratrooper
-		prerequisite = { focus = POR_army } 		
-		x = 34
-		y = 1
-		cost = 10
-		completion_reward = {	
-        add_tech_bonus = {
-				name = special_forces_bonus
-				bonus = 0.5
-				uses = 1
-				technology = paratroopers
-				technology = paratroopers2
-			}	
-		}
-	}	
-	
-		focus = {
-		id = POR_wewerentexpectingspecialforces
-		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = POR_paratroop } 		
-		x = 34
-		y = 2
-		cost = 10
-		completion_reward = {	
-		add_tech_bonus = {
-				name = special_forces_bonus
-				bonus = 0.5
-				uses = 1
-				technology = marines
-				technology = marines2
-				technology = tech_mountaineers
-				technology = tech_mountaineers2
 			}	
 		}
 	}
