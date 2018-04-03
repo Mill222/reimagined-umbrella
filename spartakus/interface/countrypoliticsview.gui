@@ -95,7 +95,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "ruling_party_info"
 			position = { x = 88 y = 305 }
-			size = { width = 255 height = 60 }
+			size = { width = 200 height = 60 }
 			clipping = no
 					
 #			instantTextboxType = {
@@ -112,7 +112,7 @@ guiTypes = {
 				position = { x = 9 y = 3 }
 				font = "hoi_18mbs"
 				text = "ideology"
-				maxWidth = 300
+				maxWidth = 155
 				maxHeight = 20
 			}
 			

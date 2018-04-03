@@ -6,73 +6,140 @@ bookmarks = {
 		picture = "GFX_select_date_1932"
 		default_country = "GER"
 	
-		FRA = {
-			history = FRA_TURNING_TIDE_DESC
-			ideology = democratic
-			ideas={
+		"GER"={
+			history = "GER_SP_GATHERING_STORM_DESC"
+			ideology = libertarian_marxist
+			ideas = {
+			}
+			focuses = {
 			}
 		}
-		USA = {
-			history = USA_TURNING_TIDE_DESC
-			ideology = democratic
+		"SOV"={
+			history = "SOV_SP_GATHERING_STORM_DESC"
+			ideology = marxist_leninist
 			ideas = {
-				home_of_the_free			}
-		}
-		ENG = {
-			history = ENG_TURNING_TIDE_DESC
-			ideology = democratic
-			ideas = {
-				stiff_upper_lip
-				ENG_the_war_to_end_all_wars
-				ENG_george_vi
-				british_austerity_idea
-				ENG_colonial_elite
 			}
-			
-		}
-		GER = {
-			history = GER_TURNING_TIDE_DESC
-			ideology = fascism
-			ideas={
-				sour_loser
-				general_staff
+			focuses = {
 			}
 		}
-		ITA = {
-			history = ITA_TURNING_TIDE_DESC
-			ideology = fascism
-			ideas={
-				vittoria_mutilata
-				victor_emmanuel
-			}			
-		}
-		JAP = {
-			history = JAP_TURNING_TIDE_DESC
-			ideology = fascism
-			ideas={
-				state_shintoism
-				the_long_lance
-				spiritual_mobilization_idea
-				warrior_traditions_idea
-				student_mobilization_idea
-				imperial_austerity_idea
-			}			
-		}
-		SOV = {
-			history = SOV_TURNING_TIDE_DESC
-			ideology = communism
+		"ENG"={
+			history = "ENG_SP_GATHERING_STORM_DESC"
+			ideology = social_conservative
 			ideas = {
-				trotskyite_plot_purged
-				home_of_revolution
-				officers_purged
-				nkvd_2
+			}
+			focuses = {
+			}
+		}
+		"FRA"={
+			history = "FRA_SP_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"USA"={
+			history = "USA_SP_GATHERING_STORM_DESC"
+			ideology = liberal_conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"CHI"={
+			history = "CHI_SP_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"JAP"={
+			history = "JAP_SP_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+			}
+			focuses = {
 			}
 		}
 
 		"---"={
-			history = "OTHER_TURNING_TIDE_DESC"
+			history = "OTHER_SP_GATHERING_STORM_DESC"
 		}
-
+		
+		"FNG"={
+			minor = yes
+			history = "FNG_SP_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ITA"={
+			minor = yes
+			history = "ITA_SP_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SPR"={
+			minor = yes
+			history = "SPR_SP_GATHERING_STORM_DESC"
+			ideology = social_liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"WUR"={
+			minor = yes
+			history = "WUR_SP_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"TUR"={
+			minor = yes
+			history = "TUR_SP_GATHERING_STORM_DESC"
+			ideology = right_wing_populist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"YUG" ={
+			minor = yes
+			history = "YUG_SP_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"PRM"={
+			minor = yes
+			history = "PRM_SP_GATHERING_STORM_DESC"
+			ideology = right_wing_populist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"POR"={
+			minor = yes
+			history = "POR_SP_GATHERING_STORM_DESC"
+			ideology = revolutionary_socialist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
