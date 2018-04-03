@@ -8,6 +8,8 @@ set_technology = {
 	tech_mountaineers = 1
 }
 
+set_cosmetic_tag = BOT_UK
+
 set_convoys = 5
 
 1939.1.1 = {

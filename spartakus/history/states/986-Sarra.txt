@@ -6,8 +6,10 @@ state={
 	}
 		
 	history={
-		owner = EGY
+		owner = SUD
+		add_claim_by = EGY
 		add_core_of = LBA
+		add_core_of = SUD
 		buildings = {
 			infrastructure = 1
 			}

@@ -51,6 +51,38 @@ set_autonomy = {
 	target = AEF
 	autonomous_state = sp_colony
 }
+set_autonomy = {
+	target = MAG
+	autonomous_state = sp_colony
+}
+set_autonomy = {
+	target = INC
+	autonomous_state = sp_protectorate
+}
+set_autonomy = {
+	target = MOR
+	autonomous_state = sp_protectorate
+}
+set_autonomy = {
+	target = TUN
+	autonomous_state = sp_protectorate
+}
+set_autonomy = {
+	target = SYR
+	autonomous_state = sp_protectorate
+}
+set_autonomy = {
+	target = LEB
+	autonomous_state = sp_protectorate
+}
+set_autonomy = {
+	target = WUR
+	autonomous_state = sp_autonomous
+}
+set_autonomy = {
+	target = RHI
+	autonomous_state = sp_protectorate
+}
 
 set_convoys = 300
 

@@ -5,7 +5,7 @@ state={
 		steel=5
 	}
 	history={
-		owner = BUR
+		owner = RAJ
 		buildings = {
 			infrastructure = 3
 		}
@@ -17,7 +17,7 @@ state={
 #		}
 
 		add_core_of = BUR
-		add_core_of = KAC
+		add_core_of=RAJ
 	}
 	provinces={
 		1082 1197 1934 4087 4318 4425 4588 4996 8063 10486 10920 12335 12464 12492

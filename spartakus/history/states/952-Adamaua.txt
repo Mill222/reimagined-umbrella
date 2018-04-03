@@ -4,7 +4,8 @@ state={
 	name="STATE_952"
 
 	history={
-		owner=KAM
+		owner=AEF
+		add_core_of=AEF
 		add_core_of=KAM
 		victory_points={
 			2080 1

@@ -12,6 +12,8 @@ set_technology = {
 	early_fighter = 1
 }
 
+set_cosmetic_tag = SML_UK
+
 set_politics = {
 
 	parties = {

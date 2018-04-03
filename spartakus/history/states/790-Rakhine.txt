@@ -10,7 +10,7 @@ state={
 	state_category = town
 
 	history={
-		owner = BUR
+		owner = RAJ
 		victory_points = {
 			12090 5 #Sitwe
 		}
@@ -26,7 +26,7 @@ state={
 			}
 		}
 		add_core_of = BUR
-		add_core_of = RKH
+		add_core_of=RAJ
 	}
 
 	provinces={

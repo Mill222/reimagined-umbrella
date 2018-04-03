@@ -14,6 +14,8 @@ set_technology = {
 	### AIR ###
 }
 
+set_cosmetic_tag = CEY_UK
+
 set_politics = {
 
 	parties = {

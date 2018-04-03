@@ -1,6 +1,9 @@
 ﻿capital = 846
 OOB = "empty"
 set_research_slots = 2
+
+set_cosmetic_tag = MLY_UK
+
 set_technology = {
 	### MOD ###
 	### General ###

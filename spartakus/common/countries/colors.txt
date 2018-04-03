@@ -388,6 +388,10 @@ LIT = {
 	color = rgb { 219 219 119 }
 	color_ui = rgb { 255 255 155 }
 }
+LIB = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 152 130 191 }
+}
 LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
@@ -439,10 +443,6 @@ MOZ = {
 MRT = {
 	color = rgb { 168 185 135 }
 	color_ui = rgb { 168 185 135 }
-}
-MZB = {
-	color = rgb { 146 78 48 }
-	color_ui = rgb { 146 78 48 }
 }
 NAM = {
 	color = rgb { 99 160 239}

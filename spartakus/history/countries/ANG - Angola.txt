@@ -8,6 +8,8 @@ set_technology = {
 	tech_mountaineers = 1
 }
 
+set_cosmetic_tag = ANG_POR
+
 set_convoys = 5
 
 set_politics = {
