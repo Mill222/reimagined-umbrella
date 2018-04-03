@@ -1,0 +1,42 @@
+POR_wars = {
+
+	reclaim_azores = {
+
+		icon = generic_independence
+
+		available = {
+			tag = POR
+			has_completed_focus = POR_recovery_final
+			AND = {
+				ENG = { 
+					owns_state = 698
+				}
+				OR = {
+					SOV = {
+						has_war_with = ENG
+					}
+					GER = {
+						has_war_with = ENG
+					}
+				}
+			}
+		}
+
+		cost = 20
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 200
+		}
+		
+		visible = {
+			has_completed_focus = POR_triumphant_republic
+		}
+		complete_effect = {
+			declare_war_on = {
+			target = ENG
+			type = take_core_state
+			}
+		}	
+	}
+}

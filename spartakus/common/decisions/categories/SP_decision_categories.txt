@@ -1,0 +1,5 @@
+POR_wars = {
+	allowed = {
+		original_tag = POR
+	}
+}

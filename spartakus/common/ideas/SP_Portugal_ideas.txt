@@ -4,7 +4,10 @@ ideas = {
 ##############
 # Country
 ##############
+
+
 country = {
+	#Start
 	POR_divided_country = {
 			allowed = { always = no }
 			modifier = {
@@ -24,6 +27,7 @@ country = {
 		picture = home_of_revolution
 	}
 	
+	#Civil War Recovery
 	POR_recovering_civil_war = {
 		allowed = {always = no}
 		modifier = {
@@ -34,6 +38,105 @@ country = {
 			}
 		removal_cost = -1
 		picture = FRA_scw_intervention_republicans_focus
+	}
+	
+	POR_collectivize = {
+		allowed = {always = no}
+		modifier = {
+					consumer_goods_factor = -0.05
+					production_factory_max_efficiency_factor = 0.05
+					industrial_capacity_factory = 0.10
+					stability_factor = -0.025
+			}
+		removal_cost = -1
+		picture = generic_agrarian_reform
+	}
+	
+	POR_imprison = {
+		allowed = {always = no}
+		modifier = {
+					political_power_gain = 0.05
+					stability_factor = -0.025
+			}
+		removal_cost = -1
+		picture = ast_classify_aliens
+	}
+	
+	POR_integrated_unions = {
+		allowed = {always = no}
+		modifier = {
+					political_power_gain = -0.01
+					industrial_capacity_factory = 0.05
+					stability_factor = 0.05
+			}
+		removal_cost = -1
+		picture = generic_communist_army
+	}
+	
+	POR_military_youth = {
+		allowed = {always = no}
+		modifier = {
+					conscription = 0.005
+					war_support_factor = 0.05
+					stability_factor = -0.025
+			}
+		removal_cost = -1
+		picture = generic_army_war_college
+	}
+	
+	POR_integrated_paramilitary	 = {
+		allowed = {always = no}
+		modifier = {
+					conscription = 0.005
+					war_support_factor = 0.05
+					army_org_Factor = -0.05
+			}
+		removal_cost = -1
+		picture = generic_reserve_divisions
+	}
+	
+	POR_decentralization_1	 = {
+		allowed = {always = no}
+		modifier = {
+					political_power_gain = -0.15
+					stability_factor = 0.05
+					war_support_factor = 0.05
+			}
+		removal_cost = -1
+		picture = prc_low_popular_support3
+	}
+	
+	POR_decentralization_2	 = {
+		allowed = {always = no}
+		modifier = {
+					political_power_gain = -0.10
+					stability_factor = 0.10
+					war_support_factor = 0.10
+			}
+		removal_cost = -1
+		picture = prc_low_popular_support2
+	}
+	
+	POR_decentralization_3	 = {
+		allowed = {always = no}
+		modifier = {
+					political_power_gain = -0.05
+					stability_factor = 0.15
+					war_support_factor = 0.15
+			}
+		removal_cost = -1
+		picture = prc_low_popular_support
+	}
+	
+	POR_united_commune	 = {
+		allowed = {always = no}
+		modifier = {
+					conscription = 0.01
+					stability_factor = 0.20
+					war_support_factor = 0.20
+			}
+		removal_cost = -1
+		picture = socialist_science_focus
 	}
 }
 

@@ -29,6 +29,7 @@ focus_tree = {
 		}
 		completion_reward = {	
 		add_political_power = 100
+		add_ideas = POR_a_triumphant_republic
 		}
 	}
 	
@@ -47,14 +48,13 @@ focus_tree = {
 		}
 		x = 3
 		y = 1
-		cost = 10
+		cost = 1
 		ai_will_do = {
 					factor = 100
 		}
 		completion_reward = {	
-		add_political_power = 60	
-		add_ideas = POR_kingpath
-		country_event = { id = por.313 }
+		add_political_power = -10
+		country_event = { id = por.6 }
 		}
 	}
 	
@@ -65,9 +65,9 @@ focus_tree = {
 		prerequisite = { focus = POR_communist_coup }
 		x = -2
 		y = 1
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
-        add_ideas = POR_burden_or_civilization		
+        add_ideas = POR_collectivize
 		}
 	}
 			focus = {
@@ -77,9 +77,9 @@ focus_tree = {
 		prerequisite = { focus = POR_collectivization }
 		x = -2
 		y = 2
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
-		add_ideas = POR_tarrafall
+		add_ideas = POR_imprison
 		}
 	}
 	
@@ -90,9 +90,9 @@ focus_tree = {
 		prerequisite = { focus = POR_imprison_agitators }
 		x = -2
 		y = 3
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
-		add_ideas = POR_royal_edictos
+		add_ideas = POR_integrated_unions
 		}
 	}
 	
@@ -103,9 +103,16 @@ focus_tree = {
 		prerequisite = { focus = POR_integrate_unions }		
 		x = -2
 		y = 4
-		cost = 10
-		completion_reward = {	
-		add_ideas = PORder_moderador	
+		cost = 8.6
+		completion_reward = {
+		custom_effect_tooltip = POR_outlaw_moderates_tt
+			hidden_effect = {
+			set_country_flag = social_democrat_banned
+			add_popularity = {
+				ideology = social_democrat popularity = -0.10
+			}
+			}
+		add_political_power = -40
 		}
 	}
 	
@@ -116,20 +123,9 @@ focus_tree = {
 		prerequisite = { focus = POR_communist_coup } 
 		x = 0
 		y = 1
-		cost = 10
-		completion_reward = {	
-			set_country_flag = totalist_banned
-			set_country_flag = syndicalist_banned
-			set_country_flag = radical_socialist_banned
-			add_popularity = {
-				ideology = radical_socialist popularity = -0.10
-			}
-			add_popularity = {
-				ideology = totalist popularity = -0.10
-			}
-			add_popularity = {
-				ideology = syndicalist popularity = -0.10
-			}		
+		cost = 8.6
+		completion_reward = {
+		add_ideas = POR_military_youth
 		}
 	}
 	
@@ -140,20 +136,9 @@ focus_tree = {
 		prerequisite = { focus = POR_mandatory_youth_service } 
 		x = 0
 		y = 2
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
-			set_country_flag = totalist_banned
-			set_country_flag = syndicalist_banned
-			set_country_flag = radical_socialist_banned
-			add_popularity = {
-				ideology = radical_socialist popularity = -0.10
-			}
-			add_popularity = {
-				ideology = totalist popularity = -0.10
-			}
-			add_popularity = {
-				ideology = syndicalist popularity = -0.10
-			}		
+			add_ideas = POR_integrated_paramilitary		
 		}
 	}
 	
@@ -164,20 +149,10 @@ focus_tree = {
 		prerequisite = { focus = POR_integrate_paramilitaries } 
 		x = 0
 		y = 3
-		cost = 10
-		completion_reward = {	
-			set_country_flag = totalist_banned
-			set_country_flag = syndicalist_banned
-			set_country_flag = radical_socialist_banned
-			add_popularity = {
-				ideology = radical_socialist popularity = -0.10
-			}
-			add_popularity = {
-				ideology = totalist popularity = -0.10
-			}
-			add_popularity = {
-				ideology = syndicalist popularity = -0.10
-			}		
+		cost = 8.6
+		completion_reward = {
+			custom_effect_tooltip = POR_purge_tt
+		    country_event = { id = por.7 }
 		}
 	}
 	
@@ -188,24 +163,25 @@ focus_tree = {
 		prerequisite = { focus = POR_purge_traitors } 
 		x = 0
 		y = 4
-		cost = 10
-		completion_reward = {	
-		set_country_flag = social_liberal_banned
-		set_country_flag = social_conservative_banned
-		set_country_flag = market_liberal_banned
-		set_country_flag = social_democrat_banned
-			add_popularity = {
-				ideology = social_democrat popularity = -0.10
+		cost = 8.6
+		completion_reward = {
+			custom_effect_tooltip = POR_banned_republicans_tt
+			add_political_power = -20
+			hidden_effect = {
+				set_country_flag = social_democrat_banned
+				set_country_flag = social_liberal_banned
+				set_country_flag = liberal_conservative_banned
+				set_country_flag = social_conservative_banned
+				add_popularity = {
+					ideology = social_democrat popularity = -0.05
+				}
+				add_popularity = {
+					ideology = social_liberal popularity = -0.05
+				}
+				add_popularity = {
+					ideology = liberal_conservative popularity = -0.05
+				}	
 			}
-			add_popularity = {
-				ideology = market_liberal popularity = -0.10
-			}
-			add_popularity = {
-				ideology = social_conservative popularity = -0.10
-			}
-           add_popularity = {
-				ideology = social_liberal popularity = -0.10
-			}			
 		}
 	}
 	
@@ -216,10 +192,9 @@ focus_tree = {
 		prerequisite = { focus = POR_communist_coup }
 		x = 2
 		y = 1	
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
-		navy_experience = 15
-        army_experience = 15		
+			add_ideas = POR_decentralization_1
 		}
 	}
 	
@@ -230,9 +205,9 @@ focus_tree = {
 		prerequisite = { focus = POR_one_country }
 		x = 2
 		y = 2
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
-		army_experience = 15	
+			country_event = por.8
 		}
 	}
 	
@@ -243,12 +218,11 @@ focus_tree = {
 		prerequisite = { focus = POR_deploy_police }
 		x = 2
 		y = 3
-		cost = 10
-		completion_reward = {	
-		add_tech_bonus = {
-				bonus = 0.5
-				uses = 1
-				category = naval_doctrine
+		cost = 8.6
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = POR_decentralization_1
+				add_idea = POR_decentralization_2
 			}
 		}
 	}
@@ -260,9 +234,13 @@ focus_tree = {
 		prerequisite = { focus = POR_consolidate_committee }
 		x = 2
 		y = 4
-		cost = 10
-		completion_reward = {	
-		add_political_power = 100	
+		cost = 8.6
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = POR_decentralization_2
+				add_idea = POR_decentralization_3
+			}
+			add_political_power = 50
 		}
 	}	
 	
@@ -277,8 +255,11 @@ focus_tree = {
 		y = 5
 		cost = 8.6
 		completion_reward = {	
+		swap_ideas = {
+			remove_idea = POR_decentralization_3
+			add_idea = POR_united_commune	
+		}
 		add_political_power = 100
-        add_ideas = POR_unlimited_powa	
 		}
 	}
 
@@ -853,7 +834,7 @@ focus_tree = {
 		}
 		x = 15
 		y = 0
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		navy_experience = 30
 		}
@@ -865,7 +846,7 @@ focus_tree = {
 		prerequisite = { focus = POR_navy } 
 		x = 17
 		y = 1
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		random_owned_state = {
 					limit = {
@@ -892,7 +873,7 @@ focus_tree = {
 		prerequisite = { focus = POR_dockyard } 		
 		x = 17
 		y = 2
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		random_owned_state = {
 					limit = {
@@ -919,7 +900,7 @@ focus_tree = {
 		prerequisite = { focus = POR_dockyard2 } 		
 		x = 17
 		y = 3
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		random_owned_state = {
 					limit = {
@@ -947,7 +928,7 @@ focus_tree = {
         mutually_exclusive = { focus = POR_backfoot_armada }				
 		x = 15
 		y = 1
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 				random_owned_state = {
 					limit = {
@@ -974,7 +955,7 @@ focus_tree = {
 		prerequisite = { focus = POR_capital_shipyrds}				
 		x = 15
 		y = 2
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_tech_bonus = {
 				name = fleet_in_being_bonus
@@ -991,7 +972,7 @@ focus_tree = {
 		prerequisite = { focus = POR_blueprints }				
 		x = 15
 		y = 3
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 					navy_experience = 25
 			add_tech_bonus = {
@@ -1016,7 +997,7 @@ focus_tree = {
         mutually_exclusive = { focus = POR_capital_shipyrds }		
 		x = 13
 		y = 1
-		cost = 10
+		cost = 8.6
 		completion_reward = {
       add_tech_bonus= {	
 		name = sub_op_bonus
@@ -1037,7 +1018,7 @@ focus_tree = {
 		prerequisite = { focus = POR_backfoot_armada }				
 		x = 13
 		y = 2
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_tech_bonus = {
 				name = cr_bonus
@@ -1058,7 +1039,7 @@ focus_tree = {
 		prerequisite = { focus = POR_escort_effort }				
 		x = 13
 		y = 3
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_tech_bonus = {
 				name = dd_bonus
@@ -1078,7 +1059,7 @@ focus_tree = {
 		icon = GFX_goal_generic_production
 		x = 33
 		y = 0
-		cost = 10
+		cost = 8.6
 		available = {
 			OR = {
 				has_country_flag = POR_civil_war_over
@@ -1101,7 +1082,7 @@ focus_tree = {
 		prerequisite = { focus = POR_economic } 		
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_tech_bonus = {
 				name = industrial_bonus
@@ -1119,7 +1100,7 @@ focus_tree = {
 		prerequisite = { focus = POR_economic } 		
 		x = 2
 		y = 1
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_political_power = 45	
 		}
@@ -1132,7 +1113,7 @@ focus_tree = {
 		prerequisite = { focus = POR_economic } 		
 		x = -2
 		y = 1
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_political_power = 45	
 		}
@@ -1145,7 +1126,7 @@ focus_tree = {
 		prerequisite = { focus = POR_military_industry } 		
 		x = -2
 		y = 2
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		random_owned_state = {
 				limit = {
@@ -1187,7 +1168,7 @@ focus_tree = {
 		prerequisite = { focus = POR_guns } 		
 		x = -2
 		y = 3
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 				add_tech_bonus = {
 				name = infantry_weapons_bonus
@@ -1205,7 +1186,7 @@ focus_tree = {
 		relative_position_id = POR_economic
 		x = -2
 		y = 4
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		random_owned_state = {
 				limit = {
@@ -1247,7 +1228,7 @@ focus_tree = {
 		relative_position_id = POR_economic		
 		x = -2
 		y = 5
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		random_owned_state = {
 				limit = {
@@ -1289,7 +1270,7 @@ focus_tree = {
 		prerequisite = { focus = POR_investments } 		
 		x = 0
 		y = 2
-		cost = 10
+		cost = 8.6
 		completion_reward = {
 		swap_ideas = {
 			add_idea = POR_partial_recovery
@@ -1305,7 +1286,7 @@ focus_tree = {
 		prerequisite = { focus = POR_econimical_recovery } 		
 		x = 0
 		y = 3
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 					add_tech_bonus = {
 				name = industrial_bonus
@@ -1323,7 +1304,7 @@ focus_tree = {
 		prerequisite = { focus = POR_focus_shift } 		
 		x = 0
 		y = 4
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		random_owned_state = {
 				limit = {
@@ -1365,7 +1346,7 @@ focus_tree = {
 		prerequisite = { focus = POR_civfac } 		
 		x = 0
 		y = 5
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		random_owned_state = {
 				limit = {
@@ -1409,7 +1390,7 @@ focus_tree = {
 		prerequisite = { focus = POR_milfac2 } 
 		x = 0
 		y = 6
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_research_slot = 1	
 		}
@@ -1422,7 +1403,7 @@ focus_tree = {
 		prerequisite = { focus = POR_not_again } 		
 		x = 2
 		y = 2
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		random_owned_state = {
 				limit = {
@@ -1488,7 +1469,7 @@ focus_tree = {
 		prerequisite = { focus = POR_railwaya } 		
 		x = 2
 		y = 3
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		random_owned_state = {
 				limit = {
@@ -1530,7 +1511,7 @@ focus_tree = {
 		prerequisite = { focus = POR_construction } 		
 		x = 2
 		y = 4
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		112 = {
 				add_building_construction = {
@@ -1550,7 +1531,7 @@ focus_tree = {
 		prerequisite = { focus = POR_naval_supply } 		
 		x = 2
 		y = 5
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		random_owned_state = {
 				limit = {
@@ -1619,7 +1600,7 @@ focus_tree = {
 		}
 		x = 27
 		y = 0
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		army_experience = 20	
 		}
@@ -1632,7 +1613,7 @@ focus_tree = {
 		prerequisite = { focus = POR_army } 		
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		random_owned_state = {
 				limit = {
@@ -1674,7 +1655,7 @@ focus_tree = {
 		prerequisite = { focus = POR_mic } 		
 		x = 0
 		y = 2
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		random_state = {
 					limit = {
@@ -1702,7 +1683,7 @@ focus_tree = {
 		prerequisite = { focus = POR_buildnavapower} 		
 		x = 0
 		y = 3
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_tech_bonus = {
 				name = land_doc_bonus
@@ -1720,7 +1701,7 @@ focus_tree = {
 		prerequisite = { focus = POR_miltech} 		
 		x = 0
 		y = 4
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		random_owned_state = {
 				limit = {
@@ -1762,7 +1743,7 @@ focus_tree = {
 		prerequisite = { focus = POR_milindu } 		
 		x = 0
 		y = 5
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_ideas = POR_milprod	
 		}
@@ -1775,7 +1756,7 @@ focus_tree = {
 		prerequisite = { focus = POR_artillerybattalion} 		
 		x = 2
 		y = 4
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		112 = {
 				add_building_construction = {
@@ -1807,7 +1788,7 @@ focus_tree = {
 		prerequisite = { focus = POR_prodeff focus = POR_support_squads focus = POR_spotter_squads } 		
 		x = 0
 		y = 6
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		random_owned_state = {
 				limit = {
@@ -1849,7 +1830,7 @@ focus_tree = {
 		prerequisite = { focus = POR_army } 		
 		x = 2
 		y = 1
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 				add_tech_bonus = {
 				name = infantry_weapons_bonus
@@ -1867,7 +1848,7 @@ focus_tree = {
 		prerequisite = { focus = POR_infeq } 		
 		x = 2
 		y = 2
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_ideas = POR_trainingi	
 		}
@@ -1880,7 +1861,7 @@ focus_tree = {
 		prerequisite = { focus = POR_training } 		
 		x = 2
 		y = 3
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_tech_bonus = {
 				name = infantry_weapons_bonus
@@ -1899,7 +1880,7 @@ focus_tree = {
 		prerequisite = { focus = POR_linha_vedras } 		
 		x = 2
 		y = 5
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 						add_tech_bonus = {
 				name = infantry_weapons_bonus
@@ -1919,7 +1900,7 @@ focus_tree = {
 		prerequisite = { focus = POR_army } 		
 		x = -2
 		y = 1
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_ideas = POR_knights	
 		}
@@ -1932,7 +1913,7 @@ focus_tree = {
 		prerequisite = { focus = POR_knights } 		
 		x = -2
 		y = 2
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_tech_bonus = {
 				name = motorized_bonus
@@ -1950,7 +1931,7 @@ focus_tree = {
 		relative_position_id = POR_army		
 		x = -2
 		y = 3
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_tech_bonus = {
 				name = armor_bonus
@@ -1968,7 +1949,7 @@ focus_tree = {
 		relative_position_id = POR_army		
 		x = -2
 		y = 4
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 				add_tech_bonus = {
 				name = armor_bonus
@@ -1986,7 +1967,7 @@ focus_tree = {
 		prerequisite = { focus = POR_tankarmy } 		
 		x = -2
 		y = 5
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 				add_tech_bonus = {
 				name = infantry_weapons_bonus
@@ -2007,7 +1988,7 @@ focus_tree = {
 		}
 		x = 21
 		y = 0
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 					if = {
 				limit = {
@@ -2067,7 +2048,7 @@ focus_tree = {
 		relative_position_id = POR_airforce
 		x = -2
 		y = 1
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_tech_bonus = {
 				name = fighter_bonus
@@ -2089,7 +2070,7 @@ focus_tree = {
 		relative_position_id = POR_airforce		
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8.6
 		completion_reward = {
 		add_tech_bonus = {		
 			name = bomber_bonus
@@ -2108,7 +2089,7 @@ focus_tree = {
 		prerequisite = { focus = POR_air_superiority } 		
 		x = -2
 		y = 2
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 				add_tech_bonus = {
 				name = fighter_bonus
@@ -2128,7 +2109,7 @@ focus_tree = {
 		prerequisite = { focus = POR_bomber } 		
 		x = 0
 		y = 2
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_tech_bonus = {
 				name = CAS_bonus
@@ -2147,7 +2128,7 @@ focus_tree = {
 		prerequisite = { focus = POR_fighterefforto } 		
 		x = -2
 		y = 3
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
         add_tech_bonus = {
 				name = air_doc_bonus
@@ -2165,7 +2146,7 @@ focus_tree = {
 		relative_position_id = POR_airforce
 		x = 0
 		y = 3
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		 add_tech_bonus = {
 			name = bomber_bonus
@@ -2186,7 +2167,7 @@ focus_tree = {
 		prerequisite = { focus = POR_airforce } 		
 		x = 2
 		y = 1
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		add_tech_bonus = {
 				name = CAS_bonus
@@ -2205,7 +2186,7 @@ focus_tree = {
 		prerequisite = { focus = POR_all_around } 		
 		x = 2
 		y = 2
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
         add_tech_bonus = {
 				name = air_doc_bonus
@@ -2223,7 +2204,7 @@ focus_tree = {
 		relative_position_id = POR_airforce
 		x = 2
 		y = 3
-		cost = 10
+		cost = 8.6
 		completion_reward = {	
 		 add_tech_bonus = {
 			name = bomber_bonus

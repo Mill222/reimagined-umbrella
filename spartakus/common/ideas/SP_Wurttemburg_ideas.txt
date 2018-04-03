@@ -1,4 +1,4 @@
-### WURman Ideas
+### Baden-Wurttemberg Ideas
 ideas = {
     ##############
     # Country ideas

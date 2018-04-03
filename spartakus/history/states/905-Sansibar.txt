@@ -5,8 +5,8 @@ state={
 	state_category = pastoral
 	
 	history={
-		owner = MAF
-		add_core_of = MAF
+		owner = ZAN
+		add_core_of = ZAN
 		buildings = {
 			infrastructure = 3
 			13551 = {

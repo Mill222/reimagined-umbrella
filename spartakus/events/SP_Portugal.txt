@@ -19,6 +19,8 @@ country_event = {
 	}
 }
 
+# Civil War
+
 country_event = {
 	id = por.2
 	title = por.2.t
@@ -112,7 +114,9 @@ country_event = { # End of the Civil War
 	}
 }
 
-country_event = { # Communist Coup
+#Political
+
+country_event = { # Coup Attempt
 	id = por.5
 	title = por.5.t
 	desc = por.5.d
