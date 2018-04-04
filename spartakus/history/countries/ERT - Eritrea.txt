@@ -24,35 +24,41 @@ set_cosmetic_tag = ERT_ITA
 set_politics = {
 
 	parties = {
-		totalist = {
+		marxist_leninist = {
 			popularity = 0
 		}
-		radical_socialist = {
-			popularity = 1
-		}
-		syndicalist = {
+		libertarian_marxist = {
 			popularity = 0
 		}
-		social_democrat = { 
-			popularity = 1
+		revolutionary_socialist = {
+			popularity = 0
 		}
-		social_liberal = { 
-			popularity = 6
+		democratic_socialist = {
+			popularity = 0
 		}
-		market_liberal = { 
-			popularity = 11
+		social_democrat = {
+			popularity = 0
 		}
-		social_conservative = { 
-			popularity = 15
+		social_liberal = {
+			popularity = 0
 		}
-		authoritarian_democrat = { 
-			popularity = 47
+		liberal_conservative = {
+			popularity = 0
 		}
-		paternal_autocrat = { 
-			popularity = 16
+		social_conservative = {
+			popularity = 0
 		}
-		national_populist = {
-			popularity = 3
+		authoritarian_democrat = {
+		    popularity = 100
+		}
+		right_wing_populist = {
+			popularity = 0
+		}
+		national_syndicalist = {
+			popularity = 0
+		}
+		corporatist_fascist = {
+			popularity = 0
 		}
 	}
 	
@@ -60,11 +66,7 @@ set_politics = {
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
+
 }
 
 set_convoys = 30
-
-add_ideas = {
-#medium_economy
-
-}

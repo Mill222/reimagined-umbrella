@@ -65,16 +65,13 @@ country_event = {
 	option = {
 		name = por.3.a
 		set_country_flag = POR_civil_war_check
-		custom_effect_tooltip = POR_militias1
+		custom_effect_tooltip = POR_militias_tt
 		declare_war_on = {
 		target = PRM
 		type = annex_everything 
 		}
 		hidden_effect = {
 			load_oob = POR_militias1
-		}
-		ai_chance = {
-			factor = 100
 		}
 	}
 }
@@ -135,6 +132,9 @@ country_event = { # Coup Attempt
 		add_popularity = {
 			ideology = marxist_leninist popularity = -0.05
 		}
+		ai_chance = {
+			factor = 80
+		}
 	}
 	option = {
 		name = por.5.b
@@ -147,5 +147,357 @@ country_event = { # Coup Attempt
 		add_popularity = {
 			ideology = revolutionary_socialist popularity = -0.10
 		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+#Communist Events
+
+country_event = { # Communist Takeover
+	id = por.6
+	title = por.6.t
+	desc = por.6.d
+	picture = GFX_report_event_soviet_purge_trial
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.6.a
+		add_political_power = 10
+		add_popularity = {
+			ideology = marxist_leninist popularity = 0.05
+		}
+	}
+}
+
+country_event = { # Purge Start
+	id = por.7
+	title = por.7.t
+	desc = por.7.d
+	picture = GFX_report_event_soviet_purge_trial
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.7.a
+		custom_effect_tooltip = POR_purge_tt
+		add_political_power = -10
+		hidden_effect = {
+			POR = {
+				country_event = { days = 30 id = prm.8 }
+			}
+		}
+	}
+}
+
+country_event = { # Purging Moderates
+	id = por.8
+	title = por.8.t
+	desc = por.8.d
+	picture = GFX_report_event_soviet_purge_trial
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.8.a
+		custom_effect_tooltip = POR_purge_moderates_tt
+		set_country_flag = POR_moderates_purged
+		add_political_power = -20
+		hidden_effect = {
+			POR = {
+				country_event = { days = 30 id = prm.9 }
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+	
+	option = {
+		name = por.8.b
+		custom_effect_tooltip = POR_skip_purge_tt
+		add_political_power = -10
+		set_country_flag = POR_halted_purge
+		hidden_effect = {
+			POR = {
+				country_event = { days = 30 id = prm.9 }
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	
+	option = {
+		name = por.8.c
+		custom_effect_tooltip = POR_end_purge_tt
+		add_political_power = 10
+		set_country_flag = POR_halted_purge
+		hidden_effect = {
+			POR = {
+				country_event = { days = 30 id = prm.13 }
+			}
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+country_event = { # Purge Democratic Socialists
+	id = por.9
+	title = por.9.t
+	desc = por.9.d
+	picture = GFX_report_event_soviet_purge_trial
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.9.a
+		custom_effect_tooltip = POR_purge_demsoc_tt
+		set_country_flag = POR_demsoc_purged
+		add_political_power = -40
+		hidden_effect = {
+			POR = {
+				country_event = { days = 30 id = prm.10 }
+			}
+		}
+		ai_chance = {
+			factor = 60
+		}
+	}
+	
+	option = {
+		name = por.9.b
+		custom_effect_tooltip = POR_skip_purge_tt
+		add_political_power = -10
+		set_country_flag = POR_halted_purge
+		hidden_effect = {
+			POR = {
+				country_event = { days = 30 id = prm.10 }
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	
+	option = {
+		name = por.9.c
+		custom_effect_tooltip = POR_end_purge_tt
+		add_political_power = 10
+		set_country_flag = POR_halted_purge
+		hidden_effect = {
+			POR = {
+				country_event = { days = 30 id = prm.13 }
+			}
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+}
+
+country_event = { # Purge Revolutionary Socialists
+	id = por.10
+	title = por.10.t
+	desc = por.10.d
+	picture = GFX_report_event_soviet_purge_trial
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.10.a
+		custom_effect_tooltip = POR_purge_revsoc_tt
+		set_country_flag = POR_revsoc_purged
+		add_political_power = -40
+		hidden_effect = {
+			POR = {
+				country_event = { days = 30 id = prm.11 }
+			}
+		}
+		ai_chance = {
+			factor = 60
+		}
+	}
+	
+	option = {
+		name = por.10.b
+		custom_effect_tooltip = POR_skip_purge_tt
+		add_political_power = -10
+		set_country_flag = POR_halted_purge
+		hidden_effect = {
+			POR = {
+				country_event = { days = 30 id = prm.11 }
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	
+	option = {
+		name = por.10.c
+		custom_effect_tooltip = POR_end_purge_tt
+		add_political_power = 10
+		set_country_flag = POR_halted_purge
+		hidden_effect = {
+			POR = {
+				country_event = { days = 30 id = prm.13 }
+			}
+		}
+		ai_chance = {
+			factor = 30
+		}
+	}
+}
+
+country_event = { # Purge Libertarian Marxists
+	id = por.11
+	title = por.11.t
+	desc = por.11.d
+	picture = GFX_report_event_soviet_purge_trial
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.11.a
+		custom_effect_tooltip = POR_purge_libmarx_tt
+		set_country_flag = POR_libmarx_purged
+		add_political_power = -60
+		hidden_effect = {
+			POR = {
+				country_event = { days = 30 id = prm.12 }
+			}
+		}
+		ai_chance = {
+			factor = 45
+		}
+	}
+	
+	option = {
+		name = por.11.b
+		custom_effect_tooltip = POR_skip_purge_tt
+		add_political_power = -10
+		set_country_flag = POR_halted_purge
+		hidden_effect = {
+			POR = {
+				country_event = { days = 30 id = prm.12 }
+			}
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+	
+	option = {
+		name = por.11.c
+		custom_effect_tooltip = POR_end_purge_tt
+		add_political_power = 10
+		set_country_flag = POR_halted_purge
+		hidden_effect = {
+			POR = {
+				country_event = { days = 30 id = prm.13 }
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { # Purge Disloyal Leninists
+	id = por.12
+	title = por.12.t
+	desc = por.12.d
+	picture = GFX_report_event_soviet_purge_trial
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.12.a
+		custom_effect_tooltip = POR_purge_disloyal_tt
+		set_country_flag = POR_disloyal_purged
+		add_political_power = -200
+		add_popularity = {
+			ideology = marxist_leninist popularity = 1.00
+		}
+		hidden_effect = {
+			POR = {
+				country_event = { days = 30 id = por.13 }
+			}
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+	
+	option = {
+		name = por.12.b
+		custom_effect_tooltip = POR_skip_purge_tt
+		add_political_power = 50
+		set_country_flag = POR_halted_purge
+		hidden_effect = {
+			POR = {
+				country_event = { days = 30 id = por.13 }
+			}
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+}
+
+country_event = { # Purge Ended
+	id = por.13
+	title = por.13.t
+	desc = por.13.d
+	picture = GFX_report_event_soviet_purge_trial
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.13.a
+		custom_effect_tooltip = POR_purge_complete_tt
+		set_country_flag = POR_purge_complete
+		add_popularity = {
+			ideology = marxist_leninist popularity = 0.05
+		}
+	}
+}
+
+country_event = { # Deploying Police
+	id = por.14
+	title = por.14.t
+	desc = por.14.d
+	picture = GFX_report_event_soviet_purge_trial
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.14.a
+		custom_effect_tooltip = POR_deploy_perm_tt
+		set_country_flag = POR_deployed_police_perm
+		add_political_power = -100
+		add_ideas = POR_police_north
+	}
+	
+	option = {
+		name = por.14.b
+		custom_effect_tooltip = POR_deploy_temp_tt
+		set_country_flag = POR_deployed_police_temp
+		add_political_power = -25
+		add_timed_idea = { idea = POR_police_north days = 160 }
 	}
 }

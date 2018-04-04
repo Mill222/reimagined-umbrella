@@ -34,44 +34,50 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		totalist = {
+		marxist_leninist = {
 			popularity = 0
 		}
-		radical_socialist = {
+		libertarian_marxist = {
 			popularity = 0
 		}
-		syndicalist = {
+		revolutionary_socialist = {
+			popularity = 0
+		}
+		democratic_socialist = {
 			popularity = 0
 		}
 		social_democrat = {
-			popularity = 10
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 3
+			popularity = 0
 		}
-		market_liberal = {
-			popularity = 2
+		liberal_conservative = {
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 7
+			popularity = 0
 		}
 		authoritarian_democrat = {
-			popularity = 62
+		    popularity = 100
 		}
-		paternal_autocrat = {
-			popularity = 12
+		right_wing_populist = {
+			popularity = 0
 		}
-		national_populist = {
-			popularity = 4
+		national_syndicalist = {
+			popularity = 0
+		}
+		corporatist_fascist = {
+			popularity = 0
 		}
 	}
 	
 	ruling_party = authoritarian_democrat
-	last_election = "1934.3.8"
+	last_election = "1888.15.6"
 	election_frequency = 48
-	elections_allowed = yes
-}
+	elections_allowed = no
 
+}
 
 
 set_national_unity = 0.50

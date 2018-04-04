@@ -40,6 +40,18 @@ country = {
 		picture = FRA_scw_intervention_republicans_focus
 	}
 	
+	#General Political
+	
+	POR_a_triumphant_nation	 = {
+		allowed = {always = no}
+		modifier = {
+					stability_factor = 0.10
+			}
+		removal_cost = -1
+		picture = generic_pp_unity_bonus
+	}
+	
+	#Communist Coup
 	POR_collectivize = {
 		allowed = {always = no}
 		modifier = {
@@ -137,6 +149,17 @@ country = {
 			}
 		removal_cost = -1
 		picture = socialist_science_focus
+	}
+	
+	POR_police_north	 = {
+		allowed = {always = no}
+		modifier = {
+					political_power_gain = -0.05
+					conscription = -0.005
+					stability_factor = 0.10
+			}
+		removal_cost = -1
+		picture = FRA_scw_intervention_nationalists_focus
 	}
 }
 

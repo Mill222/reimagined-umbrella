@@ -8,9 +8,8 @@ state={
 	}
 	
 	history={
-		owner = SAU
-		add_core_of=SAU
-		add_claim_by=PER
+		owner =BAH
+		add_core_of=BAH
 		buildings={
 			infrastructure=3
 			13552={

@@ -22,86 +22,20 @@ set_technology = {
 	early_bomber = 1
 }
 
-country_event = {
-	id = fengtian.new.151
-	days = 2
-}
-
-country_event = {
-	id = fengtian.new.124
-	days = 28
-}
-
-country_event = {
-	id = fengtian.new.173
-	days = 266
-}
-
-country_event = {
-	id = fngpolitic.0
-	days = 50
-}
-
-add_opinion_modifier = { target = GER modifier = embargo }
-add_opinion_modifier = { target = AOG modifier = embargo }
-add_opinion_modifier = { target = SQI modifier = embargo }
-add_opinion_modifier = { target = QIE modifier = embargo }
-add_opinion_modifier = { target = TRM modifier = FNG_COMMON_ALIGNMENT }
-diplomatic_relation = { country = TRM relation = non_aggression_pact }
-
-create_import = {
-	resource = tungsten
-	factories = 1
-	exporter = JAP
-}
-
-add_political_power = -52
-
-add_equipment_to_stockpile = { 
-	type = gw_tank_equipment 
-	amount = 64
-	producer = JAP
-}
-add_equipment_to_stockpile = { 
-	type = infantry_equipment_0
-	amount = 7000
-	producer = FNG
-}
-add_equipment_to_stockpile = { 
-	type = infantry_equipment_0
-	amount = 5000
-	producer = JAP
-}
-add_equipment_to_stockpile = {
-	type = artillery_equipment_1
-	amount = 250
-	producer = FNG
-}
-add_equipment_to_stockpile = {
-	type = artillery_equipment_1
-	amount = 150
-	producer = JAP
-}
-add_equipment_to_stockpile = {
-	type = support_equipment_1
-	amount = 200
-	producer = JAP
-}
-
 set_politics = {
 
 	parties = {
-		totalist = {
+		marxist_leninist = {
 			popularity = 0
-			banned = yes
 		}
-		radical_socialist = {
+		libertarian_marxist = {
 			popularity = 0
-			banned = yes
 		}
-		syndicalist = {
+		revolutionary_socialist = {
 			popularity = 0
-			banned = yes
+		}
+		democratic_socialist = {
+			popularity = 0
 		}
 		social_democrat = {
 			popularity = 0
@@ -109,59 +43,34 @@ set_politics = {
 		social_liberal = {
 			popularity = 0
 		}
-		market_liberal = {
-			popularity = 14
+		liberal_conservative = {
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 18
+			popularity = 0
 		}
 		authoritarian_democrat = {
-			popularity = 40
+		    popularity = 100
 		}
-		paternal_autocrat = {
-			popularity = 28
-		}
-		national_populist = {
+		right_wing_populist = {
 			popularity = 0
-			banned = yes
+		}
+		national_syndicalist = {
+			popularity = 0
+		}
+		corporatist_fascist = {
+			popularity = 0
 		}
 	}
 	
 	ruling_party = authoritarian_democrat
-	last_election = "1930.11.9"
+	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
+
 }
 
 add_ideas = { 
-	### Stability Level
-	low_stability
-	### Popularity Level
-	low_popularity
-	### Economy Law
-	#medium_economy
-	### Conscription Law
-	limited_conscription
-	### Head of Government
-	FNG_Huang_Fu_hog_ade
-	### Foreign Minister
-  	FNG_Wu_Jinglian_for_ade
-	### Eco minister
- 	FNG_Pan_Fu_eco_ade
-	### Security Minister
-  	FNG_Yuan_Jinkai_sec_pau
-	### Intel Minister
-	FNG_Zang_Shiyi_int_pau
-	### Backward Industry
-	FNG_Backward_Industry
-	### Unscrupulous_Governance
-	FNG_Unscrupulous_Governance
-	### Investment Dearth
-	FNG_Investment_Dearth
-	### Japanese Military Mission
-	FNG_Japanese_Military_Mission
-	### Preservation of the Xinhai Order
-	FNG_informal_empire_2
 }
 
 create_country_leader = {

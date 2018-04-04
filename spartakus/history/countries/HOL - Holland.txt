@@ -30,23 +30,49 @@ set_autonomy = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 93
+		marxist_leninist = {
+			popularity = 0
 		}
-
-		fascism = {
-			popularity = 4
+		libertarian_marxist = {
+			popularity = 0
 		}
-		
-		communism = {
-			popularity = 3
+		revolutionary_socialist = {
+			popularity = 0
+		}
+		democratic_socialist = {
+			popularity = 0
+		}
+		social_democrat = {
+			popularity = 0
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		liberal_conservative = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 0
+		}
+		authoritarian_democrat = {
+		    popularity = 100
+		}
+		right_wing_populist = {
+			popularity = 0
+		}
+		national_syndicalist = {
+			popularity = 0
+		}
+		corporatist_fascist = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1933.4.26"
+	ruling_party = authoritarian_democrat
+	last_election = "1888.15.6"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+
 }
 
 set_convoys = 500

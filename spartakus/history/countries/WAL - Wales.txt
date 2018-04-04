@@ -41,42 +41,49 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		totalist = {
-			popularity = 2
+		marxist_leninist = {
+			popularity = 0
 		}
-		radical_socialist = {
-			popularity = 3
+		libertarian_marxist = {
+			popularity = 0
 		}
-		syndicalist = {
-			popularity = 5
+		revolutionary_socialist = {
+			popularity = 0
+		}
+		democratic_socialist = {
+			popularity = 0
 		}
 		social_democrat = {
-			popularity = 13
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 41
+			popularity = 0
 		}
-		market_liberal = {
-			popularity = 21
+		liberal_conservative = {
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 10
+			popularity = 0
 		}
 		authoritarian_democrat = {
-			popularity = 3
+		    popularity = 100
 		}
-		paternal_autocrat = {
-			popularity = 2
+		right_wing_populist = {
+			popularity = 0
 		}
-		national_populist = {
+		national_syndicalist = {
+			popularity = 0
+		}
+		corporatist_fascist = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = social_liberal
+	ruling_party = authoritarian_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
+
 }
 
 create_country_leader = {
@@ -84,20 +91,8 @@ create_country_leader = {
 	desc = "ENG_glais_desc"
 	picture = "Portrait_Wales_Niclas_y_Glais.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = revolutionary_socialist_subtype
 	traits = { }
-}
-
-add_ideas = { 
-	#medium_economy
-	### Head of Government
-	WAL_Huw_T_Edwards_hog_rso
-	### Foreign Minister
-  	WAL_Elizabeth_Andrews_for_rso
-	### Eco minister
- 	WAL_Nye_Bevan_eco_rso
-	### Security Minister
-		WAL_Ernest_Jones_sec_rso 	
 }
 
 ### Field Marshal

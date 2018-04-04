@@ -6,7 +6,8 @@ state={
 	state_category = rural
 	
 	history={
-		owner = ENG
+		owner = KUW
+		add_core_of=KUW
 		buildings = {
 			infrastructure = 4
 			8085 = {

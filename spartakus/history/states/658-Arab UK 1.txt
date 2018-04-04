@@ -4,8 +4,8 @@ state={
 	name="STATE_658"
 
 	history={
-		owner = SAU
-		add_core_of = SAU
+		owner = UAE
+		add_core_of = UAE
 		buildings = {
 			infrastructure = 2
 			7960 = {
