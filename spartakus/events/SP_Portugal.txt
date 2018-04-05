@@ -188,7 +188,7 @@ country_event = { # Purge Start
 		add_political_power = -10
 		hidden_effect = {
 			POR = {
-				country_event = { days = 30 id = prm.8 }
+				country_event = { days = 30 id = por.8 }
 			}
 		}
 	}
@@ -207,10 +207,10 @@ country_event = { # Purging Moderates
 		name = por.8.a
 		custom_effect_tooltip = POR_purge_moderates_tt
 		set_country_flag = POR_moderates_purged
-		add_political_power = -20
+		add_political_power = -25
 		hidden_effect = {
 			POR = {
-				country_event = { days = 30 id = prm.9 }
+				country_event = { days = 30 id = por.9 }
 			}
 		}
 		ai_chance = {
@@ -225,7 +225,7 @@ country_event = { # Purging Moderates
 		set_country_flag = POR_halted_purge
 		hidden_effect = {
 			POR = {
-				country_event = { days = 30 id = prm.9 }
+				country_event = { days = 30 id = por.9 }
 			}
 		}
 		ai_chance = {
@@ -240,7 +240,7 @@ country_event = { # Purging Moderates
 		set_country_flag = POR_halted_purge
 		hidden_effect = {
 			POR = {
-				country_event = { days = 30 id = prm.13 }
+				country_event = { days = 30 id = por.13 }
 			}
 		}
 		ai_chance = {
@@ -262,10 +262,10 @@ country_event = { # Purge Democratic Socialists
 		name = por.9.a
 		custom_effect_tooltip = POR_purge_demsoc_tt
 		set_country_flag = POR_demsoc_purged
-		add_political_power = -40
+		add_political_power = -50
 		hidden_effect = {
 			POR = {
-				country_event = { days = 30 id = prm.10 }
+				country_event = { days = 30 id = por.10 }
 			}
 		}
 		ai_chance = {
@@ -280,7 +280,7 @@ country_event = { # Purge Democratic Socialists
 		set_country_flag = POR_halted_purge
 		hidden_effect = {
 			POR = {
-				country_event = { days = 30 id = prm.10 }
+				country_event = { days = 30 id = por.10 }
 			}
 		}
 		ai_chance = {
@@ -295,7 +295,7 @@ country_event = { # Purge Democratic Socialists
 		set_country_flag = POR_halted_purge
 		hidden_effect = {
 			POR = {
-				country_event = { days = 30 id = prm.13 }
+				country_event = { days = 30 id = por.13 }
 			}
 		}
 		ai_chance = {
@@ -317,10 +317,10 @@ country_event = { # Purge Revolutionary Socialists
 		name = por.10.a
 		custom_effect_tooltip = POR_purge_revsoc_tt
 		set_country_flag = POR_revsoc_purged
-		add_political_power = -40
+		add_political_power = -75
 		hidden_effect = {
 			POR = {
-				country_event = { days = 30 id = prm.11 }
+				country_event = { days = 30 id = por.11 }
 			}
 		}
 		ai_chance = {
@@ -335,7 +335,7 @@ country_event = { # Purge Revolutionary Socialists
 		set_country_flag = POR_halted_purge
 		hidden_effect = {
 			POR = {
-				country_event = { days = 30 id = prm.11 }
+				country_event = { days = 30 id = por.11 }
 			}
 		}
 		ai_chance = {
@@ -350,7 +350,7 @@ country_event = { # Purge Revolutionary Socialists
 		set_country_flag = POR_halted_purge
 		hidden_effect = {
 			POR = {
-				country_event = { days = 30 id = prm.13 }
+				country_event = { days = 30 id = por.13 }
 			}
 		}
 		ai_chance = {
@@ -372,10 +372,10 @@ country_event = { # Purge Libertarian Marxists
 		name = por.11.a
 		custom_effect_tooltip = POR_purge_libmarx_tt
 		set_country_flag = POR_libmarx_purged
-		add_political_power = -60
+		add_political_power = -100
 		hidden_effect = {
 			POR = {
-				country_event = { days = 30 id = prm.12 }
+				country_event = { days = 30 id = por.12 }
 			}
 		}
 		ai_chance = {
@@ -390,7 +390,7 @@ country_event = { # Purge Libertarian Marxists
 		set_country_flag = POR_halted_purge
 		hidden_effect = {
 			POR = {
-				country_event = { days = 30 id = prm.12 }
+				country_event = { days = 30 id = por.12 }
 			}
 		}
 		ai_chance = {
@@ -405,7 +405,7 @@ country_event = { # Purge Libertarian Marxists
 		set_country_flag = POR_halted_purge
 		hidden_effect = {
 			POR = {
-				country_event = { days = 30 id = prm.13 }
+				country_event = { days = 30 id = por.13 }
 			}
 		}
 		ai_chance = {

@@ -20,7 +20,9 @@ ConstantBuffer( 0, 0 )
 	float3		AmbientNegX;
 	float		FOWFadeFactor;
 	float3		AmbientPosY;
+	float		MinMeshAlpha;
 	float3		AmbientNegY;
+	float		NegFogMultiplier;
 	float3		AmbientPosZ;
 	float3		AmbientNegZ;
 	float		CubemapIntensity;
