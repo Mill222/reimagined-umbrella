@@ -2,33 +2,36 @@
 state={
 	id=340
 	name="STATE_340"
-	manpower = 976527
 	resources={
-		chromium=54
+		chromium=54.000
 	}
-
-	state_category = town
 
 	history={
 		owner = TUR
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-			6864 = { # Dardanelles Naval Forts 1
+			6864 = {
 				coastal_bunker = 4
+
 			}
-			9887 = { # Dardanelles Naval Forts 2
+			9887 = {
 				coastal_bunker = 4
+
 			}
+
 		}
-		
 		victory_points = {
-			947 10
+			947 10 
 		}
 		add_core_of = TUR
+
 	}
 
 	provinces={
-		785 947 3786 6864 6912 9799 9887 11778 11867
+		785 947 3786 6864 6912 9799 9887 9921 11778 11867 
 	}
+	manpower=976527
+	buildings_max_level_factor=1.000
+	state_category=town
 }

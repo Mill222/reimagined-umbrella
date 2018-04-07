@@ -581,7 +581,7 @@ focus_tree = {
 	focus = {
 		id = POR_recovery
 		icon = GFX_goal_graveyard
-		x = 20
+		x = 10
 		y = 4
 		available = {
 			OR = {
@@ -702,8 +702,9 @@ focus_tree = {
 	focus = {
 		id = POR_diplomacy_a
 		icon = GFX_POR_flag
-		x = 10
-		y = 4
+		x = 0
+		y = 7
+		prerequisite = { focus = POR_a_united_commune focus = POR_a_triumphant_revolution }
 		available = {
 			OR = {
 				has_country_flag = POR_civil_war_over
@@ -745,6 +746,19 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = POR_german_tank_designs
+		icon = GFX_goal_support_communism
+		prerequisite = { focus = POR_join_united_front }
+		relative_position_id = POR_diplomacy_a
+		x = -1
+		y = 3
+		cost = 8.6
+		completion_reward = {	
+			
+		}
+	}
+	
+	focus = {
 		id = POR_align_with_soviet
 		icon = GFX_focus_chi_mission_to_the_soviet_union
 		prerequisite = { focus = POR_diplomacy_a }
@@ -768,6 +782,19 @@ focus_tree = {
 		cost = 8.6
 		completion_reward = {	
 		add_ideas = POR_organic_eco
+		}
+	}
+	
+	focus = {
+		id = POR_soviet_rifle_designs
+		icon = GFX_goal_support_fourth_int
+		prerequisite = { focus = POR_join_comintern }
+		relative_position_id = POR_diplomacy_a
+		x = -3
+		y = 3
+		cost = 8.6
+		completion_reward = {	
+		
 		}
 	}
 	
@@ -821,6 +848,20 @@ focus_tree = {
 		cost = 8.6
 		completion_reward = {	
 		add_ideas = POR_organic_eco
+		}
+	}
+	
+	focus = {
+		id = POR_diplo_research
+		icon = GFX_goal_HOL_council_communism
+		prerequisite = { focus = POR_alliance_with_spain focus = POR_alliance_with_italy focus = POR_alliance_with_brazil }
+		relative_position_id = POR_diplomacy_a
+		x = 3
+		y = 3
+		cost = 8.6
+		completion_reward = {	
+			add_to_tech_sharing_group = portugese_research_bloc
+			set_global_flag = POR_research_org
 		}
 	}
 
@@ -1598,7 +1639,7 @@ focus_tree = {
 				has_country_flag = POR_civil_war_over
 			}
 		}
-		x = 27
+		x = 23
 		y = 0
 		cost = 8.6
 		completion_reward = {	
@@ -1986,8 +2027,8 @@ focus_tree = {
 				has_country_flag = POR_civil_war_over
 			}
 		}
-		x = 21
-		y = 0
+		x = 29
+		y = 1
 		cost = 8.6
 		completion_reward = {	
 					if = {

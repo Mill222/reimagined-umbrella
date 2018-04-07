@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = YUG
+		owner = SER
 		buildings = {
 			infrastructure = 4
 	industrial_complex = 2
@@ -19,8 +19,7 @@ state={
 		victory_points = {
 			11887 1
 		}
-		add_core_of = YUG
-		add_claim_by = BUL
+		add_core_of = SER
 	}
 
 	provinces={

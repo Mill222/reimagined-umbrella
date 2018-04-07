@@ -1,0 +1,26 @@
+state={
+	id=1010
+	name="STATE_1010"
+	provinces={
+		665 3631 3654 9596 
+	}
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9627 1 
+		}
+		add_core_of = AUS
+		add_core_of = SLV
+		add_claim_by = CRO
+
+	}
+	manpower=398721
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

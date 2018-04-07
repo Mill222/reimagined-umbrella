@@ -4,7 +4,7 @@ state={
 	name="STATE_102"
 
 	history={
-		owner = YUG
+		owner = CRO
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
@@ -14,14 +14,15 @@ state={
 		victory_points = {
 			9627 1 
 		}
-		add_core_of = YUG
+		add_core_of = CRO
+		add_core_of = SLV
 
 	}
 
 	provinces={
-		596 665 3631 3654 6650 9596 9627 
+		596 6650 9627 
 	}
-	manpower=1399900
+	manpower=939900
 	buildings_max_level_factor=1.000
 	state_category=city
 }

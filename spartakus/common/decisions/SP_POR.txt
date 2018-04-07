@@ -39,4 +39,45 @@ POR_wars = {
 			}
 		}	
 	}
+	
+	seize_olivenza = {
+
+		icon = generic_independence
+
+		available = {
+			tag = POR
+			has_completed_focus = POR_recovery_final
+			AND = {
+				SPA = { 
+					owns_state = 940
+				}
+				OR = {
+					SPA = {
+						has_war_with = SPR
+					}
+				}
+			}
+		}
+
+		cost = 20
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 200
+		}
+		
+		visible = {
+			has_completed_focus = POR_triumphant_republic
+		}
+		complete_effect = {
+			POR = { transfer_state = 940 }
+			hidden_effect {
+				SPA = { 
+				country_event = { 
+				id = spa.200 } 
+				}
+			}
+		}	
+	}
 }
+
