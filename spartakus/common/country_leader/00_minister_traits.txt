@@ -33,7 +33,7 @@ leader_traits = {
 	}
 
 	hog_flamboyant_tough_guy = {
-		unity_factor = 0.05
+		stability_factor = 0.05
 		political_power_gain = -0.05
 
 		random = no
@@ -152,7 +152,7 @@ leader_traits = {
 	}
 
 	hog_spiritual_leader = {
-		unity_factor = 0.1
+		stability_factor = 0.1
 		consumer_goods_factor = 0.05
 
 		random = no
@@ -543,7 +543,7 @@ leader_traits = {
 	}
 
 	sec_compassionate_gentleman = {
-		unity_factor = 0.05
+		stability_factor = 0.05
 		local_resources = 0.1
 		local_manpower = 0.05
 		local_factories = 0.1
@@ -575,7 +575,7 @@ leader_traits = {
 	sec_great_soul = { #gandhi
 		consumer_goods_factor = -0.05
 		political_power_gain = 0.05
-		unity_factor = 0.05
+		stability_factor = 0.05
 
 		random = no
 	}
@@ -591,7 +591,7 @@ leader_traits = {
 	}
 
 	sec_man_of_the_people = {
-		unity_factor = 0.1
+		stability_factor = 0.1
 		resistance_tick = -0.2
 
 		random = no
@@ -634,7 +634,7 @@ leader_traits = {
 
 		random = no
 		political_power_gain = 0.02
-		unity_factor = 0.1
+		stability_factor = 0.1
 	}
 
 	########################################

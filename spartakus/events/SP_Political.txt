@@ -1985,187 +1985,49 @@ country_event = {
 	id = sp.political.24
 	title = sp.political.24.t
 	desc = sp.political.24.d
-	picture = INTRO_main
 
 	is_triggered_only = yes
-
+	
 	option = {
-		name = sp.political.24.a #New events
-		country_event = { id = sp.political.28 }
+		name = sp.political.24.a #Start
 	}
 
 	option = {
-		name = sp.political.24.b #PP system
-		add_political_power = 5
-		country_event = { id = sp.political.27 }
+		name = sp.political.24.b #New stability system
+		country_event = { id = sp.political.25 }
 	}
 
 		option = {
-		name = sp.political.24.c #Q&A
-		add_political_power = 10
-		country_event = { id = sp.political.34 }
+		name = sp.political.24.c #FAQ
+		country_event = { id = sp.political.26 }
 	}
+
+}
+
+country_event = {
+	id = sp.political.25 #Stability system explanation
+	title = sp.political.25.t
+	desc = sp.political.25.d
 	
-		option = {
-		name = sp.political.24.e #Go nuts
-		country_event = { id = sp.political.37 }
+	is_triggered_only = yes
+
+	option = {
+		name = sp.political.25.a
+		country_event = { id = sp.political.24 }
 	}
 
 }
 
-#country_event = {
-#	id = sp.political.25 #Kaiserreich team
-#	title = sp.political.25.t
-#	desc = sp.political.25.d
-#	picture = INTRO_team
-#
-#	is_triggered_only = yes
-#
-#	option = {
-#		name = sp.political.25.a
-#		country_event = { id = sp.political.28 }
-#	}
-#
-#	option = {
-#		name = sp.political.25.b
-#		country_event = { id = sp.political.33 }
-#	}
-#
-#}
-
 country_event = {
-	id = sp.political.33 #Why so mean
-	title = sp.political.33.t
-	desc = sp.political.33.d
-	#picture = not sure what to use?
+	id = sp.political.26 #FAQ
+	title = sp.political.26.t
+	desc = sp.political.26.d
 
 	is_triggered_only = yes
 
 	option = {
-		name = sp.political.33.a
-		add_political_power = -5
-		country_event = { id = sp.political.28 }
-	}
-
-		option = {
-		name = sp.political.33.b
-		add_political_power = -5
-		country_event = { id = sp.political.36 }
-	}
-}
-
-country_event = {
-	id = sp.political.34 #Q&A Part 1
-	title = sp.political.34.t
-	desc = sp.political.34.d
-	#picture = not sure what to use
-
-	is_triggered_only = yes
-
-	option = {
-		name = sp.political.34.a
-		country_event = { id = sp.political.35 }
-	}
-}
-
-country_event = {
-	id = sp.political.35 #Q&A Part 2
-	title = sp.political.35.t
-	desc = sp.political.35.d
-	#picture = not sure what to use?
-
-	is_triggered_only = yes
-
-	option = {
-		name = sp.political.35.a
-		add_political_power = -10
-		country_event = { id = sp.political.28 }
-	}
-}
-
-country_event = {
-	id = sp.political.27 #PP system explanation
-	title = sp.political.27.t
-	desc = sp.political.27.d
-	picture = GFX_petain_NFA
-
-	is_triggered_only = yes
-
-	option = {
-		name = sp.political.27.a
-		add_political_power = -5
-		country_event = { id = sp.political.28 }
-	}
-
-}
-
-country_event = {
-	id = sp.political.28 #News events
-	title = sp.political.28.t
-	desc = sp.political.28.d
-	picture = INTRO_news
-
-	is_triggered_only = yes
-
-	option = {
-		name = sp.political.28.a #All the events
-		set_global_flag = NEWS_ALL
-	}
-
-	option = {
-		name = sp.political.28.b #Only the majors
-		set_global_flag = NEWS_SOME
-	}
-
-	option = {
-		name = sp.political.28.c #None
-		#The events require the flags above
-	}
-	
-	option = {
-		name = sp.political.28.e #I don't even like KR
-		country_event = { id = sp.political.33 }
-	}
-
-}
-
-country_event = {
-	id = sp.political.38 #Remove Faction Joining Limits
-	title = sp.political.38.t
-	desc = sp.political.38.d
-	#picture = not sure what to use?
-
-	is_triggered_only = yes
-
-	option = {
-		name = sp.political.38.a
-		set_global_flag = time_to_go_wild
-	}
-}
-
-country_event = {
-	id = sp.political.39 #Remove Faction Joining Limits HIDDEN EVENT
-	title = sp.political.39.t
-	desc = sp.political.39.d
-	#picture = not sure what to use?
-
-	hidden = yes
-	
-	trigger = {
-		is_ai = no
-		has_global_flag = time_to_go_wild
-		NOT = { has_country_flag = player_can_go_wild }
-	}
-	
-		mean_time_to_happen = {
-		days = 2
-	}
-
-	option = {
-		name = sp.political.39.a
-		set_country_flag = player_can_go_wild
-		set_rule = { can_create_factions = yes }
-		set_rule = { can_join_factions = yes }
+		name = sp.political.26.a
+		country_event = { id = sp.political.24 }
 	}
 }
 
@@ -2214,7 +2076,7 @@ country_event = {
 				}
 				add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_similar_ideology
+					modifier = SP_similar_ideology
 				}
 			}
 			every_country = {
@@ -2226,7 +2088,7 @@ country_event = {
 				}
 				add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_different_ideology
+					modifier = SP_different_ideology
 				}
 			}
 		}
@@ -2241,7 +2103,7 @@ country_event = {
 				}
 				add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_similar_ideology
+					modifier = SP_similar_ideology
 				}
 			}
 			every_country = {
@@ -2253,7 +2115,7 @@ country_event = {
 				}
 				add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_different_ideology
+					modifier = SP_different_ideology
 				}
 			}
 		}
@@ -2268,7 +2130,7 @@ country_event = {
 				}
 				add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_similar_ideology
+					modifier = SP_similar_ideology
 				}
 			}
 			every_country = {
@@ -2280,7 +2142,7 @@ country_event = {
 				}
 				add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_different_ideology
+					modifier = SP_different_ideology
 				}
 			}
 		}
@@ -2290,7 +2152,7 @@ country_event = {
 			}
 			add_opinion_modifier = {
 				target = ROOT
-				modifier = KR_same_ideology
+				modifier = SP_same_ideology
 			}
 		}
 		if = {
@@ -2468,32 +2330,32 @@ country_event = {
 		every_country = {
 			remove_opinion_modifier = {
 				target = ROOT
-				modifier = KR_similar_ideology
+				modifier = SP_similar_ideology
 			}
 			ROOT = {
 			remove_opinion_modifier = {
 				target = PREV
-				modifier = KR_similar_ideology
+				modifier = SP_similar_ideology
 			}
 			}
 			remove_opinion_modifier = {
 				target = ROOT
-				modifier = KR_different_ideology
+				modifier = SP_different_ideology
 			}
 			ROOT = {
 			remove_opinion_modifier = {
 				target = PREV
-				modifier = KR_different_ideology
+				modifier = SP_different_ideology
 			}
 			}
 			remove_opinion_modifier = {
 				target = ROOT
-				modifier = KR_same_ideology
+				modifier = SP_same_ideology
 			}
 			ROOT = {
 			remove_opinion_modifier = {
 				target = PREV
-				modifier = KR_same_ideology
+				modifier = SP_same_ideology
 			}
 			}
 		}
@@ -2508,11 +2370,11 @@ country_event = {
 				}
 				add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_similar_ideology
+					modifier = SP_similar_ideology
 				}
 				reverse_add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_similar_ideology
+					modifier = SP_similar_ideology
 				}
 			}
 			every_country = {
@@ -2524,11 +2386,11 @@ country_event = {
 				}
 				add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_different_ideology
+					modifier = SP_different_ideology
 				}
 				reverse_add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_different_ideology
+					modifier = SP_different_ideology
 				}
 			}
 		}
@@ -2543,11 +2405,11 @@ country_event = {
 				}
 				add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_similar_ideology
+					modifier = SP_similar_ideology
 				}
 				reverse_add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_similar_ideology
+					modifier = SP_similar_ideology
 				}
 			}
 			every_country = {
@@ -2559,11 +2421,11 @@ country_event = {
 				}
 				add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_different_ideology
+					modifier = SP_different_ideology
 				}
 				reverse_add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_different_ideology
+					modifier = SP_different_ideology
 				}
 			}
 		}
@@ -2578,11 +2440,11 @@ country_event = {
 				}
 				add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_similar_ideology
+					modifier = SP_similar_ideology
 				}
 				reverse_add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_similar_ideology
+					modifier = SP_similar_ideology
 				}
 			}
 			every_country = {
@@ -2594,11 +2456,11 @@ country_event = {
 				}
 				add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_different_ideology
+					modifier = SP_different_ideology
 				}
 				reverse_add_opinion_modifier = {
 					target = ROOT
-					modifier = KR_different_ideology
+					modifier = SP_different_ideology
 				}
 			}
 		}
@@ -2608,11 +2470,11 @@ country_event = {
 			}
 			add_opinion_modifier = {
 				target = ROOT
-				modifier = KR_same_ideology
+				modifier = SP_same_ideology
 			}
 			reverse_add_opinion_modifier = {
 				target = ROOT
-				modifier = KR_same_ideology
+				modifier = SP_same_ideology
 			}
 		}
 		if = {
