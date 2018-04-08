@@ -1,0 +1,248 @@
+﻿###########################
+# Chile Events
+# by Minpen
+###########################
+
+add_namespace = chile
+
+country_event = { # Intro
+	id = chile.1
+	title = chile.1.t
+	desc = chile.1.d
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = CHL
+		date > 1932.1.1
+	}
+	
+	option = {
+		name = chile.1.a
+	}
+}
+
+country_event = { # Socialist Coup
+	id = chile.2
+	title = chile.2.t
+	desc = chile.2.d
+	picture = GFX_WIP
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = CHL
+		date > 1932.6.4
+	}
+	
+	option = { # Coup succeeds, Montero resigns
+		name = chile.2.a
+		country_event = {
+			id = chile.3
+			days = 1
+		}
+		add_political_power = -100
+	}
+	
+	option = { # Coup fails, socialists purged
+		name = chile.2.b
+		country_event = {
+			id = chile.7
+			days = 1
+		}
+		add_political_power = -50
+	}
+}
+
+### Socialist Republic of Chile ###
+
+country_event = { # Government Junta of the Socialist Republic
+	id = chile.3
+	title = chile.3.t
+	desc = chile.3.d
+	picture = GFX_WIP
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chile.3.a
+		set_politics = {
+			ruling_party = democratic_socialist
+			elections_allowed = no
+		}
+		set_country_flag = SR_CHILE
+	}
+}
+
+country_event = { # Carlos Dávila resigns
+	id = chile.4
+	title = chile.4.t
+	desc = chile.4.d
+	picture = GFX_WIP
+	
+	fire_only_once = yes
+	is_triggered_only = no
+	
+	trigger = {
+		has_country_flag = SR_CHILE
+	}
+	
+	mean_time_to_happen = { days = 6 }
+	
+	option = {
+		name = chile.4.a
+		add_political_power = -50
+		clr_country_flag = SR_CHILE
+		set_country_flag = SR_CHILE_PRE_DAVILA
+	}
+}
+
+country_event = { # Dávila attempts coup
+	id = chile.5
+	title = chile.5.t
+	desc = chile.5.d
+	picture = GFX_WIP
+	
+	fire_only_once = yes
+	is_triggered_only = no
+	
+	trigger = {
+		has_country_flag = SR_CHILE_PRE_DAVILA
+	}
+	
+	mean_time_to_happen = { days = 3 }
+	
+	option = { # Dávila is successful, radicals are sent to EASTER ISLAND (cooperation with right, hardest option)
+		name = chile.5.a
+		add_political_power = -50
+		clr_country_flag = SR_CHILE_PRE_DAVILA
+		set_country_flag = SR_CHILE_DAVILA
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = -0.1
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.1
+		}
+		set_politics = {
+			ruling_party = social_democrat
+			elections_allowed = no
+		}
+	}
+	
+	option = { # Dávila is unsuccessful, and is sent to EASTER ISLAND
+		name = chile.5.b
+		add_political_power = 50
+		clr_country_flag = SR_CHILE_PRE_DAVILA
+		set_country_flag = SR_CHILE_DAVILA_DEFEATED
+		hidden_effect = {
+			country_event = {
+				id = chile.6
+				days = 1
+			}
+			create_country_leader = {
+				name = "José Santos Salas"
+				desc = "POLITICS_JOSE_SANTOS_SALAS_DESC"
+				picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds" #WIP
+				expire = "1965.1.1"
+				ideology = social_democrat_subtype
+				traits = {
+					#
+				}
+			}
+		}
+	}
+}
+
+country_event = { # Aftermath of Dávila's coup 
+	id = chile.6
+	title = chile.6.t
+	desc = chile.6.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # Appoint Marmaduke Grove acting president (cooperation with left, easiest path)
+		name = chile.6.a
+		create_country_leader = {
+			name = "Marmaduke Grove"
+			desc = "POLITICS_MARMADUKE_GROVE_DESC"
+			picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds" #WIP
+			expire = "1965.1.1"
+			ideology = democratic_socialist_subtype
+			traits = {
+				#
+			}
+		}
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.05
+		}
+		clr_country_flag = SR_CHILE_DAVILA_DEFEATED
+		set_country_flag = SR_CHILE_GROVE
+	}
+	
+	option = { # Appoint Arturo Puga acting president (red bonapartism/military support, middling path)
+		name = chile.6.b
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = -0.2
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.2
+		}
+		set_politics = {
+			ruling_party = authoritarian_democrat
+			elections_allowed = no
+		}
+		clr_country_flag = SR_CHILE_DAVILA_DEFEATED
+		set_country_flag = SR_CHILE_PUGA
+	}
+}
+
+### Montero's Republic ###
+country_event = { # Purge of the Socialists
+	id = chile.7
+	title = chile.7.t
+	desc = chile.7.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # SEND THEM TO EASTER ISLAND
+		name = chile.7.a
+		set_country_flag = MONTERO_CHILE
+		add_popularity = {
+			ideology = marxist_leninist
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = libertarian_marxist
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = -0.15
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.05
+		}
+	}
+}
+	
+#my basic plan is:
+# 1. Socialists execute coup, either it succeeds, and the Socialist Republic is created, or it fails, and the socialists are purged
+# 2. Event for government junta, then an event for the initial reforms of the socialist republic
+# 3. Carlos Dávila resigns after a week due to the fact that he believes the junta to be too radical, and then 3 days later, he attempts a coup. Either it succeeds, and he becomes a social democrat HoS and creates a new cabinet, or it fails.
+# 4. If it succeeds, after about 90 days, he will be faced with the option to either resign in favor of Bartoleme Blanche, restoring the republic, or refuse to resign, causing a civil war.
+# 5. If it fails, Arturo Puga will be given the choice to either assume more direct powers, which turns him into an authoritarian democratic "red bonapartist", or he can transfer power to Marmaduke Grove, who will attempt to form a broad left-wing coalition and reduce military influence. 
