@@ -22,57 +22,132 @@ set_convoys = 20
 set_politics = {
 
 	parties = {
-		marxist_leninist = {
-			popularity = 0
+		marxist_leninist = { 
+			popularity = 5
 		}
+
 		libertarian_marxist = {
-			popularity = 0
+			popularity = 5
 		}
-		revolutionary_socialist = {
-			popularity = 0
-		}
+		
 		democratic_socialist = {
-			popularity = 0
+			popularity = 20
 		}
+		
+		revolutionary_socialist = {
+			popularity = 5
+		}
+		
 		social_democrat = {
-			popularity = 0
+			popularity = 5
 		}
+		
 		social_liberal = {
-			popularity = 0
+			popularity = 21.2
 		}
+		
 		liberal_conservative = {
-			popularity = 0
+			popularity = 20.8
 		}
+		
 		social_conservative = {
+			popularity = 18
+		}
+		
+		authoritarian_democrat = {
 			popularity = 0
 		}
-		authoritarian_democrat = {
-		    popularity = 100
-		}
+		
 		right_wing_populist = {
 			popularity = 0
 		}
+		
 		national_syndicalist = {
 			popularity = 0
 		}
+		
 		corporatist_fascist = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
-	last_election = "1888.15.6"
-	election_frequency = 48
+	ruling_party = social_liberal
+	last_election = "1931.10.4"
+	election_frequency = 72  #but 4 years after this one in 1938.
 	elections_allowed = no
-
 }
+
+set_stability = 0.5
+set_war_support = 0.6
+
+add_ideas = CHL_great_depression
+add_ideas = CHL_political_chaos
+add_ideas = CHL_juan_esteban_montero_hog
+add_ideas = CHL_carlos_balmaceda_saavedra_for
+add_ideas = CHL_marco_antonio_de_la_cuadra_eco
+add_ideas = CHL_manuel_trucco_sec
 
 create_country_leader = {
 	name = "Arturo Alessandri"
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
 	picture = "GFX_Portrait_chile_arturo_alessandri"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Juan Esteban Montero"
+	desc = "POLITICS_JUAN_ESTEBAN_MONTERO_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds" #WIP
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Héctor Rodríguez"
+	desc = "POLITICS_HECTOR_RODRIGUEZ_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds" #WIP
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = { # template, remove at some point
+	name = "Bartoleme Blanche"
+	desc = "POLITICS_ARTURO_PUGA_DESC"
+	picture = "gfx/leaders/SWI/Portrait_Switzerland_Federal_council.dds" #WIP
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Arturo Puga"
+	desc = "POLITICS_ARTURO_PUGA_DESC"
+	picture = "gfx/leaders/SWI/Portrait_Switzerland_Federal_council.dds" #WIP
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Carlos Ibáñez del Campo"
+	desc = "POLITICS_CARLOS_IBANEZ_DEL_CAMPO_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds" #WIP
+	expire = "1965.1.1"
+	ideology = right_wing_populist_subtype
 	traits = {
 		#
 	}
@@ -81,9 +156,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Jorge González von Marées"
 	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds" #WIP
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = corporatist_fascist_subtype
 	traits = {
 		#
 	}
@@ -92,9 +167,53 @@ create_country_leader = {
 create_country_leader = {
 	name = "Carlos Contreras Labarca"
 	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds" #WIP
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = marxist_leninist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Carlos Dávila"
+	desc = "POLITICS_CARLOS_DAVILA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds" #WIP
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Junta Socialista"
+	desc = "POLITICS_JUNTA_SOCIALISTA_DESC"
+	picture = "gfx/leaders/SWI/Portrait_Switzerland_Federal_council.dds" #WIP
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Central Congress of the CGT"
+	desc = "POLITICS_CENTRAL_CONGRESS_OF_THE_CGT_DESC"
+	picture = "gfx/leaders/SWI/Portrait_Switzerland_Federal_council.dds" #WIP
+	expire = "1965.1.1"
+	ideology = revolutionary_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Manuel Hidalgo"
+	desc = "POLITICS_MANUEL_HIDALGO_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds" #WIP
+	expire = "1965.1.1"
+	ideology = libertarian_marxist_subtype
 	traits = {
 		#
 	}
