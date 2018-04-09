@@ -74,10 +74,9 @@ air_naval_manufacturer = {
 		CHL_arturo_puga_hog = { 
 			allowed = { original_tag = CHL }
 			available = {
+				has_government = democratic_socialist
 				has_government = authoritarian_democrat
 				has_country_flag = can_replace_hog
-				NOT = {has_country_flag = arturo_puga_dead}
-				NOT = {has_country_flag = arturo_puga_hog_fired}
 				NOT = { has_country_flag = ministers_cannot_be_replaced }
 			}
 			traits = {
@@ -88,13 +87,71 @@ air_naval_manufacturer = {
 			cancel_if_invalid = no
 		}
 		
+		CHL_carlos_davila_hog = { 
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = social_democrat
+				has_country_flag = can_replace_hog
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				hog_happy_amateur 
+			}
+			cancel_if_invalid = no
+		}
+		
+		CHL_marmaduke_grove_hog = {
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = democratic_socialist
+				has_country_flag = can_replace_hog
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				head_of_government
+				democratic_socialist
+				hog_old_air_marshal 
+			}
+			cancel_if_invalid = no
+		}
+		
+		CHL_carlos_contreras_labarca_hog = {
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = marxist_leninist
+				has_country_flag = can_replace_hog
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				head_of_government
+				marxist_leninist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = no
+		}
+		
+		CHL_manuel_hidalgo_hog = {
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = libertarian_marxist
+				has_country_flag = can_replace_hog
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				head_of_government
+				libertarian_marxist
+				hog_ambitious_union_boss
+			}
+			cancel_if_invalid = no
+		}
+		
 		CHL_juan_esteban_montero_hog = { 
 			allowed = { original_tag = CHL }
 			available = {
 				has_government = social_liberal
 				has_country_flag = can_replace_hog
-				NOT = {has_country_flag = juan_esteban_montero_dead}
-				NOT = {has_country_flag = juan_esteban_monter_hog_fired}
 				NOT = { has_country_flag = ministers_cannot_be_replaced }
 			}
 			traits = {
@@ -104,7 +161,97 @@ air_naval_manufacturer = {
 			}
 			cancel_if_invalid = no
 		}
-
+		
+		CHL_arturo_alessandri_hog = { 
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = liberal_conservative
+				has_country_flag = can_replace_hog
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				head_of_government
+				liberal_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = no
+		}
+		
+		CHL_flora_sanhueza_hog = { 
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = revolutionary_socialist
+				has_country_flag = can_replace_hog
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				head_of_government
+				revolutionary_socialist
+				hog_naive_optimist
+			}
+			cancel_if_invalid = no
+		}
+		
+		CHL_bartolome_blanche_hog = { 
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = social_democrat
+				has_country_flag = can_replace_hog
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				hog_old_general
+			}
+			cancel_if_invalid = no
+		}
+		
+		CHL_hector_rodriguez_hog = {
+			allowed = { original_tag = CHL }
+			available = { 
+				has_government = social_conservative
+				has_country_flag = can_replace_hog
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_corporate_suit
+			}
+			cancel_if_invalid = no
+		}
+		
+		CHL_carlos_ibanez_del_campo_hog = {
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = right_wing_populist
+				has_country_flag = can_replace_hog
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				head_of_government
+				right_wing_populist
+				hog_backroom_backstabber
+			}
+			cancel_if_invalid = no
+		}
+		
+		CHL_jorge_gonzalez_von_marees_hog = {
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = corporatist_fascist
+				has_country_flag = can_replace_hog
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				head_of_government
+				corporatist_fascist
+				hog_flamboyant_tough_guy
+			}
+			cancel_if_invalid = no
+		}
+		
 	}
 	
 	foreign_minister = {

@@ -29,26 +29,57 @@ CHL_corporatist_fascist_party_long:0 "Movimiento Nacional Corporativista de Chil
 ### Events ###
 
 chile.1.t:0 "Chile in 1932"
-chile.1.d:0 "After the Pacific War, in which Chile gained the saltpeter-rich provinces of Arica and Antofagasta, Chile entered an economic golden age. The Great War, while the cause of chaos and revolution in some nations, benefited Chile's economy immensely, as demand for saltpeter skyrocketed. However, the war would also prove to be the saltpeter industry's downfall, as the chemical processes engineered during the war to artificially synthethise saltpeter meant that mining saltpeter simply was not as profitable as it once was. This, combined with the American economic crash, caused chaos, bordering on anarchy in Chile. Large strikes and revolts erupted in the north of the country, which were only shut down by brute force. Only last year, a massive portion of the great Chilean Navy mutinied, a mutiny which was only crushed by aerial bombardment of the rebelling ships. Left-wing parties, from populist followers of former president Ibanez, to the Socialist Party, to even the IWW and Communist Party, grew rapidly, especially within the military. Amidst this chaos, Juan Esteban Montero was elected President, in a grand coalition of Radicals, Conservatives, and Liberal dissenters. However, his policies of austerity have only made things worse, as debt and unemployment continues to skyrocket. Under this strain, can the republic survive?"
+chile.1.d:0 "After the Pacific War, in which Chile gained the saltpeter-rich provinces of Arica and Antofagasta, Chile entered an economic golden age. The Great War, while the cause of chaos and revolution in some nations, benefited Chile's economy immensely, as demand for saltpeter skyrocketed. However, the war would also prove to be the saltpeter industry's downfall, as the chemical processes engineered during the war to artificially synthethise saltpeter meant that mining saltpeter simply was not as profitable as it once was. This, combined with the American economic crash, caused chaos, bordering on anarchy in Chile. Large strikes and revolts erupted in the north of the country, which were only shut down by brute force. Only last year, a massive portion of the great Chilean Navy mutinied, a mutiny which was only crushed by aerial bombardment of the rebelling ships. Left-wing parties, from populist followers of former president Ibáñez, to the Socialist Party, to even the IWW and Communist Party, grew rapidly, especially within the military. Amidst this chaos, Juan Esteban Montero was elected President, in a grand coalition of Radicals, Conservatives, and Liberal dissenters. However, his policies of austerity have only made things worse, as debt and unemployment continues to skyrocket. Under this strain, can the republic survive?"
 chile.1.a:0 "Interesting"
 chile.2.t:0 "Socialists Attempt Coup!"
-chile.2.d:0 "A group of young socialists under Eugenio Matte have staged a coup by seizing El Bosque Air Base in Santiago, along with Air Force personell under Marmaduke Grove, and followers of former president Ibanez under Carlos Davila. We could call in the military to put down the coup, but we don't really know how much of the military might join the Socialists instead of putting them down."
+chile.2.d:0 "A group of young socialists under Eugenio Matte have staged a coup by seizing El Bosque Air Base in Santiago, along with Air Force personell under Marmaduke Grove, and followers of former president Ibáñez under Carlos Dávila. We could call in the military to put down the coup, but we don't really know how much of the military might join the Socialists instead of putting them down."
 chile.2.a:0 "We can't risk it, let Montero resign..."
 chile.2.b:0 "Call in the military to crush the reds!"
 chile.3.t:0 "Creation of the Government Junta of the Socialist Republic"
-chile.3.d:0 "The victorious revolutionaries have announced the creation of the Government Junta of the Socialist Republic, or Socialist Junta for short. Comprising a group of socialists and socialist-sympathisers under retired general Arturo Puga, it will take the role of President for the time being. However, many other leftist groups, such as the trade unions under the TIM, the Leninists under the PCCh, and the Luxemburgists under the Izquierda Comunista have refused to support us, and we only have the support of the Ibanezistas, the military, and the Socialists"
+chile.3.d:0 "The victorious revolutionaries have announced the creation of the Government Junta of the Socialist Republic, or Socialist Junta for short. Comprising a group of socialists and socialist-sympathisers under retired general Arturo Puga, it will take the role of President for the time being. However, many other leftist groups, such as the trade unions under the TIM, the Leninists under the PCCh, and the Luxemburgists under the Izquierda Comunista have refused to support us, and we only have the support of the Ibáñezistas, the military, and the Socialists"
 chile.3.a:0 "Very good"
-chile.4.t:0 "Carlos Davila Resigns"
-chile.4.d:0 "Carlos Davila, a member of the Ibanezista faction of the Socialist Junta, has resigned, officially in protest of the increasingly radical direction proposed by Eugenio Matte and Marmaduke Grove. However, Davila does have a sizable base of support within the leftists in the Army, and some suggest he could be planning a counter-coup."
+chile.4.t:0 "Carlos Dávila Resigns"
+chile.4.d:0 "Carlos Dávila, a member of the Ibáñezista faction of the Socialist Junta, has resigned, officially in protest of the increasingly radical direction proposed by Eugenio Matte and Marmaduke Grove. However, Dávila does have a sizable base of support within the leftists in the Army, and some suggest he could be planning a counter-coup."
 chile.4.a:0 "Keep an eye on him"
-chile.5.t:0 "Ibanezista Coup"
-chile.5.d:0 "Carlos Davila, who recently resigned as a member of the Junta, has returned to Santiago with the support of the Ibanezista faction of the Army. He demands to be given the position of Acting President, and for the 'communists' Grove and Matte to be dismissed. While his force seems intimidating, we still have the support of the Navy, the Air Force, and a large portion of the Army, but the Junta is weary of bringing fighting to the streets of Santiago."
-chile.5.a:0 "Resign in favor of Davila"
+chile.5.t:0 "Ibáñezista Coup"
+chile.5.d:0 "Carlos Dávila, who recently resigned as a member of the Junta, has returned to Santiago with the support of the Ibáñezista faction of the Army. He demands to be given the position of Acting President, and for the 'communists' Grove and Matte to be dismissed. While his force seems intimidating, we still have the support of the Navy, the Air Force, and a large portion of the Army, but the Junta is weary of bringing fighting to the streets of Santiago."
+chile.5.a:0 "Resign in favor of Dávila"
 chile.5.b:0 "Crush the putschists"
-chile.6.t:0 "Aftermath of Davila's Coup"
-chile.6.d:0 "While Davila's coup has been crushed, and Davila himself has been exiled to Easter Island, the attempted coup has revealed the weakness of our heavily divided Junta. Grove has begun to suggest that he, as the leader of the Socialist Party, be given the reins of government as Acting President, so he can attempt to gather support from the other factions of the Left. However, Arturo Puga could simply appoint himself Acting President and use his respected position within the military to strengthen the Socialist Republic."
+chile.6.t:0 "Aftermath of Dávila's Coup"
+chile.6.d:0 "While Dávila's coup has been crushed, and Dávila himself has been exiled to Easter Island, the attempted coup has revealed the weakness of our heavily divided Junta. Grove has begun to suggest that he, as the leader of the Socialist Party, be given the reins of government as Acting President, so he can attempt to gather support from the other factions of the Left. However, Arturo Puga could simply appoint himself Acting President and use his respected position within the military to strengthen the Socialist Republic."
 chile.6.a:0 "Appoint Marmaduke Grove"
 chile.6.b:0 "Appoint Arturo Puga"
 chile.7.t:0 "Left-Wing Purge"
-chile.7.d:0 "The abortive coup has proved that the left is nothing more than a gang of scoundrels and traitors who will take any opportunity to overthrow democracy. Already, trade union leaders, communists, Ibanezistas, and socialists are being arrested and sent into exile on Easter Island. Democracy is now safe from red subversion."
+chile.7.d:0 "The abortive coup has proved that the left is nothing more than a gang of scoundrels and traitors who will take any opportunity to overthrow democracy. Already, trade union leaders, communists, Ibáñezistas, and socialists are being arrested and sent into exile on Easter Island. Democracy is now safe from red subversion."
 chile.7.a:0 "Montero has secured the Republic"
+
+### Ideas ###
+
+CHL_great_depression: "Great Depression"
+CHL_political_chaos:0 "Political Chaos"
+
+### Ministers ###
+
+# Head of Government #
+CHL_arturo_puga_hog:0 "Arturo Puga"
+CHL_juan_esteban_montero_hog:0 "Juan Esteban Montero"
+CHL_marmaduke_grove_hog:0 "Marmaduke Grove"
+CHL_carlos_davila_hog:0 "Carlos Dávila" 
+CHL_carlos_contreras_labarca_hog:0 "Carlos Contreras Labarca"
+CHL_manuel_hidalgo_hog:0 "Manuel Hidalgo"
+CHL_arturo_alessandri_hog:0 "Arturo Alessandri"
+CHL_flora_sanhueza_hog:0 "Carlos Pezoa Véliz"
+CHL_bartolome_blanche_hog:0 "Bartolomé Blanche"
+CHL_hector_rodriguez_hog:0 "Héctor Rodríguez"
+CHL_carlos_ibanez_del_campo_hog:0 "Carlos Ibáñez del Campo"
+CHL_jorge_gonzalez_von_marees_hog:0 "Jorge González von Marées"
+
+# Foreign Minister #
+CHL_carlos_balmaceda_saavedra_for:0 "Carlos Balmaceda Saavedra"
+
+# Economy Minister #
+CHL_marco_antonio_de_la_cuadra_eco:0 "Marco Antonio de la Cuadra"
+CHL_marmaduke_grove_eco:0 "Marmaduke Grove"
+
+# Security Minister # 
+CHL_manuel_trucco_sec:0 "Manuel Trucco"
