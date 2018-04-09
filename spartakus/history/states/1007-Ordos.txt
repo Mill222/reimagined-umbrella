@@ -9,8 +9,8 @@ state={
 	
 	history=
 	{
-		owner = KMC
-		add_core_of = KMC
+		owner = SHX
+		add_claim_by = KMC
 		add_core_of = SHX
 		add_core_of = CHI
 		

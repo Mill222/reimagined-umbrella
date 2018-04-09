@@ -65,13 +65,16 @@ country_event = {
 	option = {
 		name = por.3.a
 		set_country_flag = POR_civil_war_check
-		custom_effect_tooltip = POR_militias_tt
+		custom_effect_tooltip = POR_marines_tt
 		declare_war_on = {
 		target = PRM
 		type = annex_everything 
 		}
 		hidden_effect = {
-			load_oob = POR_militias1
+			load_oob = POR_marines
+			PRM = {
+				country_event = { days = 10 id = prm.3 }
+			}
 		}
 	}
 }
@@ -106,6 +109,7 @@ country_event = { # End of the Civil War
 		hidden_effect = {
 			POR = {
 				country_event = { days = 10 id = por.5 }
+				country_event = { days = 10 id = por.15 }
 			}
 		}
 	}
@@ -499,5 +503,24 @@ country_event = { # Deploying Police
 		set_country_flag = POR_deployed_police_temp
 		add_political_power = -25
 		add_timed_idea = { idea = POR_police_north days = 160 }
+	}
+}
+
+country_event = {
+	id = por.15
+	title = por.15.t
+	desc = por.15.d
+	picture = GFX_report_event_french_resistance_02
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.15.a
+		custom_effect_tooltip = POR_navy_tt
+		delete_unit_template_and_units = { division_template = "Fuzileiros Navais" }
+		hidden_effect = {
+			load_oob = POR_navy
+		}
 	}
 }

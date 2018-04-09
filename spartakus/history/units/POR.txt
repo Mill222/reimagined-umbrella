@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Divisão de Infanteria"
+	name = "Divisão de Infanteria" #Infantry
 	division_names_group = POR_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -16,7 +16,7 @@
 }
 
 division_template = {
-	name = "Brigada de Cavalaria"
+	name = "Brigada de Cavalaria" #Cavalry
 	division_names_group = POR_CAV_01
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -27,7 +27,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Batalhão de Guarnição"		
+	name = "Batalhão de Guarnição" #Garrison	
 	regiments = {
 		garrison = { x = 0 y = 0 }
 		garrison = { x = 0 y = 1 }
@@ -40,7 +40,7 @@ division_template = {
 	}
 	
 division_template = {
-	name = "Brigada Republicana"
+	name = "Brigada Republicana" #Militia
 	is_locked = yes
 	regiments = {
 		militia = { x = 0 y = 0 }
@@ -61,7 +61,7 @@ units = {
 		location = 11805
 		division_template = "Divisão de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = {
@@ -69,7 +69,7 @@ units = {
 		location = 799
 		division_template = "Brigada Republicana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = {
@@ -77,7 +77,7 @@ units = {
 		location = 924
 		division_template = "Brigada Republicana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = {
@@ -85,7 +85,7 @@ units = {
 		location = 844
 		division_template = "Brigada Republicana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = {
@@ -93,7 +93,7 @@ units = {
 		location = 3926
 		division_template = "Brigada Republicana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = {
@@ -101,7 +101,7 @@ units = {
 		location = 3798
 		division_template = "Brigada Republicana"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = {
@@ -109,7 +109,15 @@ units = {
 		location = 3118
 		division_template = "Batalhão de Guarnição"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "2a Batalhão de Guarnição"
+		location = 11805
+		division_template = "Batalhão de Guarnição"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
 
 	}
 	division = {
@@ -117,23 +125,9 @@ units = {
 		location = 11805
 		division_template = "Brigada de Cavalaria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
-	}
-
-	##### NAVAL UNITS #####
-	navy = {				
-		name = "Marinha de Portugal"			
-		base = 11805
-		location = 11805 # Lisbon
-		# Destroyers
-		ship = { name = "NRP Douro" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = POR create_if_missing = yes } } }
-		ship = { name = "NRP Vouga" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = POR create_if_missing = yes } } }	
-		ship = { name = "NRP Tejo" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = POR create_if_missing = yes } } }	
-		# Submarines
-		ship = { name = "NRP Golfinho" definition = submarine equipment = { submarine_pre = { amount = 1 owner = POR create_if_missing = yes } } }
-		ship = { name = "NRP Hidra" definition = submarine equipment = { submarine_pre = { amount = 1 owner = POR create_if_missing = yes } } }		
-	}				
+	}			
 
 }
 
@@ -156,7 +150,7 @@ air_wings = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_weapons
+			type = infantry_equipment_0
 			creator = "POR"
 		}
 		requested_factories = 2

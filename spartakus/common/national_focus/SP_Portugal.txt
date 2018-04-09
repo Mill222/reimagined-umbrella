@@ -747,7 +747,7 @@ focus_tree = {
 	
 	focus = {
 		id = POR_german_tank_designs
-		icon = GFX_goal_support_communism
+		icon = GFX_focus_generic_army_tanks2
 		prerequisite = { focus = POR_join_united_front }
 		relative_position_id = POR_diplomacy_a
 		x = -1
@@ -787,7 +787,7 @@ focus_tree = {
 	
 	focus = {
 		id = POR_soviet_rifle_designs
-		icon = GFX_goal_support_fourth_int
+		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = POR_join_comintern }
 		relative_position_id = POR_diplomacy_a
 		x = -3
@@ -853,15 +853,15 @@ focus_tree = {
 	
 	focus = {
 		id = POR_diplo_research
-		icon = GFX_goal_HOL_council_communism
+		icon = GFX_focus_research
 		prerequisite = { focus = POR_alliance_with_spain focus = POR_alliance_with_italy focus = POR_alliance_with_brazil }
 		relative_position_id = POR_diplomacy_a
 		x = 3
 		y = 3
 		cost = 8.6
 		completion_reward = {	
-			add_to_tech_sharing_group = portugese_research_bloc
-			set_global_flag = POR_research_org
+			add_to_tech_sharing_group = portuguese_research_bloc
+			set_global_flag = POR_research_bloc
 		}
 	}
 

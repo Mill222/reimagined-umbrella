@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Divisão de Infanteria"
+	name = "Divisão de Infanteria" #Infantry
 	division_names_group = POR_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -16,7 +16,7 @@
 }
 
 division_template = {
-	name = "Brigada de Cavalaria"
+	name = "Brigada de Cavalaria" #Cavalry
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
@@ -26,7 +26,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Força de Caçadores"		
+	name = "Força de Caçadores"	#Elite Troops	
 	regiments = {
 		garrison = { x = 0 y = 0 }
 		garrison = { x = 0 y = 1 }
@@ -36,7 +36,7 @@ division_template = {
 	}
 	
 division_template = {
-	name = "Brigada Monarquista"		
+	name = "Brigada Monarquista" #Militia		
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -46,7 +46,6 @@ division_template = {
 		militia = { x = 1 y = 2 }
 	}
 	}
-
 units = {
 	###### Exército Portugues #####
 	division = {
@@ -54,7 +53,7 @@ units = {
 		location = 6941
 		division_template = "Divisão de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = {
@@ -62,7 +61,7 @@ units = {
 		location = 6996
 		division_template = "Brigada Monarquista"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
 	
@@ -71,7 +70,7 @@ units = {
 		location = 9787
 		division_template = "Brigada Monarquista"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.9
 
 	}
 	
@@ -80,22 +79,26 @@ units = {
 		location = 9817
 		division_template = "Brigada de Cavalaria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
+	
+	##Colonial Forces in Portugal##
 	
 	division = {
 		name = "2a Caçadores de Moçambique"
 		location = 6924
 		division_template = "Força de Caçadores"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
 	}
 	
 	division = {
 		name = "2a Caçadores de Angola"
 		location = 11885
 		division_template = "Força de Caçadores"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
 	}
 
 	### Colonial Forces ###
@@ -103,35 +106,25 @@ units = {
 		name = "Caçadores de Azores"
 		location = 1751
 		division_template = "Força de Caçadores"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
 	}
 
 	division = {
 		name = "1a Caçadores de Angola"
 		location = 8248
 		division_template = "Força de Caçadores"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
 	}
 
 	division = {
 		name = "1a Caçadores de Moçambique"
 		location = 8245
 		division_template = "Força de Caçadores"
-		start_experience_factor = 0.3
-	}
-
-	##### NAVAL UNITS #####
-	navy = {				
-		name = "Marinha de Portugal"			
-		base = 9817
-		location = 9817 # Porto
-		# Destroyers
-		ship = { name = "NRP Tamega" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRM create_if_missing = yes } } }
-		ship = { name = "NRP Guadiana" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = PRM create_if_missing = yes } } }
-		# Submarines
-		ship = { name = "NRP Foca" definition = submarine equipment = { submarine_pre = { amount = 1 owner = PRM create_if_missing = yes } } }		
-		ship = { name = "NRP Espadarte" definition = submarine equipment = { submarine_pre = { amount = 1 owner = PRM create_if_missing = yes } } }	
-	}				
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}		
 
 }
 
@@ -154,7 +147,7 @@ air_wings = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_weapons
+			type = infantry_equipment_0
 			creator = "PRM"
 		}
 		requested_factories = 2

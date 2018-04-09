@@ -31,7 +31,6 @@ country_event = {
 	option = {
 		name = prm.2.a
 		add_manpower = -100
-		load_oob = PRM_militias1
 		ai_chance = {
 			factor = 100
 		}
@@ -39,6 +38,84 @@ country_event = {
 			POR = {
 				country_event = { days = 3 id = por.3 }
 			}
+		}
+	}
+}
+
+country_event = {
+	id = prm.3
+	title = prm.3.t
+	desc = prm.3.d
+	picture = GFX_report_event_british_artillery
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = prm.3.a
+		add_manpower = -100
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+			load_oob = PRM_marines
+			POR = {
+				country_event = { days = 3 id = por.3 }
+			}
+		}
+	}
+}
+
+country_event = { # End of the Civil War
+	id = prm.4
+	title = prm.4.t
+	desc = prm.4.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PRM
+		NOT = {
+			country_exists = POR
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	option = {
+		name = prm.4.a
+
+		add_political_power = 100
+		set_country_flag = PRM_civil_war_over
+		remove_ideas = PRM_divided_country
+		add_ideas = PRM_recovering_civil_war
+		delete_unit_template_and_units = { division_template = "Brigada Monarquista" }
+		hidden_effect = {
+			POR = {
+				country_event = { days = 10 id = prm.5 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = prm.5
+	title = prm.5.t
+	desc = prm.5.d
+	picture = GFX_report_event_french_resistance_02
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = prm.5.a
+		custom_effect_tooltip = PRM_navy_tt
+		delete_unit_template_and_units = { division_template = "Fuzileiros Navais" }
+		hidden_effect = {
+			load_oob = PRM_navy
 		}
 	}
 }
