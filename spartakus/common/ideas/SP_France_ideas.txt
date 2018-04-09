@@ -7,10 +7,6 @@ ideas = {
 				always = no
 			}
 
-			allowed_civil_war = {
-				has_government = democratic
-			}
-
 			removal_cost = -1
 
 			picture = great_depression
@@ -28,10 +24,6 @@ ideas = {
 			allowed = {
 				original_tag = FRA
 				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = democratic
 			}
 
 			removal_cost = -1

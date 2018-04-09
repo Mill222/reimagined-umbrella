@@ -1,11 +1,7 @@
 ﻿###########################
 # Annexation Events
 ###########################
-# By Levi
-# Expanded and corrected by Nijato
-# Also maintained and reformatted by ~mw~
-# Converted to on_actions by Dskod1
-# Any new post-annexation events need to have there triggers in the KR_on_actions file
+# Base code and triggers by KR team which is expanded, edited and fixed by sparkz
 ###########################
 
 add_namespace = annex
@@ -170,7 +166,7 @@ country_event = { #Romanian liberation
 
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = corporatist_fascist
 			}
 
 			if = {
@@ -231,7 +227,7 @@ country_event = { #Romanian liberation
 		if = {
 			limit = {
 				NOT = {
-					has_government = national_populist
+					has_government = corporatist_fascist
 				}
 			}
 
@@ -293,9 +289,9 @@ country_event = { #Romanian liberation
 				limit = {
 					NOT = {
 						tag = GER
-						has_government = totalist
-						has_government = syndicalist
-						has_government = radical_socialist
+						has_government = marxist_leninist
+						has_government = libertarian_marxist
+						has_government = revolutionary_socialist
 					}
 				}
 				country_event = { id = romania.103 } # Form of Romanian government
@@ -326,7 +322,7 @@ country_event = { #Romanian liberation
 
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = corporatist_fascist
 			}
 
 			if = {
@@ -395,7 +391,7 @@ country_event = { #Romanian liberation
 		if = {
 			limit = {
 				NOT = {
-					has_government = national_populist
+					has_government = corporatist_fascist
 				}
 			}
 
@@ -463,9 +459,9 @@ country_event = { #Romanian liberation
 			if = {
 				limit = {
 					NOT = {
-						has_government = totalist
-						has_government = syndicalist
-						has_government = radical_socialist
+						has_government = marxist_leninist
+						has_government = libertarian_marxist
+						has_government = revolutionary_socialist
 					}
 				}
 				country_event = { id = romania.103 } # Form of Romanian government
@@ -1063,9 +1059,9 @@ country_event = { #Austrian Italy liberation
 				exists = no
 			}
 			NOT = {
-				has_government = radical_socialist
-				has_government = syndicalist
-				has_government = totalist
+				has_government = revolutionary_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
 			}
 		}
 		name = annex.17.b
@@ -2336,9 +2332,9 @@ country_event = { #Fate of the Southern Italy
 			NOT = { is_joke_nation = yes }
 
 			OR = {
-				has_government = syndicalist
-				has_government = totalist
-				has_government = radical_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
+				has_government = revolutionary_socialist
 			}
 			NOT = { country_exists = SRI is_in_faction_with = ITA }
 		}
@@ -2392,9 +2388,9 @@ country_event = { #Fate of the Southern Italy
 			NOT = { is_joke_nation = yes }
 
 			NOT = {
-				has_government = syndicalist
-				has_government = totalist
-				has_government = radical_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
+				has_government = revolutionary_socialist
 			}
 			NOT = { country_exists = SRI is_in_faction_with = ITA }
 		}
@@ -2451,9 +2447,9 @@ country_event = { #Fate of the Southern Italy
 			NOT = { is_joke_nation = yes }
 
 			NOT = {
-				has_government = syndicalist
-				has_government = totalist
-				has_government = radical_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
+				has_government = revolutionary_socialist
 			}
 			ITA = {
 				exists = no
@@ -2510,9 +2506,9 @@ country_event = { #Fate of the Southern Italy
 			NOT = { is_joke_nation = yes }
 
 			NOT = {
-				has_government = syndicalist
-				has_government = totalist
-				has_government = radical_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
+				has_government = revolutionary_socialist
 			}
 			NOT = { country_exists = SRI }
 		}
@@ -2584,9 +2580,9 @@ country_event = { #Fate of the Southern Italy
 				has_country_flag = ITA_refuse
 				is_in_faction_with = ITA
 				has_war_with = ITA
-				has_government = syndicalist
-				has_government = totalist
-				has_government = radical_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
+				has_government = revolutionary_socialist
 			}
 		}
 		name = annex.43.f
@@ -2888,9 +2884,9 @@ country_event = { #The Fate of Russia
 			NOT = { is_joke_nation = yes }
 
 			OR = {
-				has_government = radical_socialist
-				has_government = syndicalist
-				has_government = totalist
+				has_government = revolutionary_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
 			}
 
 		}
@@ -2927,9 +2923,9 @@ country_event = { #The Fate of Russia
 			NOT = { is_joke_nation = yes }
 
 			NOT = {
-				has_government = radical_socialist
-				has_government = syndicalist
-				has_government = totalist
+				has_government = revolutionary_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
 			}
 		}
 		name = annex.48.b
@@ -2977,9 +2973,9 @@ country_event = { #The Fate of Russia
 			NOT = { is_joke_nation = yes }
 
 			NOT = {
-				has_government = radical_socialist
-				has_government = syndicalist
-				has_government = totalist
+				has_government = revolutionary_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
 				country_exists = SIB
 			}
 			owns_state = 570
@@ -3189,10 +3185,10 @@ country_event = { #Fate of America
 			NOT = { is_joke_nation = yes }
 
 			NOT = {
-				has_government = totalist
-				has_government = syndicalist
-				has_government = radical_socialist
-				has_government = national_populist
+				has_government = marxist_leninist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
+				has_government = corporatist_fascist
 			}
 		}
 		name = annex.52.a
@@ -3244,10 +3240,10 @@ country_event = { #Fate of America
 		}
 		trigger = {
 			NOT = {
-				has_government = national_populist
-				has_government = totalist
-				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = corporatist_fascist
+				has_government = marxist_leninist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
 			}
 		}
 		USA = {
@@ -3621,9 +3617,9 @@ country_event = { #Fate of America
 			NOT = { is_joke_nation = yes }
 
 			OR = {
-				has_government = radical_socialist
-				has_government = syndicalist
-				has_government = totalist
+				has_government = revolutionary_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
 			}
 		}
 		name = annex.52.e
@@ -3657,8 +3653,8 @@ country_event = { #Fate of America
 
 			OR = {
 				has_government = authoritarian_democrat
-				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = national_syndicalist
+				has_government = corporatist_fascist
 			}
 		}
 		name = annex.52.f
@@ -3666,8 +3662,8 @@ country_event = { #Fate of America
 			factor = 50
 			modifier = { 
 			factor = 1.5
-			OR = { has_government = paternal_autocrat
-			has_government = national_populist }
+			OR = { has_government = national_syndicalist
+			has_government = corporatist_fascist }
 			}
 		}
 
@@ -4262,8 +4258,8 @@ country_event = { #Fate of the Baltic Region
 				has_completed_focus = SOV_EXP_REV
 				has_country_flag = rus_tsar
 				has_government = authoritarian_democrat
-				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = national_syndicalist
+				has_government = corporatist_fascist
 			}
 
 		}
@@ -4343,7 +4339,7 @@ country_event = { #Fate of the Baltic Region
 				LIT = {
 					has_cosmetic_tag = LIT_republican
 				}
-				NOT = { has_government = national_populist }
+				NOT = { has_government = corporatist_fascist }
 			}
 			LIT = {
 				drop_cosmetic_tag = yes
@@ -4399,7 +4395,7 @@ country_event = { #Fate of the Baltic Region
 				LIT = {
 					has_cosmetic_tag = LIT_republican
 				}
-				NOT = { has_government = national_populist }
+				NOT = { has_government = corporatist_fascist }
 			}
 			LIT = {
 				drop_cosmetic_tag = yes
@@ -4536,7 +4532,7 @@ country_event = { #Fate of the Baltic Region
 				LIT = {
 					has_cosmetic_tag = LIT_republican
 				}
-				NOT = { has_government = national_populist }
+				NOT = { has_government = corporatist_fascist }
 			}
 			LIT = {
 				drop_cosmetic_tag = yes
@@ -4945,9 +4941,9 @@ country_event = { #The Fate of Centroamerica
 			NOT = { is_joke_nation = yes }
 
 			NOT = {
-				has_government = totalist
-				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = marxist_leninist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
 			}
 		}
 
@@ -5247,9 +5243,9 @@ country_event = { #The Fate of Spain POR
 				is_in_faction_with = SPR
 				AND = {
 					NOT = {
-						has_government = totalist
-						has_government = syndicalist
-						has_government = radical_socialist
+						has_government = marxist_leninist
+						has_government = libertarian_marxist
+						has_government = revolutionary_socialist
 					}
 					SPR = {
 						exists = no
@@ -5332,9 +5328,9 @@ country_event = { #The Fate of Spain POR
 				is_in_faction_with = CNT
 				AND = {
 					OR = {
-						has_government = totalist
-						has_government = syndicalist
-						has_government = radical_socialist
+						has_government = marxist_leninist
+						has_government = libertarian_marxist
+						has_government = revolutionary_socialist
 					}
 					CNT = {
 						exists = no
@@ -5424,9 +5420,9 @@ country_event = { #The Fate of Spain POR
 			NOT = {
 				is_in_faction_with = CAR
 				is_in_faction_with = SPR
-				has_government = totalist
-				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = marxist_leninist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
 			}
 
 			SPR = {
@@ -5511,9 +5507,9 @@ country_event = { #Fate of the Northern China
 			}
 
 			NOT = {
-				has_government = totalist
-				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = marxist_leninist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
 			}
 
 			NOT = {
@@ -5689,9 +5685,9 @@ country_event = { #Fate of the Northern China
 			}
 
 			OR = {
-				has_government = totalist
-				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = marxist_leninist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
 			}
 
 			NOT = {
@@ -5777,9 +5773,9 @@ country_event = { #Fate of the Northern China
 			}
 
 			NOT = {
-				has_government = totalist
-				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = marxist_leninist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
 			}
 
 			NOT = {
@@ -6363,9 +6359,9 @@ country_event = { #The fate of Georgia
 						tag = RUS
 						has_country_flag = rus_tsar
 					}
-					has_government = totalist
-					has_government = syndicalist
-					has_government = radical_socialist
+					has_government = marxist_leninist
+					has_government = libertarian_marxist
+					has_government = revolutionary_socialist
 				}
 				AND = {
 					tag = RUS
@@ -6432,9 +6428,9 @@ country_event = { #The fate of Georgia
 			}
 
 			OR = {
-				has_government = totalist
-				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = marxist_leninist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
 			}
 
 		}
@@ -6650,9 +6646,9 @@ country_event = { #Releasing Spain (if not POR)
 				is_in_faction_with = SPR
 				AND = {
 					NOT = {
-						has_government = totalist
-						has_government = syndicalist
-						has_government = radical_socialist
+						has_government = marxist_leninist
+						has_government = libertarian_marxist
+						has_government = revolutionary_socialist
 					}
 					SPR = {
 						exists = no
@@ -6746,9 +6742,9 @@ country_event = { #Releasing Spain (if not POR)
 				is_in_faction_with = CNT
 				AND = {
 					OR = {
-						has_government = totalist
-						has_government = syndicalist
-						has_government = radical_socialist
+						has_government = marxist_leninist
+						has_government = libertarian_marxist
+						has_government = revolutionary_socialist
 					}
 					CNT = {
 						exists = no
@@ -6839,9 +6835,9 @@ country_event = { #Releasing Spain (if not POR)
 			NOT = {
 				is_in_faction_with = CAR
 				is_in_faction_with = SPR
-				has_government = totalist
-				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = marxist_leninist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
 			}
 
 			SPR = {
@@ -6924,9 +6920,9 @@ country_event = { #Releasing Spain (if not POR)
 			}
 
 			NOT = {
-				has_government = totalist
-				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = marxist_leninist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
 			}
 
 			owns_state = 41
@@ -7920,11 +7916,11 @@ country_event = { #Choosing the new German Head of State
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Friedrich_Christian_von_Wettin.tga"
 				expire = "1965.1.1"
-				ideology = paternal_autocrat_subtype
+				ideology = national_syndicalist_subtype
 				traits = {}
 			}
 			set_politics = {
-				ruling_party = paternal_autocrat
+				ruling_party = national_syndicalist
 				elections_allowed = no
 			}
 
@@ -8721,7 +8717,7 @@ country_event = { #The new leader of Britain
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = revolutionary_socialist_subtype
 				traits = {}
 			}
 
@@ -8730,7 +8726,7 @@ country_event = { #The new leader of Britain
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = syndicalist_subtype
+				ideology = libertarian_marxist_subtype
 				traits = {}
 			}
 
@@ -8739,7 +8735,7 @@ country_event = { #The new leader of Britain
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = totalist_subtype
+				ideology = marxist_leninist_subtype
 				traits = {}
 			}
 
@@ -8766,7 +8762,7 @@ country_event = { #The new leader of Britain
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = market_liberal_subtype
+				ideology = liberal_conservative_subtype
 				traits = {}
 			}
 
@@ -8793,7 +8789,7 @@ country_event = { #The new leader of Britain
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = paternal_autocrat_subtype
+				ideology = national_syndicalist_subtype
 				traits = {}
 			}
 
@@ -8802,7 +8798,7 @@ country_event = { #The new leader of Britain
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = corporatist_fascist_subtype
 				traits = {}
 			}
 
@@ -8835,7 +8831,7 @@ country_event = { #The new leader of Britain
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Portrait_England_Bernard_Montgomery.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = revolutionary_socialist_subtype
 				traits = {}
 			}
 
@@ -8844,7 +8840,7 @@ country_event = { #The new leader of Britain
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Portrait_England_Bernard_Montgomery.tga"
 				expire = "1965.1.1"
-				ideology = syndicalist_subtype
+				ideology = libertarian_marxist_subtype
 				traits = {}
 			}
 
@@ -8853,7 +8849,7 @@ country_event = { #The new leader of Britain
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Portrait_England_Bernard_Montgomery.tga"
 				expire = "1965.1.1"
-				ideology = totalist_subtype
+				ideology = marxist_leninist_subtype
 				traits = {}
 			}
 
@@ -8880,7 +8876,7 @@ country_event = { #The new leader of Britain
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Portrait_England_Bernard_Montgomery.tga"
 				expire = "1965.1.1"
-				ideology = market_liberal_subtype
+				ideology = liberal_conservative_subtype
 				traits = {}
 			}
 
@@ -8907,7 +8903,7 @@ country_event = { #The new leader of Britain
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Portrait_England_Bernard_Montgomery.tga"
 				expire = "1965.1.1"
-				ideology = paternal_autocrat_subtype
+				ideology = national_syndicalist_subtype
 				traits = {}
 			}
 
@@ -8916,7 +8912,7 @@ country_event = { #The new leader of Britain
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Portrait_England_Bernard_Montgomery.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = corporatist_fascist_subtype
 				traits = {}
 			}
 
@@ -8957,7 +8953,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = revolutionary_socialist_subtype
 				traits = {}
 			}
 
@@ -8966,7 +8962,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = syndicalist_subtype
+				ideology = libertarian_marxist_subtype
 				traits = {}
 			}
 
@@ -8975,7 +8971,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = totalist_subtype
+				ideology = marxist_leninist_subtype
 				traits = {}
 			}
 
@@ -9002,7 +8998,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = market_liberal_subtype
+				ideology = liberal_conservative_subtype
 				traits = {}
 			}
 
@@ -9029,7 +9025,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = paternal_autocrat_subtype
+				ideology = national_syndicalist_subtype
 				traits = {}
 			}
 
@@ -9038,7 +9034,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = corporatist_fascist_subtype
 				traits = {}
 			}
 
@@ -9053,7 +9049,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = revolutionary_socialist_subtype
 				traits = {}
 			}
 
@@ -9062,7 +9058,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = syndicalist_subtype
+				ideology = libertarian_marxist_subtype
 				traits = {}
 			}
 
@@ -9071,7 +9067,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = totalist_subtype
+				ideology = marxist_leninist_subtype
 				traits = {}
 			}
 
@@ -9098,7 +9094,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = market_liberal_subtype
+				ideology = liberal_conservative_subtype
 				traits = {}
 			}
 
@@ -9125,7 +9121,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = paternal_autocrat_subtype
+				ideology = national_syndicalist_subtype
 				traits = {}
 			}
 
@@ -9134,7 +9130,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = corporatist_fascist_subtype
 				traits = {}
 			}
 
@@ -9167,7 +9163,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Harold_Balfour.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = revolutionary_socialist_subtype
 				traits = {}
 			}
 
@@ -9176,7 +9172,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Harold_Balfour.tga"
 				expire = "1965.1.1"
-				ideology = syndicalist_subtype
+				ideology = libertarian_marxist_subtype
 				traits = {}
 			}
 
@@ -9185,7 +9181,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Harold_Balfour.tga"
 				expire = "1965.1.1"
-				ideology = totalist_subtype
+				ideology = marxist_leninist_subtype
 				traits = {}
 			}
 
@@ -9212,7 +9208,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Harold_Balfour.tga"
 				expire = "1965.1.1"
-				ideology = market_liberal_subtype
+				ideology = liberal_conservative_subtype
 				traits = {}
 			}
 
@@ -9239,7 +9235,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Harold_Balfour.tga"
 				expire = "1965.1.1"
-				ideology = paternal_autocrat_subtype
+				ideology = national_syndicalist_subtype
 				traits = {}
 			}
 
@@ -9248,7 +9244,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Harold_Balfour.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = corporatist_fascist_subtype
 				traits = {}
 			}
 
@@ -10031,12 +10027,12 @@ country_event = { #Independent Saudi Arabia
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Friedrich_Christian_von_Wettin.tga"
 				expire = "1965.1.1"
-				ideology = paternal_autocrat_subtype
+				ideology = national_syndicalist_subtype
 				traits = {}
 			}
 		}
 		set_politics = {
-			ruling_party = paternal_autocrat
+			ruling_party = national_syndicalist
 			elections_allowed = no
 		}
 
@@ -10533,7 +10529,7 @@ country_event = { #Choosing the new Head of State of Occitania
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Prince_Rene_of_Bourbon-Parma.tga"
 				expire = "1965.1.1"
-				ideology = radical_socialist_subtype
+				ideology = revolutionary_socialist_subtype
 				traits = {}
 			}
 
@@ -10542,7 +10538,7 @@ country_event = { #Choosing the new Head of State of Occitania
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Prince_Rene_of_Bourbon-Parma.tga"
 				expire = "1965.1.1"
-				ideology = syndicalist_subtype
+				ideology = libertarian_marxist_subtype
 				traits = {}
 			}
 
@@ -10551,7 +10547,7 @@ country_event = { #Choosing the new Head of State of Occitania
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Prince_Rene_of_Bourbon-Parma.tga"
 				expire = "1965.1.1"
-				ideology = totalist_subtype
+				ideology = marxist_leninist_subtype
 				traits = {}
 			}
 
@@ -10578,7 +10574,7 @@ country_event = { #Choosing the new Head of State of Occitania
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Prince_Rene_of_Bourbon-Parma.tga"
 				expire = "1965.1.1"
-				ideology = market_liberal_subtype
+				ideology = liberal_conservative_subtype
 				traits = {}
 			}
 
@@ -10605,7 +10601,7 @@ country_event = { #Choosing the new Head of State of Occitania
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Prince_Rene_of_Bourbon-Parma.tga"
 				expire = "1965.1.1"
-				ideology = paternal_autocrat_subtype
+				ideology = national_syndicalist_subtype
 				traits = {}
 			}
 
@@ -10614,7 +10610,7 @@ country_event = { #Choosing the new Head of State of Occitania
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Prince_Rene_of_Bourbon-Parma.tga"
 				expire = "1965.1.1"
-				ideology = national_populist_subtype
+				ideology = corporatist_fascist_subtype
 				traits = {}
 			}
 
@@ -11292,9 +11288,9 @@ country_event = { #The Annexation of India
 			NOT = { is_joke_nation = yes }
 
 			NOT = {
-				has_government = radical_socialist
-				has_government = syndicalist
-				has_government = totalist
+				has_government = revolutionary_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
 			}
 
 			owns_state = 439
@@ -11340,9 +11336,9 @@ country_event = { #The Annexation of India
 			NOT = { is_joke_nation = yes }
 
 			NOT = {
-				has_government = radical_socialist
-				has_government = syndicalist
-				has_government = totalist
+				has_government = revolutionary_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
 			}
 
 			owns_state = 427
@@ -11388,9 +11384,9 @@ country_event = { #The Annexation of India
 			NOT = { is_joke_nation = yes }
 
 			OR = {
-				has_government = radical_socialist
-				has_government = syndicalist
-				has_government = totalist
+				has_government = revolutionary_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
 			}
 
 			owns_state = 431
@@ -12045,7 +12041,7 @@ country_event = { #The Annexation of Siam
 						desc = "POLITICS_RAMA_VII_DESC"
 						picture = "Portrait_Siam_Rama_VII.tga"
 						expire = "1941.5.30"
-						ideology = market_liberal_subtype
+						ideology = liberal_conservative_subtype
 						traits = { }
 					}
 					create_country_leader = { # Start Leader
@@ -12069,7 +12065,7 @@ country_event = { #The Annexation of Siam
 						desc = "POLITICS_RAMA_VII_DESC"
 						picture = "Portrait_Siam_Rama_VII.tga"
 						expire = "1941.5.30"
-						ideology = paternal_autocrat_subtype
+						ideology = national_syndicalist_subtype
 						traits = { }
 					}
 				}		
@@ -12101,7 +12097,7 @@ country_event = { #The Annexation of Siam
 						desc = "POLITICS_RAMA_VIII_DESC"
 						picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VIII_Civilian.tga"
 						expire = "1946.6.9"
-						ideology = market_liberal_subtype
+						ideology = liberal_conservative_subtype
 						traits = {}
 					}
 					create_country_leader = {
@@ -12125,7 +12121,7 @@ country_event = { #The Annexation of Siam
 						desc = "POLITICS_RAMA_VIII_DESC"
 						picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VIII_Civilian.tga"
 						expire = "1946.6.9"
-						ideology = paternal_autocrat_subtype
+						ideology = national_syndicalist_subtype
 						traits = {}
 					}
 				}		
@@ -12154,7 +12150,7 @@ country_event = { #The Annexation of Siam
 						desc = "POLITICS_RAMA_VIX_DESC"
 						picture = "gfx/leaders/SIA/Portrait_Siam_Rama_IX.tga"
 						expire = "2016.10.13"
-						ideology = market_liberal_subtype
+						ideology = liberal_conservative_subtype
 						traits = {}
 					}
 					create_country_leader = {
@@ -12178,7 +12174,7 @@ country_event = { #The Annexation of Siam
 						desc = "POLITICS_RAMA_VIX_DESC"
 						picture = "gfx/leaders/SIA/Portrait_Siam_Rama_IX.tga"
 						expire = "2016.10.13"
-						ideology = paternal_autocrat_subtype
+						ideology = national_syndicalist_subtype
 						traits = {}
 					}
 				}		
@@ -12710,7 +12706,7 @@ country_event = { #The Annexation of Siam
 					desc = "POLITICS_CHULA_CHAKRABONGSE_DESC"
 					picture = "gfx/leaders/SIA/Portrait_SIA_Chula_Chakrabongse.tga"
 					expire = "1963.12.30"
-					ideology = market_liberal_subtype
+					ideology = liberal_conservative_subtype
 					traits = { }
 				}
 				create_country_leader = { # Chakrabongse Line of Succession
@@ -12734,7 +12730,7 @@ country_event = { #The Annexation of Siam
 					desc = "POLITICS_CHULA_CHAKRABONGSE_DESC"
 					picture = "gfx/leaders/SIA/Portrait_SIA_Chula_Chakrabongse.tga"
 					expire = "1963.12.30"
-					ideology = paternal_autocrat_subtype
+					ideology = national_syndicalist_subtype
 					traits = { }
 				}
 			}
@@ -13258,7 +13254,7 @@ country_event = { #The Annexation of Siam
 						desc = "POLITICS_SUKHUMBHAND_DESC"
 						picture = "gfx/leaders/SIA/Portrait_Siam_Paribatra_Sukhumbhand.tga"
 						expire = "1944.1.18"
-						ideology = market_liberal_subtype
+						ideology = liberal_conservative_subtype
 						traits = {}
 					}
 					create_country_leader = { # Throne Pretender
@@ -13282,7 +13278,7 @@ country_event = { #The Annexation of Siam
 						desc = "POLITICS_SUKHUMBHAND_DESC"
 						picture = "gfx/leaders/SIA/Portrait_Siam_Paribatra_Sukhumbhand.tga"
 						expire = "1944.1.18"
-						ideology = paternal_autocrat_subtype
+						ideology = national_syndicalist_subtype
 						traits = {}
 					}
 				}
@@ -13314,7 +13310,7 @@ country_event = { #The Annexation of Siam
 						desc = "POLITICS_CHUMBHOTBONGS_PARIBATRA_DESC"
 						picture = "gfx/leaders/SIA/Portrait_Siam_Chumbhotbongs_Paribatra.tga"
 						expire = "1959.9.15"
-						ideology = market_liberal_subtype
+						ideology = liberal_conservative_subtype
 						traits = {}
 					}
 					create_country_leader = {
@@ -13338,7 +13334,7 @@ country_event = { #The Annexation of Siam
 						desc = "POLITICS_CHUMBHOTBONGS_PARIBATRA_DESC"
 						picture = "gfx/leaders/SIA/Portrait_Siam_Chumbhotbongs_Paribatra.tga"
 						expire = "1959.9.15"
-						ideology = paternal_autocrat_subtype
+						ideology = national_syndicalist_subtype
 						traits = {}
 					}
 				}
@@ -13367,7 +13363,7 @@ country_event = { #The Annexation of Siam
 						desc = "POLITICS_SUKHUMABHININDA_DESC"
 						picture = "gfx/leaders/SIA/Portrait_Siam_Sukhumapinan_Paribatra.tga"
 						expire = "2003.4.10"
-						ideology = market_liberal_subtype
+						ideology = liberal_conservative_subtype
 						traits = {}
 					}
 					create_country_leader = {
@@ -13383,7 +13379,7 @@ country_event = { #The Annexation of Siam
 						desc = "POLITICS_SUKHUMABHININDA_DESC"
 						picture = "gfx/leaders/SIA/Portrait_Siam_Sukhumapinan_Paribatra.tga"
 						expire = "2003.4.10"
-						ideology = paternal_autocrat_subtype
+						ideology = national_syndicalist_subtype
 						traits = {}
 					}
 					create_country_leader = {
@@ -13899,7 +13895,7 @@ country_event = { #The Annexation of Siam
 					desc = "POLITICS_SONG_NOPPAKUL_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Song_Noppakul.tga"
 					expire = "2012.11.27"
-					ideology = totalist_subtype
+					ideology = marxist_leninist_subtype
 					traits = { permanent_revolutionary }
 				}
 				create_country_leader = { # Pridi Panomyong
@@ -13907,7 +13903,7 @@ country_event = { #The Annexation of Siam
 					desc = "POLITICS_PRIDI_PANOMYONG_REBEL_WIN_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong_II.tga"
 					expire = "1983.5.2"
-					ideology = syndicalist_subtype
+					ideology = libertarian_marxist_subtype
 					traits = { }
 				}
 				create_country_leader = { # Pridi Panomyong
@@ -13915,7 +13911,7 @@ country_event = { #The Annexation of Siam
 					desc = "POLITICS_PRIDI_PANOMYONG_REBEL_WIN_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong_II.tga"
 					expire = "1983.5.2"
-					ideology = radical_socialist_subtype
+					ideology = revolutionary_socialist_subtype
 					traits = { }
 				}
 				create_country_leader = { # Pridi Panomyong
@@ -13939,7 +13935,7 @@ country_event = { #The Annexation of Siam
 					desc = "POLITICS_POTE_SARASIN_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Pote_Sarasin.tga"
 					expire = "2000.9.28"
-					ideology = market_liberal_subtype
+					ideology = liberal_conservative_subtype
 					traits = { }
 				}
 				create_country_leader = { # Social Conservative
@@ -13963,7 +13959,7 @@ country_event = { #The Annexation of Siam
 					desc = "POLITICS_SARIT_THANARAT_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Sarit_Thanarat_Civilian.tga"
 					expire = "1963.12.8"
-					ideology = paternal_autocrat_subtype
+					ideology = national_syndicalist_subtype
 					traits = { dictator }
 				}
 				create_country_leader = { # Republican National Populism - Plaek Phibunsongkhram
@@ -13971,7 +13967,7 @@ country_event = { #The Annexation of Siam
 					desc = "POLITICS_PLAEK_KHITTASANGKHA_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Plaek_Pibulsongkram_Civilian.tga"
 					expire = "1964.6.11"
-					ideology = national_populist_subtype
+					ideology = corporatist_fascist_subtype
 					traits = { dictator }
 				}
 			}
@@ -14328,9 +14324,9 @@ country_event = { #Fate of Anatolia
 			NOT = { is_joke_nation = yes }
 
 			NOT = {
-				has_government = radical_socialist
-				has_government = syndicalist
-				has_government = totalist
+				has_government = revolutionary_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
 			}
 
 			OR = {
@@ -14792,9 +14788,9 @@ country_event = { #The Annexation of the Ukraine
 				UKR = {
 					has_cosmetic_tag = UKR_communist
 					NOT = {
-						has_government = totalist
-						has_government = syndicalist
-						has_government = radical_socialist
+						has_government = marxist_leninist
+						has_government = libertarian_marxist
+						has_government = revolutionary_socialist
 					}
 				}
 			}
@@ -14810,9 +14806,9 @@ country_event = { #The Annexation of the Ukraine
 						has_cosmetic_tag = UKR_communist
 					}
 					OR = {
-						has_government = totalist
-						has_government = syndicalist
-						has_government = radical_socialist
+						has_government = marxist_leninist
+						has_government = libertarian_marxist
+						has_government = revolutionary_socialist
 					}
 				}
 			}
@@ -14858,9 +14854,9 @@ country_event = { #The Annexation of the Ukraine
 				UKR = {
 					has_cosmetic_tag = UKR_communist
 					NOT = {
-						has_government = totalist
-						has_government = syndicalist
-						has_government = radical_socialist
+						has_government = marxist_leninist
+						has_government = libertarian_marxist
+						has_government = revolutionary_socialist
 					}
 				}
 			}
@@ -15118,9 +15114,9 @@ country_event = { #Fate of the South-Western China
 			}
 
 			OR = {
-				has_government = radical_socialist
-				has_government = syndicalist
-				has_government = totalist
+				has_government = revolutionary_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
 			}
 
 			NOT = {
@@ -15628,9 +15624,9 @@ country_event = { #Fate of the Southern China
 			}
 
 			OR = {
-				has_government = radical_socialist
-				has_government = syndicalist
-				has_government = totalist
+				has_government = revolutionary_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
 			}
 
 			NOT = {
@@ -18509,16 +18505,16 @@ country_event = { #The destiny of North Italy Everyone
 		}
 		OR = {
 			NOT = {
-				has_government = totalist
-				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = marxist_leninist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
 			}
 			AND = {
 			country_exists = SRI
 			OR = {
-				has_government = totalist
-				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = marxist_leninist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
 			}
 			}
 		}
@@ -18565,9 +18561,9 @@ country_event = { #The destiny of North Italy Everyone
 				country_exists = SRI
 			}
 			OR = {
-				has_government = syndicalist
-				has_government = totalist
-				has_government = radical_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
+				has_government = revolutionary_socialist
 			}
 		}
 
@@ -18606,9 +18602,9 @@ country_event = { #The destiny of North Italy Everyone
 				SRI = {
 					is_in_faction_with = ROOT
 				}
-				has_government = syndicalist
-				has_government = totalist
-				has_government = radical_socialist
+				has_government = libertarian_marxist
+				has_government = marxist_leninist
+				has_government = revolutionary_socialist
 			}
 		}
 
@@ -18921,7 +18917,7 @@ country_event = { #Fate of Portugal non-leftist
 					name = "SMF Maria Adelaide de Bragança"
 					picture = "Portrait_Portugal_Maria_Adelaide.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = corporatist_fascist_subtype
 					traits = {
 
 					}
@@ -18930,7 +18926,7 @@ country_event = { #Fate of Portugal non-leftist
 					name = "SMF Maria Adelaide de Bragança"
 					picture = "Portrait_Portugal_Maria_Adelaide.tga"
 					expire = "1965.1.1"
-					ideology = paternal_autocrat_subtype
+					ideology = national_syndicalist_subtype
 					traits = {
 
 					}
@@ -18957,7 +18953,7 @@ country_event = { #Fate of Portugal non-leftist
 					name = "SMF Maria Adelaide de Bragança"
 					picture = "Portrait_Portugal_Maria_Adelaide.tga"
 					expire = "1965.1.1"
-					ideology = market_liberal_subtype
+					ideology = liberal_conservative_subtype
 					traits = {
 
 					}
@@ -19020,8 +19016,8 @@ country_event = { #Fate of Portugal non-leftist
 				limit = {
 					OR = {
 						has_government = authoritarian_democrat
-						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = national_syndicalist
+						has_government = corporatist_fascist
 					}
 				}
 				kill_country_leader = yes
@@ -19072,7 +19068,7 @@ country_event = { #Fate of Portugal non-leftist
 					name = "SMF Maria Ana de Bragança"
 					picture = "Portrait_Portugal_Maria_Ana.tga"
 					expire = "1965.1.1"
-					ideology = national_populist_subtype
+					ideology = corporatist_fascist_subtype
 					traits = {
 
 					}
@@ -19081,7 +19077,7 @@ country_event = { #Fate of Portugal non-leftist
 					name = "SMF Maria Ana de Bragança"
 					picture = "Portrait_Portugal_Maria_Ana.tga"
 					expire = "1965.1.1"
-					ideology = paternal_autocrat_subtype
+					ideology = national_syndicalist_subtype
 					traits = {
 
 					}
@@ -19775,7 +19771,7 @@ country_event = { #Fate of Britain
 
 }
 
-country_event = { #A syndicalist Flanders-Wallonia
+country_event = { #A libertarian_marxist Flanders-Wallonia
 	id = annex.160
 	title = annex.160.t
 	desc = annex.160.d
@@ -19792,7 +19788,7 @@ country_event = { #A syndicalist Flanders-Wallonia
 			desc = "BEL_JOSEPH_JACQUEMOTTE_DESC"
 			picture = "Portrait_Belgium_Joseph_Jacquemotte.tga"
 			expire = "1965.1.1"
-			ideology = totalist_subtype
+			ideology = marxist_leninist_subtype
 			traits = {}
 		}
 		create_country_leader = {
@@ -19800,7 +19796,7 @@ country_event = { #A syndicalist Flanders-Wallonia
 			desc = "BEL_JOSEPH_JACQUEMOTTE_DESC"
 			picture = "Portrait_Belgium_Joseph_Jacquemotte.tga"
 			expire = "1965.1.1"
-			ideology = syndicalist_subtype
+			ideology = libertarian_marxist_subtype
 			traits = {}
 		}
 		create_country_leader = {
@@ -19808,7 +19804,7 @@ country_event = { #A syndicalist Flanders-Wallonia
 			desc = "BEL_JOSEPH_JACQUEMOTTE_DESC"
 			picture = "Portrait_Belgium_Joseph_Jacquemotte.tga"
 			expire = "1965.1.1"
-			ideology = radical_socialist_subtype
+			ideology = revolutionary_socialist_subtype
 			traits = {}
 		}
 		remove_ideas_with_trait = head_of_government
@@ -19880,14 +19876,14 @@ country_event = { #Fate of Belgium
 			desc = "POLITICS_ALBERT_I_DESC"
 			picture = "Portrait_Belgium_King_Albert.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = corporatist_fascist_subtype
 		}
 		create_country_leader = {
 			name = "Albert I"
 			desc = "POLITICS_ALBERT_I_DESC"
 			picture = "Portrait_Belgium_King_Albert.tga"
 			expire = "1965.1.1"
-			ideology = paternal_autocrat_subtype
+			ideology = national_syndicalist_subtype
 		}
 		create_country_leader = {
 			name = "Albert I"
@@ -19908,7 +19904,7 @@ country_event = { #Fate of Belgium
 			desc = "POLITICS_ALBERT_I_DESC"
 			picture = "Portrait_Belgium_King_Albert.tga"
 			expire = "1965.1.1"
-			ideology = market_liberal_subtype
+			ideology = liberal_conservative_subtype
 		}
 		create_country_leader = {
 			name = "Albert I"
@@ -19984,7 +19980,7 @@ country_event = { #Fate of Belgium
                 desc = "POLITICS_KAREL_BELGIE_DESC"
                 picture = "Portrait_Flanders_Karel_Van_Vlaanderen.tga"
                 expire = "1965.1.1"
-                ideology = market_liberal_subtype
+                ideology = liberal_conservative_subtype
                 traits = {
                 }
             }
@@ -20011,7 +20007,7 @@ country_event = { #Fate of Belgium
                 desc = "POLITICS_KAREL_BELGIE_DESC"
                 picture = "Portrait_Flanders_Karel_Van_Vlaanderen.tga"
                 expire = "1965.1.1"
-                ideology = paternal_autocrat_subtype
+                ideology = national_syndicalist_subtype
                 traits = {
                 }
             }
@@ -20020,7 +20016,7 @@ country_event = { #Fate of Belgium
                 desc = "POLITICS_KAREL_BELGIE_DESC"
                 picture = "Portrait_Flanders_Karel_Van_Vlaanderen.tga"
                 expire = "1965.1.1"
-                ideology = national_populist_subtype
+                ideology = corporatist_fascist_subtype
                 traits = {
                 }
             }
@@ -20394,7 +20390,7 @@ country_event = { #Fate of Lithuania
 				LIT = {
 					has_cosmetic_tag = LIT_republican
 				}
-				NOT = { has_government = national_populist }
+				NOT = { has_government = corporatist_fascist }
 			}
 			LIT = {
 				drop_cosmetic_tag = yes
@@ -20790,9 +20786,9 @@ country_event = { #Fate of Nepal
 			}
 			owns_state = 815
 			NOT = {
-				has_government = syndicalist
-				has_government = radical_socialist
-				has_government = totalist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
+				has_government = marxist_leninist
 			}
 		}
 
@@ -20861,9 +20857,9 @@ country_event = { #Fate of Nepal
 			}
 			owns_state = 815
 			OR = {
-				has_government = syndicalist
-				has_government = radical_socialist
-				has_government = totalist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
+				has_government = marxist_leninist
 			}
 		}
 
@@ -22153,9 +22149,9 @@ country_event = { #Fate of Manchuria
 			NOT = { is_joke_nation = yes }
 
 			NOT = {
-				has_government = totalist
-				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = marxist_leninist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
 			}
 
 			NOT = {
@@ -22311,9 +22307,9 @@ country_event = { #Fate of Manchuria
 			}
 
 			OR = {
-				has_government = totalist
-				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = marxist_leninist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
 			}
 
 			NOT = {
@@ -22726,9 +22722,9 @@ country_event = { #Fate of Shangqing
 			NOT = { is_joke_nation = yes }
 
 			NOT = {
-				has_government = totalist
-				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = marxist_leninist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
 			}
 
 			NOT = {
@@ -22867,9 +22863,9 @@ country_event = { #Fate of Shangqing
 			}
 
 			OR = {
-				has_government = totalist
-				has_government = syndicalist
-				has_government = radical_socialist
+				has_government = marxist_leninist
+				has_government = libertarian_marxist
+				has_government = revolutionary_socialist
 			}
 
 			NOT = {
@@ -24134,11 +24130,11 @@ country_event = { #Aodh II arrives!
 			desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 			picture = "Portrait_Ireland_Hugo_O'Neill.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = corporatist_fascist_subtype
 			traits = {}
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = corporatist_fascist
 			elections_allowed = no
 		}
 	}
@@ -24198,11 +24194,11 @@ country_event = { #Seoirse I arrives!
 			desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 			picture = "Portrait_Ireland_Jorge_Maria_O'Neill.tga"
 			expire = "1965.1.1"
-			ideology = national_populist_subtype
+			ideology = corporatist_fascist_subtype
 			traits = {}
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = corporatist_fascist
 			elections_allowed = no
 		}
 	}
@@ -24480,7 +24476,7 @@ country_event = { #Annexation of Portugal for the CNT
 		POR = {
 			set_cosmetic_tag = RPO
 			set_politics = {
-				ruling_party = radical_socialist
+				ruling_party = revolutionary_socialist
 				elections_allowed = no
 			}
 
@@ -24794,9 +24790,9 @@ country_event = { #Annexation of Malawi
 			exists = no
 		}
 		OR = {
-			has_government = radical_socialist
-			has_government = syndicalist
-			has_government = totalist
+			has_government = revolutionary_socialist
+			has_government = libertarian_marxist
+			has_government = marxist_leninist
 			NOT = {
 				tag = POR
 				tag = GER
@@ -24978,9 +24974,9 @@ country_event = { #Annexation of Burundi
 			exists = no
 		}
 		OR = {
-			has_government = radical_socialist
-			has_government = syndicalist
-			has_government = totalist
+			has_government = revolutionary_socialist
+			has_government = libertarian_marxist
+			has_government = marxist_leninist
 			NOT = {
 				tag = POR
 				tag = GER
@@ -25048,9 +25044,9 @@ country_event = { #Annexation of Rwanda
 			exists = no
 		}
 		OR = {
-			has_government = radical_socialist
-			has_government = syndicalist
-			has_government = totalist
+			has_government = revolutionary_socialist
+			has_government = libertarian_marxist
+			has_government = marxist_leninist
 			NOT = {
 				tag = POR
 				tag = GER
@@ -25905,9 +25901,9 @@ country_event = { #Annexation of South Africa
 			modifier = {
 				factor = 0
 				OR = {
-					has_government = radical_socialist
-					has_government = syndicalist
-					has_government = totalist
+					has_government = revolutionary_socialist
+					has_government = libertarian_marxist
+					has_government = marxist_leninist
 					tag = MAF
 					tag = GER
 					tag = GEX
@@ -25971,9 +25967,9 @@ country_event = { #Annexation of Botswana
 			exists = no
 		}
 		OR = {
-			has_government = radical_socialist
-			has_government = syndicalist
-			has_government = totalist
+			has_government = revolutionary_socialist
+			has_government = libertarian_marxist
+			has_government = marxist_leninist
 			NOT = {
 				tag = POR
 				tag = GER
@@ -26039,9 +26035,9 @@ country_event = { #Annexation of Zimbabwe
 			exists = no
 		}
 		OR = {
-			has_government = radical_socialist
-			has_government = syndicalist
-			has_government = totalist
+			has_government = revolutionary_socialist
+			has_government = libertarian_marxist
+			has_government = marxist_leninist
 			NOT = {
 				tag = POR
 				tag = GER

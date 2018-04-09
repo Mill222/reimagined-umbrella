@@ -363,14 +363,14 @@ ideas = {
 			}
 		}
 
-		national_populist_influence = {
+		corporatist_fascist_influence = {
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = national_populist
+				has_government = corporatist_fascist
 			}
 
 			removal_cost = -1

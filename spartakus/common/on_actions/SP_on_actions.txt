@@ -418,9 +418,9 @@ on_actions = {
 					ROOT = {
 						NOT = { is_joke_nation = yes }
 						OR = {
-							has_government = radical_socialist
-							has_government = syndicalist
-							has_government = totalist
+							has_government = revolutionary_socialist
+							has_government = libertarian_marxist
+							has_government = marxist_leninist
 						}
 						POR = {
 							exists = no
@@ -440,9 +440,9 @@ on_actions = {
 					ROOT = {
 						NOT = { is_joke_nation = yes }
 						OR = {
-							has_government = radical_socialist
-							has_government = syndicalist
-							has_government = totalist
+							has_government = revolutionary_socialist
+							has_government = libertarian_marxist
+							has_government = marxist_leninist
 						}
 						NOT = {
 							tag = MOR
@@ -654,9 +654,9 @@ on_actions = {
 						owns_state = 126
 						is_in_faction_with = CAR
 						NOT = {
-							has_government = radical_socialist
-							has_government = syndicalist
-							has_government = totalist
+							has_government = revolutionary_socialist
+							has_government = libertarian_marxist
+							has_government = marxist_leninist
 							is_in_faction_with = CAN
 							is_in_faction_with = GBR
 							is_in_faction_with = GER
@@ -1454,9 +1454,9 @@ on_actions = {
 					ROOT = {
 						NOT = { is_joke_nation = yes }
 						NOT = {
-							has_government = radical_socialist
-							has_government = syndicalist
-							has_government = totalist
+							has_government = revolutionary_socialist
+							has_government = libertarian_marxist
+							has_government = marxist_leninist
 						}
 						POR = {
 							exists = no
@@ -1637,9 +1637,9 @@ on_actions = {
 					ROOT = {
 						NOT = { is_joke_nation = yes }
 						NOT = {
-							has_government = radical_socialist
-							has_government = syndicalist
-							has_government = totalist
+							has_government = revolutionary_socialist
+							has_government = libertarian_marxist
+							has_government = marxist_leninist
 						}
 						NOT = {
 							tag = MOR
@@ -1821,9 +1821,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -1851,9 +1851,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -1899,9 +1899,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -1929,9 +1929,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -1959,9 +1959,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -1992,9 +1992,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -2021,9 +2021,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -2051,9 +2051,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -2080,9 +2080,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -2110,9 +2110,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -2139,9 +2139,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -2170,9 +2170,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -2199,9 +2199,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-							has_government = radical_socialist
-							has_government = syndicalist
-							has_government = totalist
+							has_government = revolutionary_socialist
+							has_government = libertarian_marxist
+							has_government = marxist_leninist
 							NOT = {
 								tag = POR
 								tag = GER
@@ -2229,9 +2229,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-							has_government = radical_socialist
-							has_government = syndicalist
-							has_government = totalist
+							has_government = revolutionary_socialist
+							has_government = libertarian_marxist
+							has_government = marxist_leninist
 							NOT = {
 								tag = POR
 								tag = GER
@@ -2259,9 +2259,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-							has_government = radical_socialist
-							has_government = syndicalist
-							has_government = totalist
+							has_government = revolutionary_socialist
+							has_government = libertarian_marxist
+							has_government = marxist_leninist
 							NOT = {
 								tag = POR
 								tag = GER
@@ -2289,9 +2289,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-							has_government = radical_socialist
-							has_government = syndicalist
-							has_government = totalist
+							has_government = revolutionary_socialist
+							has_government = libertarian_marxist
+							has_government = marxist_leninist
 							NOT = {
 								tag = POR
 								tag = GER
@@ -2318,9 +2318,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-							has_government = radical_socialist
-							has_government = syndicalist
-							has_government = totalist
+							has_government = revolutionary_socialist
+							has_government = libertarian_marxist
+							has_government = marxist_leninist
 							NOT = {
 								tag = POR
 								tag = GER
@@ -2347,9 +2347,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-							has_government = radical_socialist
-							has_government = syndicalist
-							has_government = totalist
+							has_government = revolutionary_socialist
+							has_government = libertarian_marxist
+							has_government = marxist_leninist
 							NOT = {
 								tag = POR
 								tag = GER
@@ -2377,9 +2377,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-							has_government = radical_socialist
-							has_government = syndicalist
-							has_government = totalist
+							has_government = revolutionary_socialist
+							has_government = libertarian_marxist
+							has_government = marxist_leninist
 							NOT = {
 								tag = POR
 								tag = GER
@@ -2406,9 +2406,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -2435,9 +2435,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -2464,9 +2464,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -2493,9 +2493,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -2522,9 +2522,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -2551,9 +2551,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = POR
 							tag = GER
@@ -2597,9 +2597,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = GER
 							tag = GEX
@@ -2626,9 +2626,9 @@ on_actions = {
 							exists = no
 						}
 						OR = { 
-						has_government = radical_socialist
-						has_government = syndicalist
-						has_government = totalist
+						has_government = revolutionary_socialist
+						has_government = libertarian_marxist
+						has_government = marxist_leninist
 						NOT = {
 							tag = GEX
 							tag = NFA
@@ -2777,7 +2777,7 @@ on_actions = {
 					original_tag = BHC
 					has_civil_war = yes
 					NOT = { tag = BHC }
-					has_government = totalist
+					has_government = marxist_leninist
 					FROM = { tag = BHC }
 				}
 				FROM = { country_event = { id = beng.83 } }
@@ -2788,7 +2788,7 @@ on_actions = {
 					original_tag = BHC
 					has_civil_war = yes
 					NOT = { tag = BHC }
-					has_government = radical_socialist
+					has_government = revolutionary_socialist
 					FROM = { tag = BHC }
 				}
 				FROM = { country_event = { id = beng.90 } }
