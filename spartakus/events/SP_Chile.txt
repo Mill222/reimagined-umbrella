@@ -71,6 +71,14 @@ country_event = { # Government Junta of the Socialist Republic
 			ruling_party = democratic_socialist
 			elections_allowed = no
 		}
+		remove_ideas_with_trait = head_of_government
+		add_ideas = CHL_arturo_puga_hog
+		remove_ideas_with_trait = foreign_minister
+		add_ideas = CHL_luis_barriga_errazuriz_for
+		remove_ideas_with_trait = economy_minister
+		add_ideas = CHL_marmaduke_grove_eco
+		remove_ideas_with_trait = security_minister
+		add_ideas = CHL_rolando_merino_reyes_sec
 		set_country_flag = SR_CHILE
 	}
 }
@@ -130,6 +138,12 @@ country_event = { # Dávila attempts coup
 			ruling_party = social_democrat
 			elections_allowed = no
 		}
+		remove_ideas_with_trait = head_of_government
+		add_ideas = CHL_carlos_davila_hog
+		remove_ideas_with_trait = economy_minister
+		add_ideas = CHL_victor_navarrete_senn_eco
+		remove_ideas_with_trait = security_minister
+		add_ideas = CHL_juan_antonio_rios_sec
 	}
 	
 	option = { # Dávila is unsuccessful, and is sent to EASTER ISLAND
@@ -180,6 +194,15 @@ country_event = { # Aftermath of Dávila's coup
 		add_popularity = {
 			ideology = democratic_socialist
 			popularity = 0.05
+		}
+		remove_ideas_with_trait = head_of_government
+		add_ideas = CHL_marmaduke_grove_hog
+		if = {
+			limit = {
+				has_idea = CHL_marmaduke_grove_eco
+			}
+			remove_ideas = CHL_marmaduke_grove_eco
+			add_ideas = CHL_victor_navarrete_senn_eco
 		}
 		clr_country_flag = SR_CHILE_DAVILA_DEFEATED
 		set_country_flag = SR_CHILE_GROVE
@@ -238,11 +261,4 @@ country_event = { # Purge of the Socialists
 			popularity = -0.05
 		}
 	}
-}
-	
-#my basic plan is:
-# 1. Socialists execute coup, either it succeeds, and the Socialist Republic is created, or it fails, and the socialists are purged
-# 2. Event for government junta, then an event for the initial reforms of the socialist republic
-# 3. Carlos Dávila resigns after a week due to the fact that he believes the junta to be too radical, and then 3 days later, he attempts a coup. Either it succeeds, and he becomes a social democrat HoS and creates a new cabinet, or it fails.
-# 4. If it succeeds, after about 90 days, he will be faced with the option to either resign in favor of Bartoleme Blanche, restoring the republic, or refuse to resign, causing a civil war.
-# 5. If it fails, Arturo Puga will be given the choice to either assume more direct powers, which turns him into an authoritarian democratic "red bonapartist", or he can transfer power to Marmaduke Grove, who will attempt to form a broad left-wing coalition and reduce military influence. 
+} 

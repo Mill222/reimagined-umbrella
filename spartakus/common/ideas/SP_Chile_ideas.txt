@@ -259,15 +259,28 @@ air_naval_manufacturer = {
 		CHL_carlos_balmaceda_saavedra_for = {
 			allowed = { original_tag = CHL }
 			available = {
-				social_liberal_allowed = yes
-				NOT = {has_country_flag = carlos_balmaceda_saavedra_dead}
-				NOT = {has_country_flag = carlos_balmaceda_saavedra_for_fired}
+				has_government = social_liberal
 				NOT = { has_country_flag = ministers_cannot_be_replaced }
 			}
 			traits = {
 				foreign_minister
 				social_liberal
 				for_apologetic_clerk
+			}
+			cancel_if_invalid = no
+		}
+		
+		CHL_luis_barriga_errazuriz_for = {
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = democratic_socialist
+				has_government = social_democrat
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				foreign_minister
+				social_democrat
+				for_great_compromiser
 			}
 			cancel_if_invalid = no
 		}
@@ -279,15 +292,41 @@ air_naval_manufacturer = {
 		CHL_marco_antonio_de_la_cuadra_eco = {
 			allowed = { original_tag = CHL }
 			available = {
-				social_liberal_allowed = yes
-				NOT = {has_country_flag = marco_antonio_de_la_cuadra_dead}
-				NOT = {has_country_flag = marco_antonio_de_la_cuadra_eco_fired}
+				has_government = social_liberal
 				NOT = { has_country_flag = ministers_cannot_be_replaced }
 			}
 			traits = {
 				economy_minister
 				social_liberal
 				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = no
+		}
+		
+		CHL_marmaduke_grove_eco = {
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = democratic_socialist
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				economy_minister
+				democratic_socialist
+				eco_air_superiority_proponent
+			}
+			cancel_if_invalid = no
+		}
+		
+		CHL_victor_navarrete_senn_eco = {
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = social_democrat
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				economy_minister
+				social_democrat
+				eco_resource_industrialist
 			}
 			cancel_if_invalid = no
 		}
@@ -299,9 +338,7 @@ air_naval_manufacturer = {
 		CHL_manuel_trucco_sec = {
 			allowed = { original_tag = CHL }
 			available = {
-				social_liberal_allowed = yes
-				NOT = {has_country_flag = manuel_trucco_dead}
-				NOT = {has_country_flag = manuel_trucco_sec_fired}
+				has_government = social_liberal
 				NOT = { has_country_flag = ministers_cannot_be_replaced }
 			}
 			traits = {
@@ -311,5 +348,34 @@ air_naval_manufacturer = {
 			}
 			cancel_if_invalid = no
 		}
+		
+		CHL_rolando_merino_reyes_sec = {
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = democratic_socialist
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				security_minister
+				democratic_socialist
+				sec_man_of_the_people
+			}
+			cancel_if_invalid = no
+		}
+		
+		CHL_juan_antonio_rios_sec = {
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = social_liberal
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = no
+		}
+	
 	}
 }
