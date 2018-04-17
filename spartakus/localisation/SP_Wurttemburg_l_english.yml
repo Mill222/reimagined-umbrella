@@ -187,8 +187,8 @@ WUR_right_wing_populist_party:0 "DNVP"
 WUR_right_wing_populist_party_long:0 "Deutschnationale Volkspartei"
 WUR_national_syndicalist_party:0 "DSP"
 WUR_national_syndicalist_party_long:0 "Deutschsozialistische Partei"
-WUR_totalitarian_corporatist_party:0 "AV"
-WUR_totalitarian_corporatist_party_long:0 "Alldeutscher Verband"
+WUR_national_corporatist_party:0 "AV"
+WUR_national_corporatist_party_long:0 "Alldeutscher Verband"
 
 ### Focuses ###
 WUR_doctrine_new:0 "Military Reform"

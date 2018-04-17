@@ -166,7 +166,7 @@ country_event = { #Romanian liberation
 
 		if = {
 			limit = {
-				has_government = totalitarian_corporatist
+				has_government = national_corporatist
 			}
 
 			if = {
@@ -227,7 +227,7 @@ country_event = { #Romanian liberation
 		if = {
 			limit = {
 				NOT = {
-					has_government = totalitarian_corporatist
+					has_government = national_corporatist
 				}
 			}
 
@@ -322,7 +322,7 @@ country_event = { #Romanian liberation
 
 		if = {
 			limit = {
-				has_government = totalitarian_corporatist
+				has_government = national_corporatist
 			}
 
 			if = {
@@ -391,7 +391,7 @@ country_event = { #Romanian liberation
 		if = {
 			limit = {
 				NOT = {
-					has_government = totalitarian_corporatist
+					has_government = national_corporatist
 				}
 			}
 
@@ -3188,7 +3188,7 @@ country_event = { #Fate of America
 				has_government = leninist
 				has_government = marxist
 				has_government = revolutionary_socialist
-				has_government = totalitarian_corporatist
+				has_government = national_corporatist
 			}
 		}
 		name = annex.52.a
@@ -3240,7 +3240,7 @@ country_event = { #Fate of America
 		}
 		trigger = {
 			NOT = {
-				has_government = totalitarian_corporatist
+				has_government = national_corporatist
 				has_government = leninist
 				has_government = marxist
 				has_government = revolutionary_socialist
@@ -3654,7 +3654,7 @@ country_event = { #Fate of America
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = national_syndicalist
-				has_government = totalitarian_corporatist
+				has_government = national_corporatist
 			}
 		}
 		name = annex.52.f
@@ -3663,7 +3663,7 @@ country_event = { #Fate of America
 			modifier = { 
 			factor = 1.5
 			OR = { has_government = national_syndicalist
-			has_government = totalitarian_corporatist }
+			has_government = national_corporatist }
 			}
 		}
 
@@ -4259,7 +4259,7 @@ country_event = { #Fate of the Baltic Region
 				has_country_flag = rus_tsar
 				has_government = authoritarian_democrat
 				has_government = national_syndicalist
-				has_government = totalitarian_corporatist
+				has_government = national_corporatist
 			}
 
 		}
@@ -4339,7 +4339,7 @@ country_event = { #Fate of the Baltic Region
 				LIT = {
 					has_cosmetic_tag = LIT_republican
 				}
-				NOT = { has_government = totalitarian_corporatist }
+				NOT = { has_government = national_corporatist }
 			}
 			LIT = {
 				drop_cosmetic_tag = yes
@@ -4395,7 +4395,7 @@ country_event = { #Fate of the Baltic Region
 				LIT = {
 					has_cosmetic_tag = LIT_republican
 				}
-				NOT = { has_government = totalitarian_corporatist }
+				NOT = { has_government = national_corporatist }
 			}
 			LIT = {
 				drop_cosmetic_tag = yes
@@ -4532,7 +4532,7 @@ country_event = { #Fate of the Baltic Region
 				LIT = {
 					has_cosmetic_tag = LIT_republican
 				}
-				NOT = { has_government = totalitarian_corporatist }
+				NOT = { has_government = national_corporatist }
 			}
 			LIT = {
 				drop_cosmetic_tag = yes
@@ -8798,7 +8798,7 @@ country_event = { #The new leader of Britain
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = totalitarian_corporatist_subtype
+				ideology = national_corporatist_subtype
 				traits = {}
 			}
 
@@ -8912,7 +8912,7 @@ country_event = { #The new leader of Britain
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Portrait_England_Bernard_Montgomery.tga"
 				expire = "1965.1.1"
-				ideology = totalitarian_corporatist_subtype
+				ideology = national_corporatist_subtype
 				traits = {}
 			}
 
@@ -9034,7 +9034,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = totalitarian_corporatist_subtype
+				ideology = national_corporatist_subtype
 				traits = {}
 			}
 
@@ -9130,7 +9130,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Jacobo_Fitz-James_Stuart.tga"
 				expire = "1965.1.1"
-				ideology = totalitarian_corporatist_subtype
+				ideology = national_corporatist_subtype
 				traits = {}
 			}
 
@@ -9244,7 +9244,7 @@ country_event = { #The new leader of england+scotland
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Harold_Balfour.tga"
 				expire = "1965.1.1"
-				ideology = totalitarian_corporatist_subtype
+				ideology = national_corporatist_subtype
 				traits = {}
 			}
 
@@ -10610,7 +10610,7 @@ country_event = { #Choosing the new Head of State of Occitania
 				desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 				picture = "Prince_Rene_of_Bourbon-Parma.tga"
 				expire = "1965.1.1"
-				ideology = totalitarian_corporatist_subtype
+				ideology = national_corporatist_subtype
 				traits = {}
 			}
 
@@ -13967,7 +13967,7 @@ country_event = { #The Annexation of Siam
 					desc = "POLITICS_PLAEK_KHITTASANGKHA_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Plaek_Pibulsongkram_Civilian.tga"
 					expire = "1964.6.11"
-					ideology = totalitarian_corporatist_subtype
+					ideology = national_corporatist_subtype
 					traits = { dictator }
 				}
 			}
@@ -18917,7 +18917,7 @@ country_event = { #Fate of Portugal non-leftist
 					name = "SMF Maria Adelaide de Bragança"
 					picture = "Portrait_Portugal_Maria_Adelaide.tga"
 					expire = "1965.1.1"
-					ideology = totalitarian_corporatist_subtype
+					ideology = national_corporatist_subtype
 					traits = {
 
 					}
@@ -19017,7 +19017,7 @@ country_event = { #Fate of Portugal non-leftist
 					OR = {
 						has_government = authoritarian_democrat
 						has_government = national_syndicalist
-						has_government = totalitarian_corporatist
+						has_government = national_corporatist
 					}
 				}
 				kill_country_leader = yes
@@ -19068,7 +19068,7 @@ country_event = { #Fate of Portugal non-leftist
 					name = "SMF Maria Ana de Bragança"
 					picture = "Portrait_Portugal_Maria_Ana.tga"
 					expire = "1965.1.1"
-					ideology = totalitarian_corporatist_subtype
+					ideology = national_corporatist_subtype
 					traits = {
 
 					}
@@ -19876,7 +19876,7 @@ country_event = { #Fate of Belgium
 			desc = "POLITICS_ALBERT_I_DESC"
 			picture = "Portrait_Belgium_King_Albert.tga"
 			expire = "1965.1.1"
-			ideology = totalitarian_corporatist_subtype
+			ideology = national_corporatist_subtype
 		}
 		create_country_leader = {
 			name = "Albert I"
@@ -20016,7 +20016,7 @@ country_event = { #Fate of Belgium
                 desc = "POLITICS_KAREL_BELGIE_DESC"
                 picture = "Portrait_Flanders_Karel_Van_Vlaanderen.tga"
                 expire = "1965.1.1"
-                ideology = totalitarian_corporatist_subtype
+                ideology = national_corporatist_subtype
                 traits = {
                 }
             }
@@ -20390,7 +20390,7 @@ country_event = { #Fate of Lithuania
 				LIT = {
 					has_cosmetic_tag = LIT_republican
 				}
-				NOT = { has_government = totalitarian_corporatist }
+				NOT = { has_government = national_corporatist }
 			}
 			LIT = {
 				drop_cosmetic_tag = yes
@@ -24130,11 +24130,11 @@ country_event = { #Aodh II arrives!
 			desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 			picture = "Portrait_Ireland_Hugo_O'Neill.tga"
 			expire = "1965.1.1"
-			ideology = totalitarian_corporatist_subtype
+			ideology = national_corporatist_subtype
 			traits = {}
 		}
 		set_politics = {
-			ruling_party = totalitarian_corporatist
+			ruling_party = national_corporatist
 			elections_allowed = no
 		}
 	}
@@ -24194,11 +24194,11 @@ country_event = { #Seoirse I arrives!
 			desc = "POLITICS_Fryderyk_Krystian_Saski_DESC"
 			picture = "Portrait_Ireland_Jorge_Maria_O'Neill.tga"
 			expire = "1965.1.1"
-			ideology = totalitarian_corporatist_subtype
+			ideology = national_corporatist_subtype
 			traits = {}
 		}
 		set_politics = {
-			ruling_party = totalitarian_corporatist
+			ruling_party = national_corporatist
 			elections_allowed = no
 		}
 	}

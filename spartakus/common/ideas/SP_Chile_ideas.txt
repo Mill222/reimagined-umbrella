@@ -240,13 +240,13 @@ air_naval_manufacturer = {
 		CHL_jorge_gonzalez_von_marees_hog = {
 			allowed = { original_tag = CHL }
 			available = {
-				has_government = totalitarian_corporatist
+				has_government = national_corporatist
 				has_country_flag = can_replace_hog
 				NOT = { has_country_flag = ministers_cannot_be_replaced }
 			}
 			traits = {
 				head_of_government
-				totalitarian_corporatist
+				national_corporatist
 				hog_flamboyant_tough_guy
 			}
 			cancel_if_invalid = no

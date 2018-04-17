@@ -47,8 +47,8 @@ has_same_government_as_ROOT = {
 			ROOT = { has_government = national_syndicalist }
 		}
 		AND = {
-			has_government = totalitarian_corporatist
-			ROOT = { has_government = totalitarian_corporatist }
+			has_government = national_corporatist
+			ROOT = { has_government = national_corporatist }
 		}
 	}
 }
@@ -107,7 +107,7 @@ has_authoritarian_government = {
 		has_government = authoritarian_democrat
 		has_government = right_wing_populist
 		has_government = national_syndicalist
-		has_government = totalitarian_corporatist
+		has_government = national_corporatist
 	}
 }
 
@@ -116,7 +116,7 @@ has_dictatorship_government = {
 	OR = {
 		has_government = right_wing_populist
 		has_government = national_syndicalist
-		has_government = totalitarian_corporatist
+		has_government = national_corporatist
 		has_government = leninist
 		#has_government = marxist
 	}
@@ -126,7 +126,7 @@ has_dictatorship_government = {
 has_far_right_government = {
 	OR = {
 		has_government = national_syndicalist
-		has_government = totalitarian_corporatist
+		has_government = national_corporatist
 	}
 }
 

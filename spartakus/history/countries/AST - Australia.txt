@@ -62,7 +62,7 @@ set_politics = {
 		national_syndicalist = {
 			popularity = 0
 		}
-		totalitarian_corporatist = {
+		national_corporatist = {
 			popularity = 0
 		}
 	}
@@ -89,7 +89,7 @@ create_country_leader = {
 	desc = "POLITICS_ERIC_CAMPBELL_DESC"
 	picture = "GFX_AST_eric_campbell"
 	expire = "1965.1.1"
-	ideology = totalitarian_corporatist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 		#
 	}

@@ -47,7 +47,7 @@ set_politics = {
 		national_syndicalist = {
 			popularity = 0
 		}
-		totalitarian_corporatist = {
+		national_corporatist = {
 			popularity = 0
 		}
 	}
@@ -90,7 +90,7 @@ create_country_leader = {
 	desc = "POLITICS_ALI_SHIRE_DESC"
 	picture = "Portrait_SOM_Ali_Shire.tga"
 	expire = "1965.1.1"
-	ideology = totalitarian_corporatist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 		#
 	}

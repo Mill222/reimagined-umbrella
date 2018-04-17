@@ -1512,7 +1512,7 @@ focus_tree = {
 			
 				has_government = leninist
 				has_government = national_syndicalist
-				has_government = totalitarian_corporatist
+				has_government = national_corporatist
 			
 			}
 		

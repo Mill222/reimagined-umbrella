@@ -363,14 +363,14 @@ ideas = {
 			}
 		}
 
-		totalitarian_corporatist_influence = {
+		national_corporatist_influence = {
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = totalitarian_corporatist
+				has_government = national_corporatist
 			}
 
 			removal_cost = -1
@@ -378,8 +378,8 @@ ideas = {
 			picture = generic_fascist_drift_bonus
 			
 			modifier = {
-				totalitarian_corporatist_drift = 0.1
-				totalitarian_corporatist_acceptance = 85
+				national_corporatist_drift = 0.1
+				national_corporatist_acceptance = 85
 			}
 		}
 		

@@ -5,6 +5,17 @@ oob = "LIV"
 add_ideas = {
 	extensive_conscription
 	partial_economic_mobilisation
+	LIV_military_with_state
+	LIV_baltic_conscription_crisis
+	LIV_Andrievs_Niedra_hog_pau
+	LIV_Viktor_von_Marnitz_for_ade
+	LIV_Alexander_von_Salzar_eco_pau
+	LIV_Karl_Sigismund_Litzmann_sec_pau
+	LIV_Wessel_von_Loringhoven_int_ade
+	LIV_Ruediger_von_der_Goltz_cos_pau
+	LIV_Hans_Henrici_carm_pau
+	LIV_Alexander_von_Salza_cnav_pau
+	LIV_Bruno_Loerzer_cair_pau
 }
 
 set_technology = {
@@ -15,6 +26,8 @@ set_technology = {
 }
 
 set_research_slots = 3
+set_stability = 0.8
+set_war_support = 0.7
 
 set_convoys = 30
 
@@ -54,7 +67,7 @@ set_politics = {
 		national_syndicalist = {
 			popularity = 2
 		}
-		totalitarian_corporatist = {
+		national_corporatist = {
 			popularity = 0
 		}
 	}
@@ -126,7 +139,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = totalitarian_corporatist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 		#
 	}

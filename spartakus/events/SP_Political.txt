@@ -327,8 +327,8 @@ country_event = {
 				leninist > 0.799
 			}
 			AND = {
-				has_government = totalitarian_corporatist
-				totalitarian_corporatist > 0.799
+				has_government = national_corporatist
+				national_corporatist > 0.799
 			}
 			AND = {
 				has_government = democratic_socialist
@@ -422,9 +422,9 @@ country_event = {
 				leninist > 0.599
 			}
 			AND = {
-				has_government = totalitarian_corporatist
-				totalitarian_corporatist < 0.8
-				totalitarian_corporatist > 0.599
+				has_government = national_corporatist
+				national_corporatist < 0.8
+				national_corporatist > 0.599
 			}
 			AND = {
 				has_government = democratic_socialist
@@ -526,9 +526,9 @@ country_event = {
 				leninist > 0.399
 			}
 			AND = {
-				has_government = totalitarian_corporatist
-				totalitarian_corporatist < 0.6
-				totalitarian_corporatist > 0.399
+				has_government = national_corporatist
+				national_corporatist < 0.6
+				national_corporatist > 0.399
 			}
 			AND = {
 				has_government = democratic_socialist
@@ -630,9 +630,9 @@ country_event = {
 				leninist > 0.199
 			}
 			AND = {
-				has_government = totalitarian_corporatist
-				totalitarian_corporatist < 0.4
-				totalitarian_corporatist > 0.199
+				has_government = national_corporatist
+				national_corporatist < 0.4
+				national_corporatist > 0.199
 			}
 			AND = {
 				has_government = democratic_socialist
@@ -738,8 +738,8 @@ country_event = {
 
 			}
 			AND = {
-				has_government = totalitarian_corporatist
-				totalitarian_corporatist < 0.2
+				has_government = national_corporatist
+				national_corporatist < 0.2
 
 			}
 			AND = {
@@ -906,7 +906,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
 					AND = { has_government = right_wing_populist right_wing_populist < 0.35 right_wing_populist > 0.199 }
 					AND = { has_government = national_syndicalist national_syndicalist < 0.35 national_syndicalist > 0.199 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist < 0.35 totalitarian_corporatist > 0.199 }
+					AND = { has_government = national_corporatist national_corporatist < 0.35 national_corporatist > 0.199 }
 				}
 			}
 			modifier = {
@@ -919,7 +919,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
 					AND = { has_government = right_wing_populist right_wing_populist < 0.2 }
 					AND = { has_government = national_syndicalist national_syndicalist < 0.2 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist < 0.2 }
+					AND = { has_government = national_corporatist national_corporatist < 0.2 }
 				}
 			}
 			modifier = {
@@ -932,7 +932,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.599 authoritarian_democrat < 0.75 }
 					AND = { has_government = right_wing_populist right_wing_populist > 0.599 right_wing_populist < 0.75 }
 					AND = { has_government = national_syndicalist national_syndicalist > 0.599 national_syndicalist < 0.75 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist > 0.599 totalitarian_corporatist < 0.75 }
+					AND = { has_government = national_corporatist national_corporatist > 0.599 national_corporatist < 0.75 }
 				}
 			}
 			modifier = {
@@ -945,7 +945,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
 					AND = { has_government = right_wing_populist right_wing_populist > 0.749 }
 					AND = { has_government = national_syndicalist national_syndicalist > 0.749 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist > 0.749 }
+					AND = { has_government = national_corporatist national_corporatist > 0.749 }
 				}
 			}
 		}
@@ -982,7 +982,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
 					AND = { has_government = right_wing_populist right_wing_populist < 0.35 right_wing_populist > 0.199 }
 					AND = { has_government = national_syndicalist national_syndicalist < 0.35 national_syndicalist > 0.199 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist < 0.35 totalitarian_corporatist > 0.199 }
+					AND = { has_government = national_corporatist national_corporatist < 0.35 national_corporatist > 0.199 }
 				}
 			}
 			modifier = {
@@ -995,7 +995,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
 					AND = { has_government = right_wing_populist right_wing_populist < 0.2 }
 					AND = { has_government = national_syndicalist national_syndicalist < 0.2 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist < 0.2 }
+					AND = { has_government = national_corporatist national_corporatist < 0.2 }
 				}
 			}
 			modifier = {
@@ -1008,7 +1008,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.599 authoritarian_democrat < 0.75 }
 					AND = { has_government = right_wing_populist right_wing_populist > 0.599 right_wing_populist < 0.75 }
 					AND = { has_government = national_syndicalist national_syndicalist > 0.599 national_syndicalist < 0.75 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist > 0.599 totalitarian_corporatist < 0.75 }
+					AND = { has_government = national_corporatist national_corporatist > 0.599 national_corporatist < 0.75 }
 				}
 			}
 			modifier = {
@@ -1021,7 +1021,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
 					AND = { has_government = right_wing_populist right_wing_populist > 0.749 }
 					AND = { has_government = national_syndicalist national_syndicalist > 0.749 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist > 0.749 }
+					AND = { has_government = national_corporatist national_corporatist > 0.749 }
 				}
 			}
 		}
@@ -1247,9 +1247,9 @@ country_event = {
 				national_syndicalist < 0.97
 			}
 			AND = {
-				has_government = totalitarian_corporatist
-				has_idea_with_trait = totalitarian_corporatist
-				totalitarian_corporatist < 0.97
+				has_government = national_corporatist
+				has_idea_with_trait = national_corporatist
+				national_corporatist < 0.97
 			}
 		}
 	}
@@ -1297,15 +1297,15 @@ country_event = {
 		
 		modifier = {
 			factor = 2
-			has_government = totalitarian_corporatist
-			totalitarian_corporatist > 0.599
-			totalitarian_corporatist < 0.8
+			has_government = national_corporatist
+			national_corporatist > 0.599
+			national_corporatist < 0.8
 		}
 		modifier = {
 			factor = 4
-			has_government = totalitarian_corporatist
-			totalitarian_corporatist > 0.799
-			totalitarian_corporatist < 1
+			has_government = national_corporatist
+			national_corporatist > 0.799
+			national_corporatist < 1
 		}
 	}
 	option = {
@@ -1319,7 +1319,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.85 authoritarian_democrat > 0.599 }
 					AND = { has_government = right_wing_populist right_wing_populist < 0.85 right_wing_populist > 0.599 }
 					AND = { has_government = national_syndicalist national_syndicalist < 0.85 national_syndicalist > 0.599 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist < 0.85 totalitarian_corporatist > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
 				}
 			}
 			modifier = {
@@ -1328,7 +1328,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.849 }
 					AND = { has_government = right_wing_populist right_wing_populist > 0.849 }
 					AND = { has_government = national_syndicalist national_syndicalist > 0.849 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist > 0.849 }
+					AND = { has_government = national_corporatist national_corporatist > 0.849 }
 				}
 			}
 			modifier = {
@@ -1337,7 +1337,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.5 authoritarian_democrat > 0.199 }
 					AND = { has_government = right_wing_populist right_wing_populist < 0.5 right_wing_populist > 0.199 }
 					AND = { has_government = national_syndicalist national_syndicalist < 0.5 national_syndicalist > 0.199 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist < 0.5 totalitarian_corporatist > 0.199 }
+					AND = { has_government = national_corporatist national_corporatist < 0.5 national_corporatist > 0.199 }
 				}
 			}
 			modifier = {
@@ -1346,7 +1346,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
 					AND = { has_government = right_wing_populist right_wing_populist < 0.2 }
 					AND = { has_government = national_syndicalist national_syndicalist < 0.2 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist < 0.2 }
+					AND = { has_government = national_corporatist national_corporatist < 0.2 }
 				}
 			}
 		}
@@ -1365,8 +1365,8 @@ country_event = {
 			add_popularity = { ideology = national_syndicalist popularity = 0.03 }
 		}
 		if = {
-			limit = { has_government = totalitarian_corporatist }
-			add_popularity = { ideology = totalitarian_corporatist popularity = 0.03 }
+			limit = { has_government = national_corporatist }
+			add_popularity = { ideology = national_corporatist popularity = 0.03 }
 		}
 	}
 	option = {
@@ -1380,7 +1380,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.85 authoritarian_democrat > 0.599 }
 					AND = { has_government = right_wing_populist right_wing_populist < 0.85 right_wing_populist > 0.599 }
 					AND = { has_government = national_syndicalist national_syndicalist < 0.85 national_syndicalist > 0.599 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist < 0.85 totalitarian_corporatist > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
 				}
 			}
 			modifier = {
@@ -1389,7 +1389,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.849 }
 					AND = { has_government = right_wing_populist right_wing_populist > 0.849 }
 					AND = { has_government = national_syndicalist national_syndicalist < 0.85 national_syndicalist > 0.599 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist < 0.85 totalitarian_corporatist > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
 				}
 			}
 			modifier = {
@@ -1398,7 +1398,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.5 authoritarian_democrat > 0.199 }
 					AND = { has_government = right_wing_populist right_wing_populist < 0.5 right_wing_populist > 0.199 }
 					AND = { has_government = national_syndicalist national_syndicalist < 0.85 national_syndicalist > 0.599 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist < 0.85 totalitarian_corporatist > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
 				}
 			}
 			modifier = {
@@ -1407,7 +1407,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
 					AND = { has_government = right_wing_populist right_wing_populist < 0.2 }
 					AND = { has_government = national_syndicalist national_syndicalist < 0.85 national_syndicalist > 0.599 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist < 0.85 totalitarian_corporatist > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
 				}
 			}
 		}
@@ -1615,13 +1615,13 @@ country_event = {
 			has_government = right_wing_populist
 			has_government = authoritarian_democrat
 			has_government = national_syndicalist
-			has_government = totalitarian_corporatist
+			has_government = national_corporatist
 		}
 		OR = {
 			AND = { has_idea_with_trait = right_wing_populist right_wing_populist < 0.7 }
 			AND = { has_idea_with_trait = authoritarian_democrat authoritarian_democrat < 0.7 }
 			AND = { has_idea_with_trait = national_syndicalist national_syndicalist < 0.7 }
-			AND = { has_idea_with_trait = totalitarian_corporatist totalitarian_corporatist < 0.7 }
+			AND = { has_idea_with_trait = national_corporatist national_corporatist < 0.7 }
 		}
 	}
 
@@ -1668,15 +1668,15 @@ country_event = {
 
 		modifier = {
 			factor = 2
-			has_idea_with_trait = totalitarian_corporatist
-			totalitarian_corporatist > 0.299
-			totalitarian_corporatist < 0.4
+			has_idea_with_trait = national_corporatist
+			national_corporatist > 0.299
+			national_corporatist < 0.4
 		}
 		modifier = {
 			factor = 4
-			has_idea_with_trait = totalitarian_corporatist
-			totalitarian_corporatist > 0.399
-			totalitarian_corporatist < 0.5
+			has_idea_with_trait = national_corporatist
+			national_corporatist > 0.399
+			national_corporatist < 0.5
 		}
 
 	}
@@ -1752,8 +1752,8 @@ country_event = {
 			add_popularity = { ideology = national_syndicalist popularity = 0.03 }
 		}
 		if = {
-			limit = { has_idea_with_trait = totalitarian_corporatist }
-			add_popularity = { ideology = totalitarian_corporatist popularity = 0.03 }
+			limit = { has_idea_with_trait = national_corporatist }
+			add_popularity = { ideology = national_corporatist popularity = 0.03 }
 		}
 	}
 
@@ -1929,7 +1929,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
 					AND = { has_government = right_wing_populist right_wing_populist < 0.35 right_wing_populist > 0.199 }
 					AND = { has_government = national_syndicalist national_syndicalist < 0.35 national_syndicalist > 0.199 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist < 0.35 totalitarian_corporatist > 0.199 }
+					AND = { has_government = national_corporatist national_corporatist < 0.35 national_corporatist > 0.199 }
 				}
 			}
 			modifier = {
@@ -1942,7 +1942,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
 					AND = { has_government = right_wing_populist right_wing_populist < 0.2 }
 					AND = { has_government = national_syndicalist national_syndicalist < 0.2 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist < 0.2 }
+					AND = { has_government = national_corporatist national_corporatist < 0.2 }
 				}
 			}
 			modifier = {
@@ -1955,7 +1955,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.75 authoritarian_democrat > 0.599 }
 					AND = { has_government = right_wing_populist right_wing_populist < 0.75 right_wing_populist > 0.599 }
 					AND = { has_government = national_syndicalist national_syndicalist < 0.75 national_syndicalist > 0.599 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist < 0.75 totalitarian_corporatist > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.75 national_corporatist > 0.599 }
 				}
 			}
 			modifier = {
@@ -1968,7 +1968,7 @@ country_event = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
 					AND = { has_government = right_wing_populist right_wing_populist > 0.749 }
 					AND = { has_government = national_syndicalist national_syndicalist > 0.749 }
-					AND = { has_government = totalitarian_corporatist totalitarian_corporatist > 0.749 }
+					AND = { has_government = national_corporatist national_corporatist > 0.749 }
 				}
 			}
 		}
@@ -2223,9 +2223,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = totalitarian_corporatist
+				has_government = national_corporatist
 			}
-			set_country_flag = opinion_set_totalitarian_corporatist
+			set_country_flag = opinion_set_national_corporatist
 		}
 	}
 	
@@ -2290,8 +2290,8 @@ country_event = {
 				has_country_flag = opinion_set_national_syndicalist
 			}
 			AND = {
-				NOT = { has_government = totalitarian_corporatist }
-				has_country_flag = opinion_set_totalitarian_corporatist
+				NOT = { has_government = national_corporatist }
+				has_country_flag = opinion_set_national_corporatist
 			}
 			AND = {
 				NOT = { has_country_flag = opinion_set_leninist }
@@ -2305,7 +2305,7 @@ country_event = {
 				NOT = { has_country_flag = opinion_set_authoritarian_democrat }
 				NOT = { has_country_flag = opinion_set_right_wing_populist }
 				NOT = { has_country_flag = opinion_set_national_syndicalist }
-				NOT = { has_country_flag = opinion_set_totalitarian_corporatist }
+				NOT = { has_country_flag = opinion_set_national_corporatist }
 			}
 		}
 	}
@@ -2326,7 +2326,7 @@ country_event = {
 		clr_country_flag = opinion_set_authoritarian_democrat
 		clr_country_flag = opinion_set_right_wing_populist
 		clr_country_flag = opinion_set_national_syndicalist
-		clr_country_flag = opinion_set_totalitarian_corporatist
+		clr_country_flag = opinion_set_national_corporatist
 		every_country = {
 			remove_opinion_modifier = {
 				target = ROOT
@@ -2545,9 +2545,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = totalitarian_corporatist
+				has_government = national_corporatist
 			}
-			set_country_flag = opinion_set_totalitarian_corporatist
+			set_country_flag = opinion_set_national_corporatist
 		}
 	}
 	

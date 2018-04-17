@@ -5,6 +5,45 @@ ideas = {
 #################
 
 	country = {
+	
+		LIV_military_with_state = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.20
+				army_morale_factor = 0.10
+				stability_factor = -0.05
+			}
+		}
+		
+		LIV_baltic_conscription_crisis = {
+			picture = generic_infantry_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.5
+				war_support_factor = -0.025
+			}
+		}
 
 		LIV_multi_ling = {
 			picture = generic_disjointed_gov

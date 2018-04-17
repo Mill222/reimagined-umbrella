@@ -22,8 +22,8 @@ POR_right_wing_populist_party:0 "CM"
 POR_right_wing_populist_party_long:0 "Causa Monárquica"
 POR_national_syndicalist_party:0 "IL"
 POR_national_syndicalist_party_long:0 "Integralismo Lusitano"
-POR_totalitarian_corporatist_party:0 "UN"
-POR_totalitarian_corporatist_party_long:0 "União Nacional"
+POR_national_corporatist_party:0 "UN"
+POR_national_corporatist_party_long:0 "União Nacional"
 
 ### Tooltips ###
 POR_civil_war_check:0 "Portuguese Civil War"

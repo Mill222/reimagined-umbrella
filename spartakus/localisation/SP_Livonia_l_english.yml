@@ -26,16 +26,12 @@ LIV_authoritarian_democrat_party:0 "Ducal Supporters"
 LIV_authoritarian_democrat_party_long:0 "Herzogliche Partei"
 LIV_right_wing_populist_party:0 "Military Government"
 LIV_right_wing_populist_party_long:0 "Baltische Landeswehr"
-LIV_LNP_right_wing_populist_party:0 "LNP"
-LIV_LNP_right_wing_populist_party_long:0 "Livländische Nationalistische Partei"
-LIV_national_syndicalist_party:0 "Ugunskrusts"
-LIV_national_syndicalist_party_long:0 "Ugunskrusts"
-LIV_NAT_national_syndicalist_party:0 "Pērkonkrusts"
-LIV_NAT_national_syndicalist_party_long:0 "Pērkonkrusts"
-LIV_totalitarian_corporatist_party:0 "Ugunskrusts"
-LIV_totalitarian_corporatist_party_long:0 "Ugunskrusts"
-LIV_NAT_totalitarian_corporatist_party:0 "Pērkonkrusts"
-LIV_NAT_totalitarian_corporatist_party_long:0 "Pērkonkrusts"
+LIV_national_syndicalist_party:0 "LNP"
+LIV_national_syndicalist_party_long:0 "Livländische Nationalistische Partei"
+LIV_national_corporatist_party:0 "Ugunskrusts"
+LIV_national_corporatist_party_long:0 "Ugunskrusts"
+LIV_NAT_national_corporatist_party:0 "Pērkonkrusts"
+LIV_NAT_national_corporatist_party_long:0 "Pērkonkrusts"
 
 ### Focuses ###
 
@@ -247,6 +243,12 @@ LIV_Education_Ger:0 "Education Reform"
 LIV_Education_Ger_desc:0 "With more power to the Duke, the time has come for us to rethink our system of education. We have made some great strides in educating the younger masses, but our universities are already full. If we invest some money and open more universities, more people will get a higher education."
 
 ### Ideas ###
+
+LIV_military_with_state:0 "Military with a State"
+LIV_military_with_state_desc:0 "Livonia is often remarked as a 'Military with a State' for its mass militarization. This is, however, necessary for their survival. The Baltic natives are often considered unreliable, and a small defense force would mean certain death in the face of a strong Soviet state to the east. Each and every German in these lands are prepared for war."
+
+LIV_baltic_conscription_crisis:0 "Native Conscription Crisis"
+LIV_baltic_conscription_crisis_desc:0 "Although Livonia is well known for its mass conscription of Germans, the Baltic natives themselves make up only a very small portion of the military and often are organized into independent militias whom lack proper equipment. Their lack of representation in the government also fuels many natives to avoid entering the army, and Estonians in particular are more compelled to serve in the Estonian puppet regime in the north."
 
 LIV_multi_ling:0 "Political Instability"
 LIV_multi_ling_desc:0 "Our country is an union of multiple cultures. The Native Balts, the Germanised Balts and the Russian minorities all vie for political influence, causing regular conflict and difficulty to set a common policy. This is only made much worse by the German dominance caused by the Kaiser's policies of Germanisation, crushing minority rights and forcing cultural conversion of the 'Native Balts'."

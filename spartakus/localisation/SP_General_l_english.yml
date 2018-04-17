@@ -192,7 +192,7 @@ social_conservative_promoter:0 "Staunch Traditionalist"
 authoritarian_democrat_promoter:0 "Authoritarian Constitutionalist"
 right_wing_populist_promoter:0 "Autocratic Charmer"
 national_syndicalist_promoter:0 "Nationalist Demagogue"
-totalitarian_corporatist_promoter:0 "Fascist Demagogue"
+national_corporatist_promoter:0 "Fascist Demagogue"
 great_compromiser:0 "Great Compromiser"
 
 ### Ideologies ###
@@ -207,7 +207,7 @@ social_conservative:0 "Social Conservatives"
 authoritarian_democrat:0 "Authoritarian Dem."
 right_wing_populist:0 "Right Wing Populists"
 national_syndicalist:0 "National Syndicalists"
-totalitarian_corporatist:0 "Totalitarian Corporatists"
+national_corporatist:0 "National Corporatists"
 
 ### Drift ###
 leninist_drift:0 "Daily Leninist support"
@@ -221,7 +221,7 @@ social_conservative_drift:0 "Daily Social Conservative support"
 authoritarian_democrat_drift:0 "Daily Authoritarian Democrat support"
 right_wing_populist_drift:0 "Daily Right Wing Populist support"
 national_syndicalist_drift:0 "Daily National Syndicalist support"
-totalitarian_corporatist_drift:0 "Daily Totalitarian Corporatist support"
+national_corporatist_drift:0 "Daily National Corporatist support"
 
 ### Banned ###
 leninist_banned:0 "Banned Leninists"
@@ -235,7 +235,7 @@ social_conservative_banned:0 "Banned Social Conservatives"
 authoritarian_democrat_banned:0 "Banned Authoritarian Democrats"
 right_wing_populist_banned:0 "Banned Right Wing Populists"
 national_syndicalist_banned:0 "Banned National Syndicalists"
-totalitarian_corporatist_banned:0 "Banned Totalitarian Corporatists"
+national_corporatist_banned:0 "Banned National Corporatists"
 
 ### Company Traits ###
 

@@ -56,7 +56,7 @@ set_politics = {
 		national_syndicalist = {
 			popularity = 5
 		}
-		totalitarian_corporatist = {
+		national_corporatist = {
 			popularity = 0
 		}
 	}
