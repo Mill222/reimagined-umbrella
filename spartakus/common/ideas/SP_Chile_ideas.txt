@@ -28,6 +28,16 @@ country = {
 		removal_cost = -1
 		picture = FRA_scw_intervention_republicans_focus
 	}
+	
+	CHL_illegitimate_gov = {
+		allowed = { always = no }
+		modifier = { 
+			stability_factor = -0.20  
+			war_support_factor = -0.15
+		}
+		removal_cost = -1
+		picture = generic_disjointed_gov
+	}
 }
 ##############
 # Companies

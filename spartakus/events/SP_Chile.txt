@@ -96,6 +96,9 @@ country_event = { # Government Junta of the Socialist Republic
 			long_name = CHL_authdem_junta
 			name = CHL_authdem_junta
 		}
+		
+		add_ideas = CHL_illegitimate_gov
+		remove_ideas = CHL_political_chaos
 	}
 }
 
