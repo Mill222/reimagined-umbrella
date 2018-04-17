@@ -26,6 +26,10 @@ CHL_national_syndicalist_party_long:0 "Falange Nacional"
 CHL_corporatist_fascist_party:0 "MNCCh"
 CHL_corporatist_fascist_party_long:0 "Movimiento Nacional Corporativista de Chile"
 
+CHL_demsoc_junta:0 "Socialist Junta - Radicals"
+CHL_socdem_junta:0 "Socialist Junta - Ibáñezistas"
+CHL_authdem_junta:0 "Socialist Junta - Militarists"
+
 ### Events ###
 
 chile.1.t:0 "Chile in 1932"

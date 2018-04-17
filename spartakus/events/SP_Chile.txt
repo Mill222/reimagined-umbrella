@@ -80,6 +80,22 @@ country_event = { # Government Junta of the Socialist Republic
 		remove_ideas_with_trait = security_minister
 		add_ideas = CHL_rolando_merino_reyes_sec
 		set_country_flag = SR_CHILE
+		
+		set_party_name = {
+			ideology = democratic_socialist
+			long_name = CHL_demsoc_junta
+			name = CHL_demsoc_junta
+		}
+		set_party_name = {
+			ideology = social_democrat
+			long_name = CHL_socdem_junta
+			name = CHL_socdem_junta
+		}
+		set_party_name = {
+			ideology = authoritarian_democrat
+			long_name = CHL_authdem_junta
+			name = CHL_authdem_junta
+		}
 	}
 }
 
