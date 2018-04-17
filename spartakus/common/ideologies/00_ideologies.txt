@@ -1,15 +1,15 @@
 ideologies = {
-	marxist_leninist = {
+	leninist = {
 		types = {
-			marxist_leninist_subtype = {}
+			leninist_subtype = {}
 			}
 		dynamic_faction_names = {
-			"FACTION_NAME_MARXIST_LENINIST_1"
-			"FACTION_NAME_MARXIST_LENINIST_2"
-			"FACTION_NAME_MARXIST_LENINIST_3"
-			"FACTION_NAME_MARXIST_LENINIST_4"
-			"FACTION_NAME_MARXIST_LENINIST_5"
-			"FACTION_NAME_MARXIST_LENINIST_6"
+			"FACTION_NAME_LENINIST_1"
+			"FACTION_NAME_LENINIST_2"
+			"FACTION_NAME_LENINIST_3"
+			"FACTION_NAME_LENINIST_4"
+			"FACTION_NAME_LENINIST_5"
+			"FACTION_NAME_LENINIST_6"
 		}
 		color = { 45 5 15 }
 		rules = {
@@ -27,19 +27,19 @@ ideologies = {
 
 	}
 	
-	libertarian_marxist = {
+	marxist = {
 		types = {
-			libertarian_marxist_subtype = {}
+			marxist_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_LIBERTARIAN_MARXIST_1"
-			"FACTION_NAME_LIBERTARIAN_MARXIST_2"
-			"FACTION_NAME_LIBERTARIAN_MARXIST_3"
-			"FACTION_NAME_LIBERTARIAN_MARXIST_4"
-			"FACTION_NAME_LIBERTARIAN_MARXIST_5"
-			"FACTION_NAME_LIBERTARIAN_MARXIST_6"
+			"FACTION_NAME_MARXIST_1"
+			"FACTION_NAME_MARXIST_2"
+			"FACTION_NAME_MARXIST_3"
+			"FACTION_NAME_MARXIST_4"
+			"FACTION_NAME_MARXIST_5"
+			"FACTION_NAME_MARXIST_6"
 		}
-		color = { 95 20 45 }
+		color = { 127 0 0 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -67,7 +67,7 @@ ideologies = {
 			"FACTION_NAME_REVOLUTIONARY_SOCIALIST_5"
 			"FACTION_NAME_REVOLUTIONARY_SOCIALIST_6"
 		}
-		color = { 233 58 58 }
+		color = { 255 0 0 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -95,7 +95,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_SOCIALIST_5"
 			"FACTION_NAME_DEMOCRATIC_SOCIALIST_6"
 		}
-		color = { 125 25 25 }
+		color = { 233 58 58 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -300,17 +300,17 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	corporatist_fascist = {
+	totalitarian_corporatist = {
 		types = {
-		corporatist_fascist_subtype = {}
+		totalitarian_corporatist_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_CORPORATIST_FASCIST_1"
-			"FACTION_NAME_CORPORATIST_FASCIST_2"
-			"FACTION_NAME_CORPORATIST_FASCIST_3"
-			"FACTION_NAME_CORPORATIST_FASCIST_4"
-			"FACTION_NAME_CORPORATIST_FASCIST_5"
-			"FACTION_NAME_CORPORATIST_FASCIST_6"
+			"FACTION_NAME_TOTALITARIAN_CORPORATIST_1"
+			"FACTION_NAME_TOTALITARIAN_CORPORATIST_2"
+			"FACTION_NAME_TOTALITARIAN_CORPORATIST_3"
+			"FACTION_NAME_TOTALITARIAN_CORPORATIST_4"
+			"FACTION_NAME_TOTALITARIAN_CORPORATIST_5"
+			"FACTION_NAME_TOTALITARIAN_CORPORATIST_6"
 		}
 		color = { 142 57 0 }
 		rules = {

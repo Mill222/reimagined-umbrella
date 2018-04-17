@@ -1,9 +1,9 @@
 ﻿l_english:
 
-PRM_marxist_leninist_party:0 "PCP"
-PRM_marxist_leninist_party_long:0 "Partido Comunista Português"
-PRM_libertarian_marxist_party:0 "PRED"
-PRM_libertarian_marxist_party_long:0 "Partido Republicano da Esquerda Democrática"
+PRM_leninist_party:0 "PCP"
+PRM_leninist_party_long:0 "Partido Comunista Português"
+PRM_marxist_party:0 "PRED"
+PRM_marxist_party_long:0 "Partido Republicano da Esquerda Democrática"
 PRM_democratic_socialist_party:0 "PR"
 PRM_democratic_socialist_party_long:0 "Partido Reformista"
 PRM_revolutionary_socialist_party:0 "PSP"
@@ -22,8 +22,8 @@ PRM_right_wing_populist_party:0 "CM"
 PRM_right_wing_populist_party_long:0 "Causa Monárquica"
 PRM_national_syndicalist_party:0 "IL"
 PRM_national_syndicalist_party_long:0 "Integralismo Lusitano"
-PRM_corporatist_fascist_party:0 "UN"
-PRM_corporatist_fascist_party_long:0 "União Nacional"
+PRM_totalitarian_corporatist_party:0 "UN"
+PRM_totalitarian_corporatist_party_long:0 "União Nacional"
 
 ### Tooltips ###
 PRM_cww:0 "Fully mobilises the defences overseas, and raises Infantry divisions"

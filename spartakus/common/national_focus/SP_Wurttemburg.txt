@@ -151,8 +151,8 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -60
 			add_ideas = WUR_appease_socialists
-			add_popularity = { ideology = marxist_leninist popularity = -0.03 }
-			add_popularity = { ideology = libertarian_marxist popularity = -0.03 }
+			add_popularity = { ideology = leninist popularity = -0.03 }
+			add_popularity = { ideology = marxist popularity = -0.03 }
 			add_popularity = { ideology = revolutionary_socialist popularity = -0.03 }
 			add_popularity = { ideology = democratic_socialist popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = -0.01 }
@@ -179,8 +179,8 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -40
 			add_ideas = WUR_appease_socialists
-			add_popularity = { ideology = marxist_leninist popularity = -0.10 }
-			add_popularity = { ideology = libertarian_marxist popularity = -0.06 }
+			add_popularity = { ideology = leninist popularity = -0.10 }
+			add_popularity = { ideology = marxist popularity = -0.06 }
 			add_popularity = { ideology = revolutionary_socialist popularity = -0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.10 }
 		}
@@ -204,10 +204,10 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 10
-			add_popularity = { ideology = marxist_leninist popularity = -0.01 }
+			add_popularity = { ideology = leninist popularity = -0.01 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 			add_popularity = { ideology = national_syndicalist popularity = -0.03 }
-			add_popularity = { ideology = corporatist_fascist popularity = -0.03 }
+			add_popularity = { ideology = totalitarian_corporatist popularity = -0.03 }
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
 		}
 	}
@@ -226,12 +226,12 @@ focus_tree = {
 		completion_reward = {
 			set_country_flag = surpress_socialists
 			add_political_power = -120
-			add_popularity = { ideology = marxist_leninist popularity = -0.20 }
-			add_popularity = { ideology = libertarian_marxist popularity = -0.15 }
+			add_popularity = { ideology = leninist popularity = -0.20 }
+			add_popularity = { ideology = marxist popularity = -0.15 }
 			add_popularity = { ideology = revolutionary_socialist popularity = -0.10 }
 			add_popularity = { ideology = democratic_socialist popularity = -0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
-			add_popularity = { ideology = corporatist_fascist popularity = 0.10 }
+			add_popularity = { ideology = totalitarian_corporatist popularity = 0.10 }
 			hidden_effect = {
 				FRA = {
 					country_event = {
@@ -256,7 +256,7 @@ focus_tree = {
 		completion_reward = {
 			set_country_flag = outlaw_socialists
 			add_political_power = 25
-			add_popularity = { ideology = marxist_leninist popularity = -0.05 }
+			add_popularity = { ideology = leninist popularity = -0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
 			add_popularity = { ideology = national_syndicalist popularity = 0.05 }
 			hidden_effect = {

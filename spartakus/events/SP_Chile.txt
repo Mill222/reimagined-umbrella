@@ -257,11 +257,11 @@ country_event = { # Purge of the Socialists
 		name = chile.7.a
 		set_country_flag = MONTERO_CHILE
 		add_popularity = {
-			ideology = marxist_leninist
+			ideology = leninist
 			popularity = -0.05
 		}
 		add_popularity = {
-			ideology = libertarian_marxist
+			ideology = marxist
 			popularity = -0.05
 		}
 		add_popularity = {

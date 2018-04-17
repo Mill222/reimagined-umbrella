@@ -1,9 +1,9 @@
 ﻿l_english:
 
-ENG_marxist_leninist_party:0 "CPGB"
-ENG_marxist_leninist_party_long:0 "Communist Party of Great Britain"
-ENG_libertarian_marxist_party:0 "SLP"
-ENG_libertarian_marxist_party_long:0 "Socialist Labour Party"
+ENG_leninist_party:0 "CPGB"
+ENG_leninist_party_long:0 "Communist Party of Great Britain"
+ENG_marxist_party:0 "SLP"
+ENG_marxist_party_long:0 "Socialist Labour Party"
 ENG_democratic_socialist_party:0 "ILP"
 ENG_democratic_socialist_party_long:0 "Independent Labour Party"
 ENG_revolutionary_socialist_party:0 "SPGB"
@@ -22,8 +22,8 @@ ENG_right_wing_populist_party:0 "BEL"
 ENG_right_wing_populist_party_long:0 "British Empire League"
 ENG_national_syndicalist_party:0 "BF"
 ENG_national_syndicalist_party_long:0 "British Fascists"
-ENG_corporatist_fascist_party:0 "BUF"
-ENG_corporatist_fascist_party_long:0 "British Union of Fascists"
+ENG_totalitarian_corporatist_party:0 "BUF"
+ENG_totalitarian_corporatist_party_long:0 "British Union of Fascists"
 
 ### Tooltips ###
 

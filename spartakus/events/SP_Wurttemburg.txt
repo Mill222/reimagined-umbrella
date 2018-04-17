@@ -118,7 +118,7 @@ country_event = {
 			ideology = national_syndicalist popularity = 0.05
 		}
 		add_popularity = {
-			ideology = corporatist_fascist popularity = 0.05
+			ideology = totalitarian_corporatist popularity = 0.05
 		}
 		hidden_effect = {
 			country_event = {
@@ -201,7 +201,7 @@ country_event = {
 			ideology = national_syndicalist popularity = 0.05
 		}
 		add_popularity = {
-			ideology = corporatist_fascist popularity = 0.05
+			ideology = totalitarian_corporatist popularity = 0.05
 		}
 		country_event = { id = wur.9 days = 3 }
 	}
@@ -243,7 +243,7 @@ country_event = {
 			ideology = national_syndicalist popularity = 0.05
 		}
 		add_popularity = {
-			ideology = corporatist_fascist popularity = 0.05
+			ideology = totalitarian_corporatist popularity = 0.05
 		}
 		hidden_effect = {
 			country_event = {

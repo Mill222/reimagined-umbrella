@@ -4,7 +4,7 @@ state={
 	name="STATE_191"
 
 	history={
-		owner = EST
+		owner = LIV
 		victory_points = {
 			9221 1 
 		}
@@ -18,11 +18,12 @@ state={
 
 		}
 		add_core_of = EST
+		add_core_of = LIV
 
 	}
 
 	provinces={
-		308 592 3174 6099 6178 6381 6408 9221 9485 11291 13127 
+		185 308 592 3174 6099 6178 6381 6408 9221 9485 11291 13127 
 	}
 	manpower=376400
 	buildings_max_level_factor=1.000

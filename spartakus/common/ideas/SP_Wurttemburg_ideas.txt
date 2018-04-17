@@ -808,14 +808,15 @@ theorist = {
 	WUR_Rudolf_Hess_hog_nat = {
 			allowed = {original_tag = WUR}
 			available = {
-				has_government = national_socialist
 				has_country_flag = can_replace_hog
+			}
+			visible = {
+				national_syndicalist = yes
 				NOT = {has_country_flag = Rudolf_Hess_dead}
-				NOT = {has_country_flag = ministers_cannot_be_replaced}
 			}
 			traits = {
 				head_of_government
-				national_socialist
+				national_syndicalist
 				hog_silent_workhorse
 			}
 			cancel_if_invalid = no

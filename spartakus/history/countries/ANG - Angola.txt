@@ -15,10 +15,10 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		marxist_leninist = {
+		leninist = {
 			popularity = 5
 		}
-		libertarian_marxist = {
+		marxist = {
 			popularity = 5
 		}
 		revolutionary_socialist = {
@@ -48,7 +48,7 @@ set_politics = {
 		national_syndicalist = {
 			popularity = 5
 		}
-		corporatist_fascist = {
+		totalitarian_corporatist = {
 			popularity = 5
 		}
 	}

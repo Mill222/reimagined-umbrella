@@ -543,8 +543,8 @@ focus = {
 		completion_reward = {
 			add_political_power = -60
 			#add_ideas = WUR_appease_socialists
-			add_popularity = { ideology = marxist_leninist popularity = 0.05 }
-			add_popularity = { ideology = libertarian_marxist popularity = 0.05 }
+			add_popularity = { ideology = leninist popularity = 0.05 }
+			add_popularity = { ideology = marxist popularity = 0.05 }
 			add_popularity = { ideology = revolutionary_socialist popularity = 0.05 }
 			add_popularity = { ideology = democratic_socialist popularity = -0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
@@ -571,8 +571,8 @@ focus = {
 		completion_reward = {
 			add_political_power = -60
 			#add_ideas = WUR_appease_socialists
-			add_popularity = { ideology = marxist_leninist popularity = -0.03 }
-			add_popularity = { ideology = libertarian_marxist popularity = -0.03 }
+			add_popularity = { ideology = leninist popularity = -0.03 }
+			add_popularity = { ideology = marxist popularity = -0.03 }
 			add_popularity = { ideology = revolutionary_socialist popularity = -0.03 }
 			add_popularity = { ideology = democratic_socialist popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = 0.05 }
@@ -598,8 +598,8 @@ focus = {
 		completion_reward = {
 			add_political_power = 100
 			#add_ideas = WUR_appease_socialists
-			add_popularity = { ideology = marxist_leninist popularity = 0.10 }
-			add_popularity = { ideology = libertarian_marxist popularity = 0.10 }
+			add_popularity = { ideology = leninist popularity = 0.10 }
+			add_popularity = { ideology = marxist popularity = 0.10 }
 			add_popularity = { ideology = revolutionary_socialist popularity = 0.10 }
 		}
 	}
@@ -671,8 +671,8 @@ focus = {
 		completion_reward = {
 			add_political_power = 25
 			#add_ideas = WUR_appease_socialists
-			add_popularity = { ideology = marxist_leninist popularity = -0.2 }
-			add_popularity = { ideology = libertarian_marxist popularity = -0.2 }
+			add_popularity = { ideology = leninist popularity = -0.2 }
+			add_popularity = { ideology = marxist popularity = -0.2 }
 			add_popularity = { ideology = revolutionary_socialist popularity = -0.2 }
 		}
 	}

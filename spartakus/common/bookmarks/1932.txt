@@ -8,7 +8,7 @@ bookmarks = {
 	
 		"GER"={
 			history = "GER_SP_GATHERING_STORM_DESC"
-			ideology = libertarian_marxist
+			ideology = marxist
 			ideas = {
 			}
 			focuses = {
@@ -16,7 +16,7 @@ bookmarks = {
 		}
 		"SOV"={
 			history = "SOV_SP_GATHERING_STORM_DESC"
-			ideology = marxist_leninist
+			ideology = leninist
 			ideas = {
 			}
 			focuses = {

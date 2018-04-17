@@ -4,7 +4,7 @@ state={
 	name="STATE_880"
 
 	history={
-		owner = LAT
+		owner = LIV
 		victory_points = {
 			310 1
 		}
@@ -12,6 +12,7 @@ state={
 			infrastructure = 5
 		}
 		add_claim_by = SOV
+		add_core_of = LIV
 		add_core_of = LAT
 		
 	}

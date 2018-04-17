@@ -3,12 +3,12 @@
 has_same_government_as_ROOT = {
 	OR = {
 		AND = {
-			has_government = marxist_leninist
-			ROOT = { has_government = marxist_leninist }
+			has_government = leninist
+			ROOT = { has_government = leninist }
 		}
 		AND = {
-			has_government = libertarian_marxist
-			ROOT = { has_government = libertarian_marxist }
+			has_government = marxist
+			ROOT = { has_government = marxist }
 		}
 		AND = {
 			has_government = revolutionary_socialist
@@ -47,8 +47,8 @@ has_same_government_as_ROOT = {
 			ROOT = { has_government = national_syndicalist }
 		}
 		AND = {
-			has_government = corporatist_fascist
-			ROOT = { has_government = corporatist_fascist }
+			has_government = totalitarian_corporatist
+			ROOT = { has_government = totalitarian_corporatist }
 		}
 	}
 }
@@ -56,8 +56,8 @@ has_same_government_as_ROOT = {
 # checks for these four government types for the country in scope
 has_socialist_government = {
 	OR = {
-		has_government = marxist_leninist
-		has_government = libertarian_marxist
+		has_government = leninist
+		has_government = marxist
 		has_government = revolutionary_socialist
 		has_government = democratic_socialist
 	}
@@ -66,8 +66,8 @@ has_socialist_government = {
 # checks for these two government types for the country in scope
 has_far_left_government = {
 	OR = {
-		has_government = marxist_leninist
-		has_government = libertarian_marxist
+		has_government = leninist
+		has_government = marxist
 	}
 }
 
@@ -107,7 +107,7 @@ has_authoritarian_government = {
 		has_government = authoritarian_democrat
 		has_government = right_wing_populist
 		has_government = national_syndicalist
-		has_government = corporatist_fascist
+		has_government = totalitarian_corporatist
 	}
 }
 
@@ -116,9 +116,9 @@ has_dictatorship_government = {
 	OR = {
 		has_government = right_wing_populist
 		has_government = national_syndicalist
-		has_government = corporatist_fascist
-		has_government = marxist_leninist
-		#has_government = libertarian_marxist
+		has_government = totalitarian_corporatist
+		has_government = leninist
+		#has_government = marxist
 	}
 }
 
@@ -126,7 +126,7 @@ has_dictatorship_government = {
 has_far_right_government = {
 	OR = {
 		has_government = national_syndicalist
-		has_government = corporatist_fascist
+		has_government = totalitarian_corporatist
 	}
 }
 

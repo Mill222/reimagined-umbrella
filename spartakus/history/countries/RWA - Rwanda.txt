@@ -12,10 +12,10 @@ set_research_slots = 2
 set_politics = {
 
 	parties = {
-		marxist_leninist = {
+		leninist = {
 			popularity = 0
 		}
-		libertarian_marxist = {
+		marxist = {
 			popularity = 0
 		}
 		revolutionary_socialist = {
@@ -45,7 +45,7 @@ set_politics = {
 		national_syndicalist = {
 			popularity = 0
 		}
-		corporatist_fascist = {
+		totalitarian_corporatist = {
 			popularity = 0
 		}
 	}

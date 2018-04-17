@@ -2,9 +2,9 @@
 
 ### Parties ###
 
-CHL_marxist_leninist_party:0 "PCCh"
-CHL_marxist_leninist_party_long:0 "Partido Comunista de Chile"
-CHL_libertarian_marxist_party:0 "Izquierda Comunista"
+CHL_leninist_party:0 "PCCh"
+CHL_leninist_party_long:0 "Partido Comunista de Chile"
+CHL_marxist_party:0 "Izquierda Comunista"
 CHL_democratic_socialist_party:0 "PSC"
 CHL_democratic_socialist_party_long:0 "Partido Socialista de Chile"
 CHL_revolutionary_socialist_party:0 "TIM"
@@ -23,8 +23,8 @@ CHL_right_wing_populist_party:0 "APL"
 CHL_right_wing_populist_party_long:0 "Alianza Popular Libertadora"
 CHL_national_syndicalist_party:0 "Falange"
 CHL_national_syndicalist_party_long:0 "Falange Nacional"
-CHL_corporatist_fascist_party:0 "MNCCh"
-CHL_corporatist_fascist_party_long:0 "Movimiento Nacional Corporativista de Chile"
+CHL_totalitarian_corporatist_party:0 "MNCCh"
+CHL_totalitarian_corporatist_party_long:0 "Movimiento Nacional Corporativista de Chile"
 
 CHL_demsoc_junta:0 "Socialist Junta - Radicals"
 CHL_socdem_junta:0 "Socialist Junta - Ibáñezistas"

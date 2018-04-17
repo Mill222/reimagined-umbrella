@@ -34,8 +34,8 @@ leader_traits = {
 # Political ideologies
 #####################
 
-	marxist_leninist = {}
-	libertarian_marxist = {}
+	leninist = {}
+	marxist = {}
 	revolutionary_socialist = {}
 	democratic_socialist = {}
 	social_democrat = {}
@@ -45,6 +45,6 @@ leader_traits = {
 	authoritarian_democrat = {}
 	right_wing_populist = {}
 	national_syndicalist = {}
-	corporatist_fascist = {}
+	totalitarian_corporatist = {}
 
 }

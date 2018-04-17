@@ -1,4 +1,5 @@
 KMC = "countries/KMC - Guominjun.txt"
+LIV = "countries/LIV - Livonia.txt"
 SCH = "countries/SCH - Sichuan Clique.txt"
 ZHL = "countries/ZHL - Zhili Clique.txt"
 BAV = "countries/BAV - Bavaria.txt"

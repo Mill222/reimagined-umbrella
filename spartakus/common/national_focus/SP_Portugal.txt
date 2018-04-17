@@ -712,9 +712,7 @@ focus_tree = {
 		}
 		cost = 8.6
 		completion_reward = {	
-			add_equipment_to_stockpile = {
-				type = infantry_equipment_1 amount = 500 producer = POR
-			}
+			add_political_power = 100
 		}
 	}
 	
@@ -808,7 +806,8 @@ focus_tree = {
 		y = 1
 		cost = 8.6
 		completion_reward = {	
-		add_ideas = POR_organic_eco
+			add_political_power = 50
+			create_faction = Portuguese_Bloc
 		}
 	}
 	

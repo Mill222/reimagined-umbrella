@@ -13,11 +13,9 @@ add_ideas = {
 	POR_Antonio_Sergo_int_rso
 	POR_Jose_AP_Rebelo_cos_syn
 	POR_Humberto_Carmona_carm_sli
-	POR_Jose_AP_Rebelo_carm_rso
-	POR_JM_Norton_Matos_carm_sli
 	POR_Bento_Goncalves_cnav_syn
 	POR_JM_Sarmento_Beires_cair_sde
-	low_stability
+	average_stability
 	partial_economic_mobilisation
 }
 
@@ -42,10 +40,10 @@ country_event = { id = por.1 days = 1 }
 set_politics = {
 
 	parties = {
-		marxist_leninist = {
+		leninist = {
 			popularity = 8
 		}
-		libertarian_marxist = {
+		marxist = {
 			popularity = 12
 		}
 		revolutionary_socialist = {
@@ -75,7 +73,7 @@ set_politics = {
 		national_syndicalist = {
 			popularity = 0
 		}
-		corporatist_fascist = {
+		totalitarian_corporatist = {
 			popularity = 0
 		}
 	}
@@ -94,7 +92,7 @@ create_country_leader = {
 	desc = "POLITICS_REVOLUTIONARY_DESC"
 	picture = "Portrait_Revolutionary.dds"
 	expire = "1965.1.1"
-	ideology = marxist_leninist_subtype
+	ideology = leninist_subtype
 	traits = {
 		#
 	}
@@ -105,7 +103,7 @@ create_country_leader = {
 	desc = "POLITICS_REVOLUTIONARY_DESC"
 	picture = "Portrait_Revolutionary.dds"
 	expire = "1965.1.1"
-	ideology = libertarian_marxist_subtype
+	ideology = marxist_subtype
 	traits = {
 		#
 	}

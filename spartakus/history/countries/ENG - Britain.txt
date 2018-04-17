@@ -149,10 +149,10 @@ set_autonomy = {
 set_politics = {
 
 	parties = {
-		marxist_leninist = {
+		leninist = {
 			popularity = 1
 		}
-		libertarian_marxist = {
+		marxist = {
 			popularity = 0
 		}
 		revolutionary_socialist = {
@@ -182,7 +182,7 @@ set_politics = {
 		national_syndicalist = {
 			popularity = 1
 		}
-		corporatist_fascist = {
+		totalitarian_corporatist = {
 			popularity = 4
 		}
 	}
@@ -243,7 +243,7 @@ create_country_leader = {
 	desc = "POLITICS_OSWALD_MOSLEY_DESC"
 	picture = "Portrait_Britain_Oswald_Mosley.dds"
 	expire = "1965.1.1"
-	ideology = corporatist_fascist_subtype
+	ideology = totalitarian_corporatist_subtype
 	traits = {
 		
 	}

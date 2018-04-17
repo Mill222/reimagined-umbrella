@@ -162,14 +162,14 @@ ideas = {
 			}
 		}
 		
-		libertarian_marxist_influence = {
+		marxist_influence = {
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = libertarian_marxist
+				has_government = marxist
 			}
 
 			removal_cost = -1
@@ -177,11 +177,11 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				libertarian_marxist_drift = 0.1
-				libertarian_marxist_acceptance = 85
+				marxist_drift = 0.1
+				marxist_acceptance = 85
 			}
 		}
-		marxist_leninist_influence = {
+		leninist_influence = {
 			
 			
 			allowed = {
@@ -189,7 +189,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = marxist_leninist
+				has_government = leninist
 			}
 
 			removal_cost = -1
@@ -197,8 +197,8 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				marxist_leninist_drift = 0.1
-				marxist_leninist_acceptance = 85
+				leninist_drift = 0.1
+				leninist_acceptance = 85
 			}
 		}
 		democratic_socialist_influence = {
@@ -363,14 +363,14 @@ ideas = {
 			}
 		}
 
-		corporatist_fascist_influence = {
+		totalitarian_corporatist_influence = {
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = corporatist_fascist
+				has_government = totalitarian_corporatist
 			}
 
 			removal_cost = -1
@@ -378,8 +378,8 @@ ideas = {
 			picture = generic_fascist_drift_bonus
 			
 			modifier = {
-				corporatist_fascist_drift = 0.1
-				corporatist_fascist_acceptance = 85
+				totalitarian_corporatist_drift = 0.1
+				totalitarian_corporatist_acceptance = 85
 			}
 		}
 		

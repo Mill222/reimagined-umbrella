@@ -1510,9 +1510,9 @@ focus_tree = {
 		
 			NOT = {
 			
-				has_government = marxist_leninist
+				has_government = leninist
 				has_government = national_syndicalist
-				has_government = corporatist_fascist
+				has_government = totalitarian_corporatist
 			
 			}
 		

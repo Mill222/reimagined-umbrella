@@ -3,7 +3,8 @@
 oob = "LIV"
 
 add_ideas = {
-	limited_conscription
+	extensive_conscription
+	partial_economic_mobilisation
 }
 
 set_technology = {
@@ -15,19 +16,19 @@ set_technology = {
 
 set_research_slots = 3
 
-set_convoys = 10
+set_convoys = 30
 
 set_politics = {
 
 	parties = {
-		marxist_leninist = {
+		leninist = {
 			popularity = 0
 		}
-		libertarian_marxist = {
+		marxist = {
 			popularity = 0
 		}
 		revolutionary_socialist = {
-			popularity = 0
+			popularity = 2
 		}
 		democratic_socialist = {
 			popularity = 0
@@ -36,29 +37,29 @@ set_politics = {
 			popularity = 0
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 24
 		}
 		liberal_conservative = {
-			popularity = 0
+			popularity = 8
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 16
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 28
 		}
 		right_wing_populist = {
-			popularity = 0
+			popularity = 20
 		}
 		national_syndicalist = {
-			popularity = 0
+			popularity = 2
 		}
-		corporatist_fascist = {
+		totalitarian_corporatist = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = right_wing_populist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -66,11 +67,55 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Rüdiger von der Goltz"
+	desc = "POLITICS_RUDIGER_GOLTZ_DESC"
+	picture = "Portrait_Rudiger_von_der_Goltz.tga"
+	expire = "1965.1.1"
+	ideology = right_wing_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Alfred Fletcher"
+	desc = "POLITICS_ALFRED_FLETCHER_DESC"
+	picture = "Portrait_Alfred_Fletcher.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Alfred Fletcher"
+	desc = "POLITICS_ALFRED_FLETCHER_DESC"
+	picture = "Portrait_Alfred_Fletcher.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Paul Schiemann"
+	desc = "POLITICS_PAUL_SCHIEMANN_DESC"
+	picture = "Portrait_Paul_Schiemann.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Karlis Ulmanis"
 	desc = "POLITICS_KARLIS_ULMANIS_DESC"
-	picture = "GFX_Portrait_latvia_karlis_ulmanis"
+	picture = "Portrait_Baltic_Karlis_Ulmanis.tga"
 	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = liberal_conservative_subtype
 	traits = {
 		#
 	}
@@ -81,7 +126,17 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = totalitarian_corporatist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Gustavs Celmiņš"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = national_syndicalist_subtype
 	traits = {
 		#
 	}
@@ -91,7 +146,17 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Fricis Menders"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
 	traits = {
 		#
 	}
@@ -101,19 +166,159 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = marxist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Vilis Lacis"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = leninist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Vilis Lacis"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialist_subtype
 	traits = {
 		#
 	}
 }
 
+create_field_marshal = {
+	name = "Rüdiger von der Goltz"
+	picture = "Portrait_Rudiger_von_der_Goltz.tga"
+	traits = { old_guard offensive_doctrine }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Alfred Fletcher"
+	picture = "Portrait_Alfred_Fletcher.tga"
+	traits = { old_guard defensive_doctrine }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}
+
 create_corps_commander = {
-	name = "Berkis Krisjanis"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	traits = { ranger }
-	skill = 2
+	name = "Hans Baron Manteuffel-Szoege"
+	picture = "Portrait_Baltic_Hans_Baron_Manteuffel_Szoege.tga"
+	traits = { trickster panzer_leader }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Johan Laidoner"
+	picture = "Portrait_Baltic_Johan_Laidoner.tga"
+	traits = { winter_specialist }
+	skill = 3
 	attack_skill = 2
 	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Josef Bischoff"
+	picture = "Portrait_Baltic_Josef_Bischoff.tga"
+	traits = { trickster }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Botho-Wendt Graf zu Eulenburg"
+	picture = "Portrait_Baltic_Botho_Wendt_Graf_zu_Eulenburg.tga"
+	traits = { trait_engineer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Hermanis Buks"
+	picture = "Portrait_Baltic_Hermanis_Buks.tga"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Karlis Aperats"
+	picture = "Portrait_Baltic_Karlis_Aperats.tga"
+	traits = { commando }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Gustav Jonson"
+	picture = "Portrait_Baltic_Gustav_Jonson.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Heinrich Graf zu Dohna-Schlobitten"
+	picture = "Portrait_Baltic_Heinrich_Graf_zu_Dohna_Schlobitten.tga"
+	traits = { hill_fighter }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Alexander von Salza"
+	picture = "Portrait_Baltic_Alexander_von_Salza.tga"
+	traits = { superior_tactician }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Archibald von Keyserling"
+	picture = "Portrait_Baltic_Archibald_von_Keyserling.tga"
+	traits = { spotter }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Johan Pitka"
+	picture = "Portrait_Baltic_Johan_Pitka.tga"
+	traits = { blockade_runner }
+	skill = 2
 }

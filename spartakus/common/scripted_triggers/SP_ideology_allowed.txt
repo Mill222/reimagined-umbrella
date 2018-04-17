@@ -1,16 +1,16 @@
 
-marxist_leninist_allowed = {
+leninist_allowed = {
 	OR = {
-		has_government = marxist_leninist
-		has_government = libertarian_marxist
+		has_government = leninist
+		has_government = marxist
 		has_government = revolutionary_socialist
 	}
 }
 
-libertarian_marxist_allowed = {
+marxist_allowed = {
 	OR = {
-		has_government = marxist_leninist
-		has_government = libertarian_marxist
+		has_government = leninist
+		has_government = marxist
 		has_government = revolutionary_socialist
 		has_government = democratic_socialist
 		has_government = social_democrat
@@ -19,8 +19,8 @@ libertarian_marxist_allowed = {
 
 revolutionary_socialist_allowed = {
 	OR = {
-		has_government = marxist_leninist
-		has_government = libertarian_marxist
+		has_government = leninist
+		has_government = marxist
 		has_government = revolutionary_socialist
 		has_government = democratic_socialist
 		has_government = social_democrat
@@ -30,7 +30,7 @@ revolutionary_socialist_allowed = {
 
 democratic_socialist_allowed = {
 	OR = {
-		has_government = libertarian_marxist
+		has_government = marxist
 		has_government = revolutionary_socialist
 		has_government = democratic_socialist
 		has_government = social_liberal
@@ -81,7 +81,7 @@ social_conservative_allowed = {
 		has_government = authoritarian_democrat
 		has_government = right_wing_populist
 		has_government = national_syndicalist
-		has_government = corporatist_fascist
+		has_government = totalitarian_corporatist
 	}
 }
 
@@ -92,7 +92,7 @@ authoritarian_democrat_allowed = {
 		has_government = authoritarian_democrat
 		has_government = right_wing_populist
 		has_government = national_syndicalist
-		has_government = corporatist_fascist
+		has_government = totalitarian_corporatist
 	}
 }
 
@@ -102,7 +102,7 @@ right_wing_populist_allowed = {
 		has_government = authoritarian_democrat
 		has_government = right_wing_populist
 		has_government = national_syndicalist
-		has_government = corporatist_fascist
+		has_government = totalitarian_corporatist
 	}
 }
 
@@ -111,14 +111,14 @@ national_syndicalist_allowed = {
 		has_government = authoritarian_democrat
 		has_government = right_wing_populist
 		has_government = national_syndicalist
-		has_government = corporatist_fascist
+		has_government = totalitarian_corporatist
 	}
 }
 
-corporatist_fascist_allowed = {
+totalitarian_corporatist_allowed = {
 	OR = {
 		has_government = right_wing_populist
 		has_government = national_syndicalist
-		has_government = corporatist_fascist
+		has_government = totalitarian_corporatist
 	}
 }

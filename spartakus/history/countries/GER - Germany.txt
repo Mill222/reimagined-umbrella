@@ -56,10 +56,10 @@ give_guarantee = BAV
 set_politics = {
 
 	parties = {
-		marxist_leninist = {
+		leninist = {
 			popularity = 16
 		}
-		libertarian_marxist = {
+		marxist = {
 			popularity = 42
 		}
 		revolutionary_socialist = {
@@ -89,12 +89,12 @@ set_politics = {
 		national_syndicalist = {
 			popularity = 0
 		}
-		corporatist_fascist = {
+		totalitarian_corporatist = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = libertarian_marxist
+	ruling_party = marxist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -106,7 +106,7 @@ create_country_leader = {
 	desc = "POLITICS_ROSA_LUXEMBURG_DESC"
 	picture = "Portrait_Rosa_Luxemburg.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_marxist_subtype
+	ideology = marxist_subtype
 	traits = {
 	}
 }

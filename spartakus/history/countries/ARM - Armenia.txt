@@ -15,10 +15,10 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		marxist_leninist = {
+		leninist = {
 			popularity = 0
 		}
-		libertarian_marxist = {
+		marxist = {
 			popularity = 0
 		}
 		revolutionary_socialist = {
@@ -48,7 +48,7 @@ set_politics = {
 		national_syndicalist = {
 			popularity = 10
 		}
-		corporatist_fascist = {
+		totalitarian_corporatist = {
 			popularity = 5
 		}
 	}
@@ -86,7 +86,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1953.3.1"
-	ideology = marxist_leninist_subtype
+	ideology = leninist_subtype
 	traits = {
 		
 	}

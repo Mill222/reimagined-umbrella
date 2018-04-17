@@ -1,4 +1,41 @@
 ideas = {
+### Hidden Ideas ###
+
+	temp_1 = {
+		law = yes
+
+		temp_1 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+
+			default = yes
+		}
+	}
+
+	temp_2 = {
+		law = yes
+
+		temp_2 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+
+			default = yes
+		}
+	}
+
+	temp_3 = {
+		law = yes
+
+		temp_3 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+
+			default = yes
+		}
+	}
 
 ### Stability Ideas ###
 

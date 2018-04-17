@@ -7,7 +7,7 @@ state={
 	state_category = rural
 	
 	history={
-		owner = LAT
+		owner = LIV
 		victory_points = { 9262 1 } #Liepaja
 		buildings = {
 			infrastructure = 5
@@ -17,6 +17,7 @@ state={
 			}
 		}
 		add_core_of = LAT
+		add_core_of = LIV
 	}
 
 	provinces={

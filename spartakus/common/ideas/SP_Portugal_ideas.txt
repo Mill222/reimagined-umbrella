@@ -296,18 +296,18 @@ air_naval_manufacturer = {
 		POR_Bento_Goncalves_hog_syn = { 
 			allowed = {original_tag = POR}
 			available = {
-				has_government = marxist_leninist
 				has_country_flag = can_replace_hog
+			}
+			visible = {
+				leninist_allowed = yes
 				NOT = {has_country_flag = Bento_Goncalves_dead}
-				NOT = {has_country_flag = Bento_Goncalves_hog_fired}
-				NOT = {has_country_flag = ministers_cannot_be_replaced}
 			}
 			traits = {
 				head_of_government
-				marxist_leninist
-				hog_happy_amateur
+				leninist
+				hog_silent_workhorse
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 		
 		POR_Antonio_Pinto_Quartim_hog_syn = { 
@@ -324,7 +324,7 @@ air_naval_manufacturer = {
 				revolutionary_socialist
 				hog_silent_workhorse
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Jaime_Cortesao_hog_sde = { 
@@ -341,7 +341,7 @@ air_naval_manufacturer = {
 				social_democrat
 				hog_smiling_oilman
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Aquilino_Ribeiro_hog_sco = { 
@@ -358,7 +358,7 @@ air_naval_manufacturer = {
 				liberal_conservative
 				hog_political_protege
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 	}
@@ -367,7 +367,7 @@ air_naval_manufacturer = {
 		POR_Maria_da_Cunha_Lamas_for_rso = { 
 			allowed = {original_tag = POR}
 			available = {
-				libertarian_marxist_allowed = yes
+				marxist_allowed = yes
 				NOT = {has_country_flag = Maria_da_Cunha_Lamas_dead}
 				NOT = {has_country_flag = Maria_da_Cunha_Lamas_for_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -375,10 +375,10 @@ air_naval_manufacturer = {
 			}
 			traits = {
 				foreign_minister
-				libertarian_marxist
+				marxist
 				for_great_compromiser
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Ruy_Ulrich_for_sde = { 
@@ -395,7 +395,7 @@ air_naval_manufacturer = {
 				social_democrat
 				for_great_compromiser
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Francisco_Cunha_Leal_for_sli = { 
@@ -412,7 +412,7 @@ air_naval_manufacturer = {
 				social_liberal
 				for_the_cloak_n_dagger_schemer
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Alfonso_Costa_for_sco = { 
@@ -429,7 +429,7 @@ air_naval_manufacturer = {
 				social_liberal
 				for_the_cloak_n_dagger_schemer
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Quintao_Meireles_for_sco = { 
@@ -446,7 +446,7 @@ air_naval_manufacturer = {
 				liberal_conservative
 				for_general_staffer
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 	}
@@ -456,7 +456,7 @@ air_naval_manufacturer = {
 		POR_Jose_Gomes_Ferreira_eco_rso = { 
 			allowed = {original_tag = POR}
 			available = {
-				marxist_leninist_allowed = yes
+				leninist_allowed = yes
 				NOT = {has_country_flag = Jose_Gomes_Ferreira_dead}
 				NOT = {has_country_flag = Jose_Gomes_Ferreira_eco_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -464,10 +464,10 @@ air_naval_manufacturer = {
 			}
 			traits = {
 				economy_minister
-				marxist_leninist
+				leninist
 				eco_administrative_genius
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Jaime_Cortesao_eco_sde = { 
@@ -484,7 +484,7 @@ air_naval_manufacturer = {
 				social_democrat
 				eco_tank_proponent
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Antonio_M_B_Ferreira_eco_sco = { 
@@ -501,7 +501,7 @@ air_naval_manufacturer = {
 				social_liberal
 				eco_tank_proponent
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Joao_Chagas_eco_sco = { 
@@ -518,7 +518,7 @@ air_naval_manufacturer = {
 				liberal_conservative
 				eco_military_entrepreneur
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 	}
@@ -527,7 +527,7 @@ air_naval_manufacturer = {
 		POR_Alvaro_Cunhal_sec_syn = { 
 			allowed = {original_tag = POR}
 			available = {
-				marxist_leninist_allowed = yes
+				leninist_allowed = yes
 				NOT = {has_country_flag = Alvaro_Cunhal_dead}
 				NOT = {has_country_flag = Alvaro_Cunhal_sec_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -535,16 +535,16 @@ air_naval_manufacturer = {
 			}
 			traits = {
 				security_minister
-				marxist_leninist
+				leninist
 				sec_man_of_the_people
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Manuel_Ribeiro_sec_syn = { 
 			allowed = {original_tag = POR}
 			available = {
-				libertarian_marxist_allowed = yes
+				marxist_allowed = yes
 				NOT = {has_country_flag = Manuel_Ribeiro_dead}
 				NOT = {has_country_flag = Manuel_Ribeiro_sec_fired}
 				NOT = {has_country_flag = ministers_cannot_be_replaced}
@@ -552,10 +552,10 @@ air_naval_manufacturer = {
 			}
 			traits = {
 				security_minister
-				libertarian_marxist
+				marxist
 				sec_crime_fighter
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Raul_Proenca_sec_sde = { 
@@ -572,7 +572,7 @@ air_naval_manufacturer = {
 				social_democrat
 				sec_back_stabber
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Aquilino_Ribeiro_sec_sco = { 
@@ -589,7 +589,7 @@ air_naval_manufacturer = {
 				liberal_conservative
 				sec_crime_fighter
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 	}
@@ -607,7 +607,7 @@ air_naval_manufacturer = {
 				democratic_socialist
 				int_industrial_specialist
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Augusto_Vasconcellos_int_ade = { 
@@ -622,7 +622,7 @@ air_naval_manufacturer = {
 				social_liberal
 				int_technical_specialist
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Julio_Dantas_int_ade = { 
@@ -637,7 +637,7 @@ air_naval_manufacturer = {
 				liberal_conservative
 				int_industrial_specialist
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 	}
@@ -654,7 +654,7 @@ air_naval_manufacturer = {
 				chief_of_staff
 				cos_school_of_psychology
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 		
 	}
@@ -671,7 +671,7 @@ air_naval_manufacturer = {
 				chief_of_army
 				carm_guns_and_butter_doctrine
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Humberto_Carmona_carm_sli = { 
@@ -685,7 +685,7 @@ air_naval_manufacturer = {
 				chief_of_army
 				carm_static_defence_doctrine
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_JM_Norton_Matos_carm_sli = { 
@@ -699,7 +699,7 @@ air_naval_manufacturer = {
 				chief_of_army
 				carm_static_defence_doctrine
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 	}
@@ -716,7 +716,7 @@ air_naval_manufacturer = {
 				chief_of_navy
 				cnav_power_projection_doctrine
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Jose_Sarmento_Pimentel_cnav_sde = { 
@@ -730,7 +730,7 @@ air_naval_manufacturer = {
 				chief_of_navy
 				cnav_base_control_doctrine
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 	}
@@ -747,7 +747,7 @@ air_naval_manufacturer = {
 				chief_of_air_force
 				cair_carpet_bombing_doctrine
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_JM_Sarmento_Beires_cair_sde = { 
@@ -761,7 +761,7 @@ air_naval_manufacturer = {
 				chief_of_air_force
 				cair_naval_aviation_doctrine
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 		POR_Humberto_Delgado_cair_sli = { 
@@ -775,7 +775,7 @@ air_naval_manufacturer = {
 				chief_of_air_force
 				cair_air_superiority_doctrine
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 	}	

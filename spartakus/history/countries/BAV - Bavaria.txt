@@ -23,10 +23,10 @@ set_war_support = 0.3
 set_politics = {
 
 	parties = {
-		marxist_leninist = {
+		leninist = {
 			popularity = 8
 		}
-		libertarian_marxist = {
+		marxist = {
 			popularity = 40
 		}
 		revolutionary_socialist = {
@@ -56,12 +56,12 @@ set_politics = {
 		national_syndicalist = {
 			popularity = 1
 		}
-		corporatist_fascist = {
+		totalitarian_corporatist = {
 			popularity = 2
 		}
 	}
 	
-	ruling_party = marxist_leninist
+	ruling_party = leninist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -73,7 +73,7 @@ create_country_leader = {
 	desc = "POLITICS_EUGEN_LEVINE_DESC"
 	picture = "Portrait_Eugen_Levine.dds"
 	expire = "1965.1.1"
-	ideology = marxist_leninist_subtype
+	ideology = leninist_subtype
 	traits = {
 	}
 }

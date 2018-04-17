@@ -1,9 +1,9 @@
 ﻿l_english:
 
-GER_marxist_leninist_party:0 "Vanguardists"
-GER_marxist_leninist_party_long:0 "Kommunistische Partei Deutschlands - Vanguardists"
-GER_libertarian_marxist_party:0 "Libertarians"
-GER_libertarian_marxist_party_long:0 "Kommunistische Partei Deutschlands - Libertarians"
+GER_leninist_party:0 "Vanguardists"
+GER_leninist_party_long:0 "Kommunistische Partei Deutschlands - Vanguardists"
+GER_marxist_party:0 "Libertarians"
+GER_marxist_party_long:0 "Kommunistische Partei Deutschlands - Libertarians"
 GER_democratic_socialist_party:0 "Leftists"
 GER_democratic_socialist_party_long:0 "Kommunistische Partei Deutschlands - Left"
 GER_revolutionary_socialist_party:0 "Unionists"
@@ -22,8 +22,8 @@ GER_right_wing_populist_party:0 "Populists"
 GER_right_wing_populist_party_long:0 "Deutschnationale Volkspartei"
 GER_national_syndicalist_party:0 "National Syndicalists"
 GER_national_syndicalist_party_long:0 "National Syndicalists"
-GER_corporatist_fascist_party:0 "Fascists"
-GER_corporatist_fascist_party_long:0 "Fascists"
+GER_totalitarian_corporatist_party:0 "Fascists"
+GER_totalitarian_corporatist_party_long:0 "Fascists"
 
     ### Head of Government ###
 	 GER_Hermann_Goring_hog_nat:0 "Hermann Goring"
