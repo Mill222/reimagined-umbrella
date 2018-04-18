@@ -33,7 +33,7 @@ KUW = {
 	color_ui = rgb { 210 100 100 }
 }
 ZHL = {
-	color = rgb { 170 45 60 }
+	color = rgb { 160 188 176 }
 	color_ui = rgb { 69 232 196 }
 }
 SCH = {

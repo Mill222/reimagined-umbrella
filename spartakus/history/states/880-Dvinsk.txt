@@ -21,7 +21,7 @@ state={
 		222 310 319 341 6459 7482 9275
 	}
 	
-	manpower = 267500
+	manpower = 289850
 	buildings_max_level_factor=1
 	state_category="pastoral"
 }

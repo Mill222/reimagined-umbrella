@@ -17,4 +17,7 @@ focus_tree = {
 	shared_focus = LIV_Army_Start
 	shared_focus = LIV_Army_Mil_Navy1
 	shared_focus = LIV_Air1
+	shared_focus = LIV_Duchy_Organization
+	shared_focus = LIV_Duchy_Kaiser
+	shared_focus = LIV_Duchy_Restoration
 }

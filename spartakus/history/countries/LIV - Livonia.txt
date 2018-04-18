@@ -16,6 +16,7 @@ add_ideas = {
 	LIV_Hans_Henrici_carm_pau
 	LIV_Alexander_von_Salza_cnav_pau
 	LIV_Bruno_Loerzer_cair_pau
+	LIV_freikorps
 }
 
 set_technology = {

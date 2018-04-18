@@ -26,15 +26,52 @@ country_event = {
 
 	option = {
 		name = liv.1.a
-		country_event = {
-			days = 1
-			id = liv.2
-		}
+		load_focus_tree = LIV_focus_duchy
+	}
+}
 
+country_event = {
+	id = liv.2
+	title = liv.2.t
+	desc = liv.2.d
+	picture = GFX_liv
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = LIV
+		date > 1932.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 1
 	}
 
 	option = {
-		name = liv.1.b
-		load_focus_tree = LIV_focus_duchy
+		name = liv.2.a
+		load_focus_tree = LIV_focus_duchy_liberal
+	}
+}
+
+country_event = {
+	id = liv.3
+	title = liv.3.t
+	desc = liv.3.d
+	picture = GFX_liv
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = LIV
+		date > 1932.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = liv.3.a
+		load_focus_tree = LIV_focus
 	}
 }

@@ -1006,4 +1006,56 @@ shared_focus = {
 			}
 		}
 	}
+
+	shared_focus = {
+		id = LIV_Duchy_Restoration
+		icon = GFX_BAT_germanisation
+		mutually_exclusive = { focus = LIV_Duchy_Organization }
+		available = { has_country_flag = LIV_future }
+		bypass = { has_country_flag = LIV_future }
+		x = 6
+		y = 0
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = LIV_duchy_restoration_tt
+		}
+	}
+
+	shared_focus = {
+		id = LIV_Duchy_Kaiser
+		icon = GFX_BAT_germanisation
+		prerequisite = { focus = LIV_Duchy_Restoration }
+		available = { has_country_flag = LIV_kaiser }
+		x = 2
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+
+	shared_focus = {
+		id = LIV_Duchy_Organization
+		icon = GFX_BAT_emancipation
+		mutually_exclusive = { focus = LIV_Duchy_Kaiser }
+		prerequisite = { focus = LIV_Duchy_Restoration }
+		available = { has_country_flag = LIV_politic }
+		x = 10
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+		country_event = { id = liv.2 }
+		}
+	}
 }

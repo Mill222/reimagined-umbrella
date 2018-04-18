@@ -1,4 +1,4 @@
-### Chilean Ideas ###
+### Portuguese Ideas ###
 
 ideas = {
 
@@ -27,16 +27,6 @@ country = {
 		}
 		removal_cost = -1
 		picture = FRA_scw_intervention_republicans_focus
-	}
-	
-	CHL_illegitimate_gov = {
-		allowed = { always = no }
-		modifier = { 
-			stability_factor = -0.20  
-			war_support_factor = -0.15
-		}
-		removal_cost = -1
-		picture = generic_disjointed_gov
 	}
 }
 ##############
@@ -172,6 +162,51 @@ air_naval_manufacturer = {
 			cancel_if_invalid = no
 		}
 		
+		CHL_arturo_alessandri_hog = { 
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = liberal_conservative
+				has_country_flag = can_replace_hog
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				head_of_government
+				liberal_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = no
+		}
+		
+		CHL_flora_sanhueza_hog = { 
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = revolutionary_socialist
+				has_country_flag = can_replace_hog
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				head_of_government
+				revolutionary_socialist
+				hog_naive_optimist
+			}
+			cancel_if_invalid = no
+		}
+		
+		CHL_bartolome_blanche_hog = { 
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = social_democrat
+				has_country_flag = can_replace_hog
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				hog_old_general
+			}
+			cancel_if_invalid = no
+		}
+		
 		CHL_hector_rodriguez_hog = {
 			allowed = { original_tag = CHL }
 			available = { 
@@ -183,6 +218,36 @@ air_naval_manufacturer = {
 				head_of_government
 				social_conservative
 				hog_corporate_suit
+			}
+			cancel_if_invalid = no
+		}
+		
+		CHL_carlos_ibanez_del_campo_hog = {
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = right_wing_populist
+				has_country_flag = can_replace_hog
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				head_of_government
+				right_wing_populist
+				hog_backroom_backstabber
+			}
+			cancel_if_invalid = no
+		}
+		
+		CHL_jorge_gonzalez_von_marees_hog = {
+			allowed = { original_tag = CHL }
+			available = {
+				has_government = national_corporatist
+				has_country_flag = can_replace_hog
+				NOT = { has_country_flag = ministers_cannot_be_replaced }
+			}
+			traits = {
+				head_of_government
+				national_corporatist
+				hog_flamboyant_tough_guy
 			}
 			cancel_if_invalid = no
 		}
@@ -223,21 +288,6 @@ air_naval_manufacturer = {
 				economy_minister
 				social_liberal
 				eco_laissez_faire_capitalist
-			}
-			cancel_if_invalid = no
-		}
-		
-		CHL_marmaduke_grove_eco = {
-			allowed = { original_tag = CHL }
-			available = {
-				democratic_socialist_allowed = yes
-				NOT = {has_country_flag = marmaduke_grove_dead}
-				NOT = { has_country_flag = ministers_cannot_be_replaced }
-			}
-			traits = {
-				economy_minister
-				democratic_socialist
-				eco_air_superiority_proponent
 			}
 			cancel_if_invalid = no
 		}

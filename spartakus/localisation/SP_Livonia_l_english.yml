@@ -4,6 +4,18 @@
 
 ### Events ###
 
+liv.1.t:0 "Restoring the Baltic Duchy"
+liv.1.d:0 "We have torn down the military regime of Ruediger von der Goltz and have restored the Ducal government."
+liv.1.a:0 "Nice!"
+
+liv.2.t:0 "Organizing the Baltic Duchy"
+liv.2.d:0 "How shall we organize the Baltic Duchy?"
+liv.2.a:0 "We are a Liberal Duchy."
+
+liv.3.t:0 "Duchy Dissolved!"
+liv.3.d:0 "The United Baltic Duchy has been dissolved."
+liv.3.a:0 "Oh no!"
+
 ### Parties ###
 
 LIV_leninist_party:0 "LKP"
@@ -41,8 +53,8 @@ LIV_Duchy_Restoration_desc:0 ""
 LIV_Duchy_Kaiser:0 "Return of the Kaiser"
 LIV_Duchy_Kaiser_desc:0 "Almost two decades have passed since we achieved our status as a German protectorate. These decades have turned our nation into a German-dominated state, and we must respect their wishes. The Kaiser calls for Germanisation, and we shall follow suit. Drang Nach Osten!"
 
-LIV_Emancipation:0 "Emancipation"
-LIV_Emancipation_desc:0 "Almost two decades have passed since we achieved our status as a German protectorate. The Germans dominate our industry, our politics, and our military. We may be Germans too, but the Vaterland is growing weak, it is perhaps our chance to break those ties."
+LIV_Duchy_Organization:0 "Organizing the Duchy"
+LIV_Duchy_Organization_desc:0 "Almost two decades have passed since we achieved our status as a German protectorate. The Germans dominate our industry, our politics, and our military. We may be Germans too, but the Vaterland is growing weak, it is perhaps our chance to break those ties."
 
 LIV_Duchy_Kaiser_Ind:0 "Maintain our Independence"
 LIV_Duchy_Kaiser_Ind_desc:0 "Kurland, or Kursas as the locals call it, shall be the first step towards the full Germanisation of our Duchy. It will be easy to turn this region into a German-dominated one, despite some native resistance."
@@ -74,8 +86,8 @@ LIV_Ger_Puppet_desc:0 "Reuniting with the Vaterland is important, but not the to
 LIV_Ger_Indep:0 "Independence"
 LIV_Ger_Indep_desc:0 "The valley between Vaterland Germans and Baltic Germans will never, and we do mean never, be treaded over by the Empire. We, the Germans of Livland, Kurland and Estland, must cease all dealings with the mainland, and declare independence!"
 
-LIV_Ger_Autonomy1:0 "Autonomy under the Germans"
-LIV_Ger_Autonomy1_desc:0 "It is time for us to reform. The conservatives within the Baltic Landtag want to turn the nation into a parliamentary monarchy and abandon the nigh-absolutist practices of Adolf Friedrich I. Should we listen?"
+LIV_Duchy_Liberal:0 "A Liberal Duchy"
+LIV_Duchy_Liberal_desc:0 "It is time for us to reform. The conservatives within the Baltic Landtag want to turn the nation into a parliamentary monarchy and abandon the nigh-absolutist practices of Adolf Friedrich I. Should we listen?"
 
 LIV_Ger_Autonomy2:0 "Confronting the Kaiser"
 LIV_Ger_Autonomy2_desc:0 "The Vaterland is disappointed. To them, a strong parliamentary Baltic Duchy means a more autonomous and resistant Baltic Duchy. Our relations with the Kaiser have been damaged. It is time we finally confront the Kaiser about our increased political autonomy instead of leaving the resolution of this conflict to chance."
@@ -246,6 +258,9 @@ LIV_Education_Ger_desc:0 "With more power to the Duke, the time has come for us 
 
 LIV_military_with_state:0 "Military with a State"
 LIV_military_with_state_desc:0 "Livonia is often remarked as a 'Military with a State' for its mass militarization. This is, however, necessary for their survival. The Baltic natives are often considered unreliable, and a small defense force would mean certain death in the face of a strong Soviet state to the east. Each and every German in these lands are prepared for war."
+
+LIV_freikorps:0 "The Freikorps"
+LIV_freikorps_desc:0 "A significant amount of our army holds far right wing sympathies as a part of the so called Freikorps. These Freikorps, of whom many fled to our lands after the defeat in Germany, were crucial in securing the independence of Livonia. However, they have also caused various heartaches for the government by tarnishing our reputation among the Baltic natives. Burgulary, rape and murder are rampant among these Freikorps divisions. We can do something about this, but at the cost of losing some of our fighting force."
 
 LIV_baltic_conscription_crisis:0 "Native Conscription Crisis"
 LIV_baltic_conscription_crisis_desc:0 "Although Livonia is well known for its mass conscription of Germans, the Baltic natives themselves make up only a very small portion of the military and often are organized into independent militias whom lack proper equipment. Their lack of representation in the government also fuels many natives to avoid entering the army, and Estonians in particular are more compelled to serve in the Estonian puppet regime in the north."

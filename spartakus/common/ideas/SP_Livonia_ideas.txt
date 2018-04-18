@@ -20,9 +20,29 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription = 0.20
-				army_morale_factor = 0.10
-				stability_factor = -0.05
+				conscription = 0.10
+				army_morale_factor = 0.05
+				war_support_factor = 0.10
+			}
+		}
+		
+		LIV_freikorps = {
+			picture = chi_army_corruption2
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.10
+				army_org_factor = -0.20
+				stability_factor = -0.10
 			}
 		}
 		
@@ -41,7 +61,7 @@ ideas = {
 
 			modifier = {
 				conscription_factor = -0.5
-				war_support_factor = -0.025
+				war_support_factor = -0.05
 			}
 		}
 

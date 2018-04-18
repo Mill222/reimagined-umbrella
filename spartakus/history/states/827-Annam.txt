@@ -12,7 +12,7 @@ state={
 
 	history={
 		owner = INC
-		add_core_of = VIE
+		add_core_of = VIN
 		add_core_of = INC
 		victory_points = {
 			4379 3 # Hue
