@@ -74,11 +74,11 @@ country_event = { # Government Junta of the Socialist Republic
 		remove_ideas_with_trait = head_of_government
 		add_ideas = CHL_arturo_puga_hog
 		remove_ideas_with_trait = foreign_minister
-		add_ideas = CHL_luis_barriga_errazuriz_for
+		add_ideas = CHL_Fernando_Brown_Morales_for_rso
 		remove_ideas_with_trait = economy_minister
 		add_ideas = CHL_marmaduke_grove_eco
 		remove_ideas_with_trait = security_minister
-		add_ideas = CHL_rolando_merino_reyes_sec
+		add_ideas = CHL_Cristobal_Saenz_Cerda_sec_rso
 		set_country_flag = SR_CHILE
 		
 		set_party_name = {
@@ -157,9 +157,9 @@ country_event = { # Dávila attempts coup
 		remove_ideas_with_trait = head_of_government
 		add_ideas = CHL_carlos_davila_hog
 		remove_ideas_with_trait = economy_minister
-		add_ideas = CHL_victor_navarrete_senn_eco
+		add_ideas = CHL_Carlos_Fuentes_Rabe_eco_sde
 		remove_ideas_with_trait = security_minister
-		add_ideas = CHL_juan_antonio_rios_sec
+		add_ideas = CHL_Dario_Mujica_Gamboa_sec_sde
 	}
 	
 	option = { # Dávila is unsuccessful, and is sent to EASTER ISLAND
@@ -218,7 +218,7 @@ country_event = { # Aftermath of Dávila's coup
 				has_idea = CHL_marmaduke_grove_eco
 			}
 			remove_ideas = CHL_marmaduke_grove_eco
-			add_ideas = CHL_victor_navarrete_senn_eco
+			add_ideas = CHL_CL_Blest_Riffo_eco_syn
 		}
 		clr_country_flag = SR_CHILE_DAVILA_DEFEATED
 		set_country_flag = SR_CHILE_GROVE
