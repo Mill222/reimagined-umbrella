@@ -33,15 +33,15 @@ KUW = {
 	color_ui = rgb { 210 100 100 }
 }
 ZHL = {
-	color = rgb { 160 188 176 }
-	color_ui = rgb { 69 232 196 }
+	color = rgb { 250 150 68 }
+	color_ui = rgb { 250 150 68 }
 }
 SCH = {
-	color = rgb { 173 207 145 }
-	color_ui = rgb { 173 207 145 }
+	color = rgb { 255  234  174 }
+	color_ui = rgb { 255  234  174 }
 }
 KMC = {
-	color = rgb { 218 232 69 }
+	color = rgb { 215 196 72 }
 	color_ui = rgb { 218 232 69 }
 }
 NGR = {
@@ -77,15 +77,15 @@ SOV = {
 	color_ui = rgb { 163 17 31 }
 }
 FRA = {
-	color = rgb { 118 118 255 }
+	color = rgb { 20 50 210 }
 	color_ui = rgb { 74 147 255 }
 }
 AEF = {
-	color = rgb { 118 118 255 }
+	color = rgb { 20 50 210 }
 	color_ui = rgb { 74 147 255 }
 }
 AOF = {
-	color = rgb { 118 118 255 }
+	color = rgb { 20 50 210 }
 	color_ui = rgb { 74 147 255 }
 }
 AFG = {
@@ -289,8 +289,8 @@ FLN = {
 	color_ui = rgb { 0 38 255 }
 }
 FNG = {
-	color = rgb { 189 113 33 }
-	color_ui = rgb { 189 113 33 }
+	color = rgb { 255  254  124 }
+	color_ui = rgb { 255  254  124 }
 }
 GAB = {
 	color = rgb { 87 164 87 }
@@ -317,8 +317,8 @@ GUA = {
 	color_ui = rgb { 159 39 43 }
 }
 GXC = {
-	color = rgb { 71 113 97 }
-	color_ui = rgb { 71 113 97 }
+	color = rgb { 215  234  154 }
+	color_ui = rgb { 215  234  154 }
 }
 HAI = {
 	color = rgb { 174 113 113 }
@@ -589,9 +589,10 @@ SER = {
 	color_ui = rgb { 90 80 110 }
 }
 SHX = {
-	color = rgb { 82 2 15 }
-	color_ui = rgb { 101 30 41 }
+	color = rgb { 188 165 113 }
+	color_ui = rgb { 144 80 155 }
 }
+
 SIA = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }
@@ -641,7 +642,7 @@ TAN = {
 	color_ui = rgb { 198 169 248 }
 }
 TIB = {
-	color = rgb { 177 207 205 }
+	color = rgb { 133  168  213 }
 	color_ui = rgb { 177 207 205 }
 }
 TNZ = {
@@ -693,8 +694,8 @@ WAL = {
 	color_ui = rgb { 0 171 57 }
 }
 XSM = {
-	color = rgb { 105 90 132 }
-	color_ui = rgb { 105 90 132 }
+	color = rgb { 153 130 99 }
+	color_ui = rgb { 255  214  154 }
 }
 YEM = {
 	color = rgb { 233 155 81 }
@@ -705,8 +706,8 @@ YUG = {
 	color_ui = rgb { 94 95 164 }
 }
 YUN = {
-	color = rgb { 114 148 80 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 233 199 121 }
+	color_ui = rgb { 233 199 121 }
 }
 ZAM = {
 	color = rgb { 239 224 179 }

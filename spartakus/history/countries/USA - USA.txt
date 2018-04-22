@@ -3,8 +3,10 @@
 oob = "USA"
 
 set_research_slots = 4
-set_stability = 0.75
-set_war_support = 0
+set_convoys = 250
+set_global_flag = monroe_doctrine
+set_stability = 0.85
+set_war_support = 0.05
 
 # Starting tech
 set_technology = {
@@ -38,22 +40,20 @@ set_technology = {
 
 }
 
-set_convoys = 400
-
 set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 0
+			popularity = 1
 		}
 		marxist = {
 			popularity = 0
 		}
 		revolutionary_socialist = {
-			popularity = 0
+			popularity = 1
 		}
 		democratic_socialist = {
-			popularity = 0
+			popularity = 3
 		}
 		social_democrat = {
 			popularity = 0
@@ -62,16 +62,16 @@ set_politics = {
 			popularity = 0
 		}
 		liberal_conservative = {
-			popularity = 0
+			popularity = 46
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 38
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 10
 		}
 		right_wing_populist = {
-			popularity = 0
+			popularity = 1
 		}
 		national_syndicalist = {
 			popularity = 0
@@ -81,7 +81,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = liberal_conservative
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -89,6 +89,23 @@ set_politics = {
 }
 
 add_ideas = {
+USA_Charles_Curtis_hog_mli
+USA_Henry_L_Stimson_for_sde
+USA_Roy_D_Chapin_eco_mli
+USA_Charles_Evans_Hughes_Sr_sec_sco
+USA_J_Edgar_Hoover_int_ade
+USA_Omar_N_Bradley_carm_sde
+USA_Douglas_MacArthur_cos_mli
+USA_Oscar_Westover_cair_sde
+USA_Charles_F_Adams_cnav_mli
+disarmed_nation
+free_trade
+undisturbed_isolation
+good_stability
+USA_booming_economy
+USA_tariff_act
+USA_impending_drought
+USA_neutrality_movement
 }
 
 
@@ -99,14 +116,30 @@ set_autonomy = {
 }
 
 create_country_leader = {
-	name = "Franklin Delano Roosevelt"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
-	expire = "1947.1.1"
-	ideology = liberalism
-	traits = {
-		dislikes_germany
-	}
+	name = "Herbert Hoover"
+	desc = "POLITICS_HERBERT_HOOVER_DESC"
+	picture = "Portrait_Herbert_Hoover.dds"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Henry Ford"
+	desc = "POLITICS_HENRY_FORD_DESC"
+	picture = "Portrait_Henry_Ford.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Alfred E. Smith"
+	desc = "POLITICS_ALFRED_E_SMITH_DESC"
+	picture = "Portrait_Alfred_E_Smith.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
 }
 
 create_country_leader = {
@@ -114,7 +147,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
 	picture = "Portrait_USA_William_Dudley_Pelley.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_corporatist_subtype
 	traits = {
 		
 	}
@@ -125,7 +158,7 @@ create_country_leader = {
 	desc = "POLITICS_EARL_BROWDER_DESC"
 	picture = "Portrait_USA_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = leninist_subtype
 	traits = {
 		
 	}

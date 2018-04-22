@@ -124,32 +124,32 @@ QAT_UK = {
 }
 
 MOR_FRA = {
-	color = rgb { 118 118 255 }
+	color = rgb { 20 50 210 }
 	color_ui = rgb { 74 147 255 }
 }
 
 TUN_FRA = {
-	color = rgb { 118 118 255 }
+	color = rgb { 20 50 210 }
 	color_ui = rgb { 74 147 255 }
 }
 
 MAG_FRA = {
-	color = rgb { 118 118 255 }
+	color = rgb { 20 50 210 }
 	color_ui = rgb { 74 147 255 }
 }
 
 SYR_FRA = {
-	color = rgb { 118 118 255 }
+	color = rgb { 20 50 210 }
 	color_ui = rgb { 74 147 255 }
 }
 
 LEB_FRA = {
-	color = rgb { 118 118 255 }
+	color = rgb { 20 50 210 }
 	color_ui = rgb { 74 147 255 }
 }
 
 INC_FRA = {
-	color = rgb { 118 118 255 }
+	color = rgb { 20 50 210 }
 	color_ui = rgb { 74 147 255 }
 }
 
