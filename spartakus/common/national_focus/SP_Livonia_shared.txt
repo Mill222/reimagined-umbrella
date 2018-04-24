@@ -9,9 +9,9 @@ shared_focus = {
 		id = LIV_ERP
 		icon = GFX_goal_generic_production
 		available = { has_country_flag = LIV_economy }
-		x = 20
+		x = 10
 		y = 0
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -34,7 +34,7 @@ shared_focus = {
 		x = -1
 		y = 1
 		relative_position_id = LIV_ERP
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -68,7 +68,7 @@ shared_focus = {
 		x = -2
 		y = 2
 		relative_position_id = LIV_ERP
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -120,7 +120,7 @@ shared_focus = {
 		x = -2
 		y = 3
 		relative_position_id = LIV_ERP
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -138,7 +138,7 @@ shared_focus = {
 		x = -2
 		y = 4
 		relative_position_id = LIV_ERP
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -173,7 +173,7 @@ shared_focus = {
 		x = 0
 		y = 2
 		relative_position_id = LIV_ERP
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -204,7 +204,7 @@ shared_focus = {
 		x = 0
 		y = 3
 		relative_position_id = LIV_ERP
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -238,7 +238,7 @@ shared_focus = {
 		x = 0
 		y = 4
 		relative_position_id = LIV_ERP
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -273,7 +273,7 @@ shared_focus = {
 		x = 1
 		y = 1
 		relative_position_id = LIV_ERP
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -324,7 +324,7 @@ shared_focus = {
 		x = 2
 		y = 2
 		relative_position_id = LIV_ERP
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -342,7 +342,7 @@ shared_focus = {
 		x = 2
 		y = 3
 		relative_position_id = LIV_ERP
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -360,7 +360,7 @@ shared_focus = {
 		x = 2
 		y = 4
 		relative_position_id = LIV_ERP
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -378,7 +378,7 @@ shared_focus = {
 		x = 0
 		y = 5
 		relative_position_id = LIV_ERP
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -395,7 +395,7 @@ shared_focus = {
 		icon = GFX_BAT_conscript
 		x = 26
 		y = 0
-		cost = 10
+		cost = 3
 		ai_will_do = {
 			factor = 50
 		}
@@ -412,12 +412,11 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Army_Cons
+		id = LIV_Cons_Reform
 		icon = GFX_BAT_army
 		prerequisite = { focus = LIV_Army_Start }
 		available = { has_country_flag = LIV_progerman }
-		mutually_exclusive = { focus = LIV_Army_Cons2 }
-		x = -2
+		x = -8
 		y = 1
 		relative_position_id = LIV_Army_Start
 		cost = 1
@@ -431,11 +430,10 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Army_Cons2
+		id = LIV_Cons_Reform2
 		icon = GFX_focus_generic_little_entente
 		prerequisite = { focus = LIV_Army_Start }
 		available = { has_country_flag = LIV_fed }
-		mutually_exclusive = { focus = LIV_Army_Cons }
 		x = 2
 		y = 1
 		relative_position_id = LIV_Army_Start
@@ -450,13 +448,14 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Army_Inf1
+		id = LIV_German_Army
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = LIV_Army_Cons focus = LIV_Army_Cons2 }
+		prerequisite = { focus = LIV_Cons_Reform }
 		x = -2
-		y = 2
-		relative_position_id = LIV_Army_Start
-		cost = 10
+		y = 1
+		relative_position_id = LIV_Cons_Reform
+		mutually_exclusive = { focus = LIV_Mixed_Army focus = LIV_Baltic_Army }
+		cost = 8.6
 		ai_will_do = {
 			factor = 50
 		}
@@ -471,15 +470,63 @@ shared_focus = {
 			}
 		}
 	}
-
+	
 shared_focus = {
-		id = LIV_Army_Inf2
+		id = LIV_German_Army_2
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = LIV_Army_Inf1 }
+		prerequisite = { focus = LIV_German_Army }
+		x = -2
+		y = 2
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_German_Army_3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_German_Army_2 }
 		x = -2
 		y = 3
-		relative_position_id = LIV_Army_Start
-		cost = 10
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_German_Army_4
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_German_Army_3 }
+		x = -2
+		y = 4
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+shared_focus = {
+		id = LIV_Mixed_Army
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_Cons_Reform }
+		mutually_exclusive = { focus = LIV_German_Army focus = LIV_Baltic_Army }
+		x = 0
+		y = 1
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
 		ai_will_do = {
 			factor = 50
 		}
@@ -489,16 +536,98 @@ shared_focus = {
 			add_ideas = LIV_drill
 		}
 	}
+	
+shared_focus = {
+		id = LIV_Mixed_Army_2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_Mixed_Army }
+		x = 0
+		y = 2
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
 
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Mixed_Army_3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_Mixed_Army_2 }
+		x = 0
+		y = 3
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Mixed_Army_4
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_Mixed_Army_3 }
+		x = 0
+		y = 4
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Baltic_Army
+		icon = GFX_goal_generic_small_arms
+		mutually_exclusive = { focus = LIV_Mixed_Army focus = LIV_German_Army }
+		prerequisite = { focus = LIV_Cons_Reform }
+		x = 2
+		y = 1
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			army_experience = 5
+			add_ideas = LIV_drill
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Baltic_Army_2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_Baltic_Army }
+		x = 2
+		y = 1
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
 
 shared_focus = {
 		id = LIV_Army_Doc1
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = LIV_Army_Cons focus = LIV_Army_Cons2 }
+		prerequisite = { focus = LIV_Cons_Reform focus = LIV_Cons_Reform2 }
 		x = 0
 		y = 2
 		relative_position_id = LIV_Army_Start
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 50
 		}
@@ -521,7 +650,7 @@ shared_focus = {
 		x = 0
 		y = 3
 		relative_position_id = LIV_Army_Start
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 50
 		}
@@ -544,7 +673,7 @@ shared_focus = {
 		x = 0
 		y = 4
 		relative_position_id = LIV_Army_Start
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 50
 		}
@@ -566,7 +695,7 @@ shared_focus = {
 		x = 0
 		y = 5
 		relative_position_id = LIV_Army_Start
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 50
 		}
@@ -585,11 +714,11 @@ shared_focus = {
 shared_focus = {
 		id = LIV_Army_Def1
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = LIV_Army_Cons focus = LIV_Army_Cons2 }
+		prerequisite = { focus = LIV_Cons_Reform focus = LIV_Cons_Reform2 }
 		x = 3
 		y = 2
 		relative_position_id = LIV_Army_Start
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 50
 		}
@@ -612,7 +741,7 @@ shared_focus = {
 		x = 3
 		y = 3
 		relative_position_id = LIV_Army_Start
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 50
 		}
@@ -669,7 +798,7 @@ shared_focus = {
 		x = 4
 		y = 5
 		relative_position_id = LIV_Army_Start
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 50
 		}
@@ -686,7 +815,7 @@ shared_focus = {
 		x = 3
 		y = 6
 		relative_position_id = LIV_Army_Start
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 50
 		}
@@ -703,7 +832,7 @@ shared_focus = {
 		icon = GFX_BAT_navy
 		x = 34
 		y = 0
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 40
 		}
@@ -758,7 +887,7 @@ shared_focus = {
 		x = -2
 		y = 1
 		relative_position_id = LIV_Army_Mil_Navy1
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 40
 		}
@@ -789,7 +918,7 @@ shared_focus = {
 		x = 2
 		y = 1
 		relative_position_id = LIV_Army_Mil_Navy1
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 40
 		}
@@ -814,7 +943,7 @@ shared_focus = {
 		x = 0
 		y = 2
 		relative_position_id = LIV_Army_Mil_Navy1
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 40
 		}
@@ -837,7 +966,7 @@ shared_focus = {
 		x = 0
 		y = 3
 		relative_position_id = LIV_Army_Mil_Navy1
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 40
 		}
@@ -866,7 +995,7 @@ shared_focus = {
 
 		x = 34
 		y = 4
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 25
 		}
@@ -889,7 +1018,7 @@ shared_focus = {
 		x = -2
 		y = 1
 		relative_position_id = LIV_Air1
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 25
 		}
@@ -912,7 +1041,7 @@ shared_focus = {
 		x = 0
 		y = 1
 		relative_position_id = LIV_Air1
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 25
 		}
@@ -940,7 +1069,7 @@ shared_focus = {
 		x = 2
 		y = 1
 		relative_position_id = LIV_Air1
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 25
 		}
@@ -961,7 +1090,7 @@ shared_focus = {
 		x = 0
 		y = 2
 		relative_position_id = LIV_Air1
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -984,7 +1113,7 @@ shared_focus = {
 		x = 0
 		y = 3
 		relative_position_id = LIV_Air1
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 25
 		}

@@ -7,15 +7,15 @@ add_ideas = {
 	partial_economic_mobilisation
 	LIV_military_with_state
 	LIV_baltic_conscription_crisis
-	LIV_Andrievs_Niedra_hog_pau
+	LIV_Andrievs_Niedra_hog_rwp
 	LIV_Viktor_von_Marnitz_for_ade
-	LIV_Alexander_von_Salzar_eco_pau
-	LIV_Karl_Sigismund_Litzmann_sec_pau
+	LIV_Alexander_von_Salzar_eco_rwp
+	LIV_Karl_Sigismund_Litzmann_sec_rwp
 	LIV_Wessel_von_Loringhoven_int_ade
-	LIV_Ruediger_von_der_Goltz_cos_pau
-	LIV_Hans_Henrici_carm_pau
-	LIV_Alexander_von_Salza_cnav_pau
-	LIV_Bruno_Loerzer_cair_pau
+	LIV_Ruediger_von_der_Goltz_cos_rwp
+	LIV_Hans_Henrici_carm_rwp
+	LIV_Alexander_von_Salza_cnav_rwp
+	LIV_Bruno_Loerzer_cair_rwp
 	LIV_freikorps
 }
 

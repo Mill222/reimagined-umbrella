@@ -3,25 +3,25 @@ state={
 	id=688
 	name="STATE_688"
 	resources={
-		tungsten=4.000
-		steel=2.000
+		tungsten=3.000
+		steel=1.000
 	}
 
 	history={
-		owner = PAR
+		owner = BOL
 		buildings = {
 			infrastructure = 2
 
 		}
+		add_core_of = BOL
 		add_core_of = PAR
-		add_claim_by = BOL
 
 	}
 
 	provinces={
-		2195 2209 5165 8203 10973 13245 13252 
+		2195 5165 8203 13252 13685 13689 13693 13695 13696 13698 
 	}
-	manpower=45900
+	manpower=22900
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

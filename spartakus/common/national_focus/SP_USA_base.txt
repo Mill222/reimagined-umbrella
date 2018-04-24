@@ -1,0 +1,22 @@
+###########################
+# Livonia Focus Tree
+# By sparkz
+###########################
+
+focus_tree = {
+	id = USA
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+
+	shared_focus = USA_1936_election
+	shared_focus = USA_general_macarthur
+	shared_focus = USA_review_military
+	shared_focus = USA_war_economy
+	shared_focus = USA_the_new_deal
+	shared_focus = USA_foreign_policy
+}

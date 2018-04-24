@@ -173,20 +173,23 @@ LIV_ERP_FM4_desc:0 "Our capitalists are becoming more and more powerful, even st
 LIV_ERP_End:0 "Recovery from Crisis"
 LIV_ERP_End_desc:0 "Hurrah! Under our wise rule, the Duchy has survived this crisis. It seems, at least for us, that the worst of the Black Monday is over. Prosperity is once more the law of the land, and shall stay so!"
 
-LIV_Army_Start:0 "Baltic Army"
+LIV_Army_Start:0 "The Baltische Landeswehr"
 LIV_Army_Start_desc:0 "Officially, we do have an army. But it actually consists of nothing more than a bunch of young boys with rifles. Military doctrine is the first thing we need to modernise. Decades have passed since the end of the Weltkrieg and our current doctrine is now clearly outdated."
 
-LIV_Army_Cons:0 "Conscription Question"
-LIV_Army_Cons_desc:0 "Native Balts, the majority of our country's population, are not currently allowed to serve in the army. Should we finally lift some of these restrictions, or should we keep the army the sole affair of the Germans?"
+LIV_Cons_Reform:0 "Conscription Reform"
+LIV_Cons_Reform_desc:0 "Native Balts, the majority of our country's population, are not currently allowed to serve in the army. Should we finally lift some of these restrictions, or should we keep the army the sole affair of the Germans?"
 
-LIV_Army_Cons2:0 "Balts for Baltic Army"
-LIV_Army_Cons2_desc:0 "Native Balts, the majority of our country's population, are not currently allowed to serve in the army. Enough is enough, we will immediately open up the army's rank, but this may take some time to have an effect."
+LIV_Cons_Reform2:0 "The Freikorps Issue"
+LIV_Cons_Reform2_desc:0 "Native Balts, the majority of our country's population, are not currently allowed to serve in the army. Enough is enough, we will immediately open up the army's rank, but this may take some time to have an effect."
 
-LIV_Army_Inf1:0 "Modern Equipment"
-LIV_Army_Inf1_desc:0 "Most of our troops use clearly obsolete equipment. The Weltkrieg is long over, we need to change our equipment so that our brave soldiers fight with the best money and technology has to offer. We are a militia no more!"
+LIV_German_Army:0 "A German Army"
+LIV_German_Army_desc:0 "Most of our troops use clearly obsolete equipment. The Weltkrieg is long over, we need to change our equipment so that our brave soldiers fight with the best money and technology has to offer. We are a militia no more!"
 
-LIV_Army_Inf2:0 "Improve our Training System"
-LIV_Army_Inf2_desc:0 "We should reorganise and modernise our training system. New drilling methods will shorten boot camp times and stronger emphasis on actual combat training will increase the combat readiness of our troops."
+LIV_Mixed_Army:0 "A Mixed Army"
+LIV_Mixed_Army_desc:0 "We should reorganise and modernise our training system. New drilling methods will shorten boot camp times and stronger emphasis on actual combat training will increase the combat readiness of our troops."
+
+LIV_Baltic_Army:0 "A Baltic Army"
+LIV_Baltic_Army_desc:0 "We should reorganise and modernise our training system. New drilling methods will shorten boot camp times and stronger emphasis on actual combat training will increase the combat readiness of our troops."
 
 LIV_Army_Doc1:0 "War Games"
 LIV_Army_Doc1_desc:0 "Our military staff still push for old tactics and doctrines. We desperately need to change their minds. If we start organising regular war games, we will slowly but surely force them to adapt to the realities of modern warfare."
