@@ -212,7 +212,7 @@ country_event = { # Aftermath of Dávila's coup
 			popularity = 0.05
 		}
 		remove_ideas_with_trait = head_of_government
-		add_ideas = CHL_marmaduke_grove_hog
+		add_ideas = CHL_Marmaduke_Grove_hog_syn
 		if = {
 			limit = {
 				has_idea = CHL_marmaduke_grove_eco
@@ -222,6 +222,15 @@ country_event = { # Aftermath of Dávila's coup
 		}
 		clr_country_flag = SR_CHILE_DAVILA_DEFEATED
 		set_country_flag = SR_CHILE_GROVE
+		
+		load_focus_tree = SR_CHILE_GROVE_FOCUS
+		
+		hidden_effect = {
+			set_variable = {
+				var = CHL_coalition_members
+				value = 0
+			}
+		}
 	}
 	
 	option = { # Appoint Arturo Puga acting president (red bonapartism/military support, middling path)
@@ -240,6 +249,756 @@ country_event = { # Aftermath of Dávila's coup
 		}
 		clr_country_flag = SR_CHILE_DAVILA_DEFEATED
 		set_country_flag = SR_CHILE_PUGA
+	}
+}
+
+country_event = { # Meeting with PCCh
+	id = chile.8
+	title = chile.8.t
+	desc = chile.8.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chile.8.a
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+							has_country_flag = CHL_IC_coalition
+							has_country_flag = CHL_unions_coalition
+						}
+					}
+				}
+				random_list = {
+					50 = {
+						country_event = { days = 3 id = chile.9 }
+					}
+					33 = {
+						country_event = { days = 3 id = chile.10 }
+					}
+					17 = {
+						country_event = { days = 3 id = chile.11 }
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_country_flag = CHL_IC_coalition
+							NOT = {
+								has_country_flag = CHL_unions_coalition
+							}
+						}
+						AND = {
+							has_country_flag = CHL_unions_coalition
+							NOT = {
+								has_country_flag = CHL_IC_coalition
+							}
+						}
+					}
+				}
+				random_list = {
+					17 = {
+						country_event = { days = 3 id = chile.9 }
+					}
+					50 = {
+						country_event = { days = 3 id = chile.10 }
+					}
+					33 = {
+						country_event = { days = 3 id = chile.11 }
+					}
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						has_country_flag = CHL_unions_coalition
+						has_country_flag = CHL_IC_coalition
+					}
+				}
+				random_list = {
+					17 = {
+						country_event = { days = 3 id = chile.9 }
+					}
+					33 = {
+						country_event = { days = 3 id = chile.10 }
+					}
+					50 = {
+						country_event = { days = 3 id = chile.11 }
+					}
+				}
+			}
+		}
+		custom_effect_tooltip = CHL_waiting_response
+	}
+}
+
+country_event = { # Meeting with PCCh - Accept
+	id = chile.9
+	title = chile.9.t
+	desc = chile.9.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chile.9.a
+		hidden_effect = {
+			add_to_variable = { var = CHL_coalition_members value = 1 }
+		}
+		set_country_flag = CHL_PCCh_coalition
+	}
+}
+
+country_event = { # Meeting with PCCh - PCCh Counteroffer
+	id = chile.10
+	title = chile.10.t
+	desc = chile.10.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # Accept
+		name = chile.10.a
+		hidden_effect = {
+			add_to_variable = { var = CHL_coalition_members value = 1 }
+		}
+		add_ideas = CHL_PCCh_concessions_balanced
+		set_country_flag = CHL_PCCh_coalition
+	}
+	
+	option = { # Counter-Counteroffer
+		name = chile.10.b
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+							has_country_flag = CHL_IC_coalition
+							has_country_flag = CHL_unions_coalition
+						}
+					}
+				}
+				random_list = {
+					66 = {
+						country_event = { days = 3 id = chile.12 }
+					}
+					34 = {
+						country_event = { days = 3 id = chile.13 }
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_country_flag = CHL_IC_coalition
+							NOT = {
+								has_country_flag = CHL_unions_coalition
+							}
+						}
+						AND = {
+							has_country_flag = CHL_unions_coalition
+							NOT = {
+								has_country_flag = CHL_unions_coalition
+							}
+						}
+					}
+				}
+				random_list = {
+					50 = {
+						country_event = { days = 3 id = chile.12 }
+					}
+					50 = {
+						country_event = { days = 3 id = chile.13 }
+					}
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						has_country_flag = CHL_unions_coalition
+						has_country_flag = CHL_IC_coalition
+					}
+				}
+				random_list = {
+					34 = {
+						country_event = { days = 3 id = chile.12 }
+					}
+					66 = { 
+						country_event = { days = 3 id = chile.13 }
+					}
+				}
+			}
+		}
+		custom_effect_tooltip = CHL_waiting_response
+	}
+	
+	option = { # Decline
+		name = chile.10.c
+	}
+}
+
+country_event = { # Meeting with PCCh - Decline
+	id = chile.11
+	title = chile.11.t
+	desc = chile.11.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # Fine!
+		name = chile.11.a
+	}
+}
+
+country_event = { # Meeting with PCCh - Accept Counter-Counteroffer
+	id = chile.12
+	title = chile.12.t
+	desc = chile.12.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chile.12.a
+		hidden_effect = {
+			add_to_variable = { var = CHL_coalition_members value = 1 }
+		}
+		add_ideas = CHL_PCCh_concessions_minor
+		set_country_flag = CHL_PCCh_coalition
+	}
+}
+
+country_event = { # Meeting with PCCh - Decline Counter-Counteroffer
+	id = chile.13
+	title = chile.13.t
+	desc = chile.13.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # Accept Expanded Terms
+		name = chile.13.a
+		hidden_effect = {
+			add_to_variable = { var = CHL_coalition_members value = 1 }
+		}
+		add_ideas = CHL_PCCh_concessions_major
+		set_country_flag = CHL_PCCh_coalition
+	}
+	
+	option = { # Decline Expanded Terms
+		name = chile.13.b
+	}
+}
+
+country_event = { # Meeting with Izquierda Comunista
+	id = chile.14
+	title = chile.14.t
+	desc = chile.14.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chile.14.a
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+							has_country_flag = CHL_PCCh_coalition
+							has_country_flag = CHL_unions_coalition
+						}
+					}
+				}
+				random_list = {
+					50 = {
+						country_event = { days = 3 id = chile.15 }
+					}
+					33 = {
+						country_event = { days = 3 id = chile.16 }
+					}
+					17 = {
+						country_event = { days = 3 id = chile.17 }
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_country_flag = CHL_PCCh_coalition
+							NOT = {
+								has_country_flag = CHL_unions_coalition
+							}
+						}
+						AND = {
+							has_country_flag = CHL_unions_coalition
+							NOT = {
+								has_country_flag = CHL_PCCh_coalition
+							}
+						}
+					}
+				}
+				random_list = {
+					17 = {
+						country_event = { days = 3 id = chile.15 }
+					}
+					50 = {
+						country_event = { days = 3 id = chile.16 }
+					}
+					33 = {
+						country_event = { days = 3 id = chile.17 }
+					}
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						has_country_flag = CHL_unions_coalition
+						has_country_flag = CHL_PCCh_coalition
+					}
+				}
+				random_list = {
+					17 = {
+						country_event = { days = 3 id = chile.15 }
+					}
+					33 = {
+						country_event = { days = 3 id = chile.16 }
+					}
+					50 = {
+						country_event = { days = 3 id = chile.17 }
+					}
+				}
+			}
+		}
+		custom_effect_tooltip = CHL_waiting_response
+	}
+}
+
+country_event = { # Meeting with Izquierda Comunista - Accept
+	id = chile.15
+	title = chile.15.t
+	desc = chile.15.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chile.15.a
+		hidden_effect = {
+			add_to_variable = { var = CHL_coalition_members value = 1 }
+		}
+		set_country_flag = CHL_IC_coalition
+	}
+}
+
+country_event = { # Meeting with Izquierda Comunista - Izquierda Comunista Counteroffer
+	id = chile.16
+	title = chile.16.t
+	desc = chile.16.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # Accept
+		name = chile.16.a
+		hidden_effect = {
+			add_to_variable = { var = CHL_coalition_members value = 1 }
+		}
+		add_ideas = CHL_IC_concessions_balanced
+		set_country_flag = CHL_IC_coalition
+	}
+	
+	option = { # Counter-Counteroffer
+		name = chile.16.b
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+							has_country_flag = CHL_PCCh_coalition
+							has_country_flag = CHL_unions_coalition
+						}
+					}
+				}
+				random_list = {
+					66 = {
+						country_event = { days = 3 id = chile.18 }
+					}
+					34 = {
+						country_event = { days = 3 id = chile.19 }
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_country_flag = CHL_PCCh_coalition
+							NOT = {
+								has_country_flag = CHL_unions_coalition
+							}
+						}
+						AND = {
+							has_country_flag = CHL_unions_coalition
+							NOT = {
+								has_country_flag = CHL_PCCh_coalition
+							}
+						}
+					}
+				}
+				random_list = {
+					50 = {
+						country_event = { days = 3 id = chile.18 }
+					}
+					50 = {
+						country_event = { days = 3 id = chile.19 }
+					}
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						has_country_flag = CHL_unions_coalition
+						has_country_flag = CHL_PCCh_coalition
+					}
+				}
+				random_list = {
+					34 = {
+						country_event = { days = 3 id = chile.18 }
+					}
+					66 = { 
+						country_event = { days = 3 id = chile.19 }
+					}
+				}
+			}
+		}
+		custom_effect_tooltip = CHL_waiting_response
+	}
+	
+	option = { # Decline
+		name = chile.16.c
+	}
+}
+
+country_event = { # Meeting with Izquierda Comunista - Decline
+	id = chile.17
+	title = chile.17.t
+	desc = chile.17.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # Fine!
+		name = chile.17.a
+	}
+}
+
+country_event = { # Meeting with Izquierda Comunista - Accept Counter-Counteroffer
+	id = chile.18
+	title = chile.18.t
+	desc = chile.18.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chile.18.a
+		hidden_effect = {
+			add_to_variable = { var = CHL_coalition_members value = 1 }
+		}
+		add_ideas = CHL_IC_concessions_minor
+		set_country_flag = CHL_IC_coalition
+	}
+}
+
+country_event = { # Meeting with Izquierda Comunista - Decline Counter-Counteroffer
+	id = chile.19
+	title = chile.19.t
+	desc = chile.19.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # Accept Expanded Terms
+		name = chile.19.a
+		hidden_effect = {
+			add_to_variable = { var = CHL_coalition_members value = 1 }
+		}
+		add_ideas = CHL_IC_concessions_major
+		set_country_flag = CHL_IC_coalition
+	}
+	
+	option = { # Decline Expanded Terms
+		name = chile.19.b
+	}
+}
+
+country_event = { # Meeting with the Unions
+	id = chile.20
+	title = chile.20.t
+	desc = chile.20.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chile.20.a
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+							has_country_flag = CHL_IC_coalition
+							has_country_flag = CHL_PCCh_coalition
+						}
+					}
+				}
+				random_list = {
+					50 = {
+						country_event = { days = 3 id = chile.21 }
+					}
+					33 = {
+						country_event = { days = 3 id = chile.22 }
+					}
+					17 = {
+						country_event = { days = 3 id = chile.23 }
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_country_flag = CHL_IC_coalition
+							NOT = {
+								has_country_flag = CHL_PCCh_coalition
+							}
+						}
+						AND = {
+							has_country_flag = CHL_PCCh_coalition
+							NOT = {
+								has_country_flag = CHL_IC_coalition
+							}
+						}
+					}
+				}
+				random_list = {
+					17 = {
+						country_event = { days = 3 id = chile.21 }
+					}
+					50 = {
+						country_event = { days = 3 id = chile.22 }
+					}
+					33 = {
+						country_event = { days = 3 id = chile.23 }
+					}
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						has_country_flag = CHL_PCCh_coalition
+						has_country_flag = CHL_IC_coalition
+					}
+				}
+				random_list = {
+					17 = {
+						country_event = { days = 3 id = chile.21 }
+					}
+					33 = {
+						country_event = { days = 3 id = chile.22 }
+					}
+					50 = {
+						country_event = { days = 3 id = chile.23 }
+					}
+				}
+			}
+		}
+		custom_effect_tooltip = CHL_waiting_response
+	}
+}
+
+country_event = { # Meeting with the Unions - Accept
+	id = chile.21
+	title = chile.21.t
+	desc = chile.21.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chile.21.a
+		hidden_effect = {
+			add_to_variable = { var = CHL_coalition_members value = 1 }
+		}
+		set_country_flag = CHL_unions_coalition
+	}
+}
+
+country_event = { # Meeting with the Unions - Union Counteroffer
+	id = chile.22
+	title = chile.22.t
+	desc = chile.22.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # Accept
+		name = chile.22.a
+		hidden_effect = {
+			add_to_variable = { var = CHL_coalition_members value = 1 }
+		}
+		add_ideas = CHL_union_concessions_balanced
+		set_country_flag = CHL_unions_coalition
+	}
+	
+	option = { # Counter-Counteroffer
+		name = chile.22.b
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+							has_country_flag = CHL_IC_coalition
+							has_country_flag = CHL_PCCh_coalition
+						}
+					}
+				}
+				random_list = {
+					66 = {
+						country_event = { days = 3 id = chile.24 }
+					}
+					34 = {
+						country_event = { days = 3 id = chile.25 }
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_country_flag = CHL_IC_coalition
+							NOT = {
+								has_country_flag = CHL_PCCh_coalition
+							}
+						}
+						AND = {
+							has_country_flag = CHL_PCCh_coalition
+							NOT = {
+								has_country_flag = CHL_IC_coalition
+							}
+						}
+					}
+				}
+				random_list = {
+					50 = {
+						country_event = { days = 3 id = chile.24 }
+					}
+					50 = {
+						country_event = { days = 3 id = chile.25 }
+					}
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						has_country_flag = CHL_PCCh_coalition
+						has_country_flag = CHL_IC_coalition
+					}
+				}
+				random_list = {
+					34 = {
+						country_event = { days = 3 id = chile.24 }
+					}
+					66 = { 
+						country_event = { days = 3 id = chile.25 }
+					}
+				}
+			}
+		}
+		custom_effect_tooltip = CHL_waiting_response
+	}
+	
+	option = { # Decline
+		name = chile.22.c
+	}
+}
+
+country_event = { # Meeting with the Unions - Decline
+	id = chile.23
+	title = chile.23.t
+	desc = chile.23.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # Fine!
+		name = chile.23.a
+	}
+}
+
+country_event = { # Meeting with the Unions - Accept Counter-Counteroffer
+	id = chile.24
+	title = chile.24.t
+	desc = chile.24.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chile.24.a
+		hidden_effect = {
+			add_to_variable = { var = CHL_coalition_members value = 1 }
+		}
+		add_ideas = CHL_union_concessions_minor
+		set_country_flag = CHL_unions_coalition
+	}
+}
+
+country_event = { # Meeting with the Unions - Decline Counter-Counteroffer
+	id = chile.25
+	title = chile.25.t
+	desc = chile.25.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # Accept Expanded Terms
+		name = chile.25.a
+		hidden_effect = {
+			add_to_variable = { var = CHL_coalition_members value = 1 }
+		}
+		add_ideas = CHL_union_concessions_major
+		set_country_flag = CHL_unions_coalition
+	}
+	
+	option = { # Decline Expanded Terms
+		name = chile.13.b
 	}
 }
 

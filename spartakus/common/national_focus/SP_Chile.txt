@@ -1,0 +1,118 @@
+focus_tree = {
+	id = SR_CHILE_GROVE_FOCUS
+	country = {
+		factor=0
+		modifier = {
+			add = 10
+			tag = Chile
+		}
+	}
+	
+	default = no
+
+	focus = { # Grove's Republic
+		id = CHL_groves_republic 
+		icon = GFX_goal_commune_politics 
+		bypass = { has_country_flag = SR_CHILE_GROVE } 
+		ai_will_do = { factor = 0 } 
+		
+		x =7 
+		y =0 
+		
+		mutually_exclusive = { } 
+		prerequisite = { } 
+		
+		available = { always = no } 
+		
+		cost = 1  
+		
+		available_if_capitulated = yes  
+	} 
+
+	focus = { 
+		id = CHL_meet_pcch 
+		icon = GFX_goal_syndicalist_lenin 
+		ai_will_do = { factor = 0 } 
+		
+		x =4 
+		y =1 
+		
+		mutually_exclusive = { } 
+		prerequisite = { focus = CHL_groves_republic } 
+		
+		cost = 8  
+	  
+		available_if_capitulated = yes  
+		completion_reward = { 
+			country_event = { 
+				days = 1  
+				id = chile.8
+			} 
+		} 
+	 }
+	 
+	focus = { 
+		id = CHL_meet_ic 
+		icon = GFX_goal_generic_war_with_comintern 
+		ai_will_do = { factor = 0 }
+			
+		x =7 
+		y =1 
+
+		mutually_exclusive = { } 
+		prerequisite = { focus = CHL_groves_republic}
+		
+		cost = 8  
+	 
+		available_if_capitulated = yes 
+		
+		completion_reward = { 
+			country_event = { 
+				id = chile.14
+				days = 1 
+			} 
+		} 
+	} 
+
+	focus = { 
+		id = CHL_meet_iww 
+		icon = GFX_goal_syndicalist_industry 
+		ai_will_do = { factor = 0 } 
+		
+		x =10
+		y =1 
+
+		mutually_exclusive = { } 
+		prerequisite = { focus = CHL_groves_republic} 
+
+		cost = 8  
+
+		available_if_capitulated = yes  
+
+		completion_reward = { 
+			country_event = { 
+				days = 1  
+				id = chile.20
+			} 
+		} 
+	}
+	 
+	focus = { 
+		id = CHL_popular_unity 
+		icon = GFX_goal_CHL_unidad_popular
+		bypass = {has_country_flag = SR_CHILE_NO_COALITION} 
+		ai_will_do = { factor = 0 } 
+
+		x =7 
+		y =2 
+
+		mutually_exclusive = { } 
+		prerequisite = { focus = CHL_meet_pcch} 
+		prerequisite = { focus =CHL_meet_iww} 
+		prerequisite = { focus =CHL_meet_ic} 
+
+		cost = 8  
+
+		available_if_capitulated = yes  
+	}
+}

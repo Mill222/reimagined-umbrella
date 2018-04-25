@@ -197,6 +197,24 @@ air_naval_manufacturer = {
 			cancel_if_invalid = no
 		}
 		
+		CHL_marmaduke_grove_eco = {
+			allowed = { original_tag = CHL }
+			visible = {
+				leninist_allowed = yes
+				marxist_allowed = yes
+				revolutionary_socialist_allowed = yes
+				democratic_socialist_allowed = yes
+				social_democrat_allowed = yes
+				NOT = {has_country_flag = Marco_de_la_Cuadra_dead}
+			}
+			traits = {
+				economy_minister
+				democratic_socialist
+				eco_air_superiority_proponent
+			}
+			cancel_if_invalid = no
+		}
+		
 	}
 		
 	security_minister = {
