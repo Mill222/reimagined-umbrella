@@ -1,0 +1,56 @@
+﻿l_english:
+
+### Parties ###
+WEI_leninist_party:0 "KPD"
+WEI_leninist_party_long:0 "Kommunistische Partei Deutschlands"
+WEI_marxist_party:0 "KAPD"
+WEI_marxist_party_long:0 "Kommunistische Arbeiter-Partei Deutschlands"
+WEI_democratic_socialist_party:0 "USPD"
+WEI_democratic_socialist_party_long:0 "Unabhängige Sozialdemokratische Partei Deutschlands"
+WEI_revolutionary_socialist_party:0 "FAUD"
+WEI_revolutionary_socialist_party_long:0 "Freie Arbeiter Union Deutschlands"
+WEI_social_democrat_party:0 "SPD"
+WEI_social_democrat_party_long:0 "Sozialdemokratische Partei Deutschlands"
+WEI_social_liberal_party:0 "DStP"
+WEI_social_liberal_party_long:0 "Deutsche Staatspartei"
+WEI_liberal_conservative_party:0 "DRP"
+WEI_liberal_conservative_party_long:0 "Deutsche Republikanische Partei"
+WEI_social_conservative_party:0 "DES"
+WEI_social_conservative_party_long:0 "Deutsche Einheitspartei"
+WEI_authoritarian_democrat_party:0 "DNVP"
+WEI_authoritarian_democrat_party_long:0 "Deutschnationale Volkspartei"
+WEI_right_wing_populist_party:0 "DNVP"
+WEI_right_wing_populist_party_long:0 "Deutschnationale Volkspartei"
+WEI_national_syndicalist_party:0 "DSP"
+WEI_national_syndicalist_party_long:0 "Deutschsozialistische Partei"
+WEI_national_corporatist_party:0 "AV"
+WEI_national_corporatist_party_long:0 "Alldeutscher Verband"
+
+### Tooltips ###
+WEI_example_tooltip_tt:0 "§GExample\n§!"
+
+### Ideas ###
+WEI_example_spirit:0 "Military Occupation"
+WEI_divided_country_desc:0 "gg"
+
+### Traits ###
+
+### Opinion Modifiers ###
+
+### Focus ###
+WEI_example_focus:0 "Example Focus"
+WEI_example_focus_desc:0 "This is an example focus."
+
+### National Spirits ###
+WEI_military_occupation:0 "Military Occupation"
+WEI_military_occupation_desc:0 "With the collapse of the German state and the rise of communism, France established a harsh military occupation to keep communism at bay, leaving us Germans in a despotic situation."
+
+### Leader Descriptions ###
+
+### Events ###
+
+wei.1.t:0 "Example Title"
+wei.1.d:0 "Example Description"
+wei.1.a:0 "Example Choice 1"
+wei.1.b:0 "Example Choice 2"
+wei.1.c:0 "Example Choice 3"

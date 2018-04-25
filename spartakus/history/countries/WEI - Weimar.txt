@@ -16,8 +16,8 @@ set_technology = {
 
 set_research_slots = 3
 set_convoys = 25
-set_stability = 0.65
-set_war_support = 0.3
+set_stability = 0.25
+set_war_support = 0.30
 
 set_politics = {
 
@@ -60,7 +60,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = social_conservative
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -68,11 +68,20 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Otto Wells"
-	desc = "POLITICS_OTTO_WELLS_DESC"
+	name = "André François-Poncet"
+	desc = "POLITICS_ANDRE_FRANCOIS_PONCET_DESC"
 	picture = "Portrait_Otto_Wells.tga"
 	expire = "1965.1.1"
-	ideology = social_democrat_subtype
+	ideology = social_conservative_subtype
 	traits = {
 	}
 }
+
+add_ideas = {
+	closed_economy
+	disarmed_nation
+	low_popularity
+	low_stability
+	wei_military_occupation
+}
+

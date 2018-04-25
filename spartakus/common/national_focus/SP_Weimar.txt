@@ -1,0 +1,1190 @@
+###########################
+# Baltic Duchy Focus Tree
+# By Anboy
+###########################
+
+###Economical Foci###
+
+shared_focus = {
+		id = LIV_ERP
+		icon = GFX_goal_generic_production
+		available = { has_country_flag = LIV_economy }
+		x = 10
+		y = 0
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_ERP_Gov1
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = LIV_ERP }
+		mutually_exclusive = { focus = LIV_ERP_FM1 }
+		x = -1
+		y = 1
+		relative_position_id = LIV_ERP
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+
+			random_owned_state = {
+
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_ERP_Gov2
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = LIV_ERP_Gov1 }
+		x = -2
+		y = 2
+		relative_position_id = LIV_ERP
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+
+			random_owned_state = {
+
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			random_owned_state = {
+
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_ERP_Gov3
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = LIV_ERP_Gov2 }
+		x = -2
+		y = 3
+		relative_position_id = LIV_ERP
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_ideas = LIV_gov_goods
+			add_political_power = 50
+		}
+	}
+
+shared_focus = {
+		id = LIV_ERP_Gov4
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = LIV_ERP_Gov3 }
+		x = -2
+		y = 4
+		relative_position_id = LIV_ERP
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_ideas = LIV_heavy_industry
+			add_political_power = 50
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+
+shared_focus = {
+		id = LIV_Eco_Naval1
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = { focus = LIV_ERP_Gov1 focus = LIV_ERP_FM1 }
+		x = 0
+		y = 2
+		relative_position_id = LIV_ERP
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			random_owned_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Eco_Naval2
+		icon = GFX_BAT_trade
+		prerequisite = { focus = LIV_Eco_Naval1 }
+		x = 0
+		y = 3
+		relative_position_id = LIV_ERP
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+
+			random_owned_state = {
+
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 1
+							include_locked = yes
+						}
+					}
+
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Eco_Naval3
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = { focus = LIV_Eco_Naval2 }
+		x = 0
+		y = 4
+		relative_position_id = LIV_ERP
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+
+			random_owned_state = {
+
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 1
+							include_locked = yes
+						}
+					}
+
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_ERP_FM1
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = LIV_ERP }
+		mutually_exclusive = { focus = LIV_ERP_Gov1 }
+		x = 1
+		y = 1
+		relative_position_id = LIV_ERP
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+
+			random_owned_state = {
+
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_ERP_FM2
+		icon = GFX_focus_research
+		prerequisite = { focus = LIV_ERP_FM1 }
+		x = 2
+		y = 2
+		relative_position_id = LIV_ERP
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_ideas = LIV_scientists
+		}
+	}
+
+
+shared_focus = {
+		id = LIV_ERP_FM3
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = LIV_ERP_FM2 }
+		x = 2
+		y = 3
+		relative_position_id = LIV_ERP
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_ideas = LIV_gov_goods
+			add_political_power = 100
+		}
+	}
+
+shared_focus = {
+		id = LIV_ERP_FM4
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = { focus = LIV_ERP_FM3 }
+		x = 2
+		y = 4
+		relative_position_id = LIV_ERP
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_ideas = LIV_pol
+		}
+	}
+
+shared_focus = {
+		id = LIV_ERP_End
+		icon = GFX_goal_generic_production2
+		prerequisite = { focus = LIV_ERP_FM4 focus = LIV_ERP_Gov4 }
+		prerequisite = { focus = LIV_Eco_Naval3 }
+		x = 0
+		y = 5
+		relative_position_id = LIV_ERP
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			remove_ideas = LIV_Black_Monday
+		}
+	}
+
+###Army###
+
+shared_focus = {
+		id = LIV_Army_Start
+		icon = GFX_BAT_conscript
+		x = 26
+		y = 0
+		cost = 3
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.3
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Cons_Reform
+		icon = GFX_BAT_army
+		prerequisite = { focus = LIV_Army_Start }
+		available = { has_country_flag = LIV_progerman }
+		x = -8
+		y = 1
+		relative_position_id = LIV_Army_Start
+		cost = 1
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			LIV = {	country_event = { id = balticduchy.50 days = 2 } }
+		}
+	}
+
+shared_focus = {
+		id = LIV_Cons_Reform2
+		icon = GFX_focus_generic_little_entente
+		prerequisite = { focus = LIV_Army_Start }
+		available = { has_country_flag = LIV_fed }
+		x = 2
+		y = 1
+		relative_position_id = LIV_Army_Start
+		cost = 15
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			remove_ideas = LIV_start_crisis
+		}
+	}
+
+shared_focus = {
+		id = LIV_German_Army
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_Cons_Reform }
+		x = -2
+		y = 1
+		relative_position_id = LIV_Cons_Reform
+		mutually_exclusive = { focus = LIV_Mixed_Army focus = LIV_Baltic_Army }
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.3
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+	}
+	
+shared_focus = {
+		id = LIV_German_Army_2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_German_Army }
+		x = -2
+		y = 2
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_German_Army_3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_German_Army_2 }
+		x = -2
+		y = 3
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_German_Army_4
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_German_Army_3 }
+		x = -2
+		y = 4
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+shared_focus = {
+		id = LIV_Mixed_Army
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_Cons_Reform }
+		mutually_exclusive = { focus = LIV_German_Army focus = LIV_Baltic_Army }
+		x = 0
+		y = 1
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			army_experience = 5
+			add_ideas = LIV_drill
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Mixed_Army_2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_Mixed_Army }
+		x = 0
+		y = 2
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Mixed_Army_3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_Mixed_Army_2 }
+		x = 0
+		y = 3
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Mixed_Army_4
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_Mixed_Army_3 }
+		x = 0
+		y = 4
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Baltic_Army
+		icon = GFX_goal_generic_small_arms
+		mutually_exclusive = { focus = LIV_Mixed_Army focus = LIV_German_Army }
+		prerequisite = { focus = LIV_Cons_Reform }
+		x = 2
+		y = 1
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			army_experience = 5
+			add_ideas = LIV_drill
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Baltic_Army_2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_Baltic_Army }
+		x = 2
+		y = 1
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_Doc1
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = LIV_Cons_Reform focus = LIV_Cons_Reform2 }
+		x = 0
+		y = 2
+		relative_position_id = LIV_Army_Start
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_Doc2
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = LIV_Army_Doc1 }
+		x = 0
+		y = 3
+		relative_position_id = LIV_Army_Start
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_Mot
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = LIV_Army_Doc2 }
+		x = 0
+		y = 4
+		relative_position_id = LIV_Army_Start
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.5
+				technology = motorised_infantry
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_Arm
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = LIV_Army_Mot }
+		x = 0
+		y = 5
+		relative_position_id = LIV_Army_Start
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 2
+				category = armor
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_Def1
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = LIV_Cons_Reform focus = LIV_Cons_Reform2 }
+		x = 3
+		y = 2
+		relative_position_id = LIV_Army_Start
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 1
+				category = artillery
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_Fort1
+		icon = GFX_BAT_ostwall
+		prerequisite = { focus = LIV_Army_Def1 }
+		x = 3
+		y = 3
+		relative_position_id = LIV_Army_Start
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			add_ideas = LIV_fort
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_Fort2
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = LIV_Army_Fort1 }
+		x = 3
+		y = 4
+		relative_position_id = LIV_Army_Start
+		cost = 3
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			add_political_power = -75
+			LIV = { country_event = { id = balticduchy.120 days = 1 } }
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_FortGer
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = LIV_Army_Fort2 }
+		available = { has_country_flag = LIV_progerman }
+		mutually_exclusive = { focus = LIV_Army_FortBal }
+		x = 2
+		y = 5
+		relative_position_id = LIV_Army_Start
+		cost = 3
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			add_stability = -0.05
+			LIV = { country_event = { id = balticduchy.121 days = 1 } }
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_FortBal
+		icon = GFX_goal_generic_consumer_goods
+		available = { has_country_flag = LIV_fed }
+		prerequisite = { focus = LIV_Army_Fort2 }
+		mutually_exclusive = { focus = LIV_Army_FortGer }
+		x = 4
+		y = 5
+		relative_position_id = LIV_Army_Start
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			LIV = { country_event = { id = balticduchy.121 days = 1 } }
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_FortComplete
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = LIV_Army_FortGer focus = LIV_Army_FortBal }
+		x = 3
+		y = 6
+		relative_position_id = LIV_Army_Start
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			LIV = { country_event = { id = balticduchy.122 days = 1 } }
+		}
+	}
+
+###Naval Foci###
+
+shared_focus = {
+		id = LIV_Army_Mil_Navy1
+		icon = GFX_BAT_navy
+		x = 34
+		y = 0
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+
+			random_owned_state = {
+
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 1
+							include_locked = yes
+						}
+					}
+
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+			}
+
+			random_owned_state = {
+
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 1
+							include_locked = yes
+						}
+					}
+
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_Mil_Navy_Old
+		icon = GFX_goal_generic_navy_battleship
+		prerequisite = { focus = LIV_Army_Mil_Navy1 }
+		mutually_exclusive = { focus = LIV_Army_Mil_Navy_New }
+		x = -2
+		y = 1
+		relative_position_id = LIV_Army_Mil_Navy1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = battleship_bonus
+				bonus = 0.5
+				uses = 1
+				category = bc_tech
+						category = bb_tech
+				category = shbb_tech
+			}
+			add_tech_bonus = {
+				name = destroyer_bonus
+				bonus = 0.5
+				uses = 1
+				category = dd_tech
+			}
+		}
+}
+
+shared_focus = {
+		id = LIV_Army_Mil_Navy_New
+		icon = GFX_goal_generic_navy_submarine
+		prerequisite = { focus = LIV_Army_Mil_Navy1 }
+		mutually_exclusive = { focus = LIV_Army_Mil_Navy_Old }
+		x = 2
+		y = 1
+		relative_position_id = LIV_Army_Mil_Navy1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+				add_tech_bonus = {
+				name = GER_u_boat_effort
+				bonus = 0.5
+				uses = 1
+				technology = early_submarine
+				technology = basic_submarine
+				technology = improved_submarine
+				technology = advanced_submarine
+				}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_Mil_Navy_Doc
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = { focus = LIV_Army_Mil_Navy_Old focus = LIV_Army_Mil_Navy_New }
+		x = 0
+		y = 2
+		relative_position_id = LIV_Army_Mil_Navy1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = naval_doctrine_bonus
+				bonus = 0.5
+				uses = 1
+					category = naval_doctrine
+			}
+		}
+}
+
+shared_focus = {
+		id = LIV_Army_Mil_Navy_Transport
+		icon = GFX_goal_generic_wolf_pack
+		prerequisite = { focus = LIV_Army_Mil_Navy_Doc }
+		x = 0
+		y = 3
+		relative_position_id = LIV_Army_Mil_Navy1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_doctrine_bonus
+				bonus = 0.5
+				uses = 1
+				category = tp_tech
+			}
+			add_tech_bonus = {
+				name = naval_doctrine_bonus
+				bonus = 0.5
+				uses = 1
+				category = marine_tech
+			}
+		}
+	}
+
+###Air Foci###
+
+shared_focus = {
+		id = LIV_Air1
+		icon = GFX_BAT_air
+
+		x = 34
+		y = 4
+		cost = 8.6
+		ai_will_do = {
+			factor = 25
+		}
+
+		completion_reward = {
+			random_owned_state = {
+					add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+					}
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Air_CAS
+		icon = GFX_goal_generic_CAS
+		prerequisite = { focus = LIV_Air1 }
+		x = -2
+		y = 1
+		relative_position_id = LIV_Air1
+		cost = 8.6
+		ai_will_do = {
+			factor = 25
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Air_Fighter
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = LIV_Air1 }
+		x = 0
+		y = 1
+		relative_position_id = LIV_Air1
+		cost = 8.6
+		ai_will_do = {
+			factor = 25
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 2
+				technology = early_fighter
+				technology = fighter1
+				technology = fighter2
+				technology = fighter3
+				technology = heavy_fighter1
+				technology = heavy_fighter2
+				technology = heavy_fighter3
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Air_Nav_Bomber
+		icon = GFX_goal_generic_air_naval_bomber
+		prerequisite = { focus = LIV_Air1 }
+		x = 2
+		y = 1
+		relative_position_id = LIV_Air1
+		cost = 8.6
+		ai_will_do = {
+			factor = 25
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = naval_bomber
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Air_Doc
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = LIV_Air_CAS focus = LIV_Air_Fighter focus = LIV_Air_Nav_Bomber }
+		x = 0
+		y = 2
+		relative_position_id = LIV_Air1
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Air_End
+		icon = GFX_goal_generic_air_production
+		prerequisite = { focus = LIV_Air_Doc }
+		x = 0
+		y = 3
+		relative_position_id = LIV_Air1
+		cost = 8.6
+		ai_will_do = {
+			factor = 25
+		}
+
+		completion_reward = {
+			random_owned_state = {
+					add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+					}
+			}
+			random_owned_state = {
+					add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+					}
+			}
+		}
+	}
+
+	shared_focus = {
+		id = LIV_Duchy_Restoration
+		icon = GFX_BAT_germanisation
+		mutually_exclusive = { focus = LIV_Duchy_Organization }
+		available = { has_country_flag = LIV_future }
+		bypass = { has_country_flag = LIV_future }
+		x = 6
+		y = 0
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = LIV_duchy_restoration_tt
+		}
+	}
+
+	shared_focus = {
+		id = LIV_Duchy_Kaiser
+		icon = GFX_BAT_germanisation
+		prerequisite = { focus = LIV_Duchy_Restoration }
+		available = { has_country_flag = LIV_kaiser }
+		x = 2
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+
+	shared_focus = {
+		id = LIV_Duchy_Organization
+		icon = GFX_BAT_emancipation
+		mutually_exclusive = { focus = LIV_Duchy_Kaiser }
+		prerequisite = { focus = LIV_Duchy_Restoration }
+		available = { has_country_flag = LIV_politic }
+		x = 10
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+		country_event = { id = liv.2 }
+		}
+	}
+}
