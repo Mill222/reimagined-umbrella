@@ -55,7 +55,7 @@ set_politics = {
 	}
 	
 	ruling_party = authoritarian_democrat
-	last_election = "1930.1.1"
+	last_election = "1916.6.10"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -67,8 +67,19 @@ add_ideas = {
 create_country_leader = {
 	name = "Ali bin Al-Hussein"
 	desc = ""
-	picture = "Portrait_Persian_Gulf_Residency.dds"
-	expire = "1965.1.1"
+	picture = "Ali_bin_Hussein.dds"
+	expire = "1935.2.13"
+	ideology = authoritarian_democrat
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Abd ul-Ilah bin Ali"
+	desc = ""
+	picture = "Ali_bin_Hussein.dds"
+	expire = "1958.7.14"
 	ideology = authoritarian_democrat
 	traits = {
 		#
