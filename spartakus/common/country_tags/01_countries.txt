@@ -72,4 +72,4 @@ KUW = "countries/KUW - Kuwait.txt"
 ADE = "countries/ADE - Aden.txt"
 SLE = "countries/SLE - Sierra Leone.txt"
 SPA = "countries/SPA - Nationalist Spain.txt"
-HEJ = "countries/HEJ - Hejaz
+HEJ = "countries/HEJ - Hejaz.txt"
