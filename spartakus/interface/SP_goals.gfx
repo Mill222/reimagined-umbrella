@@ -86,4 +86,39 @@ spriteTypes = {
 		name = "GFX_focus_WUR_dkp"
 		texturefile = "gfx/interface/goals/focus_WUR_dkp.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_LIV_GER_diplomacy"
+		texturefile = "gfx/interface/goals/LIV_GER_diplomacy.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LIV_Duchy_GER_diplomacy"
+		texturefile = "gfx/interface/goals/LIV_Duchy_GER_diplomacy.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LIV_defense"
+		texturefile = "gfx/interface/goals/LIV_defense.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LIV_teuton_restoration"
+		texturefile = "gfx/interface/goals/LIV_teuton_restoration.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LIV_german_conscription"
+		texturefile = "gfx/interface/goals/LIV_german_conscription.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LIV_mixed_conscription"
+		texturefile = "gfx/interface/goals/LIV_mixed_conscription.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LIV_baltic_conscription"
+		texturefile = "gfx/interface/goals/LIV_baltic_conscription.dds"
+	}
 }

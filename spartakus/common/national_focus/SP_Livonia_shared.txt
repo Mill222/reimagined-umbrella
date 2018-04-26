@@ -392,8 +392,8 @@ shared_focus = {
 
 shared_focus = {
 		id = LIV_Army_Start
-		icon = GFX_BAT_conscript
-		x = 26
+		icon = GFX_LIV_defense
+		x = 23
 		y = 0
 		cost = 3
 		ai_will_do = {
@@ -416,7 +416,7 @@ shared_focus = {
 		icon = GFX_BAT_army
 		prerequisite = { focus = LIV_Army_Start }
 		available = { has_country_flag = LIV_progerman }
-		x = -8
+		x = -4
 		y = 1
 		relative_position_id = LIV_Army_Start
 		cost = 1
@@ -434,7 +434,7 @@ shared_focus = {
 		icon = GFX_focus_generic_little_entente
 		prerequisite = { focus = LIV_Army_Start }
 		available = { has_country_flag = LIV_fed }
-		x = 2
+		x = 5
 		y = 1
 		relative_position_id = LIV_Army_Start
 		cost = 15
@@ -449,7 +449,7 @@ shared_focus = {
 
 shared_focus = {
 		id = LIV_German_Army
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_LIV_german_conscription
 		prerequisite = { focus = LIV_Cons_Reform }
 		x = -2
 		y = 1
@@ -520,7 +520,7 @@ shared_focus = {
 	}
 shared_focus = {
 		id = LIV_Mixed_Army
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_LIV_mixed_conscription
 		prerequisite = { focus = LIV_Cons_Reform }
 		mutually_exclusive = { focus = LIV_German_Army focus = LIV_Baltic_Army }
 		x = 0
@@ -587,7 +587,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Baltic_Army
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_LIV_baltic_conscription
 		mutually_exclusive = { focus = LIV_Mixed_Army focus = LIV_German_Army }
 		prerequisite = { focus = LIV_Cons_Reform }
 		x = 2
@@ -609,7 +609,39 @@ shared_focus = {
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = LIV_Baltic_Army }
 		x = 2
-		y = 1
+		y = 2
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Baltic_Army_3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_Baltic_Army_2 }
+		x = 2
+		y = 3
+		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Baltic_Army_4
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = LIV_Baltic_Army_3 }
+		x = 2
+		y = 4
 		relative_position_id = LIV_Cons_Reform
 		cost = 8.6
 		ai_will_do = {
@@ -624,7 +656,7 @@ shared_focus = {
 		id = LIV_Army_Doc1
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = LIV_Cons_Reform focus = LIV_Cons_Reform2 }
-		x = 0
+		x = 4
 		y = 2
 		relative_position_id = LIV_Army_Start
 		cost = 8.6
@@ -648,8 +680,8 @@ shared_focus = {
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = LIV_Army_Doc1 }
 		x = 0
-		y = 3
-		relative_position_id = LIV_Army_Start
+		y = 1
+		relative_position_id = LIV_Army_Doc1
 		cost = 8.6
 		ai_will_do = {
 			factor = 50
@@ -671,8 +703,8 @@ shared_focus = {
 		icon = GFX_goal_generic_army_motorized
 		prerequisite = { focus = LIV_Army_Doc2 }
 		x = 0
-		y = 4
-		relative_position_id = LIV_Army_Start
+		y = 2
+		relative_position_id = LIV_Army_Doc1
 		cost = 8.6
 		ai_will_do = {
 			factor = 50
@@ -693,8 +725,8 @@ shared_focus = {
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = LIV_Army_Mot }
 		x = 0
-		y = 5
-		relative_position_id = LIV_Army_Start
+		y = 3
+		relative_position_id = LIV_Army_Doc1
 		cost = 8.6
 		ai_will_do = {
 			factor = 50
@@ -712,10 +744,10 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Army_Def1
-		icon = GFX_goal_generic_army_artillery2
+		id = LIV_Prepare_War
+		icon = GFX_goal_army_guy_2
 		prerequisite = { focus = LIV_Cons_Reform focus = LIV_Cons_Reform2 }
-		x = 3
+		x = 1
 		y = 2
 		relative_position_id = LIV_Army_Start
 		cost = 8.6
@@ -735,12 +767,12 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Army_Fort1
-		icon = GFX_BAT_ostwall
-		prerequisite = { focus = LIV_Army_Def1 }
-		x = 3
-		y = 3
-		relative_position_id = LIV_Army_Start
+		id = LIV_Fortress_Livland
+		icon = GFX_goal_skull_fortification
+		prerequisite = { focus = LIV_Prepare_War }
+		x = 0
+		y = 1
+		relative_position_id = LIV_Prepare_War
 		cost = 8.6
 		ai_will_do = {
 			factor = 50
@@ -752,12 +784,12 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Army_Fort2
-		icon = GFX_goal_generic_fortify_city
-		prerequisite = { focus = LIV_Army_Fort1 }
-		x = 3
-		y = 4
-		relative_position_id = LIV_Army_Start
+		id = LIV_Arm_Peasants
+		icon = GFX_goal_conspiracy
+		prerequisite = { focus = LIV_Fortress_Livland }
+		x = 0
+		y = 2
+		relative_position_id = LIV_Prepare_War
 		cost = 3
 		ai_will_do = {
 			factor = 50
@@ -770,14 +802,14 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Army_FortGer
-		icon = GFX_goal_generic_political_pressure
-		prerequisite = { focus = LIV_Army_Fort2 }
+		id = LIV_LIV_Pacify_East
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = LIV_Arm_Peasants }
 		available = { has_country_flag = LIV_progerman }
 		mutually_exclusive = { focus = LIV_Army_FortBal }
-		x = 2
-		y = 5
-		relative_position_id = LIV_Army_Start
+		x = 0
+		y = 3
+		relative_position_id = LIV_Prepare_War
 		cost = 3
 		ai_will_do = {
 			factor = 50
@@ -786,42 +818,6 @@ shared_focus = {
 		completion_reward = {
 			add_stability = -0.05
 			LIV = { country_event = { id = balticduchy.121 days = 1 } }
-		}
-	}
-
-shared_focus = {
-		id = LIV_Army_FortBal
-		icon = GFX_goal_generic_consumer_goods
-		available = { has_country_flag = LIV_fed }
-		prerequisite = { focus = LIV_Army_Fort2 }
-		mutually_exclusive = { focus = LIV_Army_FortGer }
-		x = 4
-		y = 5
-		relative_position_id = LIV_Army_Start
-		cost = 8.6
-		ai_will_do = {
-			factor = 50
-		}
-
-		completion_reward = {
-			LIV = { country_event = { id = balticduchy.121 days = 1 } }
-		}
-	}
-
-shared_focus = {
-		id = LIV_Army_FortComplete
-		icon = GFX_goal_generic_fortify_city
-		prerequisite = { focus = LIV_Army_FortGer focus = LIV_Army_FortBal }
-		x = 3
-		y = 6
-		relative_position_id = LIV_Army_Start
-		cost = 8.6
-		ai_will_do = {
-			factor = 50
-		}
-
-		completion_reward = {
-			LIV = { country_event = { id = balticduchy.122 days = 1 } }
 		}
 	}
 

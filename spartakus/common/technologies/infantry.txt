@@ -1,27 +1,27 @@
-#####-----------------------------------------------------------> Mod by Sig "Greatexperiment" Altre
+	#####-----------------------------------------------------------> Mod by Sig "Greatexperiment" Altre
 
 technologies = {
 	
 	@1918 = 0
-	@1936 = 2
-	@1938 = 4
-	@1939 = 6
-	@1940 = 8
-	@1941 = 10
-	@1942 = 12
-	@1943 = 14
-	@1944 = 16
-	@1945 = 18
-	@1946 = 20
-	@1947 = 22
-	@1948 = 24
-	@1949 = 26
-	@1950 = 28
-	@1951 = 30
-	@1952 = 32
-	@1953 = 34
-	@1954 = 36
-	@1955 = 38
+	@1932 = 2
+	@1933 = 4
+	@1934 = 6
+	@1935 = 8
+	@1936 = 10
+	@1937 = 12
+	@1938 = 14
+	@1939 = 16
+	@1940 = 18
+	@1941 = 20
+	@1942 = 22
+	@1943 = 24
+	@1944 = 26
+	@1945 = 28
+	@1946 = 30
+	@1947 = 32
+	@1948 = 34
+	@1949 = 36
+	@1950 = 38
 
 	infantry_weapons = {
 
@@ -66,10 +66,10 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1932
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1936 }
+			position = { x = 0 y = @1932 }
 		}
 		
 		categories = {
@@ -120,10 +120,10 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1933
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1938 }
+			position = { x = 0 y = @1933 }
 		}
 		
 		categories = {
@@ -156,10 +156,10 @@ technologies = {
 		}		
 
 		research_cost = 2
-		start_year = 1939
+		start_year = 1934
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1939 }
+			position = { x = 0 y = @1934 }
 		}
 		
 		categories = {
@@ -199,10 +199,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1935
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1940 }
+			position = { x = 0 y = @1935 }
 		}
 		
 		categories = {
@@ -242,10 +242,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 1937
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1942 }
+			position = { x = 2 y = @1937 }
 		}
 		
 		categories = {
@@ -286,10 +286,10 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1943
+		start_year = 1933
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1944 }
+			position = { x = 2 y = @1939 }
 		}
 		
 		categories = {
@@ -330,10 +330,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1942
+		start_year = 1937
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1942 }
+			position = { x = 0 y = @1937 }
 		}
 		
 		categories = {
@@ -385,10 +385,10 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 1939
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1944 }
+			position = { x = 0 y = @1939 }
 		}
 		
 		categories = {
@@ -429,10 +429,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1932
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1936 }
+			position = { x = 0 y = @1932 }
 		}
 		
 		on_research_complete = {
@@ -484,10 +484,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1934
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1939 }
+			position = { x = 0 y = @1934 }
 		}
 		
 		categories = {
@@ -528,10 +528,10 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1937
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1942 }
+			position = { x = 0 y = @1937 }
 		}
 		
 		categories = {
@@ -582,10 +582,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1932
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1936 }
+			position = { x = 0 y = @1932 }
 		}
 		
 		categories = {
@@ -620,10 +620,10 @@ technologies = {
 		
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1934
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1939 }
+			position = { x = 0 y = @1934 }
 		}
 		
 		categories = {
@@ -659,10 +659,10 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1937
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1942 }
+			position = { x = 0 y = @1937 }
 		}
 		
 		categories = {
@@ -709,10 +709,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1932
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1936 }
+			position = { x = 0 y = @1932 }
 		}
 		
 		categories = {
@@ -738,10 +738,10 @@ technologies = {
 
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1934
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1939 }
+			position = { x = 0 y = @1934 }
 		}
 		
 		categories = {
@@ -768,10 +768,10 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1937
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1942 }
+			position = { x = 0 y = @1937 }
 		}
 		
 		categories = {
@@ -805,10 +805,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1938
+		start_year = 1933
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1938 }
+			position = { x = 1 y = @1933 }
 		}
 		
 		categories = {
@@ -842,10 +842,10 @@ technologies = {
 
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1935
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1940 }
+			position = { x = 0 y = @1935 }
 		}
 		
 		categories = {
@@ -873,10 +873,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1935
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1940 }
+			position = { x = 2 y = @1935 }
 		}
 		
 		categories = {
@@ -906,10 +906,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1943
+		start_year = 1933
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1943 }
+			position = { x = 0 y = @1938 }
 		}
 		
 		categories = {
@@ -943,10 +943,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1943
+		start_year = 1933
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1943 }
+			position = { x = 2 y = @1938 }
 		}
 		
 		categories = {
@@ -976,10 +976,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1946
+		start_year = 1941
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1946 }
+			position = { x = 1 y = @1941 }
 		}
 		
 		categories = {
@@ -1009,10 +1009,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1950
+		start_year = 1945
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1950 }
+			position = { x = 1 y = @1945 }
 		}
 		
 		categories = {
@@ -1037,10 +1037,10 @@ technologies = {
 		special_forces_no_supply_grace = 24
 
 		research_cost = 2
-		start_year = 1954
+		start_year = 1949
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1954 }
+			position = { x = 1 y = @1949 }
 		}
 		
 		categories = {
@@ -1128,10 +1128,10 @@ jungle_warfare = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1944
+		start_year = 1939
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1944 }
+			position = { x = 0 y = @1939 }
 		}
 		
 		categories = {
@@ -1174,10 +1174,10 @@ jungle_warfare = {
 		}
 		
 		research_cost = 2
-		start_year = 1948
+		start_year = 1943
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1948 }
+			position = { x = 0 y = @1943 }
 		}
 		
 		categories = {
@@ -1354,10 +1354,10 @@ jungle_warfare = {
 		}
 
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1933
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1938 }
+			position = { x = 0 y = @1933 }
 		}
 		
 		categories = {
@@ -1450,10 +1450,10 @@ jungle_warfare = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1940
+		start_year = 1935
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1940 }
+			position = { x = 0 y = @1935 }
 		}
 		
 		categories = {
@@ -1546,10 +1546,10 @@ jungle_warfare = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 1937
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1942 }
+			position = { x = 0 y = @1937 }
 		}
 		
 		categories = {
@@ -1609,10 +1609,10 @@ jungle_warfare = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1932
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1936 }
+			position = { x = 0 y = @1932 }
 		}
 		
 		folder = {
@@ -1658,7 +1658,7 @@ jungle_warfare = {
 		}
 	
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1934
 		
 		ai_will_do = {
 			factor = 1
@@ -1689,10 +1689,10 @@ jungle_warfare = {
 		}
 
 		research_cost = 2
-		start_year = 1941
+		start_year = 1936
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1941 }
+			position = { x = 0 y = @1936 }
 		}
 		
 		categories = {
@@ -1718,10 +1718,10 @@ jungle_warfare = {
 		}
 
 		research_cost = 2
-		start_year = 1943
+		start_year = 1933
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1943 }
+			position = { x = 0 y = @1938 }
 		}
 		
 		categories = {
@@ -1754,10 +1754,10 @@ jungle_warfare = {
 		}
 
 		research_cost = 3
-		start_year = 1945
+		start_year = 1940
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1945 }
+			position = { x = 0 y = @1940 }
 		}
 		
 		categories = {
@@ -1790,10 +1790,10 @@ jungle_warfare = {
 		}
 
 		research_cost = 3
-		start_year = 1949
+		start_year = 1944
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1949 }
+			position = { x = 0 y = @1944 }
 		}
 		
 		categories = {
@@ -1819,10 +1819,10 @@ jungle_warfare = {
 		}
 
 		research_cost = 3
-		start_year = 1953
+		start_year = 1948
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1953 }
+			position = { x = 0 y = @1948 }
 		}
 		
 		categories = {
@@ -1863,10 +1863,10 @@ jungle_warfare = {
 		}	
 
 		research_cost = 1.5
-		start_year = 1946
+		start_year = 1941
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1946 }
+			position = { x = 0 y = @1941 }
 		}
 		
 		categories = {
@@ -1890,10 +1890,10 @@ jungle_warfare = {
 		}	
 
 		research_cost = 1.5
-		start_year = 1948
+		start_year = 1943
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1948 }
+			position = { x = 0 y = @1943 }
 		}
 		
 		categories = {
@@ -1927,10 +1927,10 @@ jungle_warfare = {
 		}	
 
 		research_cost = 1.5
-		start_year = 1950
+		start_year = 1945
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1950 }
+			position = { x = 0 y = @1945 }
 		}
 		
 		categories = {
@@ -1964,10 +1964,10 @@ jungle_warfare = {
 		}	
 
 		research_cost = 1.5
-		start_year = 1952
+		start_year = 1947
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1952 }
+			position = { x = 0 y = @1947 }
 		}
 		
 		categories = {
@@ -1986,10 +1986,10 @@ jungle_warfare = {
 		}	
 
 		research_cost = 1.5
-		start_year = 1954
+		start_year = 1949
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1954 }
+			position = { x = 0 y = @1949 }
 		}
 		
 		categories = {
@@ -2016,10 +2016,10 @@ jungle_warfare = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1947
+		start_year = 1942
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1947 }
+			position = { x = 2 y = @1942 }
 		}
 		
 		categories = {
@@ -2044,10 +2044,10 @@ jungle_warfare = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1950
+		start_year = 1945
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1950 }
+			position = { x = 2 y = @1945 }
 		}
 		
 		categories = {
@@ -2067,10 +2067,10 @@ jungle_warfare = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1953
+		start_year = 1948
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1953 }
+			position = { x = 2 y = @1948 }
 		}
 		
 		categories = {
@@ -2098,10 +2098,10 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1940
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1945 }
+			position = { x = 0 y = @1940 }
 		}
 		
 		categories = {
@@ -2126,10 +2126,10 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1949
+		start_year = 1944
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1949 }
+			position = { x = 0 y = @1944 }
 		}
 		
 		categories = {
@@ -2148,10 +2148,10 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1953
+		start_year = 1948
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1953 }
+			position = { x = 0 y = @1948 }
 		}
 		
 		categories = {
@@ -2179,10 +2179,10 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1940
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1945 }
+			position = { x = 0 y = @1940 }
 		}
 		
 		categories = {
@@ -2202,10 +2202,10 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1949
+		start_year = 1944
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1949 }
+			position = { x = 0 y = @1944 }
 		}
 		
 		categories = {
@@ -2220,10 +2220,10 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1953
+		start_year = 1948
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1953 }
+			position = { x = 0 y = @1948 }
 		}
 		
 		categories = {
@@ -2248,10 +2248,10 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1940
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1945 }
+			position = { x = 0 y = @1940 }
 		}
 		
 		categories = {
@@ -2276,10 +2276,10 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1949
+		start_year = 1944
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1949 }
+			position = { x = 0 y = @1944 }
 		}
 	
 		categories = {
@@ -2299,10 +2299,10 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1953
+		start_year = 1948
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1953 }
+			position = { x = 0 y = @1948 }
 		}
 		
 		categories = {
@@ -2341,10 +2341,10 @@ jaegers = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1932
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1936 }
+			position = { x = 0 y = @1932 }
 		}
 		
 		categories = {
@@ -2370,10 +2370,10 @@ jaegers = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1934
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1939 }
+			position = { x = 0 y = @1934 }
 		}
 		
 		categories = {
@@ -2394,10 +2394,10 @@ jaegers = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1937
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1942 }
+			position = { x = 0 y = @1937 }
 		}
 		
 		categories = {
@@ -2418,10 +2418,10 @@ jaegers = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1940
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1945 }
+			position = { x = 0 y = @1940 }
 		}
 		
 		categories = {
@@ -2442,10 +2442,10 @@ jaegers = {
 		}
 
 		research_cost = 2.0
-		start_year = 1949
+		start_year = 1944
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1949 }
+			position = { x = 0 y = @1944 }
 		}
 		
 		categories = {
@@ -2462,10 +2462,10 @@ jaegers = {
 		}
 
 		research_cost = 2.0
-		start_year = 1953
+		start_year = 1948
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1953 }
+			position = { x = 0 y = @1948 }
 		}
 		
 		categories = {
@@ -2502,10 +2502,10 @@ jaegers = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1932
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1936 }
+			position = { x = 0 y = @1932 }
 		}
 		
 		categories = {
@@ -2531,10 +2531,10 @@ jaegers = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1934
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1939 }
+			position = { x = 0 y = @1934 }
 		}
 		
 		categories = {
@@ -2556,10 +2556,10 @@ jaegers = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1937
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1942 }
+			position = { x = 0 y = @1937 }
 		}
 		
 		categories = {
@@ -2580,10 +2580,10 @@ jaegers = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1940
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1945 }
+			position = { x = 0 y = @1940 }
 		}
 		
 		categories = {
@@ -2604,10 +2604,10 @@ jaegers = {
 		}
 
 		research_cost = 2.0
-		start_year = 1949
+		start_year = 1944
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1949}
+			position = { x = 0 y = @1944}
 		}
 		
 		categories = {
@@ -2622,10 +2622,10 @@ jaegers = {
 		}
 
 		research_cost = 2.0
-		start_year = 1953
+		start_year = 1948
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1953 }
+			position = { x = 0 y = @1948 }
 		}
 		
 		categories = {
@@ -2657,10 +2657,10 @@ jaegers = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1932
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1936 }
+			position = { x = 0 y = @1932 }
 		}
 		
 		categories = {
@@ -2686,10 +2686,10 @@ jaegers = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1934
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1939 }
+			position = { x = 0 y = @1934 }
 		}
 		
 		categories = {
@@ -2710,10 +2710,10 @@ jaegers = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1937
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1942 }
+			position = { x = 0 y = @1937 }
 		}
 		
 		categories = {
@@ -2733,10 +2733,10 @@ jaegers = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1940
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1945 }
+			position = { x = 0 y = @1940 }
 		}
 		
 		categories = {
@@ -2756,10 +2756,10 @@ jaegers = {
 		}
 
 		research_cost = 2.0
-		start_year = 1949
+		start_year = 1944
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1949 }
+			position = { x = 0 y = @1944 }
 		}
 		
 		categories = {
@@ -2774,10 +2774,10 @@ jaegers = {
 		}
 
 		research_cost = 2.0
-		start_year = 1953
+		start_year = 1948
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1953 }
+			position = { x = 0 y = @1948 }
 		}
 		
 		categories = {
@@ -2814,10 +2814,10 @@ jaegers = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1932
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1936 }
+			position = { x = 0 y = @1932 }
 		}
 		
 		categories = {
@@ -2842,10 +2842,10 @@ jaegers = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1934
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1939 }
+			position = { x = 0 y = @1934 }
 		}
 		
 		categories = {
@@ -2867,10 +2867,10 @@ jaegers = {
 		}
 		
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1937
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1942 }
+			position = { x = 0 y = @1937 }
 		}
 		
 		categories = {
@@ -2891,10 +2891,10 @@ jaegers = {
 		}
 		
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1940
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1945 }
+			position = { x = 0 y = @1940 }
 		}
 		
 		categories = {
@@ -2915,10 +2915,10 @@ jaegers = {
 		}
 		
 		research_cost = 2.0
-		start_year = 1949
+		start_year = 1944
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1949 }
+			position = { x = 0 y = @1944 }
 		}
 		
 		categories = {
@@ -2933,10 +2933,10 @@ jaegers = {
 		}
 		
 		research_cost = 2.0
-		start_year = 1953
+		start_year = 1948
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1953 }
+			position = { x = 0 y = @1948 }
 		}
 		
 		categories = {
@@ -3007,10 +3007,10 @@ jaegers = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1946
+		start_year = 1941
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1946 }
+			position = { x = 0 y = @1941 }
 		}
 		
 		categories = {
@@ -3081,10 +3081,10 @@ jaegers = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1950
+		start_year = 1945
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1950 }
+			position = { x = 0 y = @1945 }
 		}
 		
 		categories = {
@@ -3106,10 +3106,10 @@ jaegers = {
 		}
 
 		research_cost = 2
-		start_year = 1952
+		start_year = 1947
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1952 }
+			position = { x = 0 y = @1947 }
 		}
 		
 		categories = {
@@ -3175,10 +3175,10 @@ jaegers = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1954
+		start_year = 1949
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1954 }
+			position = { x = 0 y = @1949 }
 		}
 		
 		categories = {
@@ -3198,7 +3198,7 @@ jaegers = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1932
 
 		enable_subunits = {
 			bicycle_battalion

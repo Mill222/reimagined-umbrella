@@ -16,6 +16,9 @@ state={
 
 		}
 		add_core_of = GER
+		victory_points = {
+			6464 10 
+		}
 	}
 
 	provinces={

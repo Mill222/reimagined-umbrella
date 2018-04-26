@@ -13701,4 +13701,6 @@
 13700;29;51;113;land;false;jungle;3
 13701;86;142;65;land;false;jungle;3
 13702;40;18;245;land;false;jungle;3
-13703;66;107;59;land;false;jungle;3
+13703;66;107;59;land;false;jungle;0
+13704;148;83;97;land;true;jungle;6
+13705;107;58;13;land;true;plains;6

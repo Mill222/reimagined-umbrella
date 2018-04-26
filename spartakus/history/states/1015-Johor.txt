@@ -1,0 +1,23 @@
+state={
+	id=1015
+	name="STATE_1015"
+	provinces={
+		4424 10313 13704 
+	}
+	resources={
+		rubber=48.000
+		steel=6.000
+		tungsten=12.000
+	}
+	history={
+		owner = MLY
+		add_core_of = MLY
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+	manpower=528200
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

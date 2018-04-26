@@ -183,13 +183,40 @@ LIV_Cons_Reform2:0 "The Freikorps Issue"
 LIV_Cons_Reform2_desc:0 "Native Balts, the majority of our country's population, are not currently allowed to serve in the army. Enough is enough, we will immediately open up the army's rank, but this may take some time to have an effect."
 
 LIV_German_Army:0 "A German Army"
-LIV_German_Army_desc:0 "Most of our troops use clearly obsolete equipment. The Weltkrieg is long over, we need to change our equipment so that our brave soldiers fight with the best money and technology has to offer. We are a militia no more!"
+LIV_German_Army_desc:0 ""
+
+LIV_German_Army_2:0 "Dissolve the Native Divisions"
+LIV_German_Army_2_desc:0 ""
+
+LIV_German_Army_3:0 "Institute Prussian Discipline"
+LIV_German_Army_3_desc:0 ""
+
+LIV_German_Army_4:0 "A German Army"
+LIV_German_Army_4_desc:0 ""
 
 LIV_Mixed_Army:0 "A Mixed Army"
-LIV_Mixed_Army_desc:0 "We should reorganise and modernise our training system. New drilling methods will shorten boot camp times and stronger emphasis on actual combat training will increase the combat readiness of our troops."
+LIV_Mixed_Army_desc:0 ""
+
+LIV_Mixed_Army_2:0 "A Mixed Army"
+LIV_Mixed_Army_2_desc:0 ""
+
+LIV_Mixed_Army_3:0 "A Mixed Army"
+LIV_Mixed_Army_3_desc:0 ""
+
+LIV_Mixed_Army_4:0 "A Mixed Army"
+LIV_Mixed_Army_4_desc:0 ""
 
 LIV_Baltic_Army:0 "A Baltic Army"
-LIV_Baltic_Army_desc:0 "We should reorganise and modernise our training system. New drilling methods will shorten boot camp times and stronger emphasis on actual combat training will increase the combat readiness of our troops."
+LIV_Baltic_Army_desc:0 ""
+
+LIV_Baltic_Army_2:0 "A Baltic Army"
+LIV_Baltic_Army_2_desc:0 ""
+
+LIV_Baltic_Army_3:0 "A Baltic Army"
+LIV_Baltic_Army_3_desc:0 ""
+
+LIV_Baltic_Army_4:0 "A Baltic Army"
+LIV_Baltic_Army_4_desc:0 ""
 
 LIV_Army_Doc1:0 "War Games"
 LIV_Army_Doc1_desc:0 "Our military staff still push for old tactics and doctrines. We desperately need to change their minds. If we start organising regular war games, we will slowly but surely force them to adapt to the realities of modern warfare."
@@ -203,23 +230,17 @@ LIV_Army_Mot_desc:0 "We can significantly improve the speed of our troops by sim
 LIV_Army_Arm:0 "Armour Blueprints"
 LIV_Army_Arm_desc:0 "It seems that tanks become more and more powerful and practical every day, not that the Weltkrieg had not already showcased their potential by shattering the tactics of trench warfare. Every modern army will come to rely on them, and so should we. We will build our own."
 
-LIV_Army_Def1:0 "Modern Artillery"
-LIV_Army_Def1_desc:0 "The artillery cannon will always be useful. But as any kind of equipment, we should seek to modernise it. New artillery will be even more powerful than we can yet imagine, with bigger calibers, bigger guns, and bigger payloads."
+LIV_Prepare_War:0 "Preparing for War"
+LIV_Prepare_War_desc:0 ""
 
-LIV_Army_Fort1:0 "Ostwall Fortifications"
-LIV_Army_Fort1_desc:0 "The Ostwall is a concept for a line of fortifications along the Russian border. It will take a long time to complete but the results will be impressive, and its tactical advantages obvious."
+LIV_Fortress_Livland:0 "Prepare Fortress Livland"
+LIV_Fortress_Livland_desc:0 ""
 
-LIV_Army_Fort2:0 "Improve Ostwall"
-LIV_Army_Fort2_desc:0 "The construction of the Ostwall is now under way. Many workers and soldiers work on it every day. Sooner or later, the work will be complete, but we should be ready to invest additional effort to speed up the project should trouble arise."
+LIV_Arm_Peasants:0 "Arm the Peasants"
+LIV_Arm_Peasants_desc:0 ""
 
-LIV_Army_FortGer:0 "Forced Labour"
-LIV_Army_FortGer_desc:0 "Our workers are simply too slow. Why are these bloody Balts resting while our German boys are ahead of their schedule? We must force them to work, so the Ostwall will be complete even faster than we have predicted."
-
-LIV_Army_FortBal:0 "Invest in Construction Network"
-LIV_Army_FortBal_desc:0 "Our workers are simply too slow. If we create even more job vacancies, the work might be done even faster than we have predicted. In all cases, we can only get the work done faster by investing into it selflessly."
-
-LIV_Army_FortComplete:0 "New Ostwall Line"
-LIV_Army_FortComplete_desc:0 "The new Ostwall Line is finally complete. Now, our borders are safe and strong. We do not need to fear the Russians anymore, let them come to us. See if they can even set a foot into Livland or Estland."
+LIV_LIV_Pacify_East:0 "Pacify the Eastern Regions"
+LIV_LIV_Pacify_East_desc:0 ""
 
 LIV_Army_Mil_Navy1:0 "Baltic Fleet"
 LIV_Army_Mil_Navy1_desc:0 "Since Peter the Great, many naval battles have been fought in the Baltic Sea. We are proud of the prestige and legacy of our navy and we will focus on improving our ships even more."
