@@ -41,25 +41,25 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 6
+			popularity = 8
 		}
 		marxist = {
-			popularity = 13
+			popularity = 12
 		}
 		revolutionary_socialist = {
-			popularity = 60
+			popularity = 50
 		}
 		democratic_socialist = {
 			popularity = 10
 		}
 		social_democrat = {
-			popularity = 6
+			popularity = 10
 		}
 		social_liberal = {
-			popularity = 3
+			popularity = 6
 		}
 		liberal_conservative = {
-			popularity = 2
+			popularity = 4
 		}
 		social_conservative = {
 			popularity = 0
