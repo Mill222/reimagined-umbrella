@@ -62,6 +62,8 @@ set_politics = {
 
 add_ideas = {
 	extensive_conscription
+	HEJ_illegal_monarch
+	HEJ_tribal_system
 }
 
 create_country_leader = {

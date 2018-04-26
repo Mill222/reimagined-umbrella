@@ -7,8 +7,9 @@ state={
 	state_category = rural
 
 	history={
-		owner = PAL
+		owner = JOR
 		add_core_of = PAL
+		add_core_of = JOR
 		add_core_of = ISR
 		buildings = {
 			infrastructure = 3

@@ -6,14 +6,14 @@ state={
 	history={
 		owner = HEJ
 		victory_points = {
-			12883 1
+			12883 1 
 		}
 		victory_points = {
-			5037 5
+			5037 5 
 		}
 		buildings = {
 			infrastructure = 3
-						industrial_complex = 2
+			industrial_complex = 2
 			12883 = {
 				naval_base = 2
 
@@ -25,9 +25,9 @@ state={
 	}
 
 	provinces={
-		1923 2090 4981 5006 5037 8073 10748 10786 12883
+		1923 2090 4981 5037 10748 10786 12883 
 	}
 	manpower=601942
-	buildings_max_level_factor=1
-	state_category= town
+	buildings_max_level_factor=1.000
+	state_category=town
 }

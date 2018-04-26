@@ -7,28 +7,24 @@ ideas = {
 	
 		# Start
 
-		HEJ_discredited_king = {
+		HEJ_illegal_monarch = {
             picture = generic_disjointed_gov
             modifier = {
 				political_power_gain = -0.05
             }
         }
 		
-        WUR_stagnant_economy = {
-            picture = FRA_factory_strikes
+        HEJ_tribal_system = {
+            picture = low_popular_support3
             modifier = {
                 industrial_capacity_factory = -0.1
                 production_speed_buildings_factor = -0.1
-            }
-        }
-
-        HEJ_tribal_army = {
-            picture = low_popular_support3
-            modifier = {
 				stability_factor = -0.05
 				political_power_gain = 0.05
 				army_org_factor = -0.3
             }
         }
+
+      
 		
     }
