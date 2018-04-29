@@ -2,15 +2,12 @@
 state={
 	id=553
 	name="STATE_553"
-	manpower = 1024000
-	
-	state_category = town
 
 	history={
 		owner = LEB
 		add_core_of = LEB
 		victory_points = {
-			792 1
+			792 1 
 		}
 		buildings = {
 			infrastructure = 4
@@ -18,11 +15,17 @@ state={
 			air_base = 1
 			792 = {
 				naval_base = 2
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		792 1108 11919
+		792 1108 11919 
 	}
+	manpower=1024000
+	buildings_max_level_factor=1.000
+	state_category=town
 }

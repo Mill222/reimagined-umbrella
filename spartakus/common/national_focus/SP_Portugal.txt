@@ -399,7 +399,7 @@ focus_tree = {
 	focus = {
 		id = POR_local_committees
 		relative_position_id = POR_benevolent_revolution
-		icon = GFX_goal_Elections
+		icon = GFX_goal_generic_elections
 		prerequisite = { focus = POR_benevolent_revolution }
 		x = 2
 		y = 1

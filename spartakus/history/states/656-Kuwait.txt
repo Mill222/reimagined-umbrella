@@ -1,21 +1,26 @@
+
 state={
 	id=656
 	name="STATE_656"
-	manpower = 80000
-	
-	state_category = rural
-	
+
 	history={
 		owner = KUW
-		add_core_of=KUW
+		add_core_of = KUW
 		buildings = {
 			infrastructure = 4
 			8085 = {
 				naval_base = 3
+
 			}
+
 		}
+
 	}
+
 	provinces={
-		8085
+		8085 
 	}
+	manpower=80000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

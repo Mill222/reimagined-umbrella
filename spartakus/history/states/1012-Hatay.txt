@@ -1,21 +1,23 @@
+
 state={
 	id=1012
 	name="STATE_1012"
-	history=
-	{
+
+	history={
 		owner = SYR
 		buildings = {
 			infrastructure = 4
+
 		}
 		add_core_of = SYR
 		add_claim_by = TUR
 
 	}
+
 	provinces={
 		12029 
 	}
 	manpower=183273
-	state_category = rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 }
-
