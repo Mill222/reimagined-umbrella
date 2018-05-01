@@ -105,10 +105,6 @@ set_autonomy = {
 	autonomous_state = sp_protectorate
 }
 set_autonomy = {
-	target = SUD
-	autonomous_state = sp_occupied
-}
-set_autonomy = {
 	target = JOR
 	autonomous_state = sp_protectorate
 }
