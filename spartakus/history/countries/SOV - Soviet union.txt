@@ -1,10 +1,18 @@
-﻿capital = 219
+﻿capital = 195
 
 oob = "SOV_1936"
 
+add_ideas = {
+	limited_exports
+	limited_conscription
+	early_economic_mobilisation
+}
+
 set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.8
+set_convoys = 100
+set_stability = 0.65
+set_war_support = 0.6
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -18,9 +26,11 @@ set_technology = {
 	paratroopers = 1
 	gw_artillery = 1
 	gwtank = 1
-	basic_light_tank = 1  # PLACEHOLDER
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
+	interwar_antiair = 1
+	basic_light_tank = 1  
+	improved_light_tank = 1
+	basic_heavy_tank = 1  
+	basic_medium_tank = 1 
 	early_fighter = 1
 	fighter1 = 1
 	early_bomber = 1
@@ -42,22 +52,22 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 0
+			popularity = 56
 		}
 		marxist = {
-			popularity = 0
+			popularity = 22
 		}
 		revolutionary_socialist = {
-			popularity = 0
+			popularity = 10
 		}
 		democratic_socialist = {
-			popularity = 0
+			popularity = 8
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 1
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 1
 		}
 		liberal_conservative = {
 			popularity = 0
@@ -66,7 +76,7 @@ set_politics = {
 			popularity = 0
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 0
 		}
 		right_wing_populist = {
 			popularity = 0
@@ -74,66 +84,76 @@ set_politics = {
 		national_syndicalist = {
 			popularity = 0
 		}
-		national_corporatist = {
+		corporatist_fascist = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = leninist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 
 }
 
-set_convoys = 50
+#puppets
+	set_autonomy = {
+		target = POL
+		autonomous_state = sp_protectorate
+	}
+
 
 create_faction = Comintern
 add_to_faction = SOV
 add_to_faction = MON
-add_to_faction = TAN
+add_to_faction = POL
+add_to_faction = HUN
+add_to_faction = SLO
+add_to_faction = BUL
 
-add_ideas = {
-}
 
 create_country_leader = {
-	name = "Joseph Stalin"
-	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "Portrait_Soviet_Joseph_Stalin.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
+	name = "Lev Kamenev"
+	desc = "POLITICS_LEV_KAMENEV_DESC"
+	picture = "Portrait_Lev_Kamenev.tga"
+	expire = "1952.4.1"
+	ideology = leninist_subtype
 	traits = {
 		
 	}
 }
 
-create_country_leader = {
-	name = "Konstantin Rodzaevsky"
-	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
-	picture = "Portrait_Soviet_Konstantin_Rodzaevsky.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
 
-create_country_leader = {
-	name = "Alexander Fyodorovich Kerensky"
-	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
-	picture = "Portrait_Soviet_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = socialism
-	traits = {
-		
-	}
-}
+# create_country_leader = {
+#	name = "Alexander Fyodorovich Kerensky"
+#	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+#	picture = "Portrait_Soviet_Generic_1.dds"
+#	expire = "1953.3.1"
+#	ideology = socialism
+#	traits = {
+#		
+#	}
+# }
 
 add_namespace = {
 	name = "unit_leader_sov"
 	type = unit_leader
 }
 
+create_field_marshal = {
+	name = "Leon Trotsky"
+	id = 1917
+	picture = "Portrait_Leon_Trotsky.dds"
+	traits = { charismatic brilliant_strategist war_hero}
+	skill = 5
+	
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 4
+	
+}
+	
 create_corps_commander = {
 	name = "Georgy Zhukov"
 	id = 410
@@ -637,7 +657,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Leningrad & Minsk Class"
+	name = "Petrograd & Minsk Class"
 	type = destroyer_1
 	upgrades = {
 		ship_torpedo_upgrade = 3

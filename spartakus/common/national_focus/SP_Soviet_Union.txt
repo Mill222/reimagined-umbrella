@@ -1,0 +1,310 @@
+focus_tree = {
+	id = SP_Soviet_Union
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = SOV
+			
+		}
+	}
+	default = no
+	focus = {
+		id = convene_soviet
+		icon = GFX_focus_yug_pan_slavic_congress
+		cost = 5.00
+		x = 2
+		y = 0
+			completion_reward = {
+	add_political_power = 100
+}
+
+	}
+	focus = {
+		id = new_constitution
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		x = 8
+		y = 0
+			completion_reward = {
+	add_political_power = 200
+}
+	}
+
+	focus = {
+		id = internationalists
+		icon = GFX_focus_ger_great_red_menace
+		cost = 10.00
+		prerequisite = {
+			focus = convene_soviet
+		}
+		mutually_exclusive = {
+			focus = centrists
+		}
+		x = 0
+		y = 1
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = industrialisation
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10.00
+		prerequisite = {
+			focus = internationalists
+		}
+		x = 0
+		y = 2
+			completion_reward = {
+				add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 0.5
+					uses = 1
+					category = industry
+				}
+				complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
+
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+			
+			}
+
+	}
+	
+	focus = {
+		id = empower_soviets
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		prerequisite = {
+			focus = industrialisation
+		}
+		x = 0
+		y = 3
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = socialist_education
+		icon = GFX_focus_generic_socialist_science
+		cost = 10.00
+		prerequisite = {
+			focus = empower_soviets
+		}
+		x = 0
+		y = 4
+			
+		completion_reward = {
+			add_research_slot = 1
+		}
+
+	}
+	focus = {
+		id = centrists
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		prerequisite = {
+			focus = convene_soviet
+		}
+		mutually_exclusive = {
+			focus = internationalists
+			focus = internalists
+		}
+		x = 2
+		y = 1
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = continue_nep
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10.00
+		prerequisite = {
+			focus = centrists
+		}
+		x = 2
+		y = 2
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = politburo
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = continue_nep
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = soviet_intelligentsia
+		icon = GFX_focus_research2
+		cost = 10.00
+		prerequisite = {
+			focus = politburo
+		}
+		x = 2
+		y = 4
+			
+			completion_reward = {
+				add_research_slot = 1
+			}
+	}
+	focus = {
+		id = internalists
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		cost = 10.00
+		prerequisite = {
+			focus = convene_soviet
+		}
+		mutually_exclusive = {
+			focus = centrists
+		}
+		x = 4
+		y = 1
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = collectivisation
+		icon = GFX_focus_prc_agrarian_socialism
+		cost = 10.00
+		prerequisite = {
+			focus = internalists
+		}
+		x = 4
+		y = 2
+			completion_reward = {
+
+}
+
+	}
+	focus = {
+		id = counterrevolutionaries
+		icon = GFX_goal_continuous_suppression
+		cost = 10.00
+		prerequisite = {
+			focus = collectivisation
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = progress_cult
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = counterrevolutionaries
+		}
+		x = 4
+		y = 4
+			completion_reward = {
+				add_research_slot = 1
+			}
+	}
+	focus = {
+		id = elected_officers
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = new_constitution
+		}
+		x = 7
+		y = 1
+			completion_reward = {
+				army_experience = 50
+			}
+	}
+	focus = {
+		id = worker_cooperatives
+		icon = GFX_goal_generic_major_alliance
+		cost = 10.00
+		prerequisite = {
+			focus = new_constitution
+		}
+		x = 9
+		y = 1
+			completion_reward {
+				production_speed_buildings_factor = 0.1
+			}
+	}
+	focus = {
+		id = world_revolution
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10.00
+		prerequisite = {
+			focus = socialist_education
+			focus = soviet_intelligentsia
+		}
+		mutually_exclusive = {
+			focus = expand_influence
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = expand_influence
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10.00
+		prerequisite = {
+			focus = progress_cult
+			focus = soviet_intelligentsia
+		}
+		mutually_exclusive = {
+			focus = world_revolution
+		}
+		x = 3
+		y = 5
+
+	}
+}
