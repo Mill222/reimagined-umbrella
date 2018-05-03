@@ -4,7 +4,7 @@ state={
 	name="STATE_541"
 
 	history={
-		owner = SAF
+		owner = NAM
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -21,7 +21,6 @@ state={
 			2229 1 
 		}
 		add_core_of = NAM
-		add_core_of = SAF
 
 	}
 

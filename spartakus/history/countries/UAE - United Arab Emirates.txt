@@ -66,11 +66,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Shakhbut bin Sultan Al Nahyan"
+	name = "Persian Gulf Residency"
 	desc = ""
-	picture = "Portrait_Shakhbut_bin_Sultan_Al_Nahyan.dds"
+	picture = "Portrait_Persian_Gulf_Residency.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = authoritarian_democrat
 	traits = {
 		#
 	}

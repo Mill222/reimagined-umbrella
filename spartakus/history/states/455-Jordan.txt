@@ -8,7 +8,6 @@ state={
 		add_core_of = JOR
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
 
 		}
 		victory_points = {
@@ -18,9 +17,9 @@ state={
 	}
 
 	provinces={
-		1 1544 4017 4440 4562 4574 4591 7001 7151 7170 10089 11976 
+		1 1074 4017 4115 4486 4574 4591 7001 7151 7170 7184 7513 10089 10383 11976 12442 
 	}
-	manpower=779000
+	manpower=932000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

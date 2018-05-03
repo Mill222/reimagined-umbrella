@@ -340,4 +340,5 @@ LIV_kaiser:0 "The Kaiser has been Restored in Germany"
 
 ### Tooltips ###
 
-LIV_baltic_army_warning_tt:0 "§RThough this will significantly bolster our manpower reserve, a strong native army may cause issues in the future.\n§!"
+LIV_election_tooltip:0 "This focus will enable elections event. The first elections will start in 1937, and then elections will be held every 4 years."
+LIV_election_aut_tooltip:0 "This focus will enable elections event. Due to our semi-authoritarian government, elections will be held only once."
