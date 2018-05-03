@@ -46,6 +46,8 @@ set_technology = {
 }
 
 add_ideas = {
+	UK_the_irish_question_idea
+	UK_recovering_economy
 }
 
 set_convoys = 800

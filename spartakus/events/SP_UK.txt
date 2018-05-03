@@ -1,0 +1,26 @@
+add_namespace = uk
+add_namespace = empire
+
+country_event = { # Intro
+	id = uk.0
+	title = uk.0.t
+	desc = uk.0.desc
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		date < 1932.1.2
+	}
+	
+	immediate = {
+		hidden_effect = { # Trigger events on specific dates
+			
+		}
+	}
+	
+	option = {
+		name = uk.0.a
+	}
+}
+

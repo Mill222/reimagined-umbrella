@@ -1,0 +1,26 @@
+### UK ideas
+
+ideas = {
+
+# Country ideas
+
+	country = {
+		UK_the_irish_question_idea = {
+			modifier = {
+				stability_factor = -0.05
+				political_power_cost = 0.10
+			}
+			picture = FRA_matignon_agreements
+		}
+		UK_recovering_economy = {
+			modifier = {
+				consumer_goods_factor = 0.10
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+				political_power_cost = 0.10
+				stability_factor = -0.05
+			}
+			picture = great_depression
+		}
+	}
+}
