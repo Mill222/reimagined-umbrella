@@ -2,9 +2,7 @@
 state={
 	id=1023
 	name="STATE_1023"
-	provinces={
-		1955 4932 12702 
-	}
+
 	history={
 		owner = KUW
 		buildings = {
@@ -14,6 +12,10 @@ state={
 		}
 		add_core_of = KUW
 
+	}
+
+	provinces={
+		1955 4932 12702 13726 13729 
 	}
 	manpower=168400
 	buildings_max_level_factor=1.000

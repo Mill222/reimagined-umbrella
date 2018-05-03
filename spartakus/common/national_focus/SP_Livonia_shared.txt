@@ -599,6 +599,7 @@ shared_focus = {
 		}
 
 		completion_reward = {
+			custom_effect_tooltip = LIV_baltic_army_warning_tt
 			army_experience = 5
 			add_ideas = LIV_drill
 		}

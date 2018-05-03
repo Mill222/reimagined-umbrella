@@ -1,0 +1,21 @@
+state={
+	id=1032
+	name="STATE_1032"
+	provinces={
+		9823 11871 12387 12416 
+	}
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = SYR
+		add_core_of = TUR
+
+	}
+	manpower=284000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
