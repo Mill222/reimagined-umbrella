@@ -24,22 +24,22 @@ set_politics = {
 			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 34
+			popularity = 0
 		}
 		social_democrat = {
-			popularity = 7
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 42
+			popularity = 0
 		}
 		liberal_conservative = {
-			popularity = 13
+			popularity = 0
 		}
 		social_conservative = {
 			popularity = 0
 		}
 		authoritarian_democrat = {
-		    popularity = 4
+		    popularity = 100
 		}
 		right_wing_populist = {
 			popularity = 0
@@ -52,19 +52,11 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_liberal
+	ruling_party = authoritarian_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 
-}
-
-add_ideas = {
-	export_focus
-	disarmed_nation
-	IRE_memories_of_the_republic
-	IRE_depressed_economy
-	IRE_loyalist_militia
 }
 
 create_country_leader = {

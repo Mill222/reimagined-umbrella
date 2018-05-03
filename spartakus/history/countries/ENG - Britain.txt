@@ -46,8 +46,6 @@ set_technology = {
 }
 
 add_ideas = {
-	UK_the_irish_question_idea
-	UK_recovering_economy
 }
 
 set_convoys = 800
@@ -164,16 +162,16 @@ set_politics = {
 			popularity = 2
 		}
 		social_democrat = {
-			popularity = 13
+			popularity = 37
 		}
 		social_liberal = {
-			popularity = 32
+			popularity = 10
 		}
 		liberal_conservative = {
-			popularity = 18
+			popularity = 1
 		}
 		social_conservative = {
-			popularity = 29
+			popularity = 44
 		}
 		authoritarian_democrat = {
 		    popularity = 0
