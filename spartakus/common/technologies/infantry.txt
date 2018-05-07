@@ -242,7 +242,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1937
+		start_year = 1933
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1937 }
@@ -330,7 +330,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1937
+		start_year = 1933
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1937 }
@@ -385,7 +385,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1935
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1939 }
@@ -528,7 +528,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1937
+		start_year = 1933
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1937 }
@@ -659,7 +659,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1937
+		start_year = 1933
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1937 }
@@ -768,7 +768,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1937
+		start_year = 1933
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1937 }
@@ -976,7 +976,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1941
+		start_year = 1937
 		folder = {
 			name = infantry_folder
 			position = { x = 1 y = @1941 }
@@ -1009,7 +1009,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 1941
 		folder = {
 			name = infantry_folder
 			position = { x = 1 y = @1945 }
@@ -1037,7 +1037,7 @@ technologies = {
 		special_forces_no_supply_grace = 24
 
 		research_cost = 2
-		start_year = 1949
+		start_year = 1945
 		folder = {
 			name = infantry_folder
 			position = { x = 1 y = @1949 }
@@ -1128,7 +1128,7 @@ jungle_warfare = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1939
+		start_year = 1935
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1939 }
@@ -1174,7 +1174,7 @@ jungle_warfare = {
 		}
 		
 		research_cost = 2
-		start_year = 1943
+		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1943 }
@@ -1546,7 +1546,7 @@ jungle_warfare = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1937
+		start_year = 1933
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1937 }
@@ -1689,7 +1689,7 @@ jungle_warfare = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1932
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1936 }
@@ -1754,7 +1754,7 @@ jungle_warfare = {
 		}
 
 		research_cost = 3
-		start_year = 1940
+		start_year = 1936
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1940 }
@@ -1790,7 +1790,7 @@ jungle_warfare = {
 		}
 
 		research_cost = 3
-		start_year = 1944
+		start_year = 1940
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1944 }
@@ -1819,7 +1819,7 @@ jungle_warfare = {
 		}
 
 		research_cost = 3
-		start_year = 1948
+		start_year = 1944
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1948 }
@@ -1863,7 +1863,7 @@ jungle_warfare = {
 		}	
 
 		research_cost = 1.5
-		start_year = 1941
+		start_year = 1937
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1941 }
@@ -1890,7 +1890,7 @@ jungle_warfare = {
 		}	
 
 		research_cost = 1.5
-		start_year = 1943
+		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1943 }
@@ -1927,7 +1927,7 @@ jungle_warfare = {
 		}	
 
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1941
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1945 }
@@ -1964,7 +1964,7 @@ jungle_warfare = {
 		}	
 
 		research_cost = 1.5
-		start_year = 1947
+		start_year = 1943
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1947 }
@@ -1986,7 +1986,7 @@ jungle_warfare = {
 		}	
 
 		research_cost = 1.5
-		start_year = 1949
+		start_year = 1945
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1949 }
@@ -2016,7 +2016,7 @@ jungle_warfare = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 1938
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1942 }
@@ -2044,7 +2044,7 @@ jungle_warfare = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1941
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1945 }
@@ -2067,7 +2067,7 @@ jungle_warfare = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1948
+		start_year = 1944
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1948 }
@@ -2098,7 +2098,7 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1940
+		start_year = 1936
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1940 }
@@ -2126,7 +2126,7 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1944
+		start_year = 1940
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1944 }
@@ -2148,7 +2148,7 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1948
+		start_year = 1944
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1948 }
@@ -2179,7 +2179,7 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1940
+		start_year = 1936
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1940 }
@@ -2202,7 +2202,7 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1944
+		start_year = 1940
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1944 }
@@ -2220,7 +2220,7 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1948
+		start_year = 1944
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1948 }
@@ -2248,7 +2248,7 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1940
+		start_year = 1936
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1940 }
@@ -2276,7 +2276,7 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1944
+		start_year = 1940
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1944 }
@@ -2299,7 +2299,7 @@ jungle_warfare = {
 		}
 
 		research_cost = 2.0
-		start_year = 1948
+		start_year = 1944
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1948 }
@@ -2312,635 +2312,6 @@ jungle_warfare = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-	}
-	
-###------> Jaeger Troops  <><> <><> <><> <><> <><>
-
-jaegers = {
-
-		enable_subunits = {
-			jaeger
-		}
-		
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = jaeger
-				}
-			}
-			hidden_effect = {
-				load_oob = "unlock_jaegers"
-			}			
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
-
-		path = {
-			leads_to_tech = jaegers2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1932
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1932 }
-		}
-		
-		categories = {
-
-			infantry_tech
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	jaegers2 = {
-
-		jaeger = {
-			max_organisation = 5
-			soft_attack = 0.05
-		}
-
-		path = {
-			leads_to_tech = jaegers3
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1934
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1934 }
-		}
-		
-		categories = {
-			infantry_tech
-
-		}
-	}
-	
-	jaegers3 = {
-
-		jaeger = {
-			max_organisation = 5
-		}
-		
-		path = {
-			leads_to_tech = jaegers4
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.0
-		start_year = 1937
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1937 }
-		}
-		
-		categories = {
-			infantry_tech
-
-		}
-	}	
-	
-	jaegers4 = {
-
-		jaeger = {
-			max_organisation = 5
-		}
-		
-		path = {
-			leads_to_tech = jaegers5
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.0
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1940 }
-		}
-		
-		categories = {
-			infantry_tech
-
-		}
-	}
-	
-	jaegers5 = {
-
-		jaeger = {
-			max_organisation = 5
-		}
-		
-		path = {
-			leads_to_tech = jaegers6
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.0
-		start_year = 1944
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1944 }
-		}
-		
-		categories = {
-			infantry_tech
-
-		}
-	}
-	
-	jaegers6 = {
-
-
-		jaeger = {
-			max_organisation = 5
-		}
-
-		research_cost = 2.0
-		start_year = 1948
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1948 }
-		}
-		
-		categories = {
-			infantry_tech
-
-		}
-	}
-	
-	jungletroops = {
-
-		enable_subunits = {
-
-			jungletroop
-		}
-		
-		on_research_complete = {
-			limit = {
-				NOT = {
-
-					has_template_containing_unit = jungletroop
-				}
-			}
-			hidden_effect = {
-
-				load_oob = "unlock_jungletroops"
-			}			
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
-
-		path = {
-
-			leads_to_tech = jungletroops2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1932
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1932 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-		
-		ai_will_do = {
-			factor = 0
-
-		}
-	}
-	
-	jungletroops2 = {
-
-		jungletroop = {
-			max_organisation = 5
-			soft_attack = 0.05
-		}
-		path = {
-
-			leads_to_tech = jungletroops3
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1934
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1934 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-
-	}
-	
-	jungletroops3 = {
-
-		jungletroop = {
-			max_organisation = 5
-		}
-		
-		path = {
-
-			leads_to_tech = jungletroops4
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.0
-		start_year = 1937
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1937 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-	}
-	
-	jungletroops4 = {
-
-		jungletroop = {
-			max_organisation = 5
-		}
-		
-		path = {
-
-			leads_to_tech = jungletroops5
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.0
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1940 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-	}
-	
-	jungletroops5 = {
-
-		jungletroop = {
-			max_organisation = 5
-		}
-		
-		path = {
-
-			leads_to_tech = jungletroops6
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.0
-		start_year = 1944
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1944}
-		}
-		
-		categories = {
-			infantry_tech
-		}
-	}
-	
-	jungletroops6 = {
-
-		jungletroop = {
-			max_organisation = 5
-		}
-
-		research_cost = 2.0
-		start_year = 1948
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1948 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-	}
-	
-	shocktroops = {
-
-		enable_subunits = {
-			shocktroop
-		}
-		
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = shocktroop
-				}
-			}
-			hidden_effect = {
-				load_oob = "unlock_shocktroop"
-			}			
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
-
-		path = {
-			leads_to_tech = shocktroops2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1932
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1932 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	shocktroops2 = {
-
-		shocktroop = {
-			max_organisation = 5
-			soft_attack = 0.05
-		}
-
-		path = {
-			leads_to_tech = shocktroops3
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1934
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1934 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-
-	}
-	
-	shocktroops3 = {
-
-		shocktroop = {
-			max_organisation = 5
-		}
-		
-		path = {
-			leads_to_tech = shocktroops4
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.0
-		start_year = 1937
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1937 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-	}
-	
-	shocktroops4 = {
-
-		shocktroop = {
-			max_organisation = 5
-		}
-		
-		path = {
-			leads_to_tech = shocktroops5
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.0
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1940 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-	}
-	
-	shocktroops5 = {
-
-		shocktroop = {
-			max_organisation = 5
-		}
-		
-		path = {
-			leads_to_tech = shocktroops6
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.0
-		start_year = 1944
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1944 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-	}
-	
-	shocktroops6 = {
-
-		shocktroop = {
-			max_organisation = 5
-		}
-
-		research_cost = 2.0
-		start_year = 1948
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1948 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-	}
-	
-	desertinfantry_at = {
-
-		enable_subunits = {
-
-			desertinfantry
-		}
-
-		on_research_complete = {
-			limit = {
-				NOT = {
-
-					has_template_containing_unit = desertinfantry
-				}
-			}
-			hidden_effect = {
-
-
-				load_oob = "unlock_desertinfantry"
-			}			
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
-
-		path = {
-
-			leads_to_tech = desertinfantry_at2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1932
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1932 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	desertinfantry_at2 = {
-
-		desertinfantry = {
-			max_organisation = 5
-			soft_attack = 0.05
-		}
-		path = {
-
-			leads_to_tech = desertinfantry_at3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1934
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1934 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-
-	}
-	
-	desertinfantry_at3 = {
-
-		desertinfantry = {
-			max_organisation = 5
-		}
-		
-		path = {
-
-			leads_to_tech = desertinfantry_at4
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2.0
-		start_year = 1937
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1937 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-	}
-
-	desertinfantry_at4 = {
-
-		desertinfantry = {
-			max_organisation = 5
-		}
-		
-		path = {
-
-			leads_to_tech = desertinfantry_at5
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2.0
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1940 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-	}
-	
-	desertinfantry_at5 = {
-
-		desertinfantry = {
-			max_organisation = 5
-		}
-		
-		path = {
-
-			leads_to_tech = desertinfantry_at6
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2.0
-		start_year = 1944
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1944 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-	}
-	
-	desertinfantry_at6 = {
-
-		desertinfantry = {
-			max_organisation = 5
-		}
-		
-		research_cost = 2.0
-		start_year = 1948
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1948 }
-		}
-		
-		categories = {
-			infantry_tech
 		}
 	}
 	
@@ -2971,25 +2342,6 @@ jaegers = {
 			breakthrough = 0.03
 		}
 		
-###------> Jaeger   <><> <><> <><> <><> <><>
-
-		jaeger = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		jungletroop = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		desertinfantry = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		shocktroop = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		
 ###------> X   <><> <><> <><> <><> <><>
 
 		motorized = {
@@ -3007,7 +2359,7 @@ jaegers = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1941
+		start_year = 1937
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1941 }
@@ -3045,25 +2397,6 @@ jaegers = {
 			breakthrough = 0.03
 		}
 		
-###------> Jaeger   <><> <><> <><> <><> <><>
-
-		jaeger = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		jungletroop = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		desertinfantry = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		shocktroop = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		
 ###------> X   <><> <><> <><> <><> <><>
 
 		motorized = {
@@ -3081,7 +2414,7 @@ jaegers = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1941
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1945 }
@@ -3106,7 +2439,7 @@ jaegers = {
 		}
 
 		research_cost = 2
-		start_year = 1947
+		start_year = 1943
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1947 }
@@ -3144,25 +2477,6 @@ jaegers = {
 			breakthrough = 0.03
 		}
 		
-###------> Jaeger   <><> <><> <><> <><> <><>
-
-		jaeger = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		jungletroop = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		desertinfantry = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		shocktroop = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		
 ###------> X   <><> <><> <><> <><> <><>
 
 		motorized = {
@@ -3175,7 +2489,7 @@ jaegers = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1949
+		start_year = 1945
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1949 }

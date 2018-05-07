@@ -11,12 +11,13 @@ state={
 			infrastructure = 1
 
 		}
+
 	}
 
 	provinces={
 		8073 
 	}
 	manpower=167500
-	state_category=rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

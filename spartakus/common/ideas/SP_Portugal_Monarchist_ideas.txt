@@ -70,7 +70,7 @@ country = {
 	
 		PRM_royal_edictos = {
 		allowed = {always = no}
-		modifier = { industrial_capacity_factory = 0.03 unity_factor = 0.15  }
+		modifier = { industrial_capacity_factory = 0.03 stability_factor = 0.15  }
 		removal_cost = -1
 		picture = generic_constitutional_guarantees
 	}

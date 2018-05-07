@@ -4,7 +4,7 @@ state={
 	name="STATE_352"
 
 	history={
-		owner = KUR
+		owner = TUR
 		buildings = {
 			infrastructure = 3
 
@@ -14,9 +14,9 @@ state={
 	}
 
 	provinces={
-		864 10497 11739 12318 13121 
+		10497 11739 
 	}
-	manpower=365490
+	manpower=225490
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
