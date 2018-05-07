@@ -28,31 +28,31 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 5
+			popularity = 0
 		}
 		marxist = {
-			popularity = 3
+			popularity = 0
 		}
 		revolutionary_socialist = {
-			popularity = 3
+			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 4
+			popularity = 0
 		}
 		social_democrat = {
-			popularity = 10
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 12
+			popularity = 0
 		}
 		liberal_conservative = {
-			popularity = 26
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 34
+			popularity = 0
 		}
 		authoritarian_democrat = {
-		    popularity = 3
+		    popularity = 100
 		}
 		right_wing_populist = {
 			popularity = 0
@@ -65,7 +65,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = liberal_conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
