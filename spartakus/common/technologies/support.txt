@@ -3,25 +3,25 @@
 technologies = {
 	
 	@1918 = 0
-	@1932 = 2
-	@1933 = 4
-	@1934 = 6
-	@1935 = 8
-	@1936 = 10
-	@1937 = 12
-	@1938 = 14
-	@1939 = 16
-	@1940 = 18
-	@1941 = 20
-	@1942 = 22
-	@1943 = 24
-	@1944 = 26
-	@1945 = 28
-	@1946 = 30
-	@1947 = 32
-	@1948 = 34
-	@1949 = 36
-	@1950 = 38
+	@1936 = 2
+	@1938 = 4
+	@1939 = 6
+	@1940 = 8
+	@1941 = 10
+	@1942 = 12
+	@1943 = 14
+	@1944 = 16
+	@1945 = 18
+	@1946 = 20
+	@1947 = 22
+	@1948 = 24
+	@1949 = 26
+	@1950 = 28
+	@1951 = 30
+	@1952 = 32
+	@1953 = 34
+	@1954 = 36
+	@1955 = 38
 
 
 	tech_support = {
@@ -109,7 +109,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1932
+		start_year = 1936
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1936 }
@@ -163,7 +163,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1935
+		start_year = 1939
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1939 }
@@ -208,7 +208,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1942 }
@@ -255,7 +255,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1941
+		start_year = 1945
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1945 }
@@ -299,7 +299,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1932
+		start_year = 1936
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1936 }
@@ -347,7 +347,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1935
+		start_year = 1939
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1939 }
@@ -388,7 +388,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1942 }
@@ -435,7 +435,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1941
+		start_year = 1945
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1945 }
@@ -481,7 +481,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1932
+		start_year = 1936
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1936 }
@@ -540,7 +540,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1935
+		start_year = 1939
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1939 }
@@ -573,7 +573,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1942 }
@@ -608,7 +608,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1941
+		start_year = 1945
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1945 }
@@ -644,7 +644,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1932
+		start_year = 1936
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1936 }
@@ -688,7 +688,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1935
+		start_year = 1939
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1939 }
@@ -730,7 +730,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1942 }
@@ -776,7 +776,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1941
+		start_year = 1945
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1945 }
@@ -826,7 +826,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1932
+		start_year = 1936
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1936 }
@@ -871,7 +871,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1935
+		start_year = 1939
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1939 }
@@ -914,7 +914,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1942 }
@@ -960,7 +960,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1941
+		start_year = 1945
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1945 }
@@ -1011,7 +1011,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1932
+		start_year = 1936
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1936 }
@@ -1056,7 +1056,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1935
+		start_year = 1939
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1939 }
@@ -1098,7 +1098,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1942 }
@@ -1146,7 +1146,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1941
+		start_year = 1945
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1945 }
@@ -1198,7 +1198,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1932
+		start_year = 1936
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1936 }
@@ -1227,7 +1227,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1935
+		start_year = 1939
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1939 }
@@ -1270,7 +1270,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1942 }
@@ -1315,7 +1315,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1941
+		start_year = 1945
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1945 }
@@ -1362,7 +1362,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 1948
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1948 }
@@ -1451,7 +1451,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 1948
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1948 }
@@ -1544,7 +1544,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 1948
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1948 }
@@ -1631,7 +1631,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 1948
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1948 }
@@ -1714,7 +1714,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 1948
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1948 }
@@ -1797,7 +1797,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 1948
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1948 }
@@ -1886,7 +1886,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 1948
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1948 }

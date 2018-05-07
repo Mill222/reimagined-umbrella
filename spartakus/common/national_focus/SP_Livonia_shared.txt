@@ -462,8 +462,12 @@ shared_focus = {
 
 		completion_reward = {
 			army_experience = 5
-			remove_ideas = LIV_baltic_conscription_crisis
-			add_ideas = LIV_german_army
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.3
+				uses = 1
+				category = infantry_weapons
+			}
 		}
 	}
 	
@@ -529,8 +533,7 @@ shared_focus = {
 
 		completion_reward = {
 			army_experience = 5
-			remove_ideas = LIV_baltic_conscription_crisis
-			add_ideas = LIV_mixed_army
+			add_ideas = LIV_drill
 		}
 	}
 	
@@ -596,10 +599,8 @@ shared_focus = {
 		}
 
 		completion_reward = {
-			custom_effect_tooltip = LIV_baltic_army_warning_tt
 			army_experience = 5
-			remove_ideas = LIV_baltic_conscription_crisis
-			add_ideas = LIV_baltic_army
+			add_ideas = LIV_drill
 		}
 	}
 	

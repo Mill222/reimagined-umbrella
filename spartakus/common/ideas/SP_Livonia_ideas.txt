@@ -64,66 +64,6 @@ ideas = {
 				war_support_factor = -0.05
 			}
 		}
-		
-		LIV_german_army = {
-			picture = generic_infantry_bonus
-
-			allowed = {
-				original_tag = LIV
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				conscription_factor = -0.5
-				war_support_factor = 0.10
-				army_org_factor = 0.10
-			}
-		}
-		
-		LIV_mixed_army = {
-			picture = generic_infantry_bonus
-
-			allowed = {
-				original_tag = LIV
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				conscription_factor = -0.25
-				stability_factor = 0.05
-				army_org_factor = -0.05
-			}
-		}
-		
-		LIV_baltic_army = {
-			picture = generic_infantry_bonus
-
-			allowed = {
-				original_tag = LIV
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				conscription_factor = 0.25
-				stability_factor = -0.10
-				army_morale_factor = 0.10
-			}
-		}
 
 		LIV_multi_ling = {
 			picture = generic_disjointed_gov

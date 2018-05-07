@@ -15,7 +15,7 @@ leader_traits = {
 		sprite = 13
 		random = no
 		experience_gain_army_factor = 0.1
-		stability_factor = 0.1
+		unity_factor = 0.1
 		
 	
 	}

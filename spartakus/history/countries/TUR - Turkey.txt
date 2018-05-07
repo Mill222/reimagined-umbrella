@@ -1,11 +1,11 @@
-﻿capital = 49
+﻿capital = 773
 
 oob = "TUR_1936"
 
-set_research_slots = 3
+set_research_slots = 2
 
 add_ideas = {
-	limited_conscription
+	disarmed_nation
 }
 
 set_technology = {
@@ -27,13 +27,13 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 0
+			popularity = 15
 		}
 		marxist = {
 			popularity = 0
 		}
 		revolutionary_socialist = {
-			popularity = 0
+			popularity = 13
 		}
 		democratic_socialist = {
 			popularity = 0
@@ -42,19 +42,19 @@ set_politics = {
 			popularity = 0
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 7
 		}
 		liberal_conservative = {
-			popularity = 0
+			popularity = 10
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 20
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 30
 		}
 		right_wing_populist = {
-			popularity = 0
+			popularity = 5
 		}
 		national_syndicalist = {
 			popularity = 0
@@ -71,59 +71,53 @@ set_politics = {
 
 }
 
+add_ideas = {
+	TUR_corrupt_government
+	TUR_reign_of_the_oldturks
+	TUR_caliph_of_islam
+}
+
 set_convoys = 20
-set_stability = 0.55
+set_stability = 0.50
 
-# Atatürk still alive in '36, however, Inönü was already Prime Minister (but not President)
 create_country_leader = {
-	name = "Ismet Inönü"
-	desc = "POLITICS_ISMET_INÖNÜ_DESC"
-	picture = "Portrait_Turkey_Ismet_Inonu.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	name = "Mehmed VI"
+	desc = "POLITICS_MEHMED_VI_DESC"
+	picture = ""
+	expire = "1965.11.10"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Mustafa Kemal Atatürk"
-	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
-	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
-	expire = "1938.11.10"
-	ideology = despotism
+	name = "Süleyman Şefik Pasha"
+	desc = "POLITICS_SULEYMAN_SEFIK_PASHA_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = right_wing_populist_subtype
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Sefik Hüsnü"
-	desc = "POLITICS_SEFIK_HUSNU_DESC"
-	picture = "gfx/leaders/TUR/Portrait_Turkey_Sefik_Husnu.dds"
+	name = "Abdulmejid II"
+	desc = "POLITICS_ABDULMEJID_II_DESC"
+	picture = ""
 	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Celâl Bayar"
-	desc = "POLITICS_CELAL_BAYAR_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = national_syndicalist_subtype
 	traits = {
 		#
 	}
 }
 create_country_leader = {
-	name = "Fevzi Çakmak"
-	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+	name = "Nihal Atsız"
+	desc = "POLITICS_NIHAL_ATSIZ_DESC"
+	picture = "
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_corporatist_subtype
 	traits = {
 		#
 	}

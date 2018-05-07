@@ -1,0 +1,48 @@
+﻿l_english:
+
+TUR_leninist_party:0 "TKP"
+TUR_leninist_party_long:0 "Türkiye Komünist Partisi"
+TUR_marxist_party:0 "SDF"
+TUR_marxist_party_long:0 "Sosyal Demokrat Fırkası"
+TUR_democratic_socialist_party:0 "OSF"
+TUR_democratic_socialist_party_long:0 "Osmanlı Sosyalist Fırkası"
+TUR_revolutionary_socialist_party:0 "TICSF"
+TUR_revolutionary_socialist_party_long:0 "Türkiye İşçi ve Çiftçi Sosyalist Fırkası"
+TUR_social_democrat_party:0 "CHP"
+TUR_social_democrat_party_long:0 "Cumhuriyet Halk Partisi"
+TUR_social_liberal_party:0 "HIF"
+TUR_social_liberal_party_long:0 "Hürriyet ve İtilaf Fırkası"
+TUR_liberal_conservative_party:0 "MTF"
+TUR_liberal_conservative_party_long:0 "Milli Türk Fırkası"
+TUR_social_conservative_party:0 "TF"
+TUR_social_conservative_party_long:0 "Teceddüt Fırkası"
+TUR_authoritarian_democrat_party:0 "Müdavimleri"
+TUR_authoritarian_democrat_party_long:0 "Saltanatın"
+TUR_right_wing_populist_party:0 "Askeri"
+TUR_right_wing_populist_party_long:0 "Kuvâ-i İnzibâtiyye"
+TUR_national_syndicalist_party:0 "Ruhban Sınıfı"
+TUR_national_syndicalist_party_long:0 "İslam din adamları"
+TUR_national_corporatist_party:0 "US"
+TUR_national_corporatist_party_long:0 "Ulusal Şifa"
+
+### Tooltips ###
+
+### Ideas ###
+
+### Traits ###
+
+### Opinion Modifiers ###
+
+### Focus ###
+
+### National Spirits ###
+TUR_corrupt_government:0 "Corrupt Government"
+TUR_corrupt_government_desc:0 "The Sultan has long lost most of his power. His government controls him and manipulates state to suit their personal needs."
+TUR_reign_of_the_oldturks:0 "Reign of the Old Turks"
+TUR_reign_of_the_oldturks_desc:0 "With the defeat of the Young Turks, the Old Turks have managed to stay in power. They continue on with what the brought the Ottomans down, a destructive path of refuing change and self preservation."
+TUR_caliph_of_islam:0 "Caliph of Islam"
+TUR_caliph_of_islam_desc:0 "The current Caliph is a very important figure in every muslim's life, espiecally in the Ottman Empire as the caliph is a turk, Abudulmejid II."
+
+### Leader Descriptions ###
+
+### Events ###
