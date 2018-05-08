@@ -1,0 +1,19 @@
+### Soviet Union ideas
+
+ideas = {
+
+# Country ideas
+
+	country = {
+	
+		## Soviet Union
+		
+		SOV_NEP = {
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+			picture = GFX_idea_generic_goods_red_bonus
+		}
+
+	}
+}

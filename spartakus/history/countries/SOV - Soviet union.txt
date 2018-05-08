@@ -6,6 +6,7 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	early_economic_mobilisation
+	SOV_NEP
 }
 
 set_research_slots = 3
