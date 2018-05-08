@@ -5,16 +5,28 @@ state={
 
 	history={
 		owner = TUR
+		add_core_of = TUR
+		victory_points = {
+			11853 5 
+		}
 		buildings = {
 			infrastructure = 3
 			air_base = 1
 			industrial_complex = 1
-
+			
+			652 = {
+				bunker = 3
+			}
+			7470 = {
+				bunker = 2
+			}
+			4583 = {
+				bunker = 1
+			}
+			11853 = {
+				bunker = 1
+			}
 		}
-		victory_points = {
-			11853 5 
-		}
-		add_core_of = TUR
 
 	}
 

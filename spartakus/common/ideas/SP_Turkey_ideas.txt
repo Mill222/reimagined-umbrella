@@ -15,31 +15,12 @@ ideas = {
 			modifier = {
 				political_power_gain = -0.8
 				stability_factor = -0.10
-				political_power = -0.50
+				economy_cost_factor = 0.25
+				political_advisor_cost_factor = 0.10
+				planning_speed = -0.20
 			}
 		}
 
-		TUR_reign_of_the_oldturks = (
-		
-			allowed = {
-				original_tag = TUR
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = generic_morale_bonus
-			
-			modifier = {
-				research_time_factor = 0.70
-				drift_defence_factor = 0.20
-				
-				
-				
-				
-			}
-		}
-		
 		TUR_caliph_of_islam = (
 		
 			allowed = {
@@ -54,13 +35,52 @@ ideas = {
 			modifier = {
 				unity_factor = 0.50
 				drift_defence_factor = 0.05
-				opinion_gain_monthly_same_ideology_factor = 0.10
-				mobilization_laws_cost_factor = -0.10
-				
-				
-				
-				
+				improve_relations_maintain_cost_factor = -0.75
+				non_core_manpower = 0.02
+				army_morale_factor = 0.1
+				stability_factor = 0.20
 			}
 		}
-	}	
-}		
+		
+		TUR_dying_man_of_europe = (
+		
+			allowed = {
+				original_tag = TUR
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = anti_soviet_pact
+			
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_factory = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+				research_time_factor = 0.60
+				stability_factor = -0.05
+			}
+		}
+		
+		TUR_kuva_yi_inzibatiye = {
+			
+			allowed = {
+				original_tag = TUR
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+				max_dig_in = 1
+				experience_gain_army_factor = 0.1
+			}
+		}
+		
+		
+	
+	

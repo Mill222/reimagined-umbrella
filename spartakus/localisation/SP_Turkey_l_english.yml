@@ -38,10 +38,12 @@ TUR_national_corporatist_party_long:0 "Ulusal Şifa"
 ### National Spirits ###
 TUR_corrupt_government:0 "Corrupt Government"
 TUR_corrupt_government_desc:0 "The Sultan has long lost most of his power. His government controls him and manipulates state to suit their personal needs."
-TUR_reign_of_the_oldturks:0 "Reign of the Old Turks"
-TUR_reign_of_the_oldturks_desc:0 "With the defeat of the Young Turks, the Old Turks have managed to stay in power. They continue on with what the brought the Ottomans down, a destructive path of refuing change and self preservation."
 TUR_caliph_of_islam:0 "Caliph of Islam"
-TUR_caliph_of_islam_desc:0 "The current Caliph is a very important figure in every muslim's life, espiecally in the Ottman Empire as the caliph is a turk, Abudulmejid II."
+TUR_caliph_of_islam_desc:0 "The Caliph is extremely important to all muslims, he is the ruler of the muslim community, successor to Muhammed, because of this he remains an important prestige figure and uniting force for all muslims around the world."
+TUR_dying_man_of_europe:0 "Dying Man of Europe"
+TUR_dying_man_of_europe_desc:0 "Ever since the defeat of Atatürk the Ottoman Sultanate has struggled, as a government that should've died long ago remains in power. Plagued with mistakes of the past and an active continuation of such mistakes, they are no long considered "the Sick Man of Europe", but "the Dying Man of Europe".
+TUR_kuva_yi_inzibatiye:0 "Kuva-yi Inzibatiye"
+TUR_kuva_yi_inzibatiye_desc:0 "Established on 18 April 1920 by the imperial government of the Ottoman Empire and headed by Süleyman Şefik Pasha. Plus, ever since it's victory against Atatürk the Kuva-yi Inzibatiye has had sigificant logistic and financial support from the British over the years, because of this they have acted as the main military force of the Ottoman sultanate, keeping the Sultin's imperial authority alive while defending the sultanate from outside threats such as the Soviets."
 
 ### Leader Descriptions ###
 
