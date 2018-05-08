@@ -85,6 +85,27 @@ ideas = {
 			}
 		}
 		
+		LIV_german_army_prussian = {
+			picture = generic_infantry_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.45
+				war_support_factor = 0.15
+				army_org_factor = 0.15
+				army_morale_factor = 0.05
+			}
+		}
+		
 		LIV_mixed_army = {
 			picture = generic_infantry_bonus
 
@@ -122,6 +143,25 @@ ideas = {
 				conscription_factor = 0.25
 				stability_factor = -0.10
 				army_morale_factor = 0.10
+			}
+		}
+		
+		LIV_arm_peasants = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.025
+				stability_factor = -0.05
 			}
 		}
 

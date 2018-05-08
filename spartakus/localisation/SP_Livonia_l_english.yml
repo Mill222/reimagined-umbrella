@@ -16,6 +16,17 @@ liv.3.t:0 "Duchy Dissolved!"
 liv.3.d:0 "The United Baltic Duchy has been dissolved."
 liv.3.a:0 "Oh no!"
 
+livfoc.1.t:0 "The Landeswehr Reforms"
+livfoc.1.d:0 "The Baltische Landeswehr is the dominating force of Livonia in many ways. Not only does it function as the defense force, but it also runs the government as a military dictatorship all but in name. Though the Latvian, Andreivs Niedra, is officially the head of government, everyone knows he lacks any power being surrounded by a cabinet made entirely of military veterans and aristocrats. This has, however, resulted in some issues with our relatively reactionary military bereaucracy. \n\nThe right wing Freikorps militias, which are officially unconnected with the Baltische Landeswehr, have been allowed to run rampant through the countryside. These Freikorps have been responsible for many terrible crimes. On top of this, lack of funding and care for Latvian and Estonian recruitment has resulted in a massive conscription crisis that has seriously hurt our military capabilities. \n\nWe can only choose to reform one of these issues at a time. Which will it be?"
+livfoc.1.a:0 "We shall focus on resolving the Conscription Crisis."
+livfoc.1.b:0 "We shall focus on deciding the fate of the Freikorps."
+
+livfoc.2.t:0 "The Question of Conscription Reform"
+livfoc.2.d:0 "Ever since our mostly German army crushed the Estonian and Latvian resistance and established the Livonian state, the Baltic natives have actively resisted our attempts to recruit them and very little has been done by our military bureaucracy to provide incentives for them to join our ranks. The few Baltic regiments have been provided with little supplies and often are deprived of proper weaponry or weaponry at all. All of this combined has resulted in an extremely troublesome conscription crisis, and it is clear that in order to prepare for the years to come the fate of the Balts in our army has to be decided."
+livfoc.2.a:0 "Enough! Establish a German-only army."
+livfoc.2.b:0 "Reform! Establish a Mixed army of Germans and Balts."
+livfoc.2.c:0 "End this! Establish a Balt-only army."
+
 ### Parties ###
 
 LIV_leninist_party:0 "LKP"
@@ -191,7 +202,7 @@ LIV_German_Army_2_desc:0 ""
 LIV_German_Army_3:0 "Institute Prussian Discipline"
 LIV_German_Army_3_desc:0 ""
 
-LIV_German_Army_4:0 "A German Army"
+LIV_German_Army_4:0 "Deploy the Elite Guards"
 LIV_German_Army_4_desc:0 ""
 
 LIV_Mixed_Army:0 "A Mixed Army"
@@ -218,17 +229,17 @@ LIV_Baltic_Army_3_desc:0 ""
 LIV_Baltic_Army_4:0 "A Baltic Army"
 LIV_Baltic_Army_4_desc:0 ""
 
-LIV_Army_Doc1:0 "War Games"
-LIV_Army_Doc1_desc:0 "Our military staff still push for old tactics and doctrines. We desperately need to change their minds. If we start organising regular war games, we will slowly but surely force them to adapt to the realities of modern warfare."
+LIV_Army_Doc:0 "War Games"
+LIV_Army_Doc_desc:0 "Our military staff still push for old tactics and doctrines. We desperately need to change their minds. If we start organising regular war games, we will slowly but surely force them to adapt to the realities of modern warfare."
 
-LIV_Army_Doc2:0 "Modern Doctrine Effort"
-LIV_Army_Doc2_desc:0 "Now our generals are prepared for the realities of today's warfare. But even better, they now seem to have finally adopted a more innovative and forward-thinking mindset. Let us warmly welcome any suggestions from them, to seek new tactics to implement."
+LIV_Army_Mob:0 "Modern Doctrine Effort"
+LIV_Army_Mob_desc:0 "Now our generals are prepared for the realities of today's warfare. But even better, they now seem to have finally adopted a more innovative and forward-thinking mindset. Let us warmly welcome any suggestions from them, to seek new tactics to implement."
 
-LIV_Army_Mot:0 "Mobile Army"
-LIV_Army_Mot_desc:0 "We can significantly improve the speed of our troops by simply adopting motorised vehicles as an integral part of our division design. These new troops will be attached to their trucks as cavalry were with their horses, now we just need to figure out the tactical and organisational details."
+LIV_Army_Fpo:0 "Mobile Army"
+LIV_Army_Fpo_desc:0 "We can significantly improve the speed of our troops by simply adopting motorised vehicles as an integral part of our division design. These new troops will be attached to their trucks as cavalry were with their horses, now we just need to figure out the tactical and organisational details."
 
-LIV_Army_Arm:0 "Armour Blueprints"
-LIV_Army_Arm_desc:0 "It seems that tanks become more and more powerful and practical every day, not that the Weltkrieg had not already showcased their potential by shattering the tactics of trench warfare. Every modern army will come to rely on them, and so should we. We will build our own."
+LIV_Army_Gbp:0 "Armour Blueprints"
+LIV_Army_Gbp_desc:0 "It seems that tanks become more and more powerful and practical every day, not that the Weltkrieg had not already showcased their potential by shattering the tactics of trench warfare. Every modern army will come to rely on them, and so should we. We will build our own."
 
 LIV_Prepare_War:0 "Preparing for War"
 LIV_Prepare_War_desc:0 ""
@@ -239,8 +250,11 @@ LIV_Fortress_Livland_desc:0 ""
 LIV_Arm_Peasants:0 "Arm the Peasants"
 LIV_Arm_Peasants_desc:0 ""
 
-LIV_LIV_Pacify_East:0 "Pacify the Eastern Regions"
-LIV_LIV_Pacify_East_desc:0 ""
+LIV_Fortress_Riga:0 "Raising Fortress Riga"
+LIV_Fortress_Riga_desc:0 ""
+
+LIV_Riga_Factories:0 "Riga Industrial Expansion"
+LIV_Riga_Factories_desc:0 ""
 
 LIV_Army_Mil_Navy1:0 "Baltic Fleet"
 LIV_Army_Mil_Navy1_desc:0 "Since Peter the Great, many naval battles have been fought in the Baltic Sea. We are proud of the prestige and legacy of our navy and we will focus on improving our ships even more."
@@ -289,13 +303,46 @@ LIV_freikorps_desc:0 "A significant amount of our army holds far right wing symp
 LIV_baltic_conscription_crisis:0 "Native Conscription Crisis"
 LIV_baltic_conscription_crisis_desc:0 "Although Livonia is well known for its mass conscription of Germans, the Baltic natives themselves make up only a very small portion of the military and often are organized into independent militias whom lack proper equipment. Their lack of representation in the government also fuels many natives to avoid entering the army, and Estonians in particular are more compelled to serve in the Estonian puppet regime in the north."
 
+LIV_german_army:0 "A German Army"
+LIV_german_army_desc:0 "Previously our military was mostly organized into seperate units with Latvians and Estonians generally being placed in undermanned, undersupplied divisions. Instead of bringing these troops to the same standard as our German units, we have eliminated Baltic recruitment eentirely at the cost of manpower."
+
+LIV_german_army_prussian:0 "A Prussian Army"
+LIV_german_army_prussian_desc:0 "Previously our military was mostly organized into seperate units with Latvians and Estonians generally being placed in undermanned, undersupplied divisions. Instead of bringing these troops to the same standard as our German units, we have eliminated Baltic recruitment eentirely at the cost of manpower."
+
 LIV_mixed_army:0 "A Mixed Army"
 LIV_mixed_army_desc:0 "Previously our military was mostly organized into seperate units with Latvians and Estonians generally being placed in undermanned, undersupplied divisions. While it is true we may never truly convince every native to join, a military no longer divided by nationality will surely convince enough to bolster our ranks significantly."
+
+LIV_baltic_army:0 "A Baltic Army"
+LIV_baltic_army_desc:0 "Previously our military was mostly organized into seperate units with Latvians and Estonians generally being placed in undermanned, undersupplied divisions. While it is true we may never truly convince every native to join, the elimination of German favoritism through ending future German recruitment will help bolster our ranks to numbers never seen before."
+
+LIV_arm_peasants:0 "Peasants Armed"
+LIV_arm_peasants_desc:0 "Our peasants have been armed in preperation for the inevitable showdown with the Bolshevik menace."
+
+LIV_fort:0 "Fortress Livland"
+LIV_fort_desc:0 "We have started our program for establishing fortifications along our border in order to secure ourselves in the coming storm. Some say we are becoming a fort with a state. How funny..."
 
 ### Flags ###
 
 LIV_kaiser:0 "The Kaiser has been Restored in Germany"
 
+LIV_focused_on_cons_crisis:0 "§GThe military has focused on resolving the conscription crisis.§!"
+
+LIV_freikorps_reform_finished:0 "§GThe Freikorps issue has been completely resolved.§!"
+
+LIV_focused_on_freikorps_crisis:0 "§GThe military has focused on resolving the Freikorps issue.§!"
+
+LIV_conscription_reform_finished:0 "§GThe Conscription crisis has been completely resolved.§!"
+
 ### Tooltips ###
 
 LIV_baltic_army_warning_tt:0 "§RThough this will significantly bolster our manpower reserve, a strong native army may cause issues in the future.\n§!"
+
+LIV_german_army_balts_tt:0 "§RThe Baltic divisions will be disbanded. We will need to raise new German divisions to replace them.\n§!"
+
+LIV_german_army_elites_tt:0 "§GAn elite German-only division will be raised in Riga.\n§!"
+
+LIV_german_army_event_tt:0 "§RRight-wing elements that support this policy will gain more influence over our government.\n§!"
+
+LIV_mixed_army_event_tt:0 "§RConservative elements that support this policy will gain more influence over our government.\n§!"
+
+LIV_baltic_army_event_tt:0 "§RLiberal elements that support this policy will gain more influence over our government.\n§!"

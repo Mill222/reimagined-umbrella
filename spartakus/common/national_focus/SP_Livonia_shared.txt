@@ -395,19 +395,14 @@ shared_focus = {
 		icon = GFX_LIV_defense
 		x = 23
 		y = 0
-		cost = 3
+		cost = 8.6
 		ai_will_do = {
 			factor = 50
 		}
 
 		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 0.3
-				uses = 1
-				category = land_doctrine
-			}
+			army_experience = 25
+			LIV = {	country_event = { id = livfoc.1 days = 1 } }
 		}
 	}
 
@@ -415,7 +410,12 @@ shared_focus = {
 		id = LIV_Cons_Reform
 		icon = GFX_BAT_army
 		prerequisite = { focus = LIV_Army_Start }
-		available = { has_country_flag = LIV_progerman }
+		available = { 
+			OR = {
+				has_country_flag = LIV_focused_on_cons_crisis
+				has_country_flag = LIV_freikorps_reform_finished
+			}
+		}
 		x = -4
 		y = 1
 		relative_position_id = LIV_Army_Start
@@ -425,7 +425,7 @@ shared_focus = {
 		}
 
 		completion_reward = {
-			LIV = {	country_event = { id = balticduchy.50 days = 2 } }
+			LIV = {	country_event = { id = livfoc.2 days = 1 } }
 		}
 	}
 
@@ -433,23 +433,29 @@ shared_focus = {
 		id = LIV_Cons_Reform2
 		icon = GFX_focus_generic_little_entente
 		prerequisite = { focus = LIV_Army_Start }
-		available = { has_country_flag = LIV_fed }
+		available = { 
+			OR = {
+				has_country_flag = LIV_focused_on_freikorps_crisis
+				has_country_flag = LIV_conscription_reform_finished
+			}
+		}
 		x = 5
 		y = 1
 		relative_position_id = LIV_Army_Start
-		cost = 15
+		cost = 1
 		ai_will_do = {
 			factor = 50
 		}
 
 		completion_reward = {
-			remove_ideas = LIV_start_crisis
+			LIV = {	country_event = { id = livfoc.3 days = 1 } }
 		}
 	}
 
 shared_focus = {
 		id = LIV_German_Army
 		icon = GFX_LIV_german_conscription
+		available = { has_country_flag = LIV_german_army }
 		prerequisite = { focus = LIV_Cons_Reform }
 		x = -2
 		y = 1
@@ -469,7 +475,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_German_Army_2
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_split_helmet
 		prerequisite = { focus = LIV_German_Army }
 		x = -2
 		y = 2
@@ -480,12 +486,17 @@ shared_focus = {
 		}
 
 		completion_reward = {
+			custom_effect_tooltip = LIV_german_army_balts_tt
+			add_war_support = -0.05
+			add_equipment_to_stockpile = {
+				type = infantry_equipment amount = 500 producer = LIV
+			}
 		}
 	}
 	
 shared_focus = {
 		id = LIV_German_Army_3
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_ger_oppose_hitler
 		prerequisite = { focus = LIV_German_Army_2 }
 		x = -2
 		y = 3
@@ -496,12 +507,17 @@ shared_focus = {
 		}
 
 		completion_reward = {
+			army_experience = 5
+			swap_ideas = {
+				remove_idea = LIV_german_army
+				add_idea = LIV_german_army_prussian
+			}
 		}
 	}
 	
 shared_focus = {
 		id = LIV_German_Army_4
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_chi_army_reform
 		prerequisite = { focus = LIV_German_Army_3 }
 		x = -2
 		y = 4
@@ -512,11 +528,17 @@ shared_focus = {
 		}
 
 		completion_reward = {
+			custom_effect_tooltip = LIV_german_army_elites_tt
+			army_experience = 5
+			hidden_effect = {
+				load_oob = LIV_elite_guards
+			}
 		}
 	}
 shared_focus = {
 		id = LIV_Mixed_Army
 		icon = GFX_LIV_mixed_conscription
+		available = { has_country_flag = LIV_mixed_army }
 		prerequisite = { focus = LIV_Cons_Reform }
 		mutually_exclusive = { focus = LIV_German_Army focus = LIV_Baltic_Army }
 		x = 0
@@ -536,7 +558,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Mixed_Army_2
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_officers
 		prerequisite = { focus = LIV_Mixed_Army }
 		x = 0
 		y = 2
@@ -552,7 +574,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Mixed_Army_3
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_army_guy_2
 		prerequisite = { focus = LIV_Mixed_Army_2 }
 		x = 0
 		y = 3
@@ -568,7 +590,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Mixed_Army_4
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_conscription
 		prerequisite = { focus = LIV_Mixed_Army_3 }
 		x = 0
 		y = 4
@@ -585,6 +607,7 @@ shared_focus = {
 shared_focus = {
 		id = LIV_Baltic_Army
 		icon = GFX_LIV_baltic_conscription
+		available = { has_country_flag = LIV_baltic_army }
 		mutually_exclusive = { focus = LIV_Mixed_Army focus = LIV_German_Army }
 		prerequisite = { focus = LIV_Cons_Reform }
 		x = 2
@@ -605,7 +628,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Baltic_Army_2
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_enlist_the_police
 		prerequisite = { focus = LIV_Baltic_Army }
 		x = 2
 		y = 2
@@ -621,7 +644,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Baltic_Army_3
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_military_academy
 		prerequisite = { focus = LIV_Baltic_Army_2 }
 		x = 2
 		y = 3
@@ -637,7 +660,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Baltic_Army_4
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_civil_war_lessons
 		prerequisite = { focus = LIV_Baltic_Army_3 }
 		x = 2
 		y = 4
@@ -652,99 +675,9 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Army_Doc1
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = LIV_Cons_Reform focus = LIV_Cons_Reform2 }
-		x = 4
-		y = 2
-		relative_position_id = LIV_Army_Start
-		cost = 8.6
-		ai_will_do = {
-			factor = 50
-		}
-
-		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 0.5
-				uses = 1
-				category = land_doctrine
-			}
-		}
-	}
-
-shared_focus = {
-		id = LIV_Army_Doc2
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = LIV_Army_Doc1 }
-		x = 0
-		y = 1
-		relative_position_id = LIV_Army_Doc1
-		cost = 8.6
-		ai_will_do = {
-			factor = 50
-		}
-
-		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 0.5
-				uses = 1
-				category = land_doctrine
-			}
-		}
-	}
-
-shared_focus = {
-		id = LIV_Army_Mot
-		icon = GFX_goal_generic_army_motorized
-		prerequisite = { focus = LIV_Army_Doc2 }
-		x = 0
-		y = 2
-		relative_position_id = LIV_Army_Doc1
-		cost = 8.6
-		ai_will_do = {
-			factor = 50
-		}
-
-		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = motorized_bonus
-				bonus = 0.5
-				technology = motorised_infantry
-			}
-		}
-	}
-
-shared_focus = {
-		id = LIV_Army_Arm
-		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = LIV_Army_Mot }
-		x = 0
-		y = 3
-		relative_position_id = LIV_Army_Doc1
-		cost = 8.6
-		ai_will_do = {
-			factor = 50
-		}
-
-		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = armor_bonus
-				bonus = 0.5
-				uses = 2
-				category = armor
-			}
-		}
-	}
-
-shared_focus = {
 		id = LIV_Prepare_War
-		icon = GFX_goal_army_guy_2
+		icon = GFX_goal_generic_war_with_comintern
+		available = { threat > 0.05 }
 		prerequisite = { focus = LIV_Cons_Reform focus = LIV_Cons_Reform2 }
 		x = 1
 		y = 2
@@ -756,18 +689,14 @@ shared_focus = {
 
 		completion_reward = {
 			army_experience = 5
-			add_tech_bonus = {
-				name = infantry_weapons_bonus
-				bonus = 0.5
-				uses = 1
-				category = artillery
-			}
+			add_manpower = 10000
 		}
 	}
 
 shared_focus = {
 		id = LIV_Fortress_Livland
 		icon = GFX_goal_skull_fortification
+		available = { threat > 0.1 }
 		prerequisite = { focus = LIV_Prepare_War }
 		x = 0
 		y = 1
@@ -785,38 +714,163 @@ shared_focus = {
 shared_focus = {
 		id = LIV_Arm_Peasants
 		icon = GFX_goal_conspiracy
+		available = { threat > 0.15 }
 		prerequisite = { focus = LIV_Fortress_Livland }
 		x = 0
 		y = 2
 		relative_position_id = LIV_Prepare_War
-		cost = 3
+		cost = 8.6
 		ai_will_do = {
 			factor = 50
 		}
 
 		completion_reward = {
-			add_political_power = -75
-			LIV = { country_event = { id = balticduchy.120 days = 1 } }
+			add_ideas = LIV_arm_peasants
+			add_equipment_to_stockpile = {
+				type = infantry_equipment amount = 500 producer = LIV
+			}
 		}
 	}
 
 shared_focus = {
-		id = LIV_LIV_Pacify_East
-		icon = GFX_goal_purge_opposition
+		id = LIV_Fortress_Riga
+		icon = GFX_goal_nested_fortifications
+		available = { threat > 0.2 }
 		prerequisite = { focus = LIV_Arm_Peasants }
-		available = { has_country_flag = LIV_progerman }
 		mutually_exclusive = { focus = LIV_Army_FortBal }
 		x = 0
 		y = 3
 		relative_position_id = LIV_Prepare_War
-		cost = 3
+		cost = 8.6
 		ai_will_do = {
 			factor = 50
 		}
 
 		completion_reward = {
-			add_stability = -0.05
-			LIV = { country_event = { id = balticduchy.121 days = 1 } }
+			add_manpower = -500
+			army_experience = 10
+			12 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 9340
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Riga_Factories
+		icon = GFX_goal_factory_complex
+		available = { threat > 0.25 }
+		prerequisite = { focus = LIV_Fortress_Riga }
+		x = 0
+		y = 1
+		relative_position_id = LIV_Fortress_Riga
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			12 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_Doc
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = LIV_Riga_Factories }
+		x = 0
+		y = 1
+		relative_position_id = LIV_Riga_Factories
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_Mob
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = LIV_Army_Doc }
+		x = -2
+		y = 1
+		relative_position_id = LIV_Army_Doc
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = doctrine_bonus
+				bonus = 0.5
+				uses = 1
+				category = cat_mobile_warfare
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_Fpo
+		icon = GFX_goal_doctrine_fire_superiority
+		prerequisite = { focus = LIV_Army_Doc }
+		x = 0
+		y = 1
+		relative_position_id = LIV_Army_Doc
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = doctrine_bonus
+				bonus = 0.5
+				uses = 1
+				category = cat_superior_firepower
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_Gbp
+		icon = GFX_goal_planning_bonus
+		prerequisite = { focus = LIV_Army_Doc }
+		x = 2
+		y = 1
+		relative_position_id = LIV_Army_Doc
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = doctrine_bonus
+				bonus = 0.5
+				uses = 1
+				category = cat_grand_battle_plan
+			}
 		}
 	}
 

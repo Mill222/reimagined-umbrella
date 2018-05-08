@@ -9,14 +9,14 @@ leader_traits = {
 	########################################
 
 	hog_ambitious_union_boss = {
-		industrial_capacity_factory = 0.08
+		industrial_capacity_factory = 0.10
 		political_power_gain = 0.05
 
 		random = no
 	}
 
 	hog_backroom_backstabber = {
-		stability_factor = -0.07
+		stability_factor = -0.05
 		political_power_gain = 0.20
 
 		random = no
@@ -25,53 +25,53 @@ leader_traits = {
 
 	hog_corporate_suit = {
 		trade_opinion_factor = 0.05
-		political_power_gain = -0.17
-		production_speed_industrial_complex_factor = 0.12
-		production_speed_arms_factory_factor = 0.06
+		political_power_gain = -0.15
+		production_speed_industrial_complex_factor = 0.10
+		production_speed_arms_factory_factor = 0.05
 
 		random = no
 	}
 
 	hog_flamboyant_tough_guy = {
-		war_support_factor = 0.06
-		stability_factor = 0.06
-		political_power_gain = -0.08
+		war_support_factor = 0.05
+		stability_factor = 0.05
+		political_power_gain = -0.10
 
 		random = no
 	}
 
 	hog_happy_amateur = {
-		local_resources_factor = -0.13
-		political_power_gain = -0.08
+		local_resources_factor = -0.15
+		political_power_gain = -0.10
 
 		random = no
 	}
 
 	hog_local_tyrant = {
-		political_power_gain = -0.09
-		local_resources_factor = 0.16
+		political_power_gain = -0.10
+		local_resources_factor = 0.15
 
 		random = no
 	}
 
 	hog_naive_optimist = {
-		political_power_gain = -0.08
-		production_speed_industrial_complex_factor = 0.17
-		production_speed_arms_factory_factor = -0.13
+		political_power_gain = -0.10
+		production_speed_industrial_complex_factor = 0.15
+		production_speed_arms_factory_factor = -0.15
 
 		random = no
 	}
 
 	hog_old_admiral = {
-		production_speed_naval_base_factor = 0.16
-		production_speed_dockyard_factor = 0.12
-		experience_gain_navy = 0.22
+		production_speed_naval_base_factor = 0.15
+		production_speed_dockyard_factor = 0.10
+		experience_gain_navy = 0.20
 
 		random = no
 	}
 
 	hog_old_air_marshal = {
-		production_speed_air_base_factor = 0.17
+		production_speed_air_base_factor = 0.15
 
 		equipment_bonus = {
 			fighter_equipment = {
@@ -101,9 +101,9 @@ leader_traits = {
 	}
 
 	hog_old_general = {
-		production_speed_bunker_factor = 0.12
+		production_speed_bunker_factor = 0.10
 		max_planning = 0.1
-		experience_gain_army = 0.13
+		experience_gain_army = 0.15
 
 		random = no
 	}
@@ -130,28 +130,28 @@ leader_traits = {
 	hog_respected_war_hero = {
 		political_power_gain = 0.075
 		army_morale = 0.1
-		training_time_factor = -0.12
+		training_time_factor = -0.10
 
 		random = no
 	}
 
 	hog_silent_workhorse = {
-		political_power_gain = 0.13
-		local_resources_factor = 0.14
+		political_power_gain = 0.15
+		local_resources_factor = 0.15
 
 		random = no
 	}
 
 	hog_smiling_oilman = {
 		production_factory_max_efficiency_factor = 0.05
-		production_speed_synthetic_refinery_factor = 0.12
+		production_speed_synthetic_refinery_factor = 0.10
 
 		random = no
 	}
 
 	hog_spiritual_leader = {
 		stability_factor = 0.1
-		consumer_goods_factor = 0.02
+		consumer_goods_factor = 0.05
 
 		random = no
 	}
@@ -257,11 +257,11 @@ leader_traits = {
 		random = no
 	}
 
-	hog_the_vozhd = { #Savinkov
+	hog_nationalistic_socialist = { #Strassers
 
-		political_power_gain = 0.075
-		consumer_goods_factor = 0.05
-		army_morale = 0.1
+		political_power_gain = 0.1
+		production_speed_arms_factory_factor = 0.05
+		army_morale = 0.05
 
 		random = no
 	}
@@ -276,20 +276,11 @@ leader_traits = {
 		random = no
 	}
 
-	hog_gentleman_politician = { #Muhammad Ali Jinnah
+	hog_gentleman_politician = {
 
 		political_power_gain = 0.1
 		research_time_factor = -0.03
 		consumer_goods_factor = -0.05
-
-		random = no
-	}
-
-	hog_supreme_ruler = { #Kolchak
-
-		political_power_gain = 0.15
-		local_resources_factor = 0.1
-		consumer_goods_factor = 0.05
 
 		random = no
 	}
@@ -299,24 +290,24 @@ leader_traits = {
 	########################################
 
 	eco_administrative_genius = {
-		production_speed_buildings_factor = 0.07
-		research_time_factor = -0.02
-		industrial_capacity_factory = 0.06
+		production_speed_buildings_factor = 0.05
+		research_time_factor = -0.05
+		industrial_capacity_factory = 0.05
 
 		random = no
 	}
 
 	eco_balanced_budget_economy = {
-		political_power_gain = 0.04
-		production_speed_buildings_factor = 0.06
-		production_factory_max_efficiency_factor = 0.07
+		political_power_gain = 0.05
+		production_speed_buildings_factor = 0.05
+		production_factory_max_efficiency_factor = 0.05
 
 		random = no
 	}
 
 	eco_bank_president = {
-		production_speed_buildings_factor = 0.13
-		political_power_gain = 0.07
+		production_speed_buildings_factor = 0.15
+		political_power_gain = 0.1
 
 		random = no
 	}
@@ -333,47 +324,47 @@ leader_traits = {
 	}
 
 	eco_corrupt_kleptocrat = {
-		local_resources_factor = -0.08
+		local_resources_factor = -0.1
 		production_factory_max_efficiency_factor = -0.1
-		production_speed_buildings_factor = -0.07
-		political_power_gain = 0.18
+		production_speed_buildings_factor = -0.1
+		political_power_gain = 0.20
 
 		random = no
 	}
 
 	eco_industrial_chemist = {
 		local_resources_factor = 0.1
-		production_speed_industrial_complex_factor = 0.06
-		production_speed_infrastructure_factor = 0.07
-		production_speed_synthetic_refinery_factor = 0.09
+		production_speed_industrial_complex_factor = 0.05
+		production_speed_infrastructure_factor = 0.05
+		production_speed_synthetic_refinery_factor = 0.1
 
 		random = no
 	}
 
 	eco_industrialiser = {
-		industrial_capacity_factory = 0.06
-		production_speed_buildings_factor = 0.12
-		local_resources_factor = 0.07
-		conscription_factor = -0.08
-		political_power_gain = -0.17
+		industrial_capacity_factory = 0.05
+		production_speed_buildings_factor = 0.1
+		local_resources_factor = 0.05
+		conscription_factor = -0.1
+		political_power_gain = -0.15
 
 		random = no
 	}
 
 	eco_keynesian_economy = {
-		production_factory_max_efficiency_factor = -0.08
+		production_factory_max_efficiency_factor = -0.1
 		local_resources_factor = -0.05
-		consumer_goods_factor = -0.07
+		consumer_goods_factor = -0.05
 		political_power_gain = 0.1
 
 		random = no
 	}
 
 	eco_laissez_faire_capitalist = {
-		production_speed_arms_factory_factor = -0.11
+		production_speed_arms_factory_factor = -0.1
 		production_speed_buildings_factor = 0.15
 		local_resources_factor = 0.05
-		political_power_gain = -0.09
+		political_power_gain = -0.1
 
 		random = no
 	}
