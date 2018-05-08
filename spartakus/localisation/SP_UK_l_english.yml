@@ -1,0 +1,31 @@
+﻿l_english:
+
+# Events
+uk.0.t:0 "The United Kingdom"
+uk.0.desc:0 "After the armistice in 1918 and the wave of revolutions across Russia and the former Central Powers, the Allied nations found ourselves facing no longer the threat of war, but the threat of revolution. The Irish Republicans had risen up against English rule, our own populace was war-weary, and our economy was stagnating. It seemed as though revolution was spreading across Europe.\n\nThe war in Ireland came to an abrupt end with an independent massacre of IRA leaders by the military, which led to the fall of the coalition government in 1922. The new Liberal-Labour coalition negotiated an end to the conflict, but the coalition would only last a year. Since then, Labour has been unable to recover. \n\nTotal stability has never truly returned to Britain. After the crash of the London Stock Exchange in 1929, many lost all hope of our economy ever truly recovering. Finally, though, the crisis appears to be coming to an end. The British Empire will soon be as strong as ever, and the communist threat will be no more."
+uk.0.a:"Rule, Britannia!"
+
+# Decisions & Missions
+
+
+# Custom Tooltips
+
+
+# Ideas
+UK_the_irish_question_idea:0 "The Irish Question"
+UK_the_irish_question_idea_desc:0 "The Anglo-Irish War ended a decade ago, but it was a Pyrrhic victory at best. Our government and the remnants of the IRA came to an uneasy truce after a series of brutal operations conducted by a rogue commander resulted in dozens of Irish deaths and a crisis in parliament. Amid infighting and public outcry, our government fell apart, and after the elections that brought our first and only Liberal-Labour coalition government into power, we gave the Irish a modicum of autonomy within our glorious Empire. \nSome, however, remain dissatisfied with this uneasy conclusion to the conflict—both within the government, and among the public. Patriotic Britons know that someday soon, we will crush the rebellious republican movement and bring Ireland back into the fold. Meanwhile, though, tensions are rising once again in Ireland, and the Irish government, while mostly under our control, seems either unwilling or unable to quash civil unrest."
+UK_recovering_economy:0 "Recovering Economy"
+UK_recovering_economy_desc:0 "The London Stock Exchange Crash of 1929 hit our country in an already-troubled time, halting our slow recovery from the financial strain of the Great War and after. Unemployment is high, and especially in the more industrial areas of the nation, the lower classes agitate for change. We are finally recovering, though, and we will soon move into a new era of prosperity for the Empire!"
+
+# Focuses
+
+
+# Opinion Modifiers
+dominion_failed_westminster:0 "Failure of the Statute of Westminster"
+dominion_discontent:0 "Discontent Dominion"
+dominion_content:0 "Contented Dominion"
+UK_IRE_denounced_imperialism:0 "Denounced British Imperialism"
+UK_IRE_general_strike:0 "General Strike"
+UK_IRE_no_memorial:0 "Spirit of Reconciliation"
+UK_IRE_refused_to_retract_statements:0 "Refused to retract anti-British statements"
+UK_influencing_irish_govt_strike:0 "Suspected of meddling in British affairs"

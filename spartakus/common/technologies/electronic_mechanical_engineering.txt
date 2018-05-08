@@ -17,7 +17,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1936
+		start_year = 1932
 		
 		folder = {
 			name = electronics_folder
@@ -95,11 +95,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		path = {
-			leads_to_tech = rdf1 
-			research_cost_coeff = 1
-		}
-		
 		research_cost = 1.5
 		
 		folder = {
@@ -129,7 +124,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1934
 		
 		folder = {
 			name = electronics_folder
@@ -165,7 +160,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1939
+		start_year = 1935
 		
 		folder = {
 			name = electronics_folder
@@ -196,7 +191,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1940
+		start_year = 1936
 		
 		folder = {
 			name = electronics_folder
@@ -227,7 +222,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1941
+		start_year = 1937
 		
 		folder = {
 			name = electronics_folder
@@ -260,7 +255,7 @@ technologies = {
 		}		
 		
 		research_cost = 2.5
-		start_year = 1943
+		start_year = 1939
 		
 		folder = {
 			name = electronics_folder
@@ -325,7 +320,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1938
+		start_year = 1934
 		
 		folder = {
 			name = electronics_folder
@@ -373,7 +368,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1940
+		start_year = 1936
 		
 		folder = {
 			name = electronics_folder
@@ -423,7 +418,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1942
+		start_year = 1938
 		
 		folder = {
 			name = electronics_folder
@@ -460,7 +455,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1938
+		start_year = 1934
 		
 		folder = {
 			name = electronics_folder
@@ -483,7 +478,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1940
+		start_year = 1936
 		
 		folder = {
 			name = electronics_folder
@@ -506,7 +501,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1942
+		start_year = 1938
 		
 		folder = {
 			name = electronics_folder
@@ -529,7 +524,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1934
 		
 		folder = {
 			name = electronics_folder
@@ -552,7 +547,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 1.5
-		start_year = 1940
+		start_year = 1936
 		
 		folder = {
 			name = electronics_folder
@@ -575,7 +570,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 1938
 		
 		folder = {
 			name = electronics_folder
@@ -605,7 +600,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1943
+		start_year = 1939
 		
 		folder = {
 			name = electronics_folder
@@ -654,7 +649,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1940
 		
 		folder = {
 			name = electronics_folder
@@ -705,7 +700,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1941
 		
 		folder = {
 			name = electronics_folder
@@ -752,7 +747,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1946
+		start_year = 1942
 		
 		folder = {
 			name = electronics_folder
@@ -777,7 +772,7 @@ technologies = {
 			position = { x = 2 y = 2 }
 		}
 		
-		start_year = 1944
+		start_year = 1940
 		research_cost = 2
 
 		folder = {
@@ -810,7 +805,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1940
+		start_year = 1936
 		research_cost = 5
 		
 		folder = {
@@ -853,7 +848,7 @@ technologies = {
 
 		# can build reactors
 		
-		start_year = 1943
+		start_year = 1939
 		research_cost = 5
 		
 		folder = {
@@ -884,7 +879,7 @@ technologies = {
 
 	nukes = {
 	
-		start_year = 1945
+		start_year = 1941
 		research_cost = 5
 		
 		folder = {
@@ -912,7 +907,7 @@ technologies = {
 	
 	nuke_naval = {
 	
-		start_year = 1946
+		start_year = 1942
 		research_cost = 5
 		
 		research_time_factor = -0.025
@@ -971,7 +966,7 @@ technologies = {
 		}		
 		
 		research_cost = 2.5
-		start_year = 1945
+		start_year = 1941
 		
 		folder = {
 			name = electronics_folder
@@ -998,7 +993,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1949
+		start_year = 1945
 		
 		folder = {
 			name = electronics_folder
@@ -1060,7 +1055,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1944
+		start_year = 1940
 		
 		folder = {
 			name = electronics_folder
@@ -1100,7 +1095,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1947
+		start_year = 1943
 		
 		folder = {
 			name = electronics_folder
@@ -1202,7 +1197,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1944
+		start_year = 1940
 		
 		folder = {
 			name = electronics_folder
@@ -1225,7 +1220,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 1940
 		
 		folder = {
 			name = electronics_folder
@@ -1248,7 +1243,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1947
+		start_year = 1943
 		
 		folder = {
 			name = electronics_folder
@@ -1271,7 +1266,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 1.5
-		start_year = 1947
+		start_year = 1943
 		
 		folder = {
 			name = electronics_folder
@@ -1334,171 +1329,6 @@ technologies = {
 		}
 	}
 	
-###------> Radio Finders <><> <><> <><> <><> <><>
-
-	rdf1 = {
-
-		enemy_partisan_effect = -0.03
-  		foreign_subversive_activites = -0.01
-		
-		path = {
-			leads_to_tech = rdf2 
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-		start_year = 1939
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 6 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			electronics
-			radar_tech
-		}
-	}
-
-	rdf2 = {
-
-		enemy_partisan_effect = -0.05
-  		foreign_subversive_activites = -0.02
-		
-		path = {
-			leads_to_tech = rdf3 
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-		start_year = 1941
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 6 y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			electronics
-			radar_tech
-		}
-	}
-
-	rdf3 = {
-
-		enemy_partisan_effect = -0.07
-  		foreign_subversive_activites = -0.03
-		
-		path = {
-			leads_to_tech = rdf4 
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-		start_year = 1943
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 6 y = 16 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			electronics
-			radar_tech
-		}
-	}
-
-	rdf4 = {
- 
-		enemy_partisan_effect = -0.09
-  		foreign_subversive_activites = -0.04
-		
-		path = {
-			leads_to_tech = rdf5
-			research_cost_coeff = 1
-		}
-		
-     	research_cost = 1.5
-		start_year = 1945
-	
-		folder = {
-			name = electronics_folder
-			position = { x = 6 y = 20 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			electronics
-			radar_tech
-		}
-	}
-	
-	rdf5 = {
- 
-		enemy_partisan_effect = -0.11
-  		foreign_subversive_activites = -0.05
-		
-		path = {
-			leads_to_tech = rdf6 
-			research_cost_coeff = 1
-		}
-		
-     	research_cost = 1.5
-		start_year = 1949
-	
-		folder = {
-			name = electronics_folder
-			position = { x = 6 y = 24 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			electronics
-			radar_tech
-		}
-	}
-	
-	rdf6 = {
- 
-		enemy_partisan_effect = -0.13
-  		foreign_subversive_activites = -0.06
-		
-     	research_cost = 1.5
-		start_year = 1953
-	
-		folder = {
-			name = electronics_folder
-			position = { x = 6 y = 28 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			electronics
-			radar_tech
-		}
-	}
-	
 ###------> X <><> <><> <><> <><> <><>
 
 ###------> New Rocket Engines <><> <><> <><> <><> <><>
@@ -1523,7 +1353,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1949
+		start_year = 1945
 		
 		folder = {
 			name = electronics_folder

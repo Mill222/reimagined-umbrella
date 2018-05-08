@@ -46,6 +46,8 @@ set_technology = {
 }
 
 add_ideas = {
+	UK_the_irish_question_idea
+	UK_recovering_economy
 }
 
 set_convoys = 800
@@ -103,6 +105,10 @@ set_autonomy = {
 set_autonomy = {
 	target = EGY
 	autonomous_state = sp_protectorate
+}
+set_autonomy = {
+	target = SUD
+	autonomous_state = sp_occupied
 }
 set_autonomy = {
 	target = JOR
