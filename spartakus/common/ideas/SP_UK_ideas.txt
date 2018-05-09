@@ -22,5 +22,23 @@ ideas = {
 			}
 			picture = great_depression
 		}
+		UK_pacifism = {
+			modifier = {
+				war_support_factor = -0.10
+				conscription_factor = -0.25
+				training_time_factor = 0.50
+				army_morale_factor = -0.10
+				experience_gain_army_factor = -0.50
+				mobilization_speed = 0.50
+				send_volunteers_tension = 0.20
+				send_volunteer_divisions_required = 1.0
+				generate_wargoal_tension = 0.20
+				justify_war_goal_time = 1.0
+				guarantee_tension = 0.20
+				ai_focus_aggressive_factor = -0.50
+				ai_join_ally_desire_factor = -20
+			}
+			picture = quenched_militarism
+		}
 	}
 }

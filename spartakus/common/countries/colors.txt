@@ -488,6 +488,10 @@ NER = {
 	color = rgb { 224 82 6 }
 	color_ui = rgb { 224 82 6 }
 }
+NEW = {
+	color = rgb { 200  56  80 }
+	color_ui = rgb { 200  56  80 }
+}
 NIC = {
 	color = rgb { 146 179 191 }
 	color_ui = rgb { 146 179 191 }

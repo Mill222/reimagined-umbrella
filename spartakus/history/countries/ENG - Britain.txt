@@ -5,7 +5,7 @@ oob = "ENG"
 set_research_slots = 4
 
 set_stability = 0.6
-set_war_support = 0.1
+set_war_support = 0.15
 
 # Starting tech
 set_technology = {
@@ -46,6 +46,7 @@ set_technology = {
 }
 
 add_ideas = {
+	UK_pacifism
 	UK_the_irish_question_idea
 	UK_recovering_economy
 }
@@ -56,43 +57,43 @@ set_convoys = 800
 
 set_autonomy = {
 	target = MLY
-	autonomous_state = sp_protectorate
+	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
 	target = KEN
-	autonomous_state = sp_protectorate
+	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
 	target = MLW
-	autonomous_state = sp_protectorate
+	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
 	target = SML
-	autonomous_state = sp_protectorate
+	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
 	target = BOT
-	autonomous_state = sp_protectorate
+	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
 	target = ZAM
-	autonomous_state = sp_protectorate
+	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
 	target = UGA
-	autonomous_state = sp_protectorate
+	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
 	target = NGR
-	autonomous_state = sp_protectorate
+	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
 	target = ZIM
-	autonomous_state = sp_colony
+	autonomous_state = sp_Brit_colony
 }
 set_autonomy = {
 	target = OMA
-	autonomous_state = sp_protectorate
+	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
 	target = PAL
@@ -104,7 +105,7 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = EGY
-	autonomous_state = sp_protectorate
+	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
 	target = SUD
@@ -112,39 +113,49 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = JOR
-	autonomous_state = sp_protectorate
+	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
 	target = GHA
-	autonomous_state = sp_colony
+	autonomous_state = sp_Brit_colony
 }
 set_autonomy = {
 	target = TNZ
-	autonomous_state = sp_colony
+	autonomous_state = sp_Brit_colony
 }
 set_autonomy = {
 	target = RAJ
-	autonomous_state = sp_colony
+	autonomous_state = sp_Brit_colony
 	freedom_level = 0.35
 }
 set_autonomy = {
 	target = CAN
-	autonomous_state = sp_autonomous
+	autonomous_state = sp_Brit_dominion
 	freedom_level = 0.4
 }
 set_autonomy = {
 	target = SAF
-	autonomous_state = sp_autonomous
+	autonomous_state = sp_Brit_dominion
 	freedom_level = 0.4
 }
 set_autonomy = {
 	target = AST
-	autonomous_state = sp_autonomous
+	autonomous_state = sp_Brit_dominion
 	freedom_level = 0.2
 }
 set_autonomy = {
 	target = NZL
-	autonomous_state = sp_autonomous
+	autonomous_state = sp_Brit_dominion
+	freedom_level = 0.2
+}
+set_autonomy = {
+	target = IRE
+	autonomous_state = SP_Brit_Irish_crown_dominion
+	freedom_level = 0.2
+}
+set_autonomy = {
+	target = NEW
+	autonomous_state = SP_Brit_dominion
 	freedom_level = 0.2
 }
 
@@ -161,19 +172,19 @@ set_politics = {
 			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 2
+			popularity = 6
 		}
 		social_democrat = {
-			popularity = 37
+			popularity = 9
 		}
 		social_liberal = {
-			popularity = 10
+			popularity = 32
 		}
 		liberal_conservative = {
-			popularity = 1
+			popularity = 6
 		}
 		social_conservative = {
-			popularity = 44
+			popularity = 41
 		}
 		authoritarian_democrat = {
 		    popularity = 0
