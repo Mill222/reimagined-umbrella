@@ -1,5 +1,6 @@
 -- Kaiserreich defines values
 
+NDefines.NGame.START_DATE = "1932.1.1.1"
 NDefines.NGame.END_DATE = "1959.1.1.1"
 NDefines.NGame.MAJOR_PARTICIPANTS_FOR_MAJOR_WAR = 20						-- Vanilla is 3
 NDefines.NDiplomacy.MAX_OPINION_VALUE = 200									-- Vanilla is 100
@@ -11,6 +12,9 @@ NDefines.NDiplomacy.VERY_BAD_OPINION = -100									-- Vanilla is -50
 NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 15 						-- Vanilla is 30 do we change?
 NDefines.NDiplomacy.PEACE_SCORE_PER_PASS = 0.75								-- Vanilla is 0.2
 NDefines.NDiplomacy.FRONT_IS_DANGEROUS = 0									-- Vanilla is -100
+NDefines.NDiplomacy.TENSION_TIME_SCALE_START_DATE = "1932.1.1.1"			
+NDefines.NDiplomacy.TENSION_TIME_SCALE_MONTHLY_FACTOR = -0.005	
+NDefines.NDiplomacy.TENSION_TIME_SCALE_MIN = 0.25						
 NDefines.NCountry.EVENT_PROCESS_OFFSET = 10									-- Vanilla is 20
 NDefines.NCountry.BASE_STABILITY_WAR_FACTOR = -0.1							-- Vanilla is -0.3
 NDefines.NCountry.BASE_STABILITY_PARTY_POPULARITY_FACTOR = 0.0				-- Vanilla is 0.15
