@@ -644,7 +644,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Baltic_Army_3
-		icon = GFX_goal_military_academy
+		icon = GFX_focus_generic_military_mission
 		prerequisite = { focus = LIV_Baltic_Army_2 }
 		x = 2
 		y = 3
@@ -665,6 +665,22 @@ shared_focus = {
 		x = 2
 		y = 4
 		relative_position_id = LIV_Cons_Reform
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_Reform_Finish
+		icon = GFX_goal_military_academy
+		prerequisite = { focus = LIV_Mixed_Army_4 focus = LIV_Baltic_Army_4 focus = LIV_German_Army_4 }
+		x = 0
+		y = 1
+		relative_position_id = LIV_Mixed_Army_4
 		cost = 8.6
 		ai_will_do = {
 			factor = 50
@@ -761,11 +777,12 @@ shared_focus = {
 	}
 	
 shared_focus = {
-		id = LIV_Riga_Factories
-		icon = GFX_goal_factory_complex
+		id = LIV_Riga_Mil_Factories
+		icon = GFX_goal_munitions_factories
 		available = { threat > 0.25 }
+		mutually_exclusive = { focus = LIV_Riga_Civ_Factories }
 		prerequisite = { focus = LIV_Fortress_Riga }
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = LIV_Fortress_Riga
 		cost = 8.6
@@ -784,14 +801,42 @@ shared_focus = {
 			}
 		}
 	}
+	
+shared_focus = {
+		id = LIV_Riga_Civ_Factories
+		icon = GFX_goal_factory_complex
+		mutually_exclusive = { focus = LIV_Riga_Mil_Factories }
+		available = { threat > 0.25 }
+		prerequisite = { focus = LIV_Fortress_Riga }
+		x = 1
+		y = 1
+		relative_position_id = LIV_Fortress_Riga
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			12 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				
+			}
+		}
+	}
 
 shared_focus = {
 		id = LIV_Army_Doc
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = LIV_Riga_Factories }
-		x = 0
+		prerequisite = { focus = LIV_Riga_Mil_Factories focus = LIV_Riga_Civ_Factories }
+		prerequisite = { focus = LIV_Army_Reform_Finish }
+		x = 1
 		y = 1
-		relative_position_id = LIV_Riga_Factories
+		relative_position_id = LIV_Riga_Mil_Factories
 		cost = 8.6
 		ai_will_do = {
 			factor = 50
@@ -821,11 +866,32 @@ shared_focus = {
 		}
 
 		completion_reward = {
+			army_experience = 5
 			add_tech_bonus = {
 				name = doctrine_bonus
 				bonus = 0.5
 				uses = 1
 				category = cat_mobile_warfare
+			}
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Army_Mob_Tank
+		icon = GFX_focus_generic_tank_production
+		prerequisite = { focus = LIV_Army_Mob }
+		x = 0
+		y = 1
+		relative_position_id = LIV_Army_Mob
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			add_ideas = LIV_mobile_warfare
+			add_equipment_to_stockpile = {
+				type = light_tank_equipment_1 amount = 50 producer = ENG
 			}
 		}
 	}
@@ -843,6 +909,7 @@ shared_focus = {
 		}
 
 		completion_reward = {
+			army_experience = 5
 			add_tech_bonus = {
 				name = doctrine_bonus
 				bonus = 0.5
@@ -852,6 +919,26 @@ shared_focus = {
 		}
 	}
 
+shared_focus = {
+		id = LIV_Army_Fpo_Arty
+		icon = GFX_goal_offensive_army
+		prerequisite = { focus = LIV_Army_Fpo }
+		x = 0
+		y = 1
+		relative_position_id = LIV_Army_Fpo
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			add_ideas = LIV_superior_firepower
+			add_equipment_to_stockpile = {
+				type = artillery_equipment amount = 100 producer = LIV
+			}
+		}
+	}
+	
 shared_focus = {
 		id = LIV_Army_Gbp
 		icon = GFX_goal_planning_bonus
@@ -865,6 +952,7 @@ shared_focus = {
 		}
 
 		completion_reward = {
+			army_experience = 5
 			add_tech_bonus = {
 				name = doctrine_bonus
 				bonus = 0.5
@@ -873,7 +961,63 @@ shared_focus = {
 			}
 		}
 	}
+	
+shared_focus = {
+		id = LIV_Army_Gbp_Plan
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = LIV_Army_Gbp }
+		x = 0
+		y = 1
+		relative_position_id = LIV_Army_Gbp
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
 
+		completion_reward = {
+			add_ideas = LIV_grand_battleplan
+			add_equipment_to_stockpile = {
+				type = infantry_equipment amount = 250 producer = LIV
+			}
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Army_Doc_Man
+		icon = GFX_goal_army_guy
+		prerequisite = { focus = LIV_Army_Gbp_Plan focus = LIV_Army_Fpo_Arty }
+		mutually_exclusive = { focus = LIV_Army_Doc_Pro }
+		x = 1
+		y = 1
+		relative_position_id = LIV_Army_Fpo_Arty
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			add_ideas = LIV_large_military
+		}
+	}
+
+shared_focus = {
+		id = LIV_Army_Doc_Pro
+		icon = GFX_focus_generic_military_academy
+		prerequisite = { focus = LIV_Army_Mob_Tank focus = LIV_Army_Fpo_Arty }
+		mutually_exclusive = { focus = LIV_Army_Doc_Man }
+		x = -1
+		y = 1
+		relative_position_id = LIV_Army_Fpo_Arty
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			add_ideas = LIV_professional_military
+		}
+	}
+	
 ###Naval Foci###
 
 shared_focus = {
@@ -882,6 +1026,10 @@ shared_focus = {
 		x = 34
 		y = 0
 		cost = 8.6
+		available = { 
+			has_country_flag = LIV_conscription_reform_finished
+			has_country_flag = LIV_freikorps_reform_finished
+		}
 		ai_will_do = {
 			factor = 40
 		}
@@ -1041,6 +1189,10 @@ shared_focus = {
 shared_focus = {
 		id = LIV_Air1
 		icon = GFX_BAT_air
+		available = { 
+			has_country_flag = LIV_conscription_reform_finished
+			has_country_flag = LIV_freikorps_reform_finished
+		}
 
 		x = 34
 		y = 4

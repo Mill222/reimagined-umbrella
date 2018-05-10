@@ -161,7 +161,113 @@ ideas = {
 
 			modifier = {
 				conscription = 0.025
+				army_core_defence_factor = 0.1
 				stability_factor = -0.05
+			}
+		}
+		
+		LIV_professional_military = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.2
+				war_support_factor = 0.05
+				army_org_factor = 0.10
+				training_time_army_factor = 0.1
+			}
+		}
+		
+		LIV_large_military = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = 0.2
+				stability_factor = -0.05
+				army_org_factor = -0.10
+				training_time_army_factor = -0.1
+			}
+		}
+		
+		LIV_mobile_warfare = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				motorized_attack_factor = 0.05
+				army_armor_attack_factor = 0.05
+				army_speed_factor = 0.1
+				army_attack_factor = 0.1
+			}
+		}
+		
+		LIV_superior_firepower = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_artillery_attack_factor = 0.1
+				army_artillery_defence_factor = 0.1
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+		}
+		
+		LIV_grand_battleplan = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				max_planning = 0.1
+				planning_speed = 0.05
+				army_org_factor = 0.05
+				army_defence_factor = 0.1
 			}
 		}
 
@@ -181,24 +287,6 @@ ideas = {
 			modifier = {
 				political_power_gain = -0.3
 				stability_factor = -0.2
-			}
-		}
-
-		LIV_start_crisis = {
-			picture = generic_infantry_bonus
-
-			allowed = {
-				original_tag = LIV
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				conscription_factor = -0.6
 			}
 		}
 

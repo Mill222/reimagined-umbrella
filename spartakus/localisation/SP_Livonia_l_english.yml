@@ -208,38 +208,56 @@ LIV_German_Army_4_desc:0 ""
 LIV_Mixed_Army:0 "A Mixed Army"
 LIV_Mixed_Army_desc:0 ""
 
-LIV_Mixed_Army_2:0 "A Mixed Army"
+LIV_Mixed_Army_2:0 "Multilingual Officer Corps"
 LIV_Mixed_Army_2_desc:0 ""
 
-LIV_Mixed_Army_3:0 "A Mixed Army"
+LIV_Mixed_Army_3:0 "Resolving Disorganization"
 LIV_Mixed_Army_3_desc:0 ""
 
-LIV_Mixed_Army_4:0 "A Mixed Army"
+LIV_Mixed_Army_4:0 "A Livonian Army"
 LIV_Mixed_Army_4_desc:0 ""
 
 LIV_Baltic_Army:0 "A Baltic Army"
 LIV_Baltic_Army_desc:0 ""
 
-LIV_Baltic_Army_2:0 "A Baltic Army"
+LIV_Baltic_Army_2:0 "Modernization Program"
 LIV_Baltic_Army_2_desc:0 ""
 
-LIV_Baltic_Army_3:0 "A Baltic Army"
+LIV_Baltic_Army_3:0 "Balt Officer Corps"
 LIV_Baltic_Army_3_desc:0 ""
 
-LIV_Baltic_Army_4:0 "A Baltic Army"
+LIV_Baltic_Army_4:0 "Mass Recruitment Campaign"
 LIV_Baltic_Army_4_desc:0 ""
+
+LIV_Army_Reform_Finish:0 "Completing Conscription Reform"
+LIV_Army_Reform_Finish_desc:0 ""
 
 LIV_Army_Doc:0 "War Games"
 LIV_Army_Doc_desc:0 "Our military staff still push for old tactics and doctrines. We desperately need to change their minds. If we start organising regular war games, we will slowly but surely force them to adapt to the realities of modern warfare."
 
-LIV_Army_Mob:0 "Modern Doctrine Effort"
-LIV_Army_Mob_desc:0 "Now our generals are prepared for the realities of today's warfare. But even better, they now seem to have finally adopted a more innovative and forward-thinking mindset. Let us warmly welcome any suggestions from them, to seek new tactics to implement."
+LIV_Army_Mob:0 "Rapid Warfare"
+LIV_Army_Mob_desc:0 ""
 
-LIV_Army_Fpo:0 "Mobile Army"
-LIV_Army_Fpo_desc:0 "We can significantly improve the speed of our troops by simply adopting motorised vehicles as an integral part of our division design. These new troops will be attached to their trucks as cavalry were with their horses, now we just need to figure out the tactical and organisational details."
+LIV_Army_Fpo:0 "Artillery Corps"
+LIV_Army_Fpo_desc:0 ""
 
-LIV_Army_Gbp:0 "Armour Blueprints"
-LIV_Army_Gbp_desc:0 "It seems that tanks become more and more powerful and practical every day, not that the Weltkrieg had not already showcased their potential by shattering the tactics of trench warfare. Every modern army will come to rely on them, and so should we. We will build our own."
+LIV_Army_Gbp:0 "Centralised Planning"
+LIV_Army_Gbp_desc:0 ""
+
+LIV_Army_Mob_Tank:0 "Blitzkrieg Doctrine"
+LIV_Army_Mob_Tank_desc:0 ""
+
+LIV_Army_Fpo_Arty:0 "Mass Bombardment Doctrine"
+LIV_Army_Fpo_Arty_desc:0 ""
+
+LIV_Army_Gbp_Plan:0 "Defense-in-Depth Doctrine"
+LIV_Army_Gbp_Plan_desc:0 ""
+
+LIV_Army_Doc_Pro:0 "A Professional Army"
+LIV_Army_Doc_Pro_desc:0 ""
+
+LIV_Army_Doc_Man:0 "An Expanded Army"
+LIV_Army_Doc_Man_desc:0 ""
 
 LIV_Prepare_War:0 "Preparing for War"
 LIV_Prepare_War_desc:0 ""
@@ -253,8 +271,11 @@ LIV_Arm_Peasants_desc:0 ""
 LIV_Fortress_Riga:0 "Raising Fortress Riga"
 LIV_Fortress_Riga_desc:0 ""
 
-LIV_Riga_Factories:0 "Riga Industrial Expansion"
-LIV_Riga_Factories_desc:0 ""
+LIV_Riga_Mil_Factories:0 "Military Sector Expansion"
+LIV_Riga_Mil_Factories_desc:0 ""
+
+LIV_Riga_Civ_Factories:0 "Consumer Sector Expansion"
+LIV_Riga_Civ_Factories_desc:0 ""
 
 LIV_Army_Mil_Navy1:0 "Baltic Fleet"
 LIV_Army_Mil_Navy1_desc:0 "Since Peter the Great, many naval battles have been fought in the Baltic Sea. We are proud of the prestige and legacy of our navy and we will focus on improving our ships even more."
@@ -320,6 +341,21 @@ LIV_arm_peasants_desc:0 "Our peasants have been armed in preperation for the ine
 
 LIV_fort:0 "Fortress Livland"
 LIV_fort_desc:0 "We have started our program for establishing fortifications along our border in order to secure ourselves in the coming storm. Some say we are becoming a fort with a state. How funny..."
+
+LIV_professional_military:0 "Professional Military"
+LIV_professional_military_desc:0 "We have chosen to reform our military into a professional, smaller force."
+
+LIV_large_military:0 "Expanded Military"
+LIV_large_military_desc:0 "We have chosen to reform our military into a a less professional but much larger force."
+
+LIV_mobile_warfare:0 "Mobile Doctrine Training"
+LIV_mobile_warfare_desc:0 ""
+
+LIV_superior_firepower:0 "Superior Firepower Training"
+LIV_superior_firepower_desc:0 ""
+
+LIV_grand_battleplan:0 "Grand Battleplan Training"
+LIV_grand_battleplan_desc:0 ""
 
 ### Flags ###
 
