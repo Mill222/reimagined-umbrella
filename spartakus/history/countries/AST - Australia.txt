@@ -219,3 +219,6 @@ create_equipment_variant = {
 		ship_gun_upgrade = 2
 	}
 }
+
+add_opinion_modifier = { target = ENG modifier = dominion_failed_westminster }
+add_opinion_modifier = { target = ENG modifier = dominion_content }

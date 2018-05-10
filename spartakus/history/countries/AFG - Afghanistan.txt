@@ -107,4 +107,4 @@ create_corps_commander = {
 }
 
 add_opinion_modifier = { target = SOV modifier = AFG_SOV_friendship }
-add_reverse_opinion_modifier = { target = SOV modifier = AFG_SOV_friendship }
+reverse_add_opinion_modifier = { target = SOV modifier = AFG_SOV_friendship }

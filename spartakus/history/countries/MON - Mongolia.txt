@@ -15,13 +15,13 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 0
+			popularity = 44
 		}
 		marxist = {
-			popularity = 0
+			popularity = 9
 		}
 		revolutionary_socialist = {
-			popularity = 0
+			popularity = 4
 		}
 		democratic_socialist = {
 			popularity = 0
@@ -36,13 +36,13 @@ set_politics = {
 			popularity = 0
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 7
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 8
 		}
 		right_wing_populist = {
-			popularity = 0
+			popularity = 28
 		}
 		national_syndicalist = {
 			popularity = 0
@@ -52,7 +52,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = leninist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -63,8 +63,17 @@ create_country_leader = {
 	desc = "POLITICS_ANANDYN_AMAR_DESC"
 	picture = GFX_portrait_mon_anandyn_amar
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = leninist_subtype
 	traits = {
 		#
 	}
+}
+
+create_country_leader = {
+	name = "Jamtsangiin Damdinsüren"
+	desc = "POLITICS_JAMTSANGIIN_DAMDINSUREN_DESC"
+	picture = GFX_portrait_MON_jamtsangiin_daminsuren
+	expire = "1965.1.1"
+	ideology = leninist_subtype
+	traits = {}
 }

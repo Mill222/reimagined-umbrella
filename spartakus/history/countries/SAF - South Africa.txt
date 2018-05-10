@@ -30,31 +30,31 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 0
+			popularity = 9
 		}
 		marxist = {
 			popularity = 0
 		}
 		revolutionary_socialist = {
-			popularity = 0
+			popularity = 12
 		}
 		democratic_socialist = {
 			popularity = 0
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 6
 		}
 		social_liberal = {
 			popularity = 0
 		}
 		liberal_conservative = {
-			popularity = 0
+			popularity = 35
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 32
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 0
 		}
 		right_wing_populist = {
 			popularity = 0
@@ -63,11 +63,11 @@ set_politics = {
 			popularity = 0
 		}
 		national_corporatist = {
-			popularity = 0
+			popularity = 6
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = social_conservative
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -138,3 +138,6 @@ create_navy_leader = {
 	traits = { }
 	skill = 3
 }
+
+add_opinion_modifier = { target = ENG modifier = dominion_failed_westminster }
+add_opinion_modifier = { target = ENG modifier = dominion_discontent }

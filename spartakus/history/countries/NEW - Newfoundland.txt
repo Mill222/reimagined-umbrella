@@ -43,19 +43,19 @@ set_politics = {
 			popularity = 0
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 10
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 55
 		}
 		liberal_conservative = {
 			popularity = 0
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 35
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 0
 		}
 		right_wing_populist = {
 			popularity = 0
@@ -68,9 +68,12 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = social_liberal
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 
 }
+
+add_opinion_modifier = { target = ENG modifier = dominion_failed_westminster }
+add_opinion_modifier = { target = ENG modifier = dominion_content }

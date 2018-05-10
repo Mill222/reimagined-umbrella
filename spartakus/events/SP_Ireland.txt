@@ -96,9 +96,13 @@ country_event = { # UK - Ireland held public service
 		IRE = {
 			add_opinion_modifier = { target = ENG modifier = IRE_UK_british_memorial }
 		}
+		
+		ai_chance = { factor = 65 }
 	}
 	option = { # Ignore
 		name = ire.2.b
+		
+		ai_chance = { factor = 35 }
 	}
 }
 
@@ -115,6 +119,9 @@ country_event = { # UK - Ireland denounced imperialism
 		add_political_power = -50
 		IRE = {
 			country_event = { id = ire.6 days = 1 }
+		}
+		CAN = {
+			country_event = { id = ire.17 hours = 6 }
 		}
 		
 		ai_chance = { factor = 40 }
@@ -217,6 +224,11 @@ country_event = { # UK warns Ireland
 			country_event = { id = ire.11 days = 1 }
 			add_opinion_modifier = { target = IRE modifier = UK_IRE_refused_to_retract_statements }
 		}
+		hidden_effect = {
+			CAN = {
+				country_event = { id = ire.17 hours = 6 }
+			}
+		}
 		
 		ai_chance = { factor = 20 }
 	}
@@ -233,6 +245,9 @@ country_event = { # UK warns Ireland
 		name = ire.6.c
 		add_political_power = -100
 		add_stability = -0.05
+		ENG = {
+			country_event = { id = ire.13 days = 1 }
+		}
 		
 		ai_chance = { factor = 20 }
 	}
@@ -264,13 +279,20 @@ country_event = { # UK demands the strike end
 	option = { # Continue the strike
 		name = ire.8.a
 		add_political_power = 50
+		ENG = {
+			country_event = { id = ire.11 days = 1 }
+		}
 		
 		ai_chance = { factor = 70 }
 	}
 	option = { # End the strike
 		name = ire.8.b
 		add_political_power = -50
+		add_stability = -0.02
 		remove_ideas = IRE_general_strike_bloody_saturday
+		ENG = {
+			country_event = { id = ire.13 days = 1 }
+		}
 		
 		ai_chance = { factor = 30 }
 	}
@@ -314,12 +336,18 @@ country_event = { # UK - Ireland refuses to retract their statements
 	option = { # Do nothing
 		name = ire.11.a
 		add_political_power = -50
+		IRE = {
+			country_event = { id = ire.14 days = 3 }
+		}
 		
 		ai_chance = { factor = 50 }
 	}
 	option = { # Order the paramilitary groups to agitate
 		name = ire.11.b
 		add_political_power = -20
+		IRE = {
+			country_event = { id = ire.15 days = 3 }
+		}
 		
 		ai_chance = { factor = 50 }
 	}
@@ -336,13 +364,104 @@ country_event = { # UK - Ireland equivocates
 	option = { # Accept
 		name = ire.12.a
 		add_political_power = -20
+		IRE = {
+			country_event = { id = ire.16 days = 1 }
+		}
 		
 		ai_chance = { factor = 80 }
 	}
 	option = { # Decline
 		name = ire.12.b
 		add_political_power = 20
+		IRE = {
+			country_event = { id = ire.15 days = 1 }
+		}
 		
 		ai_chance = { factor = 20 }
 	}
 }
+
+country_event = { # UK - Ireland ends the strike at our insistence
+	id = ire.13
+	title = ire.13.t
+	desc = ire.13.desc
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ire.13.a
+		add_political_power = 50
+	}
+}
+
+country_event = { # The UK does nothing
+	id = ire.14
+	title = ire.14.t
+	desc = ire.14.desc
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ire.14.a
+		add_political_power = 50
+	}
+}
+
+country_event = { # Loyalist paramilitaries agitate
+	id = ire.15
+	title = ire.15.t
+	desc = ire.15.desc
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ire.15.a
+		add_political_power = -50
+		add_ideas = IRE_loyalist_paramilitaries_agitating
+	}
+}
+
+country_event = { # Britain accepts our concession
+	id = ire.16
+	title = ire.16.t
+	desc = ire.16.desc
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ire.16.a
+		add_political_power = 50
+	}
+}
+
+country_event = { # Canada - UK warned Ireland, Ireland refuses to retract statements
+	id = ire.17
+	title = ire.17.t
+	desc = ire.17.desc
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = { # Support Ireland
+		name = ire.17.a
+		add_political_power = -15
+		ENG = {
+			country_event = { id = ire.18 hours = 12 }
+			add_opinion_modifier = { target = CAN modifier = UK_CAN_support_irish_anti_imperialism }
+		}
+		IRE = {
+			country_event = { id = ire.19 hours = 6 }
+			add_opinion_modifier = { target = CAN modifier = IRE_CAN_support_irish_anti_imperialism }
+		}
+		
+		ai_chance = { factor = 80 }
+	}
+	option = { # Remain silent
+		name = ire.17.b
+		
+		ai_chance = { factor = 20 }
+	}

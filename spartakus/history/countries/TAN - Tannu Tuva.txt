@@ -15,13 +15,13 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 0
+			popularity = 42
 		}
 		marxist = {
-			popularity = 0
+			popularity = 7
 		}
 		revolutionary_socialist = {
-			popularity = 0
+			popularity = 11
 		}
 		democratic_socialist = {
 			popularity = 0
@@ -36,13 +36,13 @@ set_politics = {
 			popularity = 0
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 3
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 4
 		}
 		right_wing_populist = {
-			popularity = 0
+			popularity = 33
 		}
 		national_syndicalist = {
 			popularity = 0
@@ -52,7 +52,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = leninist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -60,12 +60,10 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Salchak Toka"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+	name = "Mongush Nimachap"
+	desc = "POLITICS_MONGUSH_NIMACHAP_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Mongush_Nimachap.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
+	ideology = leninist_subtype
+	traits = {}
 }

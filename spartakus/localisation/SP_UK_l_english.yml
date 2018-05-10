@@ -5,6 +5,12 @@ uk.0.t:0 "The United Kingdom"
 uk.0.desc:0 "After the armistice in 1918 and the wave of revolutions across Russia and the former Central Powers, the Allied nations found ourselves facing no longer the threat of war, but the threat of revolution. The Irish Republicans had risen up against English rule, our own populace was war-weary, and our economy was stagnating. It seemed as though revolution was spreading across Europe.\n\nThe war in Ireland came to an abrupt end with an independent massacre of IRA leaders by the military, which led to the fall of the coalition government in 1922. The new Liberal-Labour coalition negotiated an end to the conflict, but the coalition would only last a year. Since then, Labour has been unable to recover. \n\nTotal stability has never truly returned to Britain. After the crash of the London Stock Exchange in 1929, many lost all hope of our economy ever truly recovering. Finally, though, the crisis appears to be coming to an end. The British Empire will soon be as strong as ever, and the communist threat will be no more."
 uk.0.a:"Rule, Britannia!"
 
+
+ukforeign.14.t:0 "The Kuomintang Seize Macau!"
+ukforeign.14.d:0 "With the unfortunate defeat of the Monarchist forces in the recent Civil War in Portugal, the Kuomintang in China have seized the port of Macau. The port had been under Portuguese control for centuries, and many believe that allowing a Chinese takeover of the port would compromise negotiations in the future regarding Hong Kong. What should we tell them?"
+ukforeign.14.a:0 "We had treaties for this you know!?!"
+ukforeign.14.b:0 "Let them have their useless land..."
+
 # Decisions & Missions
 
 
@@ -16,8 +22,37 @@ UK_the_irish_question_idea:0 "The Irish Question"
 UK_the_irish_question_idea_desc:0 "The Anglo-Irish War ended a decade ago, but it was a Pyrrhic victory at best. Our government and the remnants of the IRA came to an uneasy truce after a series of brutal operations conducted by a rogue commander resulted in dozens of Irish deaths and a crisis in parliament. Amid infighting and public outcry, our government fell apart, and after the elections that brought our first and only Liberal-Labour coalition government into power, we gave the Irish a modicum of autonomy within our glorious Empire. \nSome, however, remain dissatisfied with this uneasy conclusion to the conflict—both within the government, and among the public. Patriotic Britons know that someday soon, we will crush the rebellious republican movement and bring Ireland back into the fold. Meanwhile, though, tensions are rising once again in Ireland, and the Irish government, while mostly under our control, seems either unwilling or unable to quash civil unrest."
 UK_recovering_economy:0 "Recovering Economy"
 UK_recovering_economy_desc:0 "The London Stock Exchange Crash of 1929 hit our country in an already-troubled time, halting our slow recovery from the financial strain of the Great War and after. Unemployment is high, and especially in the more industrial areas of the nation, the lower classes agitate for change. We are finally recovering, though, and we will soon move into a new era of prosperity for the Empire!"
+UK_pacifism:0 "Pacifism"
+UK_pacifism_desc:0 "The British nation is tired of war. Following the Great War, and the ensuing overseas interventions and conflict in Ireland, the nation has come to revile war as a means to further British interests. For the people, our national interests are best served by preserving international peace. \nThat said, the British Empire was not built through peace, and peace may not be sufficient to preserve it. In addition, many fear that the communist powers are becoming too strong, and that soon, the enemies of the Empire will be at our doorstep, and the final struggle will commence."
 
 # Focuses
+
+
+# Parties
+ENG_leninist_party:0 "CPGB"
+ENG_leninist_party_long:0 "Communist Party of Great Britain"
+ENG_marxist_party:0 "SLP"
+ENG_marxist_party_long:0 "Socialist Labour Party"
+ENG_democratic_socialist_party:0 "ILP"
+ENG_democratic_socialist_party_long:0 "Independent Labour Party"
+ENG_revolutionary_socialist_party:0 "SPGB"
+ENG_revolutionary_socialist_party_long:0 "Socialist Party of Great Britain"
+ENG_social_democrat_party:0 "Labour"
+ENG_social_democrat_party_long:0 "Labour Party"
+ENG_social_liberal_party:0 "New Liberals"
+ENG_social_liberal_party_long:0 "Liberal Party - New Liberals"
+ENG_liberal_conservative_party:0 "Old Liberals"
+ENG_liberal_conservative_party_long:0 "Liberal Party - Old Liberals"
+ENG_social_conservative_party:0 "CUP"
+ENG_social_conservative_party_long:0 "Conservative and Unionist Party"
+ENG_authoritarian_democrat_party:0 "Loyalists"
+ENG_authoritarian_democrat_party_long:0 "Monarchy"
+ENG_right_wing_populist_party:0 "BEL"
+ENG_right_wing_populist_party_long:0 "British Empire League"
+ENG_national_syndicalist_party:0 "BF"
+ENG_national_syndicalist_party_long:0 "British Fascists"
+ENG_national_corporatist_party:0 "BUF"
+ENG_national_corporatist_party_long:0 "British Union of Fascists"
 
 
 # Opinion Modifiers
@@ -29,3 +64,12 @@ UK_IRE_general_strike:0 "General Strike"
 UK_IRE_no_memorial:0 "Spirit of Reconciliation"
 UK_IRE_refused_to_retract_statements:0 "Refused to retract anti-British statements"
 UK_influencing_irish_govt_strike:0 "Suspected of meddling in British affairs"
+
+# Autonomy Levels
+
+SP_Brit_dominion:0 "Dominion"
+SP_Brit_colony:0 "Colony"
+SP_Brit_protectorate:0 "Protectorate"
+SP_Brit_Irish_crown_dominion:0 "Crown Dominion"
+SP_Brit_Irish_dominion:0 "Dominion"
+SP_Brit_Irish_free_state:0 "Free State"
