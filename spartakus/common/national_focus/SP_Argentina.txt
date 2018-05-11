@@ -1,0 +1,471 @@
+focus_tree = {
+	id = ARG_RIGHT_FOCUS
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ARG
+		}
+	}
+
+	focus = {
+		id = ARG_lisandro
+		icon = GFX_goal_new_treaty
+		x = 3
+		y = 0
+		cost = 1
+	    available = {
+			has_country_leader = {
+				name = "Lisandro de La Torre"
+				ruling_only = yes
+			}
+		}
+		bypass = {
+			has_country_leader = {
+				name = "Lisandro de La Torre"
+				ruling_only = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_sanchez_sorondo
+		icon = GFX_goal_new_treaty
+		x = 15
+		y = 0
+		cost = 1
+	    available = {
+			has_country_leader = {
+				name = "Matías Sanchez Sorondo"
+				ruling_only = yes
+			}
+		}
+		bypass = {
+			has_country_leader = {
+				name = "Matías Sanchez Sorondo"
+				ruling_only = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_ibarguren
+		icon = GFX_goal_new_treaty
+		x = 24
+		y = 0
+		cost = 1
+	    available = {
+			has_country_leader = {
+				name = "Carlos Ibarguren"
+				ruling_only = yes
+			}
+		}
+		bypass = {
+			has_country_leader = {
+				name = "Carlos Ibarguren"
+				ruling_only = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_carles
+		icon = GFX_goal_new_treaty
+		x = 26
+		y = 0
+		cost = 1
+	    available = {
+			has_country_leader = {
+				name = "Manuel Carlés"
+				ruling_only = yes
+			}
+		}
+		bypass = {
+			has_country_leader = {
+				name = "Manuel Carlés"
+				ruling_only = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_varela
+		icon = GFX_goal_new_treaty
+		x = 28
+		y = 0
+		cost = 1
+	    available = {
+			has_country_leader = {
+				name = "Héctor Benigno Varela"
+				ruling_only = yes
+			}
+		}
+		bypass = {
+			has_country_leader = {
+				name = "Héctor Benigno Varela"
+				ruling_only = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_justo
+		icon = GFX_goal_new_treaty
+		x = 30
+		y = 0
+		cost = 1
+	    available = {
+			has_country_leader = {
+				name = "Agustín Pedro Justo"
+				ruling_only = yes
+			}
+		}
+		bypass = {
+			has_country_leader = {
+				name = Agustín Pedro Justo
+				ruling_only = yes
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_national_syndicalism
+		icon = GFX_goal_new_treaty
+		x = 3
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ARG_lisandro
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+			add_stability = 0.1
+			add_popularity = { ideology = national_syndicalist popularity = 0.01 }
+		}
+	}
+	focus = {
+		id = ARG_landowners
+		icon = GFX_goal_agriculture
+		x = 0
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = ARG_national_syndicalism
+		}
+		mutually_exclusive = {
+        	focus = ARG_land_distribution
+    	}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 35
+			country_event = argentina.5
+		}
+	}
+	focus = {
+		id = ARG_land_distribution
+		icon = GFX_goal_agrarian_reform
+		x = 2
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = ARG_national_syndicalism
+		}
+		mutually_exclusive = {
+        	focus = ARG_landowners
+    	}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_stability = -0.05
+			country_event = argentina.6
+		}
+	}
+	focus = {
+		id = ARG_syndicalist_pact
+		icon = GFX_goal_new_treaty
+		x = 4
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = ARG_national_syndicalism
+		}
+		mutually_exclusive = {
+        	focus = ARG_purge_cgt
+    	}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_purge_cgt
+		icon = GFX_goal_broken_red_star
+		x = 6
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = ARG_national_syndicalism
+		}
+		mutually_exclusive = {
+        	focus = ARG_syndicalist_pact
+    	}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_sindicato_nacional
+		icon = GFX_goal_syndicalism
+		x = 5
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ARG_syndicalist_pact
+			focus = ARG_purge_cgt
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+			add_popularity = { ideology = national_syndicalist popularity = 0.05 }
+		}
+	}
+	focus = {
+		id = ARG_agriculture_integration
+		icon = GFX_focus_AUS_agriculture
+		x = 1
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ARG_landowners
+			focus = ARG_land_distribution
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_nationalization
+		icon = GFX_goal_syndicalist_industry
+		x = 3
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ARG_national_syndicalism
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_review_constitution
+		icon = GFX_goal_new_treaty
+		x = 3
+		y = 4
+		cost = 1
+		prerequisite = {
+			focus = ARG_agriculture_integration
+		}
+		prerequisite = {
+			focus = ARG_sindicato_nacional
+		}
+		prerequisite = {
+			focus = ARG_nationalization
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_chief_state
+		icon = GFX_goal_new_treaty
+		x = 15
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ARG_sanchez_sorondo
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_persecute_reds
+		icon = GFX_goal_new_treaty
+		x = 15
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = ARG_chief_state
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_spanish_education
+		icon = GFX_goal_new_treaty
+		x = 13
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = ARG_chief_state
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_found_inc
+		icon = GFX_goal_new_treaty
+		x = 17
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = ARG_chief_state
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_national_cinema
+		icon = GFX_goal_new_treaty
+		x = 18
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ARG_found_inc
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_ministry_propaganda
+		icon = GFX_goal_new_treaty
+		x = 16
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ARG_found_inc
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+}

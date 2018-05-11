@@ -1,0 +1,158 @@
+add_namespace = argentina
+
+country_event = {
+	id = argentina.1
+	title = argentina.1.t
+	desc = argentina.1.d
+	picture = GFX_portugalmonarchyflag
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = argentina.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = argentina.2
+	title = argentina.2.t
+	desc = argentina.2.d
+	picture = GFX_portugalmonarchyflag
+    trigger = {
+    	date = 1932.4.29
+    }
+	fire_only_once = yes
+	
+	option = {
+		name = argentina.2.a
+		ai_chance = { factor = 45 }
+		country_event = argentina.3
+	}
+	option = {
+		name = argentina.2.b
+		ai_chance = { factor = 35 }
+		country_event = argentina.4
+	}
+	option = {
+		name = argentina.2.c
+		ai_chance = { factor = 20 }
+		kill_country_leader = yes
+		set_politics = { ruling_party = authoritarian_democrat elections_allowed = no }
+		create_country_leader = {
+			name = "Matías Sanchez Sorondo"
+			desc = "POLITICS_MATIAS_SANCHEZ_SORONDO_DESC"
+			picture = "Portrait_Argentina_Sanchez_Sorondo.dds"
+			expire = "1965.1.1"
+			ideology = national_corporatist_subtype
+			traits = {
+				#
+			}
+		}
+	}
+}
+country_event = {
+	id = argentina.3
+	title = argentina.3.t
+	desc = argentina.3.d
+	picture = GFX_portugalmonarchyflag
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = argentina.3.a
+		ai_chance = { factor = 42 }
+		kill_country_leader = yes
+		set_politics = { ruling_party = national_syndicalist elections_allowed = no }
+		create_country_leader = {
+			name = "Matías Sanchez Sorondo"
+			desc = "POLITICS_MATIAS_SANCHEZ_SORONDO_DESC"
+			picture = "Portrait_Argentina_Sanchez_Sorondo.dds"
+			expire = "1965.1.1"
+			ideology = national_corporatist_subtype
+			traits = {
+				#
+			}
+		}
+	}
+	option = {
+		name = argentina.3.b
+		ai_chance = { factor = 33 }
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Matías Sanchez Sorondo"
+			desc = "POLITICS_MATIAS_SANCHEZ_SORONDO_DESC"
+			picture = "Portrait_Argentina_Sanchez_Sorondo.dds"
+			expire = "1965.1.1"
+			ideology = national_corporatist_subtype
+			traits = {
+				#
+			}
+		}
+	}
+	option = {
+		name = argentina.3.c
+		ai_chance = { factor = 25 }
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Carlos Ibarguren"
+			desc = "POLITICS_CARLOS_IBARGUREN_DESC"
+			picture = "Portrait_Argentina_Carlos_Ibarguren.dds"
+			expire = "1965.1.1"
+			ideology = national_corporatist_subtype
+			traits = {
+				#
+			}
+		}
+	}
+}
+country_event = {
+	id = argentina.4
+	title = argentina.4.t
+	desc = argentina.4.d
+	picture = GFX_portugalmonarchyflag
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = argentina.4.a
+		ai_chance = { factor = 65 }
+		kill_country_leader = yes
+		set_politics = { ruling_party = right_wing_populist elections_allowed = no }
+		create_country_leader = {
+			name = "Matías Sanchez Sorondo"
+			desc = "POLITICS_MATIAS_SANCHEZ_SORONDO_DESC"
+			picture = "Portrait_Argentina_Sanchez_Sorondo.dds"
+			expire = "1965.1.1"
+			ideology = national_corporatist_subtype
+			traits = {
+				#
+			}
+		}
+	}
+	option = {
+		name = argentina.4.b
+		ai_chance = { factor = 35 }
+		kill_country_leader = yes
+		set_politics = { ruling_party = right_wing_populist elections_allowed = no }
+		create_country_leader = {
+			name = "Hector Benigno Varela"
+			desc = "POLITICS_BENIGNO_VARELA_DESC"
+			picture = "Portrait_Argentina_Benigno_Varela.dds"
+			expire = "1965.1.1"
+			ideology = right_wing_populist_subtype
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "Matías Sanchez Sorondo"
+			desc = "POLITICS_MATIAS_SANCHEZ_SORONDO_DESC"
+			picture = "Portrait_Argentina_Sanchez_Sorondo.dds"
+			expire = "1965.1.1"
+			ideology = national_corporatist_subtype
+			traits = {
+				#
+			}
+		}
+	}
+}
