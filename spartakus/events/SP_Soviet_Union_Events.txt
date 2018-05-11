@@ -1,0 +1,46 @@
+add_namespace = lenin_death
+
+news_event = {
+
+	id = lenin_death.0
+	title = lenin_death.0.t
+	desc = lenin_death.0.d
+	picture = GFX_Lenin_Death 
+	major = yes
+	fire_only_once = yes 
+	
+	is_triggered_only = yes
+	
+	hidden_effect = {
+		immediate = {
+			country_event { id = lenin_death.1 days = 2 }
+		}
+	}
+	
+	option = { 
+		trigger = { tag = SOV
+		}
+		name = lenin_death.0.a
+	}
+	
+	option = { 
+		trigger = {
+			NOT = { tag = SOV }
+			has_socialist_government = yes
+		}
+		name = lenin_death.0.b
+	}
+	
+	option = { 
+		trigger = {
+			NOT = {
+				OR = {
+					tag = SOV
+					has_socialist_government = yes
+				}
+			}
+		}
+		name = lenin_death.0.c
+	}
+        
+}

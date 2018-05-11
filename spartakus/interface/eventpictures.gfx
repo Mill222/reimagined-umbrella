@@ -59,6 +59,11 @@ spriteTypes = {
 		name = "GFX_darkestday9"
 		texturefile = "gfx/event_pictures/darkestday9.dds"
 	}
+	
+		spriteType = {
+		name = "GFX_Lenin_Death"
+		texturefile = "gfx/event_pictures/GFX_Lenin_Death.dds"
+	}
 
 	spriteType = {
 		name = "GFX_report_event_generic_funeral"
