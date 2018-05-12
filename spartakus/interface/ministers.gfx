@@ -18648,6 +18648,11 @@ spriteTypes = {
 		name = "GFX_idea_CHL_Marmaduke_Grove_hog_mar"
 		texturefile = "gfx/interface/ministers/CHL/CHL_Marmaduke_Grove.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_CHL_Manuel_Hidalgo_hog_mar"
+		texturefile = "gfx/interface/ministers/CHL/CHL_Manuel_Hidalgo.tga"
+	}
 
 	spriteType = {
 		name = "GFX_idea_CHL_Salvador_Allende_hog_rev"
@@ -18678,6 +18683,11 @@ spriteTypes = {
 		name = "GFX_idea_CHL_Pedro_Aguirre_Cerda_hog_sde"
 		texturefile = "gfx/interface/ministers/CHL/CHL_Pedro_Aguirre_Cerda.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_CHL_Carlos_Davila_hog_sde"
+		texturefile = "gfx/interface/ministers/CHL/CHL_Carlos_Davila.tga"
+	}
 
 	spriteType = {
 		name = "GFX_idea_CHL_Arturo_Alessandri_Palma_hog_sli"
@@ -18687,6 +18697,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_CHL_Emiliano_Figueroa_hog_sli"
 		texturefile = "gfx/interface/ministers/CHL/CHL_Emiliano_Figueroa.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CHL_Juan_Esteban_Montero_hog_sli"
+		texturefile = "gfx/interface/ministers/CHL/CHL_Juan_Esteban_Montero.tga"
 	}
 
 	spriteType = {
@@ -18698,6 +18713,11 @@ spriteTypes = {
 		name = "GFX_idea_CHL_Gustavo_Ross_Santa_Maria_hog_sco"
 		texturefile = "gfx/interface/ministers/CHL/CHL_Gustavo_Ross_Santa_Maria.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_CHL_Hector_Rodriguez_hog_sco"
+		texturefile = "gfx/interface/ministers/CHL/CHL_Hector_Rodriguez.tga"
+	}
 
 	spriteType = {
 		name = "GFX_idea_CHL_Manuel_Mora_Miranda_hog_sco"
@@ -18707,6 +18727,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_CHL_Carlos_Ibanez_del_Campo_hog_ade"
 		texturefile = "gfx/interface/ministers/CHL/CHL_Carlos_Ibanez_del_Campo.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CHL_Arturo_Puga_hog_ade"
+		texturefile = "gfx/interface/ministers/CHL/CHL_Arturo_Pugae.tga"
 	}
 
 	spriteType = {
@@ -18780,6 +18805,11 @@ spriteTypes = {
 		name = "GFX_idea_CHL_JRGuiterrez_Allende_for_sli"
 		texturefile = "gfx/interface/ministers/CHL/CHL_JRGuiterrez_Allende.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_CHL_Carlos_Balmaceda_Saavedra_for_sli"
+		texturefile = "gfx/interface/ministers/CHL/CHL_Carlos_Balmaceda_Saavedra.tga"
+	}
 
 	spriteType = {
 		name = "GFX_idea_CHL_Miguel_Cruchaga_Tocornal_for_sli"
@@ -18826,6 +18856,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_CHL_Aurelio_Celedon_Palma_eco_rev"
 		texturefile = "gfx/interface/ministers/CHL/CHL_Aurelio_Celedon_Palma.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CHL_Marco_Antonio_de_la_Cuadra_eco_dso"
+		texturefile = "gfx/interface/ministers/CHL/CHL_Marco_Antonio_de_la_Cuadra.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CHL_Marmaduke_Grove_eco_dso"
+		texturefile = "gfx/interface/ministers/CHL/CHL_Marmaduke_Grove.tga"
 	}
 
 	spriteType = {
@@ -18968,6 +19008,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_CHL_Abraham_Ortega_Aguayo_sec_sli"
 		texturefile = "gfx/interface/ministers/CHL/CHL_Abraham_Ortega_Aguayo.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CHL_Manuel_Trucco_sec_sli"
+		texturefile = "gfx/interface/ministers/CHL/CHL_Manuel_Trucco.tga"
 	}
 
 	spriteType = {
