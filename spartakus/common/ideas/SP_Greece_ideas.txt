@@ -1,12 +1,7 @@
 ### Greek Ideas ###
 
 ideas = {
-##############
-# Country
-##############
-
-
-country = {
+	country = {
 	#Start
 	GRE_unstable_government = {
 			allowed = { always = no }
@@ -23,7 +18,7 @@ country = {
 		allowed = {always = no}
 		modifier = {
          		conscription_factor = -0.010 
-				conscription = -0.05 
+				conscription = -0.0020 
 				stability_factor = -0.05  }
 		removal_cost = -1
 		picture = FRA_scw_intervention_republicans_focus
@@ -40,5 +35,14 @@ country = {
 			}
 		removal_cost = -1
 		picture = anti_soviet_pact
+	}
+
+	GRE_greece_never_dies = {
+		allowed = {always = no}
+		modifier = {
+					army_core_defence_factor = 0.20
+			        army_core_attack_factor = 0.10
+		removal_cost = -1
+		picture = generic_victors_of_ww1
 	}
 }

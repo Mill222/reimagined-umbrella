@@ -50,8 +50,8 @@ division_template = {
 
 units = {
 	######## Ellinikó Genikó Epiteleío ########
-	division = { # "V Merarchía Pezikoú"
-		division_name = {
+	division = {
+		division_name = "V Merarchía Pezikoú"
 				is_name_ordered = yes
 				name_order = 5
 		}
@@ -61,8 +61,8 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-	division = { # "VIII Merarchía Pezikoú"
-		division_name = {
+	division = {
+		division_name = "VIII Merarchía Pezikoú"
 				is_name_ordered = yes
 				name_order = 8
 		}
@@ -82,8 +82,8 @@ units = {
 	}
 
 	# A Sóma Stratoú
-	division = { # "II Merarchía Pezikoú"
-		division_name = {
+	division = { 
+		division_name = "II Merarchía Pezikoú"
 				is_name_ordered = yes
 				name_order = 2
 		}
@@ -93,8 +93,8 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division = { # "III Merarchía Pezikoú"
-		division_name = {
+	division = { 
+		division_name = "III Merarchía Pezikoú"
 				is_name_ordered = yes
 				name_order = 3
 		}
@@ -104,8 +104,8 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-	division = { # "IV Merarchía Pezikoú"
-		division_name = {
+	division = {
+		division_name = "IV Merarchía Pezikoú"
 				is_name_ordered = yes
 				name_order = 4
 		}
@@ -117,8 +117,8 @@ units = {
 	}
 
 	# B Sóma Stratoú
-	division = { # "I Merarchía Pezikoú"
-		division_name = {
+	division = {
+		division_name = "I Merarchía Pezikoú"
 				is_name_ordered = yes
 				name_order = 1
 		}
@@ -128,10 +128,10 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division = { # "IX Merarchía Pezikoú"
-		division_name = {
+	division = {
+		division_name = "IX Merarchía Pezikoú"
 				is_name_ordered = yes
-				name_order = 9
+				name_order =9
 		}
 		location = 966
 		division_template = "Trigonikó Pezikoú" 
@@ -141,8 +141,8 @@ units = {
 	}
 
 	# C Sóma Stratoú
-	division = { # "VI Merarchía Pezikoú"
-		division_name = {
+	division = {
+		division_name = "VI Merarchía Pezikoú"
 				is_name_ordered = yes
 				name_order = 6
 		}
@@ -152,8 +152,8 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
-	division = { # "X Merarchía Pezikoú"
-		division_name = {
+	division = {
+		division_name = "X Merarchía Pezikoú"
 				is_name_ordered = yes
 				name_order = 10
 		}
@@ -163,8 +163,8 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-	division = { # "XI Merarchía Pezikoú"
-		division_name = {
+	division = {
+		division_name = "XI Merarchía Pezikoú"
 				is_name_ordered = yes
 				name_order = 11
 		}
@@ -176,8 +176,8 @@ units = {
 	}
 
 	# D Sóma Stratoú
-	division = { # "VII Merarchía Pezikoú"
-		division_name = {
+	division = {
+		division_name = "VII Merarchía Pezikoú"
 				is_name_ordered = yes
 				name_order = 7
 		}
@@ -186,11 +186,9 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
-	}
-
-	# E Sóma Stratoú
-	division = { # "XII Merarchía Pezikoú"
-		division_name = {
+	
+	division = {
+		division_name = "XII Merarchía Pezikoú"
 				is_name_ordered = yes
 				name_order = 12
 		}
@@ -198,92 +196,114 @@ units = {
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
+	}
 		
 	# E Sóma Stratoú
-	division = { # "XIII Merarchía Pezikoú"
-		division_name = {
+	division = {
+		division_name = "XIII Merarchía Pezikoú"
 				is_name_ordered = yes
-				name_order = 12
+				name_order = 13
 		}
 		location = 6895
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-		
-	# E Sóma Stratoú
-	division = { # "XIV Merarchía Pezikoú"
-		division_name = {
+	}	
+	division = {
+		division_name = "XIV Merarchía Pezikoú"
 				is_name_ordered = yes
-				name_order = 12
+				name_order = 14
 		}
 		location = 922
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-		
-	# E Sóma Stratoú
-	division = { # "XV Merarchía Pezikoú"
-		division_name = {
+	}	
+	division = {
+		division_name = "XV Merarchía Pezikoú"
 				is_name_ordered = yes
-				name_order = 12
+				name_order = 15
 		}
 		location = 3893
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-		
-	# E Sóma Stratoú
-	division = { # "XVI Merarchía Pezikoú"
-		division_name = {
+	}	
+	division = {
+		division_name = "XVI Merarchía Pezikoú"
 				is_name_ordered = yes
-				name_order = 12
+				name_order = 16
 		}
 		location = 4112
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-	
-	# E Sóma Stratoú
-	division = { # "XVII Merarchía Pezikoú"
-		division_name = {
+	}
+	division = {
+		division_name = "XVII Merarchía Pezikoú"
 				is_name_ordered = yes
-				name_order = 12
+				name_order = 17
 		}
 		location = 8435
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-		
+	}	
+	division = {
+		division_name = "XVIII Merarchía Pezikoú"
+				is_name_ordered = yes
+				name_order = 16
+		}
+		location = 4112
+		division_template = "Trigonikó Pezikoú" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+			division = {
+		division_name = "XVIX Merarchía Pezikoú"
+				is_name_ordered = yes
+				name_order = 16
+		}
+		location = 8435
+		division_template = "Trigonikó Pezikoú" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
 
 	}
+			division = {
+		division_name = "XX Merarchía Pezikoú"
+				is_name_ordered = yes
+				name_order = 16
+		}
+		location = 8435
+		division_template = "Trigonikó Pezikoú" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+}
 
 	##### NAVAL UNITS #####
 	navy = {					
 		name = "Vasilikó Polemikó Naftikó"				
 		base = 4109
-		location = 4109 # Athens
-		ship = { name = "RHS Georgios Averof" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GRE } } }				
-		ship = { name = "RHS Elli" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GRE } } }				
-		# Destroyer Flotilla
-		ship = { name = "RHS Aetos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }		
-		ship = { name = "RHS Ierax" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }		
-		ship = { name = "RHS Leon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }		
-		ship = { name = "RHS Panthir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }		
+		location = 4109
+		ship = { name = "RHS Georgios Averof" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GRE } } }
+		ship = { name = "RHS Elli" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GRE } } }
+		ship = { name = "RHS Aetos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }
+		ship = { name = "RHS Ierax" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }
+		ship = { name = "RHS Leon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }
+		ship = { name = "RHS Panthir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }
 		ship = { name = "RHS Kountouriotis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
 		ship = { name = "RHS Hydra" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
 		ship = { name = "RHS Psara" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
 		ship = { name = "RHS Spetsai" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
-	}					
-	navy = {					
-		name = "Stolískou Ypovrychíon"				
-		base = 4109 
-		location = 4109 # Athens
-		ship = { name = "RHS Katsonis" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		
-		ship = { name = "RHS Papanikolis" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		
-		ship = { name = "RHS Protefs" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		
-		ship = { name = "RHS Nirefs" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		 
-		ship = { name = "RHS Triton" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		
-		ship = { name = "RHS Glafkos" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "RHS Katsonis" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }
+		ship = { name = "RHS Papanikolis" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }
+		ship = { name = "RHS Protefs" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }
+		ship = { name = "RHS Nirefs" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }
+		ship = { name = "RHS Triton" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }
+		ship = { name = "RHS Glafkos" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }
 	}					
 
 }
