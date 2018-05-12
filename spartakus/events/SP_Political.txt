@@ -2082,8 +2082,8 @@ country_event = {
 			every_country = {
 				limit = {
 					OR = {
-						has_democratic_government = yes
-						has_dictatorship_government = yes
+						has_elected_government = yes
+						has_authoritarian_government = yes
 					}
 				}
 				add_opinion_modifier = {
@@ -2094,11 +2094,11 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_democratic_government = yes
+				has_elected_government = yes
 			}
 			every_country = {
 				limit = {
-					has_democratic_government = yes
+					has_elected_government = yes
 					NOT = { has_same_government_as_ROOT = yes }
 				}
 				add_opinion_modifier = {
@@ -2110,7 +2110,7 @@ country_event = {
 				limit = {
 					OR = {
 						has_socialist_government = yes
-						has_dictatorship_government = yes
+						has_authoritarian_government = yes
 					}
 				}
 				add_opinion_modifier = {
@@ -2121,11 +2121,11 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dictatorship_government = yes
+				has_authoritarian_government = yes
 			}
 			every_country = {
 				limit = {
-					has_dictatorship_government = yes
+					has_authoritarian_government = yes
 					NOT = { has_same_government_as_ROOT = yes }
 				}
 				add_opinion_modifier = {
@@ -2136,7 +2136,7 @@ country_event = {
 			every_country = {
 				limit = {
 					OR = {
-						has_democratic_government = yes
+						has_elected_government = yes
 						has_socialist_government = yes
 					}
 				}
@@ -2380,8 +2380,8 @@ country_event = {
 			every_country = {
 				limit = {
 					OR = {
-						has_democratic_government = yes
-						has_dictatorship_government = yes
+						has_elected_government = yes
+						has_authoritarian_government = yes
 					}
 				}
 				add_opinion_modifier = {
@@ -2396,11 +2396,11 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_democratic_government = yes
+				has_elected_government = yes
 			}
 			every_country = {
 				limit = {
-					has_democratic_government = yes
+					has_elected_government = yes
 					NOT = { has_same_government_as_ROOT = yes }
 				}
 				add_opinion_modifier = {
@@ -2416,7 +2416,7 @@ country_event = {
 				limit = {
 					OR = {
 						has_socialist_government = yes
-						has_dictatorship_government = yes
+						has_authoritarian_government = yes
 					}
 				}
 				add_opinion_modifier = {
@@ -2431,11 +2431,11 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dictatorship_government = yes
+				has_authoritarian_government = yes
 			}
 			every_country = {
 				limit = {
-					has_dictatorship_government = yes
+					has_authoritarian_government = yes
 					NOT = { has_same_government_as_ROOT = yes }
 				}
 				add_opinion_modifier = {
@@ -2450,7 +2450,7 @@ country_event = {
 			every_country = {
 				limit = {
 					OR = {
-						has_democratic_government = yes
+						has_elected_government = yes
 						has_socialist_government = yes
 					}
 				}

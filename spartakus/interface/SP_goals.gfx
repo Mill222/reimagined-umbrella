@@ -1,4 +1,113 @@
 spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_goal_new_burgundy"
+		texturefile = "gfx/interface/goals/goal_new_burgundy.dds"
+				
+	}
+	SpriteType = {
+		name = "GFX_goal_new_burgundy2"
+		texturefile = "gfx/interface/goals/goal_new_burgundy2.dds"
+				
+	}	
+	SpriteType = {
+		name = "GFX_goal_Rexism"
+		texturefile = "gfx/interface/goals/goal_Rexism.dds"
+				
+	}
+	SpriteType = {
+		name = "GFX_goal_Verdinaso"
+		texturefile = "gfx/interface/goals/goal_Verdinaso.dds"
+				
+	}	
+	SpriteType = {
+		name = "GFX_goal_light_tanks"
+		texturefile = "gfx/interface/goals/goal_light_tanks.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_tungsten"
+		texturefile = "gfx/interface/goals/goal_tungsten.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_tungsten_mining"
+		texturefile = "gfx/interface/goals/goal_tungsten_mining.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_fortify_city_AA"
+		texturefile = "gfx/interface/goals/goal_fortify_city_AA.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_BEL_secure_africa_cog"
+		texturefile = "gfx/interface/goals/focus_BEL_secure_africa_cog.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_military_agreement_germany"
+		texturefile = "gfx/interface/goals/goal_military_agreement_germany.dds"			
+	}		
+	SpriteType = {
+		name = "GFX_goal_communist_brigades"
+		texturefile = "gfx/interface/goals/goal_communist_brigades.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_focus_communist_army"
+		texturefile = "gfx/interface/goals/goal_focus_communist_army.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_BEL_linguistic_military_division"
+		texturefile = "gfx/interface/goals/goal_BEL_linguistic_military_division.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_BEL_thiois_empire"
+		texturefile = "gfx/interface/goals/goal_BEL_thiois_empire.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_BEL_dietsche_rijk"
+		texturefile = "gfx/interface/goals/goal_BEL_dietsche_rijk.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_BEL_belgium_first"
+		texturefile = "gfx/interface/goals/goal_BEL_belgium_first.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_BEL_support_democracy"
+		texturefile = "gfx/interface/goals/goal_BEL_support_democracy.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_BEL_allies"
+		texturefile = "gfx/interface/goals/goal_BEL_allies.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_BEL_british_ship_designs"
+		texturefile = "gfx/interface/goals/goal_BEL_british_ship_designs.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_BEL_belgian_rearmement"
+		texturefile = "gfx/interface/goals/goal_BEL_belgian_rearmement.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_benelux"
+		texturefile = "gfx/interface/goals/goal_benelux.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_VLA_VNV"
+		texturefile = "gfx/interface/goals/goal_VLA_vnv.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_VLA_AVV_VVK"
+		texturefile = "gfx/interface/goals/goal_VLA_AVV_VVK.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_VLA_Strijdvlag"
+		texturefile = "gfx/interface/goals/goal_VLA_Strijdvlag.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_VLA_Armed_Lion"
+		texturefile = "gfx/interface/goals/goal_VLA_Armed_Lion.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_WLL_wallonia"
+		texturefile = "gfx/interface/goals/goal_WLL_wallonia.dds"			
+	}	
 	
 	SpriteType = {
 		name = "GFX_POR_flag"

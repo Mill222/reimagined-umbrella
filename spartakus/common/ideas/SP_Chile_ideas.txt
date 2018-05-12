@@ -71,7 +71,7 @@ air_naval_manufacturer = {
 ### Head of Government ###
 	head_of_government = {
 	
-		CHL_manuel_hidalgo_hog = {
+		CHL_Manuel_Hidalgo_hog_mar = {
 			allowed = { original_tag = CHL }
 			visible = {
 				marxist_allowed = yes
@@ -88,7 +88,7 @@ air_naval_manufacturer = {
 			cancel_if_invalid = no
 		}
 		
-		CHL_carlos_davila_hog = { 
+		CHL_Carlos_Davila_hog_sde = { 
 			allowed = { original_tag = CHL }
 			visible = {
 				social_democrat_allowed = yes
@@ -105,7 +105,7 @@ air_naval_manufacturer = {
 			cancel_if_invalid = no
 		}
 		
-		CHL_juan_esteban_montero_hog = { 
+		CHL_Juan_Esteban_Montero_hog_sli = { 
 			allowed = { original_tag = CHL }
 			visible = {
 				social_liberal_allowed = yes
@@ -122,7 +122,7 @@ air_naval_manufacturer = {
 			cancel_if_invalid = no
 		}
 		
-		CHL_hector_rodriguez_hog = {
+		CHL_Hector_Rodriguez_hog_sco = {
 			allowed = { original_tag = CHL }
 			visible = {
 				social_conservative_allowed = yes
@@ -139,10 +139,9 @@ air_naval_manufacturer = {
 			cancel_if_invalid = no
 		}
 		
-		CHL_arturo_puga_hog = { 
+		CHL_Arturo_Puga_hog_ade = { 
 			allowed = { original_tag = CHL }
 			visible = {
-				democratic_socialist_allowed = yes
 				authoritarian_democrat_allowed = yes
 				NOT = {has_country_flag = Arturo_Puga_dead}
 			}
@@ -161,12 +160,10 @@ air_naval_manufacturer = {
 	
 	foreign_minister = {
 		
-		CHL_carlos_balmaceda_saavedra_for = {
+		CHL_Carlos_Balmaceda_Saavedra_for_sli = {
 			allowed = { original_tag = CHL }
 			visible = {
-				social_democrat_allowed = yes
 				social_liberal_allowed = yes
-				liberal_conservative_allowed = yes
 				NOT = {has_country_flag = Carlos_Saavedra_dead}
 			}
 			traits = {
@@ -181,12 +178,10 @@ air_naval_manufacturer = {
 	
 	economy_minister = {
 
-		CHL_marco_antonio_de_la_cuadra_eco = {
+		CHL_Marco_Antonio_de_la_Cuadra_eco_dso = {
 			allowed = { original_tag = CHL }
 			visible = {
-				social_democrat_allowed = yes
 				social_liberal_allowed = yes
-				liberal_conservative_allowed = yes
 				NOT = {has_country_flag = Marco_de_la_Cuadra_dead}
 			}
 			traits = {
@@ -197,14 +192,10 @@ air_naval_manufacturer = {
 			cancel_if_invalid = no
 		}
 		
-		CHL_marmaduke_grove_eco = {
+		CHL_Marmaduke_Grove_eco_dso = {
 			allowed = { original_tag = CHL }
 			visible = {
-				leninist_allowed = yes
-				marxist_allowed = yes
-				revolutionary_socialist_allowed = yes
 				democratic_socialist_allowed = yes
-				social_democrat_allowed = yes
 				NOT = {has_country_flag = Marco_de_la_Cuadra_dead}
 			}
 			traits = {
@@ -219,12 +210,10 @@ air_naval_manufacturer = {
 		
 	security_minister = {
 	
-		CHL_manuel_trucco_sec = {
+		CHL_Manuel_Trucco_sec_sli = {
 			allowed = { original_tag = CHL }
 			visible = {
-				social_democrat_allowed = yes
 				social_liberal_allowed = yes
-				liberal_conservative_allowed = yes
 				NOT = {has_country_flag = Manuel_Trucco_dead}
 			}
 			traits = {

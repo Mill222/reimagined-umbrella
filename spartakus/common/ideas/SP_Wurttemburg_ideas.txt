@@ -180,7 +180,7 @@ weapons_manufacturer = {
 			original_tag = WUR
 		}
 		available = {
-			has_completed_focus = WUR_Mauser_werke
+			has_completed_focus = WUR_mil_industry_1
 		}
 		traits = {
 			infantry_equipment_producer_offense_2
@@ -467,7 +467,7 @@ air_naval_manufacturer = {
 		}
 		available = {
 			NOT = {
-				has_completed_focus = WUR_siemens
+				has_completed_focus = WUR_civ_industry
 			}
 		}
 		traits = {
@@ -484,7 +484,7 @@ air_naval_manufacturer = {
 			original_tag = WUR
 		}
 		available = {
-			has_completed_focus = WUR_siemens
+			has_completed_focus = WUR_civ_industry
 		}
 		traits = {
 			bomber_producer_defense_2

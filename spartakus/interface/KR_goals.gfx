@@ -6,11 +6,6 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_AUS_tanks"
-		texturefile = "gfx/interface/goals/AUS_tank.dds"
-	}
-
-	SpriteType = {
 		name = "GFX_focus_empty_coffers"
 		texturefile = "gfx/interface/goals/empty_coffers.dds"
 	}
@@ -835,26 +830,6 @@ spriteTypes = {
 	}
 
 	###### USA ######
-	SpriteType = {
-		name = "GFX_goal_USA_president_reed"
-		texturefile = "gfx/interface/goals/USA_goal_reed.dds"
-	}
-	SpriteType = {
-		name = "GFX_goal_USA_president_long"
-		texturefile = "gfx/interface/goals/USA_goal_long.dds"
-	}
-	SpriteType = {
-		name = "GFX_goal_USA_president_garner"
-		texturefile = "gfx/interface/goals/USA_goal_garner.dds"
-	}
-	SpriteType = {
-		name = "GFX_goal_USA_president_curtis"
-		texturefile = "gfx/interface/goals/USA_goal_curtis.dds"
-	}
-	SpriteType = {
-		name = "GFX_goal_USA_general_macarthur"
-		texturefile = "gfx/interface/goals/USA_goal_macarthur.dds"
-	}
 
 	SpriteType = {
 		name = "GFX_goal_USA_new_deal"
@@ -1306,22 +1281,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_india_kaisar.dds"
 	}
 	SpriteType = {
-		name = "GFX_goal_italy_pius"
-		texturefile = "gfx/interface/goals/ITA_goal_Pius.dds"
-	}
-	SpriteType = {
-		name = "GFX_goal_italy_stephen"
-		texturefile = "gfx/interface/goals/ITA_goal_Stephen.dds"
-	}
-	SpriteType = {
-		name = "GFX_goal_italy_julius"
-		texturefile = "gfx/interface/goals/ITA_goal_Julius.dds"
-	}
-	SpriteType = {
-		name = "GFX_goal_italy_john"
-		texturefile = "gfx/interface/goals/ITA_goal_John.dds"
-	}
-	SpriteType = {
 		name = "GFX_goal_uobritain"
 		texturefile = "gfx/interface/goals/goal_flag_uobritain.dds"
 	}
@@ -1476,10 +1435,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_lithuania"
 		texturefile = "gfx/interface/goals/goal_flag_lithuania.dds"
-	}
-	SpriteType = {
-		name = "GFX_goal_mittelafrika"
-		texturefile = "gfx/interface/goals/goal_flag_mittelafrika.dds"
 	}
 	SpriteType = {
 		name = "GFX_goal_sierra_leone"
@@ -1931,11 +1886,6 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_caribbean"
-		texturefile = "gfx/interface/goals/goal_Caribbean.dds"
-	}
-
-	SpriteType = {
 		name = "GFX_goal_SOM_stand_ready"
 		texturefile = "gfx/interface/goals/goal_SOM_stand_ready.dds"
 	}
@@ -1988,10 +1938,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_new_england_crown"
 		texturefile = "gfx/interface/goals/new_england_2.dds"
-	}
-	SpriteType = {
-		name = "GFX_goal_australasia_flag"
-		texturefile = "gfx/interface/goals/Australasia.dds"
 	}
 
 	SpriteType = {
@@ -2824,10 +2770,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/FLN_Dismantle_French_Education.dds"
 	}
 	SpriteType = {
-		name = "GFX_goal_BEL_Adalbert_Dream"
-		texturefile = "gfx/interface/goals/BEL_Adalbert_Dream.dds"
-	}
-	SpriteType = {
 		name = "GFX_goal_BEL_Battleship_Investements"
 		texturefile = "gfx/interface/goals/BEL_Battleship_Investements.dds"
 	}
@@ -3594,63 +3536,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_ITA_urban.tga"
 	}
 
-	### Dahomey ###
 	SpriteType = {# 
-		name = "GFX_DAH_stand_our_own"
-		texturefile = "gfx/interface/goals/DAH_stand_our_own.dds"
+		name = "GFX_goal_admin_bribe"
+		texturefile = "gfx/interface/goals/goal_admin_bribe.dds"
 	}
 	SpriteType = {# 
-		name = "GFX_DAH_toll"
-		texturefile = "gfx/interface/goals/DAH_toll.dds"
+		name = "GFX_FRA_Production"
+		texturefile = "gfx/interface/goals/FRA_Production.dds"
 	}
 	SpriteType = {# 
-		name = "GFX_DAH_Expel"
-		texturefile = "gfx/interface/goals/DAH_Expel.dds"
+		name = "FRA_Cooperation"
+		texturefile = "gfx/interface/goals/FRA_Cooperation.dds"
 	}
-	SpriteType = {# 
-		name = "GFX_DAH_Topke"
-		texturefile = "gfx/interface/goals/DAH_Topke.dds"
-	}
-	SpriteType = {# 
-		name = "GFX_DAH_No_German"
-		texturefile = "gfx/interface/goals/DAH_No_German.dds"
-	}
-	SpriteType = {# 
-		name = "GFX_DAH_FR_Prod"
-		texturefile = "gfx/interface/goals/DAH_FR_Prod.dds"
-	}
-	SpriteType = {# 
-		name = "GFX_DAH_Uni"
-		texturefile = "gfx/interface/goals/DAH_Uni.dds"
-	}
-	SpriteType = {# 
-		name = "GFX_DAH_Strip"
-		texturefile = "gfx/interface/goals/DAH_Strip.dds"
-	}
-	SpriteType = {# 
-		name = "DAH_Thicc_Navy"
-		texturefile = "gfx/interface/goals/DAH_Thicc_Navy.dds"
-	}	
-	SpriteType = {# 
-		name = "DAH_Fra_Cop"
-		texturefile = "gfx/interface/goals/DAH_Fra_Cop.dds"
-	}
-	SpriteType = {# 
-		name = "DAH_Agaja"
-		texturefile = "gfx/interface/goals/DAH_Agaja.dds"
-	}
-	SpriteType = {# 
-		name = "DAH_arms_trade"
-		texturefile = "gfx/interface/goals/DAH_arms_trade.dds"
-	}
-	SpriteType = {# 
-		name = "DAH_leadering_leaders"
-		texturefile = "gfx/interface/goals/DAH_leadering_leaders.dds"
-	}
-	SpriteType = {# 
-		name = "DAH_Amazons"
-		texturefile = "gfx/interface/goals/DAH_Amazons.dds"
-	}
+	
 	### Greece Icons ###
 	SpriteType = {
 		name = "GFX_GRE_new_expansionism"
@@ -4013,26 +3911,6 @@ spriteTypes = {
 	SpriteType = {# United Arab Emirates
 		name = "GFX_goal_United_Arab_Emirates"
 		texturefile = "gfx/interface/goals/United_Arab_Emirates.dds"
-	}
-	SpriteType = {# Elect an Al-Nahyan
-		name = "GFX_goal_Elect_an_Al_Nahyan"
-		texturefile = "gfx/interface/goals/Elect_an_Al_Nahyan.dds"
-	}
-	SpriteType = {# Elect a Howleitat
-		name = "GFX_goal_Elect_a_Howleitat"
-		texturefile = "gfx/interface/goals/Elect_a_Howleitat.dds"
-	}
-	SpriteType = {# Elect a Sabah
-		name = "GFX_goal_Elect_a_Sabah"
-		texturefile = "gfx/interface/goals/Elect_a_Sabah.dds"
-	}
-	SpriteType = {# Elect a Hashemite
-		name = "GFX_goal_Elect_a_Hashemite"
-		texturefile = "gfx/interface/goals/Elect_a_Hashemite.dds"
-	}
-	SpriteType = {# Elect a Rashidi
-		name = "GFX_goal_Elect_a_Rashidi"
-		texturefile = "gfx/interface/goals/Elect_a_Rashidi.dds"
 	}
 	SpriteType = {# Pan Arabism
 		name = "GFX_goal_Pan_Arabism"
