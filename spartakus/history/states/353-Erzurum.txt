@@ -13,25 +13,29 @@ state={
 			infrastructure = 3
 			air_base = 1
 			industrial_complex = 1
-			
 			652 = {
 				bunker = 3
+
 			}
 			7470 = {
 				bunker = 2
+
 			}
 			4583 = {
 				bunker = 1
+
 			}
 			11853 = {
 				bunker = 1
+
 			}
+
 		}
 
 	}
 
 	provinces={
-		652 4583 7470 9858 9954 10399 11853 11880 
+		652 4583 7470 11853 11880 
 	}
 	manpower=523537
 	buildings_max_level_factor=1.000

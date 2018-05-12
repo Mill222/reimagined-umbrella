@@ -82,10 +82,10 @@ set_war_support = 0.6
 
 add_ideas = CHL_great_depression
 add_ideas = CHL_political_chaos
-add_ideas = CHL_juan_esteban_montero_hog
-add_ideas = CHL_carlos_balmaceda_saavedra_for
-add_ideas = CHL_marco_antonio_de_la_cuadra_eco
-add_ideas = CHL_manuel_trucco_sec
+add_ideas = CHL_Juan_Esteban_Montero_hog_sli
+add_ideas = CHL_Carlos_Balmaceda_Saavedra_for_sli
+add_ideas = CHL_Marco_Antonio_de_la_Cuadra_eco_dso
+add_ideas = CHL_Manuel_Trucco_sec_sli
 
 create_country_leader = {
 	name = "Arturo Alessandri"
