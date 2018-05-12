@@ -262,7 +262,7 @@ units = {
 			division = {
 		division_name = "XVIX Merarchía Pezikoú"
 				is_name_ordered = yes
-				name_order = 16
+				name_order = 18
 		}
 		location = 8435
 		division_template = "Trigonikó Pezikoú" 
@@ -273,7 +273,7 @@ units = {
 			division = {
 		division_name = "XX Merarchía Pezikoú"
 				is_name_ordered = yes
-				name_order = 16
+				name_order = 19
 		}
 		location = 8435
 		division_template = "Trigonikó Pezikoú" 
@@ -281,23 +281,68 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
+	        division = {
+		division_name = "XXI Merarchia Pezikoú"
+				is_name_ordered = yes
+				name_order =20
+		}
+		location = 966
+		division_template = "Trigonikó Pezikoú" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+            division = {
+		division_name = "XXII Merarchia Pezikoú"
+				is_name_ordered = yes
+				name_order =21
+		}
+		location = 966
+		division_template = "Trigonikó Pezikoú" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+
+	}
+	        division = {
+		division_name = "XXIII Merarchia Pezikoú"
+				is_name_ordered = yes
+				name_order =22
+		}
+		location = 966
+		division_template = "Trigonikó Pezikoú" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+
+	}
 }
 
 	##### NAVAL UNITS #####
-	navy = {					
+	navy = {		
 		name = "Vasilikó Polemikó Naftikó"				
 		base = 4109
-		location = 4109
+		location = 4109 # Athína
 		ship = { name = "RHS Georgios Averof" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GRE } } }
 		ship = { name = "RHS Elli" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GRE } } }
 		ship = { name = "RHS Aetos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }
 		ship = { name = "RHS Ierax" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }
 		ship = { name = "RHS Leon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }
 		ship = { name = "RHS Panthir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }
+	}
+	navy = {				
+		name = "Ýdra Naftikó"			
+		base = 9940
+		location = 9940 # Heraklion
 		ship = { name = "RHS Kountouriotis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
 		ship = { name = "RHS Hydra" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
 		ship = { name = "RHS Psara" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
 		ship = { name = "RHS Spetsai" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
+	}
+	navy = {				
+		name = "Agéli Lýkon"
+		base = 11818 
+		location = 11818 # Thessaloniki
 		ship = { name = "RHS Katsonis" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }
 		ship = { name = "RHS Papanikolis" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }
 		ship = { name = "RHS Protefs" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }
