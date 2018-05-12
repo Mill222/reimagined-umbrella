@@ -1,0 +1,44 @@
+### Greek Ideas ###
+
+ideas = {
+##############
+# Country
+##############
+
+
+country = {
+	#Start
+	GRE_unstable_government = {
+			allowed = { always = no }
+			modifier = {
+					consumer_goods_factor = 0.05
+					production_factory_max_efficiency_factor = -0.05
+					stability_factor = -0.10
+			}
+			removal_cost = -1
+			picture = generic_disjointed_gov
+	}
+	
+	GRE_izmir_problem = {
+		allowed = {always = no}
+		modifier = {
+         		conscription_factor = -0.010 
+				conscription = -0.05 
+				stability_factor = -0.05  }
+		removal_cost = -1
+		picture = FRA_scw_intervention_republicans_focus
+	}
+	
+	GRE_divided_military = {
+		allowed = {always = no}
+		modifier = {
+					offence = -0.05
+					army_org_factor = -0.10
+					army_morale_factor = -0.5
+					war_support_factor = -0.25
+					planning_speed = -0.25
+			}
+		removal_cost = -1
+		picture = anti_soviet_pact
+	}
+}

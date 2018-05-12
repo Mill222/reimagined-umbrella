@@ -6,6 +6,9 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	GRE_unstable_government
+	GRE_izmir_problem
+	GRE_divided_military
 }
 
 set_technology = {
@@ -22,7 +25,7 @@ set_technology = {
 	transport = 1
 }
 
-set_convoys = 10
+set_convoys = 200
 
 set_politics = {
 
@@ -74,44 +77,55 @@ set_politics = {
 set_stability = 0.75
 
 create_country_leader = {
-	name = "Ioannis Metaxas"
-	desc = "POLITICS_IOANNIS_METAXAS_DESC"
-	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
+	name = "Eleftherios Venizelos"
+	desc = "POLITICS_ELEFTHERIOS_VENIZELOS_DESC"
+	picture = "venizelos.tga"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = liberal_conservative_subtype
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Markos Vafiadis"
-	desc = "POLITICS_MARKOS_VAFIADIS_DESC"
-	picture = "Portrait_Greece_Markos_Vafiadis.dds"
+	name = "Panagis Tsaldaris"
+	desc = "POLITICS_PANAGIS_TSALDARIS_DESC"
+	picture = "Tsaldaris.tga"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Konstantinos Tsaldaris"
-	desc = "POLITICS_KONSTANTINOS_TSALDARIS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	name = "George II"
+	desc = "POLITICS_GEORGEII_DESC"
+	picture = "georgeii.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Georgios Kosmidis"
-	desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	name = "Georgios Kondylis"
+	desc = "POLITICS_GEORGIOS_KONDYLIS_DESC"
+	picture = "georgios_kondylis.tga"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = right_wing_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Officer Council"
+	desc = "POLITICS_GEORGIOS_KONDYLIS_DESC"
+	picture = "officercouncil.tga"
+	expire = "1965.1.1"
+	ideology = national_syndicalist_subtype
 	traits = {
 		#
 	}
@@ -123,10 +137,26 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	traits = { hill_fighter }
 	skill = 3
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 5
 	logistics_skill = 3
+		#
+	}
+
+create_corps_commander = {
+	name = "Napoleon Zervas"
+	portrait_path = "gfx/leaders/GRE/napoleon.tga"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+		#
+	}
+}
+
 }
 
 ### Ship Variants ###
