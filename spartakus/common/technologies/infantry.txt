@@ -1231,6 +1231,25 @@ jungle_warfare = {
 		
 ###------> Jaeger   <><> <><> <><> <><> <><>
 
+		jaeger = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		jungletroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		desertinfantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+###------> Jaeger   <><> <><> <><> <><> <><>
+
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -1295,6 +1314,25 @@ jungle_warfare = {
 			breakthrough = 0.03
 		}
 		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+###------> Jaeger   <><> <><> <><> <><> <><>
+
+		jaeger = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		jungletroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		desertinfantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		shocktroop = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
@@ -1380,6 +1418,23 @@ jungle_warfare = {
 		
 ###------> Jaeger   <><> <><> <><> <><> <><>
 
+		jungletroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+
+		desertinfantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+###------> Jaeger   <><> <><> <><> <><> <><>
+
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -1451,6 +1506,25 @@ jungle_warfare = {
 			breakthrough = 0.03
 		}
 		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+###------> Jaeger   <><> <><> <><> <><> <><>
+
+		jaeger = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		jungletroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		desertinfantry = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		shocktroop = {
 			defense = 0.03
 			breakthrough = 0.03
 		}

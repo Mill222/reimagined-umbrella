@@ -6,21 +6,6 @@ state={
 	}
 	resources={
 		rubber=8.000
-	}
-	history={
-		owner = MLY
-		victory_points = {
-			12144 1 
-		}
-		buildings = {
-			infrastructure = 2
-
-		}
-		add_core_of = MLY
-
-	}
-	resources={
-		rubber=8.000
 		steel=4.000
 		tungsten=10.000
 	}

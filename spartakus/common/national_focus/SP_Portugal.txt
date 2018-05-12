@@ -281,6 +281,8 @@ focus_tree = {
 					factor = 100
 		}
 		completion_reward = {	
+		add_ideas = POR_organic_kingdomi
+		country_event = { id = por.314 }
 		}
 	}
 	
@@ -293,6 +295,7 @@ focus_tree = {
 		y = 1
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_faith_and_state	
 		}
 	}
 	
@@ -305,7 +308,8 @@ focus_tree = {
 		y = 2
 		cost = 8.6
 		completion_reward = {	
-		army_experience = 10		
+		army_experience = 10
+        add_ideas = POR_jovens		
 		}
 	}
 		focus = {
@@ -317,6 +321,7 @@ focus_tree = {
 		y = 3
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_yournewempire	
 		}
 	}
 		focus = {
@@ -328,6 +333,7 @@ focus_tree = {
 		y = 4
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_yournewempire	
 		}
 	}
 			focus = {
@@ -340,6 +346,8 @@ focus_tree = {
 		cost = 8.6
 		completion_reward = {
 		swap_ideas = {
+			add_idea = POR_patriot_youth
+			remove_idea = POR_jovens
 			}
 		}
 	}
@@ -367,6 +375,9 @@ focus_tree = {
 		y = 3
 		cost = 8.6
 		completion_reward = {	
+		add_political_power = 60
+        add_ideas = POR_parliament_suspended
+	
 		}
 	}
 
@@ -380,6 +391,8 @@ focus_tree = {
 		cost = 8.6
 		completion_reward = {	
 		add_political_power = 60
+        add_ideas = POR_parliament_suspended
+	
 		}
 	}
 	
@@ -392,6 +405,7 @@ focus_tree = {
 		y = 1
 		cost = 8.6
 		completion_reward = {	
+		add_political_power = 100
 		}
 	}
 
@@ -404,6 +418,10 @@ focus_tree = {
 		y = 2
 		cost = 8.6
 		completion_reward = {
+		swap_ideas = {
+			add_idea = POR_reconciliation_with_north
+			remove_idea = POR_organic_kingdomi
+			}	
 		}
 	}
 
@@ -416,6 +434,7 @@ focus_tree = {
 		y = 3
 		cost = 8.6
 		completion_reward = {	
+		add_political_power = 100	
 		}
 	}
 
@@ -427,7 +446,11 @@ focus_tree = {
 		x = 2
 		y = 4
 		cost = 8.6
-		completion_reward = {			
+		completion_reward = {	
+		add_political_power = 100
+		swap_ideas = {
+			add_idea = POR_outlawed_monarchy
+			}		
 		}
 	}
 
@@ -442,6 +465,7 @@ focus_tree = {
 		y = 5
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_organic_eco
 		}
 	}
 	
@@ -472,6 +496,7 @@ focus_tree = {
 		y = 1
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_organic_eco
 		}
 	}
 
@@ -484,6 +509,7 @@ focus_tree = {
 		y = 2
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_organic_eco
 		}
 	}
 	
@@ -496,6 +522,7 @@ focus_tree = {
 		y = 1
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_organic_eco
 		}
 	}
 
@@ -508,6 +535,7 @@ focus_tree = {
 		y = 2
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_organic_eco
 		}
 	}
 	
@@ -520,6 +548,7 @@ focus_tree = {
 		y = 1
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_organic_eco
 		}
 	}
 	
@@ -532,6 +561,7 @@ focus_tree = {
 		y = 2
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_organic_eco
 		}
 	}
 	
@@ -544,6 +574,7 @@ focus_tree = {
 		y = 3
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_organic_eco
 		}
 	}
 	
@@ -695,6 +726,7 @@ focus_tree = {
 		y = 1
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_organic_eco
 		}
 	}
 
@@ -707,6 +739,7 @@ focus_tree = {
 		y = 2
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_organic_eco
 		}
 	}
 	
@@ -733,6 +766,7 @@ focus_tree = {
 		y = 1
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_organic_eco
 		}
 	}
 
@@ -745,6 +779,7 @@ focus_tree = {
 		y = 2
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_organic_eco
 		}
 	}
 	
@@ -785,6 +820,7 @@ focus_tree = {
 		y = 2
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_organic_eco
 		}
 	}
 	
@@ -797,6 +833,7 @@ focus_tree = {
 		y = 2
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_organic_eco
 		}
 	}
 	
@@ -809,6 +846,7 @@ focus_tree = {
 		y = 2
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_organic_eco
 		}
 	}
 	
@@ -1273,7 +1311,11 @@ focus_tree = {
 		x = 0
 		y = 2
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+		swap_ideas = {
+			add_idea = POR_partial_recovery
+			remove_idea = POR_black_monday
+			}		
 		}
 	}
 	
@@ -1743,6 +1785,7 @@ focus_tree = {
 		y = 5
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_milprod	
 		}
 	}
 	
@@ -1847,6 +1890,7 @@ focus_tree = {
 		y = 2
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_trainingi	
 		}
 	}
 	
@@ -1898,6 +1942,7 @@ focus_tree = {
 		y = 1
 		cost = 8.6
 		completion_reward = {	
+		add_ideas = POR_knights	
 		}
 	}
 	

@@ -140,3 +140,26 @@ CHL_popular_unity_desc:0 "Salvador Allende, a member of the more radical faction
 
 CHL_great_depression: "Great Depression"
 CHL_political_chaos:0 "Political Chaos"
+
+### Ministers ###
+
+# Head of Government #
+CHL_arturo_puga_hog:0 "Arturo Puga"
+CHL_juan_esteban_montero_hog:0 "Juan Esteban Montero"
+CHL_carlos_davila_hog:0 "Carlos Dávila" 
+CHL_manuel_hidalgo_hog:0 "Manuel Hidalgo"
+CHL_hector_rodriguez_hog:0 "Héctor Rodríguez"
+
+# Foreign Minister #
+CHL_carlos_balmaceda_saavedra_for:0 "Carlos Balmaceda Saavedra"
+CHL_luis_barriga_errazuriz_for:0 "Luis Barriga Errázuriz"
+
+# Economy Minister #
+CHL_marco_antonio_de_la_cuadra_eco:0 "Marco Antonio de la Cuadra"
+CHL_marmaduke_grove_eco:0 "Marmaduke Grove"
+CHL_victor_navarrete_senn_eco:0 "Víctor Navarrete Senn"
+
+# Security Minister # 
+CHL_manuel_trucco_sec:0 "Manuel Trucco"
+CHL_rolando_merino_reyes_sec:0 "Rolando Meriño Reyes"
+CHL_juan_antonio_rios_sec:0 "Juan Antonio Ríos"

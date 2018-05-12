@@ -3,6 +3,7 @@ state={
 	name="STATE_1017"
 	resources={
 		rubber=38.000
+		tungsten=20.000
 	}
 	provinces={
 		1348 4355 12199 
@@ -10,9 +11,6 @@ state={
 	history={
 		owner = MLY
 		add_core_of = MLY
-		victory_points = {
-			7399 1 
-		}
 		buildings = {
 			infrastructure = 2
 

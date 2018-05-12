@@ -1,4 +1,4 @@
-﻿capital = 928
+capital = 928
 
 oob = "AEF"
 

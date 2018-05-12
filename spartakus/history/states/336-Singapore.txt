@@ -2,10 +2,7 @@
 state={
 	id=336 #Singapore
 	name="STATE_336"
-	resources={
-		steel=18.000
-		tungsten=12.000
-	}
+
 	history={
 		owner = ENG
 		victory_points = {
