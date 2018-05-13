@@ -51,10 +51,7 @@ division_template = {
 units = {
 	######## Ellinikó Genikó Epiteleío ########
 	division = {
-		division_name = "V Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 5
-		}
+		name = "V Merarchía Pezikoú"
 		location = 12058
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
@@ -62,10 +59,7 @@ units = {
 
 	}
 	division = {
-		division_name = "VIII Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 8
-		}
+		name = "VIII Merarchía Pezikoú"
 		location = 3914
 		division_template = "Tetrágono Pezikoú" 
 		start_experience_factor = 0.3
@@ -83,10 +77,7 @@ units = {
 
 	# A Sóma Stratoú
 	division = { 
-		division_name = "II Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 2
-		}
+		name = "II Merarchía Pezikoú"
 		location = 4109
 		division_template = "Tetrágono Pezikoú" 
 		start_experience_factor = 0.3
@@ -94,10 +85,7 @@ units = {
 
 	}
 	division = { 
-		division_name = "III Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 3
-		}
+		name = "III Merarchía Pezikoú"
 		location = 4193
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
@@ -105,10 +93,7 @@ units = {
 
 	}
 	division = {
-		division_name = "IV Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 4
-		}
+		name = "IV Merarchía Pezikoú"
 		location = 7096
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
@@ -118,10 +103,7 @@ units = {
 
 	# B Sóma Stratoú
 	division = {
-		division_name = "I Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 1
-		}
+		name = "I Merarchía Pezikoú"
 		location = 863
 		division_template = "Tetrágono Pezikoú" 
 		start_experience_factor = 0.3
@@ -129,10 +111,7 @@ units = {
 
 	}
 	division = {
-		division_name = "IX Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order =9
-		}
+		name = "IX Merarchía Pezikoú"
 		location = 966
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
@@ -142,10 +121,7 @@ units = {
 
 	# C Sóma Stratoú
 	division = {
-		division_name = "VI Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 6
-		}
+		name = "VI Merarchía Pezikoú"
 		location = 3526
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
@@ -153,10 +129,7 @@ units = {
 
 	}
 	division = {
-		division_name = "X Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 10
-		}
+		name = "X Merarchía Pezikoú"
 		location = 10163
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
@@ -164,10 +137,7 @@ units = {
 
 	}
 	division = {
-		division_name = "XI Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 11
-		}
+		name = "XI Merarchía Pezikoú"
 		location = 11818
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
@@ -177,21 +147,15 @@ units = {
 
 	# D Sóma Stratoú
 	division = {
-		division_name = "VII Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 7
-		}
+		name = "VII Merarchía Pezikoú"
 		location = 9791
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
+	}
 	
 	division = {
-		division_name = "XII Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 12
-		}
+		name = "XII Merarchía Pezikoú"
 		location = 11774
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
@@ -200,103 +164,73 @@ units = {
 		
 	# E Sóma Stratoú
 	division = {
-		division_name = "XIII Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 13
-		}
+		name = "XIII Merarchía Pezikoú"
 		location = 6895
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}	
 	division = {
-		division_name = "XIV Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 14
-		}
+		name = "XIV Merarchía Pezikoú"
 		location = 922
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}	
 	division = {
-		division_name = "XV Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 15
-		}
+		name = "XV Merarchía Pezikoú"
 		location = 3893
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}	
 	division = {
-		division_name = "XVI Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 16
-		}
+		name = "XVI Merarchía Pezikoú"
 		location = 4112
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 	division = {
-		division_name = "XVII Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 17
-		}
+		name = "XVII Merarchía Pezikoú"
 		location = 8435
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}	
 	division = {
-		division_name = "XVIII Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 16
-		}
+		name = "XVIII Merarchía Pezikoú"
 		location = 4112
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
-			division = {
-		division_name = "XVIX Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 18
-		}
+	division = {
+		name = "XVIX Merarchía Pezikoú"
 		location = 8435
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
-			division = {
-		division_name = "XX Merarchía Pezikoú"
-				is_name_ordered = yes
-				name_order = 19
-		}
+	division = {
+		name = "XX Merarchía Pezikoú"
 		location = 8435
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
 	}
-	        division = {
-		division_name = "XXI Merarchia Pezikoú"
-				is_name_ordered = yes
-				name_order =20
-		}
+	division = {
+		name = "XXI Merarchia Pezikoú"
 		location = 966
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
-            division = {
-		division_name = "XXII Merarchia Pezikoú"
-				is_name_ordered = yes
-				name_order =21
-		}
+    division = {
+		name = "XXII Merarchia Pezikoú"
 		location = 966
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
@@ -304,19 +238,14 @@ units = {
 
 
 	}
-	        division = {
-		division_name = "XXIII Merarchia Pezikoú"
-				is_name_ordered = yes
-				name_order =22
-		}
+	division = {
+		name = "XXIII Merarchia Pezikoú"
 		location = 966
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
-
-	}
-}
+    }
 
 	##### NAVAL UNITS #####
 	navy = {		
@@ -353,8 +282,7 @@ units = {
 
 }
 
-##### No Air units -- Greece did not start to modernize air force until 1937 #####
-
+##### Air Force #####
 
 ### Starting Production ###
 instant_effect = {
