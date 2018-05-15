@@ -11,36 +11,87 @@ news_event = {
 	
 	is_triggered_only = yes
 	
-	hidden_effect = {
-		immediate = {
-			country_event { id = lenin_death.1 days = 2 }
-		}
-	}
-	
-	option = { 
-		trigger = { tag = SOV
-		}
-		name = lenin_death.0.a
-	}
-	
-	option = { 
-		trigger = {
-			NOT = { tag = SOV }
-			has_socialist_government = yes
-		}
-		name = lenin_death.0.b
-	}
-	
-	option = { 
-		trigger = {
-			NOT = {
-				OR = {
-					tag = SOV
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = {
+					NOT = { tag = SOV }
 					has_socialist_government = yes
 				}
+            country_event = { id = lenin_death.1 days = 1 }
 			}
 		}
-		name = lenin_death.0.c
 	}
-        
+	
+		option = { 
+			trigger = { tag = SOV
+			}
+			name = lenin_death.0.a
+			hidden_effect = {
+				country_event = { id = lenin_death.2 days = 2 }
+			}
+		}
+	
+		option = { 
+			trigger = {
+				NOT = { tag = SOV }
+				has_socialist_government = yes
+			}
+			name = lenin_death.0.b
+		}
+	
+		option = { 
+			trigger = {
+				NOT = {
+					OR = {
+						tag = SOV
+						has_socialist_government = yes
+					}
+				}
+			}
+			name = lenin_death.0.c
+		}
+}
+
+country_event = {
+
+	id = lenin_death.1
+	title = lenin_death.1.t
+	desc = lenin_death.1.d
+	picture = 
+	fire_only_once = yes 
+	
+	is_triggered_only = yes
+		
+		option = {
+			name = lenin_death.1.a
+			reverse_add_opinion_modifier = { target = SOV modifier = comemmoration_accepted }
+			set_country_flag = lenin_comemmoration_accepted
+		}
+		
+		option = {
+			name = lenin_death.1.b
+			set_country_flag = lenin_comemmoration_politely_declined
+		}
+		
+		option = {
+			name = lenin_death.1.c
+			reverse_add_opinion_modifier = { target = SOV modifier = comemmoration_refused }
+			set_country_flag = lenin_comemmoration_rudely_declined
+		}
+		
+	
+}
+
+country_event = { # USSR gets notified about countries' responses
+	id = lenin_death.2
+	title = lenin_death.2.t
+	desc = lenin_death.2.d
+	picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lenin_death.2.a
+	}
 }
