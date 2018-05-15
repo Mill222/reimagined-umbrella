@@ -126,4 +126,8 @@ spriteTypes = {
 		name = "GFX_goal_civil_war_lessons"
 		texturefile = "gfx/interface/goals/goal_civil_war_lessons.dds"
 	}
+	SpriteType = {
+		name = "GFX_ARG_constitution"
+		texturefile = "gfx/interface/goals/ARG_constitution.dds"
+	}
 }
