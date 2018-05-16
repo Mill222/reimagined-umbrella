@@ -353,6 +353,14 @@ country_event = { # Meeting with PCCh - Accept
 			add_to_variable = { var = CHL_coalition_members value = 1 }
 		}
 		set_country_flag = CHL_PCCh_coalition
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = leninist
+			popularity = 0.05
+		}
 	}
 }
 
@@ -372,6 +380,14 @@ country_event = { # Meeting with PCCh - PCCh Counteroffer
 		}
 		add_ideas = CHL_PCCh_concessions_balanced
 		set_country_flag = CHL_PCCh_coalition
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.075
+		}
+		add_popularity = {
+			ideology = leninist
+			popularity = 0.05
+		}
 	}
 	
 	option = { # Counter-Counteroffer
@@ -476,6 +492,14 @@ country_event = { # Meeting with PCCh - Accept Counter-Counteroffer
 		}
 		add_ideas = CHL_PCCh_concessions_minor
 		set_country_flag = CHL_PCCh_coalition
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = leninist
+			popularity = 0.05
+		}
 	}
 }
 
@@ -495,6 +519,14 @@ country_event = { # Meeting with PCCh - Decline Counter-Counteroffer
 		}
 		add_ideas = CHL_PCCh_concessions_major
 		set_country_flag = CHL_PCCh_coalition
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = leninist
+			popularity = 0.075
+		}
 	}
 	
 	option = { # Decline Expanded Terms
@@ -603,6 +635,14 @@ country_event = { # Meeting with Izquierda Comunista - Accept
 			add_to_variable = { var = CHL_coalition_members value = 1 }
 		}
 		set_country_flag = CHL_IC_coalition
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = marxist
+			popularity = 0.05
+		}
 	}
 }
 
@@ -622,6 +662,14 @@ country_event = { # Meeting with Izquierda Comunista - Izquierda Comunista Count
 		}
 		add_ideas = CHL_IC_concessions_balanced
 		set_country_flag = CHL_IC_coalition
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = marxist
+			popularity = 0.05
+		}
 	}
 	
 	option = { # Counter-Counteroffer
@@ -726,6 +774,14 @@ country_event = { # Meeting with Izquierda Comunista - Accept Counter-Counteroff
 		}
 		add_ideas = CHL_IC_concessions_minor
 		set_country_flag = CHL_IC_coalition
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = marxist
+			popularity = 0.05
+		}
 	}
 }
 
@@ -745,6 +801,14 @@ country_event = { # Meeting with Izquierda Comunista - Decline Counter-Counterof
 		}
 		add_ideas = CHL_IC_concessions_major
 		set_country_flag = CHL_IC_coalition
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = marxist
+			popularity = 0.075
+		}
 	}
 	
 	option = { # Decline Expanded Terms
@@ -853,6 +917,14 @@ country_event = { # Meeting with the Unions - Accept
 			add_to_variable = { var = CHL_coalition_members value = 1 }
 		}
 		set_country_flag = CHL_unions_coalition
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.05
+		}
 	}
 }
 
@@ -872,6 +944,14 @@ country_event = { # Meeting with the Unions - Union Counteroffer
 		}
 		add_ideas = CHL_union_concessions_balanced
 		set_country_flag = CHL_unions_coalition
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.075
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.05
+		}
 	}
 	
 	option = { # Counter-Counteroffer
@@ -976,6 +1056,14 @@ country_event = { # Meeting with the Unions - Accept Counter-Counteroffer
 		}
 		add_ideas = CHL_union_concessions_minor
 		set_country_flag = CHL_unions_coalition
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.05
+		}
 	}
 }
 
@@ -995,10 +1083,429 @@ country_event = { # Meeting with the Unions - Decline Counter-Counteroffer
 		}
 		add_ideas = CHL_union_concessions_major
 		set_country_flag = CHL_unions_coalition
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.075
+		}
 	}
 	
 	option = { # Decline Expanded Terms
 		name = chile.13.b
+	}
+}
+
+country_event = { # First Popular Unity Congress
+	id = chile.26
+	title = chile.26.t
+	desc = chile.26.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chile.26.a
+		country_event = {
+			days = 1
+			chile.27
+		}
+		hidden_effect = {
+			set_variable = { var = CHL_UP_PCCH_support value = 0 }
+			set_variable = { var = CHL_UP_IC_support value = 0 }
+			set_variable = { var = CHL_UP_unions_support value = 0 }
+			set_variable = { var = CHL_UP_PSC_support value = 0 }
+	}
+}
+
+country_event = { # First Congress - Political
+	id = chile.27
+	title = chile.27.t
+	desc = chile.27.d
+	picture = GFX_WIP
+	
+	immediate = {
+		country_event = {
+			id = chile.28
+			days = 3
+		}
+	}
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	if = {
+		limit = {
+			has_country_flag = CHL_PCCh_coalition
+		}
+		option = { # PCCh - Vanguard Party, Ban on Factionalism
+			name = chile.27.a
+			hidden_effect = {
+				add_to_variable = { var = CHL_UP_PCCH_support value = 2 }
+			}
+			add_popularity = {
+				ideology = leninist
+				popularity = 0.1
+			}
+			remove_ideas_with_trait = security_minister
+			add_ideas = CHL_Carlos_Labarca_sec_len
+		}
+	}
+	
+	if = {
+		limit = {
+			has_country_flag = CHL_IC_coalition
+		}
+		option = { # IC - Party Democracy
+			name = chile.27.b
+			hidden_effect = {
+				add_to_variable = { var = CHL_UP_IC_support value = 2 }
+			}
+			add_popularity = {
+				ideology = marxist
+				popularity = 0.1
+			}
+			remove_ideas_with_trait = security_minister
+			add_ideas = CHL_Marmaduke_Grove_sec_mar
+		}
+	}
+	
+	if = {
+		limit = {
+			has_country_flag = CHL_unions_coalition
+		}
+		option = { # Syndicalists - Trade Union Congress
+			name = chile.27.c
+			hidden_effect = {
+				add_to_variable = { var = CHL_UP_unions_support value = 2 }
+			}
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.1
+			}
+			remove_ideas_with_trait = security_minister
+			add_ideas = CHL_Cristobal_Saenz_Cerda_sec_rev
+		}
+	}
+	
+	option = { # PSC - Retain Liberal Institutions
+		name = chile.27.e
+		hidden_effect = {
+			add_to_variable = { var = CHL_UP_PSC_support value = 2 }
+		}
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.05
+		}
+		remove_ideas_with_trait = security_minister
+		add_ideas = CHL_Dario_Mujica_Gamboa_sec_sde
+	}
+}
+
+country_event = { # First Congress - Economic
+	id = chile.28
+	title = chile.28.t
+	desc = chile.28.d
+	picture = GFX_WIP
+	
+	immediate = {
+		country_event = {
+			id = chile.29
+			days = 3
+		}
+	}
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	if = {
+		limit = {
+			has_country_flag = CHL_PCCh_coalition
+		}
+		option = { # PCCh - Central Planning
+			name = chile.28.a
+			hidden_effect = {
+				add_to_variable = { var = CHL_UP_PCCH_support value = 1 }
+			}
+			add_popularity = {
+				ideology = leninist
+				popularity = 0.05
+			}
+			remove_ideas_with_trait = economy_minister
+			add_ideas = CHL_Victor_Contreras_Tapia_eco_len
+			set_country_flag = CHL_PCCh_econ
+		}
+	}
+	
+	if = {
+		limit = {
+			has_country_flag = CHL_IC_coalition
+		}
+		option = { # IC - Councilism
+			name = chile.28.b
+			hidden_effect = {
+				add_to_variable = { var = CHL_UP_IC_support value = 1 }
+			}
+			add_popularity = {
+				ideology = marxist
+				popularity = 0.05
+			}
+			remove_ideas_with_trait = economy_minister
+			add_ideas = CHL_Augustin_Edwards_eco_mar
+			set_country_flag = CHL_IC_econ
+		}
+	}
+	
+	if = {
+		limit = {
+			has_country_flag = CHL_unions_coalition
+		}
+		option = { # Syndicalists - Syndicalism
+			name = chile.28.c
+			hidden_effect = {
+				add_to_variable = { var = CHL_UP_unions_support value = 1 }
+			}
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.05
+			}
+			remove_ideas_with_trait = economy_minister
+			add_ideas = CHL_Aurelio_Celedon_Palma_eco_rev
+			set_country_flag = CHL_unions_econ
+		}
+	}
+	
+	option = { # PSC - Market Socialism
+		name = chile.28.e
+		hidden_effect = {
+			add_to_variable = { var = CHL_UP_PSC_support value = 1 }
+		}
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.05
+		}
+		remove_ideas_with_trait = economy_minister
+		add_ideas = CHL_CL_Blest_Riffo_eco_mar
+		set_country_flag = CHL_PSC_econ
+	}
+}
+
+country_event = { # First Congress - Diplomatic
+	id = chile.29
+	title = chile.29.t
+	desc = chile.29.d
+	picture = GFX_WIP
+	
+	immediate = {
+		country_event = {
+			id = chile.30
+			days = 3
+		}
+	}
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	if = {
+		limit = {
+			has_country_flag = CHL_PCCh_coalition
+		}
+		option = { # PCCh - Join the Comintern, Soviet Alignment
+			name = chile.29.a
+			hidden_effect = {
+				add_to_variable = { var = CHL_UP_PCCH_support value = 1 }
+			}
+			add_popularity = {
+				ideology = leninist
+				popularity = 0.05
+			}
+			remove_ideas_with_trait = foreign_minister
+			add_ideas = CHL_Carlos_Ignacio_Diaz_Loyola_for_len
+			set_country_flag = CHL_PCCh_dip
+		}
+	}
+	
+	if = {
+		limit = {
+			has_country_flag = CHL_IC_coalition
+		}
+		option = { # IC - Join the Comintern, German Alignment
+			name = chile.29.b
+			hidden_effect = {
+				add_to_variable = { var = CHL_UP_IC_support value = 1 }
+			}
+			add_popularity = {
+				ideology = marxist
+				popularity = 0.05
+			}
+			remove_ideas_with_trait = foreign_minister
+			add_ideas = CHL_Luis_Arteaga_Garcia_for_mar
+			set_country_flag = CHL_IC_dip
+		}
+	}
+
+	option = { # Syndicalists/PSC - South American Socialism
+		name = chile.29.c
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = CHL_unions_coalition
+				}
+				add_to_variable = { var = CHL_UP_unions_support value = 1 }
+			}
+			add_to_variable = { var = CHL_UP_PSC_support value = 1 }
+		}
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.05
+		}
+		remove_ideas_with_trait = foreign_minister
+		add_ideas = CHL_Fernando_Brown_Morales_for_rev
+		set_country_flag = CHL_unions_PSC_dip
+	}
+}
+
+country_event = { # First Congress - Military
+	id = chile.30
+	title = chile.30.t
+	desc = chile.30.d
+	picture = GFX_WIP
+	
+	immediate = {
+		country_event = {
+			id = chile.31
+			days = 3
+		}
+	}
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	if = {
+		limit = {
+			has_country_flag = CHL_PCCh_coalition
+		}
+		option = { # PCCh - Soviet Advisors (Superior Firepower)
+			name = chile.30.a
+			hidden_effect = {
+				add_to_variable = { var = CHL_UP_PCCH_support value = 1 }
+			}
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = cat_superior_firepower }
+			set_country_flag = CHL_PCCh_mil
+		}
+	}
+	
+	if = {
+		limit = {
+			has_country_flag = CHL_IC_coalition
+		}
+		option = { # IC - German Advisors (Mobile Warfare)
+			name = chile.30.b
+			hidden_effect = {
+				add_to_variable = { var = CHL_UP_IC_support value = 1 }
+			}
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = cat_mobile_warfare }
+			set_country_flag = CHL_IC_mil
+		}
+	}
+	
+	if = {
+		limit = {
+			has_country_flag = CHL_unions_coalition
+		}
+		option = { # Syndicalists - Militia-Based Army (Mass Assault)
+			name = chile.30.c
+			hidden_effect = {
+				add_to_variable = { var = CHL_UP_unions_support value = 1 }
+			}
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = cat_mass_assault }
+			set_country_flag = CHL_unions_mil
+		}
+	}
+	
+	option = { # PSC - Defensive Strategy (Grand Battleplan)
+		name = chile.30.e
+		hidden_effect = {
+			add_to_variable = { var = CHL_UP_PSC_support value = 1 }
+		}
+		add_tech_bonus = { bonus = 0.5 uses = 1 category = cat_grand_battleplan }
+		set_country_flag = CHL_PSC_mil
+	}
+}
+
+country_event = { # calculating the conference
+	id = chile.31
+	title = chile.31.t
+	desc = chile.31.d
+	picture = GFX_WIP
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				check_variable = { CHL_UP_PCCH_support > 2 }
+			}
+			country_event = {
+				id = chile.32
+				days = 1
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { CHL_UP_IC_support > 2 }
+			}
+			country_event = {
+				id = chile.33
+				days = 1
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { CHL_UP_unions_support > 2 }
+			}
+			country_event = {
+				id = chile.34
+				days = 1
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { CHL_UP_PCCH_support > 2 }
+			}
+			country_event = {
+				id = chile.35
+				days = 1
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					check_variable = { CHL_UP_PCCH_support < 3 }
+					check_variable = { CHL_UP_IC_support < 3 }
+					check_variable = { CHL_UP_unions_support < 3 }
+					check_variable = { CHL_UP_PSC_support < 3 }
+				}
+			}
+			country_event = {
+				id = chile.36
+				days = 1
+			}
+		}
+	}
+	
+	option = {
+		name = chile.31.a
 	}
 }
 
