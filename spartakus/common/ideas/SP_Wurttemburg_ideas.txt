@@ -180,7 +180,7 @@ weapons_manufacturer = {
 			original_tag = WUR
 		}
 		available = {
-			has_completed_focus = WUR_Mauser_werke
+			has_completed_focus = WUR_mil_industry_1
 		}
 		traits = {
 			infantry_equipment_producer_offense_2
@@ -467,7 +467,7 @@ air_naval_manufacturer = {
 		}
 		available = {
 			NOT = {
-				has_completed_focus = WUR_siemens
+				has_completed_focus = WUR_civ_industry
 			}
 		}
 		traits = {
@@ -484,7 +484,7 @@ air_naval_manufacturer = {
 			original_tag = WUR
 		}
 		available = {
-			has_completed_focus = WUR_siemens
+			has_completed_focus = WUR_civ_industry
 		}
 		traits = {
 			bomber_producer_defense_2
@@ -617,7 +617,7 @@ air_naval_manufacturer = {
     # Theorist
     ##############
 
-theorist = {
+	theorist = {
 		von_braun = {
 			
 			allowed = {
@@ -751,76 +751,5 @@ theorist = {
 			traits = { naval_theorist }
 		}
 	}	
-	
-	######################
-    # Head of Government
-    ######################
-	
-	head_of_government = {
-	WUR_Franz_von_Papen_hog_fas = {
-			allowed = {original_tag = WUR}
-			available = {
-				has_government = fascist
-				has_country_flag = can_replace_hog
-				NOT = {has_country_flag = Franz_von_Papen_dead}
-				NOT = {has_country_flag = ministers_cannot_be_replaced}
-			}
-			traits = {
-				head_of_government
-				fascist
-				hog_silent_workhorse
-			}
-			cancel_if_invalid = no
-		}
 
-	WUR_Hermann_Goring_hog_nat = {
-			allowed = {original_tag = WUR}
-			available = {
-				has_government = national_socialist
-				has_country_flag = can_replace_hog
-				NOT = {has_country_flag = Hermann_Goring_dead}
-				NOT = {has_country_flag = ministers_cannot_be_replaced}
-			}
-			traits = {
-				head_of_government
-				national_socialist
-				hog_flamboyant_tough_guy
-			}
-			cancel_if_invalid = no
-		}
-		
-	WUR_Joseph_Goebbels_hog_nat = {
-			allowed = {original_tag = WUR}
-			available = {
-				has_government = national_socialist
-				has_country_flag = can_replace_hog
-				NOT = {has_country_flag = Joseph_Goebbels_dead}
-				NOT = {has_country_flag = ministers_cannot_be_replaced}
-			}
-			traits = {
-				head_of_government
-				national_socialist
-				hog_rabbling_demagogue
-			}
-			cancel_if_invalid = no
-		}
-		
-	WUR_Rudolf_Hess_hog_nat = {
-			allowed = {original_tag = WUR}
-			available = {
-				has_country_flag = can_replace_hog
-			}
-			visible = {
-				national_syndicalist = yes
-				NOT = {has_country_flag = Rudolf_Hess_dead}
-			}
-			traits = {
-				head_of_government
-				national_syndicalist
-				hog_silent_workhorse
-			}
-			cancel_if_invalid = no
-		}
-
-	}
 }

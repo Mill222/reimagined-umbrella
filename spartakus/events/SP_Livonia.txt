@@ -68,6 +68,10 @@ country_event = {
 		custom_effect_tooltip = LIV_focusing_on_conscription_tt
 		set_country_flag = LIV_focused_on_cons_crisis
 		army_experience = 10
+		
+		ai_chance = {
+			factor = 50
+		}
 	}
 	
 	option = {
@@ -75,6 +79,10 @@ country_event = {
 		custom_effect_tooltip = LIV_focusing_on_freikorps_tt
 		set_country_flag = LIV_focused_on_freikorps_crisis
 		army_experience = 10
+		
+		ai_chance = {
+			factor = 50
+		}
 	}
 }
 
@@ -101,6 +109,10 @@ country_event = {
 				ideology = national_syndicalist popularity = 0.05
 			}
 		}
+		
+		ai_chance = {
+			factor = 25
+		}
 	}
 	
 	option = {
@@ -116,6 +128,10 @@ country_event = {
 			add_popularity = {
 				ideology = authoritarian_democrat popularity = 0.05
 			}
+		}
+		
+		ai_chance = {
+			factor = 60
 		}
 	}
 	
@@ -135,6 +151,10 @@ country_event = {
 			add_popularity = {
 				ideology = national_corporatist popularity = 0.02
 			}
+		}
+		
+		ai_chance = {
+			factor = 15
 		}
 	}
 }
@@ -162,6 +182,10 @@ country_event = {
 				ideology = national_syndicalist popularity = 0.05
 			}
 		}
+		
+		ai_chance = {
+			factor = 40
+		}
 	}
 	
 	option = {
@@ -177,6 +201,10 @@ country_event = {
 			add_popularity = {
 				ideology = social_liberal popularity = 0.05
 			}
+		}
+		
+		ai_chance = {
+			factor = 60
 		}
 	}
 }

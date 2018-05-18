@@ -5,6 +5,9 @@ state={
 		7427 
 	}
 	state_category = enclave
+	resources={
+		rubber=12.000
+	}
 	history={
 		owner = ENG
 		add_core_of = MLY

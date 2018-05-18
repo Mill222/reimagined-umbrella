@@ -171,7 +171,12 @@ country = {
 industrial_concern = {
 
 	companhia_fabril = {
-		allowed = { original_tag = POR }
+		allowed = { 
+			OR = {
+				original_tag = POR
+				original_tag = PRM
+			}
+		}
 		traits = { industrial_manufacturer  }
 		modifier = {
 			production_speed_arms_factory_factor = 0.1
@@ -183,7 +188,12 @@ industrial_concern = {
 	}
 		
 	ap_telephone = {
-		allowed = {original_tag = POR }
+		allowed = { 
+			OR = {
+				original_tag = POR
+				original_tag = PRM
+			}
+		}
 		traits = {electronics_manufacturer  }
 		modifier = {}
 		research_bonus = {
@@ -192,7 +202,12 @@ industrial_concern = {
 	}
 		
 	sacor = {
-		allowed = {original_tag = POR }
+		allowed = { 
+			OR = {
+				original_tag = POR
+				original_tag = PRM
+			}
+		}
 		traits = {chemical_producer }
 		research_bonus = {
 			synth_resources = 0.1
@@ -206,7 +221,12 @@ weapons_manufacturer = {
 	designer = yes
 	
 	fabrica_militar_prata = {
-		allowed = { original_tag = POR }
+		allowed = { 
+			OR = {
+				original_tag = POR
+				original_tag = PRM
+			}
+		}
 		traits = { infantry_equipment_producer_offense_1   }
 		modifier = {}
 		research_bonus = {
@@ -220,7 +240,12 @@ tank_manufacturer = {
 	designer = yes
 	
 	ogme = {
-		allowed = { original_tag = POR }
+		allowed = { 
+			OR = {
+				original_tag = POR
+				original_tag = PRM
+			}
+		}
 		traits = { artillery_producer_mass_0  }
 		modifier = {}
 		research_bonus = {
@@ -229,7 +254,12 @@ tank_manufacturer = {
 	}
 	
 	edfor = {
-		allowed = { original_tag = POR }
+		allowed = { 
+			OR = {
+				original_tag = POR
+				original_tag = PRM
+			}
+		}
 		traits = { motorised_equipment_producer_offense_1   }
 		modifier = {}
 		research_bonus = {
@@ -238,7 +268,12 @@ tank_manufacturer = {
 	}
 	
 	companhia_dos_caminhos = {
-		allowed = { original_tag = POR }
+		allowed = { 
+			OR = {
+				original_tag = POR
+				original_tag = PRM
+			}
+		}
 		traits = { small_tank_producer_defense_1  }
 		modifier = {}
 		research_bonus = {
@@ -252,7 +287,12 @@ air_naval_manufacturer = {
 	designer = yes
 
 	ogma = {
-		allowed = { original_tag = POR }
+		allowed = { 
+			OR = {
+				original_tag = POR
+				original_tag = PRM
+			}
+		}
 		traits = { fighter_producer_defense_1  }
 		modifier = {}
 		research_bonus = {
@@ -261,7 +301,12 @@ air_naval_manufacturer = {
 	}
 	
 	arsenal_alfeite = {
-		allowed = { original_tag = POR }
+		allowed = { 
+			OR = {
+				original_tag = POR
+				original_tag = PRM
+			}
+		}
 		traits = { cruiser_producer_offense_1  }
 		modifier = {}
 		research_bonus = {
@@ -270,7 +315,12 @@ air_naval_manufacturer = {
 	}
 		
 	estaleiros_navais = {
-		allowed = { original_tag = POR }
+		allowed = { 
+			OR = {
+				original_tag = POR
+				original_tag = PRM
+			}
+		}
 		traits = { small_ship_producer_mass_0 }
 		modifier = {}
 		research_bonus = {
@@ -279,7 +329,12 @@ air_naval_manufacturer = {
 	}	
 
 	lisnave = {
-		allowed = { original_tag = POR }
+		allowed = { 
+			OR = {
+				original_tag = POR
+				original_tag = PRM
+			}
+		}
 		traits = { small_ship_producer_offense_1 }
 		modifier = {}
 		research_bonus = {

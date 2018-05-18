@@ -204,6 +204,8 @@ country_event = {
 			ideology = national_corporatist popularity = 0.05
 		}
 		country_event = { id = wur.9 days = 3 }
+		
+		ai_chance = { factor = 30 }
 	}
 	option = {
 		name = wur.8.b
@@ -213,6 +215,8 @@ country_event = {
 			ideology = authoritarian_democrat popularity = 0.10
 		}
 		country_event = { id = wur.10 days = 3 }
+		
+		ai_chance = { factor = 40 }
 	}
 	option = {
 		name = wur.8.c
@@ -225,6 +229,8 @@ country_event = {
 			ideology = social_conservative popularity = 0.05
 		}
 		country_event = { id = wur.11 days = 3 }
+		
+		ai_chance = { factor = 30 }
 	}
 }
 

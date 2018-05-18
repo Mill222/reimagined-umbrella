@@ -58,107 +58,20 @@ LIV_NAT_national_corporatist_party_long:0 "Pērkonkrusts"
 
 ### Focuses ###
 
-LIV_Duchy_Restoration:0 "Restoration of the Baltic Duchy"
-LIV_Duchy_Restoration_desc:0 ""
+LIV_Economy:0 "Rebuilding the Nation"
+LIV_Economy_desc:0 ""
 
-LIV_Duchy_Kaiser:0 "Return of the Kaiser"
-LIV_Duchy_Kaiser_desc:0 "Almost two decades have passed since we achieved our status as a German protectorate. These decades have turned our nation into a German-dominated state, and we must respect their wishes. The Kaiser calls for Germanisation, and we shall follow suit. Drang Nach Osten!"
+LIV_Economy_Gov1:0 "Government Intervention"
+LIV_Economy_Gov1_desc:0 "We cannot allow this stagnation to continue. The government should assume control of all the major facilities. It is a harsh policy that will surely stifle our private sector, but it will steer our economy out of trouble."
 
-LIV_Duchy_Organization:0 "Organizing the Duchy"
-LIV_Duchy_Organization_desc:0 "Almost two decades have passed since we achieved our status as a German protectorate. The Germans dominate our industry, our politics, and our military. We may be Germans too, but the Vaterland is growing weak, it is perhaps our chance to break those ties."
+LIV_Economy_Gov2:0 "Build Up Our Roads"
+LIV_Economy_Gov2_desc:0 "Many unemployed citizens are trying to find any kind of job. We can help them by sending them on construction works. They will build up our roads and we will pay them. This way we can kill two birds with one stone."
 
-LIV_Duchy_Kaiser_Ind:0 "Maintain our Independence"
-LIV_Duchy_Kaiser_Ind_desc:0 "Kurland, or Kursas as the locals call it, shall be the first step towards the full Germanisation of our Duchy. It will be easy to turn this region into a German-dominated one, despite some native resistance."
+LIV_Economy_Gov3:0 "Social Investments"
+LIV_Economy_Gov3_desc:0 "To solve our economic problems, we need a stable society. Some benefits for the poorest in our Duchy should be established. Everybody deserves at least basic economic security, and this will help maintain order in our population."
 
-LIV_Ger_Livland1:0 "Colonise Livland"
-LIV_Ger_Livland1_desc:0 "Livland, referred to by the locals as Latgale, is the heart of our very Duchy, and yet the countryside of this region is still mostly Latvian. Hopefully, not for long."
-
-LIV_Ger_Estland1:0 "Colonise Estland"
-LIV_Ger_Estland1_desc:0 "Estland, or Estonia according to the locals, is the final step towards the full Germanisation of our Duchy. We already have experience in strategic immigrant settling and fighting local language usage, so this will be an easy task."
-
-LIV_Ger_Kurland2:0 "Deutsch-Kurland"
-LIV_Ger_Kurland2_desc:0 "The Germanisation project has yielded exactly the results we needed. The percentage of Germans in Kurland is growing every day, and despite native resistance, the ideal of Drang nach Osten grows stronger every day."
-
-LIV_Ger_Livland2:0 "Deutsch-Livland"
-LIV_Ger_Livland2_desc:0 "The Germanisation project has yielded exactly the results we needed. The percentage of Germans in Livland is growing every day, and despite native resistance, the ideal of Drang nach Osten grows stronger every day."
-
-LIV_Ger_Estland2:0 "Deutsch-Estland"
-LIV_Ger_Estland2_desc:0 "The Germanisation project has yielded exactly the results we needed. The percentage of Germans in Estland is growing every day, and despite native resistance, the ideal of Drang nach Osten grows stronger every day."
-
-LIV_Ger_Baltic:0 "Deutsch-Baltika"
-LIV_Ger_Baltic_desc:0 "The process of Germanisation has been successful. The Baltic Germans are now the dominant nation in population as well as in politics. We are finally eligible to apply to become an Imperial State, if that's is what we want, of course."
-
-LIV_Ger_Integration:0 "Integration"
-LIV_Ger_Integration_desc:0 "The Vaterland calls! We are Germans, and our Duchy shall become the 29th Imperial State! A glorious future awaits us under the full protection and oversight of the German Vaterland."
-
-LIV_Ger_Puppet:0 "Status Quo"
-LIV_Ger_Puppet_desc:0 "Reuniting with the Vaterland is important, but not the top priority. While we may be Germans, we are Baltic Germans, and we must receive special treatment. Reunification can wait, we must deal with local matters first."
-
-LIV_Ger_Indep:0 "Independence"
-LIV_Ger_Indep_desc:0 "The valley between Vaterland Germans and Baltic Germans will never, and we do mean never, be treaded over by the Empire. We, the Germans of Livland, Kurland and Estland, must cease all dealings with the mainland, and declare independence!"
-
-LIV_Duchy_Liberal:0 "A Liberal Duchy"
-LIV_Duchy_Liberal_desc:0 "It is time for us to reform. The conservatives within the Baltic Landtag want to turn the nation into a parliamentary monarchy and abandon the nigh-absolutist practices of Adolf Friedrich I. Should we listen?"
-
-LIV_Ger_Autonomy2:0 "Confronting the Kaiser"
-LIV_Ger_Autonomy2_desc:0 "The Vaterland is disappointed. To them, a strong parliamentary Baltic Duchy means a more autonomous and resistant Baltic Duchy. Our relations with the Kaiser have been damaged. It is time we finally confront the Kaiser about our increased political autonomy instead of leaving the resolution of this conflict to chance."
-
-LIV_Ger_Autonomy3:0 "Centralise the Government"
-LIV_Ger_Autonomy3_desc:0 "The apparatus of the Ducal government is weak, rife with corruption and heavily decentralised, we must enact substantial governmental reforms before advancing forward, so that our country may prosper even without the help of the Kaiser."
-
-LIV_Ger_Autonomy4:0 "Break the Chains"
-LIV_Ger_Autonomy4_desc:0 "The rift between Baltic Germans and the government of the Kaiserreich is growing deeper every day, and we can use this as an opportunity to finally increase our autonomy and maybe even finally obtain free elections for all."
-
-LIV_Ger_Autonomy5:0 "Promises of Democracy"
-LIV_Ger_Autonomy5_desc:0 "We have promised the people of the Duchy that the first free elections to the Baltic Landtag are coming soon. The people rejoice that they may finally choose the fate of their country, at least for once."
-
-LIV_Fed1:0 "The Multicultural State"
-LIV_Fed1_desc:0 "The Germans are not the only people living in the United Baltic Duchy. Latvians, Estonians and Russians all make up significant portions of the population, too, and they demand to be recognised and represented in the government. We shall consider it."
-
-LIV_Fed2:0 "The Baltic Federation"
-LIV_Fed2_desc:0 "Andrevs Niedra, a puppet head of government we placed to pacify the locals, has proposed a seemingly radical idea, reforming the Duchy into a democratic Baltic Federation, where not only Germans, but also the local Balts can have a say in how they are ruled. It seems like a good idea after all."
-
-LIV_Fed3:0 "First Landtag Elections"
-LIV_Fed3_desc:0 "We have promised free elections as part of the future of our newly founded Federation, and it is high time for us to fulfil this promise. The Baltic peoples will now finally decide the fate of their country."
-
-LIV_Fed4:0 "Baltic Trade"
-LIV_Fed4_desc:0 "The new democratic Baltic state is rife for trade dominance in the Baltic Sea. Our new political course will be beneficial to our trading centres and our port cities, so we must develop them to use this advantage to its fullest."
-
-LIV_Fed5:0 "Independence Referendum"
-LIV_Fed5_desc:0 "We had never truly planned to break our ties with Germany, but more and more people are demanding the Baltic Federation to become an independent state. We have found a compromise, an independence referendum. Of course, even with a majority in favour of independence, there's no telling whether the Kaiser will approve."
-
-LIV_Education:0 "Education Reform"
-LIV_Education_desc:0 "The large Latvian and Estonian contingent in the Baltic Landtag is demanding a comprehensive education reform. Latvian and Estonian need to be accepted as secondary languages and the discrimination against the local Balts in schools must stop. This seems acceptable."
-
-LIV_Press:0 "A Free Press"
-LIV_Press_desc:0 "Ever since the foundation of our nation, there have been severe limitations to the freedom of our press. This has come to light in recent events, and our people want profound reforms. The conservatives oppose these changes, while the liberal faction in the Landtag are in favour of them."
-
-LIV_Lib1:0 "A Liberal Duchy"
-LIV_Lib1_desc:0 "The Liberal faction has secured a stable majority coalition in the Landtag, and this faction demands for the Duchy to be liberalised and rid of the worst parts of Imperial and Ducal influence imposed to us by the Vaterland."
-
-LIV_Lib2:0 "Ducal Elections"
-LIV_Lib2_desc:0 "The liberals demand a free election to be held for the Landtag! It may seem like a radical proposal, but times are clearly changing. The near absolutism we used to live in may no longer endure as democracy once again shines on the horizon of Europe."
-
-LIV_Lib3:0 "Cultural Equality"
-LIV_Lib3_desc:0 "Germans, Balts, Estonians and Russians, we are all the same. We must follow the principles of equality and extend the rights of cultural autonomy to all nations within the state. Even if the Baltic Germans are to remain dominant, of course."
-
-LIV_Lib4:0 "Economic Liberalisation"
-LIV_Lib4_desc:0 "The liberal faction believes that the state must interfere as little as possible in the affairs of the economy, and this outlook has attracted lots of private investment into our nation. The economy may grow freely, for we will reap the rewards quickly."
-
-LIV_ERP:0 "Economic Recovery Plan"
-LIV_ERP_desc:0 "The crisis known as the Black Monday has caused many troubles for our economy. More than fifty thousand people had lost their jobs at the end of first day. We have got to do something, and our ministers are already preparing a plan to save our economy."
-
-LIV_ERP_Gov1:0 "Government Intervention"
-LIV_ERP_Gov1_desc:0 "We cannot allow this stagnation to continue. The government should assume control of all the major facilities. It is a harsh policy that will surely stifle our private sector, but it will steer our economy out of trouble."
-
-LIV_ERP_Gov2:0 "Build Up Our Roads"
-LIV_ERP_Gov2_desc:0 "Many unemployed citizens are trying to find any kind of job. We can help them by sending them on construction works. They will build up our roads and we will pay them. This way we can kill two birds with one stone."
-
-LIV_ERP_Gov3:0 "Social Investments"
-LIV_ERP_Gov3_desc:0 "To solve our economic problems, we need a stable society. Some benefits for the poorest in our Duchy should be established. Everybody deserves at least basic economic security, and this will help maintain order in our population."
-
-LIV_ERP_Gov4:0 "Baltic Arsenals"
-LIV_ERP_Gov4_desc:0 "Our country has always had a problem with the military sector. Now, with many free hands available, we can send them to military factories to produce guns, tanks and aircrafts. This again should solve many problems at once."
+LIV_Economy_Gov4:0 "Baltic Arsenals"
+LIV_Economy_Gov4_desc:0 "Our country has always had a problem with the military sector. Now, with many free hands available, we can send them to military factories to produce guns, tanks and aircrafts. This again should solve many problems at once."
 
 LIV_Eco_Naval1:0 "Baltic Dockyards"
 LIV_Eco_Naval1_desc:0 "We are a coastal country, almost half of our lands border the Baltic sea. Now, with many free hands available, we can send them to dockyards to build up our fleet. A large and prosperous Baltic navy will raise."
@@ -169,20 +82,20 @@ LIV_Eco_Naval2_desc:0 "There are many countries around the Baltic sea. We desper
 LIV_Eco_Naval3:0 "Naval Innovations"
 LIV_Eco_Naval3_desc:0 "Our recent naval activity has shown that our navy should be reorganised. We can learn many new things from major countries and use this knowledge in our projects for both the merchant navy and our growing Baltic fleet."
 
-LIV_ERP_FM1:0 "Rely on Local Businesses"
-LIV_ERP_FM1_desc:0 "We cannot allow this stagnation to continue. If we enact strong laissez-faire policies, it will open many opportunities for local businesses and the private sector. Our capitalists and the free market will save the economy."
+LIV_Economy_FM1:0 "Rely on Local Businesses"
+LIV_Economy_FM1_desc:0 "We cannot allow this stagnation to continue. If we enact strong laissez-faire policies, it will open many opportunities for local businesses and the private sector. Our capitalists and the free market will save the economy."
 
-LIV_ERP_FM2:0 "Invest in Our Scientists"
-LIV_ERP_FM2_desc:0 "Every prosperous country has to rely on its scientists. We have to invest in our future now for a brighter tomorrow. Knowledge will always be a powerful weapon, and a source of economic and social prosperity."
+LIV_Economy_FM2:0 "Invest in Our Scientists"
+LIV_Economy_FM2_desc:0 "Every prosperous country has to rely on its scientists. We have to invest in our future now for a brighter tomorrow. Knowledge will always be a powerful weapon, and a source of economic and social prosperity."
 
-LIV_ERP_FM3:0 "Social Investments"
-LIV_ERP_FM3_desc:0 "To solve our economic problems, we need a stable society. Some benefits for the poorest in our Duchy should be established. Everybody deserves at least basic economic security, and this will help maintain order in our population."
+LIV_Economy_FM3:0 "Social Investments"
+LIV_Economy_FM3_desc:0 "To solve our economic problems, we need a stable society. Some benefits for the poorest in our Duchy should be established. Everybody deserves at least basic economic security, and this will help maintain order in our population."
 
-LIV_ERP_FM4:0 "Political Establishment"
-LIV_ERP_FM4_desc:0 "Our capitalists are becoming more and more powerful, even starting to influence our politics. If we let them capitalise on that political clout, they will become important and trustworthy allies."
+LIV_Economy_FM4:0 "Political Establishment"
+LIV_Economy_FM4_desc:0 "Our capitalists are becoming more and more powerful, even starting to influence our politics. If we let them capitalise on that political clout, they will become important and trustworthy allies."
 
-LIV_ERP_End:0 "Recovery from Crisis"
-LIV_ERP_End_desc:0 "Hurrah! Under our wise rule, the Duchy has survived this crisis. It seems, at least for us, that the worst of the Black Monday is over. Prosperity is once more the law of the land, and shall stay so!"
+LIV_Economy_End:0 "Recovery from Crisis"
+LIV_Economy_End_desc:0 "Hurrah! Under our wise rule, the Duchy has survived this crisis. It seems, at least for us, that the worst of the Black Monday is over. Prosperity is once more the law of the land, and shall stay so!"
 
 LIV_Army_Start:0 "The Baltische Landeswehr"
 LIV_Army_Start_desc:0 "Officially, we do have an army. But it actually consists of nothing more than a bunch of young boys with rifles. Military doctrine is the first thing we need to modernise. Decades have passed since the end of the Weltkrieg and our current doctrine is now clearly outdated."

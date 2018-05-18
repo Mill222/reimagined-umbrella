@@ -19,7 +19,4 @@ opinion_modifiers = {
 	
 	
 	AFG_SOV_friendship = { value = 40 }
-	comemmoration_accepted = { value = 20 }
-	comemmoration_refused = { value = -20 }
-	
 }

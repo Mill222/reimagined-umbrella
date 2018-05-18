@@ -9,8 +9,6 @@ add_ideas = {
 	GRE_unstable_government
 	GRE_izmir_problem
 	GRE_divided_military
-	GRE_booming_economy
-	GRE_never_dies
 }
 
 set_technology = {

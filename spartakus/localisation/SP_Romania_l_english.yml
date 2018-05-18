@@ -1,0 +1,39 @@
+﻿l_english:
+
+### Ideas ###
+
+### Tooltips ###
+
+### Opinion Modifiers ###
+
+### Parties ###
+ROM_leninist_party:0 "Vyzvolennia"
+ROM_leninist_party_long:0 "Partidul muncitorilor ucrainieni din România"
+ROM_marxist_party:0 "PCdR"
+ROM_marxist_party_long:0 "Partidul Comunist din România"
+ROM_democratic_socialist_party:0 "PS"
+ROM_democratic_socialist_party_long:0 "Partidul Socialist din România"
+ROM_revolutionary_socialist_party:0 "PT-L"
+ROM_revolutionary_socialist_party_long:0 "Partidul Țărănesc–Lupu"
+ROM_social_democrat_party:0 "PSD"
+ROM_social_democrat_party_long:0 "Partidul Social Democrat Român"
+ROM_social_liberal_party:0 "PNL"
+ROM_social_liberal_party_long:0 "Partidul Naţional Liberal"
+ROM_liberal_conservative_party:0 "PNȚ"
+ROM_liberal_conservative_party_long:0 "Partidul Național Țărănesc"
+ROM_social_conservative_party:0 "LCC"
+ROM_social_conservative_party_long:0 "Liga contra Cametei"
+ROM_authoritarian_democrat_party:0 "PNL-B"
+ROM_authoritarian_democrat_party_long:0 "Partidul Național Liberal-Brătianu"
+ROM_right_wing_populist_party:0 "PP"
+ROM_right_wing_populist_party_long:0 "Partidul Poporului"
+ROM_national_syndicalist_party:0 "LANC"
+ROM_national_syndicalist_party_long:0 "Liga Apărării Național Creștine"
+ROM_national_corporatist_party:0 "Garda de Fier"
+ROM_national_corporatist_party_long:0 "Garda de Fier"
+
+### Focuses ###
+
+### Leader descriptions ###
+
+### Darkest Day ###

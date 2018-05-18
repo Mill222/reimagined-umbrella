@@ -4,7 +4,7 @@ default_unit_production = {
 	enable = {
 		always = yes
 	}
-	
+
 	ai_strategy = {
 		type = role_ratio
 		id = paratroopers
@@ -34,39 +34,39 @@ default_unit_production = {
 		id = infantry
 		value = 80
 	}
-	
+
 	#Air unit factors
 	ai_strategy = {
 		type = unit_ratio
 		id = fighter
 		value = 75
 	}
-	
+
 	ai_strategy = {
 		type = unit_ratio
 		id = cas
 		value = 10
 	}
-	
+
 	ai_strategy = {
 		type = unit_ratio
 		id = tactical_bomber
 		value = 10
 	}
-	
+
 	ai_strategy = {
 		type = unit_ratio
 		id = strategic_bomber
 		value = 0
 	}
-	
+
 	ai_strategy = {
 		type = unit_ratio
 		id = naval_bomber
 		value = 5
 	}
-	
-	
+
+
 	# Naval unit factors
 	ai_strategy = {
 		type = unit_ratio
@@ -91,221 +91,17 @@ default_unit_production = {
 		id = convoy
 		value = 15
 	}
-	
+
 	ai_strategy = {
 		type = equipment_production_factor
 		id = fighter
 		value = 35
 	}
-	
+
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
 		value = 40
-	}
-}
-
-civil_war_militia_production = {
-	enable = {
-		OR = {
-			AND = {
-				tag = SOV
-				has_war_with = RUS
-			}
-			AND = {
-				tag = TEX
-				has_war = yes
-				NOT = { has_global_flag = END_ACW }
-			}
-			AND = {
-				tag = CAL
-				has_war = yes
-				NOT = { has_global_flag = END_ACW }
-			}
-			AND = {
-				tag = CSA
-				has_war = yes
-				NOT = { has_global_flag = END_ACW }
-			}
-			AND = {
-				tag = USA
-				has_war = yes
-				NOT = { has_global_flag = END_ACW }
-				NOT = { has_global_flag = civil_war_avoided }
-			}
-			AND = {
-				tag = SPR
-				OR = {
-					has_war_with = CNT
-					has_war_with = CAR
-				}
-			}
-			AND = {
-				tag = CNT
-				OR = {
-					has_war_with = SPR
-					has_war_with = CAR
-				}
-			}
-			AND = {
-				tag = CAR
-				OR = {
-					has_war_with = CNT
-					has_war_with = SPR
-				}
-			}
-		}
-	}
-	abort = {
-		AND = {
-			tag = SOV
-			NOT = { has_war_with = RUS }
-		}
-		AND = {
-			tag = TEX
-			has_global_flag = END_ACW
-		}
-		AND = {
-			tag = CAL
-			has_global_flag = END_ACW
-		}
-		AND = {
-			tag = CSA
-			has_global_flag = END_ACW
-		}
-		AND = {
-			tag = USA
-			OR = {
-				has_global_flag = END_ACW
-				has_global_flag = civil_war_avoided
-			}
-		}
-		AND = {
-			tag = SPR
-			NOT = { has_war_with = CNT }
-			NOT = { has_war_with = CAR }
-		}
-		AND = {
-			tag = CNT
-			NOT = { has_war_with = SPR }
-			NOT = { has_war_with = CAR }
-		}
-		AND = {
-			tag = CAR
-			NOT = { has_war_with = CNT }
-			NOT = { has_war_with = SPR }
-		}
-	}
-	
-	ai_strategy = {
-		type = role_ratio
-		id = infantry
-		value = -70
-	}	
-
-	ai_strategy = {
-		type = role_ratio
-		id = militia
-		value = 70
-	}
-}
-
-civil_war_artillery_production = {
-	enable = {
-		OR = {
-			AND = {
-				tag = SOV
-				has_war_with = RUS
-			}
-			AND = {
-				tag = TEX
-				has_war = yes
-				NOT = { has_global_flag = END_ACW }
-			}
-			AND = {
-				tag = CAL
-				has_war = yes
-				NOT = { has_global_flag = END_ACW }
-			}
-			AND = {
-				tag = CSA
-				has_war = yes
-				NOT = { has_global_flag = END_ACW }
-			}
-			AND = {
-				tag = USA
-				has_war = yes
-				NOT = { has_global_flag = END_ACW }
-				NOT = { has_global_flag = civil_war_avoided }
-			}
-			AND = {
-				tag = SPR
-				OR = {
-					has_war_with = CNT
-					has_war_with = CAR
-				}
-			}
-			AND = {
-				tag = CNT
-				OR = {
-					has_war_with = SPR
-					has_war_with = CAR
-				}
-			}
-			AND = {
-				tag = CAR
-				OR = {
-					has_war_with = CNT
-					has_war_with = SPR
-				}
-			}
-		}
-	}
-	abort = {
-		AND = {
-			tag = SOV
-			NOT = { has_war_with = RUS }
-		}
-		AND = {
-			tag = TEX
-			has_global_flag = END_ACW
-		}
-		AND = {
-			tag = CAL
-			has_global_flag = END_ACW
-		}
-		AND = {
-			tag = CSA
-			has_global_flag = END_ACW
-		}
-		AND = {
-			tag = USA
-			OR = {
-				has_global_flag = END_ACW
-				has_global_flag = civil_war_avoided
-			}
-		}
-		AND = {
-			tag = SPR
-			NOT = { has_war_with = CNT }
-			NOT = { has_war_with = CAR }
-		}
-		AND = {
-			tag = CNT
-			NOT = { has_war_with = SPR }
-			NOT = { has_war_with = CAR }
-		}
-		AND = {
-			tag = CAR
-			NOT = { has_war_with = CNT }
-			NOT = { has_war_with = SPR }
-		}
-	}
-	
-	ai_strategy = {
-		type = equipment_production_factor
-		id = artillery
-		value = -300
 	}
 }
 
@@ -316,26 +112,11 @@ minimum_artillery_production = {
 	abort = {
 		num_of_military_factories > 1
 	}
-	
+
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
 		value = -100
-	}
-}
-
-minor_artillery_production = {
-	enable = {
-		num_of_military_factories > 1
-	}
-	abort = {
-		num_of_military_factories > 9
-	}
-	
-	ai_strategy = {
-		type = equipment_production_factor
-		id = artillery
-		value = 0
 	}
 }
 
@@ -344,9 +125,12 @@ default_artillery_production = {
 		num_of_military_factories > 9
 	}
 	abort = {
-		num_of_military_factories > 19
+		OR = {
+			num_of_military_factories < 10
+			num_of_military_factories > 19
+		}
 	}
-	
+
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
@@ -361,7 +145,7 @@ major_artillery_production = {
 	abort = {
 		num_of_military_factories < 20
 	}
-	
+
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
@@ -369,36 +153,111 @@ major_artillery_production = {
 	}
 }
 
-no_strat_bombers = {
+default_pp_spend_amount = {
 	enable = {
-		NOT = { date > 1938.1.1 }		
+		always = yes
+	}
+
+	ai_strategy = {
+		type = pp_spend_amount
+		id = idea
+		value = 100
+	}
+
+	ai_strategy = {
+		type = pp_spend_amount
+		id = decision
+		value = 100
+	}
+}
+
+do_not_waste_pp_on_leaders = {
+	enable = {
+		has_war = no
+		has_political_power < 200
 	}
 	abort = {
-		is_major = yes
-		date > 1938.1.1
+		OR = {
+			has_war = yes
+			NOT = { has_political_power < 200 }
+		}
 	}
-	
+
 	ai_strategy = {
-		type = unit_ratio
-		id = strategic_bomber
-		value = -100
+		type = pp_spend_priority
+		id = general
+		value = -9999
 	}
+	ai_strategy = {
+		type = pp_spend_priority
+		id = admiral
+		value = -9999
+	}
+}
+
+do_not_waste_pp_if_saving_for_manpower_laws = {
+
+	enable = {
+		manpower_per_military_factory < 500
+		has_war = yes
+	}
+	abort = {
+		OR = {
+			manpower_per_military_factory > 500
+			has_war = no
+		}
+	}
+
+	ai_strategy = {
+		type = pp_spend_priority
+		id = relation
+		value = -9999
+	}
+
+	ai_strategy = {
+		type = pp_spend_priority
+		id = guarantee
+		value = -9999
+	}
+}
+
+do_not_waste_pp_befriend = {
+
+	enable = {
+		has_political_power < 150
+	}
+	abort = {
+		has_political_power > 149
+	}
+
+	ai_strategy = {
+		type = pp_spend_priority
+		id = relation
+		value = -9999
+	}
+
 }
 
 default_garrison_production = {
 	enable = {
-		ai_wants_divisions >  12 #Massively decreasing the amount of paratroopers the AI wants
+		ai_wants_divisions > 12 #Massively decreasing the amount of garrison and suppression the AI wants
 		is_major = yes
 	}
 	abort = {
-		ai_wants_divisions < 13 #Massively decreasing the amount of paratroopers the AI wants
+		ai_wants_divisions < 13 #Massively decreasing the amount of garrison and suppression the AI wants
 		is_major = no
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = garrison
-		value = 7
+		value = 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 2
 	}
 }
 
@@ -446,7 +305,7 @@ default_armored_production = {
 		id = armor
 		value = 2
 	}
-	
+
 }
 
 highered_armored_production = {
@@ -471,7 +330,9 @@ slightly_naval_focused_nation = {
 			tag = USA
 			tag = ENG
 			tag = GER
-			tag = CAN
+			tag = SOV
+			tag = FRA
+			tag = ITA
 		}
 	}
 
@@ -506,15 +367,16 @@ more_naval_focused_nation = {
 			tag = JAP
 			tag = GER
 			tag = ENG
-			tag = CAN
+			tag = SOV
+			tag = ITA
 		}
-		date > "1941.1.1" #Delaying it by a couple of years
+		date > "1936.1.1" #Delaying it by a couple of years
 	}
 
 	ai_strategy = {
 		type = unit_ratio
 		id = capital_ship
-		value = 2		#1 to 2
+		value = 2
 	}
 
 	ai_strategy = {
@@ -546,14 +408,14 @@ default_stockpile_management = {
 	}
 
 	ai_strategy = {
-		type = equipment_stockpile
+		type = equipment_stockpile_surplus_ratio
 		value = 35 # double base stockpile #from 25 to 35
 	}
 }
 
 DEFAULT_template_design = {
-	enable = {	
-		date < 1940.1.1				
+	enable = {
+		date < 1940.1.1
 	}
 	abort = {
 		date > 1940.1.1
@@ -570,7 +432,7 @@ DEFAULT_template_design = {
 		id = cavalry
 		value = -100
 	}
-	
+
 	ai_strategy = {
 		type = template_prio
 		id = light_armor
@@ -594,7 +456,7 @@ DEFAULT_template_design = {
 		id = paratroopers
 		value = -50
 	}
-	
+
 	ai_strategy = {
 		type = template_prio
 		id = infantry
@@ -604,7 +466,7 @@ DEFAULT_template_design = {
 
 DEFAULT_template_design = {
 	enable = {
-		date > 1940.1.1				
+		date > 1940.1.1
 	}
 
 	ai_strategy = {
@@ -618,7 +480,7 @@ DEFAULT_template_design = {
 		id = cavalry
 		value = -100
 	}
-	
+
 	ai_strategy = {
 		type = template_prio
 		id = light_armor
@@ -630,7 +492,7 @@ DEFAULT_template_design = {
 		id = medium_armor
 		value = 20
 	}
-	
+
 	ai_strategy = {
 		type = template_prio
 		id = modern_armor
@@ -648,7 +510,7 @@ DEFAULT_template_design = {
 		id = paratroopers
 		value = -50
 	}
-	
+
 	ai_strategy = {
 		type = template_prio
 		id = infantry
@@ -656,23 +518,18 @@ DEFAULT_template_design = {
 	}
 }
 
-save_admiral_pp_for_later = {
+no_strat_bombers = {
 	enable = {
-		has_war = no
-		threat < 0.3
-		has_political_power < 200		
+		NOT = { date > 1938.1.1 }
 	}
 	abort = {
-		OR = {
-			has_war = yes	
-			threat > 0.3
-			has_political_power > 200
-		}
+		is_major = yes
+		date > 1938.1.1
 	}
 
-	ai_strategy = { # dont burn PP on admirals (can still get free ones)
-		type = pp_spend_priority
-		id = admiral
+	ai_strategy = {
+		type = unit_ratio
+		id = strategic_bomber
 		value = -100
 	}
 }
@@ -680,7 +537,7 @@ save_admiral_pp_for_later = {
 strategic_bombers_strategy = {
 	enable = {
 		is_major = yes
-		date > 1938.1.1		
+		date > 1938.1.1
 	}
 	abort = {
 		NOT = { is_major = yes }
@@ -691,7 +548,7 @@ strategic_bombers_strategy = {
 		id = tactical_bomber
 		value = -5
 	}
-	
+
 	ai_strategy = {
 		type = unit_ratio
 		id = strategic_bomber
@@ -705,7 +562,7 @@ naval_bombers_strategy = {
 			any_owned_state = {
 				is_coastal = yes
 			}
-		}	
+		}
 	}
 	abort = {
 		any_owned_state = {
@@ -718,10 +575,1133 @@ naval_bombers_strategy = {
 		id = tactical_bomber
 		value = 5
 	}
-	
+
 	ai_strategy = {
 		type = unit_ratio
 		id = naval_bomber
 		value = -5
 	}
 }
+
+# unit limiters
+production_unit_200_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 200
+			num_divisions > 200
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 200
+			num_divisions < 200
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_205_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 205
+			num_divisions > 205
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 205
+			num_divisions < 205
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_210_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 210
+			num_divisions > 210
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 210
+			num_divisions < 210
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_215_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 215
+			num_divisions > 215
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 215
+			num_divisions < 215
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_220_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 220
+			num_divisions > 220
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 220
+			num_divisions < 220
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_225_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 225
+			num_divisions > 225
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 225
+			num_divisions < 225
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_230_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 230
+			num_divisions > 230
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 230
+			num_divisions < 230
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_235_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 235
+			num_divisions > 235
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 235
+			num_divisions < 235
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_240_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 240
+			num_divisions > 240
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 240
+			num_divisions < 240
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_245_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 245
+			num_divisions > 245
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 245
+			num_divisions < 245
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_250_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 250
+			num_divisions > 250
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 250
+			num_divisions < 250
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_255_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 255
+			num_divisions > 255
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 255
+			num_divisions < 255
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_260_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 260
+			num_divisions > 260
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 260
+			num_divisions < 260
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_265_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 265
+			num_divisions > 265
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 265
+			num_divisions < 265
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_270_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 270
+			num_divisions > 270
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 270
+			num_divisions < 270
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_275_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 275
+			num_divisions > 275
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 275
+			num_divisions < 275
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_280_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 280
+			num_divisions > 280
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 280
+			num_divisions < 280
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_285_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 285
+			num_divisions > 285
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 285
+			num_divisions < 285
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_290_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 290
+			num_divisions > 290
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 290
+			num_divisions < 290
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+production_unit_295_ratios = {
+	enable = {
+		AND = {
+			num_of_factories < 295
+			num_divisions > 295
+		}
+	}
+	abort = {
+		OR = {
+			num_of_factories > 295
+			num_divisions < 295
+		}
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+}
+

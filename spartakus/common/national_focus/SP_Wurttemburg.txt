@@ -48,7 +48,7 @@ focus_tree = {
 		x = -6
 		y = 1
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
@@ -66,7 +66,7 @@ focus_tree = {
 		x = -4
 		y = 1
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
@@ -85,7 +85,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
@@ -104,7 +104,7 @@ focus_tree = {
 		x = 4
 		y = 1
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
@@ -123,7 +123,7 @@ focus_tree = {
 		x = 6
 		y = 1
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -142,7 +142,7 @@ focus_tree = {
 		x = -6
 		y = 2
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 0
@@ -170,7 +170,7 @@ focus_tree = {
 		x = -4
 		y = 2
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 0
@@ -196,7 +196,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
@@ -219,7 +219,7 @@ focus_tree = {
 		x = 6
 		y = 2
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -249,7 +249,7 @@ focus_tree = {
 		x = 4
 		y = 2
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 100
 		}
@@ -277,14 +277,14 @@ focus_tree = {
 		x = -5
 		y = 3
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
 		}
 		
 		completion_reward = {
-			add_national_unity = 0.05
+			add_stability = 0.05
 		}
 	}
 	
@@ -296,14 +296,14 @@ focus_tree = {
 		x = -1
 		y = 3
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
 		}
 		
 		completion_reward = {
-			add_national_unity = 0.05
+			add_stability = 0.05
 		}
 	}
 	
@@ -315,14 +315,14 @@ focus_tree = {
 		x = 1
 		y = 3
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
 		}
 		
 		completion_reward = {
-			add_national_unity = 0.05
+			add_stability = 0.05
 		}
 	}
 	
@@ -333,7 +333,7 @@ focus_tree = {
 		x = 5
 		y = 3
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
@@ -352,7 +352,7 @@ focus_tree = {
 		x = -6
 		y = 6
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
@@ -372,7 +372,7 @@ focus_tree = {
 		x = -4
 		y = 6
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
@@ -390,7 +390,7 @@ focus_tree = {
 		x = -5
 		y = 5
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
@@ -409,7 +409,7 @@ focus_tree = {
 		x = -6
 		y = 4
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
@@ -430,7 +430,7 @@ focus_tree = {
 		x = -4
 		y = 4
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
@@ -448,7 +448,7 @@ focus_tree = {
 		x = 1
 		y = 4
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
@@ -467,7 +467,7 @@ focus_tree = {
 		x = 4
 		y = 4
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
@@ -485,14 +485,13 @@ focus_tree = {
 		x = 0
 		y = 7
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
 		}
 		
 		completion_reward = {
-			custom_effect_tooltip = focus_not_finished_tp
 		}
 	}
 	
@@ -503,14 +502,13 @@ focus_tree = {
 		x = 5
 		y = 5
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
 		}
 		
 		completion_reward = {
-			custom_effect_tooltip = focus_not_finished_tp
 		}
 	}
 	
@@ -522,14 +520,13 @@ focus_tree = {
 		x = 6
 		y = 6
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
 		}
 		
 		completion_reward = {
-			custom_effect_tooltip = focus_not_finished_tp
 		}
 	}
 	
@@ -541,14 +538,13 @@ focus_tree = {
 		x = 4
 		y = 6
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
 		}
 		
 		completion_reward = {
-			custom_effect_tooltip = focus_not_finished_tp
 		}
 	}
 	
@@ -557,25 +553,16 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		prerequisite = { focus = WUR_purge_socialists }
 		prerequisite = { focus = WUR_absolutism }
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = WUR_schleicher_prerequisite
-				has_idea = WUR_Kurt_von_Schleicher_hog_pau
-			}
-		}
-		mutually_exclusive = { focus = WUR_sonderweg focus = WUR_parlamentsvertrauen }
 		x = 6
 		y = 4
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
 		}
 		
 		completion_reward = {
-			custom_effect_tooltip = focus_not_finished_tp
-			#custom_effect_tooltip = WUR_disband_reichstag_tp
 		}
 	}
 	
@@ -586,7 +573,7 @@ focus_tree = {
 		x = -1
 		y = 4
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
@@ -604,7 +591,7 @@ focus_tree = {
 		x = 0
 		y = 5
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
@@ -623,7 +610,7 @@ focus_tree = {
 		x = -1
 		y = 6
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
@@ -642,7 +629,7 @@ focus_tree = {
 		x = 1
 		y = 6
 		relative_position_id = WUR_political_1
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 100
@@ -678,14 +665,13 @@ focus_tree = {
 		id = WUR_moltke
 		icon = GFX_focus_WUR_moltke
 		prerequisite = { focus = WUR_prepare_to_return }
-		mutually_exclusive = { focus = WUR_schacht1 }
 		available = {
 		}
 			
 		x = -8
 		y = 1
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
@@ -702,7 +688,7 @@ focus_tree = {
 		x = -7
 		y = 2
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
@@ -736,14 +722,13 @@ focus_tree = {
 		id = WUR_moltke4
 		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = { focus = WUR_moltke3 }
-		mutually_exclusive = { focus = WUR_schacht1 }
 		available = {
 		}
 			
 		x = -7
 		y = 4
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
@@ -760,7 +745,7 @@ focus_tree = {
 		x = -7
 		y = 5
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
@@ -774,14 +759,13 @@ focus_tree = {
 		id = WUR_moltke6
 		icon = GFX_focus_WUR_moltke
 		prerequisite = { focus = WUR_moltke5 }
-		mutually_exclusive = { focus = WUR_schacht1 }
 		available = {
 		}
 			
 		x = -7
 		y = 6
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
@@ -798,7 +782,7 @@ focus_tree = {
 		x = -9
 		y = 2
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
@@ -832,14 +816,13 @@ focus_tree = {
 		id = WUR_moltke9
 		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = { focus = WUR_moltke8 }
-		mutually_exclusive = { focus = WUR_schacht1 }
 		available = {
 		}
 			
 		x = -9
 		y = 4
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
@@ -856,7 +839,7 @@ focus_tree = {
 		x = -9
 		y = 5
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
@@ -920,10 +903,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = WUR_black_monday
-				add_idea = WUR_black_monday1
-			}
 		}
 	}
 	
@@ -931,22 +910,6 @@ focus_tree = {
 		id = WUR_bolz3
 		icon = GFX_focus_generic_polish_deal
 		prerequisite = { focus = WUR_bolz2 }
-		bypass = {
-			OR = {
-				POL = { 
-					is_in_faction = yes
-					NOT = { is_in_faction_with = WUR }
-				}
-				PLC = { 
-					is_in_faction = yes
-					NOT = { is_in_faction_with = WUR }
-				}
-				AND = {
-					NOT = { country_exists = POL }
-					NOT = { country_exists = PLC }
-				}
-			}
-		}
 		x = -4
 		y = 3
 		relative_position_id = WUR_prepare_to_return
@@ -957,51 +920,9 @@ focus_tree = {
 		}
 		
 		available = {
-			NOT = {	has_war_with = POL }
-			NOT = {	has_war_with = PLC }
-			OR = {
-				AND = {
-					POL = { is_in_faction_with = WUR }
-					PLC = { exists = no }
-				}
-				AND = {
-					POL = { is_in_faction = no }
-					PLC = { exists = no }
-				}
-				AND = {
-					PLC = { is_in_faction_with = WUR }
-					POL = { exists = no }
-				}
-				AND = {
-					PLC = { is_in_faction = no }
-					POL = { exists = no }
-				}
-			}
 		}
 		
 		completion_reward = {
-			if = {
-				limit = {
-					PLC = { exists = yes }
-				}
-				reverse_add_opinion_modifier = { target = PLC modifier = polish_deal_op }
-				add_opinion_modifier = {
-					target = PLC 
-					modifier = polish_deal_op
-				}
-				PLC = { country_event = gerfor.168 }
-				
-				else = {
-					reverse_add_opinion_modifier = { target = POL modifier = polish_deal_op }
-					add_opinion_modifier = {
-						target = POL 
-						modifier = polish_deal_op
-					}
-					POL = { country_event = gerfor.168 }
-				}
-			}
-
-			country_event = gerfor.167
 		}
 	}
 	
@@ -1012,34 +933,13 @@ focus_tree = {
 		x = -4
 		y = 4
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
 		}
 		
 		completion_reward = {
-			if = {
-				limit = {
-					NOT = {
-						has_idea = WUR_black_monday1
-						has_idea = WUR_black_monday2
-					}
-				}
-				remove_ideas = WUR_black_monday
-			}
-			if = {
-				limit = {
-					has_idea = WUR_black_monday1
-				}
-				remove_ideas = WUR_black_monday1
-			}
-			if = {
-				limit = {
-					has_idea = WUR_black_monday2
-				}
-				remove_ideas = WUR_black_monday2
-			}
 		}
 	}
 
@@ -1050,26 +950,16 @@ focus_tree = {
 		x = -4
 		y = 5
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
 		}
 		
 		available = {
-			has_war = no
 		}
 		
 		completion_reward = {
-			every_country = {
-				limit = {
-					has_idea = ME_idea
-					}
-				swap_ideas = {
-					remove_idea = ME_idea
-					add_idea = ME_europamark_idea
-					}
-				}
 			}
 	}
 	
@@ -1080,26 +970,16 @@ focus_tree = {
 		x = -4
 		y = 6
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
 		}
 		
 		available = {
-			has_war = no
 		}
 		
 		completion_reward = {
-			every_country = {
-				limit = {
-					has_idea = ME_idea
-					}
-				swap_ideas = {
-					remove_idea = ME_idea
-					add_idea = ME_europamark_idea
-					}
-				}
 			}
 	}
 	
@@ -1137,10 +1017,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = WUR_black_monday
-				add_idea = WUR_black_monday1
-			}
 		}
 	}
 	
@@ -1148,22 +1024,6 @@ focus_tree = {
 		id = WUR_hugenberg3
 		icon = GFX_focus_generic_polish_deal
 		prerequisite = { focus = WUR_hugenberg2 }
-		bypass = {
-			OR = {
-				POL = { 
-					is_in_faction = yes
-					NOT = { is_in_faction_with = WUR }
-				}
-				PLC = { 
-					is_in_faction = yes
-					NOT = { is_in_faction_with = WUR }
-				}
-				AND = {
-					NOT = { country_exists = POL }
-					NOT = { country_exists = PLC }
-				}
-			}
-		}
 		x = 0
 		y = 3
 		relative_position_id = WUR_prepare_to_return
@@ -1174,51 +1034,9 @@ focus_tree = {
 		}
 		
 		available = {
-			NOT = {	has_war_with = POL }
-			NOT = {	has_war_with = PLC }
-			OR = {
-				AND = {
-					POL = { is_in_faction_with = WUR }
-					PLC = { exists = no }
-				}
-				AND = {
-					POL = { is_in_faction = no }
-					PLC = { exists = no }
-				}
-				AND = {
-					PLC = { is_in_faction_with = WUR }
-					POL = { exists = no }
-				}
-				AND = {
-					PLC = { is_in_faction = no }
-					POL = { exists = no }
-				}
-			}
 		}
 		
 		completion_reward = {
-			if = {
-				limit = {
-					PLC = { exists = yes }
-				}
-				reverse_add_opinion_modifier = { target = PLC modifier = polish_deal_op }
-				add_opinion_modifier = {
-					target = PLC 
-					modifier = polish_deal_op
-				}
-				PLC = { country_event = gerfor.168 }
-				
-				else = {
-					reverse_add_opinion_modifier = { target = POL modifier = polish_deal_op }
-					add_opinion_modifier = {
-						target = POL 
-						modifier = polish_deal_op
-					}
-					POL = { country_event = gerfor.168 }
-				}
-			}
-
-			country_event = gerfor.167
 		}
 	}
 	
@@ -1229,34 +1047,13 @@ focus_tree = {
 		x = 0
 		y = 4
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
 		}
 		
 		completion_reward = {
-			if = {
-				limit = {
-					NOT = {
-						has_idea = WUR_black_monday1
-						has_idea = WUR_black_monday2
-					}
-				}
-				remove_ideas = WUR_black_monday
-			}
-			if = {
-				limit = {
-					has_idea = WUR_black_monday1
-				}
-				remove_ideas = WUR_black_monday1
-			}
-			if = {
-				limit = {
-					has_idea = WUR_black_monday2
-				}
-				remove_ideas = WUR_black_monday2
-			}
 		}
 	}
 
@@ -1267,27 +1064,17 @@ focus_tree = {
 		x = 0
 		y = 5
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
 		}
 		
 		available = {
-			has_war = no
 		}
 		
 		completion_reward = {
-			every_country = {
-				limit = {
-					has_idea = ME_idea
-					}
-				swap_ideas = {
-					remove_idea = ME_idea
-					add_idea = ME_europamark_idea
-					}
-				}
-			}
+		}
 	}
 	
 	focus = {
@@ -1297,26 +1084,16 @@ focus_tree = {
 		x = 0
 		y = 6
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
 		}
 		
 		available = {
-			has_war = no
 		}
 		
 		completion_reward = {
-			every_country = {
-				limit = {
-					has_idea = ME_idea
-					}
-				swap_ideas = {
-					remove_idea = ME_idea
-					add_idea = ME_europamark_idea
-					}
-				}
 			}
 	}
 	
@@ -1354,10 +1131,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = WUR_black_monday
-				add_idea = WUR_black_monday1
-			}
 		}
 	}
 	
@@ -1365,22 +1138,6 @@ focus_tree = {
 		id = WUR_streicher3
 		icon = GFX_focus_generic_polish_deal
 		prerequisite = { focus = WUR_streicher2 }
-		bypass = {
-			OR = {
-				POL = { 
-					is_in_faction = yes
-					NOT = { is_in_faction_with = WUR }
-				}
-				PLC = { 
-					is_in_faction = yes
-					NOT = { is_in_faction_with = WUR }
-				}
-				AND = {
-					NOT = { country_exists = POL }
-					NOT = { country_exists = PLC }
-				}
-			}
-		}
 		x = 4
 		y = 3
 		relative_position_id = WUR_prepare_to_return
@@ -1391,51 +1148,9 @@ focus_tree = {
 		}
 		
 		available = {
-			NOT = {	has_war_with = POL }
-			NOT = {	has_war_with = PLC }
-			OR = {
-				AND = {
-					POL = { is_in_faction_with = WUR }
-					PLC = { exists = no }
-				}
-				AND = {
-					POL = { is_in_faction = no }
-					PLC = { exists = no }
-				}
-				AND = {
-					PLC = { is_in_faction_with = WUR }
-					POL = { exists = no }
-				}
-				AND = {
-					PLC = { is_in_faction = no }
-					POL = { exists = no }
-				}
-			}
 		}
 		
 		completion_reward = {
-			if = {
-				limit = {
-					PLC = { exists = yes }
-				}
-				reverse_add_opinion_modifier = { target = PLC modifier = polish_deal_op }
-				add_opinion_modifier = {
-					target = PLC 
-					modifier = polish_deal_op
-				}
-				PLC = { country_event = gerfor.168 }
-				
-				else = {
-					reverse_add_opinion_modifier = { target = POL modifier = polish_deal_op }
-					add_opinion_modifier = {
-						target = POL 
-						modifier = polish_deal_op
-					}
-					POL = { country_event = gerfor.168 }
-				}
-			}
-
-			country_event = gerfor.167
 		}
 	}
 	
@@ -1446,34 +1161,13 @@ focus_tree = {
 		x = 4
 		y = 4
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
 		}
 		
 		completion_reward = {
-			if = {
-				limit = {
-					NOT = {
-						has_idea = WUR_black_monday1
-						has_idea = WUR_black_monday2
-					}
-				}
-				remove_ideas = WUR_black_monday
-			}
-			if = {
-				limit = {
-					has_idea = WUR_black_monday1
-				}
-				remove_ideas = WUR_black_monday1
-			}
-			if = {
-				limit = {
-					has_idea = WUR_black_monday2
-				}
-				remove_ideas = WUR_black_monday2
-			}
 		}
 	}
 
@@ -1484,26 +1178,16 @@ focus_tree = {
 		x = 4
 		y = 5
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
 		}
 		
 		available = {
-			has_war = no
 		}
 		
 		completion_reward = {
-			every_country = {
-				limit = {
-					has_idea = ME_idea
-					}
-				swap_ideas = {
-					remove_idea = ME_idea
-					add_idea = ME_europamark_idea
-					}
-				}
 			}
 	}
 	
@@ -1514,26 +1198,16 @@ focus_tree = {
 		x = 4
 		y = 6
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
 		}
 		
 		available = {
-			has_war = no
 		}
 		
 		completion_reward = {
-			every_country = {
-				limit = {
-					has_idea = ME_idea
-					}
-				swap_ideas = {
-					remove_idea = ME_idea
-					add_idea = ME_europamark_idea
-					}
-				}
 			}
 	}
 	
@@ -1571,10 +1245,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = WUR_black_monday
-				add_idea = WUR_black_monday1
-			}
 		}
 	}
 	
@@ -1582,22 +1252,6 @@ focus_tree = {
 		id = WUR_class3
 		icon = GFX_focus_generic_polish_deal
 		prerequisite = { focus = WUR_class2 }
-		bypass = {
-			OR = {
-				POL = { 
-					is_in_faction = yes
-					NOT = { is_in_faction_with = WUR }
-				}
-				PLC = { 
-					is_in_faction = yes
-					NOT = { is_in_faction_with = WUR }
-				}
-				AND = {
-					NOT = { country_exists = POL }
-					NOT = { country_exists = PLC }
-				}
-			}
-		}
 		x = 8
 		y = 3
 		relative_position_id = WUR_prepare_to_return
@@ -1608,51 +1262,9 @@ focus_tree = {
 		}
 		
 		available = {
-			NOT = {	has_war_with = POL }
-			NOT = {	has_war_with = PLC }
-			OR = {
-				AND = {
-					POL = { is_in_faction_with = WUR }
-					PLC = { exists = no }
-				}
-				AND = {
-					POL = { is_in_faction = no }
-					PLC = { exists = no }
-				}
-				AND = {
-					PLC = { is_in_faction_with = WUR }
-					POL = { exists = no }
-				}
-				AND = {
-					PLC = { is_in_faction = no }
-					POL = { exists = no }
-				}
-			}
 		}
 		
 		completion_reward = {
-			if = {
-				limit = {
-					PLC = { exists = yes }
-				}
-				reverse_add_opinion_modifier = { target = PLC modifier = polish_deal_op }
-				add_opinion_modifier = {
-					target = PLC 
-					modifier = polish_deal_op
-				}
-				PLC = { country_event = gerfor.168 }
-				
-				else = {
-					reverse_add_opinion_modifier = { target = POL modifier = polish_deal_op }
-					add_opinion_modifier = {
-						target = POL 
-						modifier = polish_deal_op
-					}
-					POL = { country_event = gerfor.168 }
-				}
-			}
-
-			country_event = gerfor.167
 		}
 	}
 	
@@ -1663,34 +1275,13 @@ focus_tree = {
 		x = 8
 		y = 4
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
 		}
 		
 		completion_reward = {
-			if = {
-				limit = {
-					NOT = {
-						has_idea = WUR_black_monday1
-						has_idea = WUR_black_monday2
-					}
-				}
-				remove_ideas = WUR_black_monday
-			}
-			if = {
-				limit = {
-					has_idea = WUR_black_monday1
-				}
-				remove_ideas = WUR_black_monday1
-			}
-			if = {
-				limit = {
-					has_idea = WUR_black_monday2
-				}
-				remove_ideas = WUR_black_monday2
-			}
 		}
 	}
 
@@ -1701,26 +1292,16 @@ focus_tree = {
 		x = 8
 		y = 5
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
 		}
 		
 		available = {
-			has_war = no
 		}
 		
 		completion_reward = {
-			every_country = {
-				limit = {
-					has_idea = ME_idea
-					}
-				swap_ideas = {
-					remove_idea = ME_idea
-					add_idea = ME_europamark_idea
-					}
-				}
 			}
 	}
 	
@@ -1731,26 +1312,16 @@ focus_tree = {
 		x = 8
 		y = 6
 		relative_position_id = WUR_prepare_to_return
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 1000
 		}
 		
 		available = {
-			has_war = no
 		}
 		
 		completion_reward = {
-			every_country = {
-				limit = {
-					has_idea = ME_idea
-					}
-				swap_ideas = {
-					remove_idea = ME_idea
-					add_idea = ME_europamark_idea
-					}
-				}
 			}
 	}
 
@@ -1778,10 +1349,10 @@ focus_tree = {
 		id = WUR_research_expansion
 		icon = GFX_focus_research
 		prerequisite = { focus = WUR_economy }
-		x = -2
-		y = 2
+		x = 0
+		y = 1
 		relative_position_id = WUR_economy
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 50
@@ -1793,11 +1364,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = WUR_siemens
+		id = WUR_civ_industry
 		icon = GFX_goal_generic_construct_civilian
 		prerequisite = { focus = WUR_economy }
-		mutually_exclusive = { focus = WUR_krupp }
-		x = 2
+		mutually_exclusive = { }
+		x = -2
 		y = 1
 		relative_position_id = WUR_economy
 		cost = 5
@@ -1807,8 +1378,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {			
-			custom_effect_tooltip = WUR_siemens_unlock
-			55 = {
+			50 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = infrastructure
@@ -1817,21 +1387,17 @@ focus_tree = {
 				}
 			}
 
-			if = {
-				limit = { has_idea = siemens_schuckert }
-				swap_ideas = { remove_idea = siemens_schuckert add_idea = siemens_schuckert2 }
-			}
 		}
 	}
 
 	focus = {
 		id = WUR_infra_1
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = WUR_siemens }
-		x = 1
+		prerequisite = { focus = WUR_civ_industry }
+		x = -3
 		y = 2
 		relative_position_id = WUR_economy
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -1875,10 +1441,10 @@ focus_tree = {
 		id = WUR_infra_2
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = WUR_infra_1 }
-		x = 1
+		x = -3
 		y = 3
 		relative_position_id = WUR_economy
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -1922,10 +1488,10 @@ focus_tree = {
 		id = WUR_infra_3
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = WUR_infra_1 }
-		x = 1
+		x = -3
 		y = 4
 		relative_position_id = WUR_economy
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -1968,11 +1534,11 @@ focus_tree = {
 	focus = {
 		id = WUR_civ_industry_1
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = WUR_siemens focus = WUR_krupp }
-		x = 3
+		prerequisite = { focus = WUR_civ_industry }
+		x = -1
 		y = 2
 		relative_position_id = WUR_economy
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -2016,10 +1582,10 @@ focus_tree = {
 		id = WUR_civ_industry_2
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = WUR_civ_industry_1 }
-		x = 3
+		x = -1
 		y = 3
 		relative_position_id = WUR_economy
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -2063,10 +1629,10 @@ focus_tree = {
 		id = WUR_civ_industry_3
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = WUR_civ_industry_2 focus = WUR_infra_2 }
-		x = 3
+		x = -1
 		y = 4
 		relative_position_id = WUR_economy
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -2109,11 +1675,11 @@ focus_tree = {
 	focus = {
 		id = WUR_artillery_research
 		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = WUR_krupp focus = WUR_Mauser_werke }
+		prerequisite = { focus = WUR_mil_industry_1 }
 		x = 5
 		y = 2
 		relative_position_id = WUR_economy
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -2137,7 +1703,7 @@ focus_tree = {
 		x = 5
 		y = 3
 		relative_position_id = WUR_economy
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -2184,7 +1750,7 @@ focus_tree = {
 		x = 5
 		y = 4
 		relative_position_id = WUR_economy
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -2225,12 +1791,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = WUR_Mauser_werke
+		id = WUR_mil_industry_1
 		icon = GFX_goal_generic_military_sphere
 		prerequisite = { focus = WUR_economy }
-		prerequisite = { focus = WUR_mil_expansion }
-		mutually_exclusive = { focus = WUR_krupp }
-		x = 7
+		mutually_exclusive = { }
+		x = 2
 		y = 1
 		relative_position_id = WUR_economy
 		cost = 5
@@ -2240,7 +1805,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-		custom_effect_tooltip = mauser_werke_desc
 		
 			random_owned_state = {
 				limit = {
@@ -2278,11 +1842,11 @@ focus_tree = {
 	focus = {
 		id = WUR_Infantry_divs
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = WUR_Mauser_werke }
+		prerequisite = { focus = WUR_mil_industry_1 }
 		x = 7
 		y = 2
 		relative_position_id = WUR_economy
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -2305,14 +1869,12 @@ focus_tree = {
 		x = 7
 		y = 4
 		relative_position_id = WUR_economy
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
-			add_political_power = -40
-			add_timed_idea = { idea = WUR_tank_idea days = 365 }
 		}
 	}
 	
@@ -2348,7 +1910,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = WUR_mil_expansion
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -2375,7 +1937,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = WUR_mil_expansion
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -2401,7 +1963,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = WUR_mil_expansion
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -2424,7 +1986,7 @@ focus_tree = {
 		x = -2
 		y = 2
 		relative_position_id = WUR_mil_expansion
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -2448,7 +2010,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = WUR_mil_expansion
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -2471,7 +2033,7 @@ focus_tree = {
 		x = 2
 		y = 2
 		relative_position_id = WUR_mil_expansion
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -2494,7 +2056,7 @@ focus_tree = {
 		x = -2
 		y = 3
 		relative_position_id = WUR_mil_expansion
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -2518,7 +2080,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = WUR_mil_expansion
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -2541,7 +2103,7 @@ focus_tree = {
 		x = 2
 		y = 3
 		relative_position_id = WUR_mil_expansion
-		cost = 10
+		cost = 8.6
 		
 		ai_will_do = {
 			factor = 10
@@ -2565,7 +2127,7 @@ focus_tree = {
 		x = -1
 		y = 4
 		relative_position_id = WUR_mil_expansion
-		cost = 10
+		cost = 8.6
 		ai_will_do = {
 			factor = 50
 		}
@@ -2582,11 +2144,8 @@ focus_tree = {
 		x = 1
 		y = 4
 		relative_position_id = WUR_mil_expansion
-		cost = 10
+		cost = 8.6
 		available = {
-			NOT = {
-				has_idea = WUR_quenched_militarism
-			}
 		}
 		
 		ai_will_do = {
@@ -2594,7 +2153,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_ideas = WUR_renwed_militarism
 		}
 	}
 	
@@ -2612,16 +2170,11 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			army_experience = 50
-			air_experience = 25
-			add_named_threat = { threat = 2.5 name = loth_armed_1 }
-			country_event = { id = prewar.37 days = 10 }
-			hidden_effect = { FRA = { country_event = prewar.36 } }
 		}
 	}
 
 	focus = {
-		id = WUR_heerflieger
+		id = WUR_air1
 		icon = GFX_goal_generic_air_doctrine
 		prerequisite = { focus = WUR_mil_expansion }
 		x = 4
@@ -2644,9 +2197,9 @@ focus_tree = {
 	}
 		
 	focus = {
-		id = WUR_sturzflieger
+		id = WUR_air2
 		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = WUR_heerflieger }
+		prerequisite = { focus = WUR_air1 }
 		x = 4
 		y = 2
 		relative_position_id = WUR_mil_expansion
@@ -2667,9 +2220,9 @@ focus_tree = {
 	}
 		
 	focus = {
-		id = WUR_cas
+		id = WUR_air3
 		icon = GFX_goal_generic_CAS
-		prerequisite = { focus = WUR_sturzflieger }
+		prerequisite = { focus = WUR_air2 }
 		x = 4
 		y = 3
 		relative_position_id = WUR_mil_expansion
@@ -2690,9 +2243,9 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = WUR_Luftwaffe_airbases_1
+		id = WUR_air4
 		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = WUR_luftwaffe focus = WUR_heerflieger }
+		prerequisite = { focus = WUR_air1 }
 		x = 4
 		y = 4
 		relative_position_id = WUR_mil_expansion
@@ -2736,7 +2289,7 @@ focus_tree = {
 	focus = {
 		id = WUR_institut
 		icon = GFX_goal_generic_air_production
-		prerequisite = { focus = WUR_Luftwaffe_airbases_1 }
+		prerequisite = { focus = WUR_air4 }
 		x = 4
 		y = 5
 		relative_position_id = WUR_mil_expansion
@@ -2747,7 +2300,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_timed_idea = { idea = WUR_institut_idea days = 365 }
 		}
 	}
 )

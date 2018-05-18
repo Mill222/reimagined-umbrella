@@ -7,6 +7,9 @@
    		garrison = { x = 1 y = 0 }
 		garrison = { x = 1 y = 1 }
 		garrison = { x = 1 y = 2 }
+		garrison = { x = 2 y = 0 }
+		garrison = { x = 2 y = 1 }
+		garrison = { x = 2 y = 2 }
 		
 	}
 	support = {
@@ -15,7 +18,7 @@
 	}
 	}
 division_template = {
-	name = "Infanterie-Division"					
+	name = "Livländische Division"					
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -29,11 +32,12 @@ division_template = {
 		infantry = { x = 2 y = 2 }
 	}
 	support = {
-
 	}
 }
+
 division_template = {
-	name = "Eiserne Division"					
+	name = "Baltische-Division"	
+	is_locked = yes
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -42,15 +46,30 @@ division_template = {
    		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
-		cavalry = { x = 2 y = 2 }
-
-
+		infantry = { x = 2 y = 2 }
 	}
 	support = {
-		artillery = { x = 0 y = 0 }
+	}
+}
 
+division_template = {
+	name = "Freikorps-Brigade"
+	is_locked = yes	
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+	support = {
 	}
 }
 
@@ -58,56 +77,120 @@ units = {
 
 	
 	division= {	
-		name = "Eiserne Division"
+		name = "Sicherungs-Brigade 'Riga'"
 		location = 9340
-		division_template = "Eiserne Division"
+		division_template = "Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Sicherungs-Brigade 'Dorpat'"
+		location = 9221
+		division_template = "Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Sicherungs-Brigade 'Libau'"
+		location = 9262
+		division_template = "Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Eisenbrigade von Livland"
+		location = 9221
+		division_template = "Livländische Division"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
 	division= {	
-		name = "Sicherungs-Brigade 'Livland'"
-		location = 3388
-		division_template = "Garnison"
+		name = "1. Livländische Division"
+		location = 4640
+		division_template = "Livländische Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division= {	
-		name = "2.Deutsch-Balt. Division"
-		location = 3388
-		division_template = "Infanterie-Division"
+		name = "2. Livländische Division"
+		location = 319
+		division_template = "Livländische Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
-division= {	
-		name = "Sicherungs-Brigade 'Estland'"
-		location = 4640
-		division_template = "Garnison"
+	division= {	
+		name = "3. Livländische Division"
+		location = 310
+		division_template = "Livländische Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
-division= {	
-		name = "1.Deutsch-Balt. Division"
-		location = 4640
-		division_template = "Infanterie-Division"
+	division= {	
+		name = "4. Livländische Division"
+		location = 592
+		division_template = "Livländische Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "1. Baltische-Division"
+		location = 3152
+		division_template = "Baltische-Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	
+		name = "2. Baltische-Division"
+		location = 9275
+		division_template = "Baltische-Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	
+		name = "1. Freikorps-Brigade"
+		location = 9317
+		division_template = "Freikorps-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "2. Freikorps-Brigade"
+		location = 11302
+		division_template = "Freikorps-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "3. Freikorps-Brigade"
+		location = 6322
+		division_template = "Freikorps-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "4. Freikorps-Brigade"
+		location = 6178
+		division_template = "Freikorps-Brigade"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	
+	navy = {				
+		name = "Livländische Marine"			
+		base = 9340
+		location = 9340 # Riga
+		ship = { name = "Baden" definition = battleship equipment = { battleship_pre = { amount = 1 owner = LIV create_if_missing = yes } } }
+		ship = { name = "Bremse" definition = light_cruiser equipment = { light_cruiser_pre = { amount = 1 owner = LIV create_if_missing = yes } } }
+		ship = { name = "G38 'Riga'" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = LIV create_if_missing = yes } } }	
+		ship = { name = "S36 'Libau'" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = LIV create_if_missing = yes } } }
+	}		
+	
 }
 air_wings = {
-
-		13 = {
+	12 = { 
 		fighter_equipment_0 = {
-			owner = "LIV"
+			owner = "LIV" 
 			amount = 10
-			}	
+		}
 	}
 }
-		
-		
-		
-		
-		
-		
-		
-		

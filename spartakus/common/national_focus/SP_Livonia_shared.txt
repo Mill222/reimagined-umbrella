@@ -1,39 +1,34 @@
 ###########################
-# Baltic Duchy Focus Tree
-# By Anboy
+# Livonia Shared Focus Tree
+# By sparkz
 ###########################
 
 ###Economical Foci###
 
 shared_focus = {
-		id = LIV_ERP
+		id = LIV_Economy
 		icon = GFX_goal_generic_production
 		available = { has_country_flag = LIV_economy }
-		x = 10
+		x = 6
 		y = 0
-		cost = 8.6
+		cost = 1
 		ai_will_do = {
 			factor = 100
 		}
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 0.5
-				uses = 1
-				category = industry
-			}
+			add_stability = 0.05
 		}
 	}
-
+	
 shared_focus = {
-		id = LIV_ERP_Gov1
+		id = LIV_Economy_Liberal
 		icon = GFX_goal_generic_national_unity
-		prerequisite = { focus = LIV_ERP }
-		mutually_exclusive = { focus = LIV_ERP_FM1 }
-		x = -1
+		prerequisite = { focus = LIV_Economy }
+		mutually_exclusive = { focus = LIV_Economy_FM1 focus = LIV_Economy_Gov1 }
+		x = -8
 		y = 1
-		relative_position_id = LIV_ERP
+		relative_position_id = LIV_Economy
 		cost = 8.6
 		ai_will_do = {
 			factor = 100
@@ -62,12 +57,47 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_ERP_Gov2
+		id = LIV_Economy_Gov1
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = LIV_Economy }
+		mutually_exclusive = { focus = LIV_Economy_FM1 }
+		x = 0
+		y = 1
+		relative_position_id = LIV_Economy
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+
+			random_owned_state = {
+
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+shared_focus = {
+		id = LIV_Economy_Gov2
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = LIV_ERP_Gov1 }
+		prerequisite = { focus = LIV_Economy_Gov1 }
 		x = -2
 		y = 2
-		relative_position_id = LIV_ERP
+		relative_position_id = LIV_Economy
 		cost = 8.6
 		ai_will_do = {
 			factor = 100
@@ -114,12 +144,12 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_ERP_Gov3
+		id = LIV_Economy_Gov3
 		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = LIV_ERP_Gov2 }
+		prerequisite = { focus = LIV_Economy_Gov2 }
 		x = -2
 		y = 3
-		relative_position_id = LIV_ERP
+		relative_position_id = LIV_Economy
 		cost = 8.6
 		ai_will_do = {
 			factor = 100
@@ -132,12 +162,12 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_ERP_Gov4
+		id = LIV_Economy_Gov4
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = LIV_ERP_Gov3 }
+		prerequisite = { focus = LIV_Economy_Gov3 }
 		x = -2
 		y = 4
-		relative_position_id = LIV_ERP
+		relative_position_id = LIV_Economy
 		cost = 8.6
 		ai_will_do = {
 			factor = 100
@@ -169,10 +199,10 @@ shared_focus = {
 shared_focus = {
 		id = LIV_Eco_Naval1
 		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = LIV_ERP_Gov1 focus = LIV_ERP_FM1 }
+		prerequisite = { focus = LIV_Economy_Gov1 focus = LIV_Economy_FM1 }
 		x = 0
 		y = 2
-		relative_position_id = LIV_ERP
+		relative_position_id = LIV_Economy
 		cost = 8.6
 		ai_will_do = {
 			factor = 100
@@ -203,7 +233,7 @@ shared_focus = {
 		prerequisite = { focus = LIV_Eco_Naval1 }
 		x = 0
 		y = 3
-		relative_position_id = LIV_ERP
+		relative_position_id = LIV_Economy
 		cost = 8.6
 		ai_will_do = {
 			factor = 100
@@ -237,7 +267,7 @@ shared_focus = {
 		prerequisite = { focus = LIV_Eco_Naval2 }
 		x = 0
 		y = 4
-		relative_position_id = LIV_ERP
+		relative_position_id = LIV_Economy
 		cost = 8.6
 		ai_will_do = {
 			factor = 100
@@ -266,13 +296,13 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_ERP_FM1
+		id = LIV_Economy_FM1
 		icon = GFX_goal_generic_positive_trade_relations
-		prerequisite = { focus = LIV_ERP }
-		mutually_exclusive = { focus = LIV_ERP_Gov1 }
-		x = 1
+		prerequisite = { focus = LIV_Economy }
+		mutually_exclusive = { focus = LIV_Economy_Gov1 }
+		x = 8
 		y = 1
-		relative_position_id = LIV_ERP
+		relative_position_id = LIV_Economy
 		cost = 8.6
 		ai_will_do = {
 			factor = 100
@@ -318,12 +348,12 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_ERP_FM2
+		id = LIV_Economy_FM2
 		icon = GFX_focus_research
-		prerequisite = { focus = LIV_ERP_FM1 }
+		prerequisite = { focus = LIV_Economy_FM1 }
 		x = 2
 		y = 2
-		relative_position_id = LIV_ERP
+		relative_position_id = LIV_Economy
 		cost = 8.6
 		ai_will_do = {
 			factor = 100
@@ -336,12 +366,12 @@ shared_focus = {
 
 
 shared_focus = {
-		id = LIV_ERP_FM3
+		id = LIV_Economy_FM3
 		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = LIV_ERP_FM2 }
+		prerequisite = { focus = LIV_Economy_FM2 }
 		x = 2
 		y = 3
-		relative_position_id = LIV_ERP
+		relative_position_id = LIV_Economy
 		cost = 8.6
 		ai_will_do = {
 			factor = 100
@@ -354,12 +384,12 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_ERP_FM4
+		id = LIV_Economy_FM4
 		icon = GFX_goal_generic_neutrality_focus
-		prerequisite = { focus = LIV_ERP_FM3 }
+		prerequisite = { focus = LIV_Economy_FM3 }
 		x = 2
 		y = 4
-		relative_position_id = LIV_ERP
+		relative_position_id = LIV_Economy
 		cost = 8.6
 		ai_will_do = {
 			factor = 100
@@ -371,13 +401,13 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_ERP_End
+		id = LIV_Economy_End
 		icon = GFX_goal_generic_production2
-		prerequisite = { focus = LIV_ERP_FM4 focus = LIV_ERP_Gov4 }
+		prerequisite = { focus = LIV_Economy_FM4 focus = LIV_Economy_Gov4 }
 		prerequisite = { focus = LIV_Eco_Naval3 }
 		x = 0
 		y = 5
-		relative_position_id = LIV_ERP
+		relative_position_id = LIV_Economy
 		cost = 8.6
 		ai_will_do = {
 			factor = 100
@@ -395,7 +425,7 @@ shared_focus = {
 		icon = GFX_LIV_defense
 		x = 23
 		y = 0
-		cost = 8.6
+		cost = 5
 		ai_will_do = {
 			factor = 50
 		}
@@ -416,7 +446,7 @@ shared_focus = {
 				has_country_flag = LIV_freikorps_reform_finished
 			}
 		}
-		x = -4
+		x = -5
 		y = 1
 		relative_position_id = LIV_Army_Start
 		cost = 1
@@ -449,6 +479,197 @@ shared_focus = {
 
 		completion_reward = {
 			LIV = {	country_event = { id = livfoc.3 days = 1 } }
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Support_Freikorps
+		icon = GFX_unknown
+		prerequisite = { focus = LIV_Cons_Reform2 }
+		mutually_exclusive = { focus = LIV_Reform_Freikorps }
+		available = { 
+			OR = {
+				has_country_flag = LIV_support_freikorps
+			}
+		}
+		x = 2
+		y = 1
+		relative_position_id = LIV_Cons_Reform2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Support_Freikorps_2
+		icon = GFX_unknown
+		prerequisite = { focus = LIV_Support_Freikorps }
+		x = 2
+		y = 2
+		relative_position_id = LIV_Cons_Reform2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Support_Freikorps_3
+		icon = GFX_unknown
+		prerequisite = { focus = LIV_Support_Freikorps_2 }
+		prerequisite = { focus = LIV_Freikorps_Center }
+		x = 2
+		y = 3
+		relative_position_id = LIV_Cons_Reform2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Support_Freikorps_4
+		icon = GFX_unknown
+		prerequisite = { focus = LIV_Support_Freikorps_3 }
+		x = 2
+		y = 4
+		relative_position_id = LIV_Cons_Reform2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Reform_Freikorps
+		icon = GFX_unknown
+		prerequisite = { focus = LIV_Cons_Reform2 }
+		mutually_exclusive = { focus = LIV_Support_Freikorps }
+		available = { 
+			OR = {
+				has_country_flag = LIV_reform_freikorps
+			}
+		}
+		x = -2
+		y = 1
+		relative_position_id = LIV_Cons_Reform2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Reform_Freikorps_2
+		icon = GFX_unknown
+		prerequisite = { focus = LIV_Reform_Freikorps }
+		x = -2
+		y = 2
+		relative_position_id = LIV_Cons_Reform2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Reform_Freikorps_3
+		icon = GFX_unknown
+		prerequisite = { focus = LIV_Reform_Freikorps_2 }
+		prerequisite = { focus = LIV_Freikorps_Center }
+		x = -2
+		y = 3
+		relative_position_id = LIV_Cons_Reform2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Reform_Freikorps_4
+		icon = GFX_unknown
+		prerequisite = { focus = LIV_Reform_Freikorps_3 }
+		x = -2
+		y = 4
+		relative_position_id = LIV_Cons_Reform2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Freikorps_Center
+		icon = GFX_unknown
+		prerequisite = { focus = LIV_Reform_Freikorps focus = LIV_Support_Freikorps }
+		x = 0
+		y = 2
+		relative_position_id = LIV_Cons_Reform2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Freikorps_Center_2
+		icon = GFX_unknown
+		prerequisite = { focus = LIV_Reform_Freikorps_3 focus = LIV_Support_Freikorps_3 }
+		x = 0
+		y = 4
+		relative_position_id = LIV_Cons_Reform2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Freikorps_Issue_Finish
+		icon = GFX_goal_military_academy
+		prerequisite = { focus = LIV_Freikorps_Center_2 }
+		prerequisite = { focus = LIV_Reform_Freikorps_4 focus = LIV_Support_Freikorps_4 }
+		x = 0
+		y = 5
+		relative_position_id = LIV_Cons_Reform2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
 		}
 	}
 
@@ -695,7 +916,7 @@ shared_focus = {
 		icon = GFX_goal_generic_war_with_comintern
 		available = { threat > 0.05 }
 		prerequisite = { focus = LIV_Cons_Reform focus = LIV_Cons_Reform2 }
-		x = 1
+		x = 0
 		y = 2
 		relative_position_id = LIV_Army_Start
 		cost = 8.6
@@ -834,6 +1055,7 @@ shared_focus = {
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = LIV_Riga_Mil_Factories focus = LIV_Riga_Civ_Factories }
 		prerequisite = { focus = LIV_Army_Reform_Finish }
+		prerequisite = { focus = LIV_Freikorps_Issue_Finish }
 		x = 1
 		y = 1
 		relative_position_id = LIV_Riga_Mil_Factories
