@@ -1152,6 +1152,7 @@ country_event = { # First Congress - Political
 			}
 			remove_ideas_with_trait = security_minister
 			add_ideas = CHL_Carlos_Labarca_sec_len
+			set_country_flag = CHL_vanguard_party # gives bonus to ruling party in all future conventions
 		}
 	}
 	
@@ -1509,6 +1510,414 @@ country_event = { # calculating the conference
 	}
 }
 
+country_event = { #PCCh Victory
+	id = chile.32
+	title = chile.32.t
+	desc = chile.32.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chile.32.a
+		remove_ideas_with_trait =  head_of_government
+		add_ideas = CHL_Carlos_Labarca_hog_len
+		set_politics = {
+			ruling_party = leninist
+			elections_allowed = no
+		}
+		if = {
+			limit = {
+				AND = {
+					leninist < 0.4
+					leninist > 0.3
+				}
+			}
+			add_popularity = {
+				ideology = leninist
+				popularity = 0.1
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					leninist < 0.3
+					leninist > 0.2
+				}
+			}
+			add_popularity = {
+				ideology = leninist
+				popularity = 0.15
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					leninist < 0.2
+					leninist > 0.1
+				}
+			}
+			add_popularity = {
+				ideology = leninist
+				popularity = 0.2
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					leninist < 0.4
+					leninist > 0.3
+				}
+			}
+			add_popularity = {
+				ideology = leninist
+				popularity = 0.25
+			}
+		}
+		set_country_flag = CHL_PCCh_victory
+	}
+}
+
+country_event = { #IC Victory
+	id = chile.33
+	title = chile.33.t
+	desc = chile.33.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chile.33.a
+		remove_ideas_with_trait =  head_of_government
+		add_ideas = CHL_manuel_hidalgo_hog
+		set_politics = {
+			ruling_party = marxist
+			elections_allowed = no
+		}
+		if = {
+			limit = {
+				AND = {
+					marxist < 0.4
+					marxist > 0.3
+				}
+			}
+			add_popularity = {
+				ideology = marxist
+				popularity = 0.1
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					marxist < 0.3
+					marxist > 0.2
+				}
+			}
+			add_popularity = {
+				ideology = marxist
+				popularity = 0.15
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					marxist < 0.2
+					marxist > 0.1
+				}
+			}
+			add_popularity = {
+				ideology = marxist
+				popularity = 0.2
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					marxist < 0.4
+					marxist > 0.3
+				}
+			}
+			add_popularity = {
+				ideology = marxist
+				popularity = 0.25
+			}
+		}
+		set_country_flag = CHL_IC_victory
+	}
+}
+
+country_event = { #Syndicalist Victory
+	id = chile.34
+	title = chile.34.t
+	desc = chile.34.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = chile.34.a
+		remove_ideas_with_trait = head_of_government
+		add_ideas = CHL_flora_sanhueza_hog
+		set_politics = {
+			ruling_party = revolutionary_socialist
+			elections_allowed = no
+		}
+		if = {
+			limit = {
+				AND = {
+					revolutionary_socialist < 0.4
+					revolutionary_socialist > 0.3
+				}
+			}
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.1
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					revolutionary_socialist < 0.3
+					revolutionary_socialist > 0.2
+				}
+			}
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.15
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					revolutionary_socialist < 0.2
+					revolutionary_socialist > 0.1
+				}
+			}
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.2
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					revolutionary_socialist < 0.4
+					revolutionary_socialist > 0.3
+				}
+			}
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.25
+			}
+		}
+		set_country_flag = CHL_syndicalist_victory
+	}
+}
+
+country_event = { #PSC Victory
+	id = chile.35
+	title = chile.35.t
+	desc = chile.35.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # Keep Grove
+		name = chile.35.a
+		remove_ideas_with_trait = head_of_government
+		add_ideas = CHL_Marmaduke_Grove_hog_mar
+		set_politics = {
+			ruling_party = democratic_socialist
+			elections_allowed = no
+		}
+		if = {
+			limit = {
+				AND = {
+					democratic_socialist < 0.4
+					democratic_socialist > 0.3
+				}
+			}
+			add_popularity = {
+				ideology = democratic_socialist
+				popularity = 0.1
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					democratic_socialist < 0.3
+					democratic_socialist > 0.2
+				}
+			}
+			add_popularity = {
+				ideology = democratic_socialist
+				popularity = 0.15
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					democratic_socialist < 0.2
+					democratic_socialist > 0.1
+				}
+			}
+			add_popularity = {
+				ideology = democratic_socialist
+				popularity = 0.2
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					democratic_socialist < 0.4
+					democratic_socialist > 0.3
+				}
+			}
+			add_popularity = {
+				ideology = democratic_socialist
+				popularity = 0.25
+			}
+		}
+		set_country_flag = CHL_PSC_victory
+	}
+	
+	option = { # Elect Salvador Allende
+		name = chile.35.b
+		create_country_leader = {
+			name = "Salvador Allende"
+			desc = "POLITICS_SALVADOR_ALLENDE_DESC"
+			picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds" #WIP
+			expire = "1965.1.1"
+			ideology = democratic_socialist_subtype
+			traits = {
+				#
+			}
+		}
+		remove_ideas_with_trait = head_of_government
+		add_ideas = CHL_Salvador_Allende_hog_rev
+		set_politics = {
+			ruling_party = democratic_socialist
+			elections_allowed = no
+		}
+		if = {
+			limit = {
+				AND = {
+					democratic_socialist < 0.4
+					democratic_socialist > 0.3
+				}
+			}
+			add_popularity = {
+				ideology = democratic_socialist
+				popularity = 0.1
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					democratic_socialist < 0.3
+					democratic_socialist > 0.2
+				}
+			}
+			add_popularity = {
+				ideology = democratic_socialist
+				popularity = 0.15
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					democratic_socialist < 0.2
+					democratic_socialist > 0.1
+				}
+			}
+			add_popularity = {
+				ideology = democratic_socialist
+				popularity = 0.2
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					democratic_socialist < 0.4
+					democratic_socialist > 0.3
+				}
+			}
+			add_popularity = {
+				ideology = democratic_socialist
+				popularity = 0.25
+			}
+		}
+		set_country_flag = CHL_PSC_victory
+	}
+}
+
+country_event = { # Runoff Election
+	id = chile.36
+	title = chile.36.t
+	desc = chile.36.d
+	picture = GFX_WIP
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	if = {
+		limit = {
+			check_variable = { CHL_UP_PSC_support > 1 }
+		}
+		option = {
+			chile.36.a
+			add_stability = -0.05
+			country_event = {
+				id = chile.35
+				days = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { CHL_UP_unions_support > 1 }
+		}
+		option = {
+			chile.36.b
+			add_stability = -0.05
+			country_event = {
+				id = chile.34
+				days = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { CHL_UP_IC_support > 1 }
+		}
+		option = {
+			chile.36.c
+			add_stability = -0.05
+			country_event = {
+				id = chile.33
+				days = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { CHL_UP_PCCh_support > 1 }
+		}
+		option = {
+			chile.36.e
+			add_stability = -0.05
+			country_event = {
+				id = chile.32
+				days = 1
+			}
+		}
+	}
+}
+		
 ### Montero's Republic ###
 country_event = { # Purge of the Socialists
 	id = chile.7
