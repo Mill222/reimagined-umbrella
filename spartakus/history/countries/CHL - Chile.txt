@@ -209,6 +209,17 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Bernardo Ibáñez"
+	desc = "POLITICS_FLORA_SANHUEZA_DESC"
+	picture = "gfx/leaders/SWI/Portrait_Switzerland_Federal_council.dds" #WIP
+	expire = "1965.1.1"
+	ideology = revolutionary_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Manuel Hidalgo"
 	desc = "POLITICS_MANUEL_HIDALGO_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds" #WIP

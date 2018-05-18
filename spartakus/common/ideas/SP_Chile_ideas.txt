@@ -88,6 +88,23 @@ air_naval_manufacturer = {
 			cancel_if_invalid = no
 		}
 		
+		CHL_bernardo_ibanez_hog = {
+			allowed = { original_tag = CHL }
+			visible = {
+				revolutionary_socialist_allowed = yes
+				NOT = {has_country_flag = Manuel_Hidalgo_dead}
+			}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			traits = {
+				head_of_government
+				revolutionary_socialist
+				hog_ambitious_union_boss
+			}
+			cancel_if_invalid = no
+		}
+		
 		CHL_carlos_davila_hog = { 
 			allowed = { original_tag = CHL }
 			visible = {
