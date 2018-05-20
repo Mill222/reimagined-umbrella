@@ -4,6 +4,12 @@
 uk.0.t:0 "The United Kingdom"
 uk.0.desc:0 "After the armistice in 1918 and the wave of revolutions across Russia and the former Central Powers, the Allied nations found ourselves facing no longer the threat of war, but the threat of revolution. The Irish Republicans had risen up against English rule, our own populace was war-weary, and our economy was stagnating. It seemed as though revolution was spreading across Europe.\n\nThe war in Ireland came to an abrupt end with an independent massacre of IRA leaders by the military, which led to the fall of the coalition government in 1922. The new Liberal-Labour coalition negotiated an end to the conflict, but the coalition would only last a year. Since then, Labour has been unable to recover. \n\nTotal stability has never truly returned to Britain. After the crash of the London Stock Exchange in 1929, many lost all hope of our economy ever truly recovering. Finally, though, the crisis appears to be coming to an end. The British Empire will soon be as strong as ever, and the communist threat will be no more."
 uk.0.a:"Rule, Britannia!"
+uk.1.t:0 "Effects of Wall Street Reach Britain"
+uk.1.desc:0 "The crash of the New York Stock Exchange has rattled the world, and we are beginning to feel its effects in Britain. Our economy, which we all believed would finally recover in the coming years, will soon reach new depths. \n\nSome worry that this will spark a renewed socialist movement in Britain, but others look in another direction. The last election saw several unexpected victories for right-wing independents and minor parties, and with the worsening situation, more may turn towards their more radical methods."
+uk.1.a:0 "Surely such talk is exaggerated."
+uk.2.t:0 "The National Union of Britons"
+uk.2.desc:0 "Today marks the formation of a new political party: the National Union of Britons. Although this would not be especially notable under ordinary circumstances, it is the result of a merger of several minor parties as well as a number of independent right-wing politicians holding seats in parliament. Although diverse in their ideas, its members have determined that their goals would be better pursued under a single banner, and their support will only grow from this point on."
+uk.2.a:0 "They will surely never amount to much."
 
 
 ukforeign.14.t:0 "The Kuomintang Seize Macau!"
@@ -30,9 +36,9 @@ UK_pacifism_desc:0 "The British nation is tired of war. Following the Great War,
 
 # Parties
 ENG_leninist_party:0 "CPGB"
-ENG_leninist_party_long:0 "Communist Party of Great Britain"
-ENG_marxist_party:0 "SLP"
-ENG_marxist_party_long:0 "Socialist Labour Party"
+ENG_leninist_party_long:0 "Communist Party of Great Britain - Leninist"
+ENG_marxist_party:0 "CPGB"
+ENG_marxist_party_long:0 "Communist Party of Great Britain - Orthodox Marxist"
 ENG_democratic_socialist_party:0 "ILP"
 ENG_democratic_socialist_party_long:0 "Independent Labour Party"
 ENG_revolutionary_socialist_party:0 "SPGB"
@@ -43,16 +49,18 @@ ENG_social_liberal_party:0 "New Liberals"
 ENG_social_liberal_party_long:0 "Liberal Party - New Liberals"
 ENG_liberal_conservative_party:0 "Old Liberals"
 ENG_liberal_conservative_party_long:0 "Liberal Party - Old Liberals"
-ENG_social_conservative_party:0 "CUP"
+ENG_social_conservative_party:0 "Conservatives"
 ENG_social_conservative_party_long:0 "Conservative and Unionist Party"
 ENG_authoritarian_democrat_party:0 "Loyalists"
 ENG_authoritarian_democrat_party_long:0 "Monarchy"
-ENG_right_wing_populist_party:0 "BEL"
-ENG_right_wing_populist_party_long:0 "British Empire League"
-ENG_national_syndicalist_party:0 "BF"
-ENG_national_syndicalist_party_long:0 "British Fascists"
-ENG_national_corporatist_party:0 "BUF"
-ENG_national_corporatist_party_long:0 "British Union of Fascists"
+ENG_right_wing_populist_party:0 "BBL"
+ENG_right_wing_populist_party_long:0 "British Brothers' League"
+ENG_national_syndicalist_party:0 "BPP"
+ENG_national_syndicalist_party_long:0 "British People's Party"
+ENG_national_corporatist_party:0 "KBE"
+ENG_national_corporatist_party_long:0 "Kindred of the British Empire"
+UK_national_union_of_britons:0 "Britons"
+UK_national_union_of_britons_long:0 "National Union of Britons"
 
 
 # Opinion Modifiers
@@ -64,6 +72,10 @@ UK_IRE_general_strike:0 "General Strike"
 UK_IRE_no_memorial:0 "Spirit of Reconciliation"
 UK_IRE_refused_to_retract_statements:0 "Refused to retract anti-British statements"
 UK_influencing_irish_govt_strike:0 "Suspected of meddling in British affairs"
+UK_JAP_alliance:0 "Anglo-Japanese Alliance"
+
+# Leader descriptions
+POLITICS_George_V_DESC:0 "King George V has reigned through a tumultuous period. His reign has seen the beginning and end of the Great War, the rise of communism, and the gradual devolution of the British Empire. In the aftermath of the war and the ensuing revolutions in Europe, his cousins, Kaiser Wilhelm and Tsar Nicholas, were deposed. He has often called for leniency towards his more unruly subjects, such as the socialists and nationalists in Ireland and India, and during the general strike of 1926. \n\nSince the war, George has worked to rehabilitate the public's view of the monarchy and reconcile with the British labour movement. The monarchy appears safe. \n\nGeorge's health has been ailing these past years, however, and many expect his reign to end soon."
 
 # Autonomy Levels
 

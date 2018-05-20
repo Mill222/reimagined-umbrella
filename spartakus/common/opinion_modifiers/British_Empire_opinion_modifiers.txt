@@ -49,4 +49,21 @@ opinion_modifiers = {
 		value = 10
 		decay = 1
 	}
+	
+	# Canada
+	
+	UK_CAN_support_irish_anti_imperialism = {
+		value = -20
+		decay = 1
+	}
+	IRE_CAN_support_irish_anti_imperialism = {
+		value = 25
+		decay = 1
+	}
+	
+	# Foreign Affairs
+	
+	UK_JAP_alliance = {
+		value = 20
+	}
 }

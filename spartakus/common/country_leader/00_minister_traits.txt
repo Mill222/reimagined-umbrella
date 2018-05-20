@@ -815,6 +815,19 @@ leader_traits = {
 
 		random = no
 	}
+	
+	## Unique Traits
+	
+	int_occult_madman = { #Crowley
+		stability_factor = -0.03
+		political_power_gain = -0.08
+		encryption = 0.5
+		decryption = 1
+		research_time_factor = -0.02
+		
+		random = no
+	}
+		
 
 	########################################
 	## CHIEF OF STAFF
