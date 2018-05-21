@@ -232,7 +232,44 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_LIV_freikorps"
+		texturefile = "gfx/interface/goals/LIV_freikorps.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_LIV_conscription_reform"
+		texturefile = "gfx/interface/goals/LIV_conscription_reform.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_goal_civil_war_lessons"
 		texturefile = "gfx/interface/goals/goal_civil_war_lessons.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_Steel"
+		texturefile = "gfx/interface/goals/Steel.dds"
+	}
+	
+	#Indyclone
+	
+	SpriteType = {
+		name = "GFX_goal_Wooden_Frame"
+		texturefile = "gfx/interface/goals/Wooden_Frame.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_Pride_of_The_Left"
+		texturefile = "gfx/interface/goals/Pride_of_The_Left.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_reign_of_terror"
+		texturefile = "gfx/interface/goals/reign_of_terror.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_crownandeagle"
+		texturefile = "gfx/interface/goals/crownandeagle.dds"
 	}
 }

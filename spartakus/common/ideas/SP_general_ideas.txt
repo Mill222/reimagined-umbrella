@@ -36,84 +36,16 @@ ideas = {
 			default = yes
 		}
 	}
-
-### Stability Ideas ###
-
-	stability = {
+	
+	temp_4 = {
 		law = yes
-		
-		very_low_stability = {
-			level = 5
-			allowed_to_remove = { always = no }
-			available = { always = no }
-			cancel_if_invalid = no
-			
-			modifier = {
-				consumer_goods_factor = 0.2
-				industrial_capacity_factory = -0.2
-				industrial_capacity_dockyard = -0.2
-				army_org_factor = -0.1
-				war_support_factor = -0.2
-			}
-		}
-		
-		low_stability = {
-			level = 4
-			allowed_to_remove = { always = no }
-			available = { always = no }
-			cancel_if_invalid = no
 
-			modifier = {
-				consumer_goods_factor = 0.1
-				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = -0.1
-				army_org_factor = -0.05
-				war_support_factor = -0.1
-			}
-		}	
-		
-		normal_stability = {
-			level = 3
+		temp_4 = {
 			allowed_to_remove = { always = no }
 			available = { always = no }
 			cancel_if_invalid = no
 
 			default = yes
-		}
-		
-		good_stability = {
-			level = 2
-			allowed_to_remove = { always = no }
-			available = { always = no }
-			cancel_if_invalid = no
-
-			modifier = {
-				consumer_goods_factor = -0.05
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
-				war_support_factor = 0.05
-			}	
-		}
-		
-		very_good_stability = {
-			level = 1
-			allowed_to_remove = { always = no }
-			available = { always = no }
-			cancel_if_invalid = no
-			
-			available = {
-				custom_trigger_tooltip = {
-					has_idea = good_stability
-					tooltip = tooltip_stability_very_good
-				}
-			}
-
-			modifier = {
-				consumer_goods_factor = -0.10
-				industrial_capacity_factory = 0.10
-				industrial_capacity_dockyard = 0.10
-				war_support_factor = 0.10
-			}
 		}
 	}
 

@@ -2,7 +2,7 @@
 # USA Events
 ###########################
 
-add_namespace = ustates # Base Livonian Events
+add_namespace = ustates # Base American Events
 
 country_event = {
 	id = ustates.1

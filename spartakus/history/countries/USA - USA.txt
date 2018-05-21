@@ -101,7 +101,6 @@ USA_Charles_F_Adams_cnav_mli
 disarmed_nation
 free_trade
 undisturbed_isolation
-good_stability
 USA_booming_economy
 USA_tariff_act
 USA_impending_drought
