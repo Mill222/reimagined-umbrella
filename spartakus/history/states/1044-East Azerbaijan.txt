@@ -1,0 +1,20 @@
+state={
+	id=1044
+	name="STATE_1044"
+	provinces={
+		4825 4901 10454 
+	}
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = PER
+
+	}
+	manpower=537050
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

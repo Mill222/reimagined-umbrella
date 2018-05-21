@@ -7,6 +7,7 @@ state={
 		owner = PER
 		buildings = {
 			infrastructure = 3
+			arms_factory = 1
 
 		}
 		add_core_of = PER
@@ -14,9 +15,9 @@ state={
 	}
 
 	provinces={
-		2071 4553 4609 4637 4825 4901 10454 12793 
+		2071 4609 4637 12793 
 	}
-	manpower=1314948
+	manpower=814948
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

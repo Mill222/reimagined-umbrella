@@ -4,7 +4,7 @@ state={
 	name="STATE_419"
 
 	history={
-		owner = PER
+		owner = KUR
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -19,9 +19,9 @@ state={
 	}
 
 	provinces={
-		1896 4755 12861 13120 
+		1896 12861 13120 
 	}
-	manpower=931714
+	manpower=831714
 	buildings_max_level_factor=1.000
 	state_category=town
 }

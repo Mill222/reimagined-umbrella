@@ -12099,7 +12099,7 @@
 12098;173;207;147;land;true;mountain;1
 12099;173;207;202;land;false;desert;5
 12100;173;210;62;land;true;hills;5
-12101;173;210;167;land;true;mountain;7
+12101;173;210;167;land;false;mountain;7
 12102;174;0;37;land;false;forest;6
 12103;174;0;187;land;true;plains;0
 12104;174;3;2;land;false;forest;4
