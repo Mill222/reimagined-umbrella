@@ -1,0 +1,742 @@
+ideas = {
+	
+	head_of_government = { ### Head of Government ###
+		hog_ghioldi = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				leninist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_palacios = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_ortiz = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				liberal_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_castillo = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_rawson = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_justo = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_tonazzi = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_gilbert = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_varela = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				right_wing_populist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_millan = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				right_wing_populist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_lisandro = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				national_syndicalist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_irazusta = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				national_syndicalist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_sanchez_sorondo = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				national_corporatist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_ibarguren = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				national_corporatist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_lugones = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				national_corporatist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	foreign_minister = { ### Foreign Minister ###
+		fm_cantilo = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				liberal_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		fm_saavedra_lamas = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		fm_roca = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		fm_guerrico = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		fm_ascanope = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		fm_kelso = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				right_wing_populist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		fm_palacios_costa = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				right_wing_populist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		fm_mason = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				right_wing_populist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		fm_bosch = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				national_corporatist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		fm_daireaux = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				national_corporatist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	economy_minister = { ### Economy Minister ###
+		em_bramuglia = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		em_cantilo = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		em_demarchi = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		em_cereijo = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				liberal_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		em_mexia = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		em_martinez_de_hoz = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		em_prebisch = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		em_pinedo = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		em_justo = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		em_avalos = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		em_anchorena = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				right_wing_populist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		em_varela = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				naitonal_corporatist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		em_hirsch = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				national_corporatist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		em_di_tella = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				national_corporatist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		em_bosch = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_government = national_syndicalist
+				has_government = national_corporatist
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				foreign_minister
+				national_corporatist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+	}
+}

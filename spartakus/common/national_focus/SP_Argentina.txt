@@ -71,8 +71,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_stability = -0.05
-			country_event = 
+			country_event = argentina.29
 		}
 	}
 	focus = {
@@ -116,8 +115,8 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_popularity = { ideology = democratic_socialist popularity = -0.05 }
-			add_popularity = { ideology = national_syndicalist = 0.05 }
+			add_popularity = { ideology = democratic_socialist popularity = -0.04 }
+			add_popularity = { ideology = national_syndicalist popularity = 0.04 }
 			IF = {
 				limit = { has_idea = hog_irazusta }
 				create_country_leader = {
@@ -132,7 +131,7 @@ focus_tree = {
 				}
 			}
 			IF = {
-				limit = { has_idea = hog_bordabehere }
+				limit = { NOT = { has_idea = hog_irazusta } }
 				create_country_leader = {
 					name = "Julio Irazusta"
 					desc = "POLITICS_JULIO_IRAZUSTA_DESC"
@@ -163,7 +162,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_political_power = 100
+			add_political_power = 60
 			add_popularity = { ideology = national_syndicalist popularity = 0.05 }
 		}
 	}
@@ -183,7 +182,15 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_political_power = 100
+			278 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			510 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			902 = {
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 	}
 	focus = {
@@ -202,7 +209,16 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			
+			278 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			278 = {
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 	}
 	focus = {
@@ -227,7 +243,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_political_power = 100
+			add_stability = 0.05
 		}
 	}
 	focus = {
@@ -246,7 +262,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_political_power = 100
+			country_event = argentina.30
 		}
 	}
 	focus = {
@@ -265,7 +281,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			country_event = 
+			country_event = argentina.31
 		}
 	}
 	focus = {
@@ -284,7 +300,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			country_event = 
+			country_event = argentina.32
 		}
 	}
 	focus = {
@@ -303,7 +319,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			country_event = 
+			country_event = argentina.33
 		}
 	}
 	focus = {
@@ -331,7 +347,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			country_event = 
+			country_event = argentina.34
 			news_event = 
 			set_cosmetic_tag = NatSynd_ARG
 		}
@@ -468,9 +484,6 @@ focus_tree = {
 		prerequisite = {
 			focus = ARG_national_cinema
 		}
-		prerequisite = {
-			focus = ARG_paramilitaries
-		}
 	    available = {
 			always = yes
 		}
@@ -600,7 +613,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ARG_corporatist_constitution
-		icon = GFX_goal_new_treaty
+		icon = GFX_ARG_constitution
 		x = 11
 		y = 6
 		cost = 1
@@ -629,7 +642,7 @@ focus_tree = {
 	focus = {
 		id = ARG_ibarguren
 		icon = GFX_goal_new_treaty
-		x = 24
+		x = 19
 		y = 0
 		cost = 1
 	    available = {
@@ -649,12 +662,252 @@ focus_tree = {
 		}
 		completion_reward = {	
 			
+		}
+	}
+	focus = {
+		id = ARG_enlightened_dictator
+		icon = GFX_goal_new_treaty
+		x = 19
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ARG_ibarguren
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_crack_paramilitaries
+		icon = GFX_goal_new_treaty
+		x = 21
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = ARG_enlightened_dictator
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_power_intellectuals
+		icon = GFX_goal_new_treaty
+		x = 21
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ARG_crack_paramilitaries
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_university_promotion
+		icon = GFX_goal_new_treaty
+		x = 19
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = ARG_enlightened_dictator
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_god_country
+		icon = GFX_goal_new_treaty
+		x = 17
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = ARG_enlightened_dictator
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_nationalist_catedra
+		icon = GFX_goal_new_treaty
+		x = 17
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ARG_god_country
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_corporatist_constitution_2
+		icon = GFX_goal_new_treaty
+		x = 19
+		y = 4
+		cost = 1
+		prerequisite = {
+			focus = ARG_nationalist_catedra
+		}
+		prerequisite = {
+			focus = ARG_power_intellectuals
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_fiume_system
+		icon = GFX_goal_new_treaty
+		x = 16
+		y = 5
+		cost = 1
+		prerequisite = {
+			focus = ARG_corporatist_constitution_2
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_federal_state
+		icon = GFX_goal_new_treaty
+		x = 18
+		y = 5
+		cost = 1
+		prerequisite = {
+			focus = ARG_corporatist_constitution_2
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_reform_1420
+		icon = GFX_goal_new_treaty
+		x = 20
+		y = 5
+		cost = 1
+		prerequisite = {
+			focus = ARG_corporatist_constitution_2
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_roman_law
+		icon = GFX_goal_new_treaty
+		x = 22
+		y = 5
+		cost = 1
+		prerequisite = {
+			focus = ARG_corporatist_constitution_2
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_ibarguren_constitution
+		icon = GFX_ARG_constitution
+		x = 19
+		y = 6
+		cost = 1
+		prerequisite = {
+			focus = ARG_fiume_system
+		}
+		prerequisite = {
+			focus = ARG_federal_state
+		}
+		prerequisite = {
+			focus = ARG_reform_1420
+		}
+		prerequisite = {
+			focus = ARG_roman_law
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 50
 		}
 	}
 	focus = {
 		id = ARG_carles
 		icon = GFX_goal_new_treaty
-		x = 26
+		x = 27
 		y = 0
 		cost = 1
 	    available = {
@@ -674,12 +927,31 @@ focus_tree = {
 		}
 		completion_reward = {	
 			
+		}
+	}
+	focus = {
+		id = ARG_doctor
+		icon = GFX_goal_new_treaty
+		x = 27
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ARG_carles
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
 		}
 	}
 	focus = {
 		id = ARG_varela
 		icon = GFX_goal_new_treaty
-		x = 28
+		x = 31
 		y = 0
 		cost = 1
 	    available = {
@@ -702,9 +974,317 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = ARG_soldier
+		icon = GFX_goal_new_treaty
+		x = 31
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ARG_varela
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_liga_patriotica
+		icon = GFX_goal_new_treaty
+		x = 29
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ARG_carles
+			focus = ARG_varela
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_class_pact
+		icon = GFX_goal_new_treaty
+		x = 29
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ARG_liga_patriotica
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_patria
+		icon = GFX_goal_new_treaty
+		x = 27
+		y = 4
+		cost = 1
+		prerequisite = {
+			focus = ARG_class_pact
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_trabajo
+		icon = GFX_goal_new_treaty
+		x = 29
+		y = 4
+		cost = 1
+		prerequisite = {
+			focus = ARG_class_pact
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_instituciones
+		icon = GFX_goal_new_treaty
+		x = 31
+		y = 4
+		cost = 1
+		prerequisite = {
+			focus = ARG_class_pact
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_loosen_up_grip
+		icon = GFX_goal_new_treaty
+		x = 25
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ARG_carles
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_democracia
+		icon = GFX_goal_support_democracy
+		x = 25
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = ARG_loosen_up_grip
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_pact_democrats
+		icon = GFX_goal_new_treaty
+		x = 24
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ARG_democracia
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_pact_civics
+		icon = GFX_goal_new_treaty
+		x = 26
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ARG_democracia
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_socialist_question
+		icon = GFX_goal_new_treaty
+		x = 25
+		y = 4
+		cost = 1
+		prerequisite = {
+			focus = ARG_pact_civics
+		}
+		prerequisite = {
+			focus = ARG_pact_democrats
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_elections_carles
+		icon = GFX_goal_new_treaty
+		x = 25
+		y = 5
+		cost = 1
+		prerequisite = {
+			focus = ARG_socialist_question
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_tighten_grip
+		icon = GFX_goal_authoritarian
+		x = 33
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ARG_varela
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_combine_paramilitaries
+		icon = GFX_goal_new_treaty
+		x = 33
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = ARG_tighten_grip
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_purge_reds
+		icon = GFX_goal_new_treaty
+		x = 33
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ARG_combine_paramilitaries
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_press_censorship
+		icon = GFX_goal_new_treaty
+		x = 33
+		y = 4
+		cost = 1
+		prerequisite = {
+			focus = ARG_purge_reds
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
 		id = ARG_justo
 		icon = GFX_goal_new_treaty
-		x = 30
+		x = 38
 		y = 0
 		cost = 1
 	    available = {
@@ -724,6 +1304,126 @@ focus_tree = {
 		}
 		completion_reward = {	
 			
+		}
+	}
+	focus = {
+		id = ARG_liberal_army
+		icon = GFX_goal_new_treaty
+		x = 38
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ARG_justo
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_return_democracy
+		icon = GFX_goal_support_democracy
+		x = 38
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = ARG_liberal_army
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_moderate_parties
+		icon = GFX_goal_new_treaty
+		x = 38
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ARG_return_democracy
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_radical_question
+		icon = GFX_goal_new_treaty
+		x = 36
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ARG_return_democracy
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_right_question
+		icon = GFX_goal_new_treaty
+		x = 40
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ARG_return_democracy
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ARG_elections
+		icon = GFX_goal_new_treaty
+		x = 38
+		y = 4
+		cost = 15
+		prerequisite = {
+			focus = ARG_radical_question
+		}
+		prerequisite = {
+			focus = ARG_moderate_parties
+		}
+		prerequisite = {
+			focus = ARG_right_question
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
 		}
 	}
 }

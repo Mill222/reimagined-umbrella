@@ -137,7 +137,7 @@ country_event = {
 		kill_country_leader = yes
 		set_politics = { ruling_party = right_wing_populist elections_allowed = no }
 		create_country_leader = {
-			name = "Hector Benigno Varela"
+			name = "Héctor Benigno Varela"
 			desc = "POLITICS_BENIGNO_VARELA_DESC"
 			picture = "Portrait_Argentina_Benigno_Varela.dds"
 			expire = "1965.1.1"
@@ -168,9 +168,10 @@ country_event = { #vp
 	
 	option = {
 		name = argentina.5.a
-		ai_chance = { factor = 28 }
+		ai_chance = { factor = 29 }
 		remove_ideas_with_trait = head_of_government
 		add_ideas = hog_sanchez_sorondo
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 		country_event = argentina.6
 	}
 	option = {
@@ -178,6 +179,7 @@ country_event = { #vp
 		ai_chance = { factor = 19 }
 		remove_ideas_with_trait = head_of_government
 		add_ideas = hog_ibarguren
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 		country_event = argentina.6
 		add_political_power = -25
 	}
@@ -186,6 +188,7 @@ country_event = { #vp
 		ai_chance = { factor = 17 }
 		remove_ideas_with_trait = head_of_government
 		add_ideas = hog_bordabehere
+		add_popularity = { ideology = national_syndicalist popularity = 0.01 }
 		country_event = argentina.6
 		add_political_power = -50
 	}
@@ -193,7 +196,8 @@ country_event = { #vp
 		name = argentina.5.e
 		ai_chance = { factor = 35 }
 		remove_ideas_with_trait = head_of_government
-		add_ideass = hog_irazusta
+		add_ideas = hog_irazusta
+		add_popularity = { ideology = national_syndicalist popularity = 0.01 }
 		country_event = argentina.6
 		add_political_power = 25
 	}
@@ -207,7 +211,7 @@ country_event = { #interior
 	fire_only_once = yes
 	option = {
 		name = argentina.6.a
-		ai_chance = { factor =  }
+		ai_chance = { factor = 35 }
 		country_event = argentina.7
 		IF = {
 			limit = {
@@ -218,16 +222,18 @@ country_event = { #interior
 	}
 	option = {
 		name = argentina.6.b
-		ai_chance = { factor =  }
+		ai_chance = { factor = 30 }
 		remove_ideas_with_trait = security_minister
 		add_ideas = sm_varela
+		add_popularity = { ideology = right_wing_populist popularity = 0.01 }
 		country_event = argentina.7
 	}
 	option = {
 		name = argentina.6.c
-		ai_chance = { factor =  }
+		ai_chance = { factor = 35 }
 		remove_ideas_with_trait = security_minister
 		add_ideas = sm_lugones
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 		country_event = argentina.7
 	}
 	
@@ -244,12 +250,14 @@ country_event = { #foreign
 		name = argentina.7.a
 		ai_chance = { factor = 50 }
 		country_event = argentina.8
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 	}	
 	option = {
 		name = argentina.7.b
 		ai_chance = { factor = 50 }
 		remove_ideas_with_trait = foreign_minister
 		add_ideas = fm_saavedra_lamas
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
 		country_event = argentina.8
 	}
 }
@@ -267,23 +275,26 @@ country_event = { #economy
 	}	
 	option = {
 		name = argentina.8.b
-		ai_chance = { factor = 30 }
+		ai_chance = { factor = 29 }
 		IF = {
 			limit = { NOT = { has_ideas = fm_bosch } }
 			remove_ideas_with_trait = economy_minister
-			add_ideas = fm_bosch
+			add_ideas = em_bosch
+			add_popularity = { ideology = national_corporatist popularity = 0.01 }
 		}
 		IF = {
 			limit = { has_ideas = fm_bosch } 
 			remove_ideas_with_trait = economy_minister
-			add_ideas = fm_prebisch
+			add_ideas = em_prebisch
+			add_popularity = { ideology = social_conservative popularity = 0.01 }
 		}
 	}
 	option = {
 		name = argentina.8.c
-		ai_chance = { factor = 30 }
+		ai_chance = { factor = 31 }
 		remove_ideas_with_trait = economy_minister
-		add_ideas = fm_pinedo
+		add_ideas = em_hisrch
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 	}
 }
 country_event = { #vp
@@ -296,29 +307,30 @@ country_event = { #vp
 	
 	option = {
 		name = argentina.9.a
-		ai_chance = { factor = 31 }
+		ai_chance = { factor = 35 }
 		add_political_power = -25
+		add_popularity = { ideology = national_syndicalist popularity = 0.01 }
 		country_event = argentina.10
 	}
 	option = {
 		name = argentina.9.b
-		ai_chance = { factor = 20 }
+		ai_chance = { factor = 27 }
 		remove_ideas_with_trait = head_of_government
 		add_ideas = hog_ibarguren
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 		country_event = argentina.10
-		add_political_power = -25
 	}
 	option = {
 		name = argentina.9.c
-		ai_chance = { factor = 18 }
+		ai_chance = { factor = 31 }
 		remove_ideas_with_trait = head_of_government
-		add_ideas = hog_spanish
+		add_ideas = hog_irazustra
+		add_popularity = { ideology = national_syndicalist popularity = 0.01 }
 		country_event = argentina.10
-		add_political_power = -50
 	}
 	option = {
 		name = argentina.9.e
-		ai_chance = { factor = 5 }
+		ai_chance = { factor = 7 }
 		remove_ideas_with_trait = head_of_government
 		add_ideas = hog_sanchez_sorondo
 		country_event = argentina.10
@@ -334,30 +346,34 @@ country_event = { #interior
 	fire_only_once = yes
 	option = {
 		name = argentina.10.a
-		ai_chance = { factor =  }
+		ai_chance = { factor = 22 }
 		remove_ideas_with_trait = security_minister
 		add_ideas = sm_varela
+		add_popularity = { ideology = right_wing_populist popularity = 0.01 }
 		country_event = argentina.11
 	}
 	option = {
 		name = argentina.10.b
-		ai_chance = { factor =  }
+		ai_chance = { factor = 23 }
 		remove_ideas_with_trait = security_minister
-		add_ideas = sm_lugones
+		add_ideas = sm_wast
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 		country_event = argentina.11
 	}
 	option = {
 		name = argentina.10.c
-		ai_chance = { factor =  }
+		ai_chance = { factor = 20 }
 		remove_ideas_with_trait = security_minister
-		add_ideas = sm_lugones
+		add_ideas = sm_primo
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 		country_event = argentina.11
 	}
 	option = {
-		name = argentina.10.e
-		ai_chance = { factor =  }
+		name = argentina.10.c
+		ai_chance = { factor = 35 }
 		remove_ideas_with_trait = security_minister
-		add_ideas = sm_lugones
+		add_ideas = sm_renard
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 		country_event = argentina.11
 	}
 	
@@ -372,14 +388,24 @@ country_event = { #foreign
 	
 	option = {
 		name = argentina.11.a
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 33 }
 		country_event = argentina.12
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 	}	
 	option = {
 		name = argentina.11.b
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 33 }
 		remove_ideas_with_trait = foreign_minister
 		add_ideas = fm_saavedra_lamas
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
+		country_event = argentina.12
+	}
+	option = {
+		name = argentina.11.c
+		ai_chance = { factor = 34 }
+		remove_ideas_with_trait = foreign_minister
+		add_ideas = fm_daireaux
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 		country_event = argentina.12
 	}
 }
@@ -393,19 +419,22 @@ country_event = { #economy
 	
 	option = {
 		name = argentina.12.a
-		ai_chance = { factor = 40 }
+		ai_chance = { factor = 35 }
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 	}	
 	option = {
 		name = argentina.12.b
 		ai_chance = { factor = 35 }
 		remove_ideas_with_trait = economy_minister
-		add_ideas = fm_justo
+		add_ideas = em_justo
+		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
 	}
 	option = {
 		name = argentina.12.c
-		ai_chance = { factor = 25 }
+		ai_chance = { factor = 30 }
 		remove_ideas_with_trait = economy_minister
-		add_ideas = fm_
+		add_ideas = em_anchorena
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 	}
 }
 country_event = { #vp
@@ -418,33 +447,34 @@ country_event = { #vp
 	
 	option = {
 		name = argentina.13.a
-		ai_chance = { factor = 31 }
+		ai_chance = { factor = 20 }
 		add_political_power = -25
 		country_event = argentina.14
+		add_popularity = { ideology = national_syndicalist popularity = 0.01 }
 	}
 	option = {
 		name = argentina.13.b
-		ai_chance = { factor = 20 }
+		ai_chance = { factor = 35 }
 		remove_ideas_with_trait = head_of_government
-		add_ideas = hog_ibarguren
+		add_ideas = hog_lugones
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 		country_event = argentina.14
-		add_political_power = -25
 	}
 	option = {
 		name = argentina.13.c
-		ai_chance = { factor = 18 }
+		ai_chance = { factor = 35 }
 		remove_ideas_with_trait = head_of_government
-		add_ideas = hog_spanish
+		add_ideas = hog_wast
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 		country_event = argentina.14
-		add_political_power = -50
 	}
 	option = {
 		name = argentina.13.e
-		ai_chance = { factor = 5 }
+		ai_chance = { factor = 10 }
 		remove_ideas_with_trait = head_of_government
 		add_ideas = hog_sanchez_sorondo
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 		country_event = argentina.14
-		add_political_power = -140
 	}
 }
 country_event = { #interior
@@ -456,30 +486,24 @@ country_event = { #interior
 	fire_only_once = yes
 	option = {
 		name = argentina.14.a
-		ai_chance = { factor =  }
-		remove_ideas_with_trait = security_minister
-		add_ideas = sm_varela
+		ai_chance = { factor = 27 }
 		country_event = argentina.15
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 	}
 	option = {
 		name = argentina.14.b
-		ai_chance = { factor =  }
+		ai_chance = { factor = 23 }
 		remove_ideas_with_trait = security_minister
 		add_ideas = sm_lugones
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 		country_event = argentina.15
 	}
 	option = {
 		name = argentina.14.c
-		ai_chance = { factor =  }
+		ai_chance = { factor = 50 }
 		remove_ideas_with_trait = security_minister
-		add_ideas = sm_lugones
-		country_event = argentina.15
-	}
-	option = {
-		name = argentina.14.e
-		ai_chance = { factor =  }
-		remove_ideas_with_trait = security_minister
-		add_ideas = sm_lugones
+		add_ideas = sm_peron
+		add_popularity = { ideology = national_syndicalist popularity = 0.01 }
 		country_event = argentina.15
 	}
 	
@@ -496,12 +520,15 @@ country_event = { #foreign
 		name = argentina.15.a
 		ai_chance = { factor = 50 }
 		country_event = argentina.16
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
+
 	}	
 	option = {
 		name = argentina.15.b
 		ai_chance = { factor = 50 }
 		remove_ideas_with_trait = foreign_minister
 		add_ideas = fm_saavedra_lamas
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
 		country_event = argentina.16
 	}
 }
@@ -515,19 +542,22 @@ country_event = { #economy
 	
 	option = {
 		name = argentina.16.a
-		ai_chance = { factor = 40 }
+		ai_chance = { factor = 25 }
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 	}	
 	option = {
 		name = argentina.16.b
 		ai_chance = { factor = 35 }
 		remove_ideas_with_trait = economy_minister
-		add_ideas = fm_justo
+		add_ideas = em_hirsch
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 	}
 	option = {
 		name = argentina.16.c
-		ai_chance = { factor = 25 }
+		ai_chance = { factor = 40 }
 		remove_ideas_with_trait = economy_minister
-		add_ideas = fm_
+		add_ideas = em_di_tella
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 	}
 }
 country_event = { #vp
@@ -540,33 +570,20 @@ country_event = { #vp
 	
 	option = {
 		name = argentina.17.a
-		ai_chance = { factor = 31 }
-		add_political_power = -25
+		ai_chance = { factor = 30 }
+		remove_ideas_with_trait = head_of_government
+		add_ideas = hog_varela
+		add_popularity = { ideology = right_wing_populist popularity = 0.01 }
 		country_event = argentina.18
+		add_political_power = -25
 	}
 	option = {
 		name = argentina.17.b
-		ai_chance = { factor = 20 }
+		ai_chance = { factor = 70 }
 		remove_ideas_with_trait = head_of_government
-		add_ideas = hog_ibarguren
+		add_ideas = hog_dellepiane
+		add_popularity = { ideology = right_wing_populist popularity = 0.01 }
 		country_event = argentina.18
-		add_political_power = -25
-	}
-	option = {
-		name = argentina.17.c
-		ai_chance = { factor = 18 }
-		remove_ideas_with_trait = head_of_government
-		add_ideas = hog_spanish
-		country_event = argentina.18
-		add_political_power = -50
-	}
-	option = {
-		name = argentina.17.e
-		ai_chance = { factor = 5 }
-		remove_ideas_with_trait = head_of_government
-		add_ideas = hog_sanchez_sorondo
-		country_event = argentina.18
-		add_political_power = -100
 	}
 }
 country_event = { #interior
@@ -578,33 +595,20 @@ country_event = { #interior
 	fire_only_once = yes
 	option = {
 		name = argentina.18.a
-		ai_chance = { factor =  }
+		ai_chance = { factor = 50 }
 		remove_ideas_with_trait = security_minister
 		add_ideas = sm_varela
+		add_popularity = { ideology = right_wing_populist popularity = 0.01 }
 		country_event = argentina.19
 	}
 	option = {
 		name = argentina.18.b
-		ai_chance = { factor =  }
+		ai_chance = { factor = 50 }
 		remove_ideas_with_trait = security_minister
-		add_ideas = sm_lugones
+		add_ideas = sm_anchorena
+		add_popularity = { ideology = right_wing_populist popularity = 0.01 }
 		country_event = argentina.19
 	}
-	option = {
-		name = argentina.18.c
-		ai_chance = { factor =  }
-		remove_ideas_with_trait = security_minister
-		add_ideas = sm_lugones
-		country_event = argentina.19
-	}
-	option = {
-		name = argentina.18.e
-		ai_chance = { factor =  }
-		remove_ideas_with_trait = security_minister
-		add_ideas = sm_lugones
-		country_event = argentina.19
-	}
-	
 }
 country_event = { #foreign
 	id = argentina.19
@@ -617,13 +621,17 @@ country_event = { #foreign
 	option = {
 		name = argentina.19.a
 		ai_chance = { factor = 50 }
+		remove_ideas_with_trait = foreign_minister
+		add_ideas = fm_kelso
+		add_popularity = { ideology = right_wing_populist popularity = 0.01 }
 		country_event = argentina.20
 	}	
 	option = {
 		name = argentina.19.b
 		ai_chance = { factor = 50 }
 		remove_ideas_with_trait = foreign_minister
-		add_ideas = fm_saavedra_lamas
+		add_ideas = fm_guerrico
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
 		country_event = argentina.20
 	}
 }
@@ -637,20 +645,25 @@ country_event = { #economy
 	
 	option = {
 		name = argentina.20.a
-		ai_chance = { factor = 40 }
+		ai_chance = { factor = 33 }
+		remove_ideas_with_trait = economy_minister
+		add_ideas = em_prebisch
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
 	}	
 	option = {
 		name = argentina.20.b
 		ai_chance = { factor = 35 }
 		remove_ideas_with_trait = economy_minister
-		add_ideas = fm_justo
+		add_ideas = em_cantilo
+		add_popularity = { ideology = social_liberal popularity = 0.01 }
 	}
 	option = {
 		name = argentina.20.c
-		ai_chance = { factor = 25 }
+		ai_chance = { factor = 32 }
 		remove_ideas_with_trait = economy_minister
-		add_ideas = fm_
-	}
+		add_ideas = em_hirsch
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
+
 }
 country_event = { #vp
 	id = argentina.21
@@ -662,33 +675,27 @@ country_event = { #vp
 	
 	option = {
 		name = argentina.21.a
-		ai_chance = { factor = 31 }
-		add_political_power = -25
+		ai_chance = { factor = 50 }
+		remove_ideas_with_trait = head_of_government
+		add_ideas = hog_millan
+		add_popularity = { ideology = right_wing_populist popularity = 0.01 }
 		country_event = argentina.22
 	}
 	option = {
 		name = argentina.21.b
-		ai_chance = { factor = 20 }
+		ai_chance = { factor = 30 }
 		remove_ideas_with_trait = head_of_government
-		add_ideas = hog_ibarguren
+		add_ideas = hog_justo
+		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
 		country_event = argentina.22
-		add_political_power = -25
 	}
 	option = {
 		name = argentina.21.c
-		ai_chance = { factor = 18 }
+		ai_chance = { factor = 20 }
 		remove_ideas_with_trait = head_of_government
-		add_ideas = hog_spanish
+		add_ideas = hog_irazusta
+		add_popularity = { ideology = national_syndicalist popularity = 0.01 }
 		country_event = argentina.22
-		add_political_power = -50
-	}
-	option = {
-		name = argentina.21.e
-		ai_chance = { factor = 5 }
-		remove_ideas_with_trait = head_of_government
-		add_ideas = hog_sanchez_sorondo
-		country_event = argentina.22
-		add_political_power = -100
 	}
 }
 country_event = { #interior
@@ -700,30 +707,24 @@ country_event = { #interior
 	fire_only_once = yes
 	option = {
 		name = argentina.22.a
-		ai_chance = { factor =  }
-		remove_ideas_with_trait = security_minister
-		add_ideas = sm_varela
+		ai_chance = { factor = 20 }
 		country_event = argentina.23
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 	}
 	option = {
 		name = argentina.22.b
-		ai_chance = { factor =  }
+		ai_chance = { factor = 40 }
 		remove_ideas_with_trait = security_minister
-		add_ideas = sm_lugones
+		add_ideas = sm_dellepiane
+		add_popularity = { ideology = right_wing_populist popularity = 0.01 }
 		country_event = argentina.23
 	}
 	option = {
 		name = argentina.22.c
-		ai_chance = { factor =  }
+		ai_chance = { factor = 40 }
 		remove_ideas_with_trait = security_minister
 		add_ideas = sm_lugones
-		country_event = argentina.23
-	}
-	option = {
-		name = argentina.22.e
-		ai_chance = { factor =  }
-		remove_ideas_with_trait = security_minister
-		add_ideas = sm_lugones
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 		country_event = argentina.23
 	}
 	
@@ -738,14 +739,24 @@ country_event = { #foreign
 	
 	option = {
 		name = argentina.23.a
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 30 }
 		country_event = argentina.24
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 	}	
 	option = {
 		name = argentina.23.b
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 30 }
 		remove_ideas_with_trait = foreign_minister
 		add_ideas = fm_saavedra_lamas
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
+		country_event = argentina.24
+	}
+	option = {
+		name = argentina.23.c
+		ai_chance = { factor = 40 }
+		remove_ideas_with_trait = foreign_minister
+		add_ideas = fm_palacios_costa
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 		country_event = argentina.24
 	}
 }
@@ -759,19 +770,22 @@ country_event = { #economy
 	
 	option = {
 		name = argentina.24.a
-		ai_chance = { factor = 40 }
+		ai_chance = { factor = 10 }
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
 	}	
 	option = {
 		name = argentina.24.b
 		ai_chance = { factor = 35 }
 		remove_ideas_with_trait = economy_minister
-		add_ideas = fm_justo
+		add_ideas = em_mexia
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
 	}
 	option = {
 		name = argentina.24.c
-		ai_chance = { factor = 25 }
+		ai_chance = { factor = 55 }
 		remove_ideas_with_trait = economy_minister
-		add_ideas = fm_
+		add_ideas = em_anchorena
+		add_popularity = { ideology = right_wing_populist popularity = 0.01 }
 	}
 }
 country_event = { #vp
@@ -784,33 +798,27 @@ country_event = { #vp
 	
 	option = {
 		name = argentina.25.a
-		ai_chance = { factor = 31 }
-		add_political_power = -25
+		ai_chance = { factor = 40 }
+		remove_ideas_with_trait = head_of_government
+		add_ideas = hog_tonazzi
+		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
 		country_event = argentina.26
 	}
 	option = {
 		name = argentina.25.b
-		ai_chance = { factor = 20 }
+		ai_chance = { factor = 30 }
 		remove_ideas_with_trait = head_of_government
-		add_ideas = hog_ibarguren
+		add_ideas = hog_mosca
+		add_popularity = { ideology = national_conservative popularity = 0.01 }
 		country_event = argentina.26
-		add_political_power = -25
 	}
 	option = {
 		name = argentina.25.c
-		ai_chance = { factor = 18 }
+		ai_chance = { factor = 30 }
 		remove_ideas_with_trait = head_of_government
-		add_ideas = hog_spanish
+		add_ideas = hog_castillo
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
 		country_event = argentina.26
-		add_political_power = -50
-	}
-	option = {
-		name = argentina.25.e
-		ai_chance = { factor = 5 }
-		remove_ideas_with_trait = head_of_government
-		add_ideas = hog_sanchez_sorondo
-		country_event = argentina.26
-		add_political_power = -260
 	}
 }
 country_event = { #interior
@@ -822,33 +830,20 @@ country_event = { #interior
 	fire_only_once = yes
 	option = {
 		name = argentina.26.a
-		ai_chance = { factor =  }
+		ai_chance = { factor = 50 }
 		remove_ideas_with_trait = security_minister
-		add_ideas = sm_varela
+		add_ideas = sm_melo
+		add_popularity = { ideology = national_conservative popularity = 0.01 }
 		country_event = argentina.27
 	}
 	option = {
 		name = argentina.26.b
-		ai_chance = { factor =  }
+		ai_chance = { factor = 50 }
 		remove_ideas_with_trait = security_minister
-		add_ideas = sm_lugones
+		add_ideas = sm_duco
+		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
 		country_event = argentina.27
-	}
-	option = {
-		name = argentina.26.c
-		ai_chance = { factor =  }
-		remove_ideas_with_trait = security_minister
-		add_ideas = sm_lugones
-		country_event = argentina.27
-	}
-	option = {
-		name = argentina.26.e
-		ai_chance = { factor =  }
-		remove_ideas_with_trait = security_minister
-		add_ideas = sm_lugones
-		country_event = argentina.27
-	}
-	
+	}	
 }
 country_event = { #foreign
 	id = argentina.27
@@ -861,13 +856,17 @@ country_event = { #foreign
 	option = {
 		name = argentina.27.a
 		ai_chance = { factor = 50 }
+		remove_ideas_with_trait = foreign_minister
+		add_ideas = fm_saavedra_lamas
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
 		country_event = argentina.28
-	}	
+	}
 	option = {
 		name = argentina.27.b
 		ai_chance = { factor = 50 }
 		remove_ideas_with_trait = foreign_minister
-		add_ideas = fm_saavedra_lamas
+		add_ideas = fm_cantilo
+		add_popularity = { ideology = national_conservative popularity = 0.01 }
 		country_event = argentina.28
 	}
 }
@@ -882,18 +881,23 @@ country_event = { #economy
 	option = {
 		name = argentina.28.a
 		ai_chance = { factor = 40 }
+		remove_ideas_with_trait = economy_minister
+		add_ideas = em_pinedo
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
 	}	
 	option = {
 		name = argentina.28.b
 		ai_chance = { factor = 35 }
 		remove_ideas_with_trait = economy_minister
-		add_ideas = fm_justo
+		add_ideas = em_dermachi
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
 	}
 	option = {
 		name = argentina.28.c
 		ai_chance = { factor = 25 }
 		remove_ideas_with_trait = economy_minister
-		add_ideas = fm_
+		add_ideas = em_martinez_de_hoz
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
 	}
 }
 country_event = { 
@@ -906,10 +910,37 @@ country_event = {
 	
 	option = {
 		name = argentina.29.a
-		ai_chance = { factor =  }
+		ai_chance = { factor = 50 }
+		add_political_power = -50
+
 	}	
 	option = {
 		name = argentina.29.b
-		ai_chance = { factor =  }
+		ai_chance = { factor = 50 }
+		add_political_power = 20
+		add_stability = -0.15
+		add_popularity = { ideology = national_syndicalist popularity = 0.03 }
+	}
+}
+country_event = { 
+	id = argentina.30
+	title = argentina.30.t
+	desc = argentina.30.d
+	picture = GFX_portugalmonarchyflag
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = argentina.30.a
+		ai_chance = { factor = 50 }
+		add_political_power = -50
+
+	}	
+	option = {
+		name = argentina.30.b
+		ai_chance = { factor = 50 }
+		add_political_power = 20
+		add_stability = -0.15
+		add_popularity = { ideology = national_syndicalist popularity = 0.03 }
 	}
 }
