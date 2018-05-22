@@ -9,14 +9,15 @@ state={
 		add_claim_by = BOL
 		buildings = {
 			infrastructure = 3
+
 		}
 
 	}
 
 	provinces={
-		2224 8195 10944 10965 11001 13548
+		8195 10965 13548 
 	}
-	manpower=391400
+	manpower=286400
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

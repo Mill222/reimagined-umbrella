@@ -8,14 +8,15 @@ state={
 		add_core_of = ARG
 		buildings = {
 			infrastructure = 3
+
 		}
 
 	}
 
 	provinces={
-		2158 2136 2179 10964 11022 12928 13237 13238 13500 13501 13503 
+		2136 2158 11022 13237 13503 
 	}
-	manpower=296500
+	manpower=115940
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }

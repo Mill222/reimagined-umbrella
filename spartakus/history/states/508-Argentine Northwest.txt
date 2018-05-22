@@ -10,16 +10,13 @@ state={
 
 		}
 		add_core_of = ARG
-		victory_points = {
-			8216 1 
-		}
 
 	}
 
 	provinces={
-		8216 8253 12978 13240 13505
+		8253 12978 13240 
 	}
-	manpower=597500
+	manpower=130080
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
