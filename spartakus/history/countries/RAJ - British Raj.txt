@@ -72,10 +72,143 @@ set_politics = {
 
 }
 
+# create_country_leader = {
+	# name = "Lord Linlithgow"
+	# desc = "POLITICS_LORD_LINLITHGOW_DESC"
+	# picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
+	# expire = "1965.1.1"
+	# ideology = authoritarian_democrat_subtype
+	# traits = {
+		
+	# }
+# }
+
+REVISIT Unclear if appropriate for this ideology
+# create_country_leader = {
+	# name = "V. D. Savarkar"
+	# desc = "POLITICS_VD_SAVARKAR_DESC"
+	# picture = "GFX_RAJ_veer_savarkar"
+	# expire = "1965.1.1"
+	# ideology = falangism
+	# traits = {
+		
+	# }
+# }
+
+# create_country_leader = {
+	# name = "P. Krishna Pillai"
+	# desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
+	# picture = "GFX_RAJ_krishna_pillai"
+	# expire = "1965.1.1"
+	# ideology = marxism
+	# traits = {
+		
+	# }
+# }
+
+# create_country_leader = {
+	# name = "B. P. Sitaramayya"
+	# desc = "POLITICS_B_P_SITARAMAYYA_DESC"
+	# picture = "GFX_RAJ_pattabhi_sitaramayya"
+	# expire = "1965.1.1"
+	# ideology = socialism
+	# traits = {
+		
+	# }
+# }
+
 create_country_leader = {
-	name = "Lord Linlithgow"
-	desc = "POLITICS_LORD_LINLITHGOW_DESC"
-	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = leninist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = marxist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -83,35 +216,34 @@ create_country_leader = {
 	}
 }
 
-# REVISIT Unclear if appropriate for this ideology
 create_country_leader = {
-	name = "V. D. Savarkar"
-	desc = "POLITICS_VD_SAVARKAR_DESC"
-	picture = "GFX_RAJ_veer_savarkar"
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
-	ideology = falangism
+	ideology = right_wing_populist_subtype
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "P. Krishna Pillai"
-	desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
-	picture = "GFX_RAJ_krishna_pillai"
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = national_syndicalist_subtype
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "B. P. Sitaramayya"
-	desc = "POLITICS_B_P_SITARAMAYYA_DESC"
-	picture = "GFX_RAJ_pattabhi_sitaramayya"
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = national_corporatist_subtype
 	traits = {
 		
 	}

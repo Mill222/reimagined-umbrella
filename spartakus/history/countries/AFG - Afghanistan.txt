@@ -10,7 +10,7 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 1
+			popularity = 3
 		}
 		marxist = {
 			popularity = 4
@@ -31,16 +31,16 @@ set_politics = {
 			popularity = 2
 		}
 		social_conservative = {
-			popularity = 6
+			popularity = 7
 		}
 		authoritarian_democrat = {
-			popularity = 20
+			popularity = 19
 		}
 		right_wing_populist = {
 			popularity = 48
 		}
 		national_syndicalist = {
-			popularity = 5
+			popularity = 3
 		}
 		national_corporatist = {
 			popularity = 5
@@ -57,6 +57,17 @@ create_country_leader = {
 	name = "Mohammed Nadir Shah"
 	desc = "POLITICS_MOHAMMED_NADIR_SHAH_DESC"
 	picture = "Portrait_Nadir_Khan_of_Afghanistan.dds"
+	expire = "1965.1.1"
+	ideology = right_wing_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Amanullah Khan"
+	desc = "POLITICS_AMANULLAH_KHAN_DESC"
+	picture = "Portrait_Amanullah_Khan_of_Afghanistan.dds"
 	expire = "1965.1.1"
 	ideology = right_wing_populist_subtype
 	traits = {
