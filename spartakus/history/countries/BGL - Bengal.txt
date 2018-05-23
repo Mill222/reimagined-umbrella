@@ -1,6 +1,6 @@
 ﻿capital = 427
 
-oob = "HYD_1936"
+oob = "BGL_1936"
 
 # Starting tech
 set_technology = {
@@ -46,10 +46,10 @@ set_politics = {
 			popularity = 0
 		}
 		authoritarian_democrat = {
-		    popularity = 0
+		    popularity = 100
 		}
 		right_wing_populist = {
-			popularity = 100
+			popularity = 0
 		}
 		national_syndicalist = {
 			popularity = 0
@@ -59,20 +59,11 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = right_wing_populist
+	ruling_party = authoritarian_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 
 }
 
-create_country_leader = {
-	name = "Mir Osman Ali Khan"
-	
-	picture = "gfx/leaders/RAJ/Portrait_Hyderabad_Mir_Osman_Ali_Khan.dds"
-	expire = "1960.1.1"
-	ideology = right_wing_populist_subtype
-	traits = {
-		
-	}
-}
+

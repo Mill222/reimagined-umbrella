@@ -124,6 +124,10 @@ AZR = {
 	color = rgb { 99 160 139 }
 	color_ui = rgb { 99 160 139 }
 }
+BAR = {
+	color = rgb { 137 137 0 }
+	color_ui = rgb { 137 137 0 }
+}
 BEL = {
 	color = rgb { 193 171 8 }
 	color_ui = rgb { 193 171 8 }
@@ -131,6 +135,10 @@ BEL = {
 BFA = {
 	color = rgb { 27 128 45 }
 	color_ui = rgb { 27 128 45 }
+}
+BGL = {
+	color = rgb { 65 105 225 }
+	color_ui = rgb { 65 105 225 }
 }
 BHU = {
 	color = rgb { 172 122 88 }
@@ -472,6 +480,10 @@ MLY = {
 	color = rgb { 255 40 95 }
 	color_ui = rgb { 255 40 95 }
 }
+MNP = {
+	color = rgb { 83 228 83 }
+	color_ui = rgb { 83 228 83 }
+}
 MNT = {
 	color = rgb { 15 0 15 }
 	color_ui = rgb { 15 0 15 }
@@ -616,6 +628,10 @@ SER = {
 	color = rgb { 90 80 110 }
 	color_ui = rgb { 90 80 110 }
 }
+SHN = {
+	color = rgb { 255 157 171 }
+	color_ui = rgb { 255 157 171 }
+}
 SHX = {
 	color = rgb { 188 165 113 }
 	color_ui = rgb { 144 80 155 }
@@ -632,6 +648,10 @@ SIE = {
 SIK = {
 	color = rgb { 71 190 152 }
 	color_ui = rgb { 222 247 198 }
+}
+SKM = {
+	color = rgb { 194 202 67 }
+	color_ui = rgb { 194 202 67 }
 }
 SLO = {
 	color = rgb { 158  161  188 }
@@ -680,6 +700,10 @@ TNZ = {
 TOG = {
 	color = rgb { 130 130 161 }
 	color_ui = rgb { 130 130 161 }
+}
+TRP = {
+	color = rgb { 86 221 175 }
+	color_ui = rgb { 86 221 175 }
 }
 TRV = {
 	color = rgb { 115 35 95 }
