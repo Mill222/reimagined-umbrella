@@ -204,6 +204,9 @@ CHL = {
 	color = rgb { 0 89 132 }
 	color_ui = rgb { 0 89 132 }
 }
+CIN = {
+	color = rgb { 130 40 62 }
+	color_ui = rgb { 130 40 62 }
 CIV = {
 	color = rgb { 247 127 10 }
 	color_ui = rgb { 247 127 10 }
@@ -320,6 +323,10 @@ GUA = {
 	color = rgb { 159 39 43 }
 	color_ui = rgb { 159 39 43 }
 }
+GWL = {
+	color = rgb { 0 62 126 }
+	color_ui = rgb { 0 62 126 }
+}
 GXC = {
 	color = rgb { 215  234  154 }
 	color_ui = rgb { 215  234  154 }
@@ -343,6 +350,10 @@ HON = {
 HUN = {
 	color = rgb { 249 126 98 }
 	color_ui = rgb { 249 126 98 }
+}
+HYD = {
+	color = rgb { 245 162 10 }
+	color_ui = rgb { 245 162 10 }
 }
 ICE = {
 	color = rgb { 100 125 175 }
@@ -371,6 +382,10 @@ ITA = {
 JAP = {
 	color = rgb { 252 201 185 }
 	color_ui = rgb { 252 201 185 }
+}
+JKA = {
+	color = rgb { 222 222 222 }
+	color_ui = rgb { 222 222 222 }
 }
 JOR = {
 	color = rgb { 111 55 78 }
@@ -476,6 +491,10 @@ MRT = {
 	color = rgb { 168 185 135 }
 	color_ui = rgb { 168 185 135 }
 }
+MYS = {
+	color = rgb { 114 188 212 }
+	color_ui = rgb { 114 188 212 }
+}
 NAM = {
 	color = rgb { 99 160 239}
 	color_ui = rgb { 99 160 239}
@@ -517,8 +536,8 @@ OMA = {
 	color_ui = rgb { 98 134 153 }
 }
 PAK = {
-	color = rgb { 166 189 199 }
-	color_ui = rgb { 166 189 199 }
+	color = rgb { 55 115 35 }
+	color_ui = rgb { 55 115 35 }
 }
 PAL = {
 	color = rgb { 170 125 80 }
@@ -660,6 +679,10 @@ TNZ = {
 TOG = {
 	color = rgb { 130 130 161 }
 	color_ui = rgb { 130 130 161 }
+}
+TRV = {
+	color = rgb { 115 35 95 }
+	color_ui = rgb { 115 35 95 }
 }
 TUA = {
 	color = rgb { 174 90 6 }
