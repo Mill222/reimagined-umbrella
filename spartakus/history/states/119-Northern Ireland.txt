@@ -5,22 +5,8 @@ state={
 
 	history={
 		owner = ENG
-		victory_points = {
-			3379 3 
-		}
-		victory_points = {
-			385 1 
-		}
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 1
-			air_base = 1
-			dockyard = 2
-			3379 = {
-				naval_base = 4
-
-			}
+			infrastructure = 4
 
 		}
 		add_core_of = IRE
@@ -29,9 +15,9 @@ state={
 	}
 
 	provinces={
-		276 385 3217 3242 3329 3379 11257 
+		276 3217 3242 3329 
 	}
-	manpower=1250000
+	manpower=684800
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 }
