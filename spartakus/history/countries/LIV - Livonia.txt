@@ -1,4 +1,4 @@
-﻿capital = 12
+﻿capital = 1071
 
 oob = "LIV"
 
