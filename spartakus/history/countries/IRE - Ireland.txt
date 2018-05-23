@@ -1,4 +1,4 @@
-﻿capital = 113
+﻿capital = 1068
 
 oob = "IRE_1936"
 
@@ -8,6 +8,8 @@ set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 }
+
+set_cosmetic_tag = IRE_UK_crndom
 
 set_convoys = 10
 
@@ -61,7 +63,7 @@ set_politics = {
 
 add_ideas = {
 	export_focus
-	disarmed_nation
+	volunteer_only
 	IRE_memories_of_the_republic
 	IRE_depressed_economy
 	IRE_loyalist_militia
