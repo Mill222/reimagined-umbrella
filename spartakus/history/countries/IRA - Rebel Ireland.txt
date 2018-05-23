@@ -1,33 +1,15 @@
-﻿capital = 331
+﻿capital = 113
 
-oob = "NEW"
+oob = "empty"
 
-set_research_slots = 2
-set_stability = 0.5
-set_war_support = 0.1
-set_convoys = 15
+set_research_slots = 3
 
-set_cosmetic_tag = NEW_UK_dom
-
-# Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_recon = 1
-	gw_artillery = 1
-	gwtank = 1
-	basic_light_tank = 1
-	early_fighter = 1
-	naval_bomber1 = 1
-	early_bomber = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	transport = 1
-	trench_warfare = 1
-	fleet_in_being = 1
 }
+
+set_convoys = 10
 
 set_politics = {
 
@@ -42,22 +24,22 @@ set_politics = {
 			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 0
+			popularity = 34
 		}
 		social_democrat = {
-			popularity = 10
+			popularity = 7
 		}
 		social_liberal = {
-			popularity = 55
+			popularity = 42
 		}
 		liberal_conservative = {
-			popularity = 0
+			popularity = 13
 		}
 		social_conservative = {
-			popularity = 35
+			popularity = 0
 		}
 		authoritarian_democrat = {
-		    popularity = 0
+		    popularity = 4
 		}
 		right_wing_populist = {
 			popularity = 0
@@ -77,10 +59,14 @@ set_politics = {
 
 }
 
+add_ideas = {
+	
+}
+
 create_country_leader = {
-	name = "George V"
-	desc = "POLITICS_George_V_DESC"
-	picture = "Portrait_Britain_George_V.tga"
+	name = "Roderick Connolly"
+	desc = "POLITICS_Roderick_Connolly_DESC"
+	picture = "Portrait_Ireland_Roderick_Connolly.tga"
 	expire = "1965.1.1"
 	ideology = leninist_subtype
 	traits = {
@@ -89,9 +75,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George V"
-	desc = "POLITICS_George_V_DESC"
-	picture = "Portrait_Britain_George_V.tga"
+	name = "Liam O'Flaherty"
+	desc = "POLITICS_Liam_OFlaherty_DESC"
+	picture = "Portrait_Ireland_Liam_OFlaherty.tga"
 	expire = "1965.1.1"
 	ideology = marxist_subtype
 	traits = {
@@ -100,9 +86,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George V"
-	desc = "POLITICS_George_V_DESC"
-	picture = "Portrait_Britain_George_V.tga"
+	name = "James Larkin"
+	desc = "POLITICS_James_Larkin_DESC"
+	picture = "Portrait_Ireland_James_Larkin.tga"
 	expire = "1965.1.1"
 	ideology = revolutionary_socialist_subtype
 	traits = {
@@ -111,9 +97,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George V"
-	desc = "POLITICS_George_V_DESC"
-	picture = "Portrait_Britain_George_V.tga"
+	name = "James Larkin"
+	desc = "POLITICS_James_Larkin_DESC"
+	picture = "Portrait_Ireland_James_Larkin.tga"
 	expire = "1965.1.1"
 	ideology = democratic_socialist_subtype
 	traits = {
@@ -122,9 +108,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George V"
-	desc = "POLITICS_George_V_DESC"
-	picture = "Portrait_Britain_George_V.tga"
+	name = "James Larkin"
+	desc = "POLITICS_James_Larkin_DESC"
+	picture = "Portrait_Ireland_James_Larkin.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -133,9 +119,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George V"
-	desc = "POLITICS_George_V_DESC"
-	picture = "Portrait_Britain_George_V.tga"
+	name = "Michael Collins"
+	desc = "POLITICS_Michael_Collins_DESC"
+	picture = "Portrait_Ireland_Michael_Collins.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -144,9 +130,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George V"
-	desc = "POLITICS_George_V_DESC"
-	picture = "Portrait_Britain_George_V.tga"
+	name = "Michael Collins"
+	desc = "POLITICS_Michael_Collins_DESC"
+	picture = "Portrait_Ireland_Michael_Collins.tga"
 	expire = "1965.1.1"
 	ideology = liberal_conservative_subtype
 	traits = {
@@ -155,9 +141,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George V"
-	desc = "POLITICS_George_V_DESC"
-	picture = "Portrait_Britain_George_V.tga"
+	name = "Michael Collins"
+	desc = "POLITICS_Michael_Collins_DESC"
+	picture = "Portrait_Ireland_Michael_Collins.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -166,9 +152,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George V"
-	desc = "POLITICS_George_V_DESC"
-	picture = "Portrait_Britain_George_V.tga"
+	name = "Arthur Maxwell"
+	desc = "POLITICS_Arthur_Maxwell_DESC"
+	picture = "Portrait_Ireland_Arthur_Maxwell.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -177,9 +163,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George V"
-	desc = "POLITICS_George_V_DESC"
-	picture = "Portrait_Britain_George_V.tga"
+	name = "Michael Heffernan"
+	desc = "POLITICS_Michael_Heffernan_DESC"
+	picture = "Portrait_Ireland_Michael_Heffernan.tga"
 	expire = "1965.1.1"
 	ideology = right_wing_populist_subtype
 	traits = {
@@ -188,9 +174,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George V"
-	desc = "POLITICS_George_V_DESC"
-	picture = "Portrait_Britain_George_V.tga"
+	name = "Gearóid Ó Cuinneagáin"
+	desc = "POLITICS_Gearoid_O_Cuinneagain_DESC"
+	picture = "Portrait_Ireland_Gearoid_O_Cuinneagain.tga"
 	expire = "1965.1.1"
 	ideology = national_syndicalist_subtype
 	traits = {
@@ -199,9 +185,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George V"
-	desc = "POLITICS_George_V_DESC"
-	picture = "Portrait_Britain_George_V.tga"
+	name = "Eoin O'Duffy"
+	desc = "POLITICS_Eoin_ODuffy_DESC"
+	picture = "Portrait_Ireland_Eoin_ODuffy.tga"
 	expire = "1965.1.1"
 	ideology = national_corporatist_subtype
 	traits = {
@@ -209,5 +195,13 @@ create_country_leader = {
 	}
 }
 
-add_opinion_modifier = { target = ENG modifier = dominion_failed_westminster }
-add_opinion_modifier = { target = ENG modifier = dominion_content }
+create_corps_commander = {
+	name = "Michael Costello"
+	portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}

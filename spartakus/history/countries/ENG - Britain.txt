@@ -163,19 +163,19 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 1
+			popularity = 0
 		}
 		marxist = {
-			popularity = 0
+			popularity = 1
 		}
 		revolutionary_socialist = {
 			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 6
+			popularity = 11
 		}
 		social_democrat = {
-			popularity = 9
+			popularity = 8
 		}
 		social_liberal = {
 			popularity = 32
@@ -184,7 +184,7 @@ set_politics = {
 			popularity = 6
 		}
 		social_conservative = {
-			popularity = 41
+			popularity = 37
 		}
 		authoritarian_democrat = {
 		    popularity = 0
@@ -894,25 +894,5 @@ create_equipment_variant = {
 	}
 }
 
-1939.1.1 = {
-	create_equipment_variant = {
-		name = "Tribal Class"
-		type = destroyer_2
-		upgrades = {
-			ship_torpedo_upgrade = 2
-			destroyer_engine_upgrade = 2
-			ship_ASW_upgrade = 2
-			ship_anti_air_upgrade = 2
-		}
-	}
-	create_equipment_variant = {
-		name = "Edinburgh Class"
-		type = light_cruiser_2
-		upgrades = {
-			ship_reliability_upgrade = 3
-			ship_engine_upgrade = 3
-			ship_gun_upgrade = 3
-			ship_anti_air_upgrade = 3
-		}
-	}
-}
+add_opinion_modifier = { target = JAP modifier = UK_JAP_alliance }
+reverse_add_opinion_modifier = { target = JAP modifier = UK_JAP_alliance }

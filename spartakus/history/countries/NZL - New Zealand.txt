@@ -6,6 +6,8 @@ oob = "NZL_1936"
 set_stability = 0.8
 set_war_support = 0.3
 
+set_cosmetic_tag = NZL_UK_dom
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
