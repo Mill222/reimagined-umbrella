@@ -207,6 +207,7 @@ CHL = {
 CIN = {
 	color = rgb { 130 40 62 }
 	color_ui = rgb { 130 40 62 }
+}
 CIV = {
 	color = rgb { 247 127 10 }
 	color_ui = rgb { 247 127 10 }
