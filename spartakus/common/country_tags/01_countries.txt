@@ -86,4 +86,5 @@ BAR = "countries/Baroda.txt"
 TRP = "countries/Tripura.txt"
 BGL = "countries/Bengal.txt"
 SHN = "countries/Shan.txt"
+BMR = "countries/Burmese Revolt.txt"
 

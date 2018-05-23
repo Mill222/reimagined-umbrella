@@ -148,6 +148,10 @@ BLR = {
 	color = rgb { 30 131 162 }
 	color_ui = rgb { 30 131 162 }
 }
+BMR = {
+	color = rgb { 234 40 57 }
+	color_ui = rgb { 234 40 57 }
+}
 BOL = {
 	color = rgb { 145 128 149 }
 	color_ui = rgb { 145 128 149 }
