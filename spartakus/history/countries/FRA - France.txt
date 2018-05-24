@@ -382,38 +382,13 @@ create_equipment_variant = {
 	}
 }
 
-1939.1.1 = {
-	
-	create_equipment_variant = {
-		name = "Aurore Class"
-		type = submarine_2
-		upgrades = {
-			ship_reliability_upgrade = 3
-			sub_engine_upgrade = 3
-			sub_stealth_upgrade = 3
-			sub_torpedo_upgrade = 3
-		}
-	}
+## Diplomacy
 
-	create_equipment_variant = {
-		name = "Le Hardi Class"
-		type = destroyer_2
-		upgrades = {
-			ship_torpedo_upgrade = 1
-			destroyer_engine_upgrade = 1
-			ship_ASW_upgrade = 1
-			ship_anti_air_upgrade = 1
-		}
-	}
-
-	create_equipment_variant = {
-		name = "Mogador Class"
-		type = destroyer_2
-		upgrades = {
-			ship_torpedo_upgrade = 2
-			destroyer_engine_upgrade = 2
-			ship_ASW_upgrade = 2
-			ship_anti_air_upgrade = 2
-		}
-	}
-}
+give_guarantee = KUR
+give_military_access = KUR
+give_guarantee = TUR
+give_military_access = TUR
+give_guarantee = ARM
+give_military_access = ARM
+give_guarantee = WEI
+give_military_access = WEI
