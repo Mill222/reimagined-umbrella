@@ -52,6 +52,7 @@ set_stability = 0.65
 set_war_support = 0.35
 
 give_guarantee = BAV
+give_military_access = BAV
 
 set_politics = {
 
