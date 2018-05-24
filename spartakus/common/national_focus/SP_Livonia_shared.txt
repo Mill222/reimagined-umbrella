@@ -9,9 +9,9 @@ shared_focus = {
 		id = LIV_Economy
 		icon = GFX_BEL_Economic_Regions
 		available = { has_country_flag = LIV_economy }
-		x = 4
+		x = 0
 		y = 0
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 100
 		}
@@ -26,15 +26,19 @@ shared_focus = {
 		icon = GFX_goal_new_treaty
 		prerequisite = { focus = LIV_Economy }
 		mutually_exclusive = { focus = LIV_Economy_Right focus = LIV_Economy_Gov1 }
+		available = {
+			has_country_flag = LIV_liberal_government
+		}
 		x = -10
 		y = 1
 		relative_position_id = LIV_Economy
-		cost = 8.6
+		cost = 5
 		ai_will_do = {
 			factor = 100
 		}
 
 		completion_reward = {
+			add_ideas = LIV_Liberal_Economy
 
 			random_owned_state = {
 
@@ -69,7 +73,8 @@ shared_focus = {
 		}
 
 		completion_reward = {
-			add_stability = 0.05
+			country_event = { id = livfoc.10 days = 0 }
+			add_political_power = 25
 		}
 	}
 	
@@ -270,6 +275,9 @@ shared_focus = {
 		id = LIV_Economy_Gov1
 		icon = GFX_goal_Centralised_Government
 		prerequisite = { focus = LIV_Economy }
+		available = {
+			has_country_flag = LIV_ducal_government
+		}
 		mutually_exclusive = { focus = LIV_Economy_Right focus = LIV_Economy_Liberal }
 		x = 0
 		y = 1
@@ -280,6 +288,7 @@ shared_focus = {
 		}
 
 		completion_reward = {
+			add_ideas = LIV_Interventionist_Economy
 
 			random_owned_state = {
 
@@ -409,7 +418,7 @@ shared_focus = {
 shared_focus = {
 		id = LIV_Eco_Naval1
 		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = LIV_Economy_Gov1 focus = LIV_Economy_Right }
+		prerequisite = { focus = LIV_Economy_Gov1 }
 		x = 0
 		y = 2
 		relative_position_id = LIV_Economy
@@ -509,8 +518,11 @@ shared_focus = {
 		id = LIV_Economy_Right
 		icon = GFX_goal_ideology_paternal_autocrat
 		prerequisite = { focus = LIV_Economy }
+		available = {
+			has_country_flag = LIV_nationalist_government
+		}
 		mutually_exclusive = { focus = LIV_Economy_Gov1 focus = LIV_Economy_Liberal }
-		x = 8
+		x = 9
 		y = 1
 		relative_position_id = LIV_Economy
 		cost = 8.6
@@ -519,6 +531,7 @@ shared_focus = {
 		}
 
 		completion_reward = {
+			add_ideas = LIV_State_Economy
 
 			random_owned_state = {
 
@@ -559,9 +572,9 @@ shared_focus = {
 
 shared_focus = {
 		id = LIV_Economy_Right2
-		icon = GFX_focus_research
+		icon = GFX_State_Control
 		prerequisite = { focus = LIV_Economy_Right }
-		x = 2
+		x = 3
 		y = 1
 		relative_position_id = LIV_Economy_Right
 		cost = 8.6
@@ -576,9 +589,29 @@ shared_focus = {
 
 
 shared_focus = {
-		id = LIV_Economy_Right3
-		icon = GFX_goal_generic_consumer_goods
+		id = LIV_Economy_Right3_Right
+		icon = GFX_goal_electronics
 		prerequisite = { focus = LIV_Economy_Right2 }
+		mutually_exclusive = { focus = LIV_Economy_Right3_Left }
+		x = 4
+		y = 2
+		relative_position_id = LIV_Economy_Right
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_ideas = LIV_gov_goods
+			add_political_power = 100
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Economy_Right3_Left
+		icon = GFX_goal_construction
+		prerequisite = { focus = LIV_Economy_Right2 }
+		mutually_exclusive = { focus = LIV_Economy_Right3_Right }
 		x = 2
 		y = 2
 		relative_position_id = LIV_Economy_Right
@@ -595,9 +628,9 @@ shared_focus = {
 
 shared_focus = {
 		id = LIV_Economy_Right4
-		icon = GFX_goal_generic_neutrality_focus
-		prerequisite = { focus = LIV_Economy_Right3 }
-		x = 2
+		icon = GFX_goal_gold_reserve
+		prerequisite = { focus = LIV_Economy_Right3_Right focus = LIV_Economy_Right3_Left }
+		x = 3
 		y = 3
 		relative_position_id = LIV_Economy_Right
 		cost = 8.6
@@ -609,14 +642,153 @@ shared_focus = {
 			add_ideas = LIV_pol
 		}
 	}
+	
+shared_focus = {
+		id = LIV_Economy_Right5
+		icon = GFX_goal_UK_ban_unions
+		prerequisite = { focus = LIV_Economy_Right }
+		x = 0
+		y = 1
+		relative_position_id = LIV_Economy_Right
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_ideas = LIV_scientists
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Economy_Right6
+		icon = GFX_Crush_Resistance
+		prerequisite = { focus = LIV_Economy_Right5 }
+		x = 0
+		y = 2
+		relative_position_id = LIV_Economy_Right
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_ideas = LIV_scientists
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Economy_Right7
+		icon = GFX_Stomp_out_the_Weak
+		prerequisite = { focus = LIV_Economy_Right6 }
+		x = 0
+		y = 3
+		relative_position_id = LIV_Economy_Right
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_ideas = LIV_scientists
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Economy_Right8
+		icon = GFX_Death_Tracks2
+		prerequisite = { focus = LIV_Economy_Right }
+		x = -3
+		y = 1
+		relative_position_id = LIV_Economy_Right
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_ideas = LIV_scientists
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Economy_Right9_Right
+		icon = GFX_Room_Meeting
+		prerequisite = { focus = LIV_Economy_Right8 }
+		mutually_exclusive = { focus = LIV_Economy_Right9_Left }
+		x = -4
+		y = 2
+		relative_position_id = LIV_Economy_Right
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_ideas = LIV_scientists
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Economy_Right9_Left
+		icon = GFX_BEL_Catholic_Construction
+		prerequisite = { focus = LIV_Economy_Right8 }
+		mutually_exclusive = { focus = LIV_Economy_Right9_Right }
+		x = -2
+		y = 2
+		relative_position_id = LIV_Economy_Right
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_ideas = LIV_scientists
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Economy_Right10
+		icon = GFX_goal_forced_mil
+		prerequisite = { focus = LIV_Economy_Right9_Left focus = LIV_Economy_Right9_Right }
+		x = -3
+		y = 3
+		relative_position_id = LIV_Economy_Right
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_ideas = LIV_scientists
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Economy_Right_End
+		icon = GFX_goal_state_economy
+		prerequisite = { focus = LIV_Economy_Right10 }
+		prerequisite = { focus = LIV_Economy_Right7 }
+		prerequisite = { focus = LIV_Economy_Right4 }
+		x = 0
+		y = 4
+		relative_position_id = LIV_Economy_Right
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_ideas = LIV_scientists
+		}
+	}
 
 shared_focus = {
 		id = LIV_Economy_End
 		icon = GFX_goal_generic_production2
-		prerequisite = { focus = LIV_Economy_Right4 focus = LIV_Economy_Gov4 }
-		prerequisite = { focus = LIV_Eco_Naval3 }
+		prerequisite = { focus = LIV_Economy_Liberal_End focus = LIV_Economy_Right_End }
 		x = 0
-		y = 5
+		y = 6
 		relative_position_id = LIV_Economy
 		cost = 8.6
 		ai_will_do = {
@@ -624,7 +796,7 @@ shared_focus = {
 		}
 
 		completion_reward = {
-			remove_ideas = LIV_Black_Monday
+			remove_ideas = LIV_Depression
 		}
 	}
 

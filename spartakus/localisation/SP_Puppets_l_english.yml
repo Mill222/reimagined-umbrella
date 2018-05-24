@@ -1,10 +1,10 @@
 ﻿l_english:
 
 ### Autonomy Levels ###
-sp_integrated:0 "Integrated"
-sp_occupied:0 "Occupied"
+sp_integrated:0 "Integrated Puppet"
+sp_occupied:0 "Occupied Puppet"
 sp_default_puppet:0 "Puppet"
-sp_autonomous:0 "Autonomous"
+sp_autonomous:0 "Autonomous Puppet"
 sp_colony:0 "Colony"
 sp_protectorate:0 "Protectorate"
 

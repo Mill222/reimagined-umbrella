@@ -89,6 +89,8 @@ country_event = { # USSR gets notified about countries' responses
 	desc = lenin_death.2.d
 	picture = 
 	
+	fire_only_once = yes 
+	
 	is_triggered_only = yes
 	
 	option = {

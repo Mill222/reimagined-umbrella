@@ -1,0 +1,82 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+brm.1.t:0 "The Great Burma Revolt"
+brm.1.d:0 ""
+bmr.1.a:0 "We will not forget you, Saya San!"
+
+### Parties ###
+
+BMR_leninist_party:0 "We Burmans Association"
+BMR_leninist_party_long:0 "We Burmans Association - Left"
+BMR_marxist_party:0 "We Burmans Association"
+BMR_marxist_party_long:0 "We Burmans Association - Left"
+BMR_revolutionary_socialist_party:0 "We Burmans Association"
+BMR_revolutionary_socialist_party_long:0 "We Burmans Association - Left"
+BMR_democratic_socialist_party:0 "We Burmans Association"
+BMR_democratic_socialist_party_long:0 "We Burmans Association - Left"
+BMR_social_democrat_party:0 "We Burmans Association"
+BMR_social_democrat_party_long:0 "We Burmans Association - Left"
+BMR_social_liberal_party:0 "Independent Party"
+BMR_social_liberal_party_long:0 "Independent Party"
+BMR_liberal_conservative_party:0 "Independent Party"
+BMR_liberal_conservative_party_long:0 "Independent Party"
+BMR_social_conservative_party:0 "Independent Party"
+BMR_social_conservative_party_long:0 "Independent Party"
+BMR_authoritarian_democrat_party:0 "Independent Party"
+BMR_authoritarian_democrat_party_long:0 "Independent Party"
+BMR_right_wing_populist_party:0 "We Burmans Association"
+BMR_right_wing_populist_party_long:0 "We Burmans Association - Right"
+BMR_national_syndicalist_party:0 "We Burmans Association"
+BMR_national_syndicalist_party_long:0 "We Burmans Association - Right"
+BMR_national_corporatist_party:0 "We Burmans Association"
+BMR_national_corporatist_party_long:0 "We Burmans Association - Right"
+
+### Focuses ###
+
+BMR_The_Great_Burma_Revolt:0 "The Great Burma Revolt"
+BMR_The_Great_Burma_Revolt_desc:0 ""
+
+BMR_Acquire_Rifles:0 "Acquire Stockpiled Rifles"
+BMR_Acquire_Rifles_desc:0 ""
+
+BMR_Guerilla_Tactics:0 "Adopt Guerilla Tactics"
+BMR_Guerilla_Tactics_desc:0 ""
+
+BMR_Raise_New_Militias:0 "Raise New Militias"
+BMR_Raise_New_Militias_desc:0 ""
+
+BMR_Build_Support:0 "Build Revolt Support"
+BMR_Build_Support_desc:0 ""
+
+BMR_Purge_Independents:0 "Purge the Independents"
+BMR_Purge_Independents_desc:0 ""
+
+BMR_Increase_Recruitment:0 "Increase Recruitment"
+BMR_Increase_Recruitment_desc:0 ""
+
+BMR_Ask_For_Volunteers:0 "Ask for Volunteers"
+BMR_Ask_For_Volunteers_desc:0 ""
+
+BMR_Request_Foreign_Aid:0 "Request Foreign Aid"
+BMR_Request_Foreign_Aid_desc:0 ""
+
+BMR_Smuggle_Weaponry:0 "Smuggle Weaponry from Siam"
+BMR_Smuggle_Weaponry_desc:0 ""
+
+BMR_Still_Alive:0 "Still Alive"
+BMR_Still_Alive_desc:0 ""
+
+### Ideas ###
+
+BMR_military_with_state:0 "Military with a State"
+BMR_military_with_state_desc:0 "Livonia is often remarked as a 'Military with a State' for its mass militarization. This is, however, necessary for their survival. The Baltic natives are often considered unreliable, and a small defense force would mean certain death in the face of a strong Soviet state to the east. Each and every German in these lands are prepared for war."
+
+### Flags ###
+
+BMR_second_revolt:0 "The Second Great Burma Revolt has begun."
+
+### Tooltips ###

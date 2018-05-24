@@ -379,12 +379,43 @@ ideas = {
 			}
 		}
 
-		LIV_Black_Monday = {
+		LIV_Depression = {
 			picture = FRA_factory_strikes
 			modifier = {
 				production_factory_max_efficiency_factor = -0.2
 				consumer_goods_factor = 0.05
-				industrial_capacity_factory = -0.15
+				industrial_capacity_factory = -0.1
+				conscription_factor = -0.15
+			}
+
+		}
+		
+		LIV_Liberal_Economy = {
+			picture = generic_production_bonus
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.05
+				political_power_gain = 0.1
+			}
+
+		}
+		
+		LIV_Interventionist_Economy = {
+			picture = generic_production_bonus
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.05
+				political_power_gain = -0.05
+			}
+
+		}
+		
+		LIV_State_Economy = {
+			picture = generic_production_bonus
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_speed_bunker_factor = 0.05
+				political_power_gain = -0.10
 			}
 
 		}
@@ -437,14 +468,6 @@ ideas = {
 			}
 
 		}
-
-		LIV_balts_rebellion = {
-			picture = generic_volunteer_expedition_bonus
-			modifier = {
-				ai_call_ally_desire_factor = -10000
-			}
-
-	}
 
 	}
 

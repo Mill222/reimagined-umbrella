@@ -208,3 +208,41 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = livfoc.10
+	title = livfoc.10.t
+	desc = livfoc.10.d
+	picture = GFX_report_event_generic_conference
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = livfoc.10.a
+		set_country_flag = LIV_schiemann_plan
+		add_stability = 0.05
+		political_power = -25
+		add_popularity = {
+			ideology = social_liberal popularity = 0.03
+		}
+		
+		ai_chance = {
+			factor = 70
+		}
+	}
+	
+	option = {
+		name = livfoc.10.b
+		set_country_flag = LIV_ulmanis_plan
+		add_stability = -0.05
+		political_power = 25
+		add_popularity = {
+			ideology = liberal_conservative popularity = 0.03
+		}
+		
+		ai_chance = {
+			factor = 30
+		}
+	}
+}

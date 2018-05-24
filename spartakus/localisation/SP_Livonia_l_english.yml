@@ -27,6 +27,11 @@ livfoc.2.a:0 "Enough! Establish a German-only army."
 livfoc.2.b:0 "Reform! Establish a Mixed army of Germans and Balts."
 livfoc.2.c:0 "End this! Establish a Balt-only army."
 
+livfoc.10.t:0 "Agrarian Reform Programme"
+livfoc.10.d:0 "The Great Depression hit our farmers harder than expected. While our liberalization and relaxation of the economy has helped relieve some of the strain on our farmers, it is undeniable that an agrarian reform plan is desparately needed to resolve this situation to the fullest extent.\n\nTwo representatives have presented their plans:\n\nThe Paul Schiemann plan comes from the side of the Baltische Demokratische Partei, and it was clearly devised by our president Paul Schiemann. It involves extensive reform of the tax code and better distribution and faster exportation of our crops.\n\nHowever, there is an alternative. While a minority of the government support this plan, Karlis Ulmanis of the Latvian Farmers Union has presented the Ulmanis Plan. It involves restributing land only to the natives, and also involves the taxation of rich German farmers. While it would certainly anger our German populace, enacting his plan may win over support in the long run."
+livfoc.10.a:0 "Paul Schiemann has done a fine job. Enact his long awaited plan."
+livfoc.10.b:0 "Heed the words of Karlis Ulmanis! He speaks for his people, of course."
+
 ### Parties ###
 
 LIV_leninist_party:0 "LKP"
@@ -101,49 +106,76 @@ LIV_Economy_Liberal_End:0 "Tax the Wealthy"
 LIV_Economy_Liberal_End_desc:0 ""
 
 LIV_Economy_Gov1:0 "Government Intervention"
-LIV_Economy_Gov1_desc:0 "We cannot allow this stagnation to continue. The government should assume control of all the major facilities. It is a harsh policy that will surely stifle our private sector, but it will steer our economy out of trouble."
+LIV_Economy_Gov1_desc:0 ""
 
 LIV_Economy_Gov2:0 "Build Up Our Roads"
-LIV_Economy_Gov2_desc:0 "Many unemployed citizens are trying to find any kind of job. We can help them by sending them on construction works. They will build up our roads and we will pay them. This way we can kill two birds with one stone."
+LIV_Economy_Gov2_desc:0 ""
 
 LIV_Economy_Gov3:0 "Social Investments"
-LIV_Economy_Gov3_desc:0 "To solve our economic problems, we need a stable society. Some benefits for the poorest in our Duchy should be established. Everybody deserves at least basic economic security, and this will help maintain order in our population."
+LIV_Economy_Gov3_desc:0 ""
 
 LIV_Economy_Gov4:0 "Baltic Arsenals"
-LIV_Economy_Gov4_desc:0 "Our country has always had a problem with the military sector. Now, with many free hands available, we can send them to military factories to produce guns, tanks and aircrafts. This again should solve many problems at once."
+LIV_Economy_Gov4_desc:0 ""
 
 LIV_Eco_Naval1:0 "Baltic Dockyards"
-LIV_Eco_Naval1_desc:0 "We are a coastal country, almost half of our lands border the Baltic sea. Now, with many free hands available, we can send them to dockyards to build up our fleet. A large and prosperous Baltic navy will raise."
+LIV_Eco_Naval1_desc:0 ""
 
 LIV_Eco_Naval2:0 "Baltic Trade League"
-LIV_Eco_Naval2_desc:0 "There are many countries around the Baltic sea. We desperately need new trade partners, and they can indeed be very good trade partners to us. We should we establish new trade routes in the Baltic sea."
+LIV_Eco_Naval2_desc:0 ""
 
 LIV_Eco_Naval3:0 "Naval Innovations"
-LIV_Eco_Naval3_desc:0 "Our recent naval activity has shown that our navy should be reorganised. We can learn many new things from major countries and use this knowledge in our projects for both the merchant navy and our growing Baltic fleet."
+LIV_Eco_Naval3_desc:0 ""
 
 LIV_Economy_Right:0 "A State Economy"
-LIV_Economy_Right_desc:0 "We cannot allow this stagnation to continue. If we enact strong laissez-faire policies, it will open many opportunities for local businesses and the private sector. Our capitalists and the free market will save the economy."
+LIV_Economy_Right_desc:0 ""
 
-LIV_Economy_Right2:0 "Invest in Our Scientists"
+LIV_Economy_Right2:0 "Planned Economy"
 LIV_Economy_Right2_desc:0 "Every prosperous country has to rely on its scientists. We have to invest in our future now for a brighter tomorrow. Knowledge will always be a powerful weapon, and a source of economic and social prosperity."
 
-LIV_Economy_Right3:0 "Social Investments"
-LIV_Economy_Right3_desc:0 "To solve our economic problems, we need a stable society. Some benefits for the poorest in our Duchy should be established. Everybody deserves at least basic economic security, and this will help maintain order in our population."
+LIV_Economy_Right3_Right:0 "Electronic Research Investments"
+LIV_Economy_Right3_Right_desc:0 ""
 
-LIV_Economy_Right4:0 "Political Establishment"
-LIV_Economy_Right4_desc:0 "Our capitalists are becoming more and more powerful, even starting to influence our politics. If we let them capitalise on that political clout, they will become important and trustworthy allies."
+LIV_Economy_Right3_Left:0 "Industrial Investments"
+LIV_Economy_Right3_Left_desc:0 ""
+
+LIV_Economy_Right4:0 "Requisition Gold Reserves"
+LIV_Economy_Right4_desc:0 ""
+
+LIV_Economy_Right5:0 "Outlaw Trade Unions"
+LIV_Economy_Right5_desc:0 ""
+
+LIV_Economy_Right6:0 "Raid the Factories"
+LIV_Economy_Right6_desc:0 ""
+
+LIV_Economy_Right7:0 "Crush the Unions"
+LIV_Economy_Right7_desc:0 ""
+
+LIV_Economy_Right8:0 "Riga-Reval Railway"
+LIV_Economy_Right8_desc:0 ""
+
+LIV_Economy_Right9_Right:0 "Investments from the Banks"
+LIV_Economy_Right9_Right_desc:0 ""
+
+LIV_Economy_Right9_Left:0 "Investments from the Church"
+LIV_Economy_Right9_Left_desc:0 ""
+
+LIV_Economy_Right10:0 "Munitions Production Expansion"
+LIV_Economy_Right10_desc:0 ""
+
+LIV_Economy_Right_End:0 "Seize the Factories"
+LIV_Economy_Right11_desc:0 ""
 
 LIV_Economy_End:0 "Recovery from Crisis"
-LIV_Economy_End_desc:0 "Hurrah! Under our wise rule, the Duchy has survived this crisis. It seems, at least for us, that the worst of the Black Monday is over. Prosperity is once more the law of the land, and shall stay so!"
+LIV_Economy_End_desc:0 ""
 
 LIV_Army_Start:0 "The Baltische Landeswehr"
-LIV_Army_Start_desc:0 "Officially, we do have an army. But it actually consists of nothing more than a bunch of young boys with rifles. Military doctrine is the first thing we need to modernise. Decades have passed since the end of the Weltkrieg and our current doctrine is now clearly outdated."
+LIV_Army_Start_desc:0 ""
 
 LIV_Cons_Reform:0 "Conscription Reform"
-LIV_Cons_Reform_desc:0 "Native Balts, the majority of our country's population, are not currently allowed to serve in the army. Should we finally lift some of these restrictions, or should we keep the army the sole affair of the Germans?"
+LIV_Cons_Reform_desc:0 ""
 
 LIV_Cons_Reform2:0 "The Freikorps Issue"
-LIV_Cons_Reform2_desc:0 "Native Balts, the majority of our country's population, are not currently allowed to serve in the army. Enough is enough, we will immediately open up the army's rank, but this may take some time to have an effect."
+LIV_Cons_Reform2_desc:0 ""
 
 LIV_German_Army:0 "A German Army"
 LIV_German_Army_desc:0 ""
@@ -185,7 +217,7 @@ LIV_Army_Reform_Finish:0 "Completing Conscription Reform"
 LIV_Army_Reform_Finish_desc:0 ""
 
 LIV_Army_Doc:0 "War Games"
-LIV_Army_Doc_desc:0 "Our military staff still push for old tactics and doctrines. We desperately need to change their minds. If we start organising regular war games, we will slowly but surely force them to adapt to the realities of modern warfare."
+LIV_Army_Doc_desc:0 ""
 
 LIV_Army_Mob:0 "Rapid Warfare"
 LIV_Army_Mob_desc:0 ""
@@ -309,6 +341,12 @@ LIV_superior_firepower_desc:0 ""
 LIV_grand_battleplan:0 "Grand Battleplan Training"
 LIV_grand_battleplan_desc:0 ""
 
+LIV_Depression:0 "Great Depression Effects"
+LIV_Depression_desc:0 ""
+
+LIV_Liberal_Economy:0 "A Liberal Economy"
+LIV_Liberal_Economy_desc:0 ""
+
 ### Flags ###
 
 LIV_kaiser:0 "The Kaiser has been Restored in Germany"
@@ -320,6 +358,12 @@ LIV_freikorps_reform_finished:0 "§GThe Freikorps issue has been completely reso
 LIV_focused_on_freikorps_crisis:0 "§GThe military has focused on resolving the Freikorps issue.§!"
 
 LIV_conscription_reform_finished:0 "§GThe Conscription crisis has been completely resolved.§!"
+
+LIV_nationalist_government:0 "§GThe Nationalists have taken power.§!"
+
+LIV_liberal_government:0 "§GThe Liberals have taken power.§!"
+
+LIV_ducal_government:0 "§GThe Ducal Supporters have taken power.§!"
 
 ### Tooltips ###
 

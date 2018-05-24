@@ -16,30 +16,42 @@ set_technology = {
 }
 
 set_research_slots = 1
-set_convoys = 2
+set_convoys = 10
 
 set_cosmetic_tag = BRM_REV
 
 add_ideas = { 
+BMR_The_Great_Burma_Revolt
+BMR_The_Legacy_of_Saya_San
+BMR_Disorganized_Militias
+BMR_Questionable_Support
+BMR_Political_Disunity
+BUR_U_Nu_hog_rev
+BUR_Aung_San_for_rev
+BUR_Mahn_Ba_Khaing_eco_rev
+BUR_Thakin_Mya_sec_mar
+BUR_Abdul_Razak_int_rev
+BUR_Thakin_Soe_cos_mar
+BUR_Than_Tun_carm_mar
 }
 
 set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 0
+			popularity = 6
 		}
 		marxist = {
-			popularity = 0
+			popularity = 4
 		}
 		revolutionary_socialist = {
-			popularity = 0
+			popularity = 41
 		}
 		democratic_socialist = {
-			popularity = 0
+			popularity = 1
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 1
 		}
 		social_liberal = {
 			popularity = 0
@@ -48,23 +60,23 @@ set_politics = {
 			popularity = 0
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 3
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 1
 		}
 		right_wing_populist = {
-			popularity = 0
+			popularity = 29
 		}
 		national_syndicalist = {
-			popularity = 0
+			popularity = 10
 		}
 		national_corporatist = {
-			popularity = 0
+			popularity = 4
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = revolutionary_socialist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -73,117 +85,143 @@ set_politics = {
 
 ######## Starting Leader Spam ########
 create_country_leader = {
-	name = "Saya San"
-	desc = "POLITICS_SAYA_SAN_DESC"
-	picture = "gfx/Portrait_Burma_Saya_San.tga"
+	name = "Thakin Nu"
+	desc = "POLITICS_U_NU_DESC"
+	picture = "Portrait_U_Nu.dds"
 	expire = "1960.1.1" 
 	ideology = leninist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Saya San"
-	desc = "POLITICS_SAYA_SAN_DESC"
-	picture = "gfx/Portrait_Burma_Saya_San.tga"
-	expire = "1960.1.1" 
+	name = "Thakin Nu"
+	desc = "POLITICS_U_NU_DESC"
+	picture = "Portrait_U_Nu.dds"
+	expire = "1960.1.1"  
 	ideology = marxist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Saya San"
-	desc = "POLITICS_SAYA_SAN_DESC"
-	picture = "gfx/Portrait_Burma_Saya_San.tga"
+	name = "Thakin Nu"
+	desc = "POLITICS_U_NU_DESC"
+	picture = "Portrait_U_Nu.dds"
 	expire = "1960.1.1" 
 	ideology = revolutionary_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Saya San"
-	desc = "POLITICS_SAYA_SAN_DESC"
-	picture = "gfx/Portrait_Burma_Saya_San.tga"
+	name = "Thakin Nu"
+	desc = "POLITICS_U_NU_DESC"
+	picture = "Portrait_U_Nu.dds"
 	expire = "1960.1.1" 
 	ideology = democratic_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Saya San"
-	desc = "POLITICS_SAYA_SAN_DESC"
-	picture = "gfx/Portrait_Burma_Saya_San.tga"
+	name = "Thakin Nu"
+	desc = "POLITICS_U_NU_DESC"
+	picture = "Portrait_U_Nu.dds"
 	expire = "1960.1.1" 
 	ideology = social_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Saya San"
-	desc = "POLITICS_SAYA_SAN_DESC"
-	picture = "gfx/Portrait_Burma_Saya_San.tga"
-	expire = "1960.1.1" 
+	name = "Thakin Nu"
+	desc = "POLITICS_U_NU_DESC"
+	picture = "Portrait_U_Nu.dds"
+	expire = "1960.1.1"  
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Saya San"
-	desc = "POLITICS_SAYA_SAN_DESC"
-	picture = "gfx/Portrait_Burma_Saya_San.tga"
+	name = "Thakin Nu"
+	desc = "POLITICS_U_NU_DESC"
+	picture = "Portrait_U_Nu.dds"
 	expire = "1960.1.1" 
 	ideology = liberal_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Saya San"
-	desc = "POLITICS_SAYA_SAN_DESC"
-	picture = "gfx/Portrait_Burma_Saya_San.tga"
+	name = "Thakin Nu"
+	desc = "POLITICS_U_NU_DESC"
+	picture = "Portrait_U_Nu.dds"
 	expire = "1960.1.1" 
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Saya San"
-	desc = "POLITICS_SAYA_SAN_DESC"
-	picture = "gfx/Portrait_Burma_Saya_San.tga"
+	name = "Thakin Nu"
+	desc = "POLITICS_U_NU_DESC"
+	picture = "Portrait_U_Nu.dds"
 	expire = "1960.1.1" 
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Saya San"
-	desc = "POLITICS_SAYA_SAN_DESC"
-	picture = "gfx/Portrait_Burma_Saya_San.tga"
-	expire = "1960.1.1" 
+	name = "Thakin Nu"
+	desc = "POLITICS_U_NU_DESC"
+	picture = "Portrait_U_Nu.dds"
+	expire = "1960.1.1"  
 	ideology = right_wing_populist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Saya San"
-	desc = "POLITICS_SAYA_SAN_DESC"
-	picture = "gfx/Portrait_Burma_Saya_San.tga"
+	name = "Thakin Nu"
+	desc = "POLITICS_U_NU_DESC"
+	picture = "Portrait_U_Nu.dds"
 	expire = "1960.1.1" 
 	ideology = national_syndicalist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Saya San"
-	desc = "POLITICS_SAYA_SAN_DESC"
-	picture = "gfx/Portrait_Burma_Saya_San.tga"
-	expire = "1960.1.1" 
+	name = "Thakin Nu"
+	desc = "POLITICS_U_NU_DESC"
+	picture = "Portrait_U_Nu.dds"
+	expire = "1960.1.1"  
 	ideology = national_corporatist_subtype
 	traits = {}
 }
 
 ### Corps Commander
 create_field_marshal = {
-	name = "Saya San"
-	picture = "Portrait_Burma_Saya_San.tga"
-	traits = {}
-	skill = 1
+	name = "Thakin Nu"
+	picture = "Portrait_U_Nu.dds"
+	traits = { politically_connected }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Baw Maw"
+	picture = "Portrait_Baw_Maw.dds"
+	traits = { infantry_officer politically_connected }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Miles Dempsey"
+	picture = "Portrait_Aung_San.dds"
+	traits = { harsh_leader politically_connected }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 }
