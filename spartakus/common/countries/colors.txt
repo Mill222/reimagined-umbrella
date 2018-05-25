@@ -572,6 +572,12 @@ PER = {
 	color = rgb { 71 113 97 }
 	color_ui = rgb { 92 147 126 }
 }
+
+GLN = {
+	color = rgb { 133 46 46 }
+	color_ui = rgb { 148 36 79 }
+}
+
 PHI = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }

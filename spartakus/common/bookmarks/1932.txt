@@ -17,7 +17,7 @@ bookmarks = {
 		"SOV"={
 			history = "SOV_SP_GATHERING_STORM_DESC"
 			ideology = leninist
-			ideas = {
+			ideas = { SOV_NEP
 			}
 			focuses = {
 			}

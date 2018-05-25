@@ -5,12 +5,13 @@ state={
 		1636 4755 
 	}
 	history={
-		owner = PER
+		owner = GLN
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = PER
+		add_core_of = GLN
+		add_claim_by = PER
 
 	}
 	manpower=175680

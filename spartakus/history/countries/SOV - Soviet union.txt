@@ -102,6 +102,10 @@ set_politics = {
 		target = POL
 		autonomous_state = sp_protectorate
 	}
+#	set_autonomy = {
+#		target = GLN
+#		autonomous_state = sp_
+#	}
 
 
 create_faction = Comintern
