@@ -70,6 +70,7 @@ defined_text = {
 				POR = { has_country_flag = lenin_comemmoration_accepted }
 				MON = { has_country_flag = lenin_comemmoration_accepted }
 				TAN = { has_country_flag = lenin_comemmoration_accepted }
+				GIL = { has_country_flag = lenin_comemmoration_accepted }
 			}
 		}
 		localization_key = lenin_death_GER_comma
@@ -94,6 +95,7 @@ defined_text = {
 				POR = { has_country_flag = lenin_comemmoration_politely_declined }
 				MON = { has_country_flag = lenin_comemmoration_politely_declined }
 				TAN = { has_country_flag = lenin_comemmoration_politely_declined }
+				GIL = { has_country_flag = lenin_comemmoration_politely_declined }
 			}
 		}
 		localization_key = lenin_death_GER_comma
@@ -118,6 +120,7 @@ defined_text = {
 				POR = { has_country_flag = lenin_comemmoration_rudely_declined }
 				MON = { has_country_flag = lenin_comemmoration_rudely_declined }
 				TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
+				GIL = { has_country_flag = lenin_comemmoration_rudely_declined }
 			}
 		}
 		localization_key = lenin_death_GER_comma
@@ -141,6 +144,7 @@ defined_text = {
 				POR = { has_country_flag = lenin_comemmoration_accepted }
 				MON = { has_country_flag = lenin_comemmoration_accepted }
 				TAN = { has_country_flag = lenin_comemmoration_accepted }
+				GIL = { has_country_flag = lenin_comemmoration_accepted }
 			}
 		}
 		localization_key = lenin_death_POL_comma
@@ -164,6 +168,7 @@ defined_text = {
 				POR = { has_country_flag = lenin_comemmoration_politely_declined }
 				MON = { has_country_flag = lenin_comemmoration_politely_declined }
 				TAN = { has_country_flag = lenin_comemmoration_politely_declined }
+				GIL = { has_country_flag = lenin_comemmoration_politely_declined }
 			}
 		}
 		localization_key = lenin_death_POL_comma
@@ -187,6 +192,7 @@ defined_text = {
 				POR = { has_country_flag = lenin_comemmoration_rudely_declined }
 				MON = { has_country_flag = lenin_comemmoration_rudely_declined }
 				TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
+				GIL = { has_country_flag = lenin_comemmoration_rudely_declined }
 			}
 		}
 		localization_key = lenin_death_POL_comma
@@ -209,6 +215,7 @@ defined_text = {
 				POR = { has_country_flag = lenin_comemmoration_accepted }
 				MON = { has_country_flag = lenin_comemmoration_accepted }
 				TAN = { has_country_flag = lenin_comemmoration_accepted }
+				GIL = { has_country_flag = lenin_comemmoration_accepted }
 			}
 		}
 		localization_key = lenin_death_HUN_comma
@@ -231,6 +238,7 @@ defined_text = {
 				POR = { has_country_flag = lenin_comemmoration_politely_declined }
 				MON = { has_country_flag = lenin_comemmoration_politely_declined }
 				TAN = { has_country_flag = lenin_comemmoration_politely_declined }
+				GIL = { has_country_flag = lenin_comemmoration_politely_declined }
 			}
 		}
 		localization_key = lenin_death_HUN_comma
@@ -253,6 +261,7 @@ defined_text = {
 				POR = { has_country_flag = lenin_comemmoration_rudely_declined }
 				MON = { has_country_flag = lenin_comemmoration_rudely_declined }
 				TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
+				GIL = { has_country_flag = lenin_comemmoration_rudely_declined }
 			}
 		}
 		localization_key = lenin_death_HUN_comma
@@ -274,6 +283,7 @@ defined_text = {
 				POR = { has_country_flag = lenin_comemmoration_accepted }
 				MON = { has_country_flag = lenin_comemmoration_accepted }
 				TAN = { has_country_flag = lenin_comemmoration_accepted }
+				GIL = { has_country_flag = lenin_comemmoration_accepted }
 			}
 		}
 		localization_key = lenin_death_SLO_comma
@@ -295,6 +305,7 @@ defined_text = {
 				POR = { has_country_flag = lenin_comemmoration_politely_declined }
 				MON = { has_country_flag = lenin_comemmoration_politely_declined }
 				TAN = { has_country_flag = lenin_comemmoration_politely_declined }
+				GIL = { has_country_flag = lenin_comemmoration_politely_declined }
 			}
 		}
 		localization_key = lenin_death_SLO_comma
@@ -316,6 +327,7 @@ defined_text = {
 				POR = { has_country_flag = lenin_comemmoration_rudely_declined }
 				MON = { has_country_flag = lenin_comemmoration_rudely_declined }
 				TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
+				GIL = { has_country_flag = lenin_comemmoration_rudely_declined }
 			}
 		}
 		localization_key = lenin_death_SLO_comma
@@ -336,6 +348,7 @@ defined_text = {
 			OR = {
 				MON = { has_country_flag = lenin_comemmoration_accepted }
 				TAN = { has_country_flag = lenin_comemmoration_accepted }
+				GIL = { has_country_flag = lenin_comemmoration_accepted }
 			}
 		}
 		localization_key = lenin_death_POR_comma
@@ -356,6 +369,7 @@ defined_text = {
 			OR = {
 				MON = { has_country_flag = lenin_comemmoration_politely_declined }
 				TAN = { has_country_flag = lenin_comemmoration_politely_declined }
+				GIL = { has_country_flag = lenin_comemmoration_politely_declined }
 			}
 		}
 		localization_key = lenin_death_POR_comma
@@ -376,6 +390,7 @@ defined_text = {
 			OR = {
 				MON = { has_country_flag = lenin_comemmoration_rudely_declined }
 				TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
+				GIL = { has_country_flag = lenin_comemmoration_rudely_declined }
 			}
 		}
 		localization_key = lenin_death_POR_comma
@@ -393,7 +408,10 @@ defined_text = {
 	text = {
 		trigger = {
 			MON = { has_country_flag = lenin_comemmoration_accepted }
-			TAN = { has_country_flag = lenin_comemmoration_accepted }
+			OR = {
+				TAN = { has_country_flag = lenin_comemmoration_accepted }
+				GIL = { has_country_flag = lenin_comemmoration_accepted }
+			}
 		}
 		localization_key = lenin_death_MON_comma
 	}
@@ -410,7 +428,10 @@ defined_text = {
 	text = {
 		trigger = {
 			MON = { has_country_flag = lenin_comemmoration_politely_declined }
-			TAN = { has_country_flag = lenin_comemmoration_politely_declined }
+			OR = {
+				TAN = { has_country_flag = lenin_comemmoration_politely_declined }
+				GIL = { has_country_flag = lenin_comemmoration_politely_declined }
+			}
 		}
 		localization_key = lenin_death_MON_comma
 	}
@@ -427,7 +448,10 @@ defined_text = {
 	text = {
 		trigger = {
 			MON = { has_country_flag = lenin_comemmoration_rudely_declined }
-			TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
+			OR = {
+				TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
+				GIL = { has_country_flag = lenin_comemmoration_rudely_declined }
+			}
 		}
 		localization_key = lenin_death_MON_comma
 	}
@@ -444,6 +468,13 @@ defined_text = {
 	text = {
 		trigger = {
 			TAN = { has_country_flag = lenin_comemmoration_accepted }
+			GIL = { has_country_flag = lenin_comemmoration_accepted }
+		}
+		localization_key = lenin_death_TAN_comma
+	}
+	text = {
+		trigger = {
+			TAN = { has_country_flag = lenin_comemmoration_accepted }
 		}
 		localization_key = lenin_death_TAN
 	}
@@ -451,6 +482,13 @@ defined_text = {
 
 defined_text = {
 	name = GetLeninComemmorationPolitelyDeclinedTAN
+	text = {
+		trigger = {
+			TAN = { has_country_flag = lenin_comemmoration_politely_declined }
+			GIL = { has_country_flag = lenin_comemmoration_politely_declined }
+		}
+		localization_key = lenin_death_TAN_comma
+	}
 	text = {
 		trigger = {
 			TAN = { has_country_flag = lenin_comemmoration_politely_declined }
@@ -464,7 +502,44 @@ defined_text = {
 	text = {
 		trigger = {
 			TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
+			GIL = { has_country_flag = lenin_comemmoration_rudely_declined }
+		}
+		localization_key = lenin_death_TAN_comma
+	}
+	text = {
+		trigger = {
+			TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
 		}
 		localization_key = lenin_death_TAN
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationAcceptedGIL
+	text = {
+		trigger = {
+			GIL = { has_country_flag = lenin_comemmoration_accepted }
+		}
+		localization_key = lenin_death_GIL
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationPolitelyDeclinedGIL
+	text = {
+		trigger = {
+			GIL = { has_country_flag = lenin_comemmoration_politely_declined }
+		}
+		localization_key = lenin_death_GIL
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationRudelyDeclinedGIL
+	text = {
+		trigger = {
+			GIL = { has_country_flag = lenin_comemmoration_rudely_declined }
+		}
+		localization_key = lenin_death_GIL
 	}
 }
