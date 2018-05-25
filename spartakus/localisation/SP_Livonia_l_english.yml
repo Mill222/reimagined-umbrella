@@ -261,20 +261,23 @@ LIV_Riga_Mil_Factories_desc:0 ""
 LIV_Riga_Civ_Factories:0 "Consumer Sector Expansion"
 LIV_Riga_Civ_Factories_desc:0 ""
 
-LIV_Army_Mil_Navy1:0 "Baltic Fleet"
-LIV_Army_Mil_Navy1_desc:0 "Since Peter the Great, many naval battles have been fought in the Baltic Sea. We are proud of the prestige and legacy of our navy and we will focus on improving our ships even more."
+LIV_Army_Mil_Navy1:0 "A Fleet for Livonia"
+LIV_Army_Mil_Navy1_desc:0 ""
 
-LIV_Army_Mil_Navy_Old:0 "Naval Traditions"
-LIV_Army_Mil_Navy_Old_desc:0 "The power of our navy lies in its traditions. Instead of investing endless funds into new hulls, we can always improve and refit our old ships. A battleship shall always be a battleship."
+LIV_Restore_SMS_Baden:0 "Restore the SMS Baden"
+LIV_Restore_SMS_Baden_desc:0 ""
 
-LIV_Army_Mil_Navy_New:0 "New Naval Technologies"
-LIV_Army_Mil_Navy_New_desc:0 "Traditions are good, but we can't afford to forget about new technologies. Instead of praising the old ways, we should invest our funds into some brand new naval technologies like submarines."
+LIV_Scrap_SMS_Baden:0 "Scrap the SMS Baden"
+LIV_Scrap_SMS_Baden_desc:0 ""
 
-LIV_Army_Mil_Navy_Doc:0 "Our Brave Officers"
-LIV_Army_Mil_Navy_Doc_desc:0 "Our naval officers are some of the best officers of Europe. We should encourage them and create more favourable working conditions for them to encourage them to stay and improve our navy."
+LIV_Seek_New_Flagship:0 "Seek a New Flagship"
+LIV_Seek_New_Flagship_desc:0 ""
 
-LIV_Army_Mil_Navy_Transport:0 "Elite Baltic Marines"
-LIV_Army_Mil_Navy_Transport_desc:0 "With our long coastline, we will always be threatened by naval invasions. We should teach some of our troops to fight in such conditions and even perform autonomous naval landings."
+LIV_Destroyer_Investments:0 "Destroyer Investments"
+LIV_Destroyer_Investments_desc:0 ""
+
+LIV_U_Boat_Investments:0 "U-Boat Investments"
+LIV_U_Boat_Investments_desc:0 ""
 
 LIV_Air1:0 "Expand Air Bases"
 LIV_Air1_desc:0 "Aviation never was our forte, ever since the introduction of airplanes during the Weltkrieg we have been struggling to catch up. We should build some airfields now and start training for the future of warfare."
@@ -282,8 +285,8 @@ LIV_Air1_desc:0 "Aviation never was our forte, ever since the introduction of ai
 LIV_Air_CAS:0 "CAS Effort"
 LIV_Air_CAS_desc:0 "A modern army needs support from vehicles not only on the ground, but also in the air. Certainly a concept that will be easy for our officers to understand."
 
-LIV_Air_Fighter:0 "Fighter Effort"
-LIV_Air_Fighter_desc:0 "We have not seen the last of the dogfights in the Weltkrieg. Keeping ahead in the development of fighter planes will give us an edge future air battles."
+LIV_Air_Defenses:0 "Invest in Air Defences"
+LIV_Air_Defenses_desc:0 ""
 
 LIV_Air_Nav_Bomber:0 "Naval Bomber Effort"
 LIV_Air_Nav_Bomber_desc:0 "Ships have proven exceptionally vulnerable to aircrafts. We should keep improving on their technology to ensure we stay ahead of any countermeasures and get the edge in large naval confrontations."

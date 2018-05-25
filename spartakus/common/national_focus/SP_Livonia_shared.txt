@@ -866,7 +866,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Support_Freikorps
-		icon = GFX_unknown
+		icon = GFX_Military_Government
 		prerequisite = { focus = LIV_Cons_Reform2 }
 		mutually_exclusive = { focus = LIV_Reform_Freikorps }
 		available = { 
@@ -888,7 +888,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Support_Freikorps_2
-		icon = GFX_unknown
+		icon = GFX_Recruitment
 		prerequisite = { focus = LIV_Support_Freikorps }
 		x = 2
 		y = 2
@@ -904,7 +904,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Support_Freikorps_3
-		icon = GFX_unknown
+		icon = GFX_Dark_Arms
 		prerequisite = { focus = LIV_Support_Freikorps_2 }
 		prerequisite = { focus = LIV_Freikorps_Center }
 		x = 2
@@ -921,7 +921,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Support_Freikorps_4
-		icon = GFX_unknown
+		icon = GFX_Rally
 		prerequisite = { focus = LIV_Support_Freikorps_3 }
 		x = 2
 		y = 4
@@ -937,7 +937,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Reform_Freikorps
-		icon = GFX_unknown
+		icon = GFX_Heavy_Strike
 		prerequisite = { focus = LIV_Cons_Reform2 }
 		mutually_exclusive = { focus = LIV_Support_Freikorps }
 		available = { 
@@ -959,7 +959,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Reform_Freikorps_2
-		icon = GFX_unknown
+		icon = GFX_Break_the_Germans
 		prerequisite = { focus = LIV_Reform_Freikorps }
 		x = -2
 		y = 2
@@ -975,7 +975,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Reform_Freikorps_3
-		icon = GFX_unknown
+		icon = GFX_Into_the_Flames
 		prerequisite = { focus = LIV_Reform_Freikorps_2 }
 		prerequisite = { focus = LIV_Freikorps_Center }
 		x = -2
@@ -992,7 +992,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Reform_Freikorps_4
-		icon = GFX_unknown
+		icon = GFX_Swing_the_Sword
 		prerequisite = { focus = LIV_Reform_Freikorps_3 }
 		x = -2
 		y = 4
@@ -1008,7 +1008,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Freikorps_Center
-		icon = GFX_unknown
+		icon = GFX_Recruitment_Drive
 		prerequisite = { focus = LIV_Reform_Freikorps focus = LIV_Support_Freikorps }
 		x = 0
 		y = 2
@@ -1024,7 +1024,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Freikorps_Center_2
-		icon = GFX_unknown
+		icon = GFX_Renewed_Arms
 		prerequisite = { focus = LIV_Reform_Freikorps_3 focus = LIV_Support_Freikorps_3 }
 		x = 0
 		y = 4
@@ -1040,7 +1040,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_Freikorps_Issue_Finish
-		icon = GFX_goal_military_academy
+		icon = GFX_goal_generic_secret_weapon
 		prerequisite = { focus = LIV_Freikorps_Center_2 }
 		prerequisite = { focus = LIV_Reform_Freikorps_4 focus = LIV_Support_Freikorps_4 }
 		x = 0
@@ -1626,7 +1626,7 @@ shared_focus = {
 
 shared_focus = {
 		id = LIV_Army_Mil_Navy1
-		icon = GFX_BAT_navy
+		icon = GFX_Naval_Operations
 		x = 34
 		y = 0
 		cost = 8.6
@@ -1658,33 +1658,14 @@ shared_focus = {
 						instant_build = yes
 					}
 			}
-
-			random_owned_state = {
-
-					limit = {
-						is_coastal = yes
-						free_building_slots = {
-							building = dockyard
-							size > 1
-							include_locked = yes
-						}
-					}
-
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = dockyard
-						level = 1
-						instant_build = yes
-					}
-			}
 		}
 	}
 
 shared_focus = {
-		id = LIV_Army_Mil_Navy_Old
-		icon = GFX_goal_generic_navy_battleship
+		id = LIV_Restore_SMS_Baden
+		icon = GFX_Battlefleet
 		prerequisite = { focus = LIV_Army_Mil_Navy1 }
-		mutually_exclusive = { focus = LIV_Army_Mil_Navy_New }
+		mutually_exclusive = { focus = LIV_Scrap_SMS_Baden }
 		x = -2
 		y = 1
 		relative_position_id = LIV_Army_Mil_Navy1
@@ -1712,10 +1693,10 @@ shared_focus = {
 }
 
 shared_focus = {
-		id = LIV_Army_Mil_Navy_New
-		icon = GFX_goal_generic_navy_submarine
+		id = LIV_Scrap_SMS_Baden
+		icon = GFX_Small_Navy
 		prerequisite = { focus = LIV_Army_Mil_Navy1 }
-		mutually_exclusive = { focus = LIV_Army_Mil_Navy_Old }
+		mutually_exclusive = { focus = LIV_Restore_SMS_Baden }
 		x = 2
 		y = 1
 		relative_position_id = LIV_Army_Mil_Navy1
@@ -1736,12 +1717,12 @@ shared_focus = {
 				}
 		}
 	}
-
+	
 shared_focus = {
-		id = LIV_Army_Mil_Navy_Doc
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = LIV_Army_Mil_Navy_Old focus = LIV_Army_Mil_Navy_New }
-		x = 0
+		id = LIV_Commerce_Raiding
+		icon = GFX_Naval_Effort
+		prerequisite = { focus = LIV_Restore_SMS_Baden }
+		x = -2
 		y = 2
 		relative_position_id = LIV_Army_Mil_Navy1
 		cost = 8.6
@@ -1761,9 +1742,62 @@ shared_focus = {
 }
 
 shared_focus = {
-		id = LIV_Army_Mil_Navy_Transport
-		icon = GFX_goal_generic_wolf_pack
-		prerequisite = { focus = LIV_Army_Mil_Navy_Doc }
+		id = LIV_Seek_New_Flagship
+		icon = GFX_The_Red_Fleet
+		prerequisite = { focus = LIV_Scrap_SMS_Baden }
+		x = 2
+		y = 2
+		relative_position_id = LIV_Army_Mil_Navy1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = naval_doctrine_bonus
+				bonus = 0.5
+				uses = 1
+					category = naval_doctrine
+			}
+		}
+}
+
+shared_focus = {
+		id = LIV_Destroyer_Investments
+		icon = GFX_focus_generic_destroyer
+		prerequisite = { focus = LIV_Seek_New_Flagship }
+		mutually_exclusive = { focus = LIV_Cruiser_Investments focus = LIV_U_Boat_Investments }
+		x = 2
+		y = 3
+		relative_position_id = LIV_Army_Mil_Navy1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_doctrine_bonus
+				bonus = 0.5
+				uses = 1
+				category = tp_tech
+			}
+			add_tech_bonus = {
+				name = naval_doctrine_bonus
+				bonus = 0.5
+				uses = 1
+				category = marine_tech
+			}
+		}
+	}
+	
+shared_focus = {
+		id = LIV_U_Boat_Investments
+		icon = GFX_goal_generic_navy_submarine
+		prerequisite = { focus = LIV_Commerce_Raiding focus = LIV_Seek_New_Flagship }
+		mutually_exclusive = { focus = LIV_Cruiser_Investments focus = LIV_Destroyer_Investments }
 		x = 0
 		y = 3
 		relative_position_id = LIV_Army_Mil_Navy1
@@ -1787,19 +1821,82 @@ shared_focus = {
 			}
 		}
 	}
+	
+shared_focus = {
+		id = LIV_Cruiser_Investments
+		icon = GFX_focus_generic_cruiser2
+		prerequisite = { focus = LIV_Commerce_Raiding }
+		mutually_exclusive = { focus = LIV_Destroyer_Investments focus = LIV_U_Boat_Investments }
+		x = -2
+		y = 3
+		relative_position_id = LIV_Army_Mil_Navy1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_doctrine_bonus
+				bonus = 0.5
+				uses = 1
+				category = tp_tech
+			}
+			add_tech_bonus = {
+				name = naval_doctrine_bonus
+				bonus = 0.5
+				uses = 1
+				category = marine_tech
+			}
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Civilian_Fleet
+		icon = GFX_Passenger_Cruiser
+		prerequisite = { focus = LIV_Destroyer_Investments focus = LIV_U_Boat_Investments focus = LIV_Cruiser_Investments }
+		mutually_exclusive = { focus = LIV_Coastal_Batteries }
+		x = -1
+		y = 4
+		relative_position_id = LIV_Army_Mil_Navy1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
+	
+shared_focus = {
+		id = LIV_Coastal_Batteries
+		icon = GFX_goal_bluewater_navy
+		mutually_exclusive = { focus = LIV_Civilian_Fleet }
+		prerequisite = { focus = LIV_Destroyer_Investments focus = LIV_U_Boat_Investments focus = LIV_Cruiser_Investments }
+		x = 1
+		y = 4
+		relative_position_id = LIV_Army_Mil_Navy1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
 
 ###Air Foci###
 
 shared_focus = {
 		id = LIV_Air1
-		icon = GFX_BAT_air
+		icon = GFX_goal_generic_air_fighter
 		available = { 
 			has_country_flag = LIV_conscription_reform_finished
 			has_country_flag = LIV_freikorps_reform_finished
 		}
 
 		x = 34
-		y = 4
+		y = 6
 		cost = 8.6
 		ai_will_do = {
 			factor = 25
@@ -1820,8 +1917,9 @@ shared_focus = {
 		id = LIV_Air_CAS
 		icon = GFX_goal_generic_CAS
 		prerequisite = { focus = LIV_Air1 }
+		mutually_exclusive = { focus = LIV_Air_Nav_Bomber }
 		x = -2
-		y = 1
+		y = 2
 		relative_position_id = LIV_Air1
 		cost = 8.6
 		ai_will_do = {
@@ -1840,8 +1938,8 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Air_Fighter
-		icon = GFX_goal_generic_air_fighter
+		id = LIV_Air_Defenses
+		icon = GFX_goal_anti_air
 		prerequisite = { focus = LIV_Air1 }
 		x = 0
 		y = 1
@@ -1871,8 +1969,9 @@ shared_focus = {
 		id = LIV_Air_Nav_Bomber
 		icon = GFX_goal_generic_air_naval_bomber
 		prerequisite = { focus = LIV_Air1 }
+		mutually_exclusive = { focus = LIV_Air_Defenses }
 		x = 2
-		y = 1
+		y = 2
 		relative_position_id = LIV_Air1
 		cost = 8.6
 		ai_will_do = {
@@ -1891,9 +1990,9 @@ shared_focus = {
 shared_focus = {
 		id = LIV_Air_Doc
 		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = LIV_Air_CAS focus = LIV_Air_Fighter focus = LIV_Air_Nav_Bomber }
+		prerequisite = { focus = LIV_Air_CAS focus = LIV_Air_Defenses focus = LIV_Air_Nav_Bomber }
 		x = 0
-		y = 2
+		y = 3
 		relative_position_id = LIV_Air1
 		cost = 8.6
 		ai_will_do = {
@@ -1916,7 +2015,7 @@ shared_focus = {
 		icon = GFX_goal_generic_air_production
 		prerequisite = { focus = LIV_Air_Doc }
 		x = 0
-		y = 3
+		y = 4
 		relative_position_id = LIV_Air1
 		cost = 8.6
 		ai_will_do = {
