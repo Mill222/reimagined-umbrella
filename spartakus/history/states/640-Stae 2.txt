@@ -11,13 +11,24 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = BMR
 		add_core_of = BUR
+		add_core_of = BMR
 		add_core_of=RAJ
 		buildings = {
 			infrastructure = 3
 			air_base = 1
 			industrial_complex = 1
+		}
+		RAJ = {
+			set_province_controller = 4059
+			set_province_controller = 4019
+			set_province_controller = 7190
+			set_province_controller = 4541
+			set_province_controller = 7163
+			set_province_controller = 4059
+			set_province_controller = 7534
+			set_province_controller = 10386
 		}
 		victory_points = {
 			1492 5 # Mandalay

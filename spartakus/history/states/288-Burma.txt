@@ -8,14 +8,18 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = BMR
 		add_core_of = BUR
-		add_core_of=RAJ
+		add_core_of = BMR
+		add_core_of = RAJ
 		victory_points = {
 			1330 10 # Yangon
 		}
 		victory_points = {
 			12256 1 # Toungoo
+		}
+		RAJ = {
+			set_province_controller = 7254
 		}
 		buildings = {
 			infrastructure = 4

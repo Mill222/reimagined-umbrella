@@ -5,12 +5,13 @@ state={
 		steel=10
 	}
 	history={
-		owner = RAJ
+		owner = BMR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
 		add_core_of = BUR
+		add_core_of = BMR
 		add_core_of=RAJ
 #		victory_points = {
 #			1170 1

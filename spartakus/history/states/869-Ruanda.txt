@@ -5,7 +5,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = RWA
+		owner = CNR
+		add_core_of = CNR
 		add_core_of = RWA
 		buildings = {
 			infrastructure = 2

@@ -4,8 +4,9 @@ state={
 	name="STATE_749"
 
 	history={
-		owner = RAJ
+		owner = BMR
 		add_core_of = BUR
+		add_core_of = BMR
 		add_core_of=RAJ
 		victory_points = {
 			1315 3 # Dawei/Thawai - 5

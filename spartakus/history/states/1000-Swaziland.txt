@@ -5,8 +5,8 @@ state={
 		7900 
 	}
 	history= {
-		owner = ENG
-		add_claim_by = SAF
+		owner = SAF
+		add_core_of = SAF
 		buildings = {
 			infrastructure = 1
 		}	

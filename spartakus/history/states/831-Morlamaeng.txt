@@ -4,11 +4,15 @@ state={
 	name="STATE_831"
 
 	history={
-		owner=RAJ
+		owner=BMR
 		add_core_of=BUR
 		add_core_of=RAJ
+		add_core_of=BMR
 		buildings={
 			infrastructure=3
+		}
+		RAJ = {
+			set_province_controller = 1403
 		}
 		victory_points = {
 			1403 1 #Mawlaymein/Morlamaeng-2

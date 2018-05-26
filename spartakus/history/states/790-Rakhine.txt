@@ -26,6 +26,7 @@ state={
 			}
 		}
 		add_core_of = BUR
+		add_core_of = BMR
 		add_core_of=RAJ
 	}
 
