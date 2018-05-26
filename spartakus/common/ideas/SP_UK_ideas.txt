@@ -14,9 +14,9 @@ ideas = {
 		}
 		UK_recovering_economy = {
 			modifier = {
-				consumer_goods_factor = 0.10
-				industrial_capacity_factory = -0.10
-				industrial_capacity_dockyard = -0.10
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
 				political_power_cost = 0.10
 				stability_factor = -0.05
 			}
@@ -32,13 +32,28 @@ ideas = {
 				mobilization_speed = -0.50
 				send_volunteers_tension = 0.20
 				send_volunteer_divisions_required = 1.0
-				generate_wargoal_tension = 0.20
 				justify_war_goal_time = 1.0
-				guarantee_tension = 0.20
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
 				ai_focus_aggressive_factor = -0.50
 				ai_join_ally_desire_factor = -20
 			}
 			picture = quenched_militarism
+		}
+		UK_hawkish_military_command = {
+			modifier = {
+				political_power_cost = 0.10
+				training_time_factor = -0.10
+				army_org_factor = 0.10
+				planning_speed = 0.10
+				max_planning = 0.10
+				invasion_preparation = -0.10
+				defence = 0.10
+				offence = 0.10
+				send_volunteers_tension = -0.10
+				ai_focus_aggressive_factor = 0.20
+			}
+			picture = GFX_hawkish_military_command
 		}
 	}
 }

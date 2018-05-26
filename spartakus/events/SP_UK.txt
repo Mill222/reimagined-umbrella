@@ -1,6 +1,7 @@
 add_namespace = uk
 add_namespace = empire
 add_namespace = ukforeign
+add_namespace = uknews
 
 country_event = { # Intro
 	id = uk.0
@@ -59,6 +60,40 @@ country_event = { # Right-wing independents and parties unite
 }
 
 
+
+### News Events
+
+## 1932
+
+news_event = { # CPGB on Burmese Revolt
+	id = uknews.1
+	title = uknews.1.t
+	desc = uknews.1.desc
+	picture = GFX_news_event_Saklatvala_HydePark
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uknews.1.a
+		add_political_power = -20
+		add_war_support = -0.01
+	}
+}
+
+news_event = { # CPGB on loyalist paramilitaries agitating in Ireland
+	id = uknews.2
+	title = uknews.2.t
+	desc = uknews.2.desc
+	picture = GFX_news_event_Saklatvala_HydePark
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uknews.2.a
+		add_political_power = -50
+		add_war_support = -0.02
+	}
+}
 
 
 ###########################

@@ -47,6 +47,7 @@ set_technology = {
 
 add_ideas = {
 	UK_pacifism
+	UK_hawkish_military_command
 	UK_the_irish_question_idea
 	UK_recovering_economy
 }

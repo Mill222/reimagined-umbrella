@@ -26,6 +26,9 @@ bookmarks = {
 			history = "ENG_SP_GATHERING_STORM_DESC"
 			ideology = social_conservative
 			ideas = {
+				UK_recovering_economy
+				UK_pacifism
+				UK_hawkish_military_command
 			}
 			focuses = {
 			}

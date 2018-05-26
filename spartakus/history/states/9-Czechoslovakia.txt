@@ -19,6 +19,13 @@ state={
 			industrial_complex = 3
 			
 			air_base = 5
+			
+			6418 = {
+				bunker = 1
+			}
+			11542 = {
+				bunker = 2
+			}
 		}
 		add_core_of = CZE
 

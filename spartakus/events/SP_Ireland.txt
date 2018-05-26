@@ -13,12 +13,6 @@ country_event = { # Intro
 		date < 1932.1.2
 	}
 	
-	immediate = {
-		hidden_effect = { # Trigger events on specific dates
-			
-		}
-	}
-	
 	option = {
 		name = ire.0.a
 	}
@@ -347,6 +341,9 @@ country_event = { # UK - Ireland refuses to retract their statements
 		add_political_power = -20
 		IRE = {
 			country_event = { id = ire.15 days = 3 }
+		}
+		hidden_effect = {
+			news_event = { id = uknews.2 days = 15 random = 7 }
 		}
 		
 		ai_chance = { factor = 50 }

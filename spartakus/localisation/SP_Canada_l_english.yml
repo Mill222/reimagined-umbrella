@@ -1,0 +1,54 @@
+﻿l_english:
+
+# Events
+
+
+# Decisions & Missions
+
+
+# Custom Tooltips
+
+
+# Ideas
+
+
+# Focuses
+
+
+# Parties
+CAN_leninist_party:0 "CPC"
+CAN_leninist_party_long:0 "Communist Party of Canada - Leninist"
+CAN_marxist_party:0 "CPC"
+CAN_marxist_party_long:0 "Communist Party of Canada - Orthodox Marxist"
+CAN_democratic_socialist_party:0 "ILP"
+CAN_democratic_socialist_party_long:0 "Ginger Group"
+CAN_revolutionary_socialist_party:0 "OBU"
+CAN_revolutionary_socialist_party_long:0 "One Big Union"
+CAN_social_democrat_party:0 "PPC"
+CAN_social_democrat_party_long:0 "Progressive Party of Canada"
+CAN_social_liberal_party:0 "L-L"
+CAN_social_liberal_party_long:0 "Liberal-Labour"
+CAN_liberal_conservative_party:0 "Liberal Party"
+CAN_liberal_conservative_party_long:0 "Liberal Party of Canada"
+CAN_social_conservative_party:0 "Conservative Party"
+CAN_social_conservative_party_long:0 "Liberal-Conservative Party of Canada"
+CAN_authoritarian_democrat_party:0 "Loyalists"
+CAN_authoritarian_democrat_party_long:0 "Loyalists"
+# CAN_right_wing_populist_party:0 ""
+# CAN_right_wing_populist_party_long:0 ""
+# CAN_national_syndicalist_party:0 ""
+# CAN_national_syndicalist_party_long:0 ""
+# CAN_national_corporatist_party:0 ""
+# CAN_national_corporatist_party_long:0 ""
+CAN_ccf_party:0 "CCF"
+CAN_ccf_party_long:0 "Co-operative Commonwealth Federation"
+CAN_socred_party:0 "Socreds"
+CAN_socred_party_long:0 "Social Credit Party of Canada"
+CAN_conservative_party:0 "Conservative Party"
+CAN_conservative_party_long:0 "Conservative Party of Canada"
+CAN_national_unity_party:0 "NUP"
+CAN_national_unity_party_long:0 "National Unity Party"
+
+
+# Opinion Modifiers
+
