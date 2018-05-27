@@ -7,7 +7,7 @@ state={
 	}
 	
 	history={
-		owner = CZE
+		owner = SLO
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
@@ -15,7 +15,7 @@ state={
 
 		}
 		add_core_of = SLO
-		add_core_of = CZE
+		add_claim_by = CZE
 		victory_points = {
 			9692 5 
 		}

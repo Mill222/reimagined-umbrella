@@ -11,6 +11,12 @@ state={
 		}
 		add_core_of = SER
 		add_core_of = HUN
+		victory_points = {
+			619 4
+		}
+		victory_points = {
+			9621 3
+		}
 
 	}
 

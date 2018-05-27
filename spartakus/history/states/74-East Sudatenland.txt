@@ -16,7 +16,9 @@ state=
 		add_core_of = CZE
 		add_core_of = AUS
 
-
+		victory_points = {
+			3583 5
+		}
 	}
 	provinces= {
 		421 3414 3583 6485

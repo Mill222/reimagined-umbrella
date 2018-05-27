@@ -8,11 +8,18 @@ state={
 		add_core_of = CRO
 		buildings = {
 			infrastructure = 5
-			3943 = {
-				naval_base = 1
-
+			3924 = {
+				naval_base = 3
 			}
-
+			11901 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			3924 3
+		}
+		victory_points = {
+			11901 2
 		}
 
 	}

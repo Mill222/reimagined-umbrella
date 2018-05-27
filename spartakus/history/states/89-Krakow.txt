@@ -11,6 +11,12 @@ state={
 
 		}
 		add_core_of = POL
+		victory_points = {
+			6483 1
+		}
+		victory_points = {
+			11411 3
+		}
 
 	}
 

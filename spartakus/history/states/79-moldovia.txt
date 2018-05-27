@@ -13,10 +13,13 @@ state={
 
 		}
 		victory_points = {
-			9716 3 
+			9716 5
 		}
 		victory_points = {
-			6706 1 
+			6706 3
+		}
+		victory_points = {
+			3728 2
 		}
 		add_core_of = ROM
 

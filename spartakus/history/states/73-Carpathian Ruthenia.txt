@@ -11,6 +11,11 @@ state={
 		}
 		add_core_of = SLO
 		add_core_of = UKR
+		add_claim_by = CZE
+		
+		victory_points = {
+			11691 2
+		}
 
 	}
 

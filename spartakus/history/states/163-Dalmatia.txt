@@ -5,24 +5,19 @@ state={
 
 	history={
 		owner = CRO
-		victory_points = {
-			3924 1 
-		}
 		buildings = {
 			infrastructure = 6
 			dockyard = 1
 			industrial_complex = 1
-			3924 = {
-				naval_base = 3
-
-			}
 			6889 = {
 				naval_base = 1
-
 			}
 
 		}
 		add_core_of = CRO
+		victory_points = {
+			6889 1
+		}
 
 	}
 

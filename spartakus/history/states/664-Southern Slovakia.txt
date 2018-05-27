@@ -14,10 +14,14 @@ state={
 			infrastructure = 6
 		}
 		victory_points = {
-			6573 1
+			6573 5
+		}
+		victory_points = {
+			11679 2
 		}
 		add_core_of = SLO
 		add_claim_by = HUN
+		add_claim_by = CZE
 		
 
 	}

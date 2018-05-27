@@ -10,7 +10,13 @@ state={
 
 		}
 		victory_points = {
-			6711 1 
+			6711 7
+		}
+		victory_points = {
+			3696 6
+		}
+		victory_points = {
+			9687 3
 		}
 		add_core_of = ROM
 		add_claim_by = HUN

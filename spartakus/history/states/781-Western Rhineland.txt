@@ -10,7 +10,13 @@ state={
 		owner = WEI
 		add_claim_by = GER
 		victory_points = {
-			587 1 
+			587 10 
+		}
+		victory_points = {
+			11435 5 
+		}
+		victory_points = {
+			9522 3 
 		}
 		buildings = {
 			infrastructure = 8
