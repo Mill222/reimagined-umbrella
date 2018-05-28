@@ -10,6 +10,9 @@ state={
 
 		}
 		add_core_of = KUR
+		victory_points = {
+			6935 1
+		}
 
 	}
 

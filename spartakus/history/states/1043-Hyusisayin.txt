@@ -13,6 +13,9 @@ state={
 		}
 		add_core_of = ARM
 		add_claim_by = SOV
+		victory_points = {
+			12441 1
+		}
 
 	}
 	manpower=317504
