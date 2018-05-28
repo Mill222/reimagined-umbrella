@@ -1295,7 +1295,7 @@ shared_focus = {
 
 shared_focus = {
 		id = LIV_Prepare_War
-		icon = GFX_goal_generic_war_with_comintern
+		icon = GFX_livonian_military
 		available = { threat > 0.05 }
 		prerequisite = { focus = LIV_Cons_Reform focus = LIV_Cons_Reform2 }
 		x = 0
@@ -1627,8 +1627,8 @@ shared_focus = {
 shared_focus = {
 		id = LIV_Army_Mil_Navy1
 		icon = GFX_Naval_Operations
-		x = 34
-		y = 0
+		x = 17
+		y = 7
 		cost = 8.6
 		available = { 
 			has_country_flag = LIV_conscription_reform_finished
@@ -1895,8 +1895,8 @@ shared_focus = {
 			has_country_flag = LIV_freikorps_reform_finished
 		}
 
-		x = 34
-		y = 6
+		x = 29
+		y = 7
 		cost = 8.6
 		ai_will_do = {
 			factor = 25
@@ -2037,6 +2037,264 @@ shared_focus = {
 					instant_build = yes
 					}
 			}
+		}
+	}
+
+	shared_focus = {
+		id = LIV_Diplomacy
+		icon = GFX_goal_foreign_diplomacy
+		x = 0
+		y = 8
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	shared_focus = {
+		id = LIV_Estonia_Policy
+		icon = GFX_goal_flag_estonia
+		relative_position_id = LIV_Diplomacy
+		prerequisite = { focus = LIV_Diplomacy }
+		x = -11
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	shared_focus = {
+		id = LIV_Estonia_Policy_Integrate
+		icon = GFX_Repress_Freedom
+		relative_position_id = LIV_Estonia_Policy
+		prerequisite = { focus = LIV_Estonia_Policy }
+		x = -1
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	shared_focus = {
+		id = LIV_Estonia_Policy_Puppet
+		icon = GFX_livland
+		relative_position_id = LIV_Estonia_Policy
+		prerequisite = { focus = LIV_Estonia_Policy }
+		x = 1
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	shared_focus = {
+		id = LIV_Lithuania_Policy
+		icon = GFX_goal_flag_lithuania
+		relative_position_id = LIV_Diplomacy
+		prerequisite = { focus = LIV_Diplomacy }
+		x = -5
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	shared_focus = {
+		id = LIV_Lithuania_War
+		icon = GFX_goal_flag_lithuania
+		mutually_exclusive = { focus = LIV_Lithuania_Friendship }
+		relative_position_id = LIV_Lithuania_Policy
+		prerequisite = { focus = LIV_Lithuania_Policy }
+		x = -2
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	shared_focus = {
+		id = LIV_Lithuania_War_Integrate
+		icon = GFX_goal_flag_lithuania
+		relative_position_id = LIV_Lithuania_Policy
+		mutually_exclusive = { focus = LIV_Lithuania_War_Puppet }
+		prerequisite = { focus = LIV_Lithuania_War }
+		x = -1
+		y = 2
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	shared_focus = {
+		id = LIV_Lithuania_War_Puppet
+		icon = GFX_goal_flag_lithuania
+		relative_position_id = LIV_Lithuania_Policy
+		mutually_exclusive = { focus = LIV_Lithuania_War_Integrate }
+		prerequisite = { focus = LIV_Lithuania_War }
+		x = -3
+		y = 2
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	shared_focus = {
+		id = LIV_Lithuania_War_Strike
+		icon = GFX_goal_flag_lithuania
+		relative_position_id = LIV_Lithuania_Policy
+		prerequisite = { focus = LIV_Lithuania_War_Puppet focus = LIV_Lithuania_War_Integrate }
+		x = -2
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	shared_focus = {
+		id = LIV_Lithuania_Friendship
+		icon = GFX_goal_flag_lithuania
+		mutually_exclusive = { focus = LIV_Lithuania_War }
+		relative_position_id = LIV_Lithuania_Policy
+		prerequisite = { focus = LIV_Lithuania_Policy }
+		x = 2
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	shared_focus = {
+		id = LIV_Lithuania_Friendship_Trade
+		icon = GFX_goal_generic_positive_trade_relations_gold
+		relative_position_id = LIV_Lithuania_Policy
+		prerequisite = { focus = LIV_Lithuania_Friendship }
+		x = 1
+		y = 2
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	shared_focus = {
+		id = LIV_Lithuania_Friendship_Protection
+		icon = GFX_goal_molotov_ribbentrop_pact
+		relative_position_id = LIV_Lithuania_Policy
+		prerequisite = { focus = LIV_Lithuania_Friendship }
+		x = 3
+		y = 2
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	shared_focus = {
+		id = LIV_Lithuania_Friendship_Baltic_Unity
+		icon = GFX_Torch_of_Liberty
+		relative_position_id = LIV_Lithuania_Policy
+		prerequisite = { focus = LIV_Lithuania_Friendship_Protection focus = LIV_Lithuania_Friendship_Trade }
+		x = 2
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	shared_focus = {
+		id = LIV_Stand_Alone
+		icon = GFX_goal_flag_livonia
+		relative_position_id = LIV_Diplomacy
+		prerequisite = { focus = LIV_Diplomacy }
+		x = 0
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	shared_focus = {
+		id = LIV_Stand_With_Britain
+		icon = GFX_goal_flag_united_kingdom
+		relative_position_id = LIV_Diplomacy
+		prerequisite = { focus = LIV_Diplomacy }
+		x = 5
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	shared_focus = {
+		id = LIV_Stand_With_Germany
+		icon = GFX_goal_flag_germany
+		relative_position_id = LIV_Diplomacy
+		prerequisite = { focus = LIV_Diplomacy }
+		x = 10
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 40
+		}
+
+		completion_reward = {
 		}
 	}
 
