@@ -1321,10 +1321,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_flag_austria.dds"
 	}
 	SpriteType = {
-		name = "GFX_goal_germany"
-		texturefile = "gfx/interface/goals/goal_flag_germany.dds"
-	}
-	SpriteType = {
 		name = "GFX_goal_canada"
 		texturefile = "gfx/interface/goals/goal_flag_canada.dds"
 	}
@@ -1431,10 +1427,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_ukraine"
 		texturefile = "gfx/interface/goals/goal_flag_ukraine.dds"
-	}
-	SpriteType = {
-		name = "GFX_goal_lithuania"
-		texturefile = "gfx/interface/goals/goal_flag_lithuania.dds"
 	}
 	SpriteType = {
 		name = "GFX_goal_sierra_leone"
@@ -2220,10 +2212,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_generic_isolation"
 		texturefile = "gfx/interface/goals/goal_generic_isolation.dds"
-	}
-	SpriteType = {
-		name = "GFX_goal_united_kingdom"
-		texturefile = "gfx/interface/goals/goal_flag_united_kingdom.dds"
 	}
 	SpriteType = {
 		name = "GFX_goal_SAF_federation"
