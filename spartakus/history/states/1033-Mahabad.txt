@@ -11,11 +11,14 @@ state={
 			industrial_complex = 1
 
 		}
+		add_claim_by = PER
+		add_claim_by = GLN
+		victory_points = {
+			7604 3
+		}
 
 	}
 	
-	add_claim_by = PER
-	add_claim_by = GLN
 
 	provinces={
 		1822 7604 
