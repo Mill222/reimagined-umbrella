@@ -108,7 +108,7 @@ set_politics = {
 #	}
 
 
-create_faction = Comintern
+create_faction = Sovetsglas
 add_to_faction = SOV
 add_to_faction = MON
 add_to_faction = POL

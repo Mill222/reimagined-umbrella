@@ -13,6 +13,9 @@ state={
 		}
 		add_core_of = GLN
 		add_claim_by = PER
+		victory_points = {
+			4901 2
+		}
 
 	}
 	manpower=537050

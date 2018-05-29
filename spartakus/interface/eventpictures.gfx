@@ -1977,7 +1977,26 @@ spriteTypes = {
 		name = "GFX_report_event_canada_ronnie"
 		texturefile = "gfx/event_pictures/report_event_canada_ronnie.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_argentina_catedral"
+		texturefile = "gfx/event_pictures/Catedral.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_catedral"
+		texturefile = "gfx/event_pictures/Coup.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_vote"
+		texturefile = "gfx/event_pictures/Voto.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_cgt"
+		texturefile = "gfx/event_pictures/CGT.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_rosario"
+		texturefile = "gfx/event_pictures/Rosario.dds"
+	}
 }
 	
 	

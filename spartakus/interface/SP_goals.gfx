@@ -73,14 +73,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_BEL_support_democracy.dds"			
 	}
 	SpriteType = {
-		name = "GFX_goal_BEL_allies"
-		texturefile = "gfx/interface/goals/goal_BEL_allies.dds"			
-	}
-	SpriteType = {
-		name = "GFX_goal_BEL_british_ship_designs"
-		texturefile = "gfx/interface/goals/goal_BEL_british_ship_designs.dds"			
-	}
-	SpriteType = {
 		name = "GFX_goal_BEL_belgian_rearmement"
 		texturefile = "gfx/interface/goals/goal_BEL_belgian_rearmement.dds"			
 	}	
@@ -249,6 +241,49 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_Steel"
 		texturefile = "gfx/interface/goals/Steel.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_flag_germany"
+		texturefile = "gfx/interface/goals/goal_flag_germany.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_flag_united_kingdom"
+		texturefile = "gfx/interface/goals/goal_flag_united_kingdom.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_flag_livonia"
+		texturefile = "gfx/interface/goals/goal_flag_livonia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_teutonicrevengea"
+		texturefile = "gfx/interface/goals/teutonicrevenge.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_livonian_military"
+		texturefile = "gfx/interface/goals/livonian_military.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_livland"
+		texturefile = "gfx/interface/goals/livland.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARG_constitution"
+		texturefile = "gfx/interface/goals/ARG_constitution.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_flag_lithuania"
+		texturefile = "gfx/interface/goals/goal_flag_lithuania.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_flag_estonia"
+		texturefile = "gfx/interface/goals/goal_flag_estonia.dds"
 	}
 	
 	#Indyclone
@@ -479,6 +514,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_goal_Large_Navy"
+		texturefile = "gfx/interface/goals/Large_Navy.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_Room_Meeting"
 		texturefile = "gfx/interface/goals/Room_Meeting.dds"
 	}
@@ -550,17 +590,17 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_Dark_Arms"
-		texturefile = "gfx/interface/goals/Death_Tracks2.dds"
+		texturefile = "gfx/interface/goals/Dark_Arms.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_Danish_Norwegian_Union"
-		texturefile = "gfx/interface/goals/Death_Tracks2.dds"
+		texturefile = "gfx/interface/goals/Danish_Norwegian_Union.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_Danish_Industry"
-		texturefile = "gfx/interface/goals/Death_Tracks2.dds"
+		texturefile = "gfx/interface/goals/Danish_Industry.dds"
 	}
 	
 	SpriteType = {
@@ -636,5 +676,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_A_Second_Kulturkampf"
 		texturefile = "gfx/interface/goals/A_Second_Kulturkampf.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Brandenburg_Gate_Destruction"
+		texturefile = "gfx/interface/goals/Brandenburg_Gate_Destruction.dds"
 	}
 }

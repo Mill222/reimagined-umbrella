@@ -12,6 +12,9 @@ state={
 		add_core_of = ARM
 		add_claim_by = TUR
 		add_claim_by = SOV
+		victory_points = {
+			10472 1
+		}
 
 	}
 

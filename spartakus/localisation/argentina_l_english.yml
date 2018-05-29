@@ -1,6 +1,6 @@
 ﻿l_english:
 
-  #countryname
+  #partyname
   ARG_leninist_party:0 "PCA"
   ARG_leninist_party_long:0 "Partido Comunista Argentino"
   ARG_marxist_party:0 "PCA"
@@ -30,6 +30,33 @@
   ARG_national_corporatist_party:0 "PN"
   ARG_national_corporatist_party_long:0 "Partido Nacional"
 
+  #countryname
+  ARG_leninist:0 "People's Republic of Argentina"
+  ARG_leninist_DEF:0 "The People's Republic of Argentina"
+  ARG_marxist:0 "People's Republic of Argentina"
+  ARG_marxist_DEF:0 "The People's Republic of Argentina"
+  ARG_revolutionary_socialist:0 "The Argentine Commune"
+  ARG_revolutionary_socialist_DEF:0 "The Argentine Commune"
+  ARG_democratic_socialist:0 "Argentine Workers' Republic"
+  ARG_democratic_socialist_DEF:0 "The Argentine Workers' Republic"
+  ARG_social_democrat:0 "Argentine Republic"
+  ARG_social_democrat_DEF:0 "The Argentine Republic"
+  ARG_social_liberal:0 "Argentine Republic"
+  ARG_social_liberal_DEF:0 "The Argentine Republic"
+  ARG_liberal_conservative:0 "Argentine Republic"
+  ARG_liberal_conservative_DEF:0 "The Argentine Republic"
+  ARG_social_conservative:0 "Argentine Republic"
+  ARG_social_conservative_DEF:0 "The Argentine Republic"
+  ARG_authoritarian_democrat:0 "Argentine Republic"
+  ARG_authoritarian_democrat_DEF:0 "The Argentine Republic"
+  ARG_right_wing_populist:0 "Argentine Republic"
+  ARG_right_wing_populist_DEF:0 "The Argentine Republic"
+  ARG_national_syndicalist:0 "Argentine Republic"
+  ARG_national_syndicalist_DEF:0 "The Argentine Republic"
+  ARG_national_corporatist:0 "Argentine Republic"
+  ARG_national_corporatist_DEF:0 "The Argentine Republic"
+  ARG_ADJ:0 "Argentine"
+
   #ministers
   hog_ghioldi:0 "Rodolfo José Ghioldi"
   hog_palacios:0 "Alfredo Palacios"
@@ -43,3 +70,6 @@
   hog_sanchez_sorondo:0 "Matías Sanchez Sorondo"
   hog_ibarguren:0 "Carlos Ibarguren"
   hog_lugones:0 "Leopoldo Lugones"
+
+  #ideas
+  ARG_state_atheism:0 "State Atheism"

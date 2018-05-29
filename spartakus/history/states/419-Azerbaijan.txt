@@ -12,7 +12,10 @@ state={
 
 		}
 		victory_points = {
-			1896 3 
+			1896 5
+		}
+		victory_points = {
+			12861 1
 		}
 		add_core_of = PER
 		add_claim_by = GLN
