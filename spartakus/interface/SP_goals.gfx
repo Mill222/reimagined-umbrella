@@ -73,14 +73,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_BEL_support_democracy.dds"			
 	}
 	SpriteType = {
-		name = "GFX_goal_BEL_allies"
-		texturefile = "gfx/interface/goals/goal_BEL_allies.dds"			
-	}
-	SpriteType = {
-		name = "GFX_goal_BEL_british_ship_designs"
-		texturefile = "gfx/interface/goals/goal_BEL_british_ship_designs.dds"			
-	}
-	SpriteType = {
 		name = "GFX_goal_BEL_belgian_rearmement"
 		texturefile = "gfx/interface/goals/goal_BEL_belgian_rearmement.dds"			
 	}	

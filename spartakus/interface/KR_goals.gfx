@@ -20,11 +20,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/AUS_naturfreunde.dds"
 	}
 
-	spriteType = {
-		name = "GFX_goal_AUS_federation"
-		texturefile = "gfx/interface/goals/AUS_federation.dds"
-	}
-
 	#######################
 	### MOD
 	#######################
@@ -548,16 +543,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GER_ceylon.dds"
 
 	}
-	# SpriteType = {
-	# name = "GFX_goal_ban_french"
-	# texturefile = "gfx/interface/goals/GER_ban_french.dds"
-	#
-	# }
-	SpriteType = {
-		name = "GFX_goal_art_propaganda"
-		texturefile = "gfx/interface/goals/UK_art_propaganda.dds"
-
-	}
 	SpriteType = {
 		name = "GFX_goal_secret_police"
 		texturefile = "gfx/interface/goals/MAF_secret_police.dds"
@@ -611,11 +596,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_OTT_gendarmerie"
 		texturefile = "gfx/interface/goals/OTT_gendarmerie.dds"
-
-	}
-	SpriteType = {
-		name = "GFX_goal_art_avantgarde"
-		texturefile = "gfx/interface/goals/UK_art_avantgarde.dds"
 
 	}
 	SpriteType = {
@@ -805,21 +785,6 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_RUS_Yunarmiya"
-		texturefile = "gfx/interface/goals/RUS_Yunarmiya.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_goal_RUS_local_baracks"
-		texturefile = "gfx/interface/goals/RUS_local_baracks.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_goal_RUS_armored_school"
-		texturefile = "gfx/interface/goals/RUS_tank.dds"
-	}
-
-	SpriteType = {
 		name = "GFX_human_tsunami"
 		texturefile = "gfx/interface/goals/Human_tsunami.dds"
 	}
@@ -850,10 +815,6 @@ spriteTypes = {
 	SpriteType = {# freedom fighters
 		name = "GFX_goal_USA_freedom_fighters"
 		texturefile = "gfx/interface/goals/america_goal_freedom_fighters.tga"
-	}
-	SpriteType = {# ursine spirit
-		name = "GFX_goal_USA_ursine_spirit"
-		texturefile = "gfx/interface/goals/america_goal_ursine_spirit.tga"
 	}
 	SpriteType = {# Golden Gate
 		name = "GFX_goal_USA_golden_gate"
@@ -895,10 +856,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_pol_polish_king.dds"
 	}
 	SpriteType = {
-		name = "GFX_goal_POL_russian_alliance"
-		texturefile = "gfx/interface/goals/POL_Russian_Alliance.dds"
-	}
-	SpriteType = {
 		name = "GFX_goal_POL_austrian_king"
 		texturefile = "gfx/interface/goals/focus_pol_austrian_king.dds"
 	}
@@ -929,10 +886,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_POL_winged_hussars"
 		texturefile = "gfx/interface/goals/goal_POL_hussars.dds"
-	}
-	SpriteType = {
-		name = "GFX_goal_POL_mendog"
-		texturefile = "gfx/interface/goals/PLC_mendog.dds"
 	}
 
 	###### Japan ######
@@ -1198,11 +1151,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_MEX_New"
 		texturefile = "gfx/interface/goals/MEX_New.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_TRM_kolchak_cap"
-		texturefile = "gfx/interface/goals/TRM_kolchak_cap.dds"
 	}
 	SpriteType = {
 		name = "GFX_HOL_daf"
@@ -1641,14 +1589,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_forced_inf.dds"
 	}
 	SpriteType = {
-		name = "GFX_RUS_tsar_kyril"
-		texturefile = "gfx/interface/goals/RUS_tsar_kyril.dds"
-	}
-	SpriteType = {
-		name = "GFX_RUS_tsar_dmitri"
-		texturefile = "gfx/interface/goals/RUS_tsar_dmitri.dds"
-	}
-	SpriteType = {
 		name = "GFX_BAT_germanisation"
 		texturefile = "gfx/interface/goals/BAT_germanisation.dds"
 	}
@@ -1906,10 +1846,6 @@ spriteTypes = {
 		name = "GFX_goal_POR_autonomy"
 		texturefile = "gfx/interface/goals/goal_POR_autonomy.dds"
 	}
-	SpriteType = {
-		name = "GFX_goal_caribbean"
-		texturefile = "gfx/interface/goals/goal_Caribbean.dds"
-	}
 
 	SpriteType = {
 		name = "GFX_goal_british_monarchy"
@@ -1975,10 +1911,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_HOL_staatsvakbond"
 		texturefile = "gfx/interface/goals/HOL_staatsvakbond.dds"
-	}
-	SpriteType = {
-		name = "GFX_SIA_parliment"
-		texturefile = "gfx/interface/goals/SIA_parliment.dds"
 	}
 	SpriteType = {
 		name = "GFX_SIA_rearmement"
@@ -2250,10 +2182,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_generic_elections.dds"
 	}
 	SpriteType = {
-		name = "GFX_PRF_address_council"
-		texturefile = "gfx/interface/goals/PRF_address_council.dds"
-	}
-	SpriteType = {
 		name = "GFX_PRF_new_india"
 		texturefile = "gfx/interface/goals/PRF_new_india.dds"
 	}
@@ -2264,10 +2192,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_PRF_integrate_DEH"
 		texturefile = "gfx/interface/goals/PRF_integrate_DEH.dds"
-	}
-	SpriteType = {
-		name = "GFX_DEH_integrate_PRF"
-		texturefile = "gfx/interface/goals/DEH_integrate_PRF.dds"
 	}
 	SpriteType = {
 		name = "GFX_BHC_invite_ho_chi_minh"
@@ -2308,22 +2232,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SOM_goal_put_down_the_lion"
 		texturefile = "gfx/interface/goals/SOM_goal_put_down_the_lion.tga"
-	}
-	SpriteType = {
-		name = "GFX_GBR_royal_army"
-		texturefile = "gfx/interface/goals/GBR_royal_army.tga"
-	}
-	SpriteType = {
-		name = "GFX_GBR_royal_navy"
-		texturefile = "gfx/interface/goals/GBR_royal_navy.tga"
-	}
-	SpriteType = {
-		name = "GFX_GBR_royal_air_force"
-		texturefile = "gfx/interface/goals/GBR_royal_air_force.tga"
-	}
-	SpriteType = {
-		name = "GFX_GBR_restoration"
-		texturefile = "gfx/interface/goals/GBR_restoration.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_EGY_austrian_tourists"
@@ -2837,14 +2745,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/NFA_Troupes_de_Marine_Focus.tga"
 	}
 	SpriteType = {
-		name = "GFX_goal_RUS_Military_Dictatorship"
-		texturefile = "gfx/interface/goals/RUS_Military_Dictatorship.tga"
-	}
-	SpriteType = {
-		name = "GFX_goal_RUS_President_Kerensky"
-		texturefile = "gfx/interface/goals/RUS_President_Kerensky.tga"
-	}
-	SpriteType = {
 		name = "GFX_goal_flag_alash_orda"
 		texturefile = "gfx/interface/goals/goal_flag_alash_orda.tga"
 	}
@@ -2873,28 +2773,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/RUS_Claim_Sinkiang.tga"
 	}
 	SpriteType = {
-		name = "GFX_goal_RUS_Conquer_Don_Kuban"
-		texturefile = "gfx/interface/goals/RUS_Conquer_Don_Kuban.tga"
-	}
-	SpriteType = {
-		name = "GFX_goal_RUS_Conquer_Georgia"
-		texturefile = "gfx/interface/goals/RUS_Conquer_Georgia.tga"
-	}
-	SpriteType = {
 		name = "GFX_goal_RUS_Conquer_Mongolia"
 		texturefile = "gfx/interface/goals/RUS_Conquer_Mongolia.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_RUS_Conquer_Persia"
 		texturefile = "gfx/interface/goals/RUS_Conquer_Persia.tga"
-	}
-	SpriteType = {
-		name = "GFX_goal_RUS_Conquer_Transamur"
-		texturefile = "gfx/interface/goals/RUS_Conquer_Transamur.tga"
-	}
-	SpriteType = {
-		name = "GFX_goal_RUS_Conquer_Turkestan"
-		texturefile = "gfx/interface/goals/RUS_Conquer_Turkestan.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_RUS_Demand_Greater_Armenia"
@@ -3015,18 +2899,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_LBR_Tuskegee_Institute"
 		texturefile = "gfx/interface/goals/goal_LBR_Tuskegee_Institute.dds"
-	}
-	SpriteType = {
-		name = "GFX_SIA_PHAHON_NF"
-		texturefile = "gfx/interface/goals/SIA_PHAHON_NF.tga"
-	}
-	SpriteType = {
-		name = "GFX_SIA_PHIBUNSONGKHRAM_NF"
-		texturefile = "gfx/interface/goals/SIA_PHIBUNSONGKHRAM_NF.tga"
-	}
-	SpriteType = {
-		name = "GFX_SIA_SERIROENGRIT_NF"
-		texturefile = "gfx/interface/goals/SIA_SERIROENGRIT_NF.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_POR_burden_empire"
