@@ -286,6 +286,36 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_flag_estonia.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_goal_hellenic"
+		texturefile = "gfx/interface/goals/hellenic.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_teutoniclivonia"
+		texturefile = "gfx/interface/goals/teutoniclivonia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_threearrows"
+		texturefile = "gfx/interface/goals/threearrows.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_germania"
+		texturefile = "gfx/interface/goals/germania.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_byzantine"
+		texturefile = "gfx/interface/goals/byzantine.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_kuomintangstar"
+		texturefile = "gfx/interface/goals/kuomintangstar.dds"
+	}
+	
 	#Indyclone
 	
 	SpriteType = {
@@ -681,5 +711,110 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Brandenburg_Gate_Destruction"
 		texturefile = "gfx/interface/goals/Brandenburg_Gate_Destruction.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_German_Battleship_Programme"
+		texturefile = "gfx/interface/goals/German_Battleship_Programme.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Palace_of_the_Soviets"
+		texturefile = "gfx/interface/goals/Palace_of_the_Soviets.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_British_Battleship_Programme"
+		texturefile = "gfx/interface/goals/British_Battleship_Programme.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Brutal_Rule"
+		texturefile = "gfx/interface/goals/Brutal_Rule.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_American_Nightmare"
+		texturefile = "gfx/interface/goals/American_Nightmare.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_Construction"
+		texturefile = "gfx/interface/goals/USA_Construction.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Duke_Focus"
+		texturefile = "gfx/interface/goals/Duke_Focus.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Emperor_Focus"
+		texturefile = "gfx/interface/goals/Emperor_Focus.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_King_Focus"
+		texturefile = "gfx/interface/goals/King_Focus.dds"
+	}
+	SpriteType = {
+		name = "GFX_Anti_Democracy"
+		texturefile = "gfx/interface/goals/Anti_Democracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_Battleship_Production"
+		texturefile = "gfx/interface/goals/Battleship_Production.dds"
+	}
+	SpriteType = {
+		name = "GFX_Catholic_2"
+		texturefile = "gfx/interface/goals/Catholic_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_Hindi_Government"
+		texturefile = "gfx/interface/goals/Hindi_Government.dds"
+	}
+	SpriteType = {
+		name = "GFX_Industrial_Tanks"
+		texturefile = "gfx/interface/goals/Industrial_Tanks.dds"
+	}
+	SpriteType = {
+		name = "GFX_Invite_Prussian_Commanders"
+		texturefile = "gfx/interface/goals/Invite_Prussian_Commanders.dds"
+	}
+	SpriteType = {
+		name = "GFX_Leading_Torch"
+		texturefile = "gfx/interface/goals/Leading_Torch.dds"
+	}
+	SpriteType = {
+		name = "GFX_Orthodox_Orgy"
+		texturefile = "gfx/interface/goals/Orthodox_Orgy.dds"
+	}
+	SpriteType = {
+		name = "GFX_Papal_Bull"
+		texturefile = "gfx/interface/goals/Papal_Bull.dds"
+	}
+	SpriteType = {
+		name = "GFX_Patriarchal_Reform"
+		texturefile = "gfx/interface/goals/Patriarchal_Reform.dds"
+	}
+	SpriteType = {
+		name = "GFX_Purge_Reformist_Clergy"
+		texturefile = "gfx/interface/goals/Purge_Reformist_Clergy.dds"
+	}
+	SpriteType = {
+		name = "GFX_Sunni_Catholic_Friendship"
+		texturefile = "gfx/interface/goals/Sunni_Catholic_Friendship.dds"
+	}
+	SpriteType = {
+		name = "GFX_Chromium"
+		texturefile = "gfx/interface/goals/Chromium.dds"
+	}
+	SpriteType = {
+		name = "GFX_Malta_Republic"
+		texturefile = "gfx/interface/goals/Malta_Republic.dds"
+	}
+	SpriteType = {
+		name = "GFX_Protestantism"
+		texturefile = "gfx/interface/goals/Protestantismf.dds"
 	}
 }
