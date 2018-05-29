@@ -20,6 +20,7 @@ add_ideas = {
 }
 
 set_technology = {
+	shipbuild_basics = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	early_fighter = 1
@@ -78,6 +79,59 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 
+}
+
+set_autonomy = {
+	target = EST
+	autonomous_state = sp_protectorate
+}
+
+EST = {
+	set_politics = {
+		parties = {
+			leninist = {
+				popularity = 2
+			}
+			marxist = {
+				popularity = 1
+			}
+			revolutionary_socialist = {
+				popularity = 3
+			}
+			democratic_socialist = {
+				popularity = 2
+			}
+			social_democrat = {
+				popularity = 6
+			}
+			social_liberal = {
+				popularity = 17
+			}
+			liberal_conservative = {
+				popularity = 2
+			}
+			social_conservative = {
+				popularity = 10
+			}
+			authoritarian_democrat = {
+				popularity = 48
+			}
+			right_wing_populist = {
+				popularity = 1
+			}
+			national_syndicalist = {
+				popularity = 1
+			}
+			national_corporatist = {
+				popularity = 7
+			}
+		}
+	
+		ruling_party = authoritarian_democrat
+		last_election = "1888.15.6"
+		election_frequency = 48
+		elections_allowed = no
+	}
 }
 
 create_country_leader = {
@@ -237,17 +291,6 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Johan Laidoner"
-	picture = "Portrait_Baltic_Johan_Laidoner.tga"
-	traits = { winter_specialist }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
 }
 
 create_corps_commander = {

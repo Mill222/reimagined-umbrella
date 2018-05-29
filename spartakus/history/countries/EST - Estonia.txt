@@ -1,60 +1,68 @@
 ﻿capital = 13
 
-oob = "EST_1936"
+oob = "EST"
 
-set_research_slots = 3
+set_research_slots = 2
 
 add_ideas = {
 	limited_conscription
+	EST_Kaarel_Eenpalu_hog_ade
+	EST_Karl_Selter_for_ade
+	EST_Alfred_Vendt_eco_rwp
+	EST_Oskar_Angelus_sec_nsy
+	EST_Jueri_Uluots_int_mli
+	EST_Johan_Laidoner_carm_ade
+	EST_Johannes_Soodla_cos_nsy
+	EST_Voldemar_Mere_cnav_ade
+	EST_Leo_Sepp_cair_mli
 }
 
 set_technology = {
 	infantry_weapons = 1
-	infantry_weapons1 = 1
 	early_fighter = 1
-	early_submarine = 1
+	shipbuild_basics = 1
 }
 
-set_convoys = 5
+set_convoys = 20
 
 set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 0
+			popularity = 2
 		}
 		marxist = {
-			popularity = 0
+			popularity = 1
 		}
 		revolutionary_socialist = {
-			popularity = 0
+			popularity = 3
 		}
 		democratic_socialist = {
-			popularity = 0
+			popularity = 2
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 6
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 17
 		}
 		liberal_conservative = {
-			popularity = 0
+			popularity = 2
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 10
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 48
 		}
 		right_wing_populist = {
-			popularity = 0
+			popularity = 1
 		}
 		national_syndicalist = {
-			popularity = 0
+			popularity = 1
 		}
 		national_corporatist = {
-			popularity = 0
+			popularity = 7
 		}
 	}
 	
@@ -66,12 +74,67 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Konstantin Päts"
-	desc = "POLITICS_KONSTANTIN_PATS_DESC"
-	picture = "GFX_Portrait_estonia_konstantin_pats"
+	name = "Johan Laidoner"
+	desc = "POLITICS_JOHAN_LAIDONER_DESC"
+	picture = "Portrait_Johan_Laidoner.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Artur Sirk"
+	desc = "POLITICS_ARTUR_SIRK_DESC"
+	picture = "Portrait_Artur_Sirk.dds"
+	expire = "1965.1.1"
+	ideology = national_corporatist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Konstantin Päts"
+	desc = "POLITICS_KONSTANTIN_PATS_DESC"
+	picture = "GFX_Portrait_estonia_konstantin_pats"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Johan Laidoner"
+	picture = "Portrait_Johan_Laidoner.tga"
+	traits = { winter_specialist }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Gustav Jonson"
+	picture = "Portrait_Gustav_Jonson.tga"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}	
+
+create_corps_commander = {
+	name = "Artur Sirk"
+	picture = "Portrait_Artur_Sirk.dds"
+	traits = { harsh_leader }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}	
