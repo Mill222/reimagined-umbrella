@@ -1,0 +1,143 @@
+﻿division_template = {
+	name = "Red Guards"		
+	regiments = {
+		garrison = { x = 0 y = 0 }
+		garrison = { x = 0 y = 1 }
+		garrison = { x = 0 y = 2 }
+   		garrison = { x = 1 y = 0 }
+		garrison = { x = 1 y = 1 }
+		garrison = { x = 1 y = 2 }
+		
+	}
+	support = {
+	
+
+	}
+	}
+division_template = {
+	name = "Infantry Division"					
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Militia Battalion"
+	is_locked = yes
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+
+	}
+	support = {
+
+	}
+}
+
+units = {'
+	division= {	
+		name = "Red Guards"
+		location = 7562
+		division_template = "Red Guards"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}	
+	
+	division= {	
+		name = "Militia Battalion"
+		location = 10344
+		division_template = "Militia Battalion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}	
+	
+	division= {	
+		name = "Militia Battalion"
+		location = 4654
+		division_template = "Militia Battalion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Militia Battalion"
+		location = 4408
+		division_template = "Militia Battalion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Militia Battalion"
+		location = 10267
+		division_template = "Militia Battalion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Militia Battalion"
+		location = 12127
+		division_template = "Militia Battalion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Militia Battalion"
+		location = 12363
+		division_template = "Militia Battalion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Militia Battalion"
+		location = 4425
+		division_template = "Militia Battalion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Militia Battalion"
+		location = 12292
+		division_template = "Militia Battalion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Militia Battalion"
+		location = 4585
+		division_template = "Militia Battalion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Militia Battalion"
+		location = 7382
+		division_template = "Militia Battalion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Militia Battalion"
+		location = 7974
+		division_template = "Militia Battalion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}	
+	
+}

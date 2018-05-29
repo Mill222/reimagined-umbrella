@@ -1,7 +1,6 @@
 ﻿division_template = {
 	name = "Jalaväediviisi"				# Infantry Division	
 	division_names_group = EST_INF_01
-	# Note: Divisions were nowhere near full strength until mobilized
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -9,6 +8,15 @@
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Vaps Militia"				# Nationalist Militia
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
 	}
 }
 
@@ -23,36 +31,27 @@ units = {
 		location = 3152
 		division_template = "Jalaväediviisi"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "EST" } }
-		start_experience_factor = 0.1
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
 
 	}
-	division = { # "II Jalaväediviisi"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 4640
-		division_template = "Jalaväediviisi"
+	division = {
+		name = "Vaps Militia"
+		location = 11127
+		division_template = "Vaps Militia"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "EST" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
-
-	}
-	division = { # "III Jalaväediviisi"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 3
-		}
-		location = 6099
-		division_template = "Jalaväediviisi"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "EST" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 
 	}
 
-	##### No Naval OOB -- 2 SSs in 1937 #####
+	navy = {				
+		name = "Eesti Merevägi"			
+		base = 3152
+		location = 3152 # Riga
+		ship = { name = "EML Vambola" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = EST create_if_missing = yes } } }	
+		ship = { name = "EML Lennuk" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = EST create_if_missing = yes } } }
+	}	
 }
 
 air_wings = {

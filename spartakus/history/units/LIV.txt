@@ -183,14 +183,15 @@ units = {
 		ship = { name = "Bremse" definition = light_cruiser equipment = { light_cruiser_pre = { amount = 1 owner = LIV create_if_missing = yes } } }
 		ship = { name = "G38 'Riga'" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = LIV create_if_missing = yes } } }	
 		ship = { name = "S36 'Libau'" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = LIV create_if_missing = yes } } }
+		ship = { name = "A32 'Livland'" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = LIV create_if_missing = yes } } }
 	}		
 	
 }
 air_wings = {
-	12 = { 
+	1071 = { 
 		fighter_equipment_0 = {
 			owner = "LIV" 
-			amount = 10
+			amount = 20
 		}
 	}
 }
