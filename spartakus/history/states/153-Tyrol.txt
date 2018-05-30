@@ -4,7 +4,7 @@ state={
 	name="STATE_153"
 
 	history={
-		owner = BAV
+		owner = AWR
 		victory_points = {
 			673 5 
 		}
@@ -15,7 +15,7 @@ state={
 
 		}
 		add_core_of = AUS
-		add_core_of = BAV
+		add_core_of = AWR
 		set_demilitarized_zone = yes
 
 	}

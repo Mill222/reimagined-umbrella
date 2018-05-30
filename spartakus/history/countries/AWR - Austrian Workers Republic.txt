@@ -1,0 +1,63 @@
+﻿capital = 153
+
+oob = "AWR"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1		
+	tech_mountaineers = 1
+	early_fighter = 1
+}
+
+set_politics = {
+
+
+	parties = {
+		leninist = {
+			popularity = 12
+		}
+		marxist = {
+			popularity = 8
+		}
+		revolutionary_socialist = {
+			popularity = 15
+		}
+		democratic_socialist = {
+			popularity = 55
+		}
+		social_democrat = {
+			popularity = 7.5
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		liberal_conservative = {
+			popularity = 0
+		}
+		social_conservative = {
+			popularity = 0
+		}
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		right_wing_populist = {
+			popularity = 0
+		}
+		national_syndicalist = {
+			popularity = 2.5
+		}
+		national_corporatist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = democratic_socialist
+	last_election = "1928.6.23"
+	election_frequency = 48
+	elections_allowed = no
+}
