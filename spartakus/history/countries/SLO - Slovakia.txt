@@ -21,14 +21,19 @@ set_technology = {
 	CAS1 = 1
 }
 
+give_guarantee = HUN
+give_military_access = HUN
+set_stability = 0.40
+set_war_support = 0.20
+
 set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 15
+			popularity = 35
 		}
 		marxist = {
-			popularity = 50
+			popularity = 30
 		}
 		revolutionary_socialist = {
 			popularity = 10
@@ -62,20 +67,27 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = marxist
-	last_election = "1888.15.6"
+	ruling_party = leninist
+	last_election = "1918.15.6"
 	election_frequency = 48
 	elections_allowed = no
 
 }
-
 create_country_leader = {
 	name = "Jozef Tiso"
 	desc = "POLITICS_JOZEF_TISO_DESC"
 	picture = "Portrait_Slovakia_Jozef_Tiso.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_syndicalist_ideology
 	traits = {
-		#
+	}
+}
+create_country_leader = {
+	name = "Karol Smidke"
+	desc = "POLITICS_KAROL_SMIDKE_DESC"
+	picture = "Portrait_Karol_Smidke.tga"
+	expire = "1965.1.1"
+	ideology = leninist_subtype
+	traits = { nationalist_symbol
 	}
 }
