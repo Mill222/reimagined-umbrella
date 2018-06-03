@@ -66,6 +66,12 @@ set_politics = {
 
 }
 
+set_autonomy = {
+	target = CNR
+	autonomous_state = sp_colony
+	freedom_level = 0.2
+}
+
 set_convoys = 80
 
 create_country_leader = {

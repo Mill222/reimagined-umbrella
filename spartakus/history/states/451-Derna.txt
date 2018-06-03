@@ -4,7 +4,7 @@ state={
 	name="STATE_451"
 
 	history={
-		owner = LBA
+		owner = ITA
 		add_core_of = LBA
 		victory_points = {
 			1130 1 

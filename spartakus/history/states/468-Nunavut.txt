@@ -2,7 +2,7 @@
 state={
 	id=468
 	name="STATE_468" # Saint Lawrence
-	manpower = 3832754
+	manpower = 2432754
 	state_category = large_city
 	
 	resources={
@@ -15,10 +15,10 @@ state={
                 add_core_of = QUE
 		buildings = {
 			infrastructure = 5
-			arms_factory = 2
-			industrial_complex = 3
+			arms_factory = 1
+			industrial_complex = 1
 			air_base = 1
-			dockyard = 2
+			dockyard = 1
 		}
 
 	}

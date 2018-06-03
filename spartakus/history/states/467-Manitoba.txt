@@ -2,9 +2,9 @@
 state={
 	id=467
 	name="STATE_467"
-	manpower = 981071
+	manpower = 651071
 	
-	state_category = town
+	state_category = rural
 
 	history={
 		owner = CAN

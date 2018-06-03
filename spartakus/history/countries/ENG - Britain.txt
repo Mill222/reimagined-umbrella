@@ -61,10 +61,6 @@ set_autonomy = {
 	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
-	target = KEN
-	autonomous_state = sp_Brit_protectorate
-}
-set_autonomy = {
 	target = MLW
 	autonomous_state = sp_Brit_protectorate
 }
@@ -81,7 +77,7 @@ set_autonomy = {
 	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
-	target = UGA
+	target = EAF
 	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
@@ -97,10 +93,6 @@ set_autonomy = {
 	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
-	target = PAL
-	autonomous_state = sp_occupied
-}
-set_autonomy = {
 	target = IRQ
 	autonomous_state = sp_autonomous
 }
@@ -109,8 +101,24 @@ set_autonomy = {
 	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
-	target = SUD
-	autonomous_state = sp_occupied
+	target = ADE
+	autonomous_state = sp_Brit_protectorate
+}
+set_autonomy = {
+	target = UAE
+	autonomous_state = sp_Brit_protectorate
+}
+set_autonomy = {
+	target = QAT
+	autonomous_state = sp_Brit_protectorate
+}
+set_autonomy = {
+	target = BAH
+	autonomous_state = sp_Brit_protectorate
+}
+set_autonomy = {
+	target = KUW
+	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
 	target = JOR
@@ -118,10 +126,6 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = GHA
-	autonomous_state = sp_Brit_colony
-}
-set_autonomy = {
-	target = TNZ
 	autonomous_state = sp_Brit_colony
 }
 set_autonomy = {
@@ -908,3 +912,5 @@ give_guarantee = KUR
 give_military_access = KUR
 give_guarantee = TUR
 give_military_access = TUR
+give_guarantee = HEJ
+give_military_access = HEJ

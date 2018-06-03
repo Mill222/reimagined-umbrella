@@ -59,13 +59,68 @@ set_politics = {
 
 }
 
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
 
 create_country_leader = {
-	name = "Kanyanta"
-	desc = "POLITICS_KANYANTA_DESC"
-	picture = "gfx/leaders/Generic/Portrait_German_Africa_Generic_land_5.tga"
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
+	ideology = right_wing_populist_subtype
+	traits = {
+		#
+	}
 }
-### NO DH LEADERS
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}

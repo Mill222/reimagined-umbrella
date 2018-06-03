@@ -9,7 +9,11 @@ SAR = {
 	color_ui = rgb { 40 40 225 }
 }
 UAE = {
-	color = rgb { 200  180  180 }
+	color = rgb { 110  180  180 }
+	color_ui = rgb { 220  200  200 }
+}
+HEJ = {
+	color = rgb { 180  160 90 }
 	color_ui = rgb { 220  200  200 }
 }
 PRU = {

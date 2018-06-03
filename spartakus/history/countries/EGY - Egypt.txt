@@ -6,8 +6,6 @@ set_technology = {
 	gwtank = 1
 }
 
-set_cosmetic_tag = EGY_UK
-
 set_convoys = 20
 
 set_politics = {
