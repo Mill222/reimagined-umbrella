@@ -4,17 +4,20 @@ state={
 	name="STATE_918"
 
 	history={
-		owner=TNZ
-		add_core_of=TNZ
-		buildings={
-			infrastructure=2
+		owner = EAF
+		add_core_of = TNZ
+		add_core_of = EAF
+		buildings = {
+			infrastructure = 1
+
 		}
+
 	}
 
 	provinces={
-		4171
+		4171 13837 13841 
 	}
 	manpower=308100
-	buildings_max_level_factor=1
-	state_category=wasteland
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

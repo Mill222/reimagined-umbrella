@@ -4,27 +4,29 @@ state={
 	name="STATE_965"
 
 	history={
-		owner=TNZ
-		add_core_of=TNZ
-		buildings={
-			infrastructure=3
-			industrial_complex=1
-			arms_factory=1
-			2196={
-				naval_base=2
+		owner = EAF
+		add_core_of = TNZ
+		add_core_of = EAF
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			2196 = {
+				naval_base = 2
+
 			}
-		}
-		victory_points={
-			2196 10
+
 		}
 		victory_points = {
-			8183 1
+			2196 10 
 		}
+
 	}
 
 	provinces={
-		2196 8182 8183 12944
+		2196 
 	}
-	manpower=906200
-	state_category=rural
+	manpower=191530
+	buildings_max_level_factor=1.000
+	state_category=town
 }

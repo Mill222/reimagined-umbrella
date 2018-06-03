@@ -4,7 +4,7 @@ state={
 	name="STATE_961"
 
 	history={
-		owner=ERT
+		owner=ITA
 		add_core_of=ERT
 		add_claim_by=ETH
 		buildings={

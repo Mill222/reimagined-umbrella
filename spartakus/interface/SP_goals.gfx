@@ -817,4 +817,12 @@ spriteTypes = {
 		name = "GFX_Protestantism"
 		texturefile = "gfx/interface/goals/Protestantismf.dds"
 	}
+	SpriteType = {
+		name = "GFX_ROM_liberals"
+		texturefile = "gfx/interface/goals/ROM_liberals.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_flag_iron_guard_romania"
+		texturefile = "gfx/interface/goals/goal_flag_iron_guard_romania.dds"
+	}
 }

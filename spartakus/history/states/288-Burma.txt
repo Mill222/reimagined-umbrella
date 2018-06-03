@@ -3,8 +3,8 @@ state={
 	id=288
 	name="STATE_288"
 	resources={
-		rubber=11
-		oil=7
+		rubber=11.000
+		oil=7.000
 	}
 
 	history={
@@ -13,18 +13,19 @@ state={
 		add_core_of = BMR
 		add_core_of = RAJ
 		victory_points = {
-			1330 10 # Yangon
+			1330 10 
 		}
 		victory_points = {
-			12256 1 # Toungoo
+			12256 1 
 		}
 		RAJ = {
 			set_province_controller = 7254
+
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
-								arms_factory = 1
+			arms_factory = 1
 			air_base = 1
 			1330 = {
 				naval_base = 4
@@ -36,9 +37,9 @@ state={
 	}
 
 	provinces={
-		1330 1333 1417 4293 4336 7254 7382 7441 10154 10182 10223 10267 10283 10344 12127 12197 12256 12267 12284
+		1330 1417 10154 10283 12127 
 	}
-	manpower=9000000
-	buildings_max_level_factor=1
-	state_category= large_town
+	manpower=503000
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

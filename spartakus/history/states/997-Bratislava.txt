@@ -17,7 +17,7 @@ state={
 		add_core_of = SLO
 		add_claim_by = CZE
 		victory_points = {
-			9692 5 
+			9692 20 
 		}
 
 	}
