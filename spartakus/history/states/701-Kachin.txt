@@ -1,34 +1,36 @@
+
 state={
 	id=701
 	name="STATE_701"
 	resources={
-		steel=5
+		steel=5.000
 	}
+
 	history={
 		owner = RAJ
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
-			4425 2 #Myitkina
+			4425 2 
 		}
-#		victory_points = {
-#			4318 1 #Putao
-#		}
 		BMR = {
 			set_province_controller = 4425
 			set_province_controller = 10920
 			set_province_controller = 4996
-		}
 
+		}
 		add_core_of = BUR
 		add_core_of = BMR
-		add_core_of=RAJ
+		add_core_of = RAJ
+
 	}
+
 	provinces={
-		1082 1197 1934 4087 4318 4425 4588 4996 8063 10486 10920 12335 12464 12492
+		1197 1934 4087 4318 4425 4996 8063 
 	}
 	manpower=1244600
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

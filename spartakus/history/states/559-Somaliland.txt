@@ -7,7 +7,7 @@ state=
 	state_category = town
 	
 	history={
-		owner = SOM
+		owner = ITA
 		add_core_of = SOM
 		buildings = {
 			infrastructure = 3

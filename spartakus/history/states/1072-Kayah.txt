@@ -1,0 +1,20 @@
+state={
+	id=1072
+	name="STATE_1072"
+	provinces={
+		1566 1607 4585 4626 4654 7603 7647 
+	}
+	history={
+		owner = BMR
+		add_core_of = BUR
+		add_core_of = BMR
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	manpower=758880
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

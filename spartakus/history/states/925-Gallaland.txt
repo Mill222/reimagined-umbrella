@@ -4,8 +4,9 @@ state={
 	name="STATE_925"
 
 	history={
-		owner = KEN
-		add_core_of = KEN
+		owner=EAF
+		add_core_of=KEN
+		add_core_of=EAF
 		buildings = {
 			infrastructure = 3
 
@@ -14,9 +15,9 @@ state={
 	}
 
 	provinces={
-		2066 5079 8133 10761 10976 12927 13639 
+		2066 5079 13639 
 	}
-	manpower=371435
+	manpower=231435
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }
