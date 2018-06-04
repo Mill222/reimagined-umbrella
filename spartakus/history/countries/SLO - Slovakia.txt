@@ -33,7 +33,7 @@ set_politics = {
 			popularity = 35
 		}
 		marxist = {
-			popularity = 30
+			popularity = 20
 		}
 		revolutionary_socialist = {
 			popularity = 10
@@ -57,10 +57,10 @@ set_politics = {
 		    popularity = 0
 		}
 		right_wing_populist = {
-			popularity = 10
+			popularity = 0
 		}
 		national_syndicalist = {
-			popularity = 0
+			popularity = 20
 		}
 		national_corporatist = {
 			popularity = 0
