@@ -825,4 +825,72 @@ spriteTypes = {
 		name = "GFX_goal_flag_iron_guard_romania"
 		texturefile = "gfx/interface/goals/goal_flag_iron_guard_romania.dds"
 	}
+	SpriteType = {
+		name = "GFX_ROM_minorities"
+		texturefile = "gfx/interface/goals/ROM_minorities.dds"
+	}
+	SpriteType = {
+		name = "GFX_empty_coffers"
+		texturefile = "gfx/interface/goals/empty_coffers.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROM_conservatives"
+		texturefile = "gfx/interface/goals/ROM_conservatives.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROM_army"
+		texturefile = "gfx/interface/goals/ROM_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_crownandeagle"
+		texturefile = "gfx/interface/goals/crownandeagle.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROM_king"
+		texturefile = "gfx/interface/goals/ROM_king.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_flag_greece"
+		texturefile = "gfx/interface/goals/goal_flag_greece.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_flag_serbia"
+		texturefile = "gfx/interface/goals/goal_flag_serbia.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROM_czech"
+		texturefile = "gfx/interface/goals/ROM_czech.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_ROM_alliance"
+		texturefile = "gfx/interface/goals/focus_ROM_alliance.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROM_italy"
+		texturefile = "gfx/interface/goals/ROM_italy.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROM_cash"
+		texturefile = "gfx/interface/goals/ROM_cash.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ITA_syndicalist_unite"
+		texturefile = "gfx/interface/goals/goal_ITA_syndicalist_unite.dds"
+	}
+	SpriteType = {
+		name = "GFX_tblra_union_agreement"
+		texturefile = "gfx/interface/goals/tblra_union_agreement.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_gold_reserve"
+		texturefile = "gfx/interface/goals/goal_gold_reserve.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_government_centralised_icon"
+		texturefile = "gfx/interface/goals/goal_government_centralised_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ITA_urban"
+		texturefile = "gfx/interface/goals/goal_ITA_urban.dds"
+	}
 }
