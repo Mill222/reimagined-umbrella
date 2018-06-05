@@ -74,11 +74,20 @@ set_politics = {
 
 }
 create_country_leader = {
-	name = "Jozef Tiso"
-	desc = "POLITICS_JOZEF_TISO_DESC"
-	picture = "Portrait_Slovakia_Jozef_Tiso.dds"
+	name = "Andrej Hlinka"
+	desc = "POLITICS_ANDREJ_HLINKA_DESC"
+	picture = "Portrait_Andrej_Hlinka.tga"
 	expire = "1965.1.1"
-	ideology = national_syndicalist_ideology
+	ideology = national_syndicalist_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Andrej Hlinka"
+	desc = "POLITICS_ANDREJ_HLINKA_DESC"
+	picture = "Portrait_Andrej_Hlinka.tga"
+	expire = "1965.1.1"
+	ideology = national_corporatist_subtype
 	traits = {
 	}
 }
@@ -90,4 +99,70 @@ create_country_leader = {
 	ideology = leninist_subtype
 	traits = { nationalist_symbol
 	}
+}
+create_country_leader = {
+	name = "Jan Ursyni"
+	desc = "POLITICS_JAN_URSYNI_DESC"
+	picture = "Portrait_Jan_Ursyni.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = { 
+	}
+}
+create_country_leader = {
+	name = "Franz Karmasin"
+	desc = "POLITICS_FRANZ_KARMASIN_DESC"
+	picture = "Portrait_Franz_Karmasin.tga"
+	expire = "1965.1.1"
+	ideology = right_wing_populist_subtype
+	traits = { 
+	}
+}
+create_corps_commander = {
+	name = "Jozef Turanec"
+	picture = "Portrait_SLO_jozef_turanec.dds"
+	traits = { hill_fighter trait_mountaineer war_hero }
+	skill = 2
+}
+create_field_marshal = {
+	name = "Anton Pulanish"
+	picture = "Anton_Pulanish_Portrait.dds"
+	traits = { defensive_doctrine war_hero }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Jan Golian"
+	picture = "Portrait_Jan_Golian.tga"
+	traits = { skirmisher war_hero }
+	skill = 2
+}
+create_corps_commander = {
+	name = "Josef Nemisla"
+	picture = "Portrait_Josef_Nemisla.tga
+	traits = { skirmisher }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Rudolf Palaticky"
+	picture = "Portrait_Rudolf_Palaticky.tga"
+	traits = { trait_reckless media_personality }
+	skill = 1
+}
+create_corps_commander = {
+	name = "Rudolf Viest"
+	picture = "Portrait_Josef_Nemisla.tga
+	traits = { harsh_leader infantry_officer }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Augustin Malar"
+	picture = "Portrait_Slovakia_Augustin_Malar.dds
+	traits = { skirmisher career_officer war_hero }
+	skill = 5
+}
+create_corps_commander = {
+	name = "Stefan Jurech"
+	picture = "Portrait_Stefan_Jurech.dds
+	traits = { organizer }
+	skill = 1
 }
