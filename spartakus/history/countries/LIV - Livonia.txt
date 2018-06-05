@@ -37,22 +37,22 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 1
+			popularity = 4
 		}
 		marxist = {
 			popularity = 1
 		}
 		revolutionary_socialist = {
-			popularity = 2
+			popularity = 1
 		}
 		democratic_socialist = {
-			popularity = 2
+			popularity = 5
 		}
 		social_democrat = {
-			popularity = 6
+			popularity = 2
 		}
 		social_liberal = {
-			popularity = 24
+			popularity = 18
 		}
 		liberal_conservative = {
 			popularity = 10
@@ -67,7 +67,7 @@ set_politics = {
 			popularity = 20
 		}
 		national_syndicalist = {
-			popularity = 3
+			popularity = 8
 		}
 		national_corporatist = {
 			popularity = 1
@@ -283,6 +283,17 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
+	name = "Heinz Guderian"
+	picture = "Portrait_Germany_Heinz_Guderian.dds"
+	traits = { trickster brilliant_strategist panzer_leader armor_officer career_officer }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
 	name = "Hans Baron Manteuffel-Szoege"
 	picture = "Portrait_Baltic_Hans_Baron_Manteuffel_Szoege.tga"
 	traits = { trickster panzer_leader }
@@ -302,6 +313,29 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Felix Steiner"
+	gfx = "GFX_portrait_ger_felix_steiner"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ewald von Kleist"
+	desc = ""
+	picture = "Portrait_Germany_Ewald_von_Kleist.dds"
+	traits = { armor_officer trait_cautious }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = {
