@@ -124,6 +124,10 @@ AUS = {
 	color = rgb { 194 198 215 }
 	color_ui = rgb { 194 198 215 }
 }
+AWR  = {
+	color = rgb { 255 116 140 }
+	color_ui = rgb { 255 116 140 }
+}
 AZR = {
 	color = rgb { 99 160 139 }
 	color_ui = rgb { 99 160 139 }
