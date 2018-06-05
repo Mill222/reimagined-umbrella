@@ -76,3 +76,99 @@ create_country_leader = {
 	traits = {
 	}
 }
+
+create_field_marshal = {
+	name = "Walter Model"
+	picture = "Portrait_Germany_Walter_Model.dds"
+	traits = { defensive_doctrine brilliant_strategist trait_cautious politically_connected }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Wilhelm Ritter von Leeb"
+	picture = "Portrait_Germany_Wilhelm_Ritter_von_Leeb.dds"
+	traits = { old_guard infantry_officer }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Georg-Hans Reinhardt"
+	picture = "Portrait_Germany_Georg_von_Reinhardt.dds"
+	traits = { trait_cautious armor_officer }
+	skill = 3
+	id = 14
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Alfred Jodl"
+	picture = "Portrait_Germany_Alfred_Jodl.dds"
+	traits = { politically_connected career_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Sepp Dietrich"
+	picture = "Portrait_Germany_Josef_Dietrich.dds"
+	traits = { armor_officer politically_connected brilliant_strategist trait_reckless }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Hasso von Manteuffel"
+		picture = "Portrait_Germany_Hasso_von_Manteuffel.dds"
+	traits = { armor_officer career_officer trait_cautious }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Albert Kesselring"
+	picture = "Portrait_Germany_Albert_Kesselring.dds"
+	traits = { brilliant_strategist trait_cautious war_hero }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Gotthard Heinrici"
+	picture = "Portrait_Germany_Gotthard_Heinrici.dds"
+	traits = { trait_engineer infantry_officer trait_cautious }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Günther Lütjens"
+		picture = "Portrait_Germany_Gunter_Lutjens.dds"
+	traits = { superior_tactician }
+	skill = 3
+}

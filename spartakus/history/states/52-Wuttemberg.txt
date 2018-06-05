@@ -2,13 +2,13 @@
 state={
 	id=52
 	name="STATE_52"
-	manpower = 2679413
+	manpower = 2479413
 	resources={
 		aluminium=30.000
 		steel=6.000
 	}
 	
-	state_category = city
+	state_category = megalopolis
 
 	history={
 		owner = BAV
@@ -21,7 +21,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 7
-			arms_factory = 3
+			arms_factory = 2
 			industrial_complex = 1
 			air_base = 6
 			692 = {

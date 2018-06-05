@@ -15,12 +15,7 @@ state={
 		add_core_of = SCH
 		buildings = {
 			infrastructure = 3
-			arms_factory = 0
 			industrial_complex = 1
-		}
-
-		1938.10.25 = {
-			owner = CHI
 		}
 	}
 

@@ -15,7 +15,7 @@ state={
 			957 3 # Vladivostok
 		}
 		buildings = {
-			industrial_complex = 5
+			industrial_complex = 1
 			infrastructure = 4
 			arms_factory = 1
 			dockyard = 2
