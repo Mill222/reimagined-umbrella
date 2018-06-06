@@ -17,6 +17,33 @@ ideas = {
 			}
 			picture = generic_reserve_divisions
 		}
+		
+		SLO_reunion_fever = {
+
+			picture = FRA_scw_intervention_nationalists_focus		
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = CZE
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+
+			targeted_modifier = {
+				tag = HUN
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
 
 	}
 }
