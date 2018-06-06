@@ -105,8 +105,8 @@ LIV_Economy_Liberal10_desc:0 ""
 LIV_Economy_Liberal_End:0 "Tax the Wealthy"
 LIV_Economy_Liberal_End_desc:0 ""
 
-LIV_Economy_Gov1:0 "Government Intervention"
-LIV_Economy_Gov1_desc:0 ""
+LIV_Economy_Gov:0 "Government Intervention"
+LIV_Economy_Gov_desc:0 ""
 
 LIV_Economy_Gov2:0 "Build Up Our Roads"
 LIV_Economy_Gov2_desc:0 ""
@@ -117,14 +117,14 @@ LIV_Economy_Gov3_desc:0 ""
 LIV_Economy_Gov4:0 "Baltic Arsenals"
 LIV_Economy_Gov4_desc:0 ""
 
-LIV_Eco_Naval1:0 "Baltic Dockyards"
-LIV_Eco_Naval1_desc:0 ""
+LIV_Eco_Gov5:0 "Baltic Dockyards"
+LIV_Eco_Gov5_desc:0 ""
 
-LIV_Eco_Naval2:0 "Baltic Trade League"
-LIV_Eco_Naval2_desc:0 ""
+LIV_Eco_Gov6:0 "Baltic Trade League"
+LIV_Eco_Gov6_desc:0 ""
 
-LIV_Eco_Naval3:0 "Naval Innovations"
-LIV_Eco_Naval3_desc:0 ""
+LIV_Eco_Gov7:0 "Naval Innovations"
+LIV_Eco_Gov7_desc:0 ""
 
 LIV_Economy_Right:0 "A State Economy"
 LIV_Economy_Right_desc:0 ""

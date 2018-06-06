@@ -25,7 +25,7 @@ shared_focus = {
 		id = LIV_Economy_Liberal
 		icon = GFX_goal_new_treaty
 		prerequisite = { focus = LIV_Economy }
-		mutually_exclusive = { focus = LIV_Economy_Right focus = LIV_Economy_Gov1 }
+		mutually_exclusive = { focus = LIV_Economy_Right focus = LIV_Economy_Gov }
 		available = {
 			has_country_flag = LIV_liberal_government
 		}
@@ -272,7 +272,7 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Economy_Gov1
+		id = LIV_Economy_Gov
 		icon = GFX_goal_Centralised_Government
 		prerequisite = { focus = LIV_Economy }
 		available = {
@@ -313,7 +313,7 @@ shared_focus = {
 shared_focus = {
 		id = LIV_Economy_Gov2
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = LIV_Economy_Gov1 }
+		prerequisite = { focus = LIV_Economy_Gov }
 		x = -2
 		y = 2
 		relative_position_id = LIV_Economy
@@ -416,9 +416,9 @@ shared_focus = {
 
 
 shared_focus = {
-		id = LIV_Eco_Naval1
+		id = LIV_Eco_Gov5
 		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = LIV_Economy_Gov1 }
+		prerequisite = { focus = LIV_Economy_Gov }
 		x = 0
 		y = 2
 		relative_position_id = LIV_Economy
@@ -447,9 +447,9 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Eco_Naval2
+		id = LIV_Eco_Gov6
 		icon = GFX_BAT_trade
-		prerequisite = { focus = LIV_Eco_Naval1 }
+		prerequisite = { focus = LIV_Eco_Gov5 }
 		x = 0
 		y = 3
 		relative_position_id = LIV_Economy
@@ -481,9 +481,9 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Eco_Naval3
+		id = LIV_Eco_Gov7
 		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = LIV_Eco_Naval2 }
+		prerequisite = { focus = LIV_Eco_Gov6 }
 		x = 0
 		y = 4
 		relative_position_id = LIV_Economy
@@ -521,7 +521,7 @@ shared_focus = {
 		available = {
 			has_country_flag = LIV_nationalist_government
 		}
-		mutually_exclusive = { focus = LIV_Economy_Gov1 focus = LIV_Economy_Liberal }
+		mutually_exclusive = { focus = LIV_Economy_Gov focus = LIV_Economy_Liberal }
 		x = 9
 		y = 1
 		relative_position_id = LIV_Economy
@@ -1099,7 +1099,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_German_Army_3
-		icon = GFX_focus_ger_oppose_hitler
+		icon = GFX_Invite_Prussian_Commanders
 		prerequisite = { focus = LIV_German_Army_2 }
 		x = -2
 		y = 3
@@ -2043,6 +2043,7 @@ shared_focus = {
 	shared_focus = {
 		id = LIV_Diplomacy
 		icon = GFX_goal_foreign_diplomacy
+		available = { has_country_flag = LIV_diplomacy_unlocked }
 		x = 0
 		y = 8
 		cost = 8.6
