@@ -1,0 +1,39 @@
+﻿add_namespace = NS_on_action
+
+#######################################################################
+### These events act as on_actions that fire ever x number of days. ###
+#######################################################################
+
+### on_weekly (every 7 days)
+
+country_event = {
+	id = NS_on_action.1
+	hidden = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		### Scripted effects
+		SP_NS_coalition_pop_eval = yes
+		
+		
+		
+		### Events
+		
+		#### Political popularity
+		country_event = sp.political.11
+		country_event = sp.political.12
+		country_event = sp.political.13
+		country_event = sp.political.14
+		country_event = sp.political.15
+		
+		
+		#### Remove independent war
+		country_event = sp.political.30
+		
+		
+		### Trigger the same event next week
+		country_event = { id = NS_on_action.1 days = 7 }
+	}
+	
+	option = { name = OK }
+}

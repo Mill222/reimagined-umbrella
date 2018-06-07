@@ -17,6 +17,15 @@ opinion_modifiers = {
 	SP_same_ideology = { value = 40 }
 	SP_factional_rivalry = { value = -30 }
 	
+	SP_soc_cap_embargo = {
+		trade = yes
+		value = -400
+	}
+	SP_historical_trade_partners = {
+		trade = yes
+		value = 20
+	}
+	
 	
 	AFG_SOV_friendship = { value = 40 }
 }

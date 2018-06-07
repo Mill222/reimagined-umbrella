@@ -8,6 +8,10 @@ on_actions = {
 				limit = { is_ai = no }
 				country_event = sp.political.24
 			}
+			#Begin on_weekly event cycle
+			every_country = {
+				country_event = { id = NS_on_action.1 days = 7 }
+			}
 		}
 	}
 
@@ -274,6 +278,7 @@ on_actions = {
 	on_release_as_puppet = {
 		effect = {
 			log = "[GetDateText] [Root.GetName] on_release_as_puppet FROM = [From.GetName]"
+			country_event = { id = NS_on_action.1 days = 7 }
 		}
 	}
 	
@@ -281,6 +286,7 @@ on_actions = {
 	on_release_as_free = {
 		effect = {
 			log = "[GetDateText] [Root.GetName] on_release_as_free FROM = [From.GetName]"
+			country_event = { id = NS_on_action.1 days = 7 }
 		}
 	}
 	
@@ -308,6 +314,8 @@ on_actions = {
 	on_government_change = {
 		effect = {
 			log = "[GetDateText] [Root.GetName] on_government_change"
+			
+			country_event = sp.political.41 # Change ideology opinion modifiers
 		}
 	}
 	
