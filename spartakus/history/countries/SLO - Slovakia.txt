@@ -124,46 +124,78 @@ create_corps_commander = {
 	picture = "Portrait_SLO_jozef_turanec.dds"
 	traits = { hill_fighter trait_mountaineer war_hero }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
 create_field_marshal = {
 	name = "Anton Pulanish"
 	picture = "Anton_Pulanish_Portrait.dds"
 	traits = { defensive_doctrine war_hero }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Jan Golian"
 	picture = "Portrait_Jan_Golian.tga"
 	traits = { skirmisher war_hero }
 	skill = 2
+    attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Josef Nemisla"
-	picture = "Portrait_Josef_Nemisla.tga
+	picture = "Portrait_Josef_Nemisla.tga"
 	traits = { skirmisher }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Rudolf Palaticky"
 	picture = "Portrait_Rudolf_Palaticky.tga"
 	traits = { trait_reckless media_personality }
 	skill = 1
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 create_corps_commander = {
 	name = "Rudolf Viest"
-	picture = "Portrait_Josef_Nemisla.tga
+	picture = "Portrait_Rudolf_Viest.tga"
 	traits = { harsh_leader infantry_officer }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
-create_corps_commander = {
+create_field_marshal = {
 	name = "Augustin Malar"
-	picture = "Portrait_Slovakia_Augustin_Malar.dds
+	picture = "Portrait_Slovakia_Augustin_Malar.dds"
 	traits = { skirmisher career_officer war_hero }
 	skill = 5
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Stefan Jurech"
-	picture = "Portrait_Stefan_Jurech.dds
+	picture = "Portrait_Stefan_Jurech.dds"
 	traits = { organizer }
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 4
 }

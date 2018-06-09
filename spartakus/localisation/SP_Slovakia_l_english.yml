@@ -14,6 +14,12 @@ SLO_reunion_fever_desc:0 "Our Populace demand a return of both Czechian and Hung
 # Focuses
 
 # Traits
+SLO_hungarian_lineage:0 "Hungarian Lineage"
+SLO_hungarian_lineage_desc:0 "This Generals ancestry traces back to the Magyars and cannot fully be trusted to follow every order he recieves..."
+SLO_communist_sabotuer:0 "Communist Sabotuer"
+SLO_communist_sabotuer_desc:0 "This General is suspected to not fully believe in the cause of the revolution therefore he is not to be trusted."
+slovak_chairman:0 "Slovakian Chairman"
+slovak_chairman_desc:0 "As Chairman of the Slovakian Socialist Republic the Chairman holds a large degree of sway and his personal attention and gaze can resolve almost any issue."
 
 ### Parties ###
 
