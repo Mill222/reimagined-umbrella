@@ -98,7 +98,7 @@ create_country_leader = {
 	picture = "Portrait_Karol_Smidke.tga"
 	expire = "1965.1.1"
 	ideology = leninist_subtype
-	traits = { nationalist_symbol
+	traits = { slovak_chairman
 	}
 }
 create_country_leader = {
