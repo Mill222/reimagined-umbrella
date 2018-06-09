@@ -25,7 +25,7 @@ shared_focus = {
 		id = LIV_Economy_Liberal
 		icon = GFX_goal_new_treaty
 		prerequisite = { focus = LIV_Economy }
-		mutually_exclusive = { focus = LIV_Economy_Right focus = LIV_Economy_Gov }
+		mutually_exclusive = { focus = LIV_Economy_Right focus = LIV_Economy_Market }
 		available = {
 			has_country_flag = LIV_liberal_government
 		}
@@ -272,7 +272,7 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Economy_Gov
+		id = LIV_Economy_Market
 		icon = GFX_goal_Centralised_Government
 		prerequisite = { focus = LIV_Economy }
 		available = {
@@ -288,7 +288,7 @@ shared_focus = {
 		}
 
 		completion_reward = {
-			add_ideas = LIV_Interventionist_Economy
+			add_ideas = LIV_Market_Economy
 
 			random_owned_state = {
 
@@ -311,10 +311,10 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Economy_Gov2
+		id = LIV_Economy_Market2
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = LIV_Economy_Gov }
-		x = -2
+		prerequisite = { focus = LIV_Economy_Market }
+		x = -3
 		y = 2
 		relative_position_id = LIV_Economy
 		cost = 8.6
@@ -363,10 +363,10 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Economy_Gov3
+		id = LIV_Economy_Market3
 		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = LIV_Economy_Gov2 }
-		x = -2
+		prerequisite = { focus = LIV_Economy_Market2 }
+		x = -4
 		y = 3
 		relative_position_id = LIV_Economy
 		cost = 8.6
@@ -381,10 +381,10 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Economy_Gov4
+		id = LIV_Economy_Market4
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = LIV_Economy_Gov3 }
-		x = -2
+		prerequisite = { focus = LIV_Economy_Market3 }
+		x = -3
 		y = 4
 		relative_position_id = LIV_Economy
 		cost = 8.6
@@ -416,9 +416,9 @@ shared_focus = {
 
 
 shared_focus = {
-		id = LIV_Eco_Gov5
+		id = LIV_Economy_Market5
 		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = LIV_Economy_Gov }
+		prerequisite = { focus = LIV_Economy_Market }
 		x = 0
 		y = 2
 		relative_position_id = LIV_Economy
@@ -447,9 +447,9 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Eco_Gov6
+		id = LIV_Economy_Market6
 		icon = GFX_BAT_trade
-		prerequisite = { focus = LIV_Eco_Gov5 }
+		prerequisite = { focus = LIV_Economy_Market5 }
 		x = 0
 		y = 3
 		relative_position_id = LIV_Economy
@@ -481,9 +481,9 @@ shared_focus = {
 	}
 
 shared_focus = {
-		id = LIV_Eco_Gov7
+		id = LIV_Economy_Market7
 		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = LIV_Eco_Gov6 }
+		prerequisite = { focus = LIV_Economy_Market6 }
 		x = 0
 		y = 4
 		relative_position_id = LIV_Economy
@@ -521,7 +521,7 @@ shared_focus = {
 		available = {
 			has_country_flag = LIV_nationalist_government
 		}
-		mutually_exclusive = { focus = LIV_Economy_Gov focus = LIV_Economy_Liberal }
+		mutually_exclusive = { focus = LIV_Economy_Market focus = LIV_Economy_Liberal }
 		x = 9
 		y = 1
 		relative_position_id = LIV_Economy
@@ -814,7 +814,7 @@ shared_focus = {
 
 		completion_reward = {
 			army_experience = 25
-			LIV = {	country_event = { id = livfoc.1 days = 1 } }
+			country_event = { id = livfoc.1 }
 		}
 	}
 
@@ -837,7 +837,7 @@ shared_focus = {
 		}
 
 		completion_reward = {
-			LIV = {	country_event = { id = livfoc.2 days = 1 } }
+			country_event = { id = livfoc.2 }
 		}
 	}
 
@@ -860,7 +860,7 @@ shared_focus = {
 		}
 
 		completion_reward = {
-			LIV = {	country_event = { id = livfoc.3 days = 1 } }
+			country_event = { id = livfoc.3 }
 		}
 	}
 	
@@ -954,6 +954,10 @@ shared_focus = {
 		}
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = LIV_freikorps
+				add_idea = LIV_reformed_freikorps_1
+			}
 		}
 	}
 	
@@ -970,6 +974,10 @@ shared_focus = {
 		}
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = LIV_reformed_freikorps_1
+				add_idea = LIV_reformed_freikorps_2
+			}
 		}
 	}
 	
@@ -987,12 +995,16 @@ shared_focus = {
 		}
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = LIV_reformed_freikorps_2
+				add_idea = LIV_reformed_freikorps_3
+			}
 		}
 	}
 	
 shared_focus = {
 		id = LIV_Reform_Freikorps_4
-		icon = GFX_Swing_the_Sword
+		icon = GFX_Recruitment_Drive
 		prerequisite = { focus = LIV_Reform_Freikorps_3 }
 		x = -2
 		y = 4
@@ -1001,14 +1013,18 @@ shared_focus = {
 		ai_will_do = {
 			factor = 50
 		}
-
+	
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = LIV_reformed_freikorps_3
+				add_idea = LIV_reformed_freikorps_4
+			}
 		}
 	}
 	
 shared_focus = {
 		id = LIV_Freikorps_Center
-		icon = GFX_Recruitment_Drive
+		icon = GFX_ROM_cash
 		prerequisite = { focus = LIV_Reform_Freikorps focus = LIV_Support_Freikorps }
 		x = 0
 		y = 2
@@ -1019,12 +1035,13 @@ shared_focus = {
 		}
 
 		completion_reward = {
+			country_event = { id = livfoc.4 }
 		}
 	}
 	
 shared_focus = {
 		id = LIV_Freikorps_Center_2
-		icon = GFX_Renewed_Arms
+		icon = GFX_The_Noose
 		prerequisite = { focus = LIV_Reform_Freikorps_3 focus = LIV_Support_Freikorps_3 }
 		x = 0
 		y = 4
@@ -1078,7 +1095,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = LIV_German_Army_2
-		icon = GFX_goal_split_helmet
+		icon = GFX_Swing_the_Sword
 		prerequisite = { focus = LIV_German_Army }
 		x = -2
 		y = 2
