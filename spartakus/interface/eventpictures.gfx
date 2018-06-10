@@ -1997,6 +1997,26 @@ spriteTypes = {
 		name = "GFX_argentina_rosario"
 		texturefile = "gfx/event_pictures/Rosario.dds"
 	}
+	spriteType = {
+		name = "GFX_argentina_funeral"
+		texturefile = "gfx/event_pictures/Uriburu.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_casa_rosada"
+		texturefile = "gfx/event_pictures/Casa_Rosada.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_authoritarian_election"
+		texturefile = "gfx/event_pictures/Election_auth.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_march"
+		texturefile = "gfx/event_pictures/March.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_campo"
+		texturefile = "gfx/event_pictures/Campo.dds"
+	}
 }
 	
 	
