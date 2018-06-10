@@ -16,6 +16,14 @@ liv.3.t:0 "Duchy Dissolved!"
 liv.3.d:0 "The United Baltic Duchy has been dissolved."
 liv.3.a:0 "Oh no!"
 
+liv.10.t:0 "Bombing in Riga!"
+liv.10.d:0 "Early this morning, an explosion could be heard throughout Riga coming from the Central Station. Reports spread quickly of anything from derailment, to a bombing, to a collapse and even to an air raid, and hysteria soon ensued.\n\nHowever, as the dust settled, soldiers rushed to the station to find the train of Marshal Rudiger von der Goltz bombed, with metal strewn about and the station building itself partly collapsed. All seventeen killed in the blast were civilians, though multiple government officials and military officials present were injured. Goltz in particular is in critical condition, though it is believed he will survive the ordeal and will be able to continue a non-ruling military life.\n\nHowever, it is without a doubt that this means the end of the Goltz regime. After over a dozen years of his rule, the reigns are officially being passed to his right hand man, Alfred Fletcher. However, Fletcher is known to hold sympathies towards the supporters of a United Baltic Duchy. Multiple other groups, however, have shown interest in taking advantage of the situation.\n\nThe most pressing question is, who did it? It is without a doubt this was an assassination attempt directed towards von der Goltz himself. Multiple groups have shown interest in ousting him, but immediate suspicion lies on the underground communist movements and the Latvian nationalists under Gustavs Celmins. An investigation is already underway."
+liv.10.a:0 "What will happen now!?!"
+
+liv.11.t:0 "The Investigation Begins"
+liv.11.d:0 "In the aftermath of the bombing at the Riga Central Station, the new government under Alfred Fletcher has organized an investigation to root out the perpetrators of the bombing. Leads and eyewitness accounts point in many different conflicting directions, but the investigative team has promised it will find the plotters.\n\nThe most accepted leads point towards underground communist cells operating in Riga. However, others have disputed these leads, arguing that the munitions used would only be available to established, well equipped and funded groups such as the Freikorps.\n\nWe will have to see what the investigators uncover in the coming weeks."
+liv.11.a:0 "Find the perpetrators!"
+
 livfoc.1.t:0 "The Landeswehr Reforms"
 livfoc.1.d:0 "The Baltische Landeswehr is the dominating force of Livonia in many ways. Not only does it function as the defense force, but it also runs the government as a military dictatorship all but in name. Though the Latvian, Andreivs Niedra, is officially the head of government, everyone knows he lacks any power being surrounded by a cabinet made entirely of military veterans and aristocrats. This has, however, resulted in some issues with our relatively reactionary military bereaucracy. \n\nThe right wing Freikorps militias, which are officially unconnected with the Baltische Landeswehr, have been allowed to run rampant through the countryside. These Freikorps have been responsible for many terrible crimes. On top of this, lack of funding and care for Latvian and Estonian recruitment has resulted in a massive conscription crisis that has seriously hurt our military capabilities. \n\nWe can only choose to reform one of these issues at a time. Which will it be?"
 livfoc.1.a:0 "We shall focus on resolving the Conscription Crisis."
@@ -424,3 +432,7 @@ LIV_german_army_event_tt:0 "§RRight-wing elements that support this policy will
 LIV_mixed_army_event_tt:0 "§RConservative elements that support this policy will gain more influence over our government.\n§!"
 
 LIV_baltic_army_event_tt:0 "§RLiberal elements that support this policy will gain more influence over our government.\n§!"
+
+LIV_train_bombing_tt:0 "§RThis is the start of a political crisis. Your previous choices will affect the outcome of this struggle.\n§!"
+
+LIV_investigation_tt:0 "§RThe investigation into the bombing will begin. This could be dangerous.\n§!"
