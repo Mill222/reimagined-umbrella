@@ -1291,4 +1291,15 @@ spriteTypes = {
 		name = "GFX_idea_KTG_Colonial_Aversion"
 		texturefile = "gfx/interface/ideas/ideas/KTG_Colonial_Aversion.dds"
 	}
+	
+	#Romania
+	
+	spriteType = {
+		name = "GFX_idea_ROM_carol"
+		texturefile = "gfx/interface/ideas/ROM/ROM_carol.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_michael"
+		texturefile = "gfx/interface/ideas/ROM/ROM_michael.dds"
+	}
 }

@@ -2017,6 +2017,33 @@ spriteTypes = {
 		name = "GFX_argentina_campo"
 		texturefile = "gfx/event_pictures/Campo.dds"
 	}
+	
+	### Romania ###
+	
+	spriteType = {
+		name = "GFX_ROM_map"
+		texturefile = "gfx/event_pictures/ROM_map.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_hungary"
+		texturefile = "gfx/event_pictures/ROM_hungary.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_slovakia"
+		texturefile = "gfx/event_pictures/ROM_slovakia.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_poland"
+		texturefile = "gfx/event_pictures/ROM_poland.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_banatmap"
+		texturefile = "gfx/event_pictures/ROM_banatmap.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_farmpic"
+		texturefile = "gfx/event_pictures/ROM_farmpic.dds"
+	}
 }
 	
 	

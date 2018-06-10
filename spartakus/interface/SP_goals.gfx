@@ -893,4 +893,52 @@ spriteTypes = {
 		name = "GFX_goal_ITA_urban"
 		texturefile = "gfx/interface/goals/goal_ITA_urban.dds"
 	}
+	SpriteType = {
+		name = "GFX_ROM_strikes"
+		texturefile = "gfx/interface/goals/ROM_strikes.dds"
+	}
+	SpriteType = {
+		name = "GFX_Aluminium"
+		texturefile = "gfx/interface/goals/Aluminium.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_Catholic_Education"
+		texturefile = "gfx/interface/goals/focus_Catholic_Education.dds"
+	}
+	SpriteType = {
+		name = "GFX_KTG_Elections"
+		texturefile = "gfx/interface/goals/KTG_Elections.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROM_alfold_vote"
+		texturefile = "gfx/interface/goals/ROM_alfold_vote.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROM_alfold_convert"
+		texturefile = "gfx/interface/goals/ROM_alfold_convert.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROM_carpathia_vote"
+		texturefile = "gfx/interface/goals/ROM_carpathia_vote.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROM_carpathia_convert"
+		texturefile = "gfx/interface/goals/ROM_carpathia_convert.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROM_infrastructure"
+		texturefile = "gfx/interface/goals/ROM_infrastructure.dds"
+	}
+	SpriteType = {
+		name = "GFX_doctrine_tank_warfare"
+		texturefile = "gfx/interface/goals/doctrine_tank_warfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_bombs_away"
+		texturefile = "gfx/interface/goals/goal_bombs_away.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROM_westbanat"
+		texturefile = "gfx/interface/goals/ROM_westbanat.dds"
+	}
 }
