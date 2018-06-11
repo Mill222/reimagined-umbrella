@@ -1393,27 +1393,8 @@ country_event = {
 	}
 
 	option = {
-		name = sp.political.24.b #New stability system
-		country_event = { id = sp.political.25 }
-	}
-
-		option = {
 		name = sp.political.24.c #FAQ
 		country_event = { id = sp.political.26 }
-	}
-
-}
-
-country_event = {
-	id = sp.political.25 #Stability system explanation
-	title = sp.political.25.t
-	desc = sp.political.25.d
-	
-	is_triggered_only = yes
-
-	option = {
-		name = sp.political.25.a
-		country_event = { id = sp.political.24 }
 	}
 
 }
@@ -1427,7 +1408,6 @@ country_event = {
 
 	option = {
 		name = sp.political.26.a
-		country_event = { id = sp.political.24 }
 	}
 }
 
