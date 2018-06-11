@@ -70485,265 +70485,8 @@ spriteTypes = {
 	}
 
 
-  ################################################################################################################################################################################################
-  ### ROM
-  ################################################################################################################################################################################################
-
-	#Head of Government
-	spriteType = {
-		name = "GFX_idea_ROM_Miron_Cristea_hog_ade"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Miron_Cristea.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Alexander_Cuza_hog_rwp"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Alexander_Cuza.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Corneliu_Codreanu_hog_nsy"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Corneliu_Codreanu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Horia_Sima_hog_nsy"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Horia_Sima.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Ion_Antonescu_hog_nsy"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Antonescu.tga"
-	}
-
-
-	#Foreign Minister
-	spriteType = {
-		name = "GFX_idea_ROM_Constantin_Visoianu_for_sco"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Constantin_Visoianu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Ion_Gigurtu_for_sco"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Gigurtu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Grigore_Niculescu_Buzesti_for_ade"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Grigore_Niculescu_Buzesti.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Nicolae_Petrescu_Comnen_for_ade"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Nicolae_Petrescu_Comnen.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Mihai_Antonescu_for_rwp"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Mihai_Antonescu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Mihail_Sturdza_for_rwp"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Mihail_Sturdza.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Corneliu_Codreanu_for_nsy"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Corneliu_Codreanu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Ion_Antonescu_for_nsy"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Antonescu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Victor_Antonescu_for_nsy"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Victor_Antonescu.tga"
-	}
-
-
-	#Economy Minister
-	spriteType = {
-		name = "GFX_idea_ROM_Mihail_Racovita_eco_sco"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Mihail_Racovita.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Nicolae_Stoenescu_eco_ade"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Nicolae_Stoenescu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Gheorghe_Dobre_eco_rwp"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Gheorghe_Dobre.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Gheorghe_Potopeanu_eco_rwp"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Gheorghe_Potopeanu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Constantin_Papanace_eco_nsy"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Constantin_Papanace.tga"
-	}
-
-
-	#Security Minister
-	spriteType = {
-		name = "GFX_idea_ROM_Aurel_Aldea_sec_sco"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Aurel_Aldea.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Cesare_Vaida_Voievod_sec_ade"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Cesare_Vaida_Voievod.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Ion_Boiteanu_sec_ade"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Boiteanu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_David_Popescu_sec_rwp"
-		texturefile = "gfx/interface/ministers/ROM/ROM_David_Popescu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Horia_Sima_sec_nsy"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Horia_Sima.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Ion_Petrovicescu_sec_nsy"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Petrovicescu.tga"
-	}
-
-
-	#Intel Minister
-	spriteType = {
-		name = "GFX_idea_ROM_Gheorghe_Savoia_int_sco"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Gheorghe_Savoia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Nicolae_Stoenescu_int_ade"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Nicolae_Stoenescu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Iosif_Iacobici_int_rwp"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Iosif_Iacobici.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Petre_Antonescu_int_rwp"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Petre_Antonescu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Eugen_Cristescu_int_nsy"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Eugen_Cristescu.tga"
-	}
-
-
-	#Chief of Staff
-	spriteType = {
-		name = "GFX_idea_ROM_Constantin_Pantazi_cos_sco"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Constantin_Pantazi.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Mihail_Racovita_cos_sco"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Mihail_Racovita.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Florea_Tenescu_cos_ade"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Florea_Tenescu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Radu_Korne_cos_rwp"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Radu_Korne.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Gheorghe_Argeseanu_cos_nsy"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Gheorghe_Argeseanu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Ion_Antonescu_cos_nsy"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Antonescu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Platon_Chirnoaga_cos_nsy"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Platon_Chirnoaga.tga"
-	}
-
-
-	#Chief of Army
-	spriteType = {
-		name = "GFX_idea_ROM_Marin_Ceausu_carm_sco"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Marin_Ceausu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Gheorghe_Mihail_carm_ade"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Gheorghe_Mihail.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Ilie_Steflea_carm_rwp"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Ilie_Steflea.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Alexandru_Ioanitiu_carm_nsy"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Alexandru_Ioanitiu.tga"
-	}
-
-
-	#Chief of Navy
-	spriteType = {
-		name = "GFX_idea_ROM_Horia_Macellariu_cnav_ade"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Horia_Macellariu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Nicolae_Sova_cnav_ade"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Nicolae_Sova.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Ioan_Georgescu_cnav_rwp"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Ioan_Georgescu.tga"
-	}
-
-
-	#Chief of Air Force
-	spriteType = {
-		name = "GFX_idea_ROM_Dante_Vizante_cair_ade"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Dante_Vizante.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Paul_Teodorescu_cair_ade"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Paul_Teodorescu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Emil_Gheorghiu_cair_rwp"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Emil_Gheorghiu.tga"
-	}
-
-
-  ################################################################################################################################################################################################
-  ### RRM
+################################################################################################################################################################################################
+	### RRM
   ################################################################################################################################################################################################
 
 	#Head of Government
@@ -91067,6 +90810,294 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_YUN_Lu_Han_cair_rwp"
 		texturefile = "gfx/interface/ministers/YUN/YUN_Lu_Han.tga"
+	}
+
+
+  ################################################################################################################################################################################################
+  ### ROM
+  ################################################################################################################################################################################################
+
+	#Head of Government
+	spriteType = {
+		name = "GFX_idea_ROM_Miron_Cristea_hog_ade"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Miron_Cristea.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Alexander_Cuza_hog_rwp"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Alexander_Cuza.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Corneliu_Codreanu_hog_nsy"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Corneliu_Codreanu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Horia_Sima_hog_nsy"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Horia_Sima.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Ion_Antonescu_hog_nsy"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Antonescu.tga"
+	}
+
+
+	#Foreign Minister
+	spriteType = {
+		name = "GFX_idea_ROM_Constantin_Visoianu_for_sco"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Constantin_Visoianu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Ion_Gigurtu_for_sco"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Gigurtu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Grigore_Niculescu_Buzesti_for_ade"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Grigore_Niculescu_Buzesti.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Nicolae_Petrescu_Comnen_for_ade"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Nicolae_Petrescu_Comnen.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Mihai_Antonescu_for_rwp"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Mihai_Antonescu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Mihail_Sturdza_for_rwp"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Mihail_Sturdza.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Corneliu_Codreanu_for_nsy"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Corneliu_Codreanu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Ion_Antonescu_for_nsy"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Antonescu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Victor_Antonescu_for_nsy"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Victor_Antonescu.tga"
+	}
+	
+
+	spriteType = {
+		name = "GFX_idea_ROM_Gheorghe_Cristescu_hog"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Gheorghe_Cristescu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Stefan_Baciu_hog"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Stefan_Baciu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Iuliu_Maniu_hog"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Iuliu_Maniu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Alexandru_Averescu_hog"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Alexandru_Averescu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Ion_Mihalache_hog"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Mihalache.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Ion_Antonescu_hog"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Antonescu.tga"
+	}
+
+
+	#Economy Minister
+	spriteType = {
+		name = "GFX_idea_ROM_Mihail_Racovita_eco_sco"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Mihail_Racovita.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Nicolae_Stoenescu_eco_ade"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Nicolae_Stoenescu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Gheorghe_Dobre_eco_rwp"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Gheorghe_Dobre.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Gheorghe_Potopeanu_eco_rwp"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Gheorghe_Potopeanu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Constantin_Papanace_eco_nsy"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Constantin_Papanace.tga"
+	}
+
+
+	#Security Minister
+	spriteType = {
+		name = "GFX_idea_ROM_Aurel_Aldea_sec_sco"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Aurel_Aldea.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Cesare_Vaida_Voievod_sec_ade"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Cesare_Vaida_Voievod.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Ion_Boiteanu_sec_ade"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Boiteanu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_David_Popescu_sec_rwp"
+		texturefile = "gfx/interface/ministers/ROM/ROM_David_Popescu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Horia_Sima_sec_nsy"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Horia_Sima.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Ion_Petrovicescu_sec_nsy"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Petrovicescu.tga"
+	}
+
+
+	#Intel Minister
+	spriteType = {
+		name = "GFX_idea_ROM_Gheorghe_Savoia_int_sco"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Gheorghe_Savoia.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Nicolae_Stoenescu_int_ade"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Nicolae_Stoenescu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Iosif_Iacobici_int_rwp"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Iosif_Iacobici.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Petre_Antonescu_int_rwp"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Petre_Antonescu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Eugen_Cristescu_int_nsy"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Eugen_Cristescu.tga"
+	}
+
+
+	#Chief of Staff
+	spriteType = {
+		name = "GFX_idea_ROM_Constantin_Pantazi_cos_sco"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Constantin_Pantazi.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Mihail_Racovita_cos_sco"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Mihail_Racovita.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Florea_Tenescu_cos_ade"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Florea_Tenescu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Radu_Korne_cos_rwp"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Radu_Korne.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Gheorghe_Argeseanu_cos_nsy"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Gheorghe_Argeseanu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Ion_Antonescu_cos_nsy"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Antonescu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Platon_Chirnoaga_cos_nsy"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Platon_Chirnoaga.tga"
+	}
+
+
+	#Chief of Army
+	spriteType = {
+		name = "GFX_idea_ROM_Marin_Ceausu_carm_sco"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Marin_Ceausu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Gheorghe_Mihail_carm_ade"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Gheorghe_Mihail.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Ilie_Steflea_carm_rwp"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ilie_Steflea.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Alexandru_Ioanitiu_carm_nsy"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Alexandru_Ioanitiu.tga"
+	}
+
+
+	#Chief of Navy
+	spriteType = {
+		name = "GFX_idea_ROM_Horia_Macellariu_cnav_ade"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Horia_Macellariu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Nicolae_Sova_cnav_ade"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Nicolae_Sova.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Ioan_Georgescu_cnav_rwp"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ioan_Georgescu.tga"
+	}
+
+
+	#Chief of Air Force
+	spriteType = {
+		name = "GFX_idea_ROM_Dante_Vizante_cair_ade"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Dante_Vizante.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Paul_Teodorescu_cair_ade"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Paul_Teodorescu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Emil_Gheorghiu_cair_rwp"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Emil_Gheorghiu.tga"
 	}
 
 }

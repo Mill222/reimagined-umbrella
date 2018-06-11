@@ -49,8 +49,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_political_power = 100
-			add_stability = 0.1
+			add_political_power = 70
 			add_popularity = { ideology = national_syndicalist popularity = 0.01 }
 			country_event = argentina.5
 		}
@@ -94,7 +93,7 @@ focus_tree = {
 		}
 		completion_reward = {	
 			add_political_power = 10
-			add stability = -0.025
+			add_stability = -0.025
 		}
 	}
 	focus = {
@@ -244,7 +243,8 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_stability = 0.05
+			add_stability = 0.1
+			add_political_power = 100
 		}
 	}
 	focus = {
@@ -320,7 +320,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			country_event = { argentina.34 days = 3 }
+			country_event = { argentina.35 days = 3 }
 		}
 	}
 	focus = {
@@ -348,9 +348,8 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			country_event = argentina.34
-			news_event = 
-			set_cosmetic_tag = NatSynd_ARG
+			country_event = argentina.47
+			set_cosmetic_tag = NatSynd_ARG	
 		}
 	}
 	focus = {
@@ -413,7 +412,10 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_political_power = 100
+			add_political_power = 50
+			add_popularity = { ideology = leninist popularity = -0.1 }
+			add_popularity = { ideology = marxist popularity = -0.1 }
+			add_popularity = { ideology = revolutionary_socialist popularity = -0.1 }
 		}
 	}
 	focus = {
@@ -435,7 +437,9 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_political_power = 100
+			add_political_power = -100
+			add_popularity = { ideology = democratic_socialist popularity = -0.1 }
+			add_popularity = { ideology = social_democrat popularity = -0.1 }
 		}
 	}
 	focus = {
@@ -454,7 +458,10 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_political_power = 100
+			add_political_power = -50
+			add_ideas = {
+				ARG_paramilitary_state
+			}
 		}
 	}
 	focus = {
@@ -474,6 +481,7 @@ focus_tree = {
 		}
 		completion_reward = {	
 			add_political_power = 100
+			add_popularity = { ideology = national_corporatist popularity = 0.3 }
 		}
 	}
 	focus = {
@@ -492,26 +500,14 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_political_power = 100
-		}
-	}
-	focus = {
-		id = ARG_sound_cinema
-		icon = GFX_goal_new_treaty
-		x = 14
-		y = 3
-		cost = 1
-		prerequisite = {
-			focus = ARG_national_cinema
-		}
-	    available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		completion_reward = {	
-			add_political_power = 100
+			remove_all_ideas_with_trait = {
+				intelligence_minister
+			}
+			add_ideas = {
+				ARG_propaganda_ministry
+				im_wast
+			}
+			add_popularity = { ideology = national_corporatist popularity = 0.5 }
 		}
 	}
 	focus = {
@@ -533,6 +529,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
+			add_stability = 0.1
 			add_political_power = 100
 		}
 	}
@@ -552,7 +549,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_political_power = 100
+			country_event = argentina.48
 		}
 	}
 	focus = {
@@ -571,7 +568,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_political_power = 100
+			country_event = argentina.49
 		}
 	}
 	focus = {
@@ -590,7 +587,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_political_power = 100
+			country_event = argentina.48
 		}
 	}
 	focus = {
@@ -609,7 +606,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_political_power = 100
+			country_event = argentina.48
 		}
 	}
 	focus = {
@@ -637,7 +634,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			add_political_power = 100
+			country_event = argentina.48
 		}
 	}
 	focus = {
@@ -798,6 +795,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
+			add_stability = 0.1
 			add_political_power = 100
 		}
 	}
@@ -1365,13 +1363,32 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = ARG_democrats
+		icon = GFX_goal_new_treaty
+		x = 38
+		y = 4
+		cost = 1
+		prerequisite = {
+			focus = ARG_moderate_parties
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 100
+		}
+	}
+	focus = {
 		id = ARG_radical_question
 		icon = GFX_goal_new_treaty
 		x = 36
-		y = 3
+		y = 4
 		cost = 1
 		prerequisite = {
-			focus = ARG_return_democracy
+			focus = ARG_moderate_parties
 		}
 	    available = {
 			always = yes
@@ -1387,10 +1404,10 @@ focus_tree = {
 		id = ARG_right_question
 		icon = GFX_goal_new_treaty
 		x = 40
-		y = 3
+		y = 4
 		cost = 1
 		prerequisite = {
-			focus = ARG_return_democracy
+			focus = ARG_moderate_parties
 		}
 	    available = {
 			always = yes
@@ -1406,13 +1423,13 @@ focus_tree = {
 		id = ARG_elections
 		icon = GFX_goal_new_treaty
 		x = 38
-		y = 4
+		y = 5
 		cost = 15
 		prerequisite = {
 			focus = ARG_radical_question
 		}
 		prerequisite = {
-			focus = ARG_moderate_parties
+			focus = ARG_democrats
 		}
 		prerequisite = {
 			focus = ARG_right_question
