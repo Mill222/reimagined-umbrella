@@ -21,6 +21,7 @@ ideas = {
 
 			modifier = {
 				conscription = 0.10
+				consumer_goods_factor = 0.10
 				army_morale_factor = 0.05
 				war_support_factor = 0.10
 			}
@@ -143,6 +144,7 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.5
 				war_support_factor = -0.05
+				stability_factor = -0.10
 			}
 		}
 		
@@ -160,9 +162,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription_factor = -0.5
+				conscription_factor = -0.75
 				war_support_factor = 0.10
-				army_org_factor = 0.10
+				army_org_factor = 0.05
 			}
 		}
 		
@@ -180,10 +182,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription_factor = -0.45
-				war_support_factor = 0.15
-				army_org_factor = 0.15
-				army_morale_factor = 0.05
+				conscription_factor = -0.75
+				war_support_factor = 0.10
+				army_org_factor = 0.10
 			}
 		}
 		
@@ -202,8 +203,8 @@ ideas = {
 
 			modifier = {
 				conscription_factor = -0.25
-				stability_factor = 0.05
-				army_org_factor = -0.05
+				war_support_factor = 0.05
+				army_morale_factor = 0.05
 			}
 		}
 		
@@ -221,9 +222,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription_factor = 0.25
-				stability_factor = -0.10
-				army_morale_factor = 0.10
+				stability_factor = 0.05
+				army_org_factor = -0.10
+				army_morale_factor = -0.05
 			}
 		}
 		
