@@ -90811,8 +90811,6 @@ spriteTypes = {
 		name = "GFX_idea_YUN_Lu_Han_cair_rwp"
 		texturefile = "gfx/interface/ministers/YUN/YUN_Lu_Han.tga"
 	}
-
-
   ################################################################################################################################################################################################
   ### ROM
   ################################################################################################################################################################################################
@@ -90841,6 +90839,41 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ROM_Ion_Antonescu_hog_nsy"
 		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Antonescu.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ROM_Gheorghe_Cristescu_hog"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Gheorghe_Cristescu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Stefan_Baciu_hog"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Stefan_Baciu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Iuliu_Maniu_hog"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Iuliu_Maniu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Alexandru_Averescu_hog"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Alexandru_Averescu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Ion_Mihalache_hog"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Mihalache.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Ion_Antonescu_hog"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Antonescu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Elena_Bacaloglu_hog"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Elena_Bacaloglu.tga"
 	}
 
 
@@ -90889,36 +90922,20 @@ spriteTypes = {
 		name = "GFX_idea_ROM_Victor_Antonescu_for_nsy"
 		texturefile = "gfx/interface/ministers/ROM/ROM_Victor_Antonescu.tga"
 	}
-	
 
 	spriteType = {
-		name = "GFX_idea_ROM_Gheorghe_Cristescu_hog"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Gheorghe_Cristescu.tga"
+		name = "GFX_idea_ROM_Elena_Bacaloglu_for"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Elena_Bacaloglu.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_ROM_Stefan_Baciu_hog"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Stefan_Baciu.tga"
+		name = "GFX_idea_ROM_Mihail_Bujor_for"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Mihail_Bujor.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_ROM_Iuliu_Maniu_hog"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Iuliu_Maniu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Alexandru_Averescu_hog"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Alexandru_Averescu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Ion_Mihalache_hog"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Mihalache.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_ROM_Ion_Antonescu_hog"
-		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Antonescu.tga"
+		name = "GFX_idea_ROM_Ana_Pauker_for"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ana_Pauker.tga"
 	}
 
 
@@ -90946,6 +90963,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ROM_Constantin_Papanace_eco_nsy"
 		texturefile = "gfx/interface/ministers/ROM/ROM_Constantin_Papanace.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Barbu_Lazareanu_eco"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Barbu_Lazareanu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Ilie_Moscovici_eco"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ilie_Moscovici.tga"
 	}
 
 
@@ -90980,8 +91007,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/ministers/ROM/ROM_Ion_Petrovicescu.tga"
 	}
 
+	spriteType = {
+		name = "GFX_idea_ROM_Ecaterina_Arbore_sec"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ecaterina_Arbore.tga"
+	}
 
-	#Intel Minister
+	spriteType = {
+		name = "GFX_idea_ROM_Dimitrie_Marinescu_sec"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Dimitrie_Marinescu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Alexandru_Nicolau_sec"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Alexandru_Nicolau.tga"
+	}
+
+
+	####### Intel Minister
 	spriteType = {
 		name = "GFX_idea_ROM_Gheorghe_Savoia_int_sco"
 		texturefile = "gfx/interface/ministers/ROM/ROM_Gheorghe_Savoia.tga"
@@ -91005,6 +91047,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ROM_Eugen_Cristescu_int_nsy"
 		texturefile = "gfx/interface/ministers/ROM/ROM_Eugen_Cristescu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Mihail_Bujor_int"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Mihail_Bujor.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Ana_Pauker_int"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ana_Pauker.tga"
 	}
 
 

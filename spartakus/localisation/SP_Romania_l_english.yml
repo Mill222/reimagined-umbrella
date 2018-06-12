@@ -1,39 +1,104 @@
 ﻿l_english:
 
 ### Ideas ###
+ROM_SP_king_carol:0 "King Carol II"
+ROM_fascist_carol:0 "King Carol II"
+ROM_good_carol:0 "King Carol II"
+ROM_king_michael:0 "King Michael I"
+
+ROM_industrial_unrest:0 "Industrial Unrest"
+ROM_industrial_unrest_2:0 "Industrial Unrest"
+ROM_industrial_unrest_3:0 "Industrial Unrest"
+ROM_industrial_unrest_4:0 "Industrial Unrest"
+ROM_industrial_unrest_5:0 "Industrial Unrest"
+ROM_industrial_unrest_6:0 "Industrial Unrest"
+ROM_industrial_unrest_7:0 "Industrial Unrest"
+ROM_rural_population:0 "Agricultural Society"
+ROM_rural_population_2:0 "Agricultural Society"
+ROM_rural_population_3:0 "Agricultural Society"
+ROM_rural_population_4:0 "Agricultural Society"
+ROM_rural_population_5:0 "Agricultural Society"
+ROM_rural_population_6:0 "Agricultural Society"
+ROM_great_depression:0 "The Great Depression"
+ROM_great_depression_aus1:0 "The Great Depression"
+ROM_great_depression_aus2:0 "The Great Depression"
+ROM_great_depression_wlf1:0 "The Great Depression"
+ROM_great_depression_wlf2:0 "The Great Depression"
+ROM_great_depression_cor1:0 "The Great Depression"
+ROM_great_depression_cor2:0 "The Great Depression"
+ROM_monarchy_abolished:0 "Abolished the Monarchy"
+ROM_seized_land:0 "Land Seizures"
+ROM_subsidies:0 "Unemployment Subsidies"
+ROM_rural_reform:0 "Land Reform"
+ROM_towns:0 "Factory Towns"
+ROM_french_scientists:0 "French Scientists"
+ROM_romanian_scientists:0 "Romanian Genius"
+ROM_bootcamp:0 "Advanced Training Scheme"
+ROM_devotion:0 "Everything for the Country"
+ROM_hoxhaism:0 "Nationwide Fortification Effort"
+ROM_tranred:0 "Mountain Redoubts"
+ROM_ndp:0 "National Defensive Scheme"
+ROM_cugir:0 "Cugir Arms Factory"
+
+### Focuses ###
+
+
+### Ministers ###
+ROM_Gheorghe_Cristescu_hog:0 "Gheorghe Cristescu"
+ROM_Stefan_Baciu_hog:0 "Stefan Baciu"
+ROM_Iuliu_Maniu_hog:0 "Iuliu Maniu"
+ROM_Alexandru_Averescu_hog:0 "Alexandru Averescu"
+ROM_Ion_Mihalache_hog:0 "Ion Mihalache"
+ROM_Ion_Antonescu_hog:0 "Ion Antonescu"
+ROM_Elena_Bacaloglu_hog:0 "Elena Bacaloglu"
+
+ROM_Elena_Bacaloglu_for:0 "Elena Bacaloglu"
+ROM_Mihail_Bujor_for:0 "Mihail Bujor"
+ROM_Ana_Pauker_for:0 "Ana Pauker"
+
+ROM_Barbu_Lazareanu_eco:0 "Barbu Lăzăreanu"
+ROM_Ilie_Moscovici_eco:0 "Ilie Moscovici"
+
+ROM_Horia_Sima_sec_nsy:0 "Horia Sima"
+ROM_Ecaterina_Arbore_sec:0 "Ecaterina Arbore"
+ROM_Dimitrie_Marinescu_sec:0 "Dimitrie Marinescu"
+ROM_Alexandru_Nicolau_sec:0 "Alexandru Nicolau"
+
+ROM_Mihail_Bujor_int:0 "Mihail Bujor"
+ROM_Ana_Pauker_int:0 "Ana Pauker"
+
+### Parties ###
+ROM_leninist_party:0 "Vyzvolennia"
+ROM_leninist_party_long:0 "Ukrainian Workers' Party of Romania"
+ROM_marxist_party:0 "PCR"
+ROM_marxist_party_long:0 "Romanian Communist Party"
+ROM_democratic_socialist_party:0 "PS"
+ROM_democratic_socialist_party_long:0 "Socialist Party of Romania"
+ROM_revolutionary_socialist_party:0 "PT-Lupu"
+ROM_revolutionary_socialist_party_long:0 "Peasants Party–Lupu"
+ROM_social_democrat_party:0 "Ethnic Minority Parties"
+ROM_social_democrat_party_long:0 "Ethnic Minority Parties"
+ROM_social_liberal_party:0 "National Liberal Party"
+ROM_social_liberal_party_long:0 "National Liberal Party"
+ROM_liberal_conservative_party:0 "National Peasants Party"
+ROM_liberal_conservative_party_long:0 "National Peasants' Party"
+ROM_social_conservative_party:0 "People's Party"
+ROM_social_conservative_party_long:0 "People's Party"
+ROM_authoritarian_democrat_party:0 "Georgisti"
+ROM_authoritarian_democrat_party_long:0 "National Liberal Party-Brătianu"
+ROM_right_wing_populist_party:0 "PND"
+ROM_right_wing_populist_party_long:0 "Democratic Nationalist Party"
+ROM_national_syndicalist_party:0 "Iron Guard"
+ROM_national_syndicalist_party_long:0 "Legion of the Archangel Michael"
+ROM_national_corporatist_party:0 "Fascio"
+ROM_national_corporatist_party_long:0 "National Romanian Fascio"
+
+ROM_mildict:0 "CNR"
+ROM_mildict_long:0 "Committee of National Restoration"
 
 ### Tooltips ###
 
 ### Opinion Modifiers ###
 
-### Parties ###
-ROM_leninist_party:0 "Vyzvolennia"
-ROM_leninist_party_long:0 "Partidul muncitorilor ucrainieni din România"
-ROM_marxist_party:0 "PCdR"
-ROM_marxist_party_long:0 "Partidul Comunist din România"
-ROM_democratic_socialist_party:0 "PS"
-ROM_democratic_socialist_party_long:0 "Partidul Socialist din România"
-ROM_revolutionary_socialist_party:0 "PT-L"
-ROM_revolutionary_socialist_party_long:0 "Partidul Țărănesc–Lupu"
-ROM_social_democrat_party:0 "PSD"
-ROM_social_democrat_party_long:0 "Partidul Social Democrat Român"
-ROM_social_liberal_party:0 "PNL"
-ROM_social_liberal_party_long:0 "Partidul Naţional Liberal"
-ROM_liberal_conservative_party:0 "PNȚ"
-ROM_liberal_conservative_party_long:0 "Partidul Național Țărănesc"
-ROM_social_conservative_party:0 "LCC"
-ROM_social_conservative_party_long:0 "Liga contra Cametei"
-ROM_authoritarian_democrat_party:0 "PNL-B"
-ROM_authoritarian_democrat_party_long:0 "Partidul Național Liberal-Brătianu"
-ROM_right_wing_populist_party:0 "PP"
-ROM_right_wing_populist_party_long:0 "Partidul Poporului"
-ROM_national_syndicalist_party:0 "LANC"
-ROM_national_syndicalist_party_long:0 "Liga Apărării Național Creștine"
-ROM_national_corporatist_party:0 "Garda de Fier"
-ROM_national_corporatist_party_long:0 "Garda de Fier"
-
-### Focuses ###
-
-### Leader descriptions ###
-
-### Darkest Day ###
+### Misc ###
+ROM_SP_GATHERING_STORM_DESC:0 "Romania at the dawn of the 1930s is a country paralysed by fear. The primary objective of Romanian foreign policy since independence, the unification of Greater Romania, has been achieved in the aftermath of the Great War. However now the country's effective encirclement by Communist powers puts all of that in jeopardy. Soviet intervention in the Hungarian-Romanian war prevented the deposition of the Leninist Kun regime, halting the Romanian advance at the banks of the Tisa river. An uneasy peace followed, leaving Romania in possession of Transcarpathia, and much of the Great Hungarian Plain, which remain under military governance to this day."

@@ -151,9 +151,6 @@ bookmarks = {
 				ROM_rural_population
 			}
 			focuses = {
-				ROM_elections
-				ROM_teach_king
-				ROM_conscription
 			}
 		}
 		

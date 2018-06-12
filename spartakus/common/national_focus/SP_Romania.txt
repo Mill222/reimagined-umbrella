@@ -1,0 +1,18 @@
+###########################
+# Romanian Focus Tree
+# By Hiraeth
+###########################
+
+focus_tree = {
+	id = SP_Romania
+	country = {
+		factor=0
+		modifier = {
+			add = 10
+			tag = ROM
+		}
+	}
+	
+	default = no
+	
+}
