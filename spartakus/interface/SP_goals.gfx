@@ -817,4 +817,12 @@ spriteTypes = {
 		name = "GFX_Protestantism"
 		texturefile = "gfx/interface/goals/Protestantismf.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_CHL_unidad_popular"
+		texturefile = "gfx/interface/goals/CHL_unidad_popular.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_CHL_chilean_way"
+		texturefile = "gfx/interface/goals/CHL_chilean_way.dds"
+	}
 }
