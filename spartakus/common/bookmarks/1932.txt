@@ -142,6 +142,17 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"ROM"={
+			minor = yes
+			history = "ROM_SP_GATHERING_STORM_DESC"
+			ideology = liberal_conservative
+			ideas = {
+				ROM_king_michael
+				ROM_rural_population
+			}
+			focuses = {
+			}
+		}
 		
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !

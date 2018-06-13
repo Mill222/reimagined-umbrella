@@ -13,9 +13,44 @@ TNZ_UK = {
 	color_ui = rgb { 215 70 62 }
 }
 
+EAF_UK = {
+	color = rgb { 215 70 62 }
+	color_ui = rgb { 215 70 62 }
+}
+
 NGR_UK = {
 	color = rgb { 215 70 62 }
 	color_ui = rgb { 215 70 62 }
+}
+
+ADE_UK = {
+	color = rgb { 215 70 62 }
+	color_ui = rgb { 215 70 62 }
+}
+
+UAE_UK = {
+	color = rgb { 215 70 62 }
+	color_ui = rgb { 215 70 62 }
+}
+
+KUW_UK = {
+	color = rgb { 215 70 62 }
+	color_ui = rgb { 215 70 62 }
+}
+
+QAT_UK = {
+	color = rgb { 215 70 62 }
+	color_ui = rgb { 215 70 62 }
+}
+
+BAH_UK = {
+	color = rgb { 215 70 62 }
+	color_ui = rgb { 215 70 62 }
+}
+
+CNR_BEL = {
+	color = rgb { 193 171 8 }
+	color_ui = rgb { 193 171 8 }
 }
 
 UGA_UK = {

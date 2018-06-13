@@ -1,7 +1,7 @@
 ideas = {
 	
 	head_of_government = { ### Head of Government ###
-		hog_ghioldi = {
+		hog_molinas = {
 			allowed = {original_tag = ARG}
 			available = {
 				has_country_flag = can_replace_hog
@@ -11,27 +11,42 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				leninist
-				hog_silent_workhorse
-			}
-			cancel_if_invalid = yes
-		}
-		hog_palacios = {
-			allowed = {original_tag = ARG}
-			available = {
-				has_country_flag = can_replace_hog
-			}
-			visible = {
-				always = yes
-			}
-			traits = {
-				head_of_government
-				social_democrat
+				social_liberal
 				hog_silent_workhorse
 			}
 			cancel_if_invalid = yes
 		}
 		hog_ortiz = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				liberal_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_tonazzi = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				liberal_conservative
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_martinez = {
 			allowed = {original_tag = ARG}
 			available = {
 				has_country_flag = can_replace_hog
@@ -61,37 +76,7 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
-		hog_rawson = {
-			allowed = {original_tag = ARG}
-			available = {
-				has_country_flag = can_replace_hog
-			}
-			visible = {
-				always = yes
-			}
-			traits = {
-				head_of_government
-				social_conservative
-				hog_silent_workhorse
-			}
-			cancel_if_invalid = yes
-		}
 		hog_justo = {
-			allowed = {original_tag = ARG}
-			available = {
-				has_country_flag = can_replace_hog
-			}
-			visible = {
-				always = yes
-			}
-			traits = {
-				head_of_government
-				authoritarian_democrat
-				hog_silent_workhorse
-			}
-			cancel_if_invalid = yes
-		}
-		hog_tonazzi = {
 			allowed = {original_tag = ARG}
 			available = {
 				has_country_flag = can_replace_hog
@@ -167,6 +152,51 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 		hog_irazusta = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				national_syndicalist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_bordabehere = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				national_syndicalist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_meinvielle = {
+			allowed = {original_tag = ARG}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				head_of_government
+				national_syndicalist
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+		}
+		hog_wast = {
 			allowed = {original_tag = ARG}
 			available = {
 				has_country_flag = can_replace_hog

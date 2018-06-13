@@ -2,7 +2,7 @@
 state={
 	id=740
 	name="STATE_740"
-	manpower = 294612
+	manpower = 259612
 	
 	state_category = rural
 
@@ -10,11 +10,9 @@ state={
 		owner = CAN
 		buildings = {
 			infrastructure = 2
-			dockyard = 1
 			air_base = 1
 			7259 = {
-				naval_base = 5
-				coastal_bunker = 2
+				naval_base = 2
 			}
 		}
 		add_core_of = CAN

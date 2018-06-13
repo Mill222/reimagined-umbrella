@@ -21,6 +21,7 @@ ideas = {
 
 			modifier = {
 				conscription = 0.10
+				consumer_goods_factor = 0.10
 				army_morale_factor = 0.05
 				war_support_factor = 0.10
 			}
@@ -46,6 +47,87 @@ ideas = {
 			}
 		}
 		
+		LIV_reformed_freikorps_1 = {
+			picture = chi_army_corruption2
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+				army_org_factor = -0.15
+				stability_factor = -0.05
+			}
+		}
+		
+		LIV_reformed_freikorps_2 = {
+			picture = chi_army_corruption2
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+				army_org_factor = -0.10
+				stability_factor = -0.025
+			}
+		}
+		
+		LIV_reformed_freikorps_3 = {
+			picture = chi_army_corruption2
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+				army_org_factor = -0.05
+				war_support_factor = 0.05
+			}
+		}
+		
+		LIV_reformed_freikorps_4 = {
+			picture = chi_army_corruption2
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		
 		LIV_baltic_conscription_crisis = {
 			picture = generic_infantry_bonus
 
@@ -62,6 +144,7 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.5
 				war_support_factor = -0.05
+				stability_factor = -0.10
 			}
 		}
 		
@@ -79,9 +162,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription_factor = -0.5
+				conscription_factor = -0.75
 				war_support_factor = 0.10
-				army_org_factor = 0.10
+				army_org_factor = 0.05
 			}
 		}
 		
@@ -99,10 +182,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription_factor = -0.45
-				war_support_factor = 0.15
-				army_org_factor = 0.15
-				army_morale_factor = 0.05
+				conscription_factor = -0.75
+				war_support_factor = 0.10
+				army_org_factor = 0.10
 			}
 		}
 		
@@ -121,8 +203,8 @@ ideas = {
 
 			modifier = {
 				conscription_factor = -0.25
-				stability_factor = 0.05
-				army_org_factor = -0.05
+				war_support_factor = 0.05
+				army_morale_factor = 0.05
 			}
 		}
 		
@@ -140,9 +222,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription_factor = 0.25
-				stability_factor = -0.10
-				army_morale_factor = 0.10
+				stability_factor = 0.05
+				army_org_factor = -0.10
+				army_morale_factor = -0.05
 			}
 		}
 		
@@ -269,6 +351,15 @@ ideas = {
 				army_org_factor = 0.05
 				army_defence_factor = 0.1
 			}
+		}
+		
+		LIV_soldiers_pensions = {
+			picture = generic_goods_red_bonus
+			modifier = {
+				consumer_goods_factor = 0.05
+				war_support_factor = 0.05
+			}
+
 		}
 
 		LIV_multi_ling = {
@@ -400,7 +491,7 @@ ideas = {
 
 		}
 		
-		LIV_Interventionist_Economy = {
+		LIV_Market_Economy = {
 			picture = generic_production_bonus
 			modifier = {
 				consumer_goods_factor = -0.05
@@ -416,14 +507,6 @@ ideas = {
 				industrial_capacity_factory = 0.1
 				production_speed_bunker_factor = 0.05
 				political_power_gain = -0.10
-			}
-
-		}
-
-		LIV_gov_goods = {
-			picture = generic_goods_red_bonus
-			modifier = {
-				consumer_goods_factor = -0.05
 			}
 
 		}

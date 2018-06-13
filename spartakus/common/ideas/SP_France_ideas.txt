@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		FRA_the_great_depression = {
+		FRA_stagnant_economy = {
 			
 			allowed = {
 				always = no
@@ -12,10 +12,9 @@ ideas = {
 			picture = great_depression
 			
 			modifier = {
-				political_power_cost = 1
-				consumer_goods_factor = 0.5
-				conscription_factor = -0.5
-				join_faction_tension = 0.20
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.1
+                production_speed_buildings_factor = -0.1
 			}
 		}
 
@@ -58,21 +57,6 @@ ideas = {
 			modifier = {
 				conscription = -0.003
 				war_support_factor = -0.05
-			}
-		}
-
-		FRA_p_d_s_i = {
-			
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = FRA_factory_strikes
-			
-			modifier = {
-				consumer_goods_factor = -0.15
 			}
 		}
 	}

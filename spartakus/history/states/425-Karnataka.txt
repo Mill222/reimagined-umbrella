@@ -18,7 +18,7 @@ state={
 		victory_points = { 4344 1 } #Mysore
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 3
+			industrial_complex = 1
 		}
 
 	}

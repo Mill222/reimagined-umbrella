@@ -52,6 +52,49 @@ country_event = {
 	}
 }
 
+country_event = { #Goltz Train Bombing
+	id = liv.10
+	title = liv.10.t
+	desc = liv.10.d
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = liv.10.a
+		custom_effect_tooltip = LIV_train_bombing_tt
+		add_manpower = -17
+		add_stability = -0.05
+		hidden_effect = {
+			add_popularity = {
+				ideology = right_wing_populist popularity = -0.05
+			}
+		}
+	}
+}
+
+country_event = { #The Investigation
+	id = liv.11
+	title = liv.11.t
+	desc = liv.11.d
+	picture = GFX_report_event_aid_pact
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = liv.11.a
+		custom_effect_tooltip = LIV_investigation_tt
+		add_political_power = 20
+		hidden_effect = {
+			add_popularity = {
+				ideology = right_wing_populist popularity = -0.05
+			}
+		}
+	}
+}
+
 #Livonia Foci Events
 
 country_event = {
@@ -167,13 +210,34 @@ country_event = {
 
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	
 	option = {
 		name = livfoc.3.a
+		set_country_flag = LIV_reform_freikorps
+		custom_effect_tooltip = LIV_reform_freikorps_event_tt
+		add_stability = 0.05
+		add_political_power = 50
+		hidden_effect = {
+			add_popularity = {
+				ideology = social_conservative popularity = 0.05
+			}
+			add_popularity = {
+				ideology = social_liberal popularity = 0.05
+			}
+		}
+		
+		ai_chance = {
+			factor = 60
+		}
+	}
+
+	option = {
+		name = livfoc.3.b
 		set_country_flag = LIV_support_freikorps
 		custom_effect_tooltip = LIV_support_freikorps_event_tt
 		add_war_support = 0.05
-		political_power = -50
+		add_political_power = -50
+		add_manpower = 1000
 		hidden_effect = {
 			add_popularity = {
 				ideology = right_wing_populist popularity = 0.05
@@ -187,13 +251,42 @@ country_event = {
 			factor = 40
 		}
 	}
+}
+
+country_event = {
+	id = livfoc.4
+	title = livfoc.4.t
+	desc = livfoc.4.d
+	picture = GFX_report_event_lithuania_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
 	
 	option = {
-		name = livfoc.3.b
+		name = livfoc.4.a
+		set_country_flag = LIV_provided_pensions
+		custom_effect_tooltip = LIV_provide_pensions_event_tt
+		add_political_power = -50
+		add_ideas = LIV_soldiers_pensions
+		hidden_effect = {
+			add_popularity = {
+				ideology = right_wing_populist popularity = 0.05
+			}
+			add_popularity = {
+				ideology = national_syndicalist popularity = 0.05
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = livfoc.4.b
 		set_country_flag = LIV_reform_freikorps
 		custom_effect_tooltip = LIV_reform_freikorps_event_tt
-		add_stability = 0.05
-		political_power = 50
+		add_war_support = -0.05
 		hidden_effect = {
 			add_popularity = {
 				ideology = social_conservative popularity = 0.05
@@ -204,7 +297,7 @@ country_event = {
 		}
 		
 		ai_chance = {
-			factor = 60
+			factor = 50
 		}
 	}
 }

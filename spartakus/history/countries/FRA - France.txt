@@ -76,11 +76,7 @@ set_autonomy = {
 	autonomous_state = sp_protectorate
 }
 set_autonomy = {
-	target = WUR
-	autonomous_state = sp_autonomous
-}
-set_autonomy = {
-	target = RHI
+	target = WEI
 	autonomous_state = sp_protectorate
 }
 
@@ -90,40 +86,40 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 0
+			popularity = 5
 		}
 		marxist = {
-			popularity = 0
+			popularity = 4
 		}
 		revolutionary_socialist = {
-			popularity = 0
+			popularity = 1
 		}
 		democratic_socialist = {
-			popularity = 0
+			popularity = 15
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 4
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 16
 		}
 		liberal_conservative = {
-			popularity = 0
+			popularity = 13
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 5
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 18
 		}
 		right_wing_populist = {
-			popularity = 0
+			popularity = 9
 		}
 		national_syndicalist = {
-			popularity = 0
+			popularity = 7
 		}
 		national_corporatist = {
-			popularity = 0
+			popularity = 3
 		}
 	}
 	
@@ -138,51 +134,17 @@ add_ideas = {
 	FRA_victors_of_wwi
 	FRA_disjointed_government
 	limited_conscription
-	FRA_the_great_depression
+	FRA_stagnant_economy
 }
 
-#give_guarantee = CZE
-
-#Order matters here Daladier will start as leaders because added last
-create_country_leader = {
-	name = "Charles de Gaulle"
-	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
-	picture = "Portrait_France_Charles_De_Gaulle.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Édouard Daladier"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		stout_defender
-	}
-}
-
-create_country_leader = {
-	name = "Maurice Thorez"
-	desc = "POLITICS_MAURICE_THOREZ_DESC"
-	picture = "GFX_portrait_fra_maurice_thorez"
-	expire = "1965.1.1"
-	ideology = 	stalinism
-	traits = {
-		
-	}
-}
+give_guarantee = CZE
 
 create_country_leader = {
 	name = "Philippe Pétain"
 	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
-	picture = "Portrait_France_Philippe_Petain.dds"
+	picture = "Portrait_Phillipe_Petain.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		
 	}
@@ -229,6 +191,17 @@ create_field_marshal = {
 	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Philippe Petain"
+	picture = "Portrait_Phillipe_Petain.dds"
+	traits = { old_guard politically_connected career_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
 	logistics_skill = 2
 }
 

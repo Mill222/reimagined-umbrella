@@ -1,0 +1,23 @@
+state={
+	id=1095
+	name="STATE_1095"
+	provinces={
+		8183 13815 
+	}
+	history={
+		owner = EAF
+		add_core_of = TNZ
+		add_core_of = EAF
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			13815 1 
+		}
+
+	}
+	manpower=82900
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -9,11 +9,15 @@ SAR = {
 	color_ui = rgb { 40 40 225 }
 }
 UAE = {
-	color = rgb { 200  180  180 }
+	color = rgb { 110  180  180 }
+	color_ui = rgb { 220  200  200 }
+}
+HEJ = {
+	color = rgb { 180  160 90 }
 	color_ui = rgb { 220  200  200 }
 }
 PRU = {
-	color = rgb { 229 64 64 }
+	color = rgb { 200 32 25 }
 	color_ui = rgb { 229 64 64 }
 }
 LIV = {
@@ -157,7 +161,7 @@ BMR = {
 	color_ui = rgb { 234 40 57 }
 }
 BOL = {
-	color = rgb { 145 128 149 }
+	color = rgb { 77 128 149 }
 	color_ui = rgb { 145 128 149 }
 }
 BOS = {
@@ -169,7 +173,7 @@ BOT = {
 	color_ui = rgb { 117 170 219 }
 }
 BRA = {
-	color = rgb { 100 180 0 }
+	color = rgb { 70 170 0 }
 	color_ui = rgb { 100 180 0 }
 }
 BRD = {
@@ -217,7 +221,7 @@ CHI = {
 	color_ui = rgb { 255 197 0 }
 }
 CHL = {
-	color = rgb { 0 89 132 }
+	color = rgb { 120 89 132 }
 	color_ui = rgb { 0 89 132 }
 }
 CIN = {
@@ -275,6 +279,10 @@ DEN = {
 DOM = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 171 190 152 }
+}
+EAF = {
+	color = rgb { 80 27 190 }
+	color_ui = rgb { 45 12 78 }
 }
 ECU = {
 	color = rgb { 255 255 158 }
@@ -337,7 +345,7 @@ GRE = {
 	color_ui = rgb { 121 235 255 }
 }
 GUA = {
-	color = rgb { 159 39 43 }
+	color = rgb { 54 29 225 }
 	color_ui = rgb { 159 39 43 }
 }
 GWL = {

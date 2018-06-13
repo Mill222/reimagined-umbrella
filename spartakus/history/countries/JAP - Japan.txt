@@ -2,8 +2,8 @@
 
 oob = "JAP_1936"
 
-set_stability = 0.2
-set_war_support = 0.8
+set_stability = 0.22
+set_war_support = 0.6
 
 set_research_slots = 4
 
@@ -78,10 +78,10 @@ set_politics = {
 			popularity = 0
 		}
 		authoritarian_democrat = {
-		    popularity = 0
+		    popularity = 100
 		}
 		right_wing_populist = {
-			popularity = 100
+			popularity = 0
 		}
 		national_syndicalist = {
 			popularity = 0
@@ -91,7 +91,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = right_wing_populist
+	ruling_party = authoritarian_democrat
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -103,32 +103,11 @@ create_country_leader = {
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "Portrait_Japan_Hirohito.dds"
 	expire = "1989.1.1"
-	ideology = fascism_ideology
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		warrior_code
 		emperor_showa
 		imperial_sanction
-	}
-	id = 700 #Hirohito
-}
-
-create_country_leader = {
-	name = "Kyuichi Tokuda"
-	desc = "POLITICS_Hirohito_DESC"
-	picture = "GFX_Portrait_kyuichi_tokuda"
-	expire = "1989.1.1"
-	ideology = marxism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Tetsu Katayama"
-	desc = "POLITICS_Hirohito_DESC"
-	picture = "GFX_Portrait_tetsu_katayama"
-	expire = "1989.1.1"
-	ideology = liberalism
-	traits = {
 	}
 }
 

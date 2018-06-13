@@ -1,6 +1,6 @@
 ﻿capital = 773
 
-oob = "TUR_1936"
+oob = "TUR"
 
 set_research_slots = 2
 

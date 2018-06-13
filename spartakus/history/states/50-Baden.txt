@@ -11,7 +11,7 @@ state={
 		add_core_of = WUR
 		add_claim_by = GER
 		victory_points = {
-			9517 5 
+			9517 10
 		}
 		victory_points = {
 			11499 2 
@@ -22,7 +22,7 @@ state={
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2
-			industrial_complex = 1
+			industrial_complex = 2
 			air_base = 3
 			
 			9545 = {
@@ -52,7 +52,7 @@ state={
 	provinces={
 		519 694 3679 3690 6555 6934 9517 9545 9655 11486 11499 13126 
 	}
-	manpower=2580235
+	manpower=2780235
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=megalopolis
 }

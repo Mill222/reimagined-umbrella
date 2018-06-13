@@ -1,0 +1,709 @@
+ideas = {
+
+#################
+# Romania Ideas #
+#################
+
+	country = {
+	
+		ROM_SP_king_carol = {
+			picture = ROM_carol
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = 0.5
+			}
+		}
+		
+		ROM_king_michael = {
+			picture = ROM_michael
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.02
+			}
+		}
+		
+		ROM_monarchy_abolished = {
+			picture = generic_king_handled
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.15
+			}
+		}
+		
+		ROM_rural_population = {
+			picture = generic_agrarian_society
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				global_building_slots_factor = -0.3
+				research_time_factor = 0.05
+			}
+		}
+		
+		ROM_rural_population_2 = {
+			picture = generic_agrarian_society
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				global_building_slots_factor = -0.15
+				research_time_factor = 0.05
+			}
+		}
+		
+		ROM_rural_population_3 = {
+			picture = generic_agrarian_society
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_time_factor = 0.05
+			}
+		}
+		
+		ROM_rural_population_4 = {
+			picture = generic_agrarian_society
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				global_building_slots_factor = -0.15
+				research_time_factor = 0.03
+			}
+		}
+		
+		ROM_rural_population_5 = {
+			picture = generic_agrarian_society
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				global_building_slots_factor = -0.1
+				research_time_factor = 0.05
+			}
+		}
+		
+		ROM_rural_population_6 = {
+			picture = generic_agrarian_society
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				global_building_slots_factor = -0.05
+				research_time_factor = 0.02
+			}
+		}
+		
+		ROM_subsidies = {
+			picture = IRE_debt_vlow
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.1
+				conscription = 0.1
+				consumer_goods_factor = -0.15
+			}
+		}
+		
+		ROM_rural_reform = {
+			picture = IRE_taxation
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_arms_factory_factor = 0.15
+				production_speed_infrastructure_factor = 0.15
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		ROM_great_depression = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -1
+				industrial_capacity_factory = -0.2
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.3
+			}
+		}
+		
+		ROM_great_depression_cor1 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -1
+				industrial_capacity_factory = -0.1
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.2
+			}
+		}
+		
+		ROM_great_depression_cor2 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.05
+				industrial_capacity_factory = -0.05
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = -0.1
+			}
+		}
+		
+		ROM_great_depression_wlf1 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.05
+				industrial_capacity_factory = -0.15
+				consumer_goods_factor = 0.25
+				production_speed_buildings_factor = -0.3
+			}
+		}
+		
+		ROM_great_depression_wlf2 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = -0.1
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.3
+			}
+		}
+		
+		ROM_great_depression_aus1 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.5
+				industrial_capacity_factory = -0.2
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.3
+			}
+		}
+		
+		ROM_great_depression_aus2 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.2
+				production_speed_buildings_factor = -0.3
+			}
+		}
+		
+		ROM_industrial_unrest = {
+			picture = KTG_Industrial_Crisis_Factories
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.2
+				conscription = -0.15
+				production_factory_max_efficiency_factor = -0.2
+				economy_cost_factor = 0.4
+			}
+		}
+		
+		ROM_industrial_unrest_2 = {
+			picture = KTG_Industrial_Crisis_Factories
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.2
+				conscription = -0.15
+				production_factory_max_efficiency_factor = -0.1
+				economy_cost_factor = 0.2
+			}
+		}
+		
+		ROM_industrial_unrest_3 = {
+			picture = KTG_Industrial_Crisis_Factories
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.02
+				war_support_factor = -0.2
+				conscription = -0.15
+			}
+		}
+		
+		ROM_industrial_unrest_4 = {
+			picture = KTG_Industrial_Crisis_Factories
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = -0.2
+				conscription = -0.15
+				production_factory_max_efficiency_factor = -0.1
+				economy_cost_factor = 0.2
+			}
+		}
+		
+		ROM_industrial_unrest_5 = {
+			picture = KTG_Industrial_Crisis_Factories
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = -0.1
+				conscription = -0.05
+				production_factory_max_efficiency_factor = -0.05
+				economy_cost_factor = 0.1
+			}
+		}
+		
+		ROM_industrial_unrest_6 = {
+			picture = KTG_Industrial_Crisis_Factories
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.15
+				conscription = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				economy_cost_factor = 0.35
+			}
+		}
+		
+		ROM_industrial_unrest_7 = {
+			picture = KTG_Industrial_Crisis_Factories
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.02
+				war_support_factor = -0.05
+				production_factory_max_efficiency_factor = -0.05
+				economy_cost_factor = 0.35
+			}
+		}
+		
+		ROM_seized_land = {
+			picture = state_economy
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				global_building_slots_factor = 0.15
+				local_resources_factor = 0.2
+				conversion_cost_civ_to_mil_factor = -0.3
+			}
+		
+		}
+		
+		ROM_towns = {
+			picture = GFX_idea_backward_industry
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				local_resources_factor = 0.2
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		ROM_french_scientists = {
+			picture = idea_jap_duplicate_research
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			research_bonus = { industry = 0.05 }
+			research_bonus = { electronics = 0.05 }
+			
+		}
+		
+		ROM_romanian_scientists = {
+			picture = generic_research_bonus
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			research_bonus = { land_doctrine = 0.05 }
+			research_bonus = { infantry_weapons = 0.05 }
+		
+		}
+		
+		ROM_bootcamp = {
+			picture = generic_infantry_bonus
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				training_time_army_factor = -0.3
+				experience_gain_army = 0.05
+
+			}
+		}
+		
+		ROM_devotion = {
+			picture = FRA_scw_intervention_nationalists_focus
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				army_attack_factor = 0.15
+				army_speed_factor = 0.05
+				army_morale_factor = 0.05
+				attrition = -0.1
+
+
+			}
+		}
+		
+		ROM_hoxhaism = {
+			picture = generic_fortify_the_borders
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				production_speed_bunker_factor = 0.3
+				production_speed_anti_air_building_factor = 0.15
+				production_speed_radar_station_factor = 0.15
+			}
+		}
+		
+		ROM_tranred = {
+			picture = ast_volunteer_defence_corps
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				max_dig_in = 1
+				land_reinforce_rate = 0.15
+				planning_speed = 0.10
+				out_of_supply_factor = -0.5
+
+			}
+		}
+		
+		ROM_ndp = {
+			picture = generic_reserve_divisions
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				army_core_defence_factor = 0.15
+				army_core_attack_factor = 0.15
+				army_org_Factor = 0.05
+				max_planning = 0.25
+			}
+		}
+		
+		ROM_cugir = {
+			picture = FRA_factory_strikes
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				support_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+	}
+	
+#############
+# Companies #
+#############
+
+#### General ####
+industrial_concern = {
+
+}
+
+#### Weapons Manufacturer ####
+weapons_manufacturer = {
+	designer = yes
+	
+	ROM_ior = {
+		allowed = { 
+			OR = {
+				original_tag = ROM
+			}
+		}
+		picture = generic_infantry_equipment_manufacturer_1
+		traits = { infantry_equipment_producer_offense_1 }
+		modifier = {}
+		research_bonus = {
+			infantry_weapons = 0.1
+		}
+	}
+}
+
+#### Heavy Equipment Manufacturer ####
+tank_manufacturer = {
+	designer = yes
+}
+	
+#### Air and Naval Manufacturer ####
+air_naval_manufacturer = {
+	designer = yes
+
+	ROM_iar = {
+		allowed = { 
+			OR = {
+				original_tag = ROM
+			}
+		}
+		picture = generic_air_manufacturer_3
+		traits = { light_aircraft_manufacturer }
+			
+			research_bonus = {
+				air_equipment = 0.05
+			}			
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					air_attack = 0.1
+				}
+				cv_fighter_equipment = {
+					air_attack = 0.1
+				}
+				CAS_equipment = {
+					air_ground_attack = 0.1
+				}
+				cv_CAS_equipment = {
+					air_ground_attack = 0.1
+				}
+			}
+	}
+	
+	ROM_set = {
+		allowed = { 
+			OR = {
+				original_tag = ROM
+			}
+		}
+		picture = generic_air_manufacturer_2
+		traits = { heavy_aircraft_manufacturer }
+		modifier = {}
+			
+			research_bonus = {
+				air_equipment = 0.05
+			}			
+			
+			equipment_bonus = {
+				tac_bomber_equipment = {
+					air_ground_attack = 0.1
+					build_cost_ic = -0.1
+				}
+				nav_bomber_equipment = {
+					naval_strike_attack = 0.1
+					build_cost_ic = -0.1
+				}
+				cv_nav_bomber_equipment = {
+					naval_strike_attack = 0.1
+					build_cost_ic = -0.1
+				}
+			}
+	}
+	
+	ROM_icar = {
+		allowed = { 
+			OR = {
+				original_tag = ROM
+			}
+		}
+		picture = generic_air_bonus
+		traits = { heavy_aircraft_manufacturer }
+			research_bonus = {
+				air_equipment = 0.05
+			}			
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					air_agility = 0.15
+				}
+				cv_fighter_equipment = {
+					air_agility = 0.15
+				}
+				heavy_fighter_equipment = {
+					air_agility = 0.15
+				}
+			}
+	}
+}
+}

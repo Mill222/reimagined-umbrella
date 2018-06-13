@@ -59,127 +59,74 @@ set_politics = {
 
 }
 
-
-
 create_country_leader = {
-	name = "Humphrey Chukwuka"
-	desc = "POLITICS_HUMPHREY_DESC"
-	picture = "Portrait_NGR_Humpfrey.tga"
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {}
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
-	name = "Benjamin Nnamdi Azikiwe"
-	desc = "POLITICS_NNAMDI_DESC"
-	picture = "Portrait_NGR_Benjamin_Azikiwe.tga"
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {}
+	ideology = right_wing_populist_subtype
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
-	name = "Funmilayo Ransome Kuti"
-	desc = "POLITICS_RANSOMEKUTI_DESC"
-	picture = "Portrait_NGR_Ransome.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Obafemi Awolowo"
-	desc = "POLITICS_OBAFEMI_DESC"
-	picture = "Portrait_NGR_Obafemi.tga"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Christopher Earle Welby-Everard"
-	desc = "POLITICS_OBAFEMI_DESC"
-	picture = "gfx/leaders/Generic/Portrait_Europe_Generic_new_2.tga"
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
-	traits = {}
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
-	name = "Michael Athokhamien Imoudu"
-	desc = "POLITICS_OBAFEMI_DESC"
-	picture = "Portrait_NGR_Obafemi.tga"
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
-	ideology = syndicalist_subtype
-	traits = {}
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
-	name = "Hezekiah Oladipo Davies"
-	desc = "POLITICS_OLDADIPO_DESC"
-	picture = "Portrait_NGR_Oladipo.tga"
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
-	traits = {}
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
-	name = "Samuel Akisanya"
-	desc = "POLITICS_OBAFEMI_DESC"
-	picture = "Portrait_NGR_Obafemi.tga"
-	expire = "1965.1.1"
-	ideology = totalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Francis Akanu Ibiam"
-	desc = "POLITICS_OBAFEMI_DESC"
-	picture = "Portrait_NGR_Obafemi.tga"
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
-	traits = {}
+	traits = {
+		#
+	}
 }
 
 
 ### Field Marshal
 ### Corps Commander
-create_corps_commander = { #Auto-Generated
-	name = "Banks-MacDonald"
-	portrait_path = "gfx/leaders/NIG/Portrait_NIG_Banks_MacDonald.tga"
-	traits = {
-		fortress_buster
-		old_guard
-	}
-	skill = 1
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "de L'Isle"
-	portrait_path = "gfx/leaders/NIG/Portrait_NIG_de_Isle.tga"
-	traits = {
-		old_guard
-	}
-	skill = 1
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Dickinson"
-	portrait_path = "gfx/leaders/NIG/Portrait_NIG_Dickinson.tga"
-	traits = {
-		trait_engineer
-		old_guard
-	}
-	skill = 1
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Hilton-Green"
-	portrait_path = "gfx/leaders/NIG/Portrait_NIG_Hilton_Green.tga"
-	traits = {
-	}
-	skill = 1
-}
 
 ### Navy Leader

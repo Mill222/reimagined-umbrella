@@ -1997,6 +1997,53 @@ spriteTypes = {
 		name = "GFX_argentina_rosario"
 		texturefile = "gfx/event_pictures/Rosario.dds"
 	}
+	spriteType = {
+		name = "GFX_argentina_funeral"
+		texturefile = "gfx/event_pictures/Uriburu.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_casa_rosada"
+		texturefile = "gfx/event_pictures/Casa_Rosada.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_authoritarian_election"
+		texturefile = "gfx/event_pictures/Election_auth.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_march"
+		texturefile = "gfx/event_pictures/March.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_campo"
+		texturefile = "gfx/event_pictures/Campo.dds"
+	}
+	
+	### Romania ###
+	
+	spriteType = {
+		name = "GFX_ROM_map"
+		texturefile = "gfx/event_pictures/ROM_map.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_hungary"
+		texturefile = "gfx/event_pictures/ROM_hungary.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_slovakia"
+		texturefile = "gfx/event_pictures/ROM_slovakia.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_poland"
+		texturefile = "gfx/event_pictures/ROM_poland.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_banatmap"
+		texturefile = "gfx/event_pictures/ROM_banatmap.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_farmpic"
+		texturefile = "gfx/event_pictures/ROM_farmpic.dds"
+	}
 }
 	
 	

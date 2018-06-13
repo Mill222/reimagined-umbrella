@@ -3,15 +3,12 @@ state={
 	id=542
 	name="STATE_542"
 	resources={
-		chromium=168.000
+		chromium=98.000
 	}
 
 	history={
 		owner = BOT
 		add_core_of = BOT
-		victory_points = {
-			8214 1 
-		}
 		buildings = {
 			infrastructure = 1
 
@@ -20,9 +17,9 @@ state={
 	}
 
 	provinces={
-		1580 8214 10525 12940 12963 
+		10525 13904 13905 13911 13913 13915 13916 13918 13920 13922 13923 13924 13927 13928 13932 
 	}
-	manpower=234000
+	manpower=106000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }

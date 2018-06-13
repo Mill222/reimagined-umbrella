@@ -1,32 +1,31 @@
+
 state={
 	id=72
-	name="STATE_72" # Burmese part of Shan States
+	name="STATE_72"
 	resources={
-		steel=10
+		steel=10.000
 	}
+
 	history={
 		owner = BMR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		add_core_of = BUR
 		add_core_of = BMR
-		add_core_of=RAJ
-#		victory_points = {
-#			1170 1
-#		}
-#		victory_points = {
-#			7562 1  # Hsipaw
-#		}
+		add_core_of = RAJ
 		victory_points = {
-			7603 1 # Taungyi
+			7603 1 
 		}
+
 	}
+
 	provinces={
-		1170 1566 1607 2061 4654 7562 7603 12363
+		1082 4588 7469 10386 10486 10920 12335 12464 12492 
 	}
 	manpower=970000
-	state_category = rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

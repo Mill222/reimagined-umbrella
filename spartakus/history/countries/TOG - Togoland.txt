@@ -1,10 +1,8 @@
 ﻿capital = 877
 OOB = "empty"
 
-set_cosmetic_tag = TOG_ITA
-
 set_technology = {}
-set_research_slots = 2
+set_research_slots = 1
 set_politics = {
 
 	parties = {

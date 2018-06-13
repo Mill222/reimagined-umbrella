@@ -1,0 +1,350 @@
+### Scripted Effects for Opinion Modifiers and Trade Opinion
+### Written by NatSpi
+
+SP_ideology_opinion_gamestart_setup = {
+	if = {
+		limit = {
+			has_socialist_government = yes
+		}
+		every_country = {
+			limit = {
+				has_socialist_government = yes
+				NOT = { has_same_government_as_ROOT = yes }
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					has_elected_government = yes
+					has_authoritarian_government = yes
+				}
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_different_ideology
+			}
+			SP_soc_cap_embargo_effect = yes
+		}
+	}
+	if = {
+		limit = {
+			has_elected_government = yes
+		}
+		every_country = {
+			limit = {
+				has_elected_government = yes
+				NOT = { has_same_government_as_ROOT = yes }
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					has_socialist_government = yes
+					has_authoritarian_government = yes
+				}
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_different_ideology
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_authoritarian_government = yes
+		}
+		every_country = {
+			limit = {
+				has_authoritarian_government = yes
+				NOT = { has_same_government_as_ROOT = yes }
+			}
+			add_opinion_modifier = {
+					target = ROOT
+				modifier = SP_similar_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					has_elected_government = yes
+					has_socialist_government = yes
+				}
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_different_ideology
+			}
+		}
+	}
+	every_country = {
+			limit = {
+			has_same_government_as_ROOT = yes
+		}
+		add_opinion_modifier = {
+			target = ROOT
+			modifier = SP_same_ideology
+		}
+	}
+}
+
+SP_ideology_opinion_govtchange_setup = {
+	if = {
+		limit = {
+			has_socialist_government = yes
+		}
+		every_country = {
+			limit = {
+				has_socialist_government = yes
+				NOT = { has_same_government_as_ROOT = yes }
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+			reverse_add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					has_elected_government = yes
+					has_authoritarian_government = yes
+				}
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_different_ideology
+			}
+			reverse_add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_different_ideology
+			}
+			SP_soc_cap_embargo_effect = yes
+		}
+	}
+	if = {
+		limit = {
+			has_elected_government = yes
+		}
+		every_country = {
+			limit = {
+				has_elected_government = yes
+				NOT = { has_same_government_as_ROOT = yes }
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+			reverse_add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					has_socialist_government = yes
+					has_authoritarian_government = yes
+				}
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_different_ideology
+			}
+			reverse_add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_different_ideology
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_authoritarian_government = yes
+		}
+		every_country = {
+			limit = {
+				has_authoritarian_government = yes
+				NOT = { has_same_government_as_ROOT = yes }
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+			reverse_add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					has_elected_government = yes
+					has_socialist_government = yes
+				}
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_different_ideology
+			}
+			reverse_add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_different_ideology
+			}
+		}
+	}
+	every_country = {
+		limit = {
+			has_same_government_as_ROOT = yes
+		}
+		add_opinion_modifier = {
+			target = ROOT
+			modifier = SP_same_ideology
+		}
+		reverse_add_opinion_modifier = {
+			target = ROOT
+			modifier = SP_same_ideology
+		}
+	}
+}
+
+SP_soc_cap_embargo_effect = {
+	if = {
+		limit = {
+			NOT = {
+				OR = {
+					has_country_flag = SP_will_trade_@ROOT
+					ROOT = { has_country_flag = SP_will_trade_@PREV }
+				}
+			}
+		}
+		add_opinion_modifier = {
+			target = ROOT
+			modifier = SP_soc_cap_embargo
+		}
+		reverse_add_opinion_modifier = {
+			target = ROOT
+			modifier = SP_soc_cap_embargo
+		}
+	}
+}
+
+SP_remove_ideology_opinion = {
+	every_country = {
+		remove_opinion_modifier = {
+			target = ROOT
+			modifier = SP_similar_ideology
+		}
+		ROOT = {
+			remove_opinion_modifier = {
+				target = PREV
+				modifier = SP_similar_ideology
+			}
+		}
+		remove_opinion_modifier = {
+			target = ROOT
+			modifier = SP_different_ideology
+		}
+		ROOT = {
+			remove_opinion_modifier = {
+				target = PREV
+				modifier = SP_different_ideology
+			}
+		}
+		remove_opinion_modifier = {
+			target = ROOT
+			modifier = SP_same_ideology
+		}
+		ROOT = {
+			remove_opinion_modifier = {
+				target = PREV
+				modifier = SP_same_ideology
+			}
+		}
+	}
+}
+
+SP_NS_coalition_pop_eval = {
+	set_variable = { NS_ruling_party_pop = party_popularity@ruling_party }
+	if = {
+		limit = {
+			has_country_flag = coalition_leninist
+			add_to_variable = { NS_ruling_party_pop = party_popularity@leninist }
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_marxist
+			add_to_variable = { NS_ruling_party_pop = party_popularity@marxist }
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_revolutionary_socialist
+			add_to_variable = { NS_ruling_party_pop = party_popularity@revolutionary_socialist }
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_democratic_socialist
+			add_to_variable = { NS_ruling_party_pop = party_popularity@democratic_socialist }
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_social_democrat
+			add_to_variable = { NS_ruling_party_pop = party_popularity@social_democrat }
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_social_liberal
+			add_to_variable = { NS_ruling_party_pop = party_popularity@social_liberal }
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_liberal_conservative
+			add_to_variable = { NS_ruling_party_pop = party_popularity@liberal_conservative }
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_social_conservative
+			add_to_variable = { NS_ruling_party_pop = party_popularity@social_conservative }
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_authoritarian_democrat
+			add_to_variable = { NS_ruling_party_pop = party_popularity@authoritarian_democrat }
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_right_wing_populist
+			add_to_variable = { NS_ruling_party_pop = party_popularity@right_wing_populist }
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_national_syndicalist
+			add_to_variable = { NS_ruling_party_pop = party_popularity@national_syndicalist }
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_national_corporatist
+			add_to_variable = { NS_ruling_party_pop = party_popularity@national_corporatist }
+		}
+	}
+}

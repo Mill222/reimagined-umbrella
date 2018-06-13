@@ -2,8 +2,6 @@
 OOB = "SOM"
 set_research_slots = 3
 
-set_cosmetic_tag = SOM_ITA
-
 set_technology = {
 	### General ###
 	shipbuild_basics = 1

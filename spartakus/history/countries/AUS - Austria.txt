@@ -16,8 +16,6 @@ set_technology = {
 
 set_politics = {
 
-	set_politics = {
-
 	parties = {
 		leninist = {
 			popularity = 0

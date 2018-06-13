@@ -4,7 +4,7 @@ state={
 	name="STATE_448"
 
 	history={
-		owner = LBA
+		owner = ITA
 		add_core_of = LBA
 		victory_points = {
 			1149 1 
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		1149 1189 4194 12039 
+		1149 1189 4194 7066 7209 12039 
 	}
 	manpower=469136
 	buildings_max_level_factor=1.000

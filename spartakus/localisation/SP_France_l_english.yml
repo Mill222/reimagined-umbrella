@@ -1,0 +1,43 @@
+﻿l_english:
+# Events
+
+# Decisions & Missions
+
+# Custom Tooltips
+
+# Focuses
+
+# Ideas
+FRA_stagnant_economy:0 "Stagnant Economy"
+FRA_stagnant_economy_desc:0 "Our economy has stagnated over the years since the Great War, and lack of reparations and industrial growth means our capabilities are crippled. Any new disaster would surely be the end for France."
+
+# Traits
+
+### Parties ###
+
+FRA_leninist_party:0 "FPP - PCF"
+FRA_leninist_party_long:0 "Front de pouvoir populaire - Parti communiste français"
+FRA_marxist_party:0 "FPP - PCF"
+FRA_marxist_party_long:0 "Front de pouvoir populaire - Parti communiste français"
+FRA_revolutionary_socialist_party:0 "FPP - SFIO"
+FRA_revolutionary_socialist_party_long:0 "Front de pouvoir populaire -  Section Française de l'Internationale Ouvrière"
+FRA_democratic_socialist_party:0 "FPP - SFIO"
+FRA_democratic_socialist_party_long:0 "Front de pouvoir populaire -  Section Française de l'Internationale Ouvrière"
+FRA_social_democrat_party:0 "FPP - PRS"
+FRA_social_democrat_party_long:0 "Front de pouvoir populaire - Parti républicain-socialiste"
+FRA_social_liberal_party:0 "BN - Rad."
+FRA_social_liberal_party_long:0 "Bloc national - Parti radical valoisien"
+FRA_liberal_conservative_party:0 "BN - AD"
+FRA_liberal_conservative_party_long:0 "Bloc national - Alliance démocratique"
+FRA_social_conservative_party:0 "BN - PDP"
+FRA_social_conservative_party_long:0 "Bloc national - Parti démocrate populaire"
+FRA_authoritarian_democrat_party:0 "Stability Council"
+FRA_authoritarian_democrat_party_long:0 "Conseil national de stabilité"
+FRA_right_wing_populist_party:0 "BNR - FR"
+FRA_right_wing_populist_party_long:0 "Bloc national de rajeunissement - Fédération républicaine"
+FRA_national_syndicalist_party:0 "BNR - AF"
+FRA_national_syndicalist_party_long:0 "Bloc national de rajeunissement - Action Française"
+FRA_national_corporatist_party:0 "BNR - CF"
+FRA_national_corporatist_party_long:0 "Bloc national de rajeunissement - Croix-de-Feu"
+
+# Opinion Modifiers

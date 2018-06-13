@@ -17,66 +17,13 @@ country_event = {
 	desc = sp.political.11.d
 	picture = popularity_rising
 
-	fire_only_once = no
+	is_triggered_only = yes
 
 	trigger = {
 		NOT = { 
 			has_idea = very_high_popularity
 		}
-		OR = {
-			AND = {
-				has_government = leninist
-				leninist > 0.799
-			}
-			AND = {
-				has_government = national_corporatist
-				national_corporatist > 0.799
-			}
-			AND = {
-				has_government = democratic_socialist
-				democratic_socialist > 0.799
-			}
-			AND = {
-				has_government = marxist
-				marxist > 0.799
-			}
-			AND = {
-				has_government = revolutionary_socialist
-				revolutionary_socialist > 0.799
-			}
-			AND = {
-				has_government = social_democrat
-				social_democrat > 0.799
-			}
-			AND = {
-				has_government = social_liberal
-				social_liberal > 0.799
-			}
-			AND = {
-				has_government = liberal_conservative
-				liberal_conservative > 0.799
-			}
-			AND = {
-				has_government = social_conservative
-				social_conservative > 0.799
-			}
-			AND = {
-				has_government = authoritarian_democrat
-				authoritarian_democrat > 0.799
-			}
-			AND = {
-				has_government = right_wing_populist
-				right_wing_populist > 0.799
-			}
-			AND = {
-				has_government = national_syndicalist
-				national_syndicalist > 0.799
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 2
+		check_variable = { NS_ruling_party_pop > 0.799 }
 	}
 
 	option = {
@@ -111,78 +58,14 @@ country_event = {
 	desc = sp.political.12.d
 	picture = diplomacy2
 
-	fire_only_once = no
+	is_triggered_only = yes
 
 	trigger = {
 		NOT = { 
 			has_idea = high_popularity
 		}
-		OR = {
-			AND = {
-				has_government = leninist
-				leninist < 0.8
-				leninist > 0.599
-			}
-			AND = {
-				has_government = national_corporatist
-				national_corporatist < 0.8
-				national_corporatist > 0.599
-			}
-			AND = {
-				has_government = democratic_socialist
-				democratic_socialist < 0.8
-				democratic_socialist > 0.599
-			}
-			AND = {
-				has_government = marxist
-				marxist < 0.8
-				marxist > 0.599
-			}
-			AND = {
-				has_government = revolutionary_socialist
-				revolutionary_socialist < 0.8
-				revolutionary_socialist > 0.599
-			}
-			AND = {
-				has_government = social_democrat
-				social_democrat < 0.8
-				social_democrat > 0.599
-			}
-			AND = {
-				has_government = social_liberal
-				social_liberal < 0.8
-				social_liberal > 0.599
-			}
-			AND = {
-				has_government = liberal_conservative
-				liberal_conservative < 0.8
-				liberal_conservative > 0.599
-			}
-			AND = {
-				has_government = social_conservative
-				social_conservative < 0.8
-				social_conservative > 0.599
-			}
-			AND = {
-				has_government = authoritarian_democrat
-				authoritarian_democrat < 0.8
-				authoritarian_democrat > 0.599
-			}
-			AND = {
-				has_government = right_wing_populist
-				right_wing_populist < 0.8
-				right_wing_populist > 0.599
-			}
-			AND = {
-				has_government = national_syndicalist
-				national_syndicalist < 0.8
-				national_syndicalist > 0.599
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 2
+		check_variable = { NS_ruling_party_pop < 0.8 }
+		check_variable = { NS_ruling_party_pop > 0.599 }
 	}
 
 	option = {
@@ -215,78 +98,14 @@ country_event = {
 	desc = sp.political.13.d
 	picture = diplomacy4
 
-	fire_only_once = no
+	is_triggered_only = yes
 
 	trigger = {
 		NOT = { 
 			has_idea = normal_popularity
 		}
-		OR = {
-			AND = {
-				has_government = leninist
-				leninist < 0.6
-				leninist > 0.399
-			}
-			AND = {
-				has_government = national_corporatist
-				national_corporatist < 0.6
-				national_corporatist > 0.399
-			}
-			AND = {
-				has_government = democratic_socialist
-				democratic_socialist < 0.6
-				democratic_socialist > 0.399
-			}
-			AND = {
-				has_government = marxist
-				marxist < 0.6
-				marxist > 0.399
-			}
-			AND = {
-				has_government = revolutionary_socialist
-				revolutionary_socialist < 0.6
-				revolutionary_socialist > 0.399
-			}
-			AND = {
-				has_government = social_democrat
-				social_democrat < 0.6
-				social_democrat > 0.399
-			}
-			AND = {
-				has_government = social_liberal
-				social_liberal < 0.6
-				social_liberal > 0.399
-			}
-			AND = {
-				has_government = liberal_conservative
-				liberal_conservative < 0.6
-				liberal_conservative > 0.399
-			}
-			AND = {
-				has_government = social_conservative
-				social_conservative < 0.6
-				social_conservative > 0.399
-			}
-			AND = {
-				has_government = authoritarian_democrat
-				authoritarian_democrat < 0.6
-				authoritarian_democrat > 0.399
-			}
-			AND = {
-				has_government = right_wing_populist
-				right_wing_populist < 0.6
-				right_wing_populist > 0.399
-			}
-			AND = {
-				has_government = national_syndicalist
-				national_syndicalist < 0.6
-				national_syndicalist > 0.399
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 2
+		check_variable = { NS_ruling_party_pop < 0.6 }
+		check_variable = { NS_ruling_party_pop > 0.399 }
 	}
 
 	option = {
@@ -319,78 +138,14 @@ country_event = {
 	desc = sp.political.14.d
 	picture = GFX_report_event_gathering_protest
 
-	fire_only_once = no
+	is_triggered_only = yes
 
 	trigger = {
 		NOT = { 
 			has_idea = low_popularity
 		}
-		OR = {
-			AND = {
-				has_government = leninist
-				leninist < 0.4
-				leninist > 0.199
-			}
-			AND = {
-				has_government = national_corporatist
-				national_corporatist < 0.4
-				national_corporatist > 0.199
-			}
-			AND = {
-				has_government = democratic_socialist
-				democratic_socialist < 0.4
-				democratic_socialist > 0.199
-			}
-			AND = {
-				has_government = marxist
-				marxist < 0.4
-				marxist > 0.199
-			}
-			AND = {
-				has_government = revolutionary_socialist
-				revolutionary_socialist < 0.4
-				revolutionary_socialist > 0.199
-			}
-			AND = {
-				has_government = social_democrat
-				social_democrat < 0.4
-				social_democrat > 0.199
-			}
-			AND = {
-				has_government = social_liberal
-				social_liberal < 0.4
-				social_liberal > 0.199
-			}
-			AND = {
-				has_government = liberal_conservative
-				liberal_conservative < 0.4
-				liberal_conservative > 0.199
-			}
-			AND = {
-				has_government = social_conservative
-				social_conservative < 0.4
-				social_conservative > 0.199
-			}
-			AND = {
-				has_government = authoritarian_democrat
-				authoritarian_democrat < 0.4
-				authoritarian_democrat > 0.199
-			}
-			AND = {
-				has_government = right_wing_populist
-				right_wing_populist < 0.4
-				right_wing_populist > 0.199
-			}
-			AND = {
-				has_government = national_syndicalist
-				national_syndicalist < 0.4
-				national_syndicalist > 0.199
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 2
+		check_variable = { NS_ruling_party_pop < 0.4 }
+		check_variable = { NS_ruling_party_pop > 0.199 }
 	}
 
 	option = {
@@ -423,70 +178,13 @@ country_event = {
 	desc = sp.political.15.d
 	picture = GFX_report_event_generic_riot
 
-	fire_only_once = no
+	is_triggered_only = yes
 
 	trigger = {
 		NOT = { 
 			has_idea = very_low_popularity
 		}
-		OR = {
-			AND = {
-				has_government = leninist
-				leninist < 0.2
-			}
-			AND = {
-				has_government = marxist
-				marxist < 0.2
-
-			}
-			AND = {
-				has_government = national_corporatist
-				national_corporatist < 0.2
-
-			}
-			AND = {
-				has_government = democratic_socialist
-				democratic_socialist < 0.2
-
-			}
-			AND = {
-				has_government = revolutionary_socialist
-				revolutionary_socialist < 0.2
-
-			}
-			AND = {
-				has_government = social_democrat
-				social_democrat < 0.2
-			}
-			AND = {
-				has_government = social_liberal
-				social_liberal < 0.2
-			}
-			AND = {
-				has_government = liberal_conservative
-				liberal_conservative < 0.2
-			}
-			AND = {
-				has_government = social_conservative
-				social_conservative < 0.2
-			}
-			AND = {
-				has_government = authoritarian_democrat
-				authoritarian_democrat < 0.2
-			}
-			AND = {
-				has_government = right_wing_populist
-				right_wing_populist < 0.2
-			}
-			AND = {
-				has_government = national_syndicalist
-				national_syndicalist < 0.2
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 2
+		check_variable = { NS_ruling_party_pop < 0.2 }
 	}
 
 	option = {
@@ -1695,27 +1393,8 @@ country_event = {
 	}
 
 	option = {
-		name = sp.political.24.b #New stability system
-		country_event = { id = sp.political.25 }
-	}
-
-		option = {
 		name = sp.political.24.c #FAQ
 		country_event = { id = sp.political.26 }
-	}
-
-}
-
-country_event = {
-	id = sp.political.25 #Stability system explanation
-	title = sp.political.25.t
-	desc = sp.political.25.d
-	
-	is_triggered_only = yes
-
-	option = {
-		name = sp.political.25.a
-		country_event = { id = sp.political.24 }
 	}
 
 }
@@ -1729,7 +1408,6 @@ country_event = {
 
 	option = {
 		name = sp.political.26.a
-		country_event = { id = sp.political.24 }
 	}
 }
 
@@ -1738,14 +1416,12 @@ country_event = {
 	id = sp.political.30
 	title = sp.political.30.t
 	desc = sp.political.30.d
+	
+	is_triggered_only = yes
 
 	trigger = {
 		has_idea = independent_war
 		has_war = no
-	}
-
-	mean_time_to_happen = {
-		days = 5
 	}
 
 	option = {
@@ -1767,168 +1443,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		if = {
-			limit = {
-				has_socialist_government = yes
-			}
-			every_country = {
-				limit = {
-					has_socialist_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_similar_ideology
-				}
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_elected_government = yes
-						has_authoritarian_government = yes
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_different_ideology
-				}
-			}
-		}
-		if = {
-			limit = {
-				has_elected_government = yes
-			}
-			every_country = {
-				limit = {
-					has_elected_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_similar_ideology
-				}
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_socialist_government = yes
-						has_authoritarian_government = yes
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_different_ideology
-				}
-			}
-		}
-		if = {
-			limit = {
-				has_authoritarian_government = yes
-			}
-			every_country = {
-				limit = {
-					has_authoritarian_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_similar_ideology
-				}
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_elected_government = yes
-						has_socialist_government = yes
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_different_ideology
-				}
-			}
-		}
-		every_country = {
-			limit = {
-				has_same_government_as_ROOT = yes
-			}
-			add_opinion_modifier = {
-				target = ROOT
-				modifier = SP_same_ideology
-			}
-		}
-		if = {
-			limit = {
-				has_government = leninist
-			}
-			set_country_flag = opinion_set_leninist
-		}
-		if = {
-			limit = {
-				has_government = revolutionary_socialist
-			}
-			set_country_flag = opinion_set_revolutionary_socialist
-		}
-		if = {
-			limit = {
-				has_government = democratic_socialist
-			}
-			set_country_flag = opinion_set_democratic_socialist
-		}
-		if = {
-			limit = {
-				has_government = marxist
-			}
-			set_country_flag = opinion_set_marxist
-		}
-		if = {
-			limit = {
-				has_government = social_democrat
-			}
-			set_country_flag = opinion_set_social_democrat
-		}
-		if = {
-			limit = {
-				has_government = social_liberal
-			}
-			set_country_flag = opinion_set_social_liberal
-		}
-		if = {
-			limit = {
-				has_government = liberal_conservative
-			}
-			set_country_flag = opinion_set_liberal_conservative
-		}
-		if = {
-			limit = {
-				has_government = social_conservative
-			}
-			set_country_flag = opinion_set_social_conservative
-		}
-		if = {
-			limit = {
-				has_government = authoritarian_democrat
-			}
-			set_country_flag = opinion_set_authoritarian_democrat
-		}
-		if = {
-			limit = {
-				has_government = right_wing_populist
-			}
-			set_country_flag = opinion_set_right_wing_populist
-		}
-		if = {
-			limit = {
-				has_government = national_syndicalist
-			}
-			set_country_flag = opinion_set_national_syndicalist
-		}
-		if = {
-			limit = {
-				has_government = national_corporatist
-			}
-			set_country_flag = opinion_set_national_corporatist
-		}
+		SP_ideology_opinion_gamestart_setup = yes
 	}
 	
 	option = {
@@ -1944,313 +1459,12 @@ country_event = {
 	desc = sp.political.40.d
 	
 	hidden = yes
-
-	trigger = {
-		OR = {
-			AND = {
-				NOT = { has_government = leninist }
-				has_country_flag = opinion_set_leninist
-			}
-			AND = {
-				NOT = { has_government = revolutionary_socialist }
-				has_country_flag = opinion_set_revolutionary_socialist
-			}
-			AND = {
-				NOT = { has_government = democratic_socialist }
-				has_country_flag = opinion_set_democratic_socialist
-			}
-			AND = {
-				NOT = { has_government = marxist }
-				has_country_flag = opinion_set_marxist
-			}
-			AND = {
-				NOT = { has_government = social_democrat }
-				has_country_flag = opinion_set_social_democrat
-			}
-			AND = {
-				NOT = { has_government = social_liberal }
-				has_country_flag = opinion_set_social_liberal
-			}
-			AND = {
-				NOT = { has_government = liberal_conservative }
-				has_country_flag = opinion_set_liberal_conservative
-			}
-			AND = {
-				NOT = { has_government = social_conservative }
-				has_country_flag = opinion_set_social_conservative
-			}
-			AND = {
-				NOT = { has_government = authoritarian_democrat }
-				has_country_flag = opinion_set_authoritarian_democrat
-			}
-			AND = {
-				NOT = { has_government = right_wing_populist }
-				has_country_flag = opinion_set_right_wing_populist
-			}
-			AND = {
-				NOT = { has_government = national_syndicalist }
-				has_country_flag = opinion_set_national_syndicalist
-			}
-			AND = {
-				NOT = { has_government = national_corporatist }
-				has_country_flag = opinion_set_national_corporatist
-			}
-			AND = {
-				NOT = { has_country_flag = opinion_set_leninist }
-				NOT = { has_country_flag = opinion_set_revolutionary_socialist }
-				NOT = { has_country_flag = opinion_set_democratic_socialist }
-				NOT = { has_country_flag = opinion_set_marxist }
-				NOT = { has_country_flag = opinion_set_social_democrat }
-				NOT = { has_country_flag = opinion_set_social_liberal }
-				NOT = { has_country_flag = opinion_set_liberal_conservative }
-				NOT = { has_country_flag = opinion_set_social_conservative }
-				NOT = { has_country_flag = opinion_set_authoritarian_democrat }
-				NOT = { has_country_flag = opinion_set_right_wing_populist }
-				NOT = { has_country_flag = opinion_set_national_syndicalist }
-				NOT = { has_country_flag = opinion_set_national_corporatist }
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 2
-	}
+	
+	is_triggered_only = yes
 
 	immediate = {
-		clr_country_flag = opinion_set_leninist
-		clr_country_flag = opinion_set_revolutionary_socialist
-		clr_country_flag = opinion_set_democratic_socialist
-		clr_country_flag = opinion_set_marxist
-		clr_country_flag = opinion_set_social_democrat
-		clr_country_flag = opinion_set_social_liberal
-		clr_country_flag = opinion_set_liberal_conservative
-		clr_country_flag = opinion_set_social_conservative
-		clr_country_flag = opinion_set_authoritarian_democrat
-		clr_country_flag = opinion_set_right_wing_populist
-		clr_country_flag = opinion_set_national_syndicalist
-		clr_country_flag = opinion_set_national_corporatist
-		every_country = {
-			remove_opinion_modifier = {
-				target = ROOT
-				modifier = SP_similar_ideology
-			}
-			ROOT = {
-			remove_opinion_modifier = {
-				target = PREV
-				modifier = SP_similar_ideology
-			}
-			}
-			remove_opinion_modifier = {
-				target = ROOT
-				modifier = SP_different_ideology
-			}
-			ROOT = {
-			remove_opinion_modifier = {
-				target = PREV
-				modifier = SP_different_ideology
-			}
-			}
-			remove_opinion_modifier = {
-				target = ROOT
-				modifier = SP_same_ideology
-			}
-			ROOT = {
-			remove_opinion_modifier = {
-				target = PREV
-				modifier = SP_same_ideology
-			}
-			}
-		}
-		if = {
-			limit = {
-				has_socialist_government = yes
-			}
-			every_country = {
-				limit = {
-					has_socialist_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_similar_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_similar_ideology
-				}
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_elected_government = yes
-						has_authoritarian_government = yes
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_different_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_different_ideology
-				}
-			}
-		}
-		if = {
-			limit = {
-				has_elected_government = yes
-			}
-			every_country = {
-				limit = {
-					has_elected_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_similar_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_similar_ideology
-				}
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_socialist_government = yes
-						has_authoritarian_government = yes
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_different_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_different_ideology
-				}
-			}
-		}
-		if = {
-			limit = {
-				has_authoritarian_government = yes
-			}
-			every_country = {
-				limit = {
-					has_authoritarian_government = yes
-					NOT = { has_same_government_as_ROOT = yes }
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_similar_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_similar_ideology
-				}
-			}
-			every_country = {
-				limit = {
-					OR = {
-						has_elected_government = yes
-						has_socialist_government = yes
-					}
-				}
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_different_ideology
-				}
-				reverse_add_opinion_modifier = {
-					target = ROOT
-					modifier = SP_different_ideology
-				}
-			}
-		}
-		every_country = {
-			limit = {
-				has_same_government_as_ROOT = yes
-			}
-			add_opinion_modifier = {
-				target = ROOT
-				modifier = SP_same_ideology
-			}
-			reverse_add_opinion_modifier = {
-				target = ROOT
-				modifier = SP_same_ideology
-			}
-		}
-		if = {
-			limit = {
-				has_government = leninist
-			}
-			set_country_flag = opinion_set_leninist
-		}
-		if = {
-			limit = {
-				has_government = revolutionary_socialist
-			}
-			set_country_flag = opinion_set_revolutionary_socialist
-		}
-		if = {
-			limit = {
-				has_government = democratic_socialist
-			}
-			set_country_flag = opinion_set_democratic_socialist
-		}
-		if = {
-			limit = {
-				has_government = marxist
-			}
-			set_country_flag = opinion_set_marxist
-		}
-		if = {
-			limit = {
-				has_government = social_democrat
-			}
-			set_country_flag = opinion_set_social_democrat
-		}
-		if = {
-			limit = {
-				has_government = social_liberal
-			}
-			set_country_flag = opinion_set_social_liberal
-		}
-		if = {
-			limit = {
-				has_government = liberal_conservative
-			}
-			set_country_flag = opinion_set_liberal_conservative
-		}
-		if = {
-			limit = {
-				has_government = social_conservative
-			}
-			set_country_flag = opinion_set_social_conservative
-		}
-		if = {
-			limit = {
-				has_government = authoritarian_democrat
-			}
-			set_country_flag = opinion_set_authoritarian_democrat
-		}
-		if = {
-			limit = {
-				has_government = right_wing_populist
-			}
-			set_country_flag = opinion_set_right_wing_populist
-		}
-		if = {
-			limit = {
-				has_government = national_syndicalist
-			}
-			set_country_flag = opinion_set_national_syndicalist
-		}
-		if = {
-			limit = {
-				has_government = national_corporatist
-			}
-			set_country_flag = opinion_set_national_corporatist
-		}
+		SP_remove_ideology_opinion = yes
+		SP_ideology_opinion_govtchange_setup = yes
 	}
 	
 	
@@ -2258,5 +1472,4 @@ country_event = {
 		name = sp.political.40.a
 	}
 
-}
 }

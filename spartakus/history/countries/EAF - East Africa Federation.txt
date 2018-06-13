@@ -2,6 +2,8 @@
 
 oob = "EAF"
 
+set_cosmetic_tag = EAF_UK
+
 # Starting tech
 
 set_research_slots = 2
@@ -71,7 +73,7 @@ set_politics = {
 create_country_leader = {
 	name = "George V"
 	desc = ""
-	picture = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -82,7 +84,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "George V"
 	desc = ""
-	picture = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
 	ideology = right_wing_populist_subtype
 	traits = {
@@ -93,7 +95,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "George V"
 	desc = ""
-	picture = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -104,7 +106,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "George V"
 	desc = ""
-	picture = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
 	ideology = liberal_conservative_subtype
 	traits = {
@@ -115,7 +117,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "George V"
 	desc = ""
-	picture = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -126,7 +128,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "George V"
 	desc = ""
-	picture = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {

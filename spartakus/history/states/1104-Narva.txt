@@ -1,0 +1,23 @@
+state={
+	id=1104
+	name="STATE_1104"
+	provinces={
+		4640 
+	}
+	history={
+		owner = EST
+		buildings = {
+			infrastructure = 3
+			4640 = {
+				bunker = 1
+				naval_base = 1
+			}
+		}
+		add_core_of = EST
+		add_claim_by = SOV
+
+	}
+	manpower=23500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

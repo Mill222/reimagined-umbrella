@@ -16,6 +16,14 @@ liv.3.t:0 "Duchy Dissolved!"
 liv.3.d:0 "The United Baltic Duchy has been dissolved."
 liv.3.a:0 "Oh no!"
 
+liv.10.t:0 "Bombing in Riga!"
+liv.10.d:0 "Early this morning, an explosion could be heard throughout Riga coming from the Central Station. Reports spread quickly of anything from derailment, to a bombing, to a collapse and even to an air raid, and hysteria soon ensued.\n\nHowever, as the dust settled, soldiers rushed to the station to find the train of Marshal Rudiger von der Goltz bombed, with metal strewn about and the station building itself partly collapsed. All seventeen killed in the blast were civilians, though multiple government officials and military officials present were injured. Goltz in particular is in critical condition, though it is believed he will survive the ordeal and will be able to continue a non-ruling military life.\n\nHowever, it is without a doubt that this means the end of the Goltz regime. After over a dozen years of his rule, the reigns are officially being passed to his right hand man, Alfred Fletcher. However, Fletcher is known to hold sympathies towards the supporters of a United Baltic Duchy. Multiple other groups, however, have shown interest in taking advantage of the situation.\n\nThe most pressing question is, who did it? It is without a doubt this was an assassination attempt directed towards von der Goltz himself. Multiple groups have shown interest in ousting him, but immediate suspicion lies on the underground communist movements and the Latvian nationalists under Gustavs Celmins. An investigation is already underway."
+liv.10.a:0 "What will happen now!?!"
+
+liv.11.t:0 "The Investigation Begins"
+liv.11.d:0 "In the aftermath of the bombing at the Riga Central Station, the new government under Alfred Fletcher has organized an investigation to root out the perpetrators of the bombing. Leads and eyewitness accounts point in many different conflicting directions, but the investigative team has promised it will find the plotters.\n\nThe most accepted leads point towards underground communist cells operating in Riga. However, others have disputed these leads, arguing that the munitions used would only be available to established, well equipped and funded groups such as the Freikorps.\n\nWe will have to see what the investigators uncover in the coming weeks."
+liv.11.a:0 "Find the perpetrators!"
+
 livfoc.1.t:0 "The Landeswehr Reforms"
 livfoc.1.d:0 "The Baltische Landeswehr is the dominating force of Livonia in many ways. Not only does it function as the defense force, but it also runs the government as a military dictatorship all but in name. Though the Latvian, Andreivs Niedra, is officially the head of government, everyone knows he lacks any power being surrounded by a cabinet made entirely of military veterans and aristocrats. This has, however, resulted in some issues with our relatively reactionary military bereaucracy. \n\nThe right wing Freikorps militias, which are officially unconnected with the Baltische Landeswehr, have been allowed to run rampant through the countryside. These Freikorps have been responsible for many terrible crimes. On top of this, lack of funding and care for Latvian and Estonian recruitment has resulted in a massive conscription crisis that has seriously hurt our military capabilities. \n\nWe can only choose to reform one of these issues at a time. Which will it be?"
 livfoc.1.a:0 "We shall focus on resolving the Conscription Crisis."
@@ -27,6 +35,16 @@ livfoc.2.a:0 "Enough! Establish a German-only army."
 livfoc.2.b:0 "Reform! Establish a Mixed army of Germans and Balts."
 livfoc.2.c:0 "End this! Establish a Balt-only army."
 
+livfoc.3.t:0 "The Freikorps Question"
+livfoc.3.d:0 "The Freikorps are central to the reason our state exists in the first place. Had it not been for the influx of Freikorps refugees from Germany, we very well may have lost at Cesis. However, the days of internal threats to Livonia's security are mostly over, and the Freikorps are a relic of the past.\n\nThough they significantly bolster our defense capabilities, they operate under independent commands and hold sympathies mainly to the Livonian Nationalist Party of Alfred Rosenberg, and some hold sympathies and even oaths to the Catholic Church in Livonia. They also are known among the Latvian and Estonian population for killing livestock, looting farms, robbing homes and for committing various atrocities, including murder.\n\nWe must choose carefully between maintaining the Freikorps in the status quo, which may end up causing us troubles with the nationalists, or we can choose to reform the Freikorps which is a plan supported by the more liberal elements in our nation.\n\nWe must choose quickly to be prepared for the coming conflict, so what will it be?"
+livfoc.3.a:0 "We must reform and integrate those dastardly Freikorps!"
+livfoc.3.b:0 "They were justified. We must continue to support the Freikorps."
+
+livfoc.4.t:0 "Pensions for the Veterans?"
+livfoc.4.d:0 "As the Freikorps elements were not very well documented nor officially a part of the Livonian military, none of its members have received any state pensions. Many have blamed the various thefts committed by the Freikorps on disgruntled veterans who have lacked any financial support to pursue a secure civilian life.\n\nSome political elements representing the Freikorps, namely the Livonian Nationalist Party, has presented a pension plan which, while costly, would certainly help increase national support and trust for future conflicts.\n\nOpposed to this plan are the more democratic elements, such as the BRP, LZS, BSDP and BDP. Rejecting these pensions would increase their support for our regime.\n\nSo what will it be?"
+livfoc.4.a:0 "Pensions for the heroes couldn't possibly do any harm."
+livfoc.4.b:0 "They knew what they signed up for. Forget the pensions."
+
 livfoc.10.t:0 "Agrarian Reform Programme"
 livfoc.10.d:0 "The Great Depression hit our farmers harder than expected. While our liberalization and relaxation of the economy has helped relieve some of the strain on our farmers, it is undeniable that an agrarian reform plan is desparately needed to resolve this situation to the fullest extent.\n\nTwo representatives have presented their plans:\n\nThe Paul Schiemann plan comes from the side of the Baltische Demokratische Partei, and it was clearly devised by our president Paul Schiemann. It involves extensive reform of the tax code and better distribution and faster exportation of our crops.\n\nHowever, there is an alternative. While a minority of the government support this plan, Karlis Ulmanis of the Latvian Farmers Union has presented the Ulmanis Plan. It involves restributing land only to the natives, and also involves the taxation of rich German farmers. While it would certainly anger our German populace, enacting his plan may win over support in the long run."
 livfoc.10.a:0 "Paul Schiemann has done a fine job. Enact his long awaited plan."
@@ -34,26 +52,26 @@ livfoc.10.b:0 "Heed the words of Karlis Ulmanis! He speaks for his people, of co
 
 ### Parties ###
 
-LIV_leninist_party:0 "LKP"
-LIV_leninist_party_long:0 "Latvijas Komunistiskā partija"
-LIV_marxist_party:0 "LKP"
-LIV_marxist_party_long:0 "Latvijas Komunistiskā partija"
-LIV_revolutionary_socialist_party:0 "LKP"
-LIV_revolutionary_socialist_party_long:0 "Latvijas Komunistiskā partija"
+LIV_leninist_party:0 "VKP"
+LIV_leninist_party_long:0 "Vsesojuznaja kommunisticheskaja partija"
+LIV_marxist_party:0 "BKP"
+LIV_marxist_party_long:0 "Balti Kommunistlik Partei/Baltijas Komunistiskā partija"
+LIV_revolutionary_socialist_party:0 "SDML"
+LIV_revolutionary_socialist_party_long:0 "Sociāldemokrātu mazinieku un laukstrādnieku savenība"
 LIV_democratic_socialist_party:0 "LSDSP"
 LIV_democratic_socialist_party_long:0 "Latvijas Sociāldemokrātiskā Strādnieku partija"
-LIV_social_democrat_party:0 "LSDSP"
-LIV_social_democrat_party_long:0 "Latvijas Sociāldemokrātiskā Strādnieku partija"
+LIV_social_democrat_party:0 "BSDP"
+LIV_social_democrat_party_long:0 "Baltische Sozialdemokratische Partei"
 LIV_social_liberal_party:0 "BDP"
 LIV_social_liberal_party_long:0 "Baltische Demokratische Partei"
 LIV_liberal_conservative_party:0 "LZS"
 LIV_liberal_conservative_party_long:0 "Latvijas Zemnieku savienība"
 LIV_social_conservative_party:0 "BRP"
 LIV_social_conservative_party_long:0 "Baltische Reformpartei"
-LIV_authoritarian_democrat_party:0 "Ducal Supporters"
-LIV_authoritarian_democrat_party_long:0 "Herzogliche Partei"
-LIV_right_wing_populist_party:0 "Military Government"
-LIV_right_wing_populist_party_long:0 "Baltische Landeswehr"
+LIV_authoritarian_democrat_party:0 "Herzogliche Bewegung"
+LIV_authoritarian_democrat_party_long:0 "Herzogliche Bewegung"
+LIV_right_wing_populist_party:0 "Militärregierung"
+LIV_right_wing_populist_party_long:0 "Militärregierung"
 LIV_national_syndicalist_party:0 "LNP"
 LIV_national_syndicalist_party_long:0 "Livländische Nationalistische Partei"
 LIV_national_corporatist_party:0 "Ugunskrusts"
@@ -105,26 +123,26 @@ LIV_Economy_Liberal10_desc:0 ""
 LIV_Economy_Liberal_End:0 "Tax the Wealthy"
 LIV_Economy_Liberal_End_desc:0 ""
 
-LIV_Economy_Gov1:0 "Government Intervention"
-LIV_Economy_Gov1_desc:0 ""
+LIV_Economy_Market:0 "A Free Market Economy"
+LIV_Economy_Market_desc:0 ""
 
-LIV_Economy_Gov2:0 "Build Up Our Roads"
-LIV_Economy_Gov2_desc:0 ""
+LIV_Economy_Market2:0 "Build Up Our Roads"
+LIV_Economy_Market2_desc:0 ""
 
-LIV_Economy_Gov3:0 "Social Investments"
-LIV_Economy_Gov3_desc:0 ""
+LIV_Economy_Market3:0 "Social Investments"
+LIV_Economy_Market3_desc:0 ""
 
-LIV_Economy_Gov4:0 "Baltic Arsenals"
-LIV_Economy_Gov4_desc:0 ""
+LIV_Economy_Market4:0 "Baltic Arsenals"
+LIV_Economy_Market4_desc:0 ""
 
-LIV_Eco_Naval1:0 "Baltic Dockyards"
-LIV_Eco_Naval1_desc:0 ""
+LIV_Economy_Market5:0 "Baltic Dockyards"
+LIV_Economy_Market5_desc:0 ""
 
-LIV_Eco_Naval2:0 "Baltic Trade League"
-LIV_Eco_Naval2_desc:0 ""
+LIV_Economy_Market6:0 "Baltic Trade League"
+LIV_Economy_Market6_desc:0 ""
 
-LIV_Eco_Naval3:0 "Naval Innovations"
-LIV_Eco_Naval3_desc:0 ""
+LIV_Economy_Market7:0 "Naval Innovations"
+LIV_Economy_Market7_desc:0 ""
 
 LIV_Economy_Right:0 "A State Economy"
 LIV_Economy_Right_desc:0 ""
@@ -215,6 +233,39 @@ LIV_Baltic_Army_4_desc:0 ""
 
 LIV_Army_Reform_Finish:0 "Completing Conscription Reform"
 LIV_Army_Reform_Finish_desc:0 ""
+
+LIV_Reform_Freikorps:0 "Reformation of the Freikorps"
+LIV_Reform_Freikorps_desc:0 ""
+
+LIV_Reform_Freikorps_2:0 "Crush the Leadership"
+LIV_Reform_Freikorps_2_desc:0 ""
+
+LIV_Reform_Freikorps_3:0 "Nationalize the Militias"
+LIV_Reform_Freikorps_3_desc:0 ""
+
+LIV_Reform_Freikorps_4:0 "A New Elite Force"
+LIV_Reform_Freikorps_4_desc:0 ""
+
+LIV_Support_Freikorps:0 "Support for the Freikorps"
+LIV_Support_Freikorps_desc:0 ""
+
+LIV_Support_Freikorps_2:0 "Coordinate Operations"
+LIV_Support_Freikorps_2_desc:0 ""
+
+LIV_Support_Freikorps_3:0 "Modernize the Freikorps"
+LIV_Support_Freikorps_3_desc:0 ""
+
+LIV_Support_Freikorps_4:0 "A Freikorps Reborn"
+LIV_Support_Freikorps_4_desc:0 ""
+
+LIV_Freikorps_Center:0 "Pensions for Veterans?"
+LIV_Freikorps_Center_desc:0 ""
+
+LIV_Freikorps_Center_2:0 "Status of Offenders"
+LIV_Freikorps_Center_2_desc:0 ""
+
+LIV_Freikorps_Issue_Finish:0 "Resolving the Freikorps Issue"
+LIV_Freikorps_Issue_Finish_desc:0 ""
 
 LIV_Army_Doc:0 "War Games"
 LIV_Army_Doc_desc:0 ""
@@ -381,3 +432,7 @@ LIV_german_army_event_tt:0 "§RRight-wing elements that support this policy will
 LIV_mixed_army_event_tt:0 "§RConservative elements that support this policy will gain more influence over our government.\n§!"
 
 LIV_baltic_army_event_tt:0 "§RLiberal elements that support this policy will gain more influence over our government.\n§!"
+
+LIV_train_bombing_tt:0 "§RThis is the start of a political crisis. Your previous choices will affect the outcome of this struggle.\n§!"
+
+LIV_investigation_tt:0 "§RThe investigation into the bombing will begin. This could be dangerous.\n§!"

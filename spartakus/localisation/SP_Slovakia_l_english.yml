@@ -1,0 +1,51 @@
+﻿l_english:
+
+# Events
+
+# Decisions & Missions
+
+# Custom Tooltips
+
+# Ideas
+SLO_partisans:0 "A Peasant Behind Every Tree"
+SLO_partisans_desc:0 "Long have we strived for our independence from the powers that have oppressed us. This will not be given up easily."
+SLO_reunion_fever:0 "Reunion Fever"
+SLO_reunion_fever_desc:0 "Our Populace demand a return of both Czechian and Hungarian lands and who are we to deny them what they want."
+# Focuses
+
+# Traits
+SLO_hungarian_lineage:0 "Hungarian Lineage"
+SLO_hungarian_lineage_desc:0 "This Generals ancestry traces back to the Magyars and cannot fully be trusted to follow every order he recieves..."
+SLO_communist_sabotuer:0 "Communist Sabotuer"
+SLO_communist_sabotuer_desc:0 "This General is suspected to not fully believe in the cause of the revolution therefore he is not to be trusted."
+slovak_chairman:0 "Slovakian Chairman"
+slovak_chairman_desc:0 "As Chairman of the Slovakian Socialist Republic the Chairman holds a large degree of sway and his personal attention and gaze can resolve almost any issue."
+
+### Parties ###
+
+SLO_leninist_party:0 "KSS"
+SLO_leninist_party_long:0 "Komunistická Strana Slovenska"
+SLO_marxist_party:0 "MSS"
+SLO_marxist_party_long:0 "Marxistická Strana Slovenska"
+SLO_revolutionary_socialist_party:0 "SSS"
+SLO_revolutionary_socialist_party_long:0 "Slovenská Socialistická Strana"
+SLO_democratic_socialist_party:0 "SSO"
+SLO_democratic_socialist_party_long:0 "Strana Slovenskej Obrody"
+SLO_social_democrat_party:0 "SSD"
+SLO_social_democrat_party_long:0 "Slovenskí Sociálni Demokrati"
+SLO_social_liberal_party:0 "SDS"
+SLO_social_liberal_party_long:0 "Slovenská Demokratická Strana"
+SLO_liberal_conservative_party:0 "KS"
+SLO_liberal_conservative_party_long:0 "Konzervatívna Strana"
+SLO_social_conservative_party:0 "KS"
+SLO_social_conservative_party_long:0 "Konzervatívna Strana"
+SLO_authoritarian_democrat_party:0 "VNS"
+SLO_authoritarian_democrat_party_long:0 "Vláda Národnej Spásy"
+SLO_right_wing_populist_party:0 "NKS"
+SLO_right_wing_populist_party_long:0 "Nemecká Karpatská Strana"
+SLO_national_syndicalist_party:0 "SSI"
+SLO_national_syndicalist_party_long:0 "Strana Slovenského ľudu"
+SLO_national_corporatist_party:0 "SSI"
+SLO_national_corporatist_party_long:0 "Strana Slovenského ľudu"
+
+# Opinion Modifiers

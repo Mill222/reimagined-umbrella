@@ -4,26 +4,28 @@ state={
 	name="STATE_831"
 
 	history={
-		owner=BMR
-		add_core_of=BUR
-		add_core_of=RAJ
-		add_core_of=BMR
-		buildings={
-			infrastructure=3
+		owner = BMR
+		add_core_of = BUR
+		add_core_of = RAJ
+		add_core_of = BMR
+		buildings = {
+			infrastructure = 3
+
 		}
 		RAJ = {
 			set_province_controller = 1403
+
 		}
 		victory_points = {
-			1403 1 #Mawlaymein/Morlamaeng-2
+			1403 1 
 		}
+
 	}
 
 	provinces={
-		1403 4408 12125 12238
+		1403 4293 4336 4408 7441 12238 12317 
 	}
-	
 	manpower=921600
-	buildings_max_level_factor=1
+	buildings_max_level_factor=1.000
 	state_category=pastoral
 }
