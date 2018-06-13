@@ -818,7 +818,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/Protestantismf.dds"
 	}
 	SpriteType = {
-<<<<<<< HEAD
 		name = "GFX_goal_CHL_unidad_popular"
 		texturefile = "gfx/interface/goals/CHL_unidad_popular.dds"
 	}
@@ -826,8 +825,7 @@ spriteTypes = {
 		name = "GFX_goal_CHL_chilean_way"
 		texturefile = "gfx/interface/goals/CHL_chilean_way.dds"
 	}
-}
-=======
+	SpriteType = {
 		name = "GFX_ROM_liberals"
 		texturefile = "gfx/interface/goals/ROM_liberals.dds"
 	}
