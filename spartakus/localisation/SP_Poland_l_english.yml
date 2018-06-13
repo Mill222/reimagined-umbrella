@@ -1,0 +1,51 @@
+﻿l_english:
+
+### Ideas ###
+
+### Focuses ###
+
+
+### Ministers ###
+
+### Parties ###
+POL_leninist_party:0 "KPP"
+POL_leninist_party_long:0 "Komunistyczna Partia Polski"
+
+POL_marxist_party:0 "KPP"
+POL_marxist_party_long:0 "Komunistyczna Partia Polski"
+
+POL_democratic_socialist_party:0 "PPS"
+POL_democratic_socialist_party_long:0 "Polska Partia Socjalistyczna"
+
+POL_revolutionary_socialist_party:0 "PPS-L"
+POL_revolutionary_socialist_party_long:0 "Polska Partia Socjalistyczna – Lewica"
+
+POL_social_democrat_party:0 "SL"
+POL_social_democrat_party_long:0 "Stronnictwo Ludowe"
+
+POL_social_liberal_party:0 "PC"
+POL_social_liberal_party_long:0 "Polskie Centrum"
+
+POL_liberal_conservative_party:0 "NPR"
+POL_liberal_conservative_party_long:0 "Narodowa Partia Robotnicza"
+
+POL_social_conservative_party:0 "PSChD"
+POL_social_conservative_party_long:0 "Polskie Stronnictwo Chrześcijańskiej Demokracji"
+
+POL_authoritarian_democrat_party:0 "Sanacja"
+POL_authoritarian_democrat_party_long:0 "Sanacja"
+
+POL_right_wing_populist_party:0 "UNDO"
+POL_right_wing_populist_party_long:0 "Ukrayin'ske Natsional'no-Demokratichne Obyednannia"
+
+POL_national_syndicalist_party:0 "SN"
+POL_national_syndicalist_party_long:0 "Stronnictwo Narodowe"
+
+POL_national_corporatist_party:0 "ONR"
+POL_national_corporatist_party_long:0 "Obóz Narodowo Radykalny"
+
+### Tooltips ###
+
+### Opinion Modifiers ###
+
+### Misc ###

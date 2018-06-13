@@ -27,44 +27,44 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 10
+			popularity = 30
 		}
 		marxist = {
-			popularity = 60
+			popularity = 10
 		}
 		revolutionary_socialist = {
 			popularity = 4
 		}
 		democratic_socialist = {
-			popularity = 20
+			popularity = 10
 		}
 		social_democrat = {
-			popularity = 4
+			popularity = 12
 		}
 		social_liberal = {
-			popularity = 2
+			popularity = 3
 		}
 		liberal_conservative = {
-			popularity = 0
+			popularity = 5
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 6
 		}
 		authoritarian_democrat = {
-		    popularity = 0
+		    popularity = 2
 		}
 		right_wing_populist = {
-			popularity = 0
+			popularity = 4
 		}
 		national_syndicalist = {
-			popularity = 0
+			popularity = 12
 		}
 		national_corporatist = {
-			popularity = 0
+			popularity = 2
 		}
 	}
 	
-	ruling_party = marxist
+	ruling_party = leninist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -74,58 +74,25 @@ set_politics = {
 set_convoys = 10
 
 create_country_leader = {
-	name = "Władysław Sikorski"
-	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
-	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
+	name = "Felix Dzerzhinsky"
+	desc = "POLITICS_FELIX_DZERZHINSKY_DESC"
+	picture = "Portrait_Felix_Dzerzhinsky.dds"
 	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = leninist_subtype
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Ignacy Mościcki"
-	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
-	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Władysław Gomułka"
-	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
-	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Wincenty Witos"
-	desc = "POLITICS_WINCENTY_WITOS_DESC"
-	picture = "GFX_POL_wincenty_witos"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Bolesław Piasecki"
-	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
-	picture = "GFX_POL_boleslaw_piasecki"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-		#
-	}
+create_field_marshal = {
+	name = "Felix Dzerzhinsky"
+	picture = "Portrait_Felix_Dzerzhinsky_General.dds"
+	traits = { offensive_doctrine trickster harsh_leader }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
 }
 
 create_field_marshal = {
