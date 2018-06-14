@@ -87,7 +87,7 @@ set_country_flag = coalition_right_wing_populist
 create_country_leader = {
 	name = "Tomáš Garrigue Masaryk"
 	desc = "POLITICS_TOMAS_MASARYK_DESC"
-	picture = "Portrait_Czech_Tomas_Masaryk.dds"
+	picture = "Portrait_Czechia_Tomas_Masaryk.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -98,7 +98,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Tomáš Garrigue Masaryk"
 	desc = "POLITICS_TOMAS_MASARYK_DESC"
-	picture = "Portrait_Czech_Tomas_Masaryk.dds"
+	picture = "Portrait_Czechia_Tomas_Masaryk.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -109,7 +109,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Tomáš Garrigue Masaryk"
 	desc = "POLITICS_TOMAS_MASARYK_DESC"
-	picture = "Portrait_Czech_Tomas_Masaryk.dds"
+	picture = "Portrait_Czechia_Tomas_Masaryk.tga"
 	expire = "1965.1.1"
 	ideology = liberal_conservative_subtype
 	traits = {
@@ -120,7 +120,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Tomáš Garrigue Masaryk"
 	desc = "POLITICS_TOMAS_MASARYK_DESC"
-	picture = "Portrait_Czech_Tomas_Masaryk.dds"
+	picture = "Portrait_Czechia_Tomas_Masaryk.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -131,7 +131,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Tomáš Garrigue Masaryk"
 	desc = "POLITICS_TOMAS_MASARYK_DESC"
-	picture = "Portrait_Czech_Tomas_Masaryk.dds"
+	picture = "Portrait_Czechia_Tomas_Masaryk.tga"
 	expire = "1965.1.1"
 	ideology = right_wing_populist_subtype
 	traits = {
@@ -139,47 +139,93 @@ create_country_leader = {
 	}
 }
 
+### Field Marshall
+
 create_field_marshal = {
-	name = "Vojtěch Luža"
-	gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"
-	traits = { fast_planner offensive_doctrine }
-	skill = 3
-    attack_skill = 4
-    defense_skill = 2
-    planning_skill = 3
-    logistics_skill = 1
+	name = "Jan Syrový"
+	picture = "Portrait_Czechia_Jan_Syrovy.tga"
+	traits = {
+		old_guard
+		commando
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_field_marshal = {
+	name = "Ludvík Krejčí"
+	picture = "Portrait_Czechia_Ludvik_Krejci.tga"
+	traits = {
+		old_guard
+		inflexible_strategist
+		defensive_doctrine
+	}
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+### Corps Commander
+
+create_corps_commander = {
 	name = "Josef Šnejdárek"
-	gfx = "GFX_Portrait_czechoslovakia_josef_snejdarek"
-	traits = { thorough_planner defensive_doctrine }
+	picture = "Portrait_Czechia_Josef_Snejdarek.tga"
+	traits = {
+		old_guard
+		trait_reckless
+	}
 	skill = 3
-    attack_skill = 3
-    defense_skill = 4
-    planning_skill = 2
-    logistics_skill = 1
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
 }
 
 create_corps_commander = {
-	name = "Richard Tesařík"
-	gfx = "GFX_Portrait_czechoslovakia_richard_tesarik"
-	traits = { armor_officer }
-	skill = 2
-    attack_skill = 4
-    defense_skill = 1
-    planning_skill = 1
-    logistics_skill = 1
+	name = "Vojtěch Luža"
+	picture = "Portrait_Czechia_Vojtech_Luza.tga"
+	traits = {
+		harsh_leader
+		armor_officer
+		adaptable
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Sergej Vojcechovský"
-	gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
-	traits = { winter_specialist }
-	skill = 3
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 1
+	picture = "Portrait_Czechia_Sergej_Vojcechovsky.tga"
+	traits = {
+		old_guard
+		winter_specialist
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Lev Prchala"
+	picture = "Portrait_Czechia_Lev_Prchala.tga"
+	traits = {
+		old_guard
+		ranger
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
 

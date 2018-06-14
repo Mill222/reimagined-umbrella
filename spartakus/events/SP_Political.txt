@@ -23,7 +23,7 @@ country_event = {
 		NOT = { 
 			has_idea = very_high_popularity
 		}
-		check_variable = { NS_ruling_party_pop > 0.799 }
+		check_variable = { NS_ruling_party_pop > 79.99 }
 	}
 
 	option = {
@@ -64,8 +64,8 @@ country_event = {
 		NOT = { 
 			has_idea = high_popularity
 		}
-		check_variable = { NS_ruling_party_pop < 0.8 }
-		check_variable = { NS_ruling_party_pop > 0.599 }
+		check_variable = { NS_ruling_party_pop < 80 }
+		check_variable = { NS_ruling_party_pop > 59.99 }
 	}
 
 	option = {
@@ -104,8 +104,8 @@ country_event = {
 		NOT = { 
 			has_idea = normal_popularity
 		}
-		check_variable = { NS_ruling_party_pop < 0.6 }
-		check_variable = { NS_ruling_party_pop > 0.399 }
+		check_variable = { NS_ruling_party_pop < 60 }
+		check_variable = { NS_ruling_party_pop > 39.99 }
 	}
 
 	option = {
@@ -144,8 +144,8 @@ country_event = {
 		NOT = { 
 			has_idea = low_popularity
 		}
-		check_variable = { NS_ruling_party_pop < 0.4 }
-		check_variable = { NS_ruling_party_pop > 0.199 }
+		check_variable = { NS_ruling_party_pop < 40 }
+		check_variable = { NS_ruling_party_pop > 19.99 }
 	}
 
 	option = {
@@ -184,7 +184,7 @@ country_event = {
 		NOT = { 
 			has_idea = very_low_popularity
 		}
-		check_variable = { NS_ruling_party_pop < 0.2 }
+		check_variable = { NS_ruling_party_pop < 20 }
 	}
 
 	option = {

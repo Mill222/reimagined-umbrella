@@ -278,73 +278,73 @@ SP_NS_coalition_pop_eval = {
 	if = {
 		limit = {
 			has_country_flag = coalition_leninist
-			add_to_variable = { NS_ruling_party_pop = party_popularity@leninist }
 		}
+		add_to_variable = { NS_ruling_party_pop = party_popularity@leninist }
 	}
 	if = {
 		limit = {
 			has_country_flag = coalition_marxist
-			add_to_variable = { NS_ruling_party_pop = party_popularity@marxist }
 		}
+		add_to_variable = { NS_ruling_party_pop = party_popularity@marxist }
 	}
 	if = {
 		limit = {
 			has_country_flag = coalition_revolutionary_socialist
-			add_to_variable = { NS_ruling_party_pop = party_popularity@revolutionary_socialist }
 		}
+		add_to_variable = { NS_ruling_party_pop = party_popularity@revolutionary_socialist }
 	}
 	if = {
 		limit = {
 			has_country_flag = coalition_democratic_socialist
-			add_to_variable = { NS_ruling_party_pop = party_popularity@democratic_socialist }
 		}
+		add_to_variable = { NS_ruling_party_pop = party_popularity@democratic_socialist }
 	}
 	if = {
 		limit = {
 			has_country_flag = coalition_social_democrat
-			add_to_variable = { NS_ruling_party_pop = party_popularity@social_democrat }
 		}
+		add_to_variable = { NS_ruling_party_pop = party_popularity@social_democrat }
 	}
 	if = {
 		limit = {
 			has_country_flag = coalition_social_liberal
-			add_to_variable = { NS_ruling_party_pop = party_popularity@social_liberal }
 		}
+		add_to_variable = { NS_ruling_party_pop = party_popularity@social_liberal }
 	}
 	if = {
 		limit = {
 			has_country_flag = coalition_liberal_conservative
-			add_to_variable = { NS_ruling_party_pop = party_popularity@liberal_conservative }
 		}
+		add_to_variable = { NS_ruling_party_pop = party_popularity@liberal_conservative }
 	}
 	if = {
 		limit = {
 			has_country_flag = coalition_social_conservative
-			add_to_variable = { NS_ruling_party_pop = party_popularity@social_conservative }
 		}
+		add_to_variable = { NS_ruling_party_pop = party_popularity@social_conservative }
 	}
 	if = {
 		limit = {
 			has_country_flag = coalition_authoritarian_democrat
-			add_to_variable = { NS_ruling_party_pop = party_popularity@authoritarian_democrat }
 		}
+		add_to_variable = { NS_ruling_party_pop = party_popularity@authoritarian_democrat }
 	}
 	if = {
 		limit = {
 			has_country_flag = coalition_right_wing_populist
-			add_to_variable = { NS_ruling_party_pop = party_popularity@right_wing_populist }
 		}
+		add_to_variable = { NS_ruling_party_pop = party_popularity@right_wing_populist }
 	}
 	if = {
 		limit = {
 			has_country_flag = coalition_national_syndicalist
-			add_to_variable = { NS_ruling_party_pop = party_popularity@national_syndicalist }
 		}
+		add_to_variable = { NS_ruling_party_pop = party_popularity@national_syndicalist }
 	}
 	if = {
 		limit = {
 			has_country_flag = coalition_national_corporatist
-			add_to_variable = { NS_ruling_party_pop = party_popularity@national_corporatist }
 		}
+		add_to_variable = { NS_ruling_party_pop = party_popularity@national_corporatist }
 	}
 }
