@@ -82,45 +82,5 @@
 		name = "BAV_artillery_entity"
 	}
 	
-	entity = {
-		clone = "GER_anti_tank_entity"
-		name = "BAV_anti_tank_entity"
-	}
 	
-############
-#
-# B I C Y C L E S
-#
-############
 	
-	##### - Clones - #####
-	
-	entity = {
-		clone = "GER_bicycle_entity"
-		name = "BAV_bicycle_entity"
-	}
-	
-	entity = {
-		clone = "GER_bicycle_rifle_combined_entity"
-		name = "BAV_bicycle_rifle_combined_entity"
-	}
-	
-	entity = {
-		clone = "GER_bicycle_rider_rifle_entity"
-		name = "BAV_bicycle_rider_rifle_entity"
-	}
-	
-	entity = {
-		clone = "GER_bicycle_2_entity"
-		name = "BAV_bicycle_2_entity"
-	}
-	
-	entity = {
-		clone = "GER_bicycle_mg_combined_entity"
-		name = "BAV_bicycle_mg_combined_entity"
-	}
-	
-	entity = {
-		clone = "GER_bicycle_rider_mg_entity"
-		name = "BAV_bicycle_rider_mg_entity"
-	}
