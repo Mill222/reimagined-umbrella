@@ -13,7 +13,7 @@ state={
 		}
 		owner = FRA
 		add_claim_by = GER
-		add_claim_by = WEI
+		add_core_of = WEI
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3

@@ -1,0 +1,209 @@
+﻿division_template = {
+	name = "Garnison"		
+	regiments = {
+		garrison = { x = 0 y = 0 }
+		garrison = { x = 0 y = 1 }
+		garrison = { x = 0 y = 2 }
+   		garrison = { x = 1 y = 0 }
+		garrison = { x = 1 y = 1 }
+		garrison = { x = 1 y = 2 }
+		garrison = { x = 2 y = 0 }
+		garrison = { x = 2 y = 1 }
+		garrison = { x = 2 y = 2 }
+		
+	}
+	support = {
+	
+
+	}
+	}
+division_template = {
+	name = "Infanterie Division"					
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Freikorps-Brigade"
+	is_locked = yes	
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+units = {
+
+	
+	division= {	
+		name = "Sicherungs-Brigade 'Stuttgart'"
+		location = 9517
+		division_template = "Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Sicherungs-Brigade 'Karlsruhe'"
+		location = 3530
+		division_template = "Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Sicherungs-Brigade 'Konstanz'"
+		location = 6934
+		division_template = "Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Sicherungs-Brigade 'Freiburg'"
+		location = 6712
+		division_template = "Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "1. Infanterie Division"
+		location = 9545
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "2. Infanterie Division"
+		location = 6555
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "3. Infanterie Division"
+		location = 6568
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "4. Infanterie Division"
+		location = 3574
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "5. Infanterie Division"
+		location = 9655
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "6. Infanterie Division"
+		location = 3690
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "7. Infanterie Division"
+		location = 3690
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "8. Infanterie Division"
+		location = 589
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "9. Infanterie Division"
+		location = 3574
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "10. Infanterie Division"
+		location = 6555
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "1. Freikorps-Brigade"
+		location = 6581
+		division_template = "Freikorps-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "2. Freikorps-Brigade"
+		location = 11499
+		division_template = "Freikorps-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "3. Freikorps-Brigade"
+		location = 11499
+		division_template = "Freikorps-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "4. Freikorps-Brigade"
+		location = 589
+		division_template = "Freikorps-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "5. Freikorps-Brigade"
+		location = 6542
+		division_template = "Freikorps-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "6. Freikorps-Brigade"
+		location = 11640
+		division_template = "Freikorps-Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+}
+air_wings = {
+	50 = { 
+		fighter_equipment_0 = {
+			owner = "WUR" 
+			amount = 50
+		}
+	}
+}

@@ -98,7 +98,21 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division= {	
+		name = "Sicherungs-Brigade 'Narva'"
+		location = 4640
+		division_template = "Garnison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
 		name = "Eisenbrigade von Livland"
+		location = 9340
+		division_template = "Livländische Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Eisenbrigade von Estland"
 		location = 9221
 		division_template = "Livländische Division"
 		start_experience_factor = 1.0
@@ -133,6 +147,20 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division= {	
+		name = "5. Livländische Division"
+		location = 6459
+		division_template = "Livländische Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "6. Livländische Division"
+		location = 11358
+		division_template = "Livländische Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
 		name = "1. Baltische-Division"
 		location = 3152
 		division_template = "Baltische-Division"
@@ -142,6 +170,20 @@ units = {
 	division= {	
 		name = "2. Baltische-Division"
 		location = 9275
+		division_template = "Baltische-Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	
+		name = "3. Baltische-Division"
+		location = 415
+		division_template = "Baltische-Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	
+		name = "4. Baltische-Division"
+		location = 222
 		division_template = "Baltische-Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -179,7 +221,6 @@ units = {
 		name = "Livländische Marine"			
 		base = 9340
 		location = 9340 # Riga
-		ship = { name = "Baden" definition = battleship equipment = { battleship_pre = { amount = 1 owner = LIV create_if_missing = yes } } }
 		ship = { name = "Bremse" definition = light_cruiser equipment = { light_cruiser_pre = { amount = 1 owner = LIV create_if_missing = yes } } }
 		ship = { name = "G38 'Riga'" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = LIV create_if_missing = yes } } }	
 		ship = { name = "S36 'Libau'" definition = destroyer equipment = { destroyer_pre = { amount = 1 owner = LIV create_if_missing = yes } } }
@@ -191,7 +232,7 @@ air_wings = {
 	1071 = { 
 		fighter_equipment_0 = {
 			owner = "LIV" 
-			amount = 20
+			amount = 30
 		}
 	}
 }

@@ -1,6 +1,6 @@
 ﻿capital = 16
 
-oob = "FRA_1936"
+oob = "FRA"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -365,3 +365,5 @@ give_guarantee = ARM
 give_military_access = ARM
 give_guarantee = WEI
 give_military_access = WEI
+give_guarantee = WUR
+give_military_access = WUR
