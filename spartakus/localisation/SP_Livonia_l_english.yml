@@ -45,6 +45,11 @@ livfoc.4.d:0 "As the Freikorps elements were not very well documented nor offici
 livfoc.4.a:0 "Pensions for the heroes couldn't possibly do any harm."
 livfoc.4.b:0 "They knew what they signed up for. Forget the pensions."
 
+livfoc.5.t:0 "Status of Freikorps Offenders?"
+livfoc.5.d:0 "The post-war Freikorps have been known across Livonia to have commited various robberies, assaults and even more gruesome crimes such as murder. This is a major point of contention among the native populace, who have often seen said Freikorps offenders go completely unpunished.\n\nThe Latvian Farmers Union under Karlis Ulmanis has consistently advocated for instituting harsher punishments against these offenders. In the midst of our army reforms, Ulmanis has requested we implement some or all of his plans for ending these crimes.\n\nCertainly implementing Ulmanis' plans would help gain some benefits among the troubled Latvian populace and native populace overall, however it would also anger the far right wing forces within our nation. What shall it be?"
+livfoc.5.a:0 "A few arrests to make an example should do."
+livfoc.5.b:0 "No way! They were just defending themselves."
+
 livfoc.10.t:0 "Agrarian Reform Programme"
 livfoc.10.d:0 "The Great Depression hit our farmers harder than expected. While our liberalization and relaxation of the economy has helped relieve some of the strain on our farmers, it is undeniable that an agrarian reform plan is desparately needed to resolve this situation to the fullest extent.\n\nTwo representatives have presented their plans:\n\nThe Paul Schiemann plan comes from the side of the Baltische Demokratische Partei, and it was clearly devised by our president Paul Schiemann. It involves extensive reform of the tax code and better distribution and faster exportation of our crops.\n\nHowever, there is an alternative. While a minority of the government support this plan, Karlis Ulmanis of the Latvian Farmers Union has presented the Ulmanis Plan. It involves restributing land only to the natives, and also involves the taxation of rich German farmers. While it would certainly anger our German populace, enacting his plan may win over support in the long run."
 livfoc.10.a:0 "Paul Schiemann has done a fine job. Enact his long awaited plan."
@@ -261,7 +266,7 @@ LIV_Support_Freikorps_4_desc:0 ""
 LIV_Freikorps_Center:0 "Pensions for Veterans?"
 LIV_Freikorps_Center_desc:0 ""
 
-LIV_Freikorps_Center_2:0 "Status of Offenders"
+LIV_Freikorps_Center_2:0 "Status of Offenders?"
 LIV_Freikorps_Center_2_desc:0 ""
 
 LIV_Freikorps_Issue_Finish:0 "Resolving the Freikorps Issue"
@@ -324,32 +329,47 @@ LIV_Scrap_SMS_Baden_desc:0 ""
 LIV_Seek_New_Flagship:0 "Seek a New Flagship"
 LIV_Seek_New_Flagship_desc:0 ""
 
+LIV_Commerce_Raiding:0 "Commerce Raiding"
+LIV_Commerce_Raiding_desc:0 ""
+
+LIV_Cruiser_Investments:0 "Cruiser Investments"
+LIV_Cruiser_Investments_desc:0 ""
+
 LIV_Destroyer_Investments:0 "Destroyer Investments"
 LIV_Destroyer_Investments_desc:0 ""
 
 LIV_U_Boat_Investments:0 "U-Boat Investments"
 LIV_U_Boat_Investments_desc:0 ""
 
-LIV_Air1:0 "Expand Air Bases"
-LIV_Air1_desc:0 "Aviation never was our forte, ever since the introduction of airplanes during the Weltkrieg we have been struggling to catch up. We should build some airfields now and start training for the future of warfare."
+LIV_Civilian_Fleet:0 "Expand the Civilian Fleet"
+LIV_Civilian_Fleet_desc:0 ""
 
-LIV_Air_CAS:0 "CAS Effort"
-LIV_Air_CAS_desc:0 "A modern army needs support from vehicles not only on the ground, but also in the air. Certainly a concept that will be easy for our officers to understand."
+LIV_Coastal_Batteries:0 "Construct Coastal Batteries"
+LIV_Coastal_Batteries_desc:0 ""
+
+LIV_Air1:0 "An Airforce for Livonia"
+LIV_Air1_desc:0 ""
+
+LIV_Fighter_Fleet:0 "Fighter Fleet"
+LIV_Fighter_Fleet_desc:0 ""
 
 LIV_Air_Defenses:0 "Invest in Air Defences"
 LIV_Air_Defenses_desc:0 ""
 
-LIV_Air_Nav_Bomber:0 "Naval Bomber Effort"
-LIV_Air_Nav_Bomber_desc:0 "Ships have proven exceptionally vulnerable to aircrafts. We should keep improving on their technology to ensure we stay ahead of any countermeasures and get the edge in large naval confrontations."
+LIV_Bomber_Fleet:0 "Bomber Fleet"
+LIV_Bomber_Fleet_desc:0 ""
 
-LIV_Air_Doc:0 "Air Innovations"
-LIV_Air_Doc_desc:0 "Modern wars cannot be won without dominating the skies. We must do everything in our power to develop the air force until we are able to protect our skies as well as we protect our seas and lands!"
+LIV_Air_Doc:0 "Enhanced Bombing Tactics"
+LIV_Air_Doc_desc:0 ""
 
-LIV_Air_End:0 "Baltic Aviation"
-LIV_Air_End_desc:0 "Now, that is what we call aviation. Our recent efforts have shown very impressive results. Maybe we are not the kings of the sky, but our pilots can fight well enough to give any enemy plane a run for his money."
+LIV_Naval_Bombers:0 "Naval Aerial Escorts"
+LIV_Naval_Bombers_desc:0 ""
+
+LIV_Air_End:0 "New Air Bases"
+LIV_Air_End_desc:0 ""
 
 LIV_Education_Ger:0 "Education Reform"
-LIV_Education_Ger_desc:0 "With more power to the Duke, the time has come for us to rethink our system of education. We have made some great strides in educating the younger masses, but our universities are already full. If we invest some money and open more universities, more people will get a higher education."
+LIV_Education_Ger_desc:0 ""
 
 ### Ideas ###
 

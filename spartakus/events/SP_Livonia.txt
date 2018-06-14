@@ -284,8 +284,8 @@ country_event = {
 	
 	option = {
 		name = livfoc.4.b
-		set_country_flag = LIV_reform_freikorps
-		custom_effect_tooltip = LIV_reform_freikorps_event_tt
+		set_country_flag = LIV_refused_pensions
+		custom_effect_tooltip = LIV_refused_pensions_event_tt
 		add_war_support = -0.05
 		hidden_effect = {
 			add_popularity = {
@@ -293,6 +293,56 @@ country_event = {
 			}
 			add_popularity = {
 				ideology = social_liberal popularity = 0.05
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = {
+	id = livfoc.5
+	title = livfoc.5.t
+	desc = livfoc.5.d
+	picture = GFX_report_event_lithuania_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = livfoc.5.a
+		set_country_flag = LIV_prosecute_offenders
+		custom_effect_tooltip = LIV_prosecute_offenders_event_tt
+		add_war_support = -0.05
+		add_stability = 0.05
+		hidden_effect = {
+			add_popularity = {
+				ideology = social_conservative popularity = 0.05
+			}
+			add_popularity = {
+				ideology = social_liberal popularity = 0.05
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = livfoc.5.b
+		set_country_flag = LIV_set_offenders_free
+		custom_effect_tooltip = LIV_set_offenders_free_event_tt
+		add_war_support = 0.05
+		add_stability = -0.05
+		hidden_effect = {
+			add_popularity = {
+				ideology = right_wing_populist popularity = 0.05
+			}
+			add_popularity = {
+				ideology = national_syndicalist popularity = 0.05
 			}
 		}
 		

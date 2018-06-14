@@ -949,4 +949,24 @@ spriteTypes = {
 		name = "GFX_ROM_westbanat"
 		texturefile = "gfx/interface/goals/ROM_westbanat.dds"
 	}
+	SpriteType = {
+		name = "GFX_Livonian_Airforce"
+		texturefile = "gfx/interface/goals/Livonian_Airforce.dds"
+	}
+	SpriteType = {
+		name = "GFX_Naval_Supplies"
+		texturefile = "gfx/interface/goals/Naval_Supplies.dds"
+	}
+	SpriteType = {
+		name = "GFX_Livonian_Scum"
+		texturefile = "gfx/interface/goals/Livonian_Scum.dds"
+	}
+	SpriteType = {
+		name = "GFX_Army_Purge"
+		texturefile = "gfx/interface/goals/Army_Purge.dds"
+	}
+	SpriteType = {
+		name = "GFX_Aerial_Fleet_2"
+		texturefile = "gfx/interface/goals/Aerial_Fleet_2.dds"
+	}
 }
