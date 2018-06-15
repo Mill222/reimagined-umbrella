@@ -8,8 +8,9 @@ state={
 	state_category = town
 	
 	history={
-		owner = ALB
+		owner = GRE
 		add_core_of = ALB
+		add_core_of = GRE
 		buildings = {
 			infrastructure = 3
 		}

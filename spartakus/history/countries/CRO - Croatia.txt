@@ -1,8 +1,8 @@
 ﻿capital = 109
 
-set_research_slots = 2
+set_research_slots = 3
 
-oob = "CRO_1936"
+oob = "CRO"
 
 set_technology = {
 	infantry_weapons = 1
@@ -48,10 +48,10 @@ set_politics = {
 			popularity = 0
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 0
 		}
 		right_wing_populist = {
-			popularity = 0
+			popularity = 100
 		}
 		national_syndicalist = {
 			popularity = 0
@@ -61,7 +61,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = right_wing_populist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -69,11 +69,33 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Josip Broz Tito"
+	desc = ""
+	picture = "Portrait_Josip_Broz_Tito.dds"
+	expire = "1965.1.1"
+	ideology = leninist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kresimir V"
+	desc = ""
+	picture = "Portrait_Borislav_Kresimir_V.dds"
+	expire = "1965.1.1"
+	ideology = right_wing_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Ante Pavelic"
 	desc = "ANTE_PAVELIC_DESC"
 	picture = "Portrait_Croatia_Ante_Pavelic.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_corporatist_subtype
 	traits = {
 		#
 	}

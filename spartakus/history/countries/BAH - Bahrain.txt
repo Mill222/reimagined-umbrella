@@ -1,12 +1,10 @@
-﻿capital = 658
+﻿capital = 907
 
 oob = "BAH"
 
 set_research_slots = 3
 set_stability = 0.4
 set_war_support = 0.2
-
-set_cosmetic_tag = BAH_UK
 
 # Starting tech
 set_technology = {

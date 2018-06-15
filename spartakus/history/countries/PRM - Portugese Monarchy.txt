@@ -1,4 +1,4 @@
-﻿capital = 112
+﻿capital = 180
 
 oob = "PRM"
 

@@ -1,11 +1,10 @@
 ﻿capital = 107
 
-oob = "YUG_1936"
+oob = "SER"
 
 set_research_slots = 3
 
 add_ideas = {
-	anti_german_military
 }
 
 set_technology = {
@@ -72,44 +71,11 @@ set_politics = {
 set_stability = 0.6
 
 create_country_leader = {
-	name = "Draza Mihailovic"
+	name = "Alexander I"
 	desc = ""
-	picture = "Portrait_Yugoslavia_Prince_Paul.dds"
+	picture = "Portrait_Alexander_I.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Milan Nedic"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Peter Karadordevic"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = Despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Zivorad Jovanovic"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = leninism
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}

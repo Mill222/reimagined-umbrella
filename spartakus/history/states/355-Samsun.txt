@@ -12,6 +12,10 @@ state={
 				naval_base = 2
 
 			}
+			11894 = {
+				naval_base = 2
+
+			}
 
 		}
 		victory_points = {

@@ -8,7 +8,8 @@ state={
 	}
 	
 	history={
-		owner =BAH
+		owner = UAE
+		add_core_of=UAE
 		add_core_of=BAH
 		buildings={
 			infrastructure=3

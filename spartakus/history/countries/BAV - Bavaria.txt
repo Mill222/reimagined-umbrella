@@ -1,4 +1,4 @@
-﻿capital = 64
+﻿capital = 53
 
 oob = "BAV"
 
@@ -13,6 +13,7 @@ set_technology = {
 	early_fighter = 1
 	early_bomber = 1
 	transport = 1
+	motorised_infantry = 1
 }
 
 set_research_slots = 3
@@ -24,58 +25,48 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 8
-		}
-		marxist = {
-			popularity = 40
-		}
-		revolutionary_socialist = {
-			popularity = 4
-		}
-		democratic_socialist = {
-			popularity = 6
-		}
-		social_democrat = {
 			popularity = 12
 		}
+		marxist = {
+			popularity = 60
+		}
+		revolutionary_socialist = {
+			popularity = 3
+		}
+		democratic_socialist = {
+			popularity = 1
+		}
+		social_democrat = {
+			popularity = 4
+		}
 		social_liberal = {
-			popularity = 5
+			popularity = 2
 		}
 		liberal_conservative = {
-			popularity = 5
+			popularity = 0
 		}
 		social_conservative = {
-			popularity = 10
+			popularity = 6
 		}
 		authoritarian_democrat = {
-		    popularity = 1
+		    popularity = 7
 		}
 		right_wing_populist = {
-			popularity = 6
+			popularity = 3
 		}
 		national_syndicalist = {
 			popularity = 1
 		}
 		national_corporatist = {
-			popularity = 2
+			popularity = 1
 		}
 	}
 	
-	ruling_party = leninist
+	ruling_party = marxist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 
-}
-
-create_country_leader = {
-	name = "Eugen Levine"
-	desc = "POLITICS_EUGEN_LEVINE_DESC"
-	picture = "Portrait_Eugen_Levine.dds"
-	expire = "1965.1.1"
-	ideology = leninist_subtype
-	traits = {
-	}
 }
 
 set_autonomy = {

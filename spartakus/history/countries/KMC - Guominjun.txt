@@ -1,4 +1,4 @@
-﻿capital = 716
+﻿capital = 799
 OOB = "KMC"
 set_research_slots = 2
 set_technology = {

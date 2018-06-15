@@ -1,8 +1,8 @@
 ﻿capital = 105 # Montenegro
 
-oob = "MON_1936"
+oob = "MNT"
 
-set_research_slots = 3
+set_research_slots = 2
 
 # Starting tech
 # clone of Yugoslavia
@@ -69,36 +69,34 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Sekula Drljević"
+	name = "Danilo"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology
+	picture = "Portrait_Danilo.dds"
+	expire = "1965.3.1"
+	ideology = social_conservative_subtype
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Novica Radović"
+	name = "Danilo"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = oligarchism
+	picture = "Portrait_Danilo.dds"
+	expire = "1965.3.1"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Blažo Jovanović"
+	name = "Danilo"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = leninism
+	picture = "Portrait_Danilo.dds"
+	expire = "1965.3.1"
+	ideology = right_wing_populist_subtype
 	traits = {
 		
 	}
 }
-
-
