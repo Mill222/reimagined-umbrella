@@ -143,7 +143,7 @@ country_event = {
 		set_country_flag = LIV_german_army
 		custom_effect_tooltip = LIV_german_army_event_tt
 		add_war_support = 0.05
-		political_power = -100
+		add_political_power = -100
 		hidden_effect = {
 			add_popularity = {
 				ideology = right_wing_populist popularity = 0.05
@@ -163,7 +163,7 @@ country_event = {
 		set_country_flag = LIV_mixed_army
 		custom_effect_tooltip = LIV_mixed_army_event_tt
 		add_stability = -0.05
-		political_power = 50
+		add_political_power = 50
 		hidden_effect = {
 			add_popularity = {
 				ideology = social_conservative popularity = 0.05
@@ -183,7 +183,7 @@ country_event = {
 		set_country_flag = LIV_baltic_army
 		custom_effect_tooltip = LIV_baltic_army_event_tt
 		add_stability = -0.10
-		political_power = -50
+		add_political_power = -50
 		hidden_effect = {
 			add_popularity = {
 				ideology = social_liberal popularity = 0.05
@@ -365,7 +365,7 @@ country_event = {
 		name = livfoc.10.a
 		set_country_flag = LIV_schiemann_plan
 		add_stability = 0.05
-		political_power = -25
+		add_political_power = -25
 		add_popularity = {
 			ideology = social_liberal popularity = 0.03
 		}
@@ -379,7 +379,7 @@ country_event = {
 		name = livfoc.10.b
 		set_country_flag = LIV_ulmanis_plan
 		add_stability = -0.05
-		political_power = 25
+		add_political_power = 25
 		add_popularity = {
 			ideology = liberal_conservative popularity = 0.03
 		}
