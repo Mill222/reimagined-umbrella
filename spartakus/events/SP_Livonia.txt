@@ -7,51 +7,6 @@ add_namespace = livpol
 add_namespace = livfoc
 add_namespace = livflv
 
-country_event = {
-	id = liv.1
-	title = liv.1.t
-	desc = liv.1.d
-	picture = GFX_liv
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = liv.1.a
-		load_focus_tree = LIV_focus_duchy
-	}
-}
-
-country_event = {
-	id = liv.2
-	title = liv.2.t
-	desc = liv.2.d
-	picture = GFX_liv
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = liv.2.a
-		load_focus_tree = LIV_focus_duchy_liberal
-	}
-}
-
-country_event = {
-	id = liv.3
-	title = liv.3.t
-	desc = liv.3.d
-	picture = GFX_liv
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = liv.3.a
-		load_focus_tree = LIV_focus
-	}
-}
-
 country_event = { #Goltz Train Bombing
 	id = liv.10
 	title = liv.10.t
@@ -97,7 +52,7 @@ country_event = { #The Investigation
 
 #Livonia Foci Events
 
-country_event = {
+country_event = { #Conscription or Freikorps
 	id = livfoc.1
 	title = livfoc.1.t
 	desc = livfoc.1.d
@@ -129,7 +84,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #Conscription Reform
 	id = livfoc.2
 	title = livfoc.2.t
 	desc = livfoc.2.d
@@ -202,7 +157,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #Freikorps Question
 	id = livfoc.3
 	title = livfoc.3.t
 	desc = livfoc.3.d
@@ -253,7 +208,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #Pensions for Freikorps
 	id = livfoc.4
 	title = livfoc.4.t
 	desc = livfoc.4.d
@@ -302,7 +257,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #Status of Freikorps Offenders
 	id = livfoc.5
 	title = livfoc.5.t
 	desc = livfoc.5.d
@@ -352,7 +307,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #Liberal Agrarian Reform
 	id = livfoc.10
 	title = livfoc.10.t
 	desc = livfoc.10.d
@@ -386,6 +341,319 @@ country_event = {
 		
 		ai_chance = {
 			factor = 30
+		}
+	}
+}
+
+country_event = { #Scrapping the Baden
+	id = livfoc.30
+	title = livfoc.30.t
+	desc = livfoc.30.d
+	picture = GFX_report_event_generic_conference
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = livfoc.30.a
+		add_ideas = LIV_scrapping_baden
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Restoring the Baden
+	id = livfoc.31
+	title = livfoc.31.t
+	desc = livfoc.31.d
+	picture = GFX_report_event_generic_conference
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = livfoc.31.a
+		add_ideas = LIV_restoring_baden
+		hidden_effect = {
+			country_event = { id = livfoc.32 days = 365 }
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Deploying the Baden
+	id = livfoc.32
+	title = livfoc.32.t
+	desc = livfoc.32.d
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = livfoc.32.a
+		remove_ideas = LIV_restoring_baden
+		hidden_effect = {
+			load_oob = LIV_Baden
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Ask for a Flagship
+	id = livfoc.33
+	title = livfoc.33.t
+	desc = livfoc.33.d
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = livfoc.33.a
+		trigger = {
+			NOT = {
+				has_country_flag = LIV_ENG_sale_no
+			}
+		}
+		ENG = {
+			country_event = {
+				id = livfoc.34
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = livfoc.33.b
+		trigger = {
+			NOT = {
+				has_country_flag = LIV_FRA_sale_no
+			}
+		}
+		FRA = {
+			country_event = {
+				id = livfoc.34
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = livfoc.33.c
+		trigger = {
+			NOT = {
+				has_country_flag = LIV_ITA_sale_no
+			}
+		}
+		ITA = {
+			country_event = {
+				id = livfoc.34
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = livfoc.33.d
+		trigger = {
+			NOT = {
+				has_country_flag = LIV_USA_sale_no
+			}
+		}
+		USA = {
+			country_event = {
+				id = livfoc.34
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Request for a Ship
+	id = livfoc.34
+	title = livfoc.34.t
+	desc = livfoc.34.d
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = { #British sell battleship
+		name = livfoc.34.a
+		trigger = {
+			tag = ENG
+		}
+		add_timed_idea = {
+			idea = add_ideas = LIV_large_ship_sale_profit
+			days = 365
+		}
+		LIV = {
+			country_event = livfoc.35
+			add_timed_idea = {
+				idea = LIV_large_ship_sale_payment
+				days = 365
+			}
+		}
+		ENG = {
+			transfer_ship = {
+				prefer_name = "HMS Royal Oak"
+				type = battleship
+				target = LIV
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	
+	option = { #French sell cruiser
+		name = livfoc.34.b
+		trigger = {
+			tag = FRA
+		}
+		add_timed_idea = {
+			idea = add_ideas = LIV_small_ship_sale_profit
+			days = 365
+		}
+		LIV = {
+			country_event = livfoc.35
+			add_timed_idea = {
+				idea = LIV_large_small_sale_payment
+				days = 365
+			}
+		}
+		FRA = {
+			transfer_ship = {
+				prefer_name = "Tourville"
+				type = heavy_cruiser
+				target = LIV
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Italians sell cruiser
+		name = livfoc.34.c
+		trigger = {
+			tag = ITA
+		}
+		add_timed_idea = {
+			idea = add_ideas = LIV_small_ship_sale_profit
+			days = 365
+		}
+		LIV = {
+			country_event = livfoc.35
+			add_timed_idea = {
+				idea = LIV_large_small_sale_payment
+				days = 365
+			}
+		}
+		ITA = {
+			transfer_ship = {
+				prefer_name = "RI Trieste"
+				type = heavy_cruiser
+				target = LIV
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Americans sell battleship
+		name = livfoc.34.c
+		trigger = {
+			tag = USA
+		}
+		add_timed_idea = {
+			idea = add_ideas = LIV_large_ship_sale_profit
+			days = 365
+		}
+		LIV = {
+			country_event = livfoc.35
+			add_timed_idea = {
+				idea = LIV_large_ship_sale_payment
+				days = 365
+			}
+		}
+		USA = {
+			transfer_ship = {
+				prefer_name = "USS Arkansas"
+				type = battleship
+				target = LIV
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #British sell cruiser
+		name = livfoc.34.e
+		trigger = {
+			tag = ENG
+		}
+		add_timed_idea = {
+			idea = add_ideas = LIV_small_ship_sale_profit
+			days = 365
+		}
+		LIV = {
+			country_event = livfoc.35
+			add_timed_idea = {
+				idea = LIV_large_small_sale_payment
+				days = 365
+			}
+		}
+		ENG = {
+			transfer_ship = {
+				prefer_name = "HMS Hawkins"
+				type = heavy_cruiser
+				target = LIV
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+	
+	option = { #No sale
+		name = livfoc.34.f
+		LIV = {
+			set_country_flag = LIV_sale_no_@ROOT
+			country_event = { 
+				id = livfoc.33
+				days = 3
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #Successful Ship Sale
+	id = livfoc.35
+	title = livfoc.35.t
+	desc = livfoc.35.d
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = livfoc.35.a
+		custom_effect_tooltip = LIV_successful_ship_sale_tt
+		ai_chance = {
+			factor = 100
 		}
 	}
 }
