@@ -1,0 +1,9 @@
+﻿units = {
+	navy = {				
+		name = "British Purchase"			
+		base = 657 
+		location = 657 # Constanta
+		ship = { name = "HMS Imperious" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ENG } }
+	}
+}
+}

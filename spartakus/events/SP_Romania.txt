@@ -1,0 +1,2682 @@
+﻿###########################
+# ROMANIAN EVENTS
+###########################
+
+add_namespace = rom
+
+# Intro Event
+country_event = {
+	id = rom.1
+	title = rom.1.t
+	desc = rom.1.d
+	picture = GFX_ROM_map
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = rom.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = 10
+	}
+}
+
+# Great Depression Effects
+country_event = {
+	id = rom.14
+	title = rom.14.t
+	desc = rom.14.d
+	picture = GFX_darkestday3
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = rom.14.a
+		ai_chance = { factor = 100 }
+		add_political_power = -10
+		add_ideas = ROM_great_depression
+		add_ideas = ROM_industrial_unrest
+	}
+}
+
+# Capital Ship Purchase
+country_event = {
+	id = rom.39
+	title = rom.39.t
+	desc = rom.39.d
+	picture = GFX_report_event_ast_navy
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = rom.39.a #French Ship
+		ai_chance = { factor = 34 }
+		hidden_effect = { load_oob = "ROM_french" }
+	}
+	
+	option = {
+		name = rom.39.b #Italian Ship
+		ai_chance = { factor = 33 }
+		hidden_effect = { load_oob = "ROM_italian" }
+	}
+	
+	option = {
+		name = rom.39.c #British Ship
+		ai_chance = { factor = 33 }
+		hidden_effect = { load_oob = "ROM_british" }
+	}
+}
+	
+###########################
+# FLAVOR EVENTS
+###########################
+
+# Arcul de Triumf
+country_event = {
+	id = rom.31
+	title = rom.31.t
+	desc = rom.31.d
+	picture = GFX_ROM_arc
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		date > 1936.7.7
+	}
+
+	mean_time_to_happen = {
+		days = 50
+	}
+	
+	option = {
+		name = rom.31.a
+		add_political_power = 50
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Mausoleum of Mărășești
+country_event = {
+	id = rom.32
+	title = rom.32.t
+	desc = rom.32.d
+	picture = GFX_ROM_mausoleum
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		date > 1938.7.7
+	}
+
+	mean_time_to_happen = {
+		days = 50
+	}
+	
+	option = {
+		name = rom.32.a
+		add_political_power = 100
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Romanian Academy of Sciences
+country_event = {
+	id = rom.34
+	title = rom.34.t
+	desc = rom.34.d
+	picture = GFX_ROM_academy
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		date > 1935.3.3
+	}
+
+	mean_time_to_happen = {
+		days = 22
+	}
+	
+	option = {
+		name = rom.34.a
+		ai_chance = { factor = 100 }
+		add_tech_bonus = {
+			bonus = 0.3
+			uses = 4
+			category = industry
+			category = electronics
+			category = nuclear
+			category = rocketry
+		}
+	}
+}
+
+# Copșa Mică works
+country_event = {
+	id = rom.35
+	title = rom.35.t
+	desc = rom.35.d
+	picture = GFX_ROM_factory
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		date > 1935.2.2
+	}
+
+	mean_time_to_happen = {
+		days = 25
+	}
+	
+	option = {
+		name = rom.35.a
+		ai_chance = { factor = 100 }
+		84 = {
+			add_state_modifier = {
+				modifier = {
+					local_resources = 0.05
+				}
+			}
+		}
+		
+	}
+}
+
+# Viața Basarabiei
+country_event = {
+	id = rom.36
+	title = rom.36.t
+	desc = rom.36.d
+	picture = GFX_ROM_newspaper
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		date > 1932.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 150
+	}
+	
+	option = {
+		name = rom.36.a
+		ai_chance = { factor = 100 }
+		add_stability = -0.01
+	}
+}
+
+#Guarantee Romania Y/N
+country_event = {
+	id = rom.64
+	title = rom.64.t
+	desc = rom.64.d
+	picture = GFX_report_event_generic_conference
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = rom.64.a #yes
+		ai_chance = { factor = 65 }
+	}
+	
+	option = {
+		name = rom.64.b #no
+		ai_chance = { factor = 35 }
+		hidden_effect = {
+			ROM = { country_event = { days = 4 id = rom.65 } }
+		}
+	}
+}
+
+#Guarantee Refused
+country_event = {
+	id = rom.65
+	title = rom.65.t
+	desc = rom.65.d
+	picture = GFX_report_event_generic_sign_treaty1
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = rom.65.a 
+		ai_chance = { factor = 100 }
+	}
+}
+
+###########################
+# EASTERN ENTENTE
+###########################
+
+# Romania invites us to Entente
+country_event = {
+	id = rom.46
+	title = rom.46.t
+	desc = rom.46.d
+	picture = GFX_report_event_generic_sign_treaty1
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #yes
+		name = rom.46.a
+		ai_chance = { factor = 60 }
+		ROM = { add_to_faction = ROOT }
+	}
+	
+	option = { #nooo
+		name = rom.46.b
+		ai_chance = { factor = 30 }
+		hidden_effect = {
+			ROM = { country_event = { days = 3 id = rom.47 } }
+		}
+	}
+}
+
+# Country says no
+country_event = {
+	id = rom.47
+	title = rom.47.t
+	desc = rom.47.d
+	picture = GFX_report_event_generic_sign_treaty1
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+		name = rom.47.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+#SERBIA; decision
+country_event = {
+	id = rom.61
+	title = rom.61.t
+	desc = rom.61.d
+	picture = GFX_ROM_banatmap
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #yes
+		name = rom.61.a
+		ai_chance = { factor = 80 }
+		effect_tooltip = {
+			SER = { transfer_state = 875 }
+			SER = { add_opinion_modifier = { target = ROM modifier = ROM_serb_alliance } }
+			ROM = { add_opinion_modifier = { target = SER modifier = ROM_serb_alliance } }
+			ROM = { add_to_faction = SER }
+		}
+		hidden_effect = {
+			ROM = { country_event = { hours = 3 id = rom.63 } }
+		}
+	}
+	
+	option = { #noo
+		name = rom.61.b
+		ai_chance = { factor = 20 }
+		effect_tooltip = {
+		ROM = { add_opinion_modifier = { target = SER modifier = ROM_refused_alliance } }
+		}
+		hidden_effect = {
+			ROM = { country_event = { days = 4 id = rom.62 } }
+		}
+	}
+}
+
+#ROMANIA; Serbia said no
+country_event = {
+	id = rom.62
+	title = rom.62.t
+	desc = rom.62.d
+	picture = GFX_report_event_generic_sign_treaty1
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = rom.62.a
+		ai_chance = { factor = 100 }
+		ROM = { add_opinion_modifier = { target = SER modifier = ROM_refused_alliance } }
+	}
+}
+
+#ROMANIA; Serbia said yes
+country_event = {
+	id = rom.63
+	title = rom.63.t
+	desc = rom.63.d
+	picture = GFX_report_event_aid_pact
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = rom.63.a
+		ai_chance = { factor = 100 }
+		SER = { transfer_state = 875 }
+		ROM = { add_to_faction = SER }
+		SER = { add_opinion_modifier = { target = ROM modifier = ROM_serb_alliance } }
+		ROM = { add_opinion_modifier = { target = SER modifier = ROM_serb_alliance } }
+	}
+}
+
+###########################
+# ELECTION EVENTS
+###########################
+
+
+# 1932 Election Postponed
+country_event = {
+	id = rom.2
+	title = rom.2.t
+	desc = rom.2.d
+	picture = GFX_report_event_election_vote
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		date > 1932.5.1
+	}
+
+	mean_time_to_happen = {
+		days = 50
+	}
+	
+	option = {
+		name = rom.2.a
+		ai_chance = { factor = 100 }
+		add_political_power = -10
+		add_stability = -0.1
+		custom_effect_tooltip = ROM_next_elections
+	}
+}
+
+# 1933 Election Campaigns Begin
+country_event = {
+	id = rom.15
+	title = rom.15.t
+	desc = rom.15.d
+	picture = GFX_report_event_election_vote
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		date > 1933.3.3
+	}
+
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+	option = {
+		name = rom.15.a
+		ai_chance = { factor = 100 }
+		add_political_power = 10
+		hidden_effect = {
+			country_event = { days = 14 id = rom.16 }
+		}
+	}
+}
+
+# Politician supports dialogue with Sovetsglas
+country_event = {
+	id = rom.16
+	title = rom.16.t
+	desc = rom.16.d
+	picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Liberal option
+		name = rom.16.a
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.01
+		}
+		custom_effect_tooltip = ROM_liberals_prevail
+
+		hidden_effect = {
+			country_event = { days = 14 id = rom.17 }
+			add_to_variable = {
+				var = ROM.var_liberal
+				value = 1
+			}
+		}
+	}
+	
+	option = { #Conservative option
+		name = rom.16.b
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		custom_effect_tooltip = ROM_conservatives_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.17 }
+			add_to_variable = {
+				var = ROM.var_conservative
+				value = 1
+			}
+		}
+	}
+	
+	option = { #Fascist Option
+		name = rom.16.c
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.01
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		custom_effect_tooltip = ROM_fascists_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.17 }
+			add_to_variable = {
+				var = ROM.var_fascist
+				value = 1
+			}
+		}
+	}
+	
+	option = { #Leninist Option
+		name = rom.16.e
+		add_popularity = {
+			ideology = marxist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = leninist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.01
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		custom_effect_tooltip = ROM_leninists_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.17 }
+			add_to_variable = {
+				var = ROM.var_leninist
+				value = 1
+			}
+		}
+	}
+	
+	option = {	#Minority Option
+		name = rom.16.f
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		custom_effect_tooltip = ROM_minorities_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.17 }
+			add_to_variable = {
+				var = ROM.var_socdem
+				value = 1
+			}
+		}
+	}
+}
+
+# Communal Violence in Târgu Mureș
+country_event = {
+	id = rom.17
+	title = rom.17.t
+	desc = rom.17.d
+	picture = GFX_report_event_generic_riot
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Liberal option
+		name = rom.17.a
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.01
+		}
+		custom_effect_tooltip = ROM_liberals_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.18 }
+			add_to_variable = {
+				var = ROM.var_liberal
+				value = 1
+			}
+		}
+	}
+	
+	option = { #Conservative option
+		name = rom.17.b
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		custom_effect_tooltip = ROM_conservatives_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.18 }
+			add_to_variable = {
+				var = ROM.var_conservative
+				value = 1
+			}
+		}
+	}
+	
+	option = { #Fascist Option
+		name = rom.17.c
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.01
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		custom_effect_tooltip = ROM_fascists_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.18 }
+			add_to_variable = {
+				var = ROM.var_fascist
+				value = 1
+			}
+		}
+	}
+	
+	option = { #Leninist Option
+		name = rom.17.e
+		add_popularity = {
+			ideology = marxist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = leninist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.01
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		custom_effect_tooltip = ROM_leninists_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.18 }
+			add_to_variable = {
+				var = ROM.var_leninist
+				value = 1
+			}
+		}
+	}
+	
+	option = {	#Minority Option
+		name = rom.17.f
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		custom_effect_tooltip = ROM_minorities_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.18 }
+			add_to_variable = {
+				var = ROM.var_socdem
+				value = 1
+			}
+		}
+	}
+}
+
+# Rural Backwardness
+country_event = {
+	id = rom.18
+	title = rom.18.t
+	desc = rom.18.d
+	picture = GFX_ROM_farmpic
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Liberal option
+		name = rom.18.a
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.01
+		}
+		custom_effect_tooltip = ROM_liberals_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.19 }
+			add_to_variable = {
+				var = ROM.var_liberal
+				value = 1
+			}
+		}
+	}
+	
+	option = { #Conservative option
+		name = rom.18.b
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		custom_effect_tooltip = ROM_conservatives_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.19 }
+			add_to_variable = {
+				var = ROM.var_conservative
+				value = 1
+			}
+		}
+	}
+	
+	option = { #Fascist Option
+		name = rom.18.c
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.01
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		custom_effect_tooltip = ROM_fascists_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.19 }
+			add_to_variable = {
+				var = ROM.var_fascist
+				value = 1
+			}
+		}
+	}
+	
+	option = { #Leninist Option
+		name = rom.18.e
+		add_popularity = {
+			ideology = marxist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = leninist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.01
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		custom_effect_tooltip = ROM_leninists_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.19 }
+			add_to_variable = {
+				var = ROM.var_leninist
+				value = 1
+			}
+		}
+	}
+	
+	option = {	#Minority Option
+		name = rom.18.f
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		custom_effect_tooltip = ROM_minorities_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.19 }
+			add_to_variable = {
+				var = ROM.var_socdem
+				value = 1
+			}
+		}
+	}
+}
+
+# Strike at Muntenia Oil Refinery
+country_event = {
+	id = rom.19
+	title = rom.19.t
+	desc = rom.19.d
+	picture = GFX_report_event_worker_protests
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Liberal option
+		name = rom.19.a
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.01
+		}
+		custom_effect_tooltip = ROM_liberals_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.20 }
+			add_to_variable = {
+				var = ROM.var_liberal
+				value = 1
+			}
+		}
+	}
+	
+	option = { #Conservative option
+		name = rom.19.b
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		custom_effect_tooltip = ROM_conservatives_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.20 }
+			add_to_variable = {
+				var = ROM.var_conservative
+				value = 1
+			}
+		}
+	}
+	
+	option = { #Fascist Option
+		name = rom.19.c
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.01
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		custom_effect_tooltip = ROM_fascists_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.20 }
+			add_to_variable = {
+				var = ROM.var_fascist
+				value = 1
+			}
+		}
+	}
+	
+	option = { #Leninist Option
+		name = rom.19.e
+		add_popularity = {
+			ideology = marxist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = leninist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.01
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		custom_effect_tooltip = ROM_leninists_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.20 }
+			add_to_variable = {
+				var = ROM.var_leninist
+				value = 1
+			}
+		}
+	}
+	
+	option = {	#Minority Option
+		name = rom.19.f
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		custom_effect_tooltip = ROM_minorities_prevail
+		hidden_effect = {
+			country_event = { days = 14 id = rom.20 }
+			add_to_variable = {
+				var = ROM.var_socdem
+				value = 1
+			}
+		}
+	}
+	
+	option = {	#Do nothing
+		name = rom.19.g
+		add_stability = -0.05
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.1
+		}
+		custom_effect_tooltip = ROM_army_angry
+		hidden_effect = {
+			country_event = { days = 5 id = rom.26 }
+		}
+	}
+}
+
+# Iuliu Maniu assassinated
+country_event = {
+	id = rom.20
+	title = rom.20.t
+	desc = rom.20.d
+	picture = GFX_report_event_generic_funeral
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			kill_country_leader = yes
+			
+			create_country_leader = {
+				name = "Ion Mihalache"
+				desc = ""
+				picture = "Portrait_ROM_Mihalache.tga"
+				expire = "1965.1.1"
+				ideology = liberal_conservative_subtype
+				traits = {
+				}
+			}
+			
+			swap_ideas = {
+				add_idea = ROM_Ion_Mihalache_hog
+				remove_idea = ROM_Iuliu_Maniu_hog
+			}
+		}
+	}
+	
+	option = { #Liberal option
+		name = rom.20.a
+		add_stability = -0.05
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.01
+		}
+		custom_effect_tooltip = ROM_liberals_prevail
+		hidden_effect = {
+			set_country_flag = elections_over
+			add_to_variable = {
+				var = ROM.var_liberal
+				value = 1
+			}
+		}
+	}
+	
+	option = { #Conservative option
+		name = rom.20.b
+		add_stability = -0.05
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.02
+		}
+		custom_effect_tooltip = ROM_conservatives_prevail
+		hidden_effect = {
+			set_country_flag = elections_over
+			add_to_variable = {
+				var = ROM.var_conservative
+				value = 1
+			}
+		}
+	}
+	
+	option = { #Fascist Option
+		name = rom.20.c
+		add_stability = -0.05
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.01
+		}
+		custom_effect_tooltip = ROM_fascists_prevail
+		hidden_effect = {
+			set_country_flag = elections_over
+			add_to_variable = {
+				var = ROM.var_fascist
+				value = 1
+			}
+		}
+	}
+	
+	option = { #Leninist Option
+		name = rom.20.e
+		add_stability = -0.05
+		add_popularity = {
+			ideology = marxist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = leninist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.01
+		}
+		custom_effect_tooltip = ROM_leninists_prevail
+		hidden_effect = {
+			set_country_flag = elections_over
+			add_to_variable = {
+				var = ROM.var_leninist
+				value = 1
+			}
+		}
+	}
+	
+	option = {	#Minority Option
+		name = rom.20.f
+		add_stability = -0.05
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = democratic_socialist
+			popularity = 0.02
+		}
+		custom_effect_tooltip = ROM_minorities_prevail
+		hidden_effect = {
+			set_country_flag = elections_over
+			add_to_variable = {
+				var = ROM.var_socdem
+				value = 1
+			}
+		}
+	}
+	
+	option = {	#Army Option
+		name = rom.20.g
+		trigger = {
+			has_country_flag = ROM_military_strikebreakers
+		}
+		add_stability = -0.15
+		custom_effect_tooltip = ROM_army_seizes_power
+		set_politics = {
+			ruling_party = right_wing_populist
+		}
+		hidden_effect = {
+			complete_national_focus = ROM_coup
+			set_country_flag = ROM_army_coup
+			set_party_name = { 
+				ideology = right_wing_populist 
+				long_name = ROM_mildict_long
+				name = ROM_mildict
+			}
+			create_country_leader = {
+				name = "Ion Antonescu"
+				desc = ""
+				picture = "Portrait_ROM_Antonescu.dds"
+				expire = "1965.1.1"
+				ideology = right_wing_populist_subtype
+				traits = {
+					
+				}
+			}
+			swap_ideas = {
+				add_idea = ROM_Ion_Antonescu_hog
+				remove_idea = ROM_Ion_Mihalache_hog
+			}
+			swap_ideas = {
+				add_idea = ROM_Mihail_Sturdza_for_rwp
+				remove_idea = ROM_Alexandru_VV_for
+			}
+			swap_ideas = {
+				add_idea = ROM_Gheorghe_Dobre_eco_rwp
+				remove_idea = ROM_Anton_Crihan_eco
+			}
+			swap_ideas = {
+				add_idea = ROM_Horia_Sima_sec_nsy
+				remove_idea = ROM_Virgil_Madgearu_sec
+			}
+		}
+	}
+}
+
+###########################
+# LIBERAL VICTORY
+###########################
+
+# Liberal Victory
+country_event = {
+	id = rom.21
+	title = rom.21.t
+	desc = rom.21.d
+	picture = GFX_report_event_election_vote
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		has_country_flag = elections_over
+			AND = {
+			check_variable = {
+				var = ROM.var_liberal
+				value = ROM.var_conservative
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROM.var_liberal
+				value = ROM.var_fascist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROM.var_liberal
+				value = ROM.var_leninist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROM.var_liberal
+				value = ROM.var_socdem	
+				compare = greater_than
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = { 
+		name = rom.21.a
+		add_political_power = 10
+		hidden_effect = {
+			set_country_flag = ROM_1933_elections  
+			complete_national_focus = ROM_elections
+			complete_national_focus = ROM_elections_liberals
+		}
+	}
+}
+
+###########################
+# CONSERVATIVE VICTORY
+###########################
+
+# Conservative Victory
+country_event = {
+	id = rom.22
+	title = rom.22.t
+	desc = rom.22.d
+	picture = GFX_report_event_election_vote
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		has_country_flag = elections_over
+			AND = {
+			check_variable = {
+				var = ROM.var_conservative
+				value = ROM.var_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROM.var_conservative
+				value = ROM.var_fascist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROM.var_conservative
+				value = ROM.var_leninist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROM.var_conservative
+				value = ROM.var_socdem	
+				compare = greater_than
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = { 
+		name = rom.22.a
+		add_political_power = 10
+		set_politics = {
+			ruling_party = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.01
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		hidden_effect = {
+			complete_national_focus = ROM_elections
+			set_country_flag = ROM_1933_elections  
+			complete_national_focus = ROM_elections_conservatives
+			swap_ideas = {
+				add_idea = ROM_Alexandru_Averescu_hog
+				remove_idea = ROM_Ion_Mihalache_hog
+			}
+			swap_ideas = {
+				add_idea = ROM_Ion_Gigurtu_for_sco
+				remove_idea = ROM_Alexandru_VV_for
+			}
+			swap_ideas = {
+				add_idea = ROM_Mihail_Racovita_eco_sco
+				remove_idea = ROM_Anton_Crihan_eco
+			}
+			swap_ideas = {
+				add_idea = ROM_Aurel_Aldea_sec_sco
+				remove_idea = ROM_Virgil_Madgearu_sec
+			}
+		}
+	}	
+}
+
+country_event = {
+	id = rom.33 #Avarescu dies
+	title = rom.33.t
+	desc = rom.33.d
+	picture = GFX_report_event_generic_funeral
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		date > 1938.8.8
+		has_government = social_conservative
+	}
+
+	mean_time_to_happen = {
+		days = 15
+	}
+	
+	option = {
+		name = rom.33.a
+		ai_chance = { factor = 100 }
+		kill_country_leader = yes
+		hidden_effect = {
+			
+			create_country_leader = {
+				name = "Petre Negulescu"
+				desc = ""
+				picture = "Portrait_ROM_Negulescu.tga"
+				expire = "1965.1.1"
+				ideology = social_conservative_subtype
+				traits = {
+				}
+			}
+		
+		}
+	}
+}
+
+###########################
+# FASCIST VICTORY
+###########################
+
+# Fascist Victory
+country_event = {
+	id = rom.23
+	title = rom.23.t
+	desc = rom.23.d
+	picture = GFX_ROM_fascistpic
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		has_country_flag = elections_over
+			AND = {
+			check_variable = {
+				var = ROM.var_fascist
+				value = ROM.var_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROM.var_fascist
+				value = ROM.var_conservative
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROM.var_fascist
+				value = ROM.var_leninist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROM.var_fascist
+				value = ROM.var_socdem	
+				compare = greater_than
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = { 
+		name = rom.23.a
+		add_political_power = 10
+		set_politics = {
+			ruling_party = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		hidden_effect = {
+			complete_national_focus = ROM_elections
+			set_country_flag = ROM_1933_elections  
+			complete_national_focus = ROM_elections_fascists
+			swap_ideas = {
+				add_idea = ROM_Corneliu_Codreanu_hog_nsy
+				remove_idea = ROM_Ion_Mihalache_hog
+			}
+			swap_ideas = {
+				add_idea = ROM_Elena_Bacaloglu_for
+				remove_idea = ROM_Alexandru_VV_for
+			}
+			swap_ideas = {
+				add_idea = ROM_Constantin_Papanace_eco_nsy
+				remove_idea = ROM_Anton_Crihan_eco
+			}
+			swap_ideas = {
+				add_idea = ROM_Horia_Sima_sec_nsy
+				remove_idea = ROM_Virgil_Madgearu_sec
+			}
+		}
+	}	
+}
+
+# Government tensions
+country_event = {
+	id = rom.37
+	title = rom.37.t
+	desc = rom.37.d
+	picture = GFX_report_event_romania_parliament
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		has_country_flag = elections_over
+		has_government = national_syndicalist
+	}
+
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	option = {
+		name = rom.37.a
+		ai_chance = { factor = 100 }
+		add_political_power = -50
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.05
+		}
+	}
+}
+
+# Fascio Coup
+country_event = {
+	id = rom.38
+	title = rom.38.t
+	desc = rom.38.d
+	picture = GFX_ROM_fascio
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #Coup failure	
+		name = rom.38.a
+		ai_chance = { factor = 100 }
+		hidden_effect = { set_country_flag = ROM_coup_failed } #this will make elena unavaliable
+	}
+	
+	option = { #Coup sucess
+		name = rom.38.b
+		ai_chance = { factor = 100 }
+		set_politics = {
+			ruling_party = national_corporatist
+		}
+		hidden_effect = {
+			swap_ideas = {
+				add_idea = ROM_Elena_Bacaloglu_hog
+				remove_idea = ROM_Corneliu_Codreanu_hog_nsy
+			}
+			swap_ideas = {
+				add_idea = ROM_Mihail_Sturdza_for_rwp
+				remove_idea = ROM_Elena_Bacaloglu_for
+			}
+			swap_ideas = {
+				add_idea = ROM_David_Popescu_sec_rwp
+				remove_idea = ROM_Horia_Sima_sec_nsy
+			}
+		}
+	}
+}
+
+###########################
+# LENINIST VICTORY
+###########################
+
+# Leninist Victory
+country_event = {
+	id = rom.24
+	title = rom.24.t
+	desc = rom.24.d
+	picture = GFX_ROM_communistpic
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		has_country_flag = elections_over
+			AND = {
+			check_variable = {
+				var = ROM.var_leninist
+				value = ROM.var_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROM.var_leninist
+				value = ROM.var_conservative
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROM.var_leninist
+				value = ROM.var_fascist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROM.var_leninist
+				value = ROM.var_socdem	
+				compare = greater_than
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = { 
+		name = rom.24.a
+		add_political_power = 10
+		set_politics = {
+			ruling_party = marxist
+		}
+		add_popularity = {
+			ideology = marxist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = leninist
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		hidden_effect = {
+			complete_national_focus = ROM_elections
+			complete_national_focus = ROM_elections_leninists
+			set_country_flag = ROM_1933_elections  
+			country_event = { days = 7 id = rom.48 }
+			swap_ideas = {
+				add_idea = ROM_Gheorghe_Cristescu_hog
+				remove_idea = ROM_Ion_Mihalache_hog
+			}
+			swap_ideas = {
+				add_idea = ROM_Mihail_Bujor_for
+				remove_idea = ROM_Alexandru_VV_for
+			}
+			swap_ideas = {
+				add_idea = ROM_Barbu_Lazareanu_eco
+				remove_idea = ROM_Anton_Crihan_eco
+			}
+			swap_ideas = {
+				add_idea = ROM_Dimitrie_Marinescu_sec
+				remove_idea = ROM_Virgil_Madgearu_sec
+			}
+		}
+	}
+}
+
+# Riots 
+country_event = {
+	id = rom.48
+	title = rom.48.t
+	desc = rom.48.d
+	picture = GFX_report_event_gathering_protest
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { 
+		name = rom.48.a
+		add_ideas = ROM_cr_unrest
+	}
+}
+
+# Assassinations 
+country_event = {
+	id = rom.49
+	title = rom.49.t
+	desc = rom.49.d
+	picture = GFX_report_event_generic_funeral
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { 
+		name = rom.49.a	
+		add_political_power = -50
+		add_stability = -0.05
+		custom_effect_tooltip = ROM_minister_assassinated
+		hidden_effect = { 
+			set_country_flag = Barbu_Lazareanu_dead
+			remove_ideas = ROM_Barbu_Lazareanu_eco
+		}
+	}
+}
+
+# Civil War 
+country_event = {
+	id = rom.50
+	title = rom.50.t
+	desc = rom.50.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { 
+		name = rom.50.a
+		hidden_effect = {
+			custom_effect_tooltip = ROM_cw
+			country_event = { days = 2 id = rom.51 }
+			set_country_flag = ROM_commie_cw
+			remove_unit_leader = 301
+			remove_unit_leader = 302
+			remove_unit_leader = 303
+			remove_unit_leader = 304
+			RCW = {
+				transfer_state = 78
+				transfer_state = 79
+				transfer_state = 80
+				transfer_state = 789
+				transfer_state = 772
+				transfer_state = 875
+				transfer_state = 82
+				load_oob = "RCW_war"
+			}
+			declare_war_on = {
+				target = RCW
+				type = civil_war
+			}
+		}
+	}
+}
+
+# Communist Generals 
+country_event = {
+	id = rom.51
+	title = rom.51.t
+	desc = rom.51.d
+	picture = GFX_report_event_soviet_purge_officers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { 
+		name = rom.51.a
+			army_experience = 25
+			create_field_marshal = {
+				name = "Mihail Lascăr"
+				picture = "Portrait_ROM_Lascar.dds"
+				traits = { hill_fighter }
+				skill = 2
+				attack_skill = 3
+				defense_skill = 1
+				planning_skill = 2
+				logistics_skill = 2
+				id = 301
+			}
+
+			create_corps_commander = {
+				name = "Nicolae Cambrea"
+				gfx = GFX_Portrait_ROM_Cambrea
+				traits = { }
+				skill = 1
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 2
+			}
+	}
+}
+
+# SOVIET; Support Romania yes/no
+country_event = {
+	id = rom.53
+	title = rom.53.t
+	desc = rom.53.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	fire_only_once = yes
+
+	trigger = {
+		tag = SOV
+		ROM = { has_war_with = RCW }
+	}
+
+	mean_time_to_happen = {
+		days = 18
+	}
+	
+	option = { #hell yea
+		name = rom.53.a
+		ai_chance = { factor = 90 }
+		ROM = { country_event = { hours = 3 id = rom.52 } }
+		effect_tooltip = {
+			SOV = { add_to_faction = ROM }
+			HUN = { transfer_state = 154 }
+			SLO = { transfer_state = 73 }
+		}
+	}
+	
+	option = { #no way
+		name = rom.53.b
+		ai_chance = { factor = 10 }
+	}
+}
+
+# Sovetsglas support 
+country_event = {
+	id = rom.52
+	title = rom.52.t
+	desc = rom.52.d
+	picture = GFX_report_event_generic_sign_treaty3
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #join faction, hungary & slovakia will assume control of alfold & carpathia
+		name = rom.52.a
+		ai_chance = { factor = 80 }
+		SOV = { 
+			add_to_faction = ROM 
+			declare_war_on = {
+				target = RCW
+				type = topple_government
+			} 
+		}
+		HUN = { 
+			transfer_state = 154
+			declare_war_on = {
+				target = RCW
+				type = topple_government
+			}			
+		}
+		SLO = { 
+			transfer_state = 73 
+			declare_war_on = {
+				target = RCW
+				type = topple_government
+			}
+		}
+	}
+	
+	option = { #no heckin way
+		name = rom.52.b
+		ai_chance = { factor = 20 }
+		SOV = { add_opinion_modifier = { target = ROM modifier = ROM_refused_alliance } }
+	}
+}
+
+# SOVIET; romanian civil war over
+country_event = {
+	id = rom.54
+	title = rom.54.t
+	desc = rom.54.d
+	picture = GFX_report_event_generic_sign_treaty2
+	fire_only_once = yes
+
+	trigger = {
+		tag = SOV
+		ROM = { 
+			has_country_flag = ROM_commie_cw
+			is_in_faction_with = SOV
+			NOT = { ROM = { has_war_with = RCW } }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+	}
+	
+	option = { #Leave them intact, negative opinion mod
+		name = rom.54.a
+		ai_chance = { factor = 70 }
+		HUN = { add_opinion_modifier = { target = SOV modifier = ROM_denied_territory } }
+		SLO = { add_opinion_modifier = { target = SOV modifier = ROM_denied_territory } }
+		POL = { add_opinion_modifier = { target = SOV modifier = ROM_denied_territory } }
+	}
+	
+	option = { #Demand concessions - Poland/Bukovina, Hungary/Transylvania, Russia/Bessarabia
+		name = rom.54.b
+		ai_chance = { factor = 30 }
+		hidden_effect = { ROM = { country_event = { hours = 3 id = rom.55 } } }
+		effect_tooltip = {
+			SOV = { transfer_state = 78 }
+			HUN = { transfer_state = 76 transfer_state = 789 }
+			POL = { transfer_state = 80 }
+		}
+	}
+}
+
+# Soviets demand territory
+country_event = {
+	id = rom.55
+	title = rom.55.t
+	desc = rom.55.d
+	picture = GFX_report_event_generic_sign_treaty2
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #yes daddy
+		name = rom.55.a
+		ai_chance = { factor = 90 }
+		SOV = { transfer_state = 78 }
+		HUN = { transfer_state = 76 transfer_state = 789 }
+		POL = { transfer_state = 80 }
+	}
+	
+	option = { #fuck that
+		name = rom.55.b
+		ai_chance = { factor = 10 }
+		ROM = { leave_faction = SOV }
+		SOV = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ROM
+			}
+		}
+	}
+}
+
+# Civil War Leaders Executed
+country_event = {
+	id = rom.56
+	title = rom.56.t
+	desc = rom.56.d
+	picture = GFX_ROM_execution
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		ROM = { 
+			has_country_flag = ROM_commie_cw
+			NOT = { ROM = { has_war_with = RCW } }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 25
+	}
+	
+	option = { 
+		name = rom.56.a
+		ai_chance = { factor = 40 }
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = -0.15
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = -0.15
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = -0.15
+		}
+		hidden_effect = {
+			create_country_leader = {
+				name = "Elena Bacaloglu"
+				desc = ""
+				picture = "Portrait_ROM_Elena.tga"
+				expire = "1965.1.1"
+				ideology = national_syndicalist_subtype
+				traits = {
+				}
+			}
+		}
+	}
+}
+
+#Flight of King Michael
+country_event = {
+	id = rom.57
+	title = rom.57.t
+	desc = rom.57.d
+	picture = GFX_ROM_execution
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		has_country_flag = ROM_commie_cw
+		RCW = surrender_progress > 0.3
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = { 
+		name = rom.57.a
+		ai_chance = { factor = 100 }
+		RCW = { remove_idea = ROM_king_michael }
+	}
+}
+
+###########################
+# SOCIAL DEMOCRATIC VICTORY
+###########################
+
+# Socdem Victory
+country_event = {
+	id = rom.25
+	title = rom.25.t
+	desc = rom.25.d
+	picture = GFX_report_event_election_vote
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		has_country_flag = elections_over
+			AND = {
+			check_variable = {
+				var = ROM.var_socdem
+				value = ROM.var_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROM.var_socdem
+				value = ROM.var_conservative
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROM.var_socdem
+				value = ROM.var_fascist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROM.var_socdem
+				value = ROM.var_leninist	
+				compare = greater_than
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = { 
+		name = rom.25.a
+		add_political_power = 10
+		set_politics = {
+			ruling_party = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		add_ideas = ROM_nationalist_outrage
+		hidden_effect = {
+			complete_national_focus = ROM_elections
+			complete_national_focus = ROM_elections_socdems
+			set_country_flag = ROM_1933_elections  
+			complete_national_focus = ROM_elections_marxists
+			swap_ideas = {
+				add_idea = ROM_Stefan_Baciu_hog
+				remove_idea = ROM_Ion_Mihalache_hog
+			}
+			swap_ideas = {
+				add_idea = ROM_Ioan_Flueras_for
+				remove_idea = ROM_Alexandru_VV_for
+			}
+			swap_ideas = {
+				add_idea = ROM_Nicolae_Lupu_eco
+				remove_idea = ROM_Anton_Crihan_eco
+			}
+			swap_ideas = {
+				add_idea = ROM_Ecaterina_Arbore_sec
+				remove_idea = ROM_Virgil_Madgearu_sec
+			}
+		}
+	}
+}
+
+#Pogroms
+country_event = {
+	id = rom.58
+	title = rom.58.t
+	desc = rom.58.d
+	picture = GFX_report_event_generic_riot
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #Crack down
+		name = rom.58.a
+		add_stability = -0.03
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.05
+		}
+	}
+	
+	option = { #Call for Peace
+		name = rom.58.b
+		add_political_power = -25
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.05
+		}
+	}
+}
+
+#Parliamentary Protest
+country_event = {
+	id = rom.59
+	title = rom.59.t
+	desc = rom.59.d
+	picture = GFX_report_event_gathering_protest
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #Break through
+		name = rom.59.a
+		add_political_power = -50
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.05
+		}
+	}
+	
+	option = { #Hold Parliament outside 
+		name = rom.59.b
+		add_stability = -0.03
+	}
+}
+
+#Tensions cool
+country_event = {
+	id = rom.60
+	title = rom.60.t
+	desc = rom.60.d
+	picture = GFX_report_event_aid_pact
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { 
+		name = rom.60.a
+		add_stability = 0.05
+		add_political_power = 100
+	}
+}
+
+###########################
+# ARMY COUP
+###########################
+
+# Army breaks strike 
+country_event = {
+	id = rom.26
+	title = rom.26.t
+	desc = rom.26.d
+	picture = GFX_ROM_armypic
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { 
+		name = rom.26.a
+		add_political_power = -10
+		hidden_effect = {
+			set_country_flag = ROM_military_strikebreakers
+			country_event = { days = 7 id = rom.20 }
+		}
+	}
+}
+
+# Army Coup Information 
+country_event = {
+	id = rom.27
+	title = rom.27.t
+	desc = rom.27.d
+	picture = GFX_report_event_romanian_soldiers
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		has_country_flag = ROM_army_coup
+	}
+
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = { 
+		name = rom.27.a
+		add_political_power = -10
+		add_ideas = ROM_democratic_unrest
+		hidden_effect = {
+			country_event = { days = 48 id = rom.28 }
+		}
+	}
+}
+
+# Protests in Bucharest 
+country_event = {
+	id = rom.28
+	title = rom.28.t
+	desc = rom.28.d
+	picture = GFX_report_event_generic_rally
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { 
+		name = rom.28.a #Clamp down
+		add_stability = -0.05
+		hidden_effect = {
+			country_event = { days = 48 id = rom.29 }
+		}
+	}
+	
+	option = { 
+		name = rom.28.b #Let them protest
+		add_political_power = -50
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.05
+		}
+		hidden_effect = {
+			country_event = { days = 48 id = rom.29 }
+		}
+	}
+}
+
+# Bessarabia Ukranian's Strike
+country_event = {
+	id = rom.29
+	title = rom.29.t
+	desc = rom.29.d
+	picture = GFX_report_event_worker_protests
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #Clamp down
+		name = rom.29.a
+		add_stability = -0.05
+		add_popularity = {
+			ideology = marxist
+			popularity = 0.1
+		}
+	}
+	
+	option = { #Negotiate with them
+		name = rom.29.b
+		add_political_power = -50
+		add_timed_idea = { idea = ROM_bessarabia_strike days = 130 }	 
+		add_popularity = {
+			ideology = marxist
+			popularity = 0.05
+		}
+	}
+}
+
+# Rigged Election 
+country_event = {
+	id = rom.30
+	title = rom.30.t
+	desc = rom.30.d
+	picture = GFX_report_event_election_vote
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { 
+		name = rom.30.a
+		add_stability = 0.05
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.15
+		}
+		remove_ideas = ROM_democratic_unrest_3
+	}
+}
+
+###########################
+# ORADEA CONFERENCE
+###########################
+
+### PHASE 1 ###
+
+# Hungary, Slovakia, Poland - Attendance Event 
+country_event = {
+	id = rom.3
+	title = rom.3.t
+	desc = rom.3.d
+	picture = GFX_report_event_generic_conference
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = rom.3.a
+		ai_chance = { factor = 100 }
+		hidden_effect = { 
+			ROM = { country_event = { days = 5 id = rom.5 } }
+		}
+	}
+}
+
+# Soviet Union - Event Alert
+country_event = {
+	id = rom.4
+	title = rom.4.t
+	desc = rom.4.d
+	picture = GFX_report_event_generic_conference
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = rom.4.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+### PHASE 2 ###
+
+# Romania - Hungarian interests
+country_event = {
+	id = rom.5
+	title = rom.5.t
+	desc = rom.5.d
+	picture = GFX_ROM_hungary
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Give them alfold
+		name = rom.5.a
+		ai_chance = { factor = 70 }
+		HUN = { transfer_state = 154 }	
+		HUN = { add_opinion_modifier = { target = ROM modifier = ROM_returned_territory } }
+		hidden_effect = { 
+			country_event = { days = 5 id = rom.6 } 
+		}
+	}
+	option = { #Give them transylvania
+		name = rom.5.b
+		ai_chance = { factor = 30 }
+		HUN = { transfer_state = 154 }
+		HUN = { transfer_state = 76 }
+		HUN = { transfer_state = 789 }
+		HUN = { add_opinion_modifier = { target = ROM modifier = ROM_returned_transylvania } }
+		add_stability = -0.15
+		hidden_effect = { 
+			country_event = { days = 5 id = rom.6 } 
+		}
+	}
+	option = { #Give them nothing
+		name = rom.5.c
+		ai_chance = { factor = 20 }
+		HUN = { add_opinion_modifier = { target = ROM modifier = ROM_returned_nothing } }
+		hidden_effect = { 
+			country_event = { days = 5 id = rom.6 } 
+		}
+	}
+}
+
+# Romania - Slovak interests
+country_event = {
+	id = rom.6
+	title = rom.6.t
+	desc = rom.6.d
+	picture = GFX_ROM_slovakia
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Give them transcarpathia
+		name = rom.6.a
+		ai_chance = { factor = 70 }
+		SLO = { transfer_state = 73 }
+		SLO = { add_opinion_modifier = { target = ROM modifier = ROM_returned_territory } }
+		hidden_effect = { 
+			country_event = { days = 5 id = rom.7 } 
+		}
+	}
+	option = { #Give them nothing
+		name = rom.6.b
+		ai_chance = { factor = 20 }
+		SLO = { add_opinion_modifier = { target = ROM modifier = ROM_returned_nothing } }
+		hidden_effect = { 
+			country_event = { days = 5 id = rom.7 } 
+		}
+	}
+}
+
+# Romania - Polish interests
+country_event = {
+	id = rom.7
+	title = rom.7.t
+	desc = rom.7.d
+	picture = GFX_ROM_poland
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Give them bukovina
+		name = rom.7.a
+		ai_chance = { factor = 70 }
+		POL = { transfer_state = 80 }
+		POL = { add_opinion_modifier = { target = ROM modifier = ROM_returned_territory } }
+		add_stability = -0.05
+		hidden_effect = { 
+			set_global_flag = oradea_over
+		}
+	}
+	option = { #Give them nothing
+		name = rom.7.b
+		ai_chance = { factor = 20 }
+		POL = { add_opinion_modifier = { target = ROM modifier = ROM_returned_nothing } }
+		hidden_effect = { 
+			set_global_flag = oradea_over	
+		}
+	}
+}
+
+### PHASE 3 ###
+
+# Romania - Positive conclusion
+country_event = {
+	id = rom.8
+	title = rom.8.t
+	desc = rom.8.d
+	picture = GFX_report_event_generic_conference
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		has_global_flag = oradea_over	
+		AND = {
+			HUN = { controls_state = 154 }	
+			SLO = { controls_state = 73 }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	}
+	
+	option = {
+		name = rom.8.a
+		ai_chance = { factor = 100 }
+		add_stability = 0.05
+		diplomatic_relation = { country = HUN relation = non_aggression_pact }	
+		diplomatic_relation = { country = SLO relation = non_aggression_pact }	
+		HUN = { add_opinion_modifier = { target = ROM modifier = ROM_good_oradea } }
+		SLO = { add_opinion_modifier = { target = ROM modifier = ROM_good_oradea } }
+		if = {
+			limit = {
+				ROM = {	owns_state = 80 }
+				}
+				POL = { add_opinion_modifier = { target = ROM modifier = ROM_bad_oradea } }	
+		}
+		if = {
+			limit = {
+				POL = {	owns_state = 80 }
+				}
+				POL = { add_opinion_modifier = { target = ROM modifier = ROM_good_oradea } }	
+		}
+	}
+}
+
+# Romania - Negative conclusion
+country_event = {
+	id = rom.9
+	title = rom.9.t
+	desc = rom.9.d
+	picture = GFX_report_event_generic_conference
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		has_global_flag = oradea_over	
+		OR = {
+			ROM = { controls_state = 154 }	
+			ROM = { controls_state = 73 }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	}
+	
+	option = {
+		name = rom.9.a
+		ai_chance = { factor = 100 }
+		if = {
+			limit = {
+				ROM = {	owns_state = 154 }
+				}
+				HUN = { add_opinion_modifier = { target = ROM modifier = ROM_bad_oradea } }	
+		}
+		if = {
+			limit = {
+				HUN = {	owns_state = 154 }
+				}
+				HUN = { add_opinion_modifier = { target = ROM modifier = ROM_good_oradea } }	
+		}
+		
+		if = {
+			limit = {
+				ROM = {	owns_state = 73 }
+				}
+				SLO = { add_opinion_modifier = { target = ROM modifier = ROM_bad_oradea } }	
+		}
+		if = {
+			limit = {
+				SLO = {	owns_state = 73 }
+				}
+				SLO = { add_opinion_modifier = { target = ROM modifier = ROM_good_oradea } }	
+		}
+		
+		if = {
+			limit = {
+				ROM = {	owns_state = 80 }
+				}
+				POL = { add_opinion_modifier = { target = ROM modifier = ROM_bad_oradea } }	
+		}
+		if = {
+			limit = {
+				POL = {	owns_state = 80 }
+				}
+				POL = { add_opinion_modifier = { target = ROM modifier = ROM_good_oradea } }	
+		}
+	}
+}
+
+### PHASE 4 ###
+
+# Soviet Union - Very positive conclusion
+country_event = {
+	id = rom.13
+	title = rom.13.t
+	desc = rom.13.d
+	picture = GFX_report_event_generic_conference
+	fire_only_once = yes
+
+	trigger = {
+		tag = SOV
+		has_global_flag = oradea_over	
+		AND = {
+			HUN = { controls_state = 154 }	
+			HUN = { controls_state = 76 }	
+			HUN = { controls_state = 789 }	
+			SLO = { controls_state = 73 }
+			POL = { controls_state = 80 }
+		}
+	}
+	
+	option = {
+		name = rom.13.a
+		ai_chance = { factor = 100 }
+		SOV = { add_opinion_modifier = { target = ROM modifier = ROM_good_oradea } }
+		add_opinion_modifier = { target = SOV modifier = ROM_good_oradea }
+		diplomatic_relation = { country = ROM relation = non_aggression_pact }	
+		hidden_effect = { 
+			ROM = { country_event = { days = 5 id = rom.12 } }
+		}
+	}
+}
+
+# Soviet Union - Positive conclusion
+country_event = {
+	id = rom.10
+	title = rom.10.t
+	desc = rom.10.d
+	picture = GFX_report_event_generic_conference
+	fire_only_once = yes
+
+	trigger = {
+		tag = SOV
+		has_global_flag = oradea_over	
+		AND = {
+			HUN = { controls_state = 154 }	
+			SLO = { controls_state = 73 }
+		}
+	}
+	
+	option = {
+		name = rom.10.a
+		ai_chance = { factor = 100 }
+		SOV = { add_opinion_modifier = { target = ROM modifier = ROM_good_oradea } }
+		add_opinion_modifier = { target = SOV modifier = ROM_good_oradea }
+	}
+}
+
+# Soviet Union - Negative conclusion
+country_event = {
+	id = rom.11
+	title = rom.11.t
+	desc = rom.11.d
+	picture = GFX_report_event_generic_conference
+	fire_only_once = yes
+
+	trigger = {
+		tag = SOV
+		has_global_flag = oradea_over	
+		AND = {
+			ROM = { controls_state = 154 }	
+			ROM = { controls_state = 73 }
+		}
+	}
+	
+	option = {
+		name = rom.11.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+### PHASE 5 ###
+
+# Romania - Soviet NAP
+country_event = {
+	id = rom.12
+	title = rom.12.t
+	desc = rom.12.d
+	picture = GFX_report_event_generic_usa_treaty
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = rom.12.a
+		ai_chance = { factor = 100 }
+		effect_tooltip = {
+			diplomatic_relation = { country = SOV relation = non_aggression_pact }	
+			SOV = { add_opinion_modifier = { target = ROM modifier = ROM_good_oradea } }
+			add_opinion_modifier = { target = SOV modifier = ROM_good_oradea }
+		}
+		add_stability = 0.05
+	}
+}
+
+###########################
+# WEST BANAT NEGOTIATIONS
+###########################
+
+# Serbia Negotation Prompt
+country_event = {
+	id = rom.40
+	title = rom.40.t
+	desc = rom.40.d
+	picture = GFX_report_event_generic_sign_treaty1
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = rom.40.a
+		ai_chance = { factor = 100 }
+		hidden_effect = { ROM = { country_event = { id = rom.41 days = 7 } } }
+	}
+}
+
+# Romanian Negotations
+country_event = {
+	id = rom.41
+	title = rom.41.t
+	desc = rom.41.d
+	picture = GFX_ROM_banatmap
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #West Banat for alliance
+		name = rom.41.a
+		ai_chance = { factor = 70 }
+		custom_effect_tooltip = ROM_banat_explanation
+		effect_tooltip = {
+			SER = { transfer_state = 875 }
+			SER = { give_guarantee = ROM }
+			give_guarantee = SER
+			SER = { add_opinion_modifier = { target = ROM modifier = ROM_serb_alliance } }
+		}
+		hidden_effect = { SER = { country_event = { id = rom.42 hours = 10 } } }
+	} 
+
+	option = { #Compensation
+		name = rom.41.b
+		ai_chance = { factor = 20 }
+		custom_effect_tooltip = ROM_banat_explanation
+		effect_tooltip = {
+			SER = { remove_state_core = 875 }
+			add_ideas = ROM_compensation
+			SER = { add_ideas = ROM_compensation_SER }
+			SER = { add_opinion_modifier = { target = ROM modifier = ROM_serb_deal } }
+		}
+		hidden_effect = { SER = { country_event = { id = rom.43 hours = 10 } } }
+	}
+	
+	option = { #No deal
+		name = rom.41.c
+		ai_chance = { factor = 10 }
+		SER = { add_opinion_modifier = { target = ROM modifier = ROM_no_deal } }
+		hidden_effect = { SER = { country_event = { id = rom.44 hours = 10 } } }
+	} 
+}
+
+# Serbia Alliance Proposal
+country_event = {
+	id = rom.42
+	title = rom.42.t
+	desc = rom.42.d
+	picture = GFX_report_event_generic_sign_treaty1
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #yea
+		name = rom.42.a
+		ai_chance = { factor = 80 }
+		SER = { transfer_state = 875 }
+		SER = { give_guarantee = ROM }
+		ROM = { give_guarantee = SER }
+		SER = { add_opinion_modifier = { target = ROM modifier = ROM_serb_alliance } }
+	}
+	option = { #nah
+		name = rom.42.b
+		ai_chance = { factor = 20 }
+		hidden_effect = { ROM = { country_event = { id = rom.45 hours = 10 } } }
+	}
+}
+
+# Serbia Compensation Proposal
+country_event = {
+	id = rom.43
+	title = rom.43.t
+	desc = rom.43.d
+	picture = GFX_report_event_generic_sign_treaty1
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #yea
+		name = rom.43.a
+		ai_chance = { factor = 45 }
+		SER = { remove_state_core = 875 }
+		add_timed_idea = { idea = ROM_compensation days = 730 }	 
+		SER = { add_timed_idea = { idea = ROM_compensation_SER days = 730 } }
+		SER = { add_opinion_modifier = { target = ROM modifier = ROM_serb_deal } }
+	}
+	option = { #nah
+		name = rom.43.b
+		ai_chance = { factor = 55 }
+		hidden_effect = { ROM = { country_event = { id = rom.45 hours = 10 } } }
+	}
+}
+
+# Serbia no deal
+country_event = {
+	id = rom.44
+	title = rom.44.t
+	desc = rom.44.d
+	picture = GFX_report_event_generic_sign_treaty1
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+		name = rom.44.a
+		ai_chance = { factor = 100 }
+		SER = { add_opinion_modifier = { target = ROM modifier = ROM_no_deal } }
+	}
+}
+
+# Romania no deal
+country_event = {
+	id = rom.45
+	title = rom.45.t
+	desc = rom.45.d
+	picture = GFX_report_event_generic_sign_treaty1
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+		name = rom.45.a
+		ai_chance = { factor = 100 }
+		SER = { add_opinion_modifier = { target = ROM modifier = ROM_no_deal } }
+	}
+}
+

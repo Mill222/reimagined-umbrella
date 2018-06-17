@@ -1302,4 +1302,16 @@ spriteTypes = {
 		name = "GFX_idea_ROM_michael"
 		texturefile = "gfx/interface/ideas/ROM/ROM_michael.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_backward_industry"
+		texturefile = "gfx/interface/ideas/ROM/idea_backward_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_NOR_planned_economy"
+		texturefile = "gfx/interface/ideas/ROM/NOR_planned_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_seats"
+		texturefile = "gfx/interface/ideas/ROM/ROM_seats.dds"
+	}
 }

@@ -1,0 +1,86 @@
+﻿units = {
+	division = {
+		name = "1st Infanterie Divizia '32"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3639
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "2nd Infanterie Divizia '32"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3639
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "3rd Infanterie Divizia '32"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3639
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "4th Infanterie Divizia '32"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3639
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "5th Infanterie Divizia '32"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3639
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "6th Infanterie Divizia '32"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3639
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "7th Infanterie Divizia '32"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3639
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+}

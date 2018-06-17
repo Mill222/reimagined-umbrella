@@ -2044,6 +2044,51 @@ spriteTypes = {
 		name = "GFX_ROM_farmpic"
 		texturefile = "gfx/event_pictures/ROM_farmpic.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_ROM_fascistpic"
+		texturefile = "gfx/event_pictures/ROM_fascistpic.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_communistpic"
+		texturefile = "gfx/event_pictures/ROM_communistpic.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_armypic"
+		texturefile = "gfx/event_pictures/ROM_armypic.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_mausoleum"
+		texturefile = "gfx/event_pictures/ROM_mausoleum.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_arc"
+		texturefile = "gfx/event_pictures/ROM_arc.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_academy"
+		texturefile = "gfx/event_pictures/ROM_academy.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_factory"
+		texturefile = "gfx/event_pictures/ROM_factory.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_newspaper"
+		texturefile = "gfx/event_pictures/ROM_newspaper.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_fascio"
+		texturefile = "gfx/event_pictures/ROM_fascio.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_execution"
+		texturefile = "gfx/event_pictures/ROM_execution.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_flight"
+		texturefile = "gfx/event_pictures/ROM_flight.dds"
+	}
 }
 	
 	

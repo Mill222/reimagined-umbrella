@@ -90938,6 +90938,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ministers/ROM/ROM_Ana_Pauker.tga"
 	}
 
+	spriteType = {
+		name = "GFX_idea_ROM_Alexandru_VV_for"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Alexandru_VV.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Ioan_Flueras_for"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Ioan_Flueras.tga"
+	}
 
 	#Economy Minister
 	spriteType = {
@@ -90973,6 +90982,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ROM_Ilie_Moscovici_eco"
 		texturefile = "gfx/interface/ministers/ROM/ROM_Ilie_Moscovici.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_Anton_Crihan_eco"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Anton_Crihan.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_Nicolae_Lupu_eco"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Nicolae_Lupu.tga"
 	}
 
 
@@ -91020,6 +91037,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ROM_Alexandru_Nicolau_sec"
 		texturefile = "gfx/interface/ministers/ROM/ROM_Alexandru_Nicolau.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROM_Virgil_Madgearu_sec"
+		texturefile = "gfx/interface/ministers/ROM/ROM_Virgil_Madgearu.tga"
 	}
 
 

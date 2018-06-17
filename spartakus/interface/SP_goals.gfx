@@ -969,4 +969,16 @@ spriteTypes = {
 		name = "GFX_Aerial_Fleet_2"
 		texturefile = "gfx/interface/goals/Aerial_Fleet_2.dds"
 	}
+	SpriteType = {
+		name = "GFX_Austria_Focus"
+		texturefile = "gfx/interface/goals/Austria_Focus.dds"
+	}
+	SpriteType = {
+		name = "GFX_Jet_Research"
+		texturefile = "gfx/interface/goals/Jet_Research.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_women_snipers"
+		texturefile = "gfx/interface/goals/goal_women_snipers.dds"
+	}
 }

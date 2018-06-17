@@ -29,7 +29,19 @@ ideas = {
 
 			removal_cost = -1
 			modifier = {
-				stability_factor = 0.02
+			}
+		}
+		
+		ROM_king_michael_good = {
+			picture = ROM_michael
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
 			}
 		}
 		
@@ -583,6 +595,480 @@ ideas = {
 				}
 			}
 		}
+		
+		ROM_democratic_unrest = {
+			picture = generic_disjointed_gov
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				stability_factor = -0.05
+				political_power_gain = -0.5
+				foreign_subversive_activites = 0.5
+				enemy_justify_war_goal_time = -0.25
+				trade_opinion_factor = -0.25
+			}
+		}
+		
+		ROM_democratic_unrest_2 = {
+			picture = generic_disjointed_gov
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				political_power_gain = -0.5
+				foreign_subversive_activites = 0.2
+				enemy_justify_war_goal_time = -0.25
+				trade_opinion_factor = -0.25
+			}
+		}
+		
+		ROM_democratic_unrest_3 = {
+			picture = generic_disjointed_gov
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				foreign_subversive_activites = 0.2
+				enemy_justify_war_goal_time = -0.25
+				trade_opinion_factor = -0.25
+			}
+		}
+		
+		ROM_secret_police = {
+			picture = generic_secret_police
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				political_power_gain = 0.5
+				subversive_activites_upkeep = -0.1
+				drift_defence_factor = 0.25
+			}
+		}
+		
+		ROM_bessarabia_strike = {
+			picture = economic_control_icon
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				consumer_goods_factor = 0.05
+				production_factory_efficiency_gain_factor = -0.15
+			}
+		}
+		
+		ROM_liberal_state = {
+			picture = air_support_focus
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				political_power_gain = 0.5
+				trade_opinion_factor = 0.5
+				economy_cost_factor = -0.25
+				trade_laws_cost_factor = -0.25
+			}
+		}
+		
+		ROM_conservative_state = {
+			picture = idea_japanese_aid_cut
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				political_power_gain = 1
+				conscription = 0.05	
+				mobilization_laws_cost_factor = -0.25
+			}
+		}
+		
+		ROM_morals = {
+			picture = generic_oppression
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				political_power_gain = 0.05
+				conscription = 0.05	
+				local_resources_factor = 0.05
+				national_syndicalist_drift = 0.02
+			}
+		}
+		
+		ROM_rebirth = {
+			picture = yug_orthodox_church_support
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				political_power_gain = 0.05
+				conscription = 0.05	
+				national_syndicalist_drift = 0.05
+				justify_war_goal_time = -0.25
+				production_factory_efficiency_gain_factor = -0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		ROM_settling_carpathia = {
+			picture = prc_low_popular_support3
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				political_power_gain = -1
+				MONTHLY_POPULATION = 0.2
+			}
+		}
+		
+		ROM_voting_carpathia = {
+			picture = generic_volunteer_expedition_bonus
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				political_power_gain = -0.5
+				stability_factor = -0.03
+			}
+		}
+		
+		ROM_settling_alfold = {
+			picture = prc_low_popular_support3
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				political_power_gain = -1
+				MONTHLY_POPULATION = 0.2
+			}
+		}	
+		
+		ROM_voting_alfold = {
+			picture = generic_volunteer_expedition_bonus
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				political_power_gain = -0.5
+				stability_factor = -0.03
+			}
+		}
+		
+		ROM_superiority_doctrine = {
+			picture = air_war_plans_division_focus
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				air_air_superiority_attack_factor = 0.25
+				air_air_superiority_defence_factor = 0.25
+				air_air_superiority_agility_factor = 0.25
+			}
+		}
+		
+		ROM_destruction_doctrine = {
+			picture = strategic_bombing_focus
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				air_strategic_bomber_attack_factor = 0.25
+				air_strategic_bomber_bombing_factor = 0.25
+			}
+		}
+		
+		ROM_pilots = {
+			picture = generic_air_research
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				experience_gain_air = 0.05
+				air_ace_generation_chance_factor = 0.15
+				air_accidents_factor = -0.15
+			}
+		}
+		
+		ROM_air_industry = {
+			picture = man_five_year_plan_air
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+			}
+		}
+		
+		ROM_compensation = {
+			picture = GFX_idea_capital_outflow
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				local_resources_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+				consumer_goods_factor = 0.05
+				min_export = 0.05
+			}
+		}
+		
+		ROM_compensation_SER = {
+			picture = generic_foreign_capital
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				local_resources_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				consumer_goods_factor = -0.05
+				min_export = -0.05
+			}
+		}
+		
+		ROM_freikorps = {
+			picture = chi_army_corruption2
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				conscription = 0.03
+				land_reinforce_rate = 0.25
+			}
+		}
+		
+		ROM_females = {
+			picture = idea_generic_communist_army
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				conscription = 0.1
+
+			}
+		}
+		
+		ROM_infiltration = {
+			picture = hun_secret_rearmament
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				recon_factor = 0.05
+				out_of_supply_factor = -0.01
+				attrition = -0.1
+				enemy_partisan_effect = -0.15
+			}
+		}
+		
+		ROM_cr_unrest = {
+			picture = chi_war_of_resistance2
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				stability_factor = -0.15
+				political_power_gain = -0.5
+				production_factory_max_efficiency_factor = -0.05
+				production_speed_buildings_factor = -0.05
+				local_resources_factor = -0.05
+			}
+		}
+		
+		ROM_wobblies = {
+			picture = generic_production_bonus
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_start_efficiency_factor = -0.05
+				industry_repair_factor = 0.25
+			}
+		}
+		
+		ROM_nationalize_factories = {
+			picture = NOR_planned_economy
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				local_resources_factor = 0.10
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		
+		ROM_nationalist_outrage = {
+			picture = chi_war_of_resistance3
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				stability_factor = -0.1
+				political_power_gain = -0.5
+			}
+		}
+		
+		ROM_no_discrimination = {
+			picture = hun_treaty_of_trianon
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				political_power_gain = 0.5
+				conscription = 0.05
+			}
+		}
+		
+		ROM_parliament_seats = {
+			picture = GFX_ROM_seats
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				political_power_gain = 0.5
+				stability_factor = 0.05
+				social_democrat_drift = 0.05
+			}
+		}
+		
+		ROM_nanny = {
+			picture = generic_political_support
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			removal_cost = -1
+			
+			modifier = { 
+				stability_factor = 0.05
+				consumer_goods_factor = 0.05
+				research_time_factor = -0.05
+				production_factory_max_efficiency_factor = 0.05
+				local_resources_factor = 0.1
+			}
+		}
 	}
 	
 #############
@@ -591,6 +1077,33 @@ ideas = {
 
 #### General ####
 industrial_concern = {
+
+	ROM_cfr = {
+		allowed = { 
+			OR = {
+				original_tag = ROM
+			}
+		}
+		picture = generic_industrial_concern_2
+		traits = { industrial_manufacturer  }
+		modifier = {
+			production_speed_infrastructure_factor = 0.25
+		}
+	}
+	
+	ROM_terapia = {
+		allowed = { 
+			OR = {
+				original_tag = ROM
+			}
+		}
+		picture = generic_electronics_concern_2
+		traits = { chemical_producer }
+		modifier = {
+			production_factory_efficiency_gain_factor = 0.05
+			research_time_factor = -0.02
+		}
+	}
 
 }
 
@@ -605,7 +1118,21 @@ weapons_manufacturer = {
 			}
 		}
 		picture = generic_infantry_equipment_manufacturer_1
-		traits = { infantry_equipment_producer_offense_1 }
+		traits = { infantry_equipment_producer_offense_2 }
+		modifier = {}
+		research_bonus = {
+			infantry_weapons = 0.1
+		}
+	}
+	
+	ROM_cugir = {
+		allowed = { 
+			OR = {
+				original_tag = ROM
+			}
+		}
+		picture = ROM_cugir
+		traits = { infantry_equipment_producer_allround_2 }
 		modifier = {}
 		research_bonus = {
 			infantry_weapons = 0.1
@@ -616,6 +1143,29 @@ weapons_manufacturer = {
 #### Heavy Equipment Manufacturer ####
 tank_manufacturer = {
 	designer = yes
+
+	ROM_skoda = {
+		allowed = { 
+			OR = {
+				original_tag = ROM
+			}
+		}
+		picture = CZE_skoda_works
+		traits = { small_tank_producer_offense_1 }		
+	}
+	
+	ROM_romloc = {
+		allowed = { 
+			OR = {
+				original_tag = ROM
+			}
+		}
+		picture = generic_motorized_equipment_manufacturer_2
+		traits = { motorised_equipment_producer_offense_0 }		
+	}
+	
+	
+	
 }
 	
 #### Air and Naval Manufacturer ####
@@ -629,26 +1179,11 @@ air_naval_manufacturer = {
 			}
 		}
 		picture = generic_air_manufacturer_3
-		traits = { light_aircraft_manufacturer }
+		traits = { fighter_producer_defense_1 }
 			
 			research_bonus = {
 				air_equipment = 0.05
 			}			
-			
-			equipment_bonus = {
-				fighter_equipment = {
-					air_attack = 0.1
-				}
-				cv_fighter_equipment = {
-					air_attack = 0.1
-				}
-				CAS_equipment = {
-					air_ground_attack = 0.1
-				}
-				cv_CAS_equipment = {
-					air_ground_attack = 0.1
-				}
-			}
 	}
 	
 	ROM_set = {
@@ -658,27 +1193,11 @@ air_naval_manufacturer = {
 			}
 		}
 		picture = generic_air_manufacturer_2
-		traits = { heavy_aircraft_manufacturer }
-		modifier = {}
+		traits = { bomber_producer_offense_1 }
 			
 			research_bonus = {
 				air_equipment = 0.05
 			}			
-			
-			equipment_bonus = {
-				tac_bomber_equipment = {
-					air_ground_attack = 0.1
-					build_cost_ic = -0.1
-				}
-				nav_bomber_equipment = {
-					naval_strike_attack = 0.1
-					build_cost_ic = -0.1
-				}
-				cv_nav_bomber_equipment = {
-					naval_strike_attack = 0.1
-					build_cost_ic = -0.1
-				}
-			}
 	}
 	
 	ROM_icar = {
@@ -688,22 +1207,21 @@ air_naval_manufacturer = {
 			}
 		}
 		picture = generic_air_bonus
-		traits = { heavy_aircraft_manufacturer }
+		traits = { bomber_producer_mass_1 }
+			
 			research_bonus = {
 				air_equipment = 0.05
 			}			
-			
-			equipment_bonus = {
-				fighter_equipment = {
-					air_agility = 0.15
-				}
-				cv_fighter_equipment = {
-					air_agility = 0.15
-				}
-				heavy_fighter_equipment = {
-					air_agility = 0.15
-				}
+	}
+	
+	ROM_shipyard = {
+		allowed = { 
+			OR = {
+				original_tag = ROM
 			}
+		}
+		picture = generic_naval_manufacturer_1
+		traits = { cruiser_producer_defense_0 }			
 	}
 }
 }

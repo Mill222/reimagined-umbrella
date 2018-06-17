@@ -1,0 +1,242 @@
+﻿units = {
+	division = {
+		name = "1st Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3707
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "2nd Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3707
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "3rd Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3707
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "4th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3577
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "5th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6727
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "6th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6727
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "7th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9635
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "8th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9635
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "9th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9716
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "10th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9716
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "11th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6706
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "12th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3728
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "13th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9606
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "14th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9606
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "15th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9606
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "16th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3614
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "17th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3614
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "18th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9670
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "19th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9668
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "20th Infanterie Divizia"
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3689
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.3
+
+	}
+}
