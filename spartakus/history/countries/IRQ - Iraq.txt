@@ -1,6 +1,6 @@
 ﻿capital = 291
 
-oob = "IRQ_1936"
+oob = "IRQ"
 
 # Starting tech
 set_technology = {
@@ -92,45 +92,5 @@ create_country_leader = {
 	ideology = leninism
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 30
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-
-			neutrality = { 
-				popularity = 70
-			}
-		}
-	
-	ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	create_country_leader = {
-		name = "Faisal II"
-		desc = "POLITICS_FAISAL_II_DESC"
-		picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_land_1.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			#
-		}
 	}
 }

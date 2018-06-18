@@ -1,6 +1,6 @@
 ﻿capital = 141	
 
-oob = "SWE_1936"
+oob = "SWE"
 
 set_research_slots = 3
 

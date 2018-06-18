@@ -1,6 +1,6 @@
 ﻿capital = 1068
 
-oob = "IRE_1936"
+oob = "IRE"
 
 set_research_slots = 3
 

@@ -1,6 +1,6 @@
 ﻿capital = 867
 
-oob = "GWL_1936"
+oob = "GWL"
 
 # Starting tech
 set_technology = {

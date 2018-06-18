@@ -1,6 +1,6 @@
 ﻿capital = 840
 
-oob = "FIN_1936"
+oob = "FIN"
 
 set_research_slots = 3
 

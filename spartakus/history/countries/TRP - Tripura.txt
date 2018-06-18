@@ -1,6 +1,6 @@
 ﻿capital = 427
 
-oob = "TRP_1936"
+oob = "TRP"
 
 # Starting tech
 set_technology = {

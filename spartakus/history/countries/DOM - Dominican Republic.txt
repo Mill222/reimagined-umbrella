@@ -1,6 +1,6 @@
 ﻿capital = 319
 
-oob = "DOM_1936"
+oob = "DOM"
 
 # Starting tech
 set_technology = {

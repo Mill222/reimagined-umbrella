@@ -1,25 +1,47 @@
 ﻿division_template = {
-	name = "Juntuán"				# Represents: two-division infantry corps (generally poorly-equipped militias), and local militia groups
+	name = "Juntuán"
 	division_names_group = GXC_INF_01
 
 	regiments = {
-		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Bubing Shi"
+	regiments = {
+		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+
 	}
 }
 
 
 ### OOB ###
 units = {
-	#Guangdong/Guangxi units - 21 divisions
 	division = { # "62 Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 62
 		}
-		location = 10404
+		location = 594
 		start_experience_factor = 0.1
 		division_template = "Juntuán"
 		start_equipment_factor = 0.7
@@ -30,7 +52,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 63
 		}
-		location = 1047
+		location = 594
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -41,7 +63,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 64
 		}
-		location = 7137
+		location = 10404
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -52,7 +74,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 65
 		}
-		location = 9938
+		location = 7168
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
@@ -63,43 +85,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 66
 		}
-		location = 994
+		location = 10459
 		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
-
-	}
-	division = { # "67 Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 67
-		}
-		location = 1047
-		division_template = "Juntuán"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-	division = {
-		name = "Guangzhou Jingbei"
-		location = 1047
-		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.5
-
-	}
-	division = {
-		name = "Hainan Jingbei"
-		location = 994
-		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.5
-
-	}
-	division = {
-		name = "Guilin Jingbei"
-		location = 10404
-		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.5
-
 	}
 }
 
