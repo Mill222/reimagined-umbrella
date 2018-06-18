@@ -1695,20 +1695,7 @@ shared_focus = {
 		}
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = battleship_bonus
-				bonus = 0.5
-				uses = 1
-				category = bc_tech
-						category = bb_tech
-				category = shbb_tech
-			}
-			add_tech_bonus = {
-				name = destroyer_bonus
-				bonus = 0.5
-				uses = 1
-				category = dd_tech
-			}
+			country_event = { id = livfoc.31 }
 		}
 }
 
@@ -1726,15 +1713,7 @@ shared_focus = {
 		}
 
 		completion_reward = {
-				add_tech_bonus = {
-				name = GER_u_boat_effort
-				bonus = 0.5
-				uses = 1
-				technology = early_submarine
-				technology = basic_submarine
-				technology = improved_submarine
-				technology = advanced_submarine
-				}
+			country_event = { id = livfoc.30 }
 		}
 	}
 	

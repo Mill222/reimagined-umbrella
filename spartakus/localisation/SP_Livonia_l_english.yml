@@ -4,17 +4,11 @@
 
 ### Events ###
 
-liv.1.t:0 "Restoring the Baltic Duchy"
-liv.1.d:0 "We have torn down the military regime of Ruediger von der Goltz and have restored the Ducal government."
-liv.1.a:0 "Nice!"
-
-liv.2.t:0 "Organizing the Baltic Duchy"
-liv.2.d:0 "How shall we organize the Baltic Duchy?"
-liv.2.a:0 "We are a Liberal Duchy."
-
-liv.3.t:0 "Duchy Dissolved!"
-liv.3.d:0 "The United Baltic Duchy has been dissolved."
-liv.3.a:0 "Oh no!"
+#liv.1.t:0 ""
+#liv.1.d:0 ""
+#liv.1.a:0 ""
+#liv.1.b:0 ""
+#liv.1.c:0 ""
 
 liv.10.t:0 "Bombing in Riga!"
 liv.10.d:0 "Early this morning, an explosion could be heard throughout Riga coming from the Central Station. Reports spread quickly of anything from derailment, to a bombing, to a collapse and even to an air raid, and hysteria soon ensued.\n\nHowever, as the dust settled, soldiers rushed to the station to find the train of Marshal Rudiger von der Goltz bombed, with metal strewn about and the station building itself partly collapsed. All seventeen killed in the blast were civilians, though multiple government officials and military officials present were injured. Goltz in particular is in critical condition, though it is believed he will survive the ordeal and will be able to continue a non-ruling military life.\n\nHowever, it is without a doubt that this means the end of the Goltz regime. After over a dozen years of his rule, the reigns are officially being passed to his right hand man, Alfred Fletcher. However, Fletcher is known to hold sympathies towards the supporters of a United Baltic Duchy. Multiple other groups, however, have shown interest in taking advantage of the situation.\n\nThe most pressing question is, who did it? It is without a doubt this was an assassination attempt directed towards von der Goltz himself. Multiple groups have shown interest in ousting him, but immediate suspicion lies on the underground communist movements and the Latvian nationalists under Gustavs Celmins. An investigation is already underway."
@@ -54,6 +48,10 @@ livfoc.10.t:0 "Agrarian Reform Programme"
 livfoc.10.d:0 "The Great Depression hit our farmers harder than expected. While our liberalization and relaxation of the economy has helped relieve some of the strain on our farmers, it is undeniable that an agrarian reform plan is desparately needed to resolve this situation to the fullest extent.\n\nTwo representatives have presented their plans:\n\nThe Paul Schiemann plan comes from the side of the Baltische Demokratische Partei, and it was clearly devised by our president Paul Schiemann. It involves extensive reform of the tax code and better distribution and faster exportation of our crops.\n\nHowever, there is an alternative. While a minority of the government support this plan, Karlis Ulmanis of the Latvian Farmers Union has presented the Ulmanis Plan. It involves restributing land only to the natives, and also involves the taxation of rich German farmers. While it would certainly anger our German populace, enacting his plan may win over support in the long run."
 livfoc.10.a:0 "Paul Schiemann has done a fine job. Enact his long awaited plan."
 livfoc.10.b:0 "Heed the words of Karlis Ulmanis! He speaks for his people, of course."
+
+livfoc.30.t:0 "Scrapping of the SMS Baden"
+livfoc.30.d:0 "Today is a sad day for all of the Livonian peoples. An announcement was made from the high naval command deeming the damage to the SMS Baden, a battleship gifted to Livonia from the remains of the German High Seas Fleet, to be too severe to repair.\n\nThe damage was taken during the Bornholm Incident in 1927, where the escort fleet for the Baden was attacked by a patrol from the Socialist Republic of Germany. The ship has sat in the Riga harbour pending repairs ever since.\n\nAlthough they will be scrapping the Baden for its metal and parts, the high command has also announced will be pursuing the purchase of a replacement flagship from another country."
+livfoc.30.a:0 "...und das ist Badens Ehr!"
 
 ### Parties ###
 
@@ -420,6 +418,9 @@ LIV_Depression_desc:0 ""
 
 LIV_Liberal_Economy:0 "A Liberal Economy"
 LIV_Liberal_Economy_desc:0 ""
+
+LIV_scrapping_baden:0 "Scrapping the Baden"
+LIV_scrapping_baden_desc:0 ""
 
 ### Flags ###
 

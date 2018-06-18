@@ -353,6 +353,25 @@ ideas = {
 			}
 		}
 		
+		LIV_scrapping_baden = {
+			picture = generic_the_london_naval_treaty
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_dockyard_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		
 		LIV_soldiers_pensions = {
 			picture = generic_goods_red_bonus
 			modifier = {
