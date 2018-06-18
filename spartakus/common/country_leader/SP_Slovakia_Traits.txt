@@ -1,0 +1,21 @@
+leader_traits = {
+
+	slovak_chairman = {
+		random = no
+		political_power_factor = 0.25
+		ai_strategy = {
+			type = antagonize
+			id = "CZE"			
+			value = 200
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    nationalist_symbol = {
+		war_support_factor = 0.05
+		stability_factor = 0.05
+		army_core_attack_factor = 0.1
+		army_core_defence_factor = 0.1
+	}
+}
