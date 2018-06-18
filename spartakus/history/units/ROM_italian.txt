@@ -1,18 +1,8 @@
 ﻿units = {
-	navy = {				
-		name = "Italian Purchase"			
-		base = 657 
-		location = 657 # Constanta
-		ship = { 
-			name = "RI Marsala" 
-			definition = heavy_cruiser 
-			equipment = { 
-			heavy_cruiser_1 = { 
-				amount = 1 
-				owner = ROM 
-				version_name = "Zara Class" 
-				}				
-			} 
-		}
-	}
+    navy = {
+        name = "Italian Purchase"
+        base = 657 
+        location = 657 # Constanta
+        ship = { name = "RI Marsala" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ROM create_if_missing = yes } } }
+    }
 }

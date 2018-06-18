@@ -1,8 +1,8 @@
 ﻿units = {
-	navy = {				
-		name = "French Purchase"			
-		base = 657 
-		location = 657 # Constanta
-		ship = { name = "Elba" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ROM } } }
-	}
+    navy = {
+        name = "French Purchase"
+        base = 657 
+        location = 657 # Constanta
+        ship = { name = "Elba" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ROM create_if_missing = yes } } }
+    }
 }

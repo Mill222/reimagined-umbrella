@@ -3,7 +3,7 @@
 		name = "British Purchase"			
 		base = 657 
 		location = 657 # Constanta
-		ship = { name = "HMS Imperious" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ENG } }
+		ship = { name = "HMS Imperious" definition = battle_cruiser equipment = { battle_cruiser_2 = { amount = 1 owner = ROM } create_if_missing = yes }
 	}
 }
 }

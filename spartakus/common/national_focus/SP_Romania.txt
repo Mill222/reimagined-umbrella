@@ -78,6 +78,10 @@ focus_tree = {
 					add_idea = ROM_democratic_unrest_3
 				}
 				add_popularity = {
+					ideology = right_wing_populist
+					popularity = 0.05
+				}
+				add_popularity = {
 					ideology = leninist
 					popularity = -0.05
 				}
@@ -405,6 +409,14 @@ focus_tree = {
 	focus = {
 			id = ROM_conference
 			icon = GFX_focus_generic_diplomatic_treaty
+			bypass = { 	 
+				NOT = {
+					ROM = {
+						controls_state = 154
+						controls_state = 73
+					}
+				}
+			}
 			available = { 	 
 				AND = {
 					ROM = {
@@ -481,6 +493,10 @@ focus_tree = {
 			available = {
 				ROM = { controls_state = 875 }
 				NOT = { has_war_with = SER }
+				OR = {	
+					has_global_flag = oradea_over
+					has_completed_focus = ROM_integration
+				}
 			}
 			prerequisite = { focus = ROM_conference focus = ROM_integration }
 			mutually_exclusive = { focus = ROM_ally_serbs }
@@ -675,6 +691,7 @@ focus_tree = {
 			id = ROM_alliances
 			icon = GFX_focus_generic_treaty
 			available = { 	 
+				NOT = { is_in_faction = yes }
 			}
 			prerequisite = { focus = ROM_end_monarchy focus = ROM_social_state focus = ROM_new_king focus = ROM_teach_king  focus = ROM_palingenesis focus = ROM_coup_5 }
 			x = 13
@@ -693,6 +710,7 @@ focus_tree = {
 			id = ROM_western_guarantee
 			icon = GFX_focus_renounce_the_treaty_of_trianon
 			available = { 	 
+				NOT = { is_in_faction = yes }
 			}
 			prerequisite = { focus = ROM_alliances }
 			mutually_exclusive = { focus = ROM_balkan_alliance }
@@ -711,7 +729,8 @@ focus_tree = {
 	focus = {
 			id = ROM_french_guarantee
 			icon = GFX_focus_ROM_alliance
-			available = { 	
+			available = { 	 
+				NOT = { is_in_faction = yes }
 			}
 			prerequisite = { focus = ROM_western_guarantee }
 			mutually_exclusive = { focus = ROM_italian_guarantee } 
@@ -782,7 +801,7 @@ focus_tree = {
 			}
 
 			completion_reward = {
-				CZE = { country_event = { days = 7 id = rom.46 } }
+				CZE = { country_event = { days = 3 id = rom.46 } }
 			}
 	}
 	
@@ -801,7 +820,7 @@ focus_tree = {
 			}
 
 			completion_reward = {
-				AUS = { country_event = { days = 7 id = rom.46 } }
+				AUS = { country_event = { days = 3 id = rom.46 } }
 			}
 	}
 	
@@ -821,6 +840,7 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				custom_effect_tooltip = ROM_serb_negotiations
 				SER = { country_event = { days = 7 id = rom.61 } }
 			}
 	}
@@ -1210,7 +1230,7 @@ focus_tree = {
 			prerequisite = { focus = ROM_support_farmers }
 			x = 18
 			y = 3
-			cost = 5
+			cost = 10
 			ai_will_do = {
 				factor = 50
 			}
@@ -1276,6 +1296,8 @@ focus_tree = {
 					add_stability = 0.05
 					add_manpower = 130000
 					remove_ideas = ROM_industrial_unrest_5
+					remove_ideas = ROM_great_depression_wlf2
+					add_timed_idea = { idea = ROM_depression_recovery_wlf days = 300 }
 			}
 	}
 	
@@ -1355,7 +1377,7 @@ focus_tree = {
 			prerequisite = { focus = ROM_industrial_countryside }
 			x = 24
 			y = 3
-			cost = 5
+			cost = 10
 			ai_will_do = {
 				factor = 50
 			}
@@ -1465,6 +1487,8 @@ focus_tree = {
 					add_political_power = 100
 					add_stability = 0.05
 					remove_ideas = ROM_industrial_unrest_3
+					remove_ideas = ROM_great_depression_aus2
+					add_timed_idea = { idea = ROM_depression_recovery_aus days = 300 }
 			}
 	}
 	
@@ -1532,7 +1556,7 @@ focus_tree = {
 			prerequisite = { focus = ROM_land_reform }
 			x = 30
 			y = 3
-			cost = 5
+			cost = 10
 			ai_will_do = {
 				factor = 50
 			}
@@ -1651,12 +1675,22 @@ focus_tree = {
 			completion_reward = {
 					add_political_power = 100
 					remove_ideas = ROM_industrial_unrest_7
+					remove_ideas = ROM_great_depression_cor2
+					add_timed_idea = { idea = ROM_depression_recovery_cor days = 300 }
 			}
 	}
 	
 	focus = {
 			id = ROM_depression_over
 			icon = GFX_goal_big_news
+			available = {
+				custom_effect_tooltip = ROM_depression_timer
+				NOT = {
+					has_idea = ROM_depression_recovery_wlf
+					has_idea = ROM_depression_recovery_aus
+					has_idea = ROM_depression_recovery_cor
+				}
+			}
 			prerequisite = { focus = ROM_stable_economy  focus = ROM_welfare_state focus = ROM_tripartism }
 			x = 24
 			y = 5

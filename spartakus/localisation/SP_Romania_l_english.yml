@@ -183,6 +183,9 @@ ROM_great_depression_wlf1:0 "The Great Depression"
 ROM_great_depression_wlf2:0 "The Great Depression"
 ROM_great_depression_cor1:0 "The Great Depression"
 ROM_great_depression_cor2:0 "The Great Depression"
+ROM_depression_recovery_aus:0 "Austere Recovery from the Great Depression"
+ROM_depression_recovery_wlf:0 "Welfare Recovery from the Great Depression"
+ROM_depression_recovery_cor:0 "Corporatist Recovery from the Great Depression"
 ROM_democratic_unrest:0 "Democratic Unrest"
 ROM_democratic_unrest_2:0 "Democratic Unrest"
 ROM_democratic_unrest_3:0 "Democratic Unrest"
@@ -245,7 +248,7 @@ rom.39.t:0 "Purchasing a Capital Ship"
 rom.39.d:0 "As the capstone to our efforts to modernise the Romanian Navy, we need a state-of-the-art flagship at the helm of our fleet; while Romania lacks the industrial capacity or facilities to build one ourselves, there are a number of friendly western benefactors who would be happy to sell us one of their models."
 rom.39.a:0 "Purchase a French Battleship."
 rom.39.b:0 "Purchase an Italian Heavy Cruiser."
-rom.39.c:0 "Purchase a British Carrier."
+rom.39.c:0 "Purchase a British Battlecruiser."
 
 ## Eastern Entente ##
 
@@ -612,6 +615,7 @@ ROM_skoda:0 "Skoda-Bucharest"
 ROM_cfr:0 "Căile Ferate Române"
 ROM_terapia:0 "Terapia"
 ROM_romloc:0 "ROMLOC"
+ROM_cugir_company:0 "CUGIR"
 
 ### Tooltips ###
 ROM_leninist_victory:0 "§WThe Left-wing Parties will form a governing Coalition.§! \n"
@@ -634,6 +638,8 @@ ROM_oradea_explanation:0 "§GA conference will be called to discuss disputed ter
 ROM_banat_explanation:0 "§WShould Serbia agree, the following will happen:§! \n"
 ROM_cw:0 "§RCounterrevolutionaries will start a Civil War!§! \n"
 ROM_minister_assassinated:0 "§RBarbu Lazareanu will no longer be avaliable as Economy Minister.§! \n"
+ROM_serb_negotiations:0 "§GNegotiations will begin to exchange West Banat for a Serbian entry into the Eastern Entente.§! \n"
+ROM_depression_timer:0 "§GRecovery from the Great Depression has concluded.§! \n"
 
 ## Civil War ##
 RCW_leninist_party:0 "Vyzvolennia"
