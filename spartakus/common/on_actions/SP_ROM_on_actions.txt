@@ -3,7 +3,6 @@ on_actions = {
         effect = {
 			   ROM = {
 					country_event = { id = rom.1 days = 3 }
-					country_event = { id = rom.14 days = 6 }
 					
 					set_variable = {
 						var = ROM.var_liberal

@@ -1,0 +1,23 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			USA = {
+				news_event = { id = depression.1 days = 75 }
+			}
+			ROM = {
+				country_event = { id = rom.14 days = 80 }
+			}
+			every_country = {
+				if = {
+					limit = {
+						NOT = {
+							tag = USA
+							tag = ROM
+						}
+					}
+					news_event = { id = depression.2 days = 80 }
+				}
+			}
+		}
+    }
+}
