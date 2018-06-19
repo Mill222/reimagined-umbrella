@@ -1314,4 +1314,8 @@ spriteTypes = {
 		name = "GFX_ROM_seats"
 		texturefile = "gfx/interface/ideas/ROM/ROM_seats.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_JAP_showa"
+		texturefile = "gfx/interface/ideas/JAP/JAP_showa.dds"
+	}
 }

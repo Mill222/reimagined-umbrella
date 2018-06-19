@@ -1,0 +1,46 @@
+ideas = {
+
+#################
+# Romania Ideas #
+#################
+
+	country = {
+	
+		JAP_SP_showa = {
+			picture = JAP_showa
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.15
+			}
+		}
+	
+#############
+# Companies #
+#############
+
+#### General ####
+industrial_concern = {
+
+}
+
+#### Weapons Manufacturer ####
+weapons_manufacturer = {
+	designer = yes
+}
+
+#### Heavy Equipment Manufacturer ####
+tank_manufacturer = {
+	designer = yes
+	
+}
+	
+#### Air and Naval Manufacturer ####
+air_naval_manufacturer = {
+	designer = 
+}
+}
