@@ -36,7 +36,7 @@ set_politics = {
 			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 31
+			popularity = 26
 		}
 		social_democrat = {
 			popularity = 7
@@ -45,7 +45,7 @@ set_politics = {
 			popularity = 5
 		}
 		liberal_conservative = {
-			popularity = 26
+			popularity = 31
 		}
 		social_conservative = {
 			popularity = 9
@@ -64,7 +64,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic_socialist
+	ruling_party = liberal_conservative
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
