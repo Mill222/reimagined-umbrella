@@ -1,0 +1,295 @@
+add_namespace = cze
+
+country_event = { # Intro
+	id = cze.0
+	title = cze.0.t
+	desc = cze.0.desc
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		date < 1932.1.2
+	}
+	
+	option = {
+		name = cze.0.a
+	}
+}
+
+country_event = { # Wall Street Crash reaches Czechia
+	id = cze.1
+	title = cze.1.t
+	desc = cze.1.desc
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = cze.1.a
+		CZE_increase_rationing_effect = yes
+	}
+}
+
+country_event = { # Independent Czechoslovak State Day
+	id = cze.2
+	title = cze.2.t
+	desc = { # doesn't own Slovakia or Sudetenland
+		text = cze.2.desc.a
+		trigger = {
+			NOT = { has_war_with = SLO }
+			NOT = { has_war_with = GER }
+			OR = {
+				SLO = {
+					exists = yes
+					NOT = { is_subject_of = CZE }
+				}
+				NOT = { owns_state = 69 }
+			}
+		}
+		desc = { # is at war for Slovakia or Sudetenland
+			text = cze.2.desc.b
+			trigger = {
+				OR = {
+					has_war_with = GER
+					has_war_with = SLO
+				}
+			}
+		}
+		desc = { # owns Slovakia and Sudetenland
+			text = cze.2.desc.c
+			trigger = {
+				OR = {
+					all_state = {
+						limit = { is_core_of = SLO }
+						is_owned_by = CZE
+					}
+					SLO = { is_subject_of = CZE }
+				}
+				owns_state = 69
+			}
+		}
+	}
+			
+	picture = GFX_report_event_czechoslovak_independence
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = { id = cze.2 days = 365 }
+			if = {
+				limit = { has_war_with = SLO }
+				add_timed_idea = { idea = CZE_independence_day_SLO_war days = 30 }
+			}
+			if = {
+				limit = { has_war_with = GER }
+				add_timed_idea = { idea = CZE_independence_day_GER_war days = 30 }
+			}
+		}
+	}
+	
+	option = {
+		name = cze.2.a
+		add_political_power = 50
+		effect_tooltip = {
+			if = {
+				limit = { has_war_with = SLO }
+				add_timed_idea = { idea = CZE_independence_day_SLO_war days = 30 }
+			}
+			if = {
+				limit = { has_war_with = GER }
+				add_timed_idea = { idea = CZE_independence_day_GER_war days = 30 }
+			}
+		}
+	}
+}
+
+country_event = { # From Economic Revitalisation focus - decide whether to invest in industry or agriculture first
+	id = cze.3
+	title = cze.3.t
+	desc = cze.3.desc
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = { # Industry
+		name = cze.3.a
+		set_country_flag = CZE_industrial_investments_first
+	}
+	option = { # Agriculture
+		name = cze.3.b
+		set_country_flag = CZE_agricultural_investments_first
+	}
+}
+
+country_event = { # "Iron Rector" August Naegle dies - 12 Oct 1932
+	id = cze.4
+	title = cze.4.t
+	desc = cze.4.desc
+	picture = GFX_report_event_August_Naegle
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = cze.4.a
+	}
+}
+
+country_event = { # Explaining Gajda coup missions
+	id = cze.5
+	title = cze.5.t
+	desc = cze.5.desc
+	picture = GFX_report_event_Gajda
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = cze.5.a
+		custom_effect_tooltip = CZE_Gajda_check_decision_tab_tt
+	}
+}
+
+country_event = { # Masaryk's stroke
+	id = cze.6
+	title = cze.6.t
+	desc = {
+		text = cze.6.desc.a
+		trigger = {
+			NOT = { has_country_flag = CZE_elections_suspended }
+		}
+	}
+	desc = {
+		text = cze.6.desc.b
+		trigger = {
+			has_country_flag = CZE_elections_suspended
+		}
+	}
+	picture = GFX_report_event_Masaryk_stroke
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = cze.6.a
+		trigger = {
+			NOT = { has_country_flag = CZE_elections_suspended }
+		}
+		add_political_power = 20
+		set_country_flag = CZE_Masaryk_stand_for_elections
+	}
+	option = {
+		name = cze.6.b
+		trigger = {
+			NOT = { has_country_flag = CZE_elections_suspended }
+		}
+		add_stability = -0.01
+		set_country_flag = CZE_Masaryk_no_stand_for_elections
+	}
+	option = {
+		name = cze.6.c
+		trigger = {
+			has_country_flag = CZE_elections_suspended
+		}
+	}
+}
+
+
+
+
+
+
+
+country_event = { # 1934 Presidential election
+	id = cze.10
+	title = cze.10.t
+	desc = {
+		text = cze.10.desc.a
+		trigger = {
+			has_country_flag = CZE_Masaryk_stand_for_elections
+		}
+	}
+	desc = {
+		text = cze.10.desc.b
+		trigger = {
+			has_country_flag = CZE_Masaryk_no_stand_for_elections
+		}
+	}
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = CZE_elections_suspended }
+	}
+	
+	option = { # Masaryk
+		name = cze.10.a
+		trigger = {
+			has_country_flag = CZE_Masaryk_stand_for_elections
+		}
+		hidden_effect = {
+			country_event = { id = cze.11 days = 550 random = 50 } # Masaryk leaving politics is inevitable you fool
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { # Benes
+		name = cze.10.b
+		trigger = {
+			has_country_flag = CZE_Masaryk_no_stand_for_elections
+		}
+		
+		ai_chance = {
+			factor = 75
+		}
+	}
+	option = { # Bohumil Nemec
+		name = cze.10.c
+		trigger = {
+			has_country_flag = CZE_Masaryk_no_stand_for_elections
+		}
+		
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+
+country_event = { # Gajda Coup
+	id = cze.20
+	title = cze.20.t
+	desc = cze.20.desc
+	picture = GFX_report_event_Gajda_coup
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = cze.20.a
+		add_stability = -0.20
+		add_political_power = -500
+		add_manpower = -500
+		set_politics = {
+			ruling_party = national_corporatist
+			elections_allowed = no
+		}
+		add_popularity = { ideology = national_corporatist popularity = 0.10 }
+		set_country_flag = CZE_elections_suspended
+		SP_NS_clear_coalition_effect = yes
+		every_unit_leader = {
+			limit = {
+				has_id = 0911 # Gajda
+			}
+			promote_leader = yes
+		}
+		every_unit_leader = {
+			limit = {
+				has_unit_leader_flag = CZE_Gajda_coup_supports_civ_govt
+			}
+			retire = yes
+		}
+	}
+}
+

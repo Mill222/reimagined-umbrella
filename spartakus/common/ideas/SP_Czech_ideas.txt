@@ -24,7 +24,7 @@ ideas = {
 				attack_bonus_against = 0.10
 				defense_bonus_against = 0.10
 			}
-			picture = AUS_bohemia_mad_icon
+			picture = GFX_idea_Bohemian_Crown_Lands
 		}
 		CZE_czechoslovak_nation = {
 			modifier = {
@@ -34,11 +34,15 @@ ideas = {
 			}
 			targeted_modifier = {
 				tag = SLO
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+			targeted_modifier = {
 				tag = HUN
 				attack_bonus_against = 0.10
 				defense_bonus_against = 0.10
 			}
-			picture = AUS_bohemia_mad_icon
+			picture = GFX_idea_Dreams_of_Czechoslovakia
 		}
 		CZE_great_depression = {
 			modifier = {
@@ -47,6 +51,96 @@ ideas = {
 				industrial_capacity_factory = -0.20
 			}
 			picture = great_depression
+		}
+		CZE_GD_recovery_1 = {
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.15
+				industrial_capacity_factor = -0.15
+			}
+			picture = great_depression
+		}
+		CZE_GD_recovery_2 = {
+			modifier = {
+				consumer_goods_factor = 0.10
+				production_speed_buildings_factor = -0.10
+				industrial_capacity_factor = -0.10
+			}
+			picture = great_depression
+		}
+		CZE_GD_recovery_3 = {
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = -0.05
+				industrial_capacity_factor = -0.05
+			}
+			picture = great_depression
+		}
+		CZE_independence_day_SLO_war = {
+			targeted_modifier = {
+				tag = SLO
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+			picture = AUS_bohemia_mad_icon
+		}
+		CZE_independence_day_GER_war = {
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+			picture = AUS_bohemia_mad_icon
+		}
+		CZE_food_rationing_1 = {
+			modifier = {
+				consumer_goods_factor = -0.03
+				supply_consumption_factor = -0.05
+				monthly_population = -0.07
+			}
+			picture = GFX_idea_Food_Shortages
+		}
+		CZE_food_rationing_2 = {
+			modifier = {
+				consumer_goods_factor = -0.05
+				supply_consumption_factor = -0.07
+				army_org_factor = -0.03
+				monthly_population = -0.10
+			}
+			picture = GFX_idea_Food_Shortages
+		}
+		CZE_food_rationing_3 = {
+			modifier = {
+				consumer_goods_factor = -0.07
+				supply_consumption_factor = -0.09
+				army_org_factor = -0.05
+				monthly_population -0.13
+				stability_factor = -0.03
+			}
+			picture = GFX_idea_Food_Shortages
+		}
+		CZE_food_rationing_4 = {
+			modifier = {
+				consumer_goods_factor = -0.09
+				supply_consumption_factor = -0.11
+				army_org_factor = -0.07
+				monthly_population = -0.15
+				stability_factor = -0.06
+				political_power_cost = 0.02
+			}
+			picture = GFX_idea_Food_Shortages
+		}
+		CZE_food_rationing_5 = {
+			modifier = {
+				consumer_goods_factor = -0.11
+				supply_consumption_factor = -0.13
+				army_org_factor = -0.09
+				monthly_population = -0.17
+				stability_factor = -0.09
+				political_power_cost = 0.04
+				research_time_factor = 0.03
+			}
+			picture = GFX_idea_Food_Shortages
 		}
 	}
 }

@@ -3,3 +3,18 @@ POR_wars = {
 		original_tag = POR
 	}
 }
+
+
+
+##############
+### Czechia ###
+##############
+
+CZE_dealing_with_Gajda = {
+	allowed = { tag = CZE }
+	visible = {
+		NOT = { has_country_flag = CZE_Gajda_dealt_with }
+	}
+	icon = CZE_Gajda_mission_icon
+	picture = GFX_Portrait_Czechia_Radola_Gajda
+}

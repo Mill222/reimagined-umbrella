@@ -1,0 +1,107 @@
+CZE_increase_rationing_effect = {
+	custom_effect_tooltip = CZE_increase_rationing_tt
+	if = {
+		limit = { has_idea = CZE_food_rationing_5 }
+		add_political_power = -100
+		add_stability = -0.05
+		log = "[GetDateText] Czechia increase rationing above 5"
+	}
+	else_if = {
+		limit = { has_idea = CZE_food_rationing_4 }
+		swap_ideas = {
+			add_idea = CZE_food_rationing_5
+			remove_idea = CZE_food_rationing_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = CZE_food_rationing_3 }
+		swap_ideas = {
+			add_idea = CZE_food_rationing_4
+			remove_idea = CZE_food_rationing_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = CZE_food_rationing_2 }
+		swap_ideas = {
+			add_idea = CZE_food_rationing_3
+			remove_idea = CZE_food_rationing_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = CZE_food_rationing_1 }
+		swap_ideas = {
+			add_idea = CZE_food_rationing_2
+			remove_idea = CZE_food_rationing_1
+		}
+	}
+	else = {
+		add_ideas = CZE_food_rationing_1
+	}
+}
+
+CZE_decrease_rationing_effect = {
+	custom_effect_tooltip = CZE_decrease_rationing_tt
+	if = {
+		limit = { has_idea = CZE_food_rationing_1 }
+		remove_ideas = CZE_food_rationing_1
+	}
+	else_if = {
+		limit = { has_idea = CZE_food_rationing_2 }
+		swap_ideas = {
+			add_idea = CZE_food_rationing_1
+			remove_idea = CZE_food_rationing_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = CZE_food_rationing_3 }
+		swap_ideas = {
+			add_idea = CZE_food_rationing_2
+			remove_idea = CZE_food_rationing_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = CZE_food_rationing_4 }
+		swap_ideas = {
+			add_idea = CZE_food_rationing_3
+			remove_idea = CZE_food_rationing_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = CZE_food_rationing_5 }
+		swap_ideas = {
+			add_idea = CZE_food_rationing_4
+			remove_idea = CZE_food_rationing_5
+		}
+	}
+	else = {
+		add_political_power = 50
+		add_stability = 0.05
+		log = "[GetDateText] Czechia decreased rationing below 0"
+	}
+}
+
+CZE_increase_Gajda_coup_progress_effect = {
+	if = {
+		limit = {
+			check_variable = { CZE_Gajda_coup_prog_counter < 6 }
+		}
+		custom_effect_tooltip = CZE_increase_Gajda_coup_progress_tt
+		hidden_effect = {
+			add_to_variable = { CZE_Gajda_coup_prog_counter = 1 }
+			activate_mission = CZE_Gajda_coup_progress_mission
+		}
+	}
+	else = {
+		custom_effect_tooltip = CZE_Gajda_coup_tt
+		hidden_effect = {
+			country_event = { id = cze.20 hours = 1 }
+		}
+	}
+}
+
+CZE_postpone_Gajda_coup_progress_effect = {
+	hidden_effect = {
+		remove_mission = CZE_Gajda_coup_progress_mission
+		activate_mission = CZE_Gajda_coup_progress_mission
+	}
+}

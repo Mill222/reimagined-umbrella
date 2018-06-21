@@ -355,6 +355,8 @@ create_country_leader = {
 	}
 }
 
+### Unit Leader Prefix: 02
+
 create_field_marshal = {
 	name = "Alan Brooke"
 	picture = "Portrait_Britain_Alan_Brooke.dds"
@@ -906,6 +908,7 @@ reverse_add_opinion_modifier = { target = JAP modifier = UK_JAP_alliance }
 
 give_guarantee = LIV
 give_military_access = LIV
+give_military_access = EST
 give_guarantee = PER
 give_military_access = PER
 give_guarantee = KUR
