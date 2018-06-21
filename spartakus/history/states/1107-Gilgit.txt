@@ -5,8 +5,8 @@ state={
 		1910 2041 10821 
 	}
 	history={
-		owner = RAJ
-		add_core_of = RAJ
+		owner = JKA
+		add_core_of = JKA
 		buildings = {
 			infrastructure = 2
 
