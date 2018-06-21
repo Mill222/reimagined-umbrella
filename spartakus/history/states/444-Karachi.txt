@@ -15,9 +15,9 @@ state={
 	}
 
 	provinces={
-		1179 5043 5075 5105 7917 8013 8066 8098 12761 12774 
+		1179 5043 7049 7917 8066 12774 
 	}
 	manpower=463500
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pastoral
 }

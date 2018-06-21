@@ -9,7 +9,7 @@ state={
 
 	history={
 		owner = RAJ
-		add_core_of=RAJ
+		add_core_of = RAJ
 		victory_points = {
 			10278 3 
 		}
@@ -33,9 +33,9 @@ state={
 	}
 
 	provinces={
-		1268 4420 7436 8067 10246 10278 10808 12164 
+		1344 4420 7310 7436 10278 10808 10897 12180 12734 
 	}
-	manpower=14086410
+	manpower=6430000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 }
