@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = SP_Brit_Irish_crown_dominion
+	id = sp_Brit_Irish_crown_dominion
 	
 	is_puppet = yes
 	

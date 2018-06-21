@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = SP_Brit_dominion
+	id = sp_Brit_dominion
 	
 	min_freedom_level = 0.75
 	

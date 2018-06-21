@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = SP_Brit_Irish_free_state
+	id = sp_Brit_Irish_free_state
 	
 	min_freedom_level = 0.90
 	

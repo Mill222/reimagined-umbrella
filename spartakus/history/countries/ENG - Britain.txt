@@ -155,12 +155,12 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = IRE
-	autonomous_state = SP_Brit_Irish_crown_dominion
+	autonomous_state = sp_Brit_Irish_crown_dominion
 	freedom_level = 0.2
 }
 set_autonomy = {
 	target = NEW
-	autonomous_state = SP_Brit_dominion
+	autonomous_state = sp_Brit_dominion
 	freedom_level = 0.2
 }
 
