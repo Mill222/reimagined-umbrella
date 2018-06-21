@@ -7,6 +7,7 @@ state={
 	history={
 		owner = JKA
 		add_core_of = JKA
+		add_core_of = PAK
 		buildings = {
 			infrastructure = 2
 
