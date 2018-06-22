@@ -1,0 +1,110 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+belforeign.1.t:0 "Belgian Proposal!"
+belforeign.1.d:0 "We have received an offer from the Belgian government. They are willing to sell us their colonies in Rwanda and Burundi, next to our East African colonies. This is an opportunity to expand our sphere of influence in Africa, and make the British Empire even stronger! However, they have a steep asking price, and their motives are unclear. Nevertheless, we may regret not taking them up on this offer. Especially if another of our competitors takes their offer!"
+belforeign.1.a:0 "We are in no need of new colonies right now."
+belforeign.1.b:0 "The sun continues to never set!"
+
+belforeign.2.t:0 "Belgian Proposal!"
+belforeign.2.d:0 "We have received an offer from the Belgian government. They are willing to sell Eupen-Malmedy back to us for a small fee. Although it is a small area of land, it is historically ours, and populated by Germans. It is still more manpower and more land to build factories and other buildings. We should take this opportunity before they potentially sell to our rivals! "
+belforeign.2.a:0 "We have no interest in that speck of land."
+belforeign.2.b:0 "Another step towards reuniting Germany!"
+
+belforeign.3.t:0 "Independence!"
+belforeign.3.d:0 "After troubled times, our Belgian overlords have elected to cast us off as an unneeded burden to themselves! The Congo is now free from any and all European influence! However, are we even strong enough to maintain our current state without the Europeans?"
+belforeign.3.a:0 "No, we need a European overlord to protect us."
+belforeign.3.b:0 "Congo for the Congolese!"
+
+belforeign.4.t:0 "Congolese Proposal!"
+belforeign.4.d:0 "After troubled times, the Belgians released their colony of the Congo. However, it seems they are uncomfortable taking the reins of their country themselves. However, it seems like another country has also been offered this role. We should split the Congo between ourselves and increase both of our empires."
+belforeign.4.a:0 "Yes, split the Congo in half."
+belforeign.4.b:0 "No, we are in no need of new colonies right now."
+
+belforeign.5.t:0 "Bad News From Europe!"
+belforeign.5.d:0 "Our offer was rejected by both the French and the British."
+belforeign.5.a:0 "Damn!"
+
+belnews.1.t:0 "Congolese Independence!"
+belnews.1.d:0 "It seems that the Belgians have cut the Congo loose after enduring tough economic times. The country that didn't exist before colonization, is now for the first time self governing."
+belnews.1.a:0 "Let's see how long that lasts."
+
+### Parties ###
+
+BEL_leninist_party:0 "BP/PB"
+BEL_leninist_party_long:0 "Bolsjewistische Partij/Parti Bolchevique"
+BEL_marxist_party:0 "KPB/PCB"
+BEL_marxist_party_long:0 "Kommunistische Partij van Belgie/Parti Communiste de Belgique"
+BEL_revolutionary_socialist_party:0 "SP/PS"
+BEL_revolutionary_socialist_party_long:0 "Syndicalistische Partij/Parti Syndicaliste"
+BEL_democratic_socialist_party:0 "BWP/POB"
+BEL_democratic_socialist_party_long:0 "Belgische Werkliedenpartij/Parti Ouvrier Belge"
+BEL_social_democrat_party:0 "SD"
+BEL_social_democrat_party_long:0 "Sociaal-Democraten/Sociaux-Democrates"
+BEL_social_liberal_party:0 "LP/PL"
+BEL_social_liberal_party_long:0 "Liberale Partij/Parti Liberal"
+BEL_liberal_conservative_party:0 "BVB/BPLB"
+BEL_liberal_conservative_party_long:0 "Belgen voor Belgie/Belges pour la Belgique"
+BEL_social_conservative_party:0 "KP/PC"
+BEL_social_conservative_party_long:0 "Katholieke Partij/Parti Catholique"
+BEL_authoritarian_democrat_party:0 "RP/PR"
+BEL_authoritarian_democrat_party_long:0 "Royalistische Partij/Parti Royaliste"
+BEL_right_wing_populist_party:0 "TP"
+BEL_right_wing_populist_party_long:0 "Techocratische Partij"
+BEL_national_syndicalist_party:0 "FP"
+BEL_national_syndicalist_party_long:0 "Frontpartij"
+BEL_national_corporatist_party:0 "Rex"
+BEL_national_corporatist_party_long:0 "Rexist"
+
+### Focuses ###
+
+BEL_Economy:0 "The Promise"
+BEL_Economy_desc:0 "Belgium was scarred by the Weltkrieg. Western Flanders was completely destroyed, and parts of Wallonia as well due to the Germans. Reconstruction has not fully completed, and with the onset of the Depression, our people remain without hope that things will get better. We will make them the promise of making Belgium great again."
+
+BEL_Economy2:0 "Finish Weltkrieg Reconstruction"
+BEL_Economy2_desc:0 "Belgium's infrastructure was left in ruins following the Weltkrieg. Repairs began, but were never finished. It's time to get our country back up to modern standards."
+
+BEL_Economy3:0 "Restructure the Ministry of Finance"
+BEL_Economy3_desc:0 "Belgium's Ministry of Finance has been in chaos since the beginning of the depression. It's unable to get anything done. Sack the current Minister of Finance and replace him with someone more capable. Restructure the entire ministry."
+
+BEL_Economy4:0 "Construct New Treatise on Belgian Economics"
+BEL_Economy4_desc:0 "The economy will need to be drastically restructured to get us out of the depression. We need to rewrite the standard thinking of our current economists, and produce a new Belgian way of thinking."
+
+BEL_Economy1fold:0 "Fold'Em"
+BEL_Economy1fold_desc:0 "We've been dealt a bad hand, and we need to cut our losses while we still can. We can't realistically manage an overseas empire while our economy is in the bin. We know when to fold our hand, and we begin with Ruanda-Urundi. Let's sell it to the British."
+
+BEL_Economy1hold:0 "Hold'Em"
+BEL_Economy1hold_desc:0 "We've been dealt a bad hand, but with the proper skill and maneuvering, any hand can be a winner. While it is true we need to find new sources of revenue, giving up what we have fought so hard to protect over the years is not the way to do it."
+
+BEL_Economy2fold:0 "Walk Away"
+BEL_Economy2fold_desc:0 "The area of Eupen-Malmedy has been in our possession for about a decade now, and yet the people still consider themselves German, and speak only German. Efforts to integrate them into our country have failed and caused a bureaucratic mess trying to accomodate for a country of three peoples instead of only two. We should walk away from this failed mess while we can. Try to sell it to the Germans."
+
+BEL_Economy2hold:0 "Stand Firm"
+BEL_Economy2hold_desc:0 "The territorial integrity of our nation is of upmost importance. If the people see us selling land off wherever we can, then how can they trust us not to give up on them when the going gets rough? We must hold our territorial integrity and begin rounds of propaganda to encourage the spirit of the Belgian people."
+
+BEL_Economy3fold:0 "Dismantle the Belgian Empire"
+BEL_Economy3fold_desc:0 "Our empire will always remain in our hearts, but it is time to let it go. The cost of maintaining the Congolese colony has grown too great, and we lack the ability to upkeep it. We now only have to worry about our core European territory."
+
+BEL_Economy3hold:0 "Reaffirm our Territorial Integrity"
+BEL_Economy3hold_desc:0 "We must reaffirm our territorial integrity. Make a public declaration that the Belgian Empire is back, and it's here to stay. Declare it so that all the world can hear; shout to the world the Belgians are here."
+
+BEL_Recov1:0 "Expand The Agricultural Sector"
+BEL_Recov1_desc:0 "After cutting costs or getting support for our new programs, we can finally begin them. The agricultural sector has always been a big part of the Belgian economy. We must recover that first before we can move on to the final stages of our recovery."
+
+BEL_Recov2:0 "Expand The Military Industrial Sector"
+BEL_Recov2_desc:0 "After cutting costs or getting support for our new programs, we can finally begin them. The military industrial sector has always been a big part of the Belgian economy. We must recover that first before we can move on to the final stages of our recovery."
+
+BEL_RecovEnd:0 "The End of the Depression"
+BEL_RecovEnd_desc:0 "After many long days and nights working to reform the Belgian economy, it has finally been done. Our budget is sound again, and our inflation problems have been fixed. Our industry and infrastructure have all been repaired, and the Belgian people are now back to work. The Depression is finally over."
+
+### Ideas ###
+
+BEL_depression:0 "The Great Depression"
+BEL_depression_desc:0 "After the Great War, we were left utterly devestated. Following years of slow reconstruction, the Great Depression hit Belgium. Reconstruction has stopped, and Belgium is still half destroyed. Our population is without hope."
+
+### Flags ###
+
+### Tooltips ###
