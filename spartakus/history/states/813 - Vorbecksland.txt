@@ -6,7 +6,9 @@ state={
 	history={
 		owner = ZAM
 		add_core_of = ZAM
-		victory_points = { 5199 1 } #Lusaka
+		victory_points = {
+			5199 1 
+		}
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -16,10 +18,9 @@ state={
 	}
 
 	provinces={
-		5199 7872 11598
+		5199 11598 12504 13649 13949 13950 13955 13958 13960 13962 13963 13967 13968 13969 13976 13978 13985 
 	}
 	manpower=196000
-	buildings_max_level_factor=1
+	buildings_max_level_factor=1.000
 	state_category=wasteland
 }
-

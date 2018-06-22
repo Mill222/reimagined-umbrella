@@ -4,20 +4,22 @@ state={
 	name="STATE_957"
 
 	history={
-		owner=ZAM
-		add_core_of=ZAM
-		buildings={
-			infrastructure=3
+		owner = ZAM
+		add_core_of = ZAM
+		buildings = {
+			infrastructure = 3
+
 		}
-		victory_points={
-		    13648 1
+		victory_points = {
+			13648 1 
 		}
+
 	}
 
 	provinces={
-		13647 13648
+		12677 13646 13648 13956 13957 13964 13966 13971 13972 13974 13975 13977 13982 13983 13984 13987 13989 
 	}
 	manpower=84000
-	buildings_max_level_factor=1
+	buildings_max_level_factor=1.000
 	state_category=wasteland
 }
