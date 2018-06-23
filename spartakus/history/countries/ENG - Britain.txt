@@ -163,6 +163,10 @@ set_autonomy = {
 	autonomous_state = sp_Brit_dominion
 	freedom_level = 0.2
 }
+set_autonomy = {
+	target = CEY
+	autonomous_state = sp_Brit_colony
+}
 
 set_politics = {
 

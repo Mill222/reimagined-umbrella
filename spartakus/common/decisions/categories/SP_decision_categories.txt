@@ -18,3 +18,20 @@ CZE_dealing_with_Gajda = {
 	icon = CZE_Gajda_mission_icon
 	picture = GFX_Portrait_Czechia_Radola_Gajda
 }
+
+##############
+### British ###
+##############
+
+ENG_Burmese_revolt_cat = {
+	allowed = {
+		OR = {
+			tag = RAJ
+			tag = ENG
+		}
+	}
+	visible = {
+		RAJ = { has_war_with = BMR }
+		NOT = { has_global_flag = SP_Raj_collapse }
+	}
+}
