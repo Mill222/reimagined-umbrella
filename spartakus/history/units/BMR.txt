@@ -52,7 +52,7 @@ division_template = {
 	}
 }
 
-units = {'
+units = {
 	division= {	
 		name = "Red Guards"
 		location = 7562

@@ -57,6 +57,20 @@ on_actions = {
 				clr_country_flag = SP_can_be_annexed
 				clr_country_flag = SP_can_become_free
 			}
+			
+			# Burmese Revolt End - Remove AI modifier so they can call allies to war again
+			if = {
+				limit = {
+					OR = {
+						tag = ENG
+						tag = RAJ
+						is_in_faction_with = ENG
+					}
+					FROM = { tag = BMR }
+				}
+				ENG = { remove_ideas = RAJ_BMR_revolt }
+				RAJ = { remove_ideas = RAJ_BMR_revolt }
+			}
 		}
 	}
 
@@ -81,6 +95,30 @@ on_actions = {
 		effect = {
 			log = "[GetDateText] [Root.GetName] has capitulated to [From.GetName]"
 			news_event = { id = country_capitulated.0 days = 0 }
+			
+			# Portuguese Civil War
+			### Republican Victory
+			if = {
+				limit = {
+					tag = PRM
+					FROM = { tag = POR }
+				}
+				FROM = {
+					country_event = peace.1
+					country_event = { id = por.4 days = 5 }
+				}
+			}
+			### Monarchist Victory
+			if = {
+				limit = {
+					tag = POR
+					FROM = { tag = PRM }
+				}
+				FROM = {
+					country_event = peace.1
+					country_event = { id = prm.4 days = 5 }
+				}
+			}
 		}
 	}
 	
@@ -135,6 +173,19 @@ on_actions = {
 	on_join_allies = {
 		effect = {
 			log = "[GetDateText] [Root.GetName] is joining [From.GetName] in its war"
+			
+			# UK joining Great Burmese Revolt
+			if = {
+				limit = {
+					FROM = { tag = RAJ }
+					tag = ENG
+					has_offensive_war_with = BMR
+				}
+				add_political_power = -50
+				add_stability = -0.10
+				add_war_support = -0.10
+				activate_mission = ENG_defeat_BMR_mission
+			}
 		}
 	}
 	
@@ -323,6 +374,148 @@ on_actions = {
 	on_state_control_changed = {
 		effect = {
 			log = "[GetDateText] [Root.GetName] on_state_control_changed OLD CONTROLLER: [From.GetName] STATE: [From.From.GetName]"
+			
+			# Great Burmese Revolt
+			if = { # Burmese take Tripura and Manipur
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 432 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese take Chittagong
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 434 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese reach Dacca
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 430 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese reach Calcutta
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 431 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese reach Cuttack
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 1110 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese reach Patna and Bihar
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 435 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese reach Raipur
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 436 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese reach Raigarh
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 426 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese reach Jashpur
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 1113 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese reach Agra
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 815 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
 		}
 	}
 
