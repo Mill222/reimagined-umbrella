@@ -76,14 +76,14 @@ set_convoys = 80
 
 add_ideas = {
 	limited_conscription
-	BEL_depression
+	BEL_ethnic
 }
 
 create_country_leader = {
-	name = "Leopold III"
-	desc = "POLITICS_LEOPOLD_III_DESC"
-	picture = "Portrait_Leopold.dds"
-	expire = "1965.1.1"
+	name = "Albert I"
+	desc = "POLITICS_ALBERT_I_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1934.17.12"
 	ideology = social_conservative_subtype
 	traits = {
 		#
@@ -91,10 +91,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Leopold III"
-	desc = "POLITICS_LEOPOLD_III_DESC"
-	picture = "Portrait_Leopold.dds"
-	expire = "1965.1.1"
+	name = "Albert I"
+	desc = "POLITICS_ALBERT_I_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1934.17.12"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
@@ -102,10 +102,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Leopold III"
-	desc = "POLITICS_LEOPOLD_III_DESC"
-	picture = "Portrait_Leopold.dds"
-	expire = "1965.1.1"
+	name = "Albert I"
+	desc = "POLITICS_ALBERT_I_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1970.17.12"
 	ideology = liberal_conservative_subtype
 	traits = {
 		#
@@ -113,10 +113,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Leopold III"
-	desc = "POLITICS_LEOPOLD_III_DESC"
-	picture = "Portrait_Leopold.dds"
-	expire = "1965.1.1"
+	name = "Albert I"
+	desc = "POLITICS_ALBERT_I_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1934.17.12"
 	ideology = social_liberal_subtype
 	traits = {
 		#
@@ -124,10 +124,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Paul-Henri Spaak"
-	desc = "POLITICS_PAULHENRI_SPAAK_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1965.1.1"
+	name = "Albert I"
+	desc = "POLITICS_ALBERT_I_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1970.17.12"
 	ideology = democratic_socialist_subtype
 	traits = {
 		#
@@ -135,10 +135,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Léon Degrelle"
-	desc = "POLITICS_LEON_DEGRELLE_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
+	name = "Albert I"
+	desc = "POLITICS_ALBERT_I_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1970.17.12"
 	ideology = national_corporatist_subtype
 	traits = {
 		#
@@ -146,10 +146,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Albert Devèze"
-	desc = "POLITICS_ALBERT_DEVEZE_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1965.1.1"
+	name = "Albert I"
+	desc = "POLITICS_ALBERT_I_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1970.17.12"
 	ideology = social_liberal_subtype
 	traits = {
 		#
@@ -157,10 +157,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Leo Frenssen"
-	desc = "POLITICS_LEO_FRENSSEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1965.1.1"
+		name = "Albert I"
+	desc = "POLITICS_ALBERT_I_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1970.17.12"
 	ideology = right_wing_populist_subtype
 	traits = {
 		#
@@ -168,10 +168,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Staf De Clercq"
-	desc = "POLITICS_STAF_DECLERCQ_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1965.1.1"
+	name = "Albert I"
+	desc = "POLITICS_ALBERT_I_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1970.17.12"
 	ideology = national_syndicalist_subtype
 	traits = {
 		#
@@ -179,10 +179,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Camille Huysmans"
-	desc = "POLITICS_CAMILLE_HUYSMANS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1965.1.1"
+		name = "Albert I"
+	desc = "POLITICS_ALBERT_I_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1970.17.12"
 	ideology = social_democrat_subtype
 	traits = {
 		#
@@ -203,7 +203,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Julien Lahaut"
 	desc = "POLITICS_JULIEN_LAHAUT_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	picture = "gfx/leaders/BEL/Portrait_Lahaut.dds"
 	expire = "1965.1.1"
 	ideology = marxist_subtype
 	traits = {
@@ -216,7 +216,7 @@ create_country_leader = {
 	desc = "POLITICS_JACQUES_GRIPPA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = LENINIST_subtype
+	ideology = leninist_subtype
 	traits = {
 		#
 	}

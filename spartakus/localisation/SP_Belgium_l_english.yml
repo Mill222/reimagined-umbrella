@@ -1,5 +1,9 @@
 ﻿l_english:
 
+###########################
+# By Sigismund
+###########################
+
 ### Opinions ###
 
 ### Events ###
@@ -30,7 +34,44 @@ belforeign.5.a:0 "Damn!"
 
 belnews.1.t:0 "Congolese Independence!"
 belnews.1.d:0 "It seems that the Belgians have cut the Congo loose after enduring tough economic times. The country that didn't exist before colonization, is now for the first time self governing."
-belnews.1.a:0 "Let's see how long that lasts."
+belnews.1.a:0 "The Belgians had colonies?"
+belnews.1.b:0 "Let's see how long that lasts."
+
+belnews.2.t:0 "The Great Depression Hits Belgium!"
+belnews.2.d:0 "After the Great War, we were left utterly devestated. No sources of new money have caused much of Belgium to remain in it's war torn state. With the fall of the markets across the west, the Great Depression has hit Belgium. Reconstruction has stopped, our currency is worthless, and it seems that all hope is lost!"
+belnews.2.a:0 "God Save Belgium!"
+
+belnews.3.t:0 "The 1932 Elections"
+belnews.3.d:0 "Belgium is more politically divided now than ever in our history. We have ideologies of various ranges all around us, and some even more radical than those within our own country itself. Let us hope that the Belgian people choose the correct candidate to lead Belgium into a new age."
+belnews.3.a:0 "Begin the elections."
+
+bel.1.t:0 "The Wallonian Vote"
+bel.1.d:0 "Wallonia has always been a bastion of liberal ideals. The Liberals and Socialists have always enjoyed rule here. However, could a right wing party sway the liberal stronghold to switch sides? The votes from Wallonia are in. Let's see who won the south."
+bel.1.a:0 "The Marxists win Wallonia."
+bel.1.b:0 "The Liberals win Wallonia."
+bel.1.c:0 "The Conservatives win Wallonia."
+bel.1.e:0 "The Royalists win Wallonia."
+
+bel.2.t:0 "The Flemish Vote"
+bel.2.d:0 "Flanders has always been a bastion of conservative ideals. The Catholic Party and the Front Party have always had majorities here. However, could a left wing party convince the conservative mainstay to switch sides? The votes from Flanders are in. Let's see who won the north."
+bel.2.a:0 "The Marxists wins Flanders."
+bel.2.b:0 "The Liberals wins Flanders."
+bel.2.c:0 "The Conservatives win Flanders."
+bel.2.e:0 "The Royalists win Flanders."
+
+bel.3.t:0 "The German Vote"
+bel.3.d:0 "The East Cantons, like Germany itself, is all over the place when it comes to politics. Nevertheless, the prevaling theme is that moderates do well in this region. However, could a left or right wing party convince the moderates to become more radicalized? The votes from the East Cantons are in. Let's see who won the east."
+bel.3.a:0 "The Marxists win the East Cantons."
+bel.3.b:0 "The Liberals win the East Cantons."
+bel.3.c:0 "The Conservatives win the East Cantons."
+bel.3.e:0 "The Royalists win the East Cantons."
+
+bel.4.t:0 "Final Tally"
+bel.4.d:0 "The entire country's votes are in. It's time to put all the votes together, reject invalid votes, and reject fraud votes. This is a very important election."
+bel.4.a:0 "The Marxists win the elections."
+bel.4.b:0 "The Liberals win the elections."
+bel.4.c:0 "The Conservatives win the elections."
+bel.4.e:0 "The Royalists win the elections."
 
 ### Parties ###
 
@@ -82,14 +123,14 @@ BEL_Economy1hold_desc:0 "We've been dealt a bad hand, but with the proper skill 
 BEL_Economy2fold:0 "Walk Away"
 BEL_Economy2fold_desc:0 "The area of Eupen-Malmedy has been in our possession for about a decade now, and yet the people still consider themselves German, and speak only German. Efforts to integrate them into our country have failed and caused a bureaucratic mess trying to accomodate for a country of three peoples instead of only two. We should walk away from this failed mess while we can. Try to sell it to the Germans."
 
-BEL_Economy2hold:0 "Stand Firm"
-BEL_Economy2hold_desc:0 "The territorial integrity of our nation is of upmost importance. If the people see us selling land off wherever we can, then how can they trust us not to give up on them when the going gets rough? We must hold our territorial integrity and begin rounds of propaganda to encourage the spirit of the Belgian people."
+BEL_Economy2hold:0 "Found the Caritas Catholica Belgica"
+BEL_Economy2hold_desc:0 "The Catholic Church has always remained wealthy throughout history, and there have always been charitable people within the Catholic community. Thankfully for us, much of Belgium is Catholic. The establishment of this relief service will allow us to retain territorial integrity, and benefit the population. However, establishing this society will cost a small amount."
 
 BEL_Economy3fold:0 "Dismantle the Belgian Empire"
 BEL_Economy3fold_desc:0 "Our empire will always remain in our hearts, but it is time to let it go. The cost of maintaining the Congolese colony has grown too great, and we lack the ability to upkeep it. We now only have to worry about our core European territory."
 
-BEL_Economy3hold:0 "Reaffirm our Territorial Integrity"
-BEL_Economy3hold_desc:0 "We must reaffirm our territorial integrity. Make a public declaration that the Belgian Empire is back, and it's here to stay. Declare it so that all the world can hear; shout to the world the Belgians are here."
+BEL_Economy3hold:0 "Reform the Belgian Franc"
+BEL_Economy3hold_desc:0 "The Franc has served as our currency for a hundred years. With the current crisis, we need to reform our currency and peg it to a currency that hasn't been as devalued as ours due to the Depression. This should allow us to begin to get things rolling again economically, but once again will cost us."
 
 BEL_Recov1:0 "Expand The Agricultural Sector"
 BEL_Recov1_desc:0 "After cutting costs or getting support for our new programs, we can finally begin them. The agricultural sector has always been a big part of the Belgian economy. We must recover that first before we can move on to the final stages of our recovery."
@@ -100,10 +141,32 @@ BEL_Recov2_desc:0 "After cutting costs or getting support for our new programs, 
 BEL_RecovEnd:0 "The End of the Depression"
 BEL_RecovEnd_desc:0 "After many long days and nights working to reform the Belgian economy, it has finally been done. Our budget is sound again, and our inflation problems have been fixed. Our industry and infrastructure have all been repaired, and the Belgian people are now back to work. The Depression is finally over."
 
+BEL_Political:0 "The 1932 Elections"
+BEL_Political_desc:0 "Belgium is more politically divided now than ever in our history. We have ideologies of various ranges all around us, and some even more radical than those within our own country itself. Let us hope that the Belgian people choose the correct candidate to lead Belgium into a new age."
+
+BEL_Walloon:0 "Wallonia Votes"
+BEL_Walloon_desc:0 "Wallonia goes to the polls to select the new leaders of Belgium."
+
+BEL_Flanders:0 "Flanders Votes"
+BEL_Flanders_desc:0 "Flanders goes to the polls to select the new leaders of Belgium."
+
+BEL_Cantons:0 "Eupen-Malmedy Votes"
+BEL_Cantons_desc:0 "The East Cantons go to the polls to select the new leaders of Belgium."
+
+BEL_Electover:0 "End of 1932 Elections"
+BEL_Electover_desc:0 "The 1932 Elections have come to an end."
+
 ### Ideas ###
 
 BEL_depression:0 "The Great Depression"
 BEL_depression_desc:0 "After the Great War, we were left utterly devestated. Following years of slow reconstruction, the Great Depression hit Belgium. Reconstruction has stopped, and Belgium is still half destroyed. Our population is without hope."
+
+BEL_ethnic:0 "Ethnic Tensions"
+BEL_ethnic_desc:0 "Belgium is a land of many peoples. In the east are the Germans, in the north are the Dutch Flemish, and in the south are the French Walloons. The tensions and competition between all these minorities are causing major problems trying to create a unified Belgian identity and getting people to work together."
+
+BEL_elections:0 "Elections of 1932"
+BEL_ethnic_desc:0 "The elections of 1932 have arrived. A politically divided Belgium should make this years results infinitely more interesting than last years. For better or for worse."
+
 
 ### Flags ###
 

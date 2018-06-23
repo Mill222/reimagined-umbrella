@@ -1,3 +1,7 @@
+###########################
+# By Sigismund
+###########################
+
 focus_tree = {
 	id = BEL_focus
 	
@@ -11,11 +15,18 @@ focus_tree = {
 	}
 		
 	default = no
+
+######## ECONOMY FOCUSES ########
+
+
 focus = {
 		id = BEL_Economy
 		icon = GFX_goal_generic_propaganda
 		#relative_position_id = LIV_Economy_Liberal
 		#prerequisite = { focus = LIV_Economy_Liberal6 }
+		available = {
+            has_idea = BEL_depression
+        }
 		x = 0
 		y = 0
 		cost = 8.6
@@ -161,6 +172,7 @@ focus = {
 		icon = GFX_goal_military_agreement_germany
 		relative_position_id = BEL_Economy
 		prerequisite = { focus = BEL_Economy1fold }
+		mutually_exclusive = { focus = BEL_Cantons }
 		x = -1
 		y = 4
 		cost = 8.6
@@ -179,7 +191,7 @@ focus = {
 
 focus = {
 		id = BEL_Economy2hold
-		icon = GFX_goal_generic_defence
+		icon = GFX_goal_BEL_caritas
 		relative_position_id = BEL_Economy
 		prerequisite = { focus = BEL_Economy1hold }
 		x = 1
@@ -190,7 +202,7 @@ focus = {
 		}
 
 		completion_reward = {
-			add_political_power = 25
+			add_political_power = -25
 			add_stability = 0.10
 		}
 	}
@@ -219,7 +231,7 @@ focus = {
 
 focus = {
 		id = BEL_Economy3hold
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_europamark
 		relative_position_id = BEL_Economy
 		prerequisite = { focus = BEL_Economy2hold }
 		x = 1
@@ -230,7 +242,7 @@ focus = {
 		}
 
 		completion_reward = {
-			add_political_power = 50
+			add_political_power = -50
 			add_stability = 0.15
 		}
 	}
@@ -356,4 +368,175 @@ focus = {
 			remove_ideas = BEL_depression
 		}
 	}
+
+######## POLITICAL FOCUSES ########
+
+focus = {
+		id = BEL_Political
+		icon = GFX_ROM_seats
+		#relative_position_id = LIV_Economy_Liberal
+		#prerequisite = { focus = LIV_Economy_Liberal6 }
+		available = {
+            has_idea = BEL_elections
+        }
+		x = 11
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			remove_ideas = BEL_elections
+		}
+	}
+
+focus = {
+		id = BEL_Walloon
+		icon = GFX_goal_WLL_Greater_Wallonia
+		#relative_position_id = BEL_Political
+		prerequisite = { focus = BEL_Political }
+		x = 9
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = bel.1 }
+		}
+	}
+
+focus = {
+		id = BEL_Flanders
+		icon = GFX_goal_FLN_Vlaanderen_Industry2
+		#relative_position_id = BEL_Political
+		prerequisite = { focus = BEL_Political }
+		x = 13
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = bel.2 }
+		}
+	}
+
+focus = {
+		id = BEL_Cantons
+		icon = GFX_goal_flag_germany
+		#relative_position_id = BEL_Political
+		prerequisite = { focus = BEL_Political }
+		mutually_exclusive = { focus = BEL_Economy2fold }
+		x = 11
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = bel.3 }
+		}
+	}
+
+focus = {
+		id = BEL_Electover
+		icon = GFX_ROM_seats
+		#relative_position_id = BEL_Political
+		prerequisite = { focus = BEL_Walloon }
+		prerequisite = { focus = BEL_Flanders }
+		x = 11
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = bel.4 }	
+		}
+	}
+
+######## COMMUNIST FOCUSES ########
+
+focus = {
+		id = BEL_Marx1
+		icon = GFX_goal_support_communism
+		#relative_position_id = BEL_Political
+		prerequisite = { focus = BEL_Electover }
+		x = 5
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = bel.4 }	
+		}
+	}
+
+######## LIBERAL FOCUSES ########
+
+focus = {
+		id = BEL_Lib1
+		icon = GFX_goal_commune_politics
+		#relative_position_id = BEL_Political
+		prerequisite = { focus = BEL_Electover }
+		x = 9
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = bel.4 }	
+		}
+	}
+
+######## CONSERVATIVE FOCUSES ########
+
+focus = {
+		id = BEL_Con1
+		icon = GFX_goal_BEL_support_democracy
+		#relative_position_id = BEL_Political
+		prerequisite = { focus = BEL_Electover }
+		x = 13
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = bel.4 }	
+		}
+	}
+
+######## AUTHORITARIAN DEMOCRACY FOCUSES ########
+
+focus = {
+		id = BEL_Auth1
+		icon = GFX_goal_BEL_belgium_first
+		#relative_position_id = BEL_Political
+		prerequisite = { focus = BEL_Electover }
+		x = 17
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = bel.4 }	
+		}
+	}
+
+
+
 }

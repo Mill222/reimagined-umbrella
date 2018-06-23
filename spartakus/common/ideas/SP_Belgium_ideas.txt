@@ -1,3 +1,7 @@
+###########################
+# By Sigismund
+###########################
+
 ideas = {
 
 	country = {
@@ -20,4 +24,40 @@ ideas = {
 			}
 		}
 	}
+
+	country = {
+		BEL_ethnic = {
+			
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_disjointed_gov
+			
+			modifier = {
+                stability_factor = -0.2
+				political_power_gain = -1
+			}
+		}
+	}
+
+	country = {
+		BEL_elections = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_political_support
+			
+			modifier = {
+			}
+		}
+	}
+
+
 }
