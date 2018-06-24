@@ -5,21 +5,21 @@ state={
 
 	history={
 		owner = MLW
-		add_core_of = MLW		
+		add_core_of = MLW
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 2
 
 		}
 		victory_points = {
-			12986 1
-		}	
+			12908 1 
+		}
+
 	}
 
 	provinces={
-		2255 12908 12986
+		12908 14017 14018 14019 14020 14021 14022 14023 14024 
 	}
-	manpower=1603900
-	buildings_max_level_factor=1
-	state_category="rural"
+	manpower=760344
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
