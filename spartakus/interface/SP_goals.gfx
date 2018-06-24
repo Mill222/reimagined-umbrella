@@ -605,7 +605,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_Devotion_to_Lenin"
-		texturefile = "gfx/interface/goals/Devotion_to_Leninn.dds"
+		texturefile = "gfx/interface/goals/Devotion_to_Lenin.dds"
 	}
 	
 	SpriteType = {
@@ -815,7 +815,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_Protestantism"
-		texturefile = "gfx/interface/goals/Protestantismf.dds"
+		texturefile = "gfx/interface/goals/Protestantism.dds"
 	}
 	SpriteType = {
 		name = "GFX_goal_CHL_unidad_popular"
@@ -980,5 +980,17 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_women_snipers"
 		texturefile = "gfx/interface/goals/goal_women_snipers.dds"
+	}
+	SpriteType = {
+		name = "GFX_Rosenberg_Coup"
+		texturefile = "gfx/interface/goals/Rosenberg_Coup.dds"
+	}
+	SpriteType = {
+		name = "GFX_Baltic_Crown"
+		texturefile = "gfx/interface/goals/Baltic_Crown.dds"
+	}
+	SpriteType = {
+		name = "GFX_Teutonic_Man"
+		texturefile = "gfx/interface/goals/Teutonic_Man.dds"
 	}
 }
