@@ -233,6 +233,17 @@ create_corps_commander = {
 	logistics_skill = 4
 }
 
+create_corps_commander = {
+	name = "Leon Degrelle"
+	portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Leon_Degrelle_Commander.dds"
+	traits = { trait_mountaineer hill_fighter }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
 create_navy_leader = {
 	name = "Georges Timmermans"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
