@@ -369,6 +369,17 @@ LIV_Air_End_desc:0 ""
 LIV_Education_Ger:0 "Education Reform"
 LIV_Education_Ger_desc:0 ""
 
+### Right Wing Path
+
+LIV_Avenge_Grunwald:0 "Avenging Grunwald"
+LIV_Avenge_Grunwald_desc:0 ""
+
+LIV_Eliminate_Protestant_Leaders:0 "Eliminate Protestant Leaders"
+LIV_Eliminate_Protestant_Leaders_desc:0 ""
+
+LIV_Raze_Riga_Cathedral:0 "Raze the Riga Cathedral"
+LIV_Raze_Riga_Cathedral_desc:0 ""
+
 ### Ideas ###
 
 LIV_military_with_state:0 "Military with a State"
