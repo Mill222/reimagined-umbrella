@@ -1,0 +1,20 @@
+state={
+	id=1123
+	name="STATE_1123"
+	provinces={
+		10862 12742 14074 14078 14087 14088 14089 14094 14095 14096 14097 14099 14100 14105 14106 14107 14108 14111 
+	}
+	history={
+		owner = GHA
+		add_core_of = GHA
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	manpower=585000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
