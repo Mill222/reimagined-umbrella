@@ -2089,6 +2089,10 @@ spriteTypes = {
 		name = "GFX_ROM_flight"
 		texturefile = "gfx/event_pictures/ROM_flight.dds"
 	}
+	spriteType = {
+		name = "GFX_news_event_dalai_lama"
+		texturefile = "gfx/event_pictures/Dalai_Lama.dds"
+	}
 }
 	
 	
