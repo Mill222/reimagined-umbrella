@@ -57,7 +57,7 @@ units = {
 		name = "Red Guards"
 		location = 7562
 		division_template = "Red Guards"
-		start_experience_factor = 0.6
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}	
 	
@@ -65,7 +65,7 @@ units = {
 		name = "Militia Battalion"
 		location = 10344
 		division_template = "Militia Battalion"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.0
 		start_equipment_factor = 0.9
 	}	
 	
@@ -73,35 +73,35 @@ units = {
 		name = "Militia Battalion"
 		location = 4654
 		division_template = "Militia Battalion"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.0
 		start_equipment_factor = 0.9
 	}
 	division= {	
 		name = "Militia Battalion"
 		location = 4408
 		division_template = "Militia Battalion"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.0
 		start_equipment_factor = 0.9
 	}
 	division= {	
 		name = "Militia Battalion"
 		location = 10267
 		division_template = "Militia Battalion"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.0
 		start_equipment_factor = 0.9
 	}
 	division= {	
 		name = "Militia Battalion"
 		location = 12127
 		division_template = "Militia Battalion"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.0
 		start_equipment_factor = 0.9
 	}
 	division= {	
 		name = "Militia Battalion"
 		location = 12363
 		division_template = "Militia Battalion"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.0
 		start_equipment_factor = 0.9
 	}
 	division= {	
@@ -115,28 +115,28 @@ units = {
 		name = "Militia Battalion"
 		location = 12292
 		division_template = "Militia Battalion"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.0
 		start_equipment_factor = 0.9
 	}
 	division= {	
 		name = "Militia Battalion"
 		location = 4585
 		division_template = "Militia Battalion"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.0
 		start_equipment_factor = 0.9
 	}
 	division= {	
 		name = "Militia Battalion"
 		location = 7382
 		division_template = "Militia Battalion"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.0
 		start_equipment_factor = 0.9
 	}
 	division= {	
 		name = "Militia Battalion"
 		location = 7974
 		division_template = "Militia Battalion"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.0
 		start_equipment_factor = 0.9
 	}	
 	

@@ -11,7 +11,7 @@ ideas = {
 	hidden_ideas = {
 		RAJ_BMR_revolt = {
 			modifier = {
-				ai_call_ally_desire_factor = -1000
+				ai_call_ally_desire_factor = -10000
 			}
 		}
 	}

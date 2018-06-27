@@ -65,3 +65,7 @@ create_country_leader = {
 		#
 	}
 }
+
+
+# Events
+news_event = { id = tibet.1 days = 716 }

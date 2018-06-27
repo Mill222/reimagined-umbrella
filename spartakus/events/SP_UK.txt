@@ -121,6 +121,7 @@ country_event = { # Raj calls Britain to Burmese revolt
 		hidden_effect = {
 			RAJ = { country_event = ukempire.11 }
 		}
+		log = "[GetDateText] UK joined Raj in Burmese Revolt"
 		
 		ai_chance = {
 			factor = 10

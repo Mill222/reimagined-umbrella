@@ -13,6 +13,9 @@ state={
 			industrial_complex = 1
 
 		}
+		RAJ = {
+			set_province_controller = 10920
+		}
 		add_core_of = BUR
 		add_core_of = BMR
 		add_core_of = RAJ
