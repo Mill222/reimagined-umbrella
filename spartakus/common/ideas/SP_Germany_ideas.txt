@@ -1,0 +1,59 @@
+### Germany ideas
+
+ideas = {
+
+# Country ideas
+
+	country = {
+		GER_A_Divided_Nation = {
+			modifier = {
+				stability_factor = -0.1
+				political_power_cost = -0.2
+			}
+			picture = chi_war_of_resistance3
+		}
+		GER_Civil_War_Recovery = {
+			modifier = {
+				war_support_factor = -0.25
+				conscription_factor = -0.5
+				consumer_goods_factor = 0.25
+				monthly_population = -0.05
+				production_speed_buildings_factor = -0.25
+				industrial_capacity_factory = -0.25
+				training_time_factor = 0.75
+				justify_war_goal_time = 1.0
+			}
+			picture = great_depression
+		}
+		GER_Red_Militias = {
+			modifier = {
+				war_support_factor = 0.05
+				army_core_defence_factor = 0.05
+				army_morale_factor = 0.1
+				army_org_factor = -0.25
+			}
+			picture = UoB_militia_idea
+		}
+		GER_Global_Embargo = {
+			modifier = {
+				min_export = -0.2
+				consumer_goods_factor = 0.1
+			}
+			picture = can_wartime_prices_and_trade_board
+		}
+		GER_Minority_Rights = {
+			modifier = {
+				stability_factor = 0.05
+				political_power_cost = -0.05
+			}
+			picture = jap_the_unthinkable_option
+		}
+		GER_Comintern = {
+			modifier = {
+				consumer_goods_factor = -0.05
+				research_time_factor = -0.10
+			}
+			picture = WIP
+		}
+	}
+}

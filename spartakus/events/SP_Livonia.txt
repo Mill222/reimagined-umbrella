@@ -345,11 +345,11 @@ country_event = { #Liberal Agrarian Reform
 	}
 }
 
-country_event = { #Scrapping the Baden
+news_event = { #Scrapping the Baden
 	id = livfoc.30
 	title = livfoc.30.t
 	desc = livfoc.30.d
-	picture = GFX_report_event_generic_conference
+	picture = GFX_news_event_ast_navy
 
 	fire_only_once = yes
 	is_triggered_only = yes
