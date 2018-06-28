@@ -25,7 +25,7 @@ ideas = {
 		BMR_Disorganized_Militias = {
 			modifier = {
 				conscription_factor = 0.1
-				army_org_factor = -0.2
+				army_org_factor = -0.25
 			}
 			picture = chi_army_corruption
 		}

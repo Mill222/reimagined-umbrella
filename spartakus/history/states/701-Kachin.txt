@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = BMR
 		buildings = {
 			infrastructure = 3
 
@@ -15,11 +15,10 @@ state={
 		victory_points = {
 			4425 2 
 		}
-		BMR = {
-			set_province_controller = 4425
-			set_province_controller = 10920
-			set_province_controller = 4996
-
+		RAJ = {
+			set_province_controller = 1934
+			set_province_controller = 4318
+			set_province_controller = 1197
 		}
 		add_core_of = BUR
 		add_core_of = BMR

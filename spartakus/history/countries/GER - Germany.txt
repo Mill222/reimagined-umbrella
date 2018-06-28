@@ -3,9 +3,22 @@
 oob = "GER"
 
 add_ideas = {
-	limited_exports
-	limited_conscription
-	early_economic_mobilisation
+	low_economic_mobilisation
+	GRU_Karl_Liebknecht_hog_mar
+	GRU_Walter_Ulbricht_for_len
+	GRU_Rudolf_Egelhofer_eco_mar
+	GRU_Ludwig_Renn_sec_len
+	GRU_Hugo_Eberlein_int_mar
+	GRU_Ernst_Wollweber_cos_len
+	GRU_Rudolf_Egelhofer_carm_mar
+	GRU_Willi_Muenzenberg_cnav_rev
+	GRU_Alexander_Schapiro_cair_rev
+	GER_A_Divided_Nation
+	GER_Civil_War_Recovery
+	GER_Red_Militias
+	GER_Global_Embargo
+	GER_Minority_Rights
+	GER_Comintern
 }
 
 # Starting tech
@@ -60,40 +73,40 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 16
+			popularity = 11
 		}
 		marxist = {
-			popularity = 42
+			popularity = 54
 		}
 		revolutionary_socialist = {
-			popularity = 30
+			popularity = 8
 		}
 		democratic_socialist = {
-			popularity = 10
+			popularity = 5
 		}
 		social_democrat = {
-			popularity = 1
+			popularity = 3
 		}
 		social_liberal = {
 			popularity = 1
 		}
 		liberal_conservative = {
-			popularity = 0
+			popularity = 2
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 5
 		}
 		authoritarian_democrat = {
-		    popularity = 0
+		    popularity = 3
 		}
 		right_wing_populist = {
-			popularity = 0
+			popularity = 1
 		}
 		national_syndicalist = {
-			popularity = 0
+			popularity = 5
 		}
 		national_corporatist = {
-			popularity = 0
+			popularity = 2
 		}
 	}
 	
