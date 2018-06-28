@@ -42,6 +42,7 @@ social_democrat_allowed = {
 	OR = {
 		has_government = revolutionary_socialist
 		has_government = democratic_socialist
+		has_government = social_democrat
 		has_government = social_liberal
 		has_government = liberal_conservative
 		has_government = social_conservative
