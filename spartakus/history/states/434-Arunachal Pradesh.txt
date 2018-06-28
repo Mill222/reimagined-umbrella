@@ -10,7 +10,7 @@ state={
 		owner = RAJ
 		add_core_of = RAJ
 		add_core_of = BUR
-		add_core_of = RMR
+		add_core_of = BMR
 		victory_points = {
 			1581 1 
 		}
