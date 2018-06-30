@@ -23,6 +23,11 @@ NGR_UK = {
 	color_ui = rgb { 215 70 62 }
 }
 
+SLE_UK = {
+	color = rgb { 215 70 62 }
+	color_ui = rgb { 215 70 62 }
+}
+
 ADE_UK = {
 	color = rgb { 215 70 62 }
 	color_ui = rgb { 215 70 62 }

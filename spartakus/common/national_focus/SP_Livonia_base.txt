@@ -191,22 +191,6 @@ focus_tree = {
 	
 	focus = {
 		id = LIV_Purge_Heydrich_Bloc
-		icon = GFX_Purge_Heydrich
-		prerequisite = { focus = LIV_Root_Out_Protestants }
-		relative_position_id = LIV_Root_Out_Protestants
-		x = 0
-		y = 1
-		cost = 5
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = LIV_Purge_Heydrich_Bloc
 		icon = GFX_goal_purge_opposition
 		prerequisite = { focus = LIV_Root_Out_Protestants }
 		relative_position_id = LIV_Root_Out_Protestants

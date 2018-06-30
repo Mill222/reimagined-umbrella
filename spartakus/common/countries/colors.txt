@@ -40,6 +40,10 @@ KUW = {
 	color = rgb { 190  80  80 }
 	color_ui = rgb { 210 100 100 }
 }
+SLE = {
+	color = rgb { 120  25  15 }
+	color_ui = rgb { 210 100 100 }
+}
 ZHL = {
 	color = rgb { 217 65 0 }
 	color_ui = rgb { 217 65 0 }
