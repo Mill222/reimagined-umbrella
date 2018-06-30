@@ -1,8 +1,10 @@
 
 state={
-	id=961
-	name="STATE_961"
-
+	id=1147
+	name="STATE_1147"
+	provinces={
+		14166 14167 14171 14172 14174 
+	}
 	history={
 		owner = ITA
 		add_core_of = ERT
@@ -13,11 +15,7 @@ state={
 		}
 
 	}
-
-	provinces={
-		8043 14161 14162 14163 14164 14165 14170 14173 14252 
-	}
-	manpower=77000
+	manpower=32640
+	state_category = wasteland
 	buildings_max_level_factor=1.000
-	state_category=wasteland
 }

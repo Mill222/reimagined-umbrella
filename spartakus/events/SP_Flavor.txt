@@ -1,0 +1,40 @@
+﻿###########################
+# Flavor Events
+###########################
+# By sparkz
+###########################
+
+add_namespace = flavor
+
+country_event = {
+	id = flavor.1
+	title = flavor.1.t
+	desc = flavor.1.d
+	picture = GFX_shape_of_things_to_come
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = {
+			NOT = {
+				has_socialist_government = yes
+				tag = ENG
+			}
+		}
+		name = flavor.1.a
+	}
+	option = {
+		trigger = {
+			has_socialist_government = yes
+		}
+		name = flavor.1.b
+	}
+	option = {
+		trigger = {
+			tag = ENG
+		}
+		name = flavor.1.c
+	}
+}

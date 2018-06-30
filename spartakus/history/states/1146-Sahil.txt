@@ -1,0 +1,21 @@
+
+state={
+	id=1146
+	name="STATE_1146"
+	provinces={
+		5017 5047 5091 12723 14177 14178 14179 14180 14181 14182 14183 14184 14185 
+	}
+	history={
+		owner = ITA
+		add_core_of = ERT
+		add_claim_by = ETH
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=182186
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}
