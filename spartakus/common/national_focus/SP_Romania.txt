@@ -1859,7 +1859,7 @@ focus_tree = {
 			id = ROM_conscription
 			icon = GFX_ROM_army
 			mutually_exclusive = { focus = ROM_demobilize }
-			x = 35
+			x = 36
 			y = 0
 			cost = 10
 			ai_will_do = {
@@ -1881,7 +1881,7 @@ focus_tree = {
 			id = ROM_recruits
 			icon = GFX_goal_conspiracy
 			prerequisite = { focus = ROM_conscription }
-			x = 35
+			x = 36
 			y = 1
 			cost = 5
 			ai_will_do = {
@@ -1901,7 +1901,7 @@ focus_tree = {
 			id = ROM_training
 			icon = GFX_Prepare_the_Troops
 			prerequisite = { focus = ROM_recruits }
-			x = 35
+			x = 36
 			y = 2
 			cost = 5
 			ai_will_do = {
@@ -1917,7 +1917,7 @@ focus_tree = {
 			id = ROM_doctrine
 			icon = GFX_focus_rom_preserve_romania
 			prerequisite = { focus = ROM_training }
-			x = 35
+			x = 36
 			y = 3
 			cost = 5
 			ai_will_do = {
@@ -1938,7 +1938,7 @@ focus_tree = {
 			id = ROM_demobilize
 			icon = GFX_focus_generic_military_academy
 			mutually_exclusive = { focus = ROM_conscription }
-			x = 39
+			x = 40
 			y = 0
 			cost = 10
 			ai_will_do = {
@@ -1963,7 +1963,7 @@ focus_tree = {
 			id = ROM_bunkers
 			icon = GFX_goal_skull_fortification
 			prerequisite = { focus = ROM_demobilize }
-			x = 39
+			x = 40
 			y = 1
 			cost = 5
 			ai_will_do = {
@@ -1983,7 +1983,7 @@ focus_tree = {
 			id = ROM_redoubt
 			icon = GFX_Into_the_Flames
 			prerequisite = { focus = ROM_bunkers }
-			x = 39
+			x = 40
 			y = 2
 			cost = 5
 			ai_will_do = {
@@ -2002,7 +2002,7 @@ focus_tree = {
 			id = ROM_plan
 			icon = GFX_goal_checkmate
 			prerequisite = { focus = ROM_redoubt }
-			x = 39
+			x = 40
 			y = 3
 			cost = 5
 			ai_will_do = {
@@ -2023,7 +2023,7 @@ focus_tree = {
 			id = ROM_new_army
 			icon = GFX_focus_chi_army_reform
 			prerequisite = { focus = ROM_plan focus = ROM_doctrine }
-			x = 37
+			x = 38
 			y = 4
 			cost = 10
 			ai_will_do = {
@@ -2046,7 +2046,7 @@ focus_tree = {
 			id = ROM_forts_bessarabia
 			icon = GFX_goal_generic_fortify_city
 			prerequisite = { focus = ROM_demobilize focus = ROM_conscription }
-			x = 37
+			x = 38
 			y = 1
 			cost = 5
 			ai_will_do = {
@@ -2126,7 +2126,7 @@ focus_tree = {
 			id = ROM_forts_transylvania
 			icon = GFX_goal_nested_fortifications
 			prerequisite = { focus = ROM_forts_bessarabia }
-			x = 37
+			x = 38
 			y = 2
 			cost = 5
 			ai_will_do = {
@@ -2211,7 +2211,7 @@ focus_tree = {
 			icon = GFX_goal_planning_bonus
 			prerequisite = { focus = ROM_new_army }
 			mutually_exclusive = { focus = ROM_mw focus = ROM_sfp }
-			x = 37
+			x = 38
 			y = 5
 			cost = 10
 			ai_will_do = {
@@ -2231,7 +2231,7 @@ focus_tree = {
 			id = ROM_gbp_2
 			icon = GFX_goal_officers
 			prerequisite = { focus = ROM_gbp }
-			x = 37
+			x = 38
 			y = 6
 			cost = 5
 			ai_will_do = {
@@ -2253,7 +2253,7 @@ focus_tree = {
 			icon = GFX_doctrine_tank_warfare
 			prerequisite = { focus = ROM_new_army }
 			mutually_exclusive = { focus = ROM_gbp focus = ROM_sfp }
-			x = 35
+			x = 36
 			y = 5
 			cost = 10
 			ai_will_do = {
@@ -2273,7 +2273,7 @@ focus_tree = {
 			id = ROM_mw_2
 			icon = GFX_Tanks_Across_the_Border
 			prerequisite = { focus = ROM_mw }
-			x = 35
+			x = 36
 			y = 6
 			cost = 5
 			ai_will_do = {
@@ -2295,7 +2295,7 @@ focus_tree = {
 			icon = GFX_goal_artillery
 			prerequisite = { focus = ROM_new_army }
 			mutually_exclusive = { focus = ROM_gbp focus = ROM_mw }
-			x = 39
+			x = 40
 			y = 5
 			cost = 10
 			ai_will_do = {
@@ -2315,7 +2315,7 @@ focus_tree = {
 			id = ROM_sfp_2
 			icon = GFX_goal_bombs_away
 			prerequisite = { focus = ROM_sfp }
-			x = 39
+			x = 40
 			y = 6
 			cost = 5
 			ai_will_do = {
@@ -2338,7 +2338,7 @@ focus_tree = {
 			prerequisite = { focus = ROM_mw_2 focus = ROM_sfp_2 focus = ROM_gbp_2 }
 			mutually_exclusive = { focus = ROM_arms_factory }
 			available = { has_completed_focus = ROM_depression_over }
-			x = 36
+			x = 37
 			y = 7
 			cost = 10
 			ai_will_do = {
@@ -2387,7 +2387,7 @@ focus_tree = {
 			prerequisite = { focus = ROM_mw_2 focus = ROM_sfp_2 focus = ROM_gbp_2 }
 			mutually_exclusive = { focus = ROM_war_industry }
 			available = { has_completed_focus = ROM_depression_over }
-			x = 38
+			x = 39
 			y = 7
 			cost = 10
 			ai_will_do = {
@@ -2459,7 +2459,8 @@ focus_tree = {
 	focus = {
 			id = ROM_navy
 			icon = GFX_goal_navy_decision
-			x = 42
+			prerequisite = { focus = ROM_plan focus = ROM_doctrine }
+			x = 33
 			y = 4
 			cost = 5
 			ai_will_do = {
@@ -2479,7 +2480,7 @@ focus_tree = {
 			id = ROM_submarines
 			icon = GFX_goal_generic_navy_submarine
 			prerequisite = {  focus = ROM_navy }
-			x = 41
+			x = 32
 			y = 6
 			cost = 5
 			ai_will_do = {
@@ -2500,7 +2501,7 @@ focus_tree = {
 			id = ROM_cruisers
 			icon = GFX_goal_generic_navy_cruiser
 			prerequisite = {  focus = ROM_navy }
-			x = 43
+			x = 34
 			y = 6
 			cost = 5
 			ai_will_do = {
@@ -2521,7 +2522,7 @@ focus_tree = {
 			id = ROM_marines
 			icon = GFX_goal_generic_amphibious_assault
 			prerequisite = { focus = ROM_navy }
-			x = 42
+			x = 33
 			y = 5
 			cost = 5
 			ai_will_do = {
@@ -2542,7 +2543,7 @@ focus_tree = {
 			id = ROM_flagship
 			icon = GFX_focus_generic_navy_battleship2
 			prerequisite = { focus = ROM_submarines focus = ROM_cruisers }
-			x = 42
+			x = 33
 			y = 7
 			cost = 5
 			ai_will_do = {
@@ -2557,8 +2558,9 @@ focus_tree = {
 	focus = {
 			id = ROM_airforce
 			icon = GFX_goal_generic_build_airforce
+			prerequisite = { focus = ROM_plan focus = ROM_doctrine }
 			x = 43
-			y = 0
+			y = 4
 			cost = 5
 			ai_will_do = {
 				factor = 50
@@ -2580,7 +2582,7 @@ focus_tree = {
 			prerequisite = { focus = ROM_airforce }
 			mutually_exclusive = { focus = ROM_bombers }
 			x = 42
-			y = 1
+			y = 5
 			cost = 5
 			ai_will_do = {
 				factor = 50
@@ -2601,7 +2603,7 @@ focus_tree = {
 			icon = GFX_goal_generic_air_fighter2
 			prerequisite = { focus = ROM_fighters }
 			x = 42
-			y = 2
+			y = 6
 			cost = 5
 			ai_will_do = {
 				factor = 50
@@ -2624,7 +2626,7 @@ focus_tree = {
 			prerequisite = { focus = ROM_airforce }
 			mutually_exclusive = { focus = ROM_fighters }
 			x = 44
-			y = 1
+			y = 5
 			cost = 5
 			ai_will_do = {
 				factor = 50
@@ -2646,7 +2648,7 @@ focus_tree = {
 			icon = GFX_goal_generic_air_naval_bomber
 			prerequisite = { focus = ROM_bombers }
 			x = 44
-			y = 2
+			y = 6
 			cost = 5
 			ai_will_do = {
 				factor = 50
@@ -2668,7 +2670,7 @@ focus_tree = {
 			icon = GFX_focus_generic_military_academy
 			prerequisite = { focus = ROM_destruction focus = ROM_air_superiority }
 			x = 43
-			y = 3
+			y = 7
 			cost = 5
 			ai_will_do = {
 				factor = 50
@@ -2685,7 +2687,7 @@ focus_tree = {
 			icon = GFX_goal_industry_air
 			prerequisite = { focus = ROM_destruction focus = ROM_air_superiority }
 			x = 41
-			y = 3
+			y = 7
 			cost = 5
 			ai_will_do = {
 				factor = 50
@@ -2701,7 +2703,7 @@ focus_tree = {
 			icon = GFX_Jet_Research
 			prerequisite = { focus = ROM_destruction focus = ROM_air_superiority }
 			x = 45
-			y = 3
+			y = 7
 			cost = 5
 			ai_will_do = {
 				factor = 50
@@ -2722,7 +2724,7 @@ focus_tree = {
 			icon = GFX_focus_rocketry
 			prerequisite = { focus = ROM_jets }
 			x = 45
-			y = 4
+			y = 8
 			cost = 5
 			ai_will_do = {
 				factor = 50
