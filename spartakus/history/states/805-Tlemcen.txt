@@ -1,24 +1,23 @@
 
 state={
 	id=805
-	name="STATE_805" #Tlemcen
+	name="STATE_805"
 
 	history={
 		owner = FRA
 		add_core_of = FRA
 		add_core_of = ALG
 		buildings = {
-			infrastructure = 4
-						industrial_complex = 2
+			infrastructure = 3
 
 		}
 
 	}
 
 	provinces={
-		3991 12018 7008 4150 13074 10045 4018 12020 7040 9960 7033 1128 7149
+		1126 12018 12842 13074 14402 14406 14409 14411 14412 14414 14415 14422 14425 14426 14427 14429 14430 14432 14433 14436 14438 14442 14443 14446 14450 14452 14455 14456 14457 14458 14465 14467 14468 14471 
 	}
-	manpower=711486
-	buildings_max_level_factor=1
-	state_category="rural"
+	manpower=163160
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
