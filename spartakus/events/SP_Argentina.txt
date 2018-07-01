@@ -4,19 +4,6 @@ country_event = {
 	id = argentina.1
 	title = argentina.1.t
 	desc = argentina.1.d
-	picture = GFX_argentina_casa_rosada
-    is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = argentina.1.a
-		ai_chance = { factor = 100 }
-	}
-}
-country_event = {
-	id = argentina.2
-	title = argentina.2.t
-	desc = argentina.2.d
 	picture = GFX_argentina_funeral
     trigger = {
     	tag = ARG
@@ -26,43 +13,8 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = argentina.2.a
-		ai_chance = { factor = 45 }
-		country_event = argentina.3
-	}
-	option = {
-		name = argentina.2.b
-		ai_chance = { factor = 35 }
-		country_event = argentina.4
-	}
-	option = {
-		name = argentina.2.c
-		ai_chance = { factor = 20 }
-		kill_country_leader = yes
-		set_politics = { ruling_party = authoritarian_democrat elections_allowed = no }
-		create_country_leader = {
-			name = "Matías Sanchez Sorondo"
-			desc = "POLITICS_MATIAS_SANCHEZ_SORONDO_DESC"
-			picture = "Portrait_Argentina_Sanchez_Sorondo.dds"
-			expire = "1965.1.1"
-			ideology = national_corporatist_subtype
-			traits = {
-				#
-			}
-		}
-	}
-}
-country_event = {
-	id = argentina.3
-	title = argentina.3.t
-	desc = argentina.3.d
-	picture = GFX_argentina_funeral
-    is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = {
-		name = argentina.3.a
-		ai_chance = { factor = 42 }
+		name = argentina.1.a
+		ai_chance = { factor = 50 }
 		kill_country_leader = yes
 		set_politics = { ruling_party = national_syndicalist elections_allowed = no }
 		create_country_leader = {
@@ -77,8 +29,33 @@ country_event = {
 		}
 	}
 	option = {
-		name = argentina.3.b
-		ai_chance = { factor = 33 }
+		name = argentina.1.b
+		ai_chance = { factor = 50 }
+		country_event = argentina.2
+		add_political_power = -50
+		create_country_leader = {
+			name = "Carlos Ibarguren"
+			desc = "POLITICS_CARLOS_IBARGUREN_DESC"
+			picture = "Portrait_Argentina_Carlos_Ibarguren.dds"
+			expire = "1965.1.1"
+			ideology = national_syndicalist_subtype
+			traits = {
+				#
+			}
+		}
+	}
+}
+country_event = {
+	id = argentina.2
+	title = argentina.2.t
+	desc = argentina.2.d
+	picture = GFX_argentina_funeral
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = argentina.2.a
+		ai_chance = { factor = 29 }
 		kill_country_leader = yes
 		create_country_leader = {
 			name = "Matías Sanchez Sorondo"
@@ -92,19 +69,72 @@ country_event = {
 		}
 	}
 	option = {
-		name = argentina.3.c
-		ai_chance = { factor = 25 }
+		name = argentina.2.b
+		ai_chance = { factor = 31 }
 		kill_country_leader = yes
+		set_politics = { ruling_party = national_syndicalist elections_allowed = no }
 		create_country_leader = {
-			name = "Carlos Ibarguren"
-			desc = "POLITICS_CARLOS_IBARGUREN_DESC"
-			picture = "Portrait_Argentina_Carlos_Ibarguren.dds"
+			name = "Matías Sanchez Sorondo"
+			desc = "POLITICS_MATIAS_SANCHEZ_SORONDO_DESC"
+			picture = "Portrait_Argentina_Sanchez_Sorondo.dds"
 			expire = "1965.1.1"
 			ideology = national_corporatist_subtype
 			traits = {
 				#
 			}
 		}
+	}
+	option = {
+		name = argentina.2.c
+		ai_chance = { factor = 21 }
+		kill_country_leader = yes
+		set_politics = { ruling_party = authoritarian_democrat elections_allowed = no }
+		create_country_leader = {
+			name = "Matías Sanchez Sorondo"
+			desc = "POLITICS_MATIAS_SANCHEZ_SORONDO_DESC"
+			picture = "Portrait_Argentina_Sanchez_Sorondo.dds"
+			expire = "1965.1.1"
+			ideology = national_corporatist_subtype
+			traits = {
+				#
+			}
+		}
+	}
+	option = {
+		name = argentina.2.e
+		ai_chance = { factor = 19 }
+		kill_country_leader = yes
+		random_list = {
+			65 = {
+				set_politics = { ruling_party = right_wing_populist elections_allowed = no }
+				create_country_leader = {
+					name = "Matías Sanchez Sorondo"
+					desc = "POLITICS_MATIAS_SANCHEZ_SORONDO_DESC"
+					picture = "Portrait_Argentina_Sanchez_Sorondo.dds"
+					expire = "1965.1.1"
+					ideology = national_corporatist_subtype
+					traits = {
+						#
+					}
+				}
+			}
+			35 = {
+				country_event = argentina.4
+			}
+		}
+	}
+}
+country_event = {
+	id = argentina.3
+	title = argentina.3.t
+	desc = argentina.3.d
+	picture = GFX_argentina_funeral
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = argentina.3.a
+		add_political_power = 100
 	}
 }
 country_event = {
@@ -117,23 +147,7 @@ country_event = {
 	
 	option = {
 		name = argentina.4.a
-		ai_chance = { factor = 65 }
-		kill_country_leader = yes
-		set_politics = { ruling_party = right_wing_populist elections_allowed = no }
-		create_country_leader = {
-			name = "Matías Sanchez Sorondo"
-			desc = "POLITICS_MATIAS_SANCHEZ_SORONDO_DESC"
-			picture = "Portrait_Argentina_Sanchez_Sorondo.dds"
-			expire = "1965.1.1"
-			ideology = national_corporatist_subtype
-			traits = {
-				#
-			}
-		}
-	}
-	option = {
-		name = argentina.4.b
-		ai_chance = { factor = 20 }
+		ai_chance = { factor = 40 }
 		kill_country_leader = yes
 		set_politics = { ruling_party = right_wing_populist elections_allowed = no }
 		create_country_leader = {
@@ -158,8 +172,8 @@ country_event = {
 		}
 	}
 	option = {
-		name = argentina.4.c
-		ai_chance = { factor = 15 }
+		name = argentina.4.b
+		ai_chance = { factor = 60 }
 		set_politics = { ruling_party = authoritarian_democrat elections_allowed = no }
 		create_country_leader = {
 			name = "Matías Sanchez Sorondo"
@@ -1042,14 +1056,14 @@ country_event = {
 	}
 }
 country_event = { 
-	id = argentina.33
-	title = argentina.33.t
-	desc = argentina.33.d
+	id = argentina.32
+	title = argentina.32.t
+	desc = argentina.32.d
 	picture = GFX_argentina_campo
     is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
-		name = argentina.33.a
+		name = argentina.32.a
 	}
 }
