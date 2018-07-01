@@ -2,9 +2,11 @@
 
 oob = "SLE"
 
-set_research_slots = 3
+set_research_slots = 1
 set_stability = 0.4
 set_war_support = 0.2
+
+set_cosmetic_tag = SLE_UK
 
 # Starting tech
 set_technology = {
@@ -60,18 +62,68 @@ set_politics = {
 	elections_allowed = no
 }
 
-add_ideas = {
-	extensive_conscription
-}
-
 create_country_leader = {
-	name = "Persian Gulf Residency"
+	name = "George V"
 	desc = ""
-	picture = "Portrait_Persian_Gulf_Residency.dds"
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
 }
 
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = right_wing_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}

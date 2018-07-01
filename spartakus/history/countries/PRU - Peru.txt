@@ -15,50 +15,50 @@ set_technology = {
 	early_light_cruiser = 1
 }
 
-set_convoys = 5
+set_convoys = 20
 
 set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 0
+			popularity = 1
 		}
 		marxist = {
-			popularity = 0
+			popularity = 2
 		}
 		revolutionary_socialist = {
-			popularity = 0
+			popularity = 1
 		}
 		democratic_socialist = {
-			popularity = 0
+			popularity = 4
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 30
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 7
 		}
 		liberal_conservative = {
-			popularity = 0
+			popularity = 1
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 6
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 1
 		}
 		right_wing_populist = {
-			popularity = 0
+			popularity = 44
 		}
 		national_syndicalist = {
-			popularity = 0
+			popularity = 2
 		}
 		national_corporatist = {
-			popularity = 0
+			popularity = 1
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = right_wing_populist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -66,11 +66,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Óscar Benavides"
-	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
-	picture = "GFX_Portrait_peru_oscar_benavides"
+	name = "Luis Miguel Sánchez Cerro"
+	desc = "POLITICS_LUIS_CERRO_DESC"
+	picture = "Portrait_Luis_Miguel_Sanchez_Cerro.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = right_wing_populist_subtype
 	traits = {
 		#
 	}

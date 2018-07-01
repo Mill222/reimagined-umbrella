@@ -5,7 +5,19 @@ ideas = {
 # Country ideas
 
 	country = {
-		UK_the_irish_question_idea = {
+		UK_the_irish_question_idea_1 = {
+			modifier = {
+			}
+			picture = FRA_matignon_agreements
+		}
+		UK_the_irish_question_idea_2 = {
+			modifier = {
+				stability_factor = -0.025
+				political_power_cost = 0.05
+			}
+			picture = FRA_matignon_agreements
+		}
+		UK_the_irish_question_idea_3 = {
 			modifier = {
 				stability_factor = -0.05
 				political_power_cost = 0.10
@@ -17,7 +29,7 @@ ideas = {
 				consumer_goods_factor = 0.15
 				industrial_capacity_factory = -0.15
 				industrial_capacity_dockyard = -0.15
-				political_power_cost = 0.10
+				political_power_cost = 0.05
 				stability_factor = -0.05
 			}
 			picture = great_depression
@@ -42,7 +54,7 @@ ideas = {
 		}
 		UK_hawkish_military_command = {
 			modifier = {
-				political_power_cost = 0.10
+				political_power_cost = 0.05
 				training_time_factor = -0.10
 				army_org_factor = 0.10
 				planning_speed = 0.10

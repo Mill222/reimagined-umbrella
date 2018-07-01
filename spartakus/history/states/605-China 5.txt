@@ -12,24 +12,21 @@ state={
 		add_core_of = SCH
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 3
+			industrial_complex = 1
 			arms_factory = 1
-			air_base = 2
+			air_base = 1
 
 		}
 		victory_points = {
 			4925 1 
 		}
-		victory_points = {
-			6999 10 
-		}
 
 	}
 
 	provinces={
-		1367 1395 1893 2030 2091 4041 4141 4431 4925 5048 6999 7240 7256 7948 8026 10132 10144 10304 10822 11865 11972 12141 12274 12705 12767 12819 
+		1367 1395 2045 4925 7240 8026 10132 12141 12767 14043 14045 14046 14049 14050 14055 14057 14059 14065 
 	}
-	manpower=52963300
+	manpower=13654433
 	buildings_max_level_factor=1.000
 	state_category=city
 }

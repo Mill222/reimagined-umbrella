@@ -13,6 +13,9 @@ state={
 			industrial_complex = 1
 
 		}
+		RAJ = {
+			set_province_controller = 10920
+		}
 		add_core_of = BUR
 		add_core_of = BMR
 		add_core_of = RAJ
@@ -25,7 +28,7 @@ state={
 	provinces={
 		1082 4588 7469 10386 10486 10920 12335 12464 12492 
 	}
-	manpower=970000
+	manpower=1110000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

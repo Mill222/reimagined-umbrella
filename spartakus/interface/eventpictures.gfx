@@ -16,6 +16,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_shape_of_things_to_come"
+		texturefile = "gfx/event_pictures/shape_of_things_to_come.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_darkestday1"
 		texturefile = "gfx/event_pictures/darkestday1.dds"
 	}
@@ -2088,6 +2093,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ROM_flight"
 		texturefile = "gfx/event_pictures/ROM_flight.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_dalai_lama"
+		texturefile = "gfx/event_pictures/Dalai_Lama.dds"
 	}
 }
 	

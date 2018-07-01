@@ -1,37 +1,58 @@
 ﻿l_english:
 
-GER_leninist_party:0 "Vanguardists"
-GER_leninist_party_long:0 "Kommunistische Partei Deutschlands - Vanguardists"
-GER_marxist_party:0 "Libertarians"
-GER_marxist_party_long:0 "Kommunistische Partei Deutschlands - Libertarians"
-GER_democratic_socialist_party:0 "Leftists"
-GER_democratic_socialist_party_long:0 "Kommunistische Partei Deutschlands - Left"
-GER_revolutionary_socialist_party:0 "Unionists"
-GER_revolutionary_socialist_party_long:0 "Kommunistische Partei Deutschlands - Moderates"
-GER_social_democrat_party:0 "Social Democrats"
-GER_social_democrat_party_long:0 "Social Democrats"
-GER_social_liberal_party:0 "Liberals"
-GER_social_liberal_party_long:0 "Deutsche Demokratische Partei"
-GER_liberal_conservative_party:0 "Moderate Conservatives"
-GER_liberal_conservative_party_long:0 "Moderate Conservatives"
-GER_social_conservative_party:0 "Conservatives"
-GER_social_conservative_party_long:0 "Conservatives"
-GER_authoritarian_democrat_party:0 "Monarchists"
-GER_authoritarian_democrat_party_long:0 "Monarchists"
-GER_right_wing_populist_party:0 "Populists"
-GER_right_wing_populist_party_long:0 "Deutschnationale Volkspartei"
-GER_national_syndicalist_party:0 "National Syndicalists"
-GER_national_syndicalist_party_long:0 "National Syndicalists"
-GER_national_corporatist_party:0 "Fascists"
-GER_national_corporatist_party_long:0 "Fascists"
+### Ideas ###
 
-    ### Head of Government ###
-	 GER_Hermann_Goring_hog_nat:0 "Hermann Goring"
-	 Hermann_Goring_dead:0 " is incapable of holding any posts."
-     GER_Joseph_Goebbels_hog_nat:0 "Joseph Goebbels"
-	 Joseph_Goebbels_dead:0 " is incapable of holding any posts."
-     GER_Rudolf_Hess_hog_nat:0 "Rudolf Hess"
-	 Rudolf_Hess_dead:0 " is incapable of holding any posts."
-     GER_Franz_von_Papen_hog_fas:0 "Franz von Papen"
-	 Franz_von_Papen_dead:0 " is incapable of holding any posts."
-     
+GER_A_Divided_Nation:0 "A Divided Nation"
+GER_A_Divided_Nation_desc:0 ""
+
+GER_Civil_War_Recovery:0 "Recovering from the Civil War"
+GER_Civil_War_Recovery_desc:0 ""
+
+GER_Red_Militias:0 "Red Militias"
+GER_Red_Militias_desc:0 ""
+
+GER_Global_Embargo:0 "Global Embargo"
+GER_Global_Embargo_desc:0 ""
+
+GER_Minority_Rights:0 "Minority Rights"
+GER_Minority_Rights_desc:0 ""
+
+GER_Comintern:0 "Comintern Member"
+GER_Comintern_desc:0 ""
+
+### Tooltips ###
+
+### Opinion Modifiers ###
+
+### Parties ###
+
+GER_leninist_party:0 "KPD"
+GER_leninist_party_long:0 "Kommunistische Partei Deutschlands - Bolshevik Bloc"
+GER_marxist_party:0 "KPD"
+GER_marxist_party_long:0 "Kommunistische Partei Deutschlands - Orthodox Marxists"
+GER_revolutionary_socialist_party:0 "FAUD"
+GER_revolutionary_socialist_party_long:0 "Freie Arbeiter Union Deutschlands"
+GER_democratic_socialist_party:0 "USPD"
+GER_democratic_socialist_party_long:0 "Unabhängige Sozialdemokratische Partei Deutschlands"
+GER_social_democrat_party:0 "SPD"
+GER_social_democrat_party_long:0 "Sozialdemokratische Partei Deutschlands"
+GER_social_liberal_party:0 "DDP"
+GER_social_liberal_party_long:0 "Deutsche Demokratische Partei"
+GER_liberal_conservative_party:0 "DVP"
+GER_liberal_conservative_party_long:0 "Deutsche Volkspartei"
+GER_social_conservative_party:0 "Zentrum"
+GER_social_conservative_party_long:0 "Deutsche Zentrumspartei"
+GER_authoritarian_democrat_party:0 "DNVP"
+GER_authoritarian_democrat_party_long:0 "Deutschnationale Volkspartei"
+GER_right_wing_populist_party:0 "DSP"
+GER_right_wing_populist_party_long:0 "Deutschsozialistische Partei"
+GER_national_syndicalist_party:0 "NBP"
+GER_national_syndicalist_party_long:0 "Nationale Bolschewistische Partei"
+GER_national_corporatist_party:0 "AV"
+GER_national_corporatist_party_long:0 "Alldeutscher Verband"
+
+### Focuses ###
+
+### Leader descriptions ###
+
+### Events ###

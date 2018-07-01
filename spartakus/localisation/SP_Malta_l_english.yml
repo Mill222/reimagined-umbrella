@@ -1,26 +1,40 @@
 ﻿l_english:
-###Parties###
-MLT_leninist_party:0 "Leninist"
-MLT_leninist_party_long:0 "Leninist"
-MLT_marxist_party:0 "Marxist"
-MLT_marxist_party_long:0 "Marxist"
-MLT_democratic_socialist_party:0 "Democratic Socialist"
-MLT_democratic_socialist_party_long:0 "Democratic Socialist"
-MLT_revolutionary_socialist_party:0 "Revolutionary Socialist"
-MLT_revolutionary_socialist_party_long:0 "Revolutionary Socialist"
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+MLT_leninist_party:0 "PL"
+MLT_leninist_party_long:0 "Partit Laburista"
+MLT_marxist_party:0 "PL"
+MLT_marxist_party_long:0 "Partit Laburista"
+MLT_revolutionary_socialist_party:0 "PL"
+MLT_revolutionary_socialist_party_long:0 "Partit Laburista"
+MLT_democratic_socialist_party:0 "PL"
+MLT_democratic_socialist_party_long:0 "Partit Laburista"
 MLT_social_democrat_party:0 "PL"
 MLT_social_democrat_party_long:0 "Partit Laburista"
-MLT_social_liberal_party:0 "Social Liberal"
-MLT_social_liberal_party_long:0 "Social Liberal"
+MLT_social_liberal_party:0 "PK"
+MLT_social_liberal_party_long:0 "Partit Kostituzzjonali"
 MLT_liberal_conservative_party:0 "PK"
 MLT_liberal_conservative_party_long:0 "Partit Kostituzzjonali"
 MLT_social_conservative_party:0 "PN"
 MLT_social_conservative_party_long:0 "Partit Nazzjonalista"
-MLT_authoritarian_democrat_party:0 "Authoritarian Democrat"
-MLT_authoritarian_democrat_party_long:0 "Authoritarian Democrat"
+MLT_authoritarian_democrat_party:0 "OMSM"
+MLT_authoritarian_democrat_party_long:0 "Ordni Militari Sovran ta' Malta"
 MLT_right_wing_populist_party:0 "OMSM"
 MLT_right_wing_populist_party_long:0 "Ordni Militari Sovran ta' Malta"
 MLT_national_syndicalist_party:0 "PNF-M"
 MLT_national_syndicalist_party_long:0 "Partito Nazionale Fascista Maltese"
 MLT_national_corporatist_party:0 "PNF-M"
 MLT_national_corporatist_party_long:0 "Partito Nazionale Fascista Maltese"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

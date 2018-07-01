@@ -1,0 +1,9 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			BEL= {
+				news_event = { id = belnews.3 days = 331 }
+			}
+		}
+    }
+}

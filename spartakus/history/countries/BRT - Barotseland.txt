@@ -54,12 +54,3 @@ set_politics = {
 	elections_allowed = no
 
 }
-
-create_country_leader = {
-	name = "H.R.H Yeta III"
-	picture = "Portrait_Barot_YetaIII.tga"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-	}
-}

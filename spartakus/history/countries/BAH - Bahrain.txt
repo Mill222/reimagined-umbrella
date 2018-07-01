@@ -65,11 +65,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Persian Gulf Residency"
+	name = "Hamad ibn Isa Al Khalifa"
 	desc = ""
-	picture = "Portrait_Persian_Gulf_Residency.dds"
+	picture = "Portrait_Hamad_ibn_Isa_Al_Khalifa.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}

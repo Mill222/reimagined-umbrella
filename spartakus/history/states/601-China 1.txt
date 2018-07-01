@@ -1,13 +1,9 @@
 
 state={
 	id=601
-	name="STATE_601" # Xikang
-	manpower = 568200
-	
-	state_category = pastoral
-	
+	name="STATE_601"
 	resources={
-		oil=2
+		oil=2.000
 	}
 
 	history={
@@ -16,11 +12,15 @@ state={
 		add_core_of = SCH
 		buildings = {
 			infrastructure = 1
+
 		}
 
 	}
 
 	provinces={
-		1918 1999 2067 4999 7294 7988 8104 10726 10841 12724 12837
+		1918 1999 4999 7988 8104 12724 12837 14042 14047 14051 14056 14058 14061 
 	}
+	manpower=1420500
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

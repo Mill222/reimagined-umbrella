@@ -4,18 +4,20 @@ state={
 	name="STATE_961"
 
 	history={
-		owner=ITA
-		add_core_of=ERT
-		add_claim_by=ETH
-		buildings={
-			infrastructure=2
+		owner = ITA
+		add_core_of = ERT
+		add_claim_by = ETH
+		buildings = {
+			infrastructure = 1
+
 		}
+
 	}
 
 	provinces={
-		8043
+		8043 14161 14162 14163 14164 14165 14170 14173 14252 
 	}
-	manpower=87000
-	buildings_max_level_factor=1
+	manpower=77000
+	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

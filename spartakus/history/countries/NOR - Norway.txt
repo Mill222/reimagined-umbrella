@@ -36,7 +36,7 @@ set_politics = {
 			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 31
+			popularity = 26
 		}
 		social_democrat = {
 			popularity = 7
@@ -45,7 +45,7 @@ set_politics = {
 			popularity = 5
 		}
 		liberal_conservative = {
-			popularity = 26
+			popularity = 31
 		}
 		social_conservative = {
 			popularity = 9
@@ -64,7 +64,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic_socialist
+	ruling_party = liberal_conservative
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -75,11 +75,66 @@ set_convoys = 80		# biggest merchant marine in the world
 set_stability = 0.7
 
 create_country_leader = {
-	name = "Johan Nygaardsvold"
-	desc = "POLITICS_JOHAN_NYGAARDSVOLD_DESC"
-	picture = "Portrait_Norway_Johan_Nygaardsvold.dds"
+	name = "Haakon VII"
+	desc = "POLITICS_HAAKON_VII_DESC"
+	picture = "Portrait_Haakon_VII.tga"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = democratic_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_HAAKON_VII_DESC"
+	picture = "Portrait_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_HAAKON_VII_DESC"
+	picture = "Portrait_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_HAAKON_VII_DESC"
+	picture = "Portrait_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_HAAKON_VII_DESC"
+	picture = "Portrait_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_HAAKON_VII_DESC"
+	picture = "Portrait_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
@@ -90,29 +145,7 @@ create_country_leader = {
 	desc = "POLITICS_VIDKUN_QUISLING_DESC"
 	picture = "Portrait_Norway_Vidkun_Quisling.dds"
 	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Johan Ludwig Mowinckel"
-	desc = "POLITICS_JOHAN_LUDWIG_MOWINCKEL_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Adam Egede-Nissen"
-	desc = "POLITICS_ADAM_EGEDE_NISSEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = marxism
+	ideology = national_corporatist_subtype
 	traits = {
 		#
 	}

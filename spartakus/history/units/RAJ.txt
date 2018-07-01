@@ -43,6 +43,15 @@ division_template = {
 	}
 }
 
+division_template = {
+	name = "Burma Military Police"
+	division_names_group = RAJ_MLP_01
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+	}
+}
+
 
 ####### OOB #######
 units = {
@@ -160,6 +169,36 @@ units = {
 		division_template = "District Garrison"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
+	}
+	
+	# Burma Military Police
+	division = { # "Bhamo Battalion"
+		name = "Bhamo Battalion"
+		location = 10920
+		division_template = "Burma Military Police"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.1
+	}
+	division = { # "Rangoon Battalion"
+		name = "Rangoon Battalion"
+		location = 1403
+		division_template = "Burma Military Police"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+	}
+	division = { # "Southern Shan States Battalion - Taunggyi"
+		name = "Southern Shan States Battalion - Taunggyi"
+		location = 7603
+		division_template = "Burma Military Police"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.1
+	}
+	division = { # "Southern Shan States Battalion - Loimwe"
+		name = "Southern Shan States Battalion - Loimwe"
+		location = 7909
+		division_template = "Burma Military Police"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.1
 	}
 }
 

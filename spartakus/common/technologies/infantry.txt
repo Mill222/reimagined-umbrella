@@ -78,20 +78,9 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
 			modifier = {
 				factor = 10
-				tag = CHI
-				
-				OR = {
-					date > "1937.1.1"
-					JAP = { is_ai = no }
-				}
-			}
-			
-			modifier = {
-				factor = 10
-				date > "1936.1.3"
+				date > "1932.1.3"
 			}
 		}
 	}	
@@ -135,7 +124,7 @@ technologies = {
 
 			modifier = {
 				factor = 5
-				date > "1939.1.1"
+				date > "1933.1.1"
 			}
 		}
 	}
@@ -171,7 +160,7 @@ technologies = {
 			
 			modifier = {
 				factor = 10
-				date > "1939.1.1"
+				date > "1934.1.1"
 			}
 		}
 	}
@@ -214,17 +203,17 @@ technologies = {
    
 			modifier = {
 				factor = 2
-				date > "1940.1.6"
+				date > "1935.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.1"
+				date > "1936.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1942.1.1"
+				date > "1937.1.1"
 			}
 		}
 	}
@@ -242,7 +231,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1933
+		start_year = 1937
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1937 }
@@ -257,17 +246,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.6"
+				date > "1937.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1943.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "1939.1.1"
 			}
 		}
 	}
@@ -286,7 +275,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1933
+		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1939 }
@@ -301,17 +290,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1943.1.6"
+				date > "1939.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "1940.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1945.1.1"
+				date > "1941.1.1"
 			}
 		}
 	}
@@ -1373,13 +1362,6 @@ jungle_warfare = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
-		jaeger = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		
-###------> Jaeger   <><> <><> <><> <><> <><>
-
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05

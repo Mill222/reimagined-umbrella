@@ -1,23 +1,26 @@
 
 state={
 	id=437
-	name="STATE_437" # Indore
-	manpower = 8402500
-
-	state_category = rural
+	name="STATE_437"
 
 	history={
 		owner = RAJ
 		add_core_of = RAJ
-		victory_points = { 12080 1 } #Indore
+		victory_points = {
+			12080 1 
+		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+
 		}
 
 	}
 
 	provinces={
-		1949 2036 2092 2105 4106 7080 8076 10807 10816 11995 12080
+		1199 2092 2105 4106 4950 10816 10872 12799 
 	}
+	manpower=3008000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

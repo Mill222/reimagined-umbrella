@@ -1,26 +1,40 @@
 ﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
 ###Parties###
-ITA_leninist_party:0 "PCd'I-A"
-ITA_leninist_party_long:0 "Partito Comunista d'Italia-Avanguardia"
-ITA_marxist_party:0 "PCd'I-I"
-ITA_marxist_party_long:0 "Partito Comunista d'Italia-Internazionalisti"
-ITA_democratic_socialist_party:0 "PSI"
-ITA_democratic_socialist_party_long:0 "Partito Socialista Italiano
-ITA_revolutionary_socialist_party:0 "PSU"
-ITA_revolutionary_socialist_party_long:0 "Partito Socialista Unitario"
-ITA_social_democrat_party:0 "PSRI"
-ITA_social_democrat_party_long:0 "Partito Socialista Riformista Italiano"
+
+ITA_leninist_party:0 "PCI"
+ITA_leninist_party_long:0 "Partito Communista d'Italia"
+ITA_marxist_party:0 "PCI"
+ITA_marxist_party_long:0 "Partito Communista d'Italia"
+ITA_revolutionary_socialist_party:0 "PCI"
+ITA_revolutionary_socialist_party_long:0 "Partito Communista d'Italia"
+ITA_democratic_socialist_party:0 "PCI"
+ITA_democratic_socialist_party_long:0 "Partito Communista d'Italia"
+ITA_social_democrat_party:0 "PSI"
+ITA_social_democrat_party_long:0 "Partito Socialista Italiano"
 ITA_social_liberal_party:0 "PRI"
-ITA_social_liberal_party_long:0 "Partito Repubblicano Italiano"
-ITA_liberal_conservative_party:0 "PLD"
-ITA_liberal_conservative_party_long:0 "Partito Liberale Democratico"
-ITA_social_conservative_party:0 "PLI"
-ITA_social_conservative_party_long:0 "Partito Liberale Italiano"
-ITA_authoritarian_democrat_party:0 "PPI"
-ITA_authoritarian_democrat_party_long:0 "Partito Populare Italiano"
-ITA_right_wing_populist_party:0 "CS"
+ITA_social_liberal_party_long:0 "Parito Repubblicano Italiano"
+ITA_liberal_conservative_party:0 "PLI"
+ITA_liberal_conservative_party_long:0 "Partito Liberale Italiano"
+ITA_social_conservative_party:0 "PPI"
+ITA_social_conservative_party_long:0 "Partito Populare Italiano"
+ITA_authoritarian_democrat_party:0 "Governo Militare"
+ITA_authoritarian_democrat_party_long:0 "Governo Militare di Transizione per la Stabilità"
+ITA_right_wing_populist_party:0 "Savoia"
 ITA_right_wing_populist_party_long:0 "Casa Savoia"
-ITA_national_syndicalist_party:0 "LNI"
-ITA_national_syndicalist_party_long:0 "Legione Nazionale Fascista"
+ITA_national_syndicalist_party:0 "PNF"
+ITA_national_syndicalist_party_long:0 "Partito Nazionale Fascista"
 ITA_national_corporatist_party:0 "PNF"
 ITA_national_corporatist_party_long:0 "Partito Nazionale Fascista"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

@@ -1,26 +1,25 @@
 
 state={
 	id=436
-	name="STATE_436" # Jabalpur
-	manpower = 14123100
-	
-	state_category = rural
-	
+	name="STATE_436"
 	resources={
-		chromium=6
+		chromium=6.000
 	}
 
 	history={
 		owner = RAJ
 		add_core_of = RAJ
-		victory_points = { 10401 1 } #Raipur
 		buildings = {
 			infrastructure = 4
+
 		}
 
 	}
 
 	provinces={
-		1510 4557 7497 7574 8120 10171 10401 12375 12420 12480 12854 10332 12490
+		1579 7090 7574 9946 10001 10401 10469 11924 11978 12420 12462 12854 
 	}
+	manpower=4550000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

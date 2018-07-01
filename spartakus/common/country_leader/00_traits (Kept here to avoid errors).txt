@@ -1,5 +1,3 @@
-# Please don't delete them unil we got these traits sorted out again - PPsyrius
-
 leader_traits = {
 	
 	dictator = {

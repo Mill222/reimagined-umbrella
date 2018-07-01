@@ -1,0 +1,46 @@
+### Quebec Decisions & Missions
+
+# Political Struggle
+CZE_dealing_with_Gajda = {
+	CZE_Gajda_coup_progress_mission = { # Mission: Keep Gajda from advancing coup progress
+		allowed = { always = no }
+		icon = CZE_Gajda_mission_icon
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = CZE_mission_dealing_with_Gajda_tt
+				always = no
+			}
+		}
+		is_good = no
+		days_mission_timeout = CZE_Gajda_coup_timeout_days?75
+		fire_only_once = yes
+		timeout_effect = {
+			CZE_increase_Gajda_coup_progress_effect = yes
+		}
+	}
+	CZE_bribe_Gajda = {
+		fire_only_once = yes
+		cost = 50
+		complete_effect = {
+			CZE_postpone_Gajda_coup_progress_effect = yes
+			CZE_Gajda_increase_coup_timeout_days_10_effect = yes
+		}
+		modifier = {
+			civilian_factory_use = 1
+		}
+		days_remove = 120
+	}
+	CZE_suspend_Gajda = {
+		fire_only_once = yes
+		cost = 150
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+					has_id = 0911 # Gajda
+				}
+				add_unit_leader_trait = trait_suspended
+			}
+			CZE_postpone_Gajda_coup_progress_effect = yes
+		}
+	}
+}

@@ -150,6 +150,8 @@ create_country_leader = {
 	}
 }
 
+### Unit Leader Prefix: 05
+
 create_corps_commander = {
 	name = "Jean de Lattre de Tassigny"
 	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"

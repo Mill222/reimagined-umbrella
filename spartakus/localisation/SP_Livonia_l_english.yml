@@ -369,6 +369,35 @@ LIV_Air_End_desc:0 ""
 LIV_Education_Ger:0 "Education Reform"
 LIV_Education_Ger_desc:0 ""
 
+### Right Wing Path
+
+LIV_Avenge_Grunwald:0 "Avenging Grunwald"
+LIV_Avenge_Grunwald_desc:0 ""
+
+LIV_Eliminate_Protestant_Leaders:0 "Eliminate Protestant Leaders"
+LIV_Eliminate_Protestant_Leaders_desc:0 ""
+
+LIV_Raze_Riga_Cathedral:0 "Raze the Riga Cathedral"
+LIV_Raze_Riga_Cathedral_desc:0 ""
+
+LIV_Controlling_the_Orthodox_Church:0 "Controlling the Orthodox Church"
+LIV_Controlling_the_Orthodox_Church_desc:0 ""
+
+LIV_Seize_Church_Property:0 "Seize Church Properties"
+LIV_Seize_Church_Property_desc:0 ""
+
+LIV_Impose_Heavy_Taxation:0 "Impose Heavy Taxation"
+LIV_Impose_Heavy_Taxation_desc:0 ""
+
+LIV_Jail_Leaders:0 "Jail Church Leaders"
+LIV_Jail_Leaders_desc:0 ""
+
+LIV_Outlaw_Orthodox_Worship:0 "Outlaw Orthodox Worship"
+LIV_Outlaw_Orthodox_Worship_desc:0 ""
+
+LIV_Impose_Church_Restrictions:0 "Impose Major Restrictions"
+LIV_Impose_Church_Restrictions_desc:0 ""
+
 ### Ideas ###
 
 LIV_military_with_state:0 "Military with a State"

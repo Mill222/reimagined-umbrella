@@ -1,0 +1,431 @@
+﻿###########################
+# Belgium Events
+###########################
+# By Sigismund
+###########################
+
+add_namespace = bel
+add_namespace = belforeign
+add_namespace = belnews
+
+###########################
+# Belgian Events
+###########################
+
+country_event = {
+	id = belforeign.1
+	title = belforeign.1.t
+	desc = belforeign.1.d
+	picture = GFX_report_event_saf_coup
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = belforeign.1.a
+		ai_chance = {
+			factor = 10
+		}
+		ENG = {
+				add_political_power = 10
+		}
+	}
+
+	option = {
+		name = belforeign.1.b
+		ai_chance = {
+			factor = 90
+		}
+		EAF = {
+				transfer_state = 869
+				transfer_state = 870
+				add_state_core = 869
+				add_state_core = 870
+		}
+		ENG = {
+				add_political_power = -50
+		}
+		hidden_effect = {
+		BEL = {
+				add_political_power = 150
+			}
+		}
+	}
+}
+
+country_event = {
+	id = belforeign.2
+	title = belforeign.2.t
+	desc = belforeign.2.d
+	picture = GFX_report_event_german_inspect_troops
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = belforeign.2.a
+		ai_chance = {
+			factor = 10
+		}
+		WEI = {
+				add_political_power = 10
+		}
+	}
+
+	option = {
+		name = belforeign.2.b
+		ai_chance = {
+			factor = 90
+		}
+		WEI = {
+				transfer_state = 989
+				add_state_core = 989
+				add_political_power = -25
+		}
+		hidden_effect = {
+		BEL = {
+				add_political_power = 150
+			}
+		}
+	}
+}
+
+country_event = {
+	id = belforeign.3
+	title = belforeign.3.t
+	desc = belforeign.3.d
+	picture = GFX_report_event_saf_civil_war
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = belforeign.3.a
+		ai_chance = {
+			factor = 10
+		}
+		CNR = {
+				add_political_power = 10
+		}
+		ENG = {
+			country_event = { days = 1 id = belforeign.4 }
+		}
+		FRA = {
+			country_event = { days = 1 id = belforeign.4 }
+		}
+	}
+
+	option = {
+		name = belforeign.3.b
+		ai_chance = {
+			factor = 90
+		}
+		CNR = {
+				add_political_power = 150
+				add_stability = 0.15
+		}
+	}
+}
+
+country_event = {
+	id = belforeign.4
+	title = belforeign.4.t
+	desc = belforeign.4.d
+	picture = GFX_report_event_saf_civil_war
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = belforeign.4.a
+		ai_chance = {
+			factor = 90
+		}
+		ZAM = {
+			transfer_state = 879
+			add_state_core = 879
+			transfer_state = 976
+			add_state_core = 976
+			transfer_state = 977
+			add_state_core = 977
+			transfer_state = 949
+			add_state_core = 949
+		}
+		AEF = {
+			transfer_state = 538
+			add_state_core = 538
+			transfer_state = 881
+			add_state_core = 881
+			transfer_state = 295
+			add_state_core = 295
+			transfer_state = 718
+			add_state_core = 718
+		}
+	}
+
+	option = {
+		name = belforeign.4.b
+		ai_chance = {
+			factor = 10 
+		}
+		add_political_power = -25
+	}
+}
+
+country_event = {
+	id = belforeign.5
+	title = belforeign.5.t
+	desc = belforeign.5.d
+	picture = GFX_report_event_saf_civil_war
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = belforeign.5.a
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = -25 
+	}
+}
+
+news_event = {
+	id = belnews.1
+	title = belnews.1.t
+	desc = belnews.1.d
+	picture = GFX_news_event_african_soldiers
+	is_triggered_only = yes
+
+	option = {
+		name = belnews.1.a
+		trigger = {
+            OR = {
+                is_major = yes
+            }
+        }
+	}
+
+	option = {
+		name = belnews.1.b
+		trigger = {
+            NOT = {
+                is_major = yes
+            }
+        }
+	}
+}
+
+news_event = {
+	id = belnews.2
+	title = belnews.2.t
+	desc = belnews.2.d
+	picture = GFX_news_event_generic_rally2
+	is_triggered_only = yes
+
+	option = {
+		name = belnews.2.a
+		add_ideas = BEL_depression
+	}
+}
+
+news_event = {
+	id = belnews.3
+	title = belnews.3.t
+	desc = belnews.3.d
+	picture = GFX_news_event_generic_read_write
+	is_triggered_only = yes
+
+	option = {
+		name = belnews.3.a
+		add_ideas = BEL_elections
+	}
+}
+
+country_event = {
+	id = bel.1
+	title = bel.1.t
+	desc = bel.1.d
+	picture = GFX_report_event_journalists_speech
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = bel.1.a
+		ai_chance = {
+			factor = 100
+		}
+		add_popularity = { ideology = marxist popularity = 0.15 }
+	}
+
+	option = {
+		name = bel.1.b
+		ai_chance = {
+			factor = 100
+		}
+		add_popularity = { ideology = social_liberal popularity = 0.15 }
+	}
+
+	option = {
+		name = bel.1.c
+		ai_chance = {
+			factor = 100
+		}
+		add_popularity = { ideology = social_conservative popularity = 0.15 }
+	}
+
+	option = {
+		name = bel.1.e
+		ai_chance = {
+			factor = 100
+		}
+		add_popularity = { ideology = authoritarian_democrat popularity = 0.15 }
+	}
+}
+
+country_event = {
+	id = bel.2
+	title = bel.2.t
+	desc = bel.2.d
+	picture = GFX_report_event_journalists_speech
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = bel.2.a
+		ai_chance = {
+			factor = 100
+		}
+		add_popularity = { ideology = marxist popularity = 0.15 }
+	}
+
+	option = {
+		name = bel.2.b
+		ai_chance = {
+			factor = 100
+		}
+		add_popularity = { ideology = social_liberal popularity = 0.15 }
+	}
+
+	option = {
+		name = bel.2.c
+		ai_chance = {
+			factor = 100
+		}
+		add_popularity = { ideology = social_conservative popularity = 0.15 }
+	}
+
+	option = {
+		name = bel.2.e
+		ai_chance = {
+			factor = 100
+		}
+		add_popularity = { ideology = authoritarian_democrat popularity = 0.15 }
+	}
+}
+
+country_event = {
+	id = bel.3
+	title = bel.3.t
+	desc = bel.3.d
+	picture = GFX_report_event_journalists_speech
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = bel.3.a
+		ai_chance = {
+			factor = 100
+		}
+		add_popularity = { ideology = marxist popularity = 0.15 }
+	}
+
+	option = {
+		name = bel.3.b
+		ai_chance = {
+			factor = 100
+		}
+		add_popularity = { ideology = social_liberal popularity = 0.15 }
+	}
+
+	option = {
+		name = bel.3.c
+		ai_chance = {
+			factor = 100
+		}
+		add_popularity = { ideology = social_conservative popularity = 0.15 }
+	}
+
+	option = {
+		name = bel.3.e
+		ai_chance = {
+			factor = 100
+		}
+		add_popularity = { ideology = authoritarian_democrat popularity = 0.15 }
+	}
+}
+
+country_event = {
+	id = bel.4
+	title = bel.4.t
+	desc = bel.4.d
+	picture = GFX_report_event_journalists_speech
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = bel.4.a
+		ai_chance = {
+			factor = 100
+		}
+		add_popularity = { ideology = marxist popularity = 0.25 }
+		set_politics = {
+    ruling_party = marxist
+	}
+}
+
+	option = {
+		name = bel.4.b
+		ai_chance = {
+			factor = 100
+		}
+		add_popularity = { ideology = social_liberal popularity = 0.25 }
+		set_politics = {
+    ruling_party = social_liberal
+	}
+}
+
+	option = {
+		name = bel.4.c
+		ai_chance = {
+			factor = 100
+		}
+		add_popularity = { ideology = social_conservative popularity = 0.25 }
+		set_politics = {
+    ruling_party = social_conservative
+	}
+}
+
+	option = {
+		name = bel.4.e
+		ai_chance = {
+			factor = 100
+		}
+		add_popularity = { ideology = authoritarian_democrat popularity = 0.25 }
+			set_politics = {
+    ruling_party = authoritarian_democrat
+	}
+}

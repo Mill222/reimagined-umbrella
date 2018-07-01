@@ -85,18 +85,7 @@ country_event = { # End of the Civil War
 	desc = por.4.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 
-	fire_only_once = yes
-
-	trigger = {
-		tag = POR
-		NOT = {
-			country_exists = PRM
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 5
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = por.4.a

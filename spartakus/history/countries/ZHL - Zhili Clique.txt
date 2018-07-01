@@ -69,158 +69,32 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Zhang Zuolin"
-	desc = "FNG_zhang_zuolin_desc"
-	picture = "Portrait_FNG_Zhang_Zuolin.tga"
+	name = "Wu Peifu"
+	desc = "WU_PEIFU_DESC"
+	picture = "Portrait_Wu_Peifu.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
 
-create_country_leader = {
-	name = "Zhang Xueliang"
-	desc = "ANTE_ZHANG_XUELIANG_DESC"
-	picture = "Portrait_FNG_Zhang_Xueliang.tga"
-	expire = "2001.10.15"
-	ideology = paternal_autocrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Liang Shiyi"
-	desc = "ANTE_LIANG_SHIYI_DESC"
-	picture = ""
-	expire = "1950.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Ruan Zhenduo"
-	desc = "ANTE_RUAN_ZHENDUO_DESC"
-	picture = ""
-	expire = "1950.1.1"
-	ideology = market_liberal_subtype
-	traits = {}
-}
-
-set_convoys = 30
-
-### Field Marshal
 create_field_marshal = {
-	name = "Zhang Zuolin"
-	picture = "Portrait_FNG_Zhang_Zuolin.tga"
-	traits = {
-		old_guard
-		offensive_doctrine
-	}
+	name = "Wu Peifu"
+	picture = "Portrait_Wu_Peifu.dds"
+	traits = { old_guard offensive_doctrine }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
 }
 
-### Corps Commander
-
-create_corps_commander = { #Auto-Generated
-	name = "Zhang Xueliang"
-	picture = "Portrait_FNG_Zhang_Xueliang.tga"
-	traits = {
-
-	}
-	skill = 3
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Wu Junsheng"
-	picture = "Portrait_FNG_Wu_Junsheng.tga"
-	traits = {
-		old_guard
-		winter_specialist
-	}
-	skill = 3
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Zhang Zuoxiang"
-	picture = "Portrait_FNG_Zhang_Zuoxiang.tga"
-	traits = {
-		old_guard
-		trickster
-	}
-	skill = 3
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Wang Shuchang"
-	picture = "Portrait_FNG_Wang_Shuchang.tga"
-	traits = {
-	}
+create_corps_commander = {
+	name = "Cao Kun"
+	picture = "Portrait_Cao_Kun.dds"
+	traits = { old_guard }
 	skill = 2
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Ma Zhanshan"
-	picture = "Portrait_FNG_Ma_Zhanshan.tga"
-	traits = {
-	trickster
-	}
-	skill = 2
-	id = 888
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Shen Honglie"
-	picture = "Portrait_FNG_Shen_Honglie.tga"
-	traits = {
-	}
-	skill = 2
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Wan Fulin"
-	picture = "Portrait_FNG_Wan_Fulin.tga"
-	traits = {
-	}
-	skill = 2
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Yang Yuting"
-	picture = "Portrait_FNG_Yang_Yuting.tga"
-	traits = {
-	}
-	skill = 2
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Zang Shiyi"
-	picture = "Portrait_FNG_Zang_Shiyi.tga"
-	traits = {
-	}
-	skill = 2
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Zhang Haipeng"
-	picture = "Portrait_FNG_Zhang_Haipeng.tga"
-	traits = {
-	}
-	skill = 2
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Tang Yulin"
-	picture = "Portrait_FNG_Tang_Yulin.tga"
-	traits = {
-	}
-	skill = 2
-}
-
-### Navy Leader
-
-
-create_navy_leader = { #Auto-Generated
-	name = "Yin Tsuo-chien"
-	picture = "Portrait_FNG_Yin_Ysuo_chien.tga"
-	traits = {
-	}
-	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }

@@ -1373,7 +1373,6 @@ shared_focus = {
 		icon = GFX_goal_nested_fortifications
 		available = { threat > 0.2 }
 		prerequisite = { focus = LIV_Arm_Peasants }
-		mutually_exclusive = { focus = LIV_Army_FortBal }
 		x = 0
 		y = 3
 		relative_position_id = LIV_Prepare_War

@@ -1,0 +1,21 @@
+
+state={
+	id=1147
+	name="STATE_1147"
+	provinces={
+		14166 14167 14171 14172 14174 
+	}
+	history={
+		owner = ITA
+		add_core_of = ERT
+		add_claim_by = ETH
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=32640
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

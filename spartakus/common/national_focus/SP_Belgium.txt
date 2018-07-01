@@ -1,0 +1,542 @@
+###########################
+# By Sigismund
+###########################
+
+focus_tree = {
+	id = BEL_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BEL
+		}
+	}
+		
+	default = no
+
+######## ECONOMY FOCUSES ########
+
+
+focus = {
+		id = BEL_Economy
+		icon = GFX_goal_generic_propaganda
+		#relative_position_id = LIV_Economy_Liberal
+		#prerequisite = { focus = LIV_Economy_Liberal6 }
+		available = {
+            has_idea = BEL_depression
+        }
+		x = 0
+		y = 0
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+focus = {
+		id = BEL_Economy2
+		icon = GFX_goal_generic_construct_infrastructure
+		relative_position_id = BEL_Economy
+		prerequisite = { focus = BEL_Economy }
+		x = -1
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+completion_reward = {
+
+			random_owned_state = {
+
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			random_owned_state = {
+
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+focus = {
+		id = BEL_Economy3
+		icon = GFX_goal_admin_bribe
+		relative_position_id = BEL_Economy
+		prerequisite = { focus = BEL_Economy }
+		x = 1
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			#country_event = { id = livfoc.10 days = 0 }
+			add_political_power = 25
+		}
+	}
+
+focus = {
+		id = BEL_Economy4
+		icon = GFX_focus_generic_treaty
+		relative_position_id = BEL_Economy
+		prerequisite = { focus = BEL_Economy2 }
+		prerequisite = { focus = BEL_Economy3 }
+		x = 0
+		y = 2
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+focus = {
+		id = BEL_Economy1fold
+		icon = GFX_goal_MAF_Support_Anglos
+		relative_position_id = BEL_Economy
+		prerequisite = { focus = BEL_Economy4 }
+		mutually_exclusive = { focus = BEL_Economy1hold }
+		x = -1
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_political_power = 150
+
+			ENG = {
+			country_event = { days = 1 id = belforeign.1 }
+			}
+		}
+	}
+
+focus = {
+		id = BEL_Economy1hold
+		icon = GFX_goal_BEL_Our_Place_In_The_World
+		relative_position_id = BEL_Economy
+		prerequisite = { focus = BEL_Economy4 }
+		mutually_exclusive = { focus = BEL_Economy1fold }
+		x = 1
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_political_power = 10
+			add_stability = 0.05
+		}
+	}
+
+focus = {
+		id = BEL_Economy2fold
+		icon = GFX_goal_military_agreement_germany
+		relative_position_id = BEL_Economy
+		prerequisite = { focus = BEL_Economy1fold }
+		mutually_exclusive = { focus = BEL_Cantons }
+		x = -1
+		y = 4
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_political_power = 75
+
+			WEI = {
+			country_event = { days = 1 id = belforeign.2 }
+		}
+	}
+}
+
+focus = {
+		id = BEL_Economy2hold
+		icon = GFX_goal_BEL_caritas
+		relative_position_id = BEL_Economy
+		prerequisite = { focus = BEL_Economy1hold }
+		x = 1
+		y = 4
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_political_power = -25
+			add_stability = 0.10
+		}
+	}
+
+focus = {
+		id = BEL_Economy3fold
+		icon = GFX_goal_HOL_crush_belgium
+		relative_position_id = BEL_Economy
+		prerequisite = { focus = BEL_Economy2fold }
+		x = -1
+		y = 5
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_political_power = 50
+			add_stability = -0.15
+			end_puppet = CNR
+			CNR = {
+			country_event = { days = 1 id = belforeign.3 }
+		}
+	}
+}
+
+focus = {
+		id = BEL_Economy3hold
+		icon = GFX_goal_europamark
+		relative_position_id = BEL_Economy
+		prerequisite = { focus = BEL_Economy2hold }
+		x = 1
+		y = 5
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_political_power = -50
+			add_stability = 0.15
+		}
+	}
+
+focus = {
+		id = BEL_Recov1
+		icon = GFX_focus_AUS_agriculture
+		relative_position_id = BEL_Economy
+		prerequisite = { focus = BEL_Economy3hold focus = BEL_Economy3fold}
+		x = -1
+		y = 6
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+
+			random_owned_state = {
+
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			random_owned_state = {
+
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+focus = {
+		id = BEL_Recov2
+		icon = GFX_goal_BEL_belgian_rearmement
+		relative_position_id = BEL_Economy
+		prerequisite = { focus = BEL_Economy3hold focus = BEL_Economy3fold}
+		x = 1
+		y = 6
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+
+			random_owned_state = {
+
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			random_owned_state = {
+
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+focus = {
+		id = BEL_RecovEnd
+		icon = GFX_goal_big_news
+		relative_position_id = BEL_Economy
+		prerequisite = { focus = BEL_Recov1 }
+		prerequisite = { focus = BEL_Recov2 }
+		x = 0
+		y = 7
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			remove_ideas = BEL_depression
+		}
+	}
+
+######## POLITICAL FOCUSES ########
+
+focus = {
+		id = BEL_Political
+		icon = GFX_ROM_seats
+		#relative_position_id = LIV_Economy_Liberal
+		#prerequisite = { focus = LIV_Economy_Liberal6 }
+		available = {
+            has_idea = BEL_elections
+        }
+		x = 11
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			remove_ideas = BEL_elections
+		}
+	}
+
+focus = {
+		id = BEL_Walloon
+		icon = GFX_goal_WLL_Greater_Wallonia
+		#relative_position_id = BEL_Political
+		prerequisite = { focus = BEL_Political }
+		x = 9
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = bel.1 }
+		}
+	}
+
+focus = {
+		id = BEL_Flanders
+		icon = GFX_goal_FLN_Vlaanderen_Industry2
+		#relative_position_id = BEL_Political
+		prerequisite = { focus = BEL_Political }
+		x = 13
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = bel.2 }
+		}
+	}
+
+focus = {
+		id = BEL_Cantons
+		icon = GFX_goal_flag_germany
+		#relative_position_id = BEL_Political
+		prerequisite = { focus = BEL_Political }
+		mutually_exclusive = { focus = BEL_Economy2fold }
+		x = 11
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = bel.3 }
+		}
+	}
+
+focus = {
+		id = BEL_Electover
+		icon = GFX_ROM_seats
+		#relative_position_id = BEL_Political
+		prerequisite = { focus = BEL_Walloon }
+		prerequisite = { focus = BEL_Flanders }
+		x = 11
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = bel.4 }	
+		}
+	}
+
+######## COMMUNIST FOCUSES ########
+
+focus = {
+		id = BEL_Marx1
+		icon = GFX_goal_support_communism
+		#relative_position_id = BEL_Political
+		prerequisite = { focus = BEL_Electover }
+		x = 5
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = bel.4 }	
+		}
+	}
+
+######## LIBERAL FOCUSES ########
+
+focus = {
+		id = BEL_Lib1
+		icon = GFX_goal_commune_politics
+		#relative_position_id = BEL_Political
+		prerequisite = { focus = BEL_Electover }
+		x = 9
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = bel.4 }	
+		}
+	}
+
+######## CONSERVATIVE FOCUSES ########
+
+focus = {
+		id = BEL_Con1
+		icon = GFX_goal_BEL_support_democracy
+		#relative_position_id = BEL_Political
+		prerequisite = { focus = BEL_Electover }
+		x = 13
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = bel.4 }	
+		}
+	}
+
+######## AUTHORITARIAN DEMOCRACY FOCUSES ########
+
+focus = {
+		id = BEL_Auth1
+		icon = GFX_goal_BEL_belgium_first
+		#relative_position_id = BEL_Political
+		prerequisite = { focus = BEL_Electover }
+		x = 17
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = bel.4 }	
+		}
+	}
+
+
+
+}

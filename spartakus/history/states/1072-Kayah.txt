@@ -12,6 +12,9 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
+		RAJ = {
+			set_province_controller = 7603
+		}
 
 	}
 	manpower=758880

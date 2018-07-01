@@ -1,0 +1,102 @@
+﻿add_namespace = peace
+
+country_event = { # End of the Portuguese Civil War
+	id = peace.1
+	hidden = yes
+	is_triggered_only = yes
+	
+	### ROOT is winner, 
+	
+	immediate = {
+		hidden_effect = {
+			# Republican Victory
+			if = {
+				limit = { tag = POR }
+				annex_country = {
+					target = PRM
+					transfer_troops = no
+				}
+				ENG = { country_event = peace.2 }
+				if = {
+					limit = {
+						NOT = { has_global_flag = French_civil_war }
+					}
+					FRA = { country_event = peace.3 }
+				}
+				BEL = { country_event = peace.4 }
+				CHI = { country_event = peace.5 }
+			}
+			# Monarchist Victory
+			if = {
+				limit = { tag = PRM }
+				annex_country = {
+					target = POR
+					transfer_troops = no
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+country_event = { # End of Portuguese Civil War - Republican Victory: UK seizes colonies and Azores
+	id = peace.2
+	title = peace.2.t
+	desc = peace.2.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = peace.2.a
+		
+		# Check if France is in civil war; if so, seize Portuguese Guinea
+		
+	}
+}
+
+country_event = { # End of the Portuguese Civil War - Republican Victory: France seizes Portuguese Guinea
+	id = peace.3
+	title = peace.3.t
+	desc = peace.3.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = peace.3.a
+	}
+}
+
+country_event = { # End of the Portuguese Civil War - Republican Victory: Belgium seizes Cabinda and part of Angola
+	id = peace.4
+	title = peace.4.t
+	desc = peace.4.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = peace.4.a
+	}
+}
+
+country_event = { # End of the Portuguese Civil War - Republican Victory: KMT seizes Macau or no
+	id = peace.5
+	title = peace.5.t
+	desc = peace.5.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = peace.5.a
+		set_state_owner = 729
+		hidden_effect = {
+			ENG = {
+				country_event = { id = ukforeign.14 hours = 5 }
+			}
+		}
+	}
+}
+	
+	

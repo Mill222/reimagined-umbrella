@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	#Autonomy Stuff
+	
+	spriteType = {
+		name = "GFX_sp_Raj_princely_state_icon"
+		textureFile = "gfx/interface/autonomy/sp_Raj_princely_state_icon.dds"
+	}
+}

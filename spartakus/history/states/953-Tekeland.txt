@@ -4,21 +4,23 @@ state={
 	name="STATE_953"
 
 	history={
-		owner=AEF
-		add_core_of=COG
-		add_core_of=AEF
-		buildings={
-			infrastructure=2
+		owner = AEF
+		add_core_of = COG
+		add_core_of = AEF
+		buildings = {
+			infrastructure = 2
+
 		}
-		victory_points={
-		    3109 1 
-	    }
+		victory_points = {
+			3109 1 
+		}
+
 	}
 
 	provinces={
-		2192 3109 13653
+		2192 3109 
 	}
 	manpower=89400
-	buildings_max_level_factor=1
-	state_category=pastoral		#This state shoulnd't have a buildingslot but it has one for balance reasons
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

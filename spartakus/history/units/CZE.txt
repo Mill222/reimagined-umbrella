@@ -83,15 +83,15 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division = { # "12. divize"
+	division = { # "1. rychlá divize KAZIMÍR"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 12
+			name_order = 1
 		}
 		location = 11542  # Prague
-		division_template = "Pěší divize"
+		division_template = "Rychlá divize"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.5
 
 	}
 	division = { # "16. divize"
@@ -102,7 +102,7 @@ units = {
 		location = 3569 # Brno
 		division_template = "Horská divize"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.6
 
 	}
 	# VIII Sbor
@@ -195,7 +195,7 @@ units = {
 		location = 445 # German border
 		division_template = "Horská divize"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.6
 
 	}
 
@@ -284,21 +284,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 11525
+		location = 9541 # Ceske Budejovice
 		division_template = "Pěší divize"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
-	division = { # "20. divize"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 20
-		}
-		location = 557
-		division_template = "Pěší divize"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.6
 
 	}
 	# VI Sbor
@@ -323,7 +312,7 @@ air_wings = {
 		}
 		tac_bomber_equipment_0 =  {	# Bloch MB.200
 			owner = "CZE" 
-			amount = 72
+			amount = 60
 		}
 		CAS_equipment_1 =  {		# Aero A-101
 			owner = "CZE" 
@@ -343,7 +332,7 @@ air_wings = {
 	75 = {
 		fighter_equipment_0 = {		# Avia B.534
 			owner = "CZE" 
-			amount = 72
+			amount = 48
 		}
 		CAS_equipment_1 =  {		# Aero A-101
 			owner = "CZE" 
@@ -359,7 +348,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "CZE"
 		}
-		requested_factories = 2
+		requested_factories = 1
 		progress = 0.18
 		efficiency = 100
 	}

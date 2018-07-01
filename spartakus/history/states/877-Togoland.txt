@@ -9,18 +9,21 @@ state={
 		add_core_of = TOG
 		buildings = {
 			infrastructure = 3
+			14082 = {
+				naval_base = 1
 
+			}
 		}
 		victory_points = {
-			1951 3 
+			14082 3 
 		}
 
 	}
 
 	provinces={
-		1951 12843 
+		1951 14082 14101 14104 14151 14152 
 	}
-	manpower=1575000
+	manpower=277100
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }

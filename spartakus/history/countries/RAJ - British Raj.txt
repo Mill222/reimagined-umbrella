@@ -20,6 +20,10 @@ set_technology = {
 	
 }
 
+add_ideas = {
+	RAJ_BMR_revolt
+}
+
 set_convoys = 20
 
 set_cosmetic_tag = RAJ_UK # British Raj
@@ -78,6 +82,39 @@ RAJ = {
 			type = annex_everything
 		}
 	}
+	
+set_autonomy = {
+	target = JKA
+	autonomous_state = sp_Raj_princely_state
+}	
+set_autonomy = {
+	target = BHU
+	autonomous_state = sp_Raj_princely_state
+}	
+set_autonomy = {
+	target = MYS
+	autonomous_state = sp_Raj_princely_state
+}	
+set_autonomy = {
+	target = TRV
+	autonomous_state = sp_Raj_princely_state
+}	
+set_autonomy = {
+	target = JKA
+	autonomous_state = sp_Raj_princely_state
+}	
+set_autonomy = {
+	target = GWL
+	autonomous_state = sp_Raj_princely_state
+}	
+set_autonomy = {
+	target = BAR
+	autonomous_state = sp_Raj_princely_state
+}	
+set_autonomy = {
+	target = HYD
+	autonomous_state = sp_Raj_princely_state
+}
 
 # create_country_leader = {
 	# name = "Lord Linlithgow"

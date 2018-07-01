@@ -1,5 +1,5 @@
 add_namespace = uk
-add_namespace = empire
+add_namespace = ukempire
 add_namespace = ukforeign
 add_namespace = uknews
 
@@ -96,6 +96,112 @@ news_event = { # CPGB on loyalist paramilitaries agitating in Ireland
 }
 
 
+##################
+# Empire Affairs #
+##################
+
+country_event = { # Raj calls Britain to Burmese revolt
+	id = ukempire.10
+	title = ukempire.10.t
+	desc = ukempire.10.desc
+	picture = GFX_report_event_british_artillery
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = ukempire.10.a
+		hidden_effect = { add_ideas = RAJ_BMR_revolt }
+		add_to_war = {
+			targeted_alliance = RAJ
+			enemy = BMR
+		}
+		add_political_power = -50
+		add_stability = -0.10
+		add_war_support = -0.10
+		hidden_effect = {
+			RAJ = { country_event = ukempire.11 }
+		}
+		log = "[GetDateText] UK joined Raj in Burmese Revolt"
+		
+		ai_chance = {
+			factor = 10
+			
+			modifier = {
+				factor = 0.7
+				date < 1932.06.01
+			}
+			modifier = {
+				factor = 0.7
+				date < 1932.04.01
+			}
+			modifier = {
+				factor = 0.5
+				date < 1932.03.01
+			}
+			modifier = {
+				factor = 0.5
+				date < 1932.02.01
+			}
+			modifier = {
+				factor = 1.5
+				BRM = { controls_state = 430 }
+			}
+			modifier = {
+				factor = 2
+				BRM = { controls_state = 431 }
+			}
+			modifier = {
+				factor = 2
+				BRM = { controls_state = 1110 }
+			}
+			modifier = {
+				factor = 2
+				BRM = { controls_state = 435 }
+			}
+			modifier = {
+				factor = 1.5
+				RAJ = { surrender_progress > 0.10 }
+			}
+			modifier = {
+				factor = 1.5
+				RAJ = { surrender_progress > 0.15 }
+			}
+			modifier = {
+				factor = 2
+				RAJ = { surrender_progress > 0.20 }
+			}
+			modifier = {
+				factor = 2
+				RAJ = { surrender_progress > 0.25 }
+			}
+			modifier = {
+				factor = 2
+				RAJ = { surrender_progress > 0.30 }
+			}
+		}
+	}
+	option = { # No
+		name = ukempire.10.b
+		add_political_power = -25
+		hidden_effect = {
+			RAJ = { country_event = ukempire.11 }
+		}
+		
+		ai_chance = {
+			factor = 90
+			
+			modifier = {
+				factor = 0
+				RAJ = { surrender_progress > 0.50 }
+			}
+		}
+	}
+}
+
+country_event = { # UK's response
+	
+
+
 ###########################
 # Portugal Republic Events
 ###########################
@@ -106,27 +212,7 @@ country_event = {
 	desc = ukforeign.14.d
 	picture = GFX_report_event_british_artillery
 
-	fire_only_once = yes
-
-	trigger = {
-		tag = ENG
-		CHI = { 
-			OR = { 
-				controls_state = 729
-			}
-		}
-		NOT = {
-			PRM = { 
-				OR = { 
-				controls_state = 180
-				}
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = ukforeign.14.a

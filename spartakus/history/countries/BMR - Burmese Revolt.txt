@@ -21,6 +21,7 @@ set_convoys = 10
 set_cosmetic_tag = BRM_REV
 
 add_ideas = { 
+closed_economy
 BMR_The_Great_Burma_Revolt
 BMR_The_Legacy_of_Saya_San
 BMR_Disorganized_Militias
@@ -216,7 +217,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Miles Dempsey"
+	name = "Aung San"
 	picture = "Portrait_Aung_San.dds"
 	traits = { harsh_leader politically_connected }
 	skill = 2

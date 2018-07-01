@@ -69,9 +69,9 @@ set_politics = {
 create_country_leader = {
 	name = "Getúlio Vargas"
 	desc = "POLITICS_GETULIO_VARGAS_DESC"
-	picture = "Portrait_Brazil_Getulio_Vargas.dds"
+	picture = "Portrait_Getulio_Vargas_SP.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
@@ -82,7 +82,7 @@ create_country_leader = {
 	desc = "POLITICS_PLINIO_SALGADO_DESC"
 	picture = "Portrait_Brazil_Plinio_Salgado.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_syndicalist_subtype
 	traits = {
 		#
 	}
@@ -92,7 +92,7 @@ create_country_leader = {
 	desc = "POLITICS_LUIS_CARLOS_PRESTES_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = marxist_subtype
 	traits = {
 		#
 	}

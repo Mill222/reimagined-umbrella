@@ -1,0 +1,63 @@
+###########################
+# By Sigismund
+###########################
+
+ideas = {
+
+	country = {
+		BEL_depression = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+                stability_factor = -0.1
+				political_power_gain = -1
+				industrial_capacity_factory = -0.2
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.3
+			}
+		}
+	}
+
+	country = {
+		BEL_ethnic = {
+			
+			allowed = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_disjointed_gov
+			
+			modifier = {
+                stability_factor = -0.2
+				political_power_gain = -1
+			}
+		}
+	}
+
+	country = {
+		BEL_elections = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_political_support
+			
+			modifier = {
+			}
+		}
+	}
+
+
+}
