@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 ###Parties###
 AUS_leninist_party:0 "KPÖ"
 AUS_leninist_party_long:0 "Kommunistische Partein Östereichs"
@@ -24,3 +24,46 @@ AUS_national_syndicalist_party:0 "DÖNSAP"
 AUS_national_syndicalist_party_long:0 "Deutschösterreichische Nationalsozialistische Arbeiterpartei"
 AUS_national_corporatist_party:0 "GDVP"
 AUS_national_corporatist_party_long:0 "Großdeutsche Volkspartei"
+
+###Focus###
+AUS_pol_turmoil_1:0 "Dealing with the Rebels"
+AUS_pol_turmoil_1_desc:0 "If we dont act immediately they'll get too strong!"
+AUS_pol_turmoil_2:0 "Dealing with the Oposition"
+AUS_pol_turmoil_2_desc:0 "We need to decide what to do to our most vocal Oposition"
+AUS_pol_turmoil_3_1:0 "Peace with Red's"
+AUS_pol_turmoil_3_1_desc:0 "We need to make Peace with the Communists because we might get destroyed"
+AUS_pol_turmoil_3_2:0 "Destroy the Red Influence!"
+AUS_pol_turmoil_3_2_desc:0 "We need to Deal with the communist Influence once and for all!"
+AUS_eco_turmoil_1:0 "Economic Restructuring"
+AUS_eco_turmoil_1_desc:0 "We need to rethink our expences"
+AUS_eco_turmoil_2:0 "Eco Test 2"
+AUS_eco_turmoil_2_desc:0 "AAAAAAAAAAAAAA"
+AUS_mil_turmoil_1:0 "mil"
+AUS_mil_turmoil_1_desc:0 "mil desc"
+AUS_mil_turmoil_2:0 "mil 2"
+AUS_mil_turmoil_2_desc:0 "mil 2 desc"
+AUS_GOV_left:0 "Revolution!"
+AUS_GOV_left_desc:0 "§R The most radical Solution of all\n§"
+AUS_GOV_right:0 "Tradition over all!"
+AUS_GOV_right_desc:0 "Our austrian Values must be saved!"
+AUS_GOV_nazi:0 "A new Dawn!"
+AUS_GOV_nazi_desc:0 "From the Ashes of our one mighty Empire a new austrian Phoenix will rise!"
+
+###Events###
+aus.1.name:0 "Dealing with the Rebels"
+aus.1.desc:0 "We need to act on these rebels as quickly and efficiently as we can!"
+aus_pol_1.1.a:0 "Imprison them!"
+aus_pol_1.1.b:0 "Kill their Leaders!"
+aus_pol_1.1.c:0 "Let them be..."
+aus.2.name:0 "Dealing with the Oppositon"
+aus.2.desc:0 "Dealing with our most vocal opposition right now is very important to the stability of our country"
+aus_pol_2.1.a:0 "Purge them!"
+aus_pol_2.1.b:0 "Gleichschalten!"
+aus_pol_2.1.c:0 "Let them whine, they surely won't do anything"
+aus.3.name:0 "Economic Restructuring"
+aus.3.desc:0 "Due to the stock market crash, it's become obvious that our current expenses aren't sustainable for the time being. This means we need to rethink them"
+aus_eco_1.1.a:0 "Decrease state expences!"
+aus_eco_1.1.b:0 "Increase state expences!"
+
+###Ideas###
+aus_gleichschaltung:0 "Gleichschaltung!"
