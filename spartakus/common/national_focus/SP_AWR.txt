@@ -1,0 +1,130 @@
+focus_tree = {
+	id = awr_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AWR
+		}
+	}
+	default = no
+
+    ######################################
+    #Start
+    ######################################
+
+    	focus = {
+		id = AWR_pol_1
+		icon = GFX_focus_generic_soviet_politics
+		x = 8
+		y = 0
+		cost = 3
+
+            completion_reward = {
+                add_political_power = 100
+                add_stability = 0.1
+            }
+	}
+
+    	focus = {
+		id = AWR_pol_2
+		icon = GFX_focus_generic_soviet_politics
+		x = 8
+		y = 1
+		cost = 3
+
+            prerequisite = {
+				focus = AWR_pol_1
+			}
+
+            completion_reward = {
+            	country_event = { id = awr.2 }
+
+            }
+	}
+
+        focus = {
+		id = AWR_pol_3
+		icon = GFX_focus_generic_soviet_politics
+		x = 6
+		y = 1
+		cost = 3
+
+            prerequisite = {
+				focus = AWR_pol_1
+			}
+
+            completion_reward = {
+            	country_event = { id = awr.3 }
+
+            }
+	}
+
+        focus = {
+		id = AWR_pol_4
+		icon = GFX_focus_generic_soviet_politics
+		x = 10
+		y = 1
+		cost = 3
+
+            prerequisite = {
+				focus = AWR_pol_1
+			}
+
+            completion_reward = {
+            	country_event = { id = awr.4 }
+
+            }
+	}
+    #############################################
+    #War Path
+    #############################################
+
+        focus = {
+		id = AWR_war_1
+		icon = GFX_focus_generic_soviet_politics
+		x = 6
+		y = 2
+		cost = 3
+
+            prerequisite = {
+				focus = AWR_pol_3
+			}
+            prerequisite = {
+                focus = AWR_pol_2
+            }
+            mutually_exclusive = {
+        		focus = AWR_def_1
+    		}
+
+            completion_reward = {
+
+            }
+        }
+
+    #############################################
+    #Defence Path
+    #############################################
+
+        focus = {
+		id = AWR_def_1
+		icon = GFX_focus_generic_soviet_politics
+		x = 10
+		y = 2
+		cost = 3
+
+            prerequisite = {
+				focus = AWR_pol_4
+			}
+            prerequisite = {
+                focus = AWR_pol_2
+            }
+            mutually_exclusive = {
+        		focus = AWR_war_1
+    		}
+
+            completion_reward = {
+
+            }
+        }
+}
