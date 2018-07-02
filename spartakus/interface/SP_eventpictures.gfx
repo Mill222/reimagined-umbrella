@@ -1,0 +1,191 @@
+spriteTypes = {
+
+	#Flavor
+	
+	spriteType = {
+		name = "GFX_shape_of_things_to_come"
+		texturefile = "gfx/event_pictures/shape_of_things_to_come.dds"
+	}
+	
+	#Portugal
+	
+	spriteType = {
+		name = "GFX_portugalflag"
+		texturefile = "gfx/event_pictures/portugalflag.dds"
+	}
+	spriteType = {
+		name = "GFX_portugalmonarchyflag"
+		texturefile = "gfx/event_pictures/portugalmonarchyflag.dds"
+	}
+	
+	#Baden-Wurttemberg
+	
+	spriteType = {
+		name = "GFX_darkestday1"
+		texturefile = "gfx/event_pictures/darkestday1.dds"
+	}
+	spriteType = {
+		name = "GFX_darkestday2"
+		texturefile = "gfx/event_pictures/darkestday2.dds"
+	}
+	spriteType = {
+		name = "GFX_darkestday3"
+		texturefile = "gfx/event_pictures/darkestday3.dds"
+	}
+	spriteType = {
+		name = "GFX_darkestday4"
+		texturefile = "gfx/event_pictures/darkestday4.dds"
+	}
+	spriteType = {
+		name = "GFX_darkestday5"
+		texturefile = "gfx/event_pictures/darkestday5.dds"
+	}
+	spriteType = {
+		name = "GFX_darkestday6"
+		texturefile = "gfx/event_pictures/darkestday6.dds"
+	}
+	spriteType = {
+		name = "GFX_darkestday7"
+		texturefile = "gfx/event_pictures/darkestday7.dds"
+	}
+	spriteType = {
+		name = "GFX_darkestday8"
+		texturefile = "gfx/event_pictures/darkestday8.dds"
+	}
+	spriteType = {
+		name = "GFX_darkestday9"
+		texturefile = "gfx/event_pictures/darkestday9.dds"
+	}
+	
+	#Soviet Union
+	
+	spriteType = {
+		name = "GFX_Lenin_Death"
+		texturefile = "gfx/event_pictures/GFX_Lenin_Death.dds"
+	}
+	
+	#Argentina
+	
+	spriteType = {
+		name = "GFX_argentina_catedral"
+		texturefile = "gfx/event_pictures/Catedral.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_catedral"
+		texturefile = "gfx/event_pictures/Coup.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_vote"
+		texturefile = "gfx/event_pictures/Voto.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_cgt"
+		texturefile = "gfx/event_pictures/CGT.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_rosario"
+		texturefile = "gfx/event_pictures/Rosario.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_funeral"
+		texturefile = "gfx/event_pictures/Uriburu.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_casa_rosada"
+		texturefile = "gfx/event_pictures/Casa_Rosada.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_authoritarian_election"
+		texturefile = "gfx/event_pictures/Election_auth.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_march"
+		texturefile = "gfx/event_pictures/March.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_campo"
+		texturefile = "gfx/event_pictures/Campo.dds"
+	}
+	
+	### Romania ###
+	
+	spriteType = {
+		name = "GFX_ROM_map"
+		texturefile = "gfx/event_pictures/ROM_map.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_hungary"
+		texturefile = "gfx/event_pictures/ROM_hungary.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_slovakia"
+		texturefile = "gfx/event_pictures/ROM_slovakia.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_poland"
+		texturefile = "gfx/event_pictures/ROM_poland.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_banatmap"
+		texturefile = "gfx/event_pictures/ROM_banatmap.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_farmpic"
+		texturefile = "gfx/event_pictures/ROM_farmpic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ROM_fascistpic"
+		texturefile = "gfx/event_pictures/ROM_fascistpic.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_communistpic"
+		texturefile = "gfx/event_pictures/ROM_communistpic.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_armypic"
+		texturefile = "gfx/event_pictures/ROM_armypic.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_mausoleum"
+		texturefile = "gfx/event_pictures/ROM_mausoleum.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_arc"
+		texturefile = "gfx/event_pictures/ROM_arc.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_academy"
+		texturefile = "gfx/event_pictures/ROM_academy.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_factory"
+		texturefile = "gfx/event_pictures/ROM_factory.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_newspaper"
+		texturefile = "gfx/event_pictures/ROM_newspaper.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_fascio"
+		texturefile = "gfx/event_pictures/ROM_fascio.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_execution"
+		texturefile = "gfx/event_pictures/ROM_execution.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_flight"
+		texturefile = "gfx/event_pictures/ROM_flight.dds"
+	}
+	
+	#Tibet
+	
+	spriteType = {
+		name = "GFX_news_event_dalai_lama"
+		texturefile = "gfx/event_pictures/Dalai_Lama.dds"
+	}
+}
+	
+	
+	
