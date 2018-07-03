@@ -9,9 +9,6 @@ state={
 		add_core_of = MLY
 		buildings = {
 			infrastructure = 3
-			7427 = {
-				naval_base = 1
-			}
 		}
 
 	}

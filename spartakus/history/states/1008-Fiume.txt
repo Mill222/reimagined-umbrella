@@ -4,14 +4,20 @@ state={
 	provinces={
 		11564 
 	}
-	history=
-	{
+	history = {
+		victory_points = {
+			11564 1 
+		}
 		owner = ITA
 		add_core_of = ITA
 		add_claim_by = CRO
 		
 		buildings = {
 			infrastructure = 3
+			11564 = {
+				naval_base = 3
+
+			}
 		}
 	}
 	manpower=71932

@@ -12,10 +12,14 @@ state={
 		add_core_of = BUR
 		add_core_of = BMR
 		victory_points = {
-			1581 1 
+			12090 5 
 		}
 		buildings = {
 			infrastructure = 1
+			12090 = {
+				naval_base = 3
+
+			}
 
 		}
 

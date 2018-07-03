@@ -7,7 +7,18 @@ state={
 		owner = ARM
 		buildings = {
 			infrastructure = 3
+			652 = {
+				bunker = 3
 
+			}
+			7470 = {
+				bunker = 2
+
+			}
+			4583 = {
+				bunker = 1
+
+			}
 		}
 		add_core_of = ARM
 		add_claim_by = TUR

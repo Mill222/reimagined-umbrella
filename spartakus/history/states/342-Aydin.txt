@@ -8,15 +8,8 @@ state={
 
 	history={
 		owner = ITA
-		victory_points = {
-			1005 3 
-		}
 		buildings = {
 			infrastructure = 3
-			1005 = {
-				naval_base = 2
-
-			}
 			10122 = {
 				coastal_bunker = 1
 
@@ -30,7 +23,7 @@ state={
 	provinces={
 		9941 10122 
 	}
-	manpower=362689
+	manpower=122689
 	buildings_max_level_factor=1.000
 	state_category=town
 }

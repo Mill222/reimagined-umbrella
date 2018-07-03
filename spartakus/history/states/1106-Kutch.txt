@@ -8,8 +8,15 @@ state={
 	history={
 		owner = RAJ
 		add_core_of = RAJ
+		victory_points = {
+			9975 2 
+		}
 		buildings = {
 			infrastructure = 4
+			9975 = {
+				naval_base = 2
+
+			}
 
 		}
 
