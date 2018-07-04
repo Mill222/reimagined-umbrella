@@ -1,4 +1,4 @@
-﻿capital = 361
+capital = 361
 
 oob = "USA"
 
@@ -44,40 +44,40 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 1
+			popularity = 4
 		}
 		marxist = {
-			popularity = 0
-		}
-		revolutionary_socialist = {
-			popularity = 1
-		}
-		democratic_socialist = {
 			popularity = 3
 		}
+		revolutionary_socialist = {
+			popularity = 3
+		}
+		democratic_socialist = {
+			popularity = 8
+		}
 		social_democrat = {
-			popularity = 0
+			popularity = 9
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 10
 		}
 		liberal_conservative = {
-			popularity = 46
+			popularity = 34
 		}
 		social_conservative = {
-			popularity = 38
+			popularity = 20
 		}
 		authoritarian_democrat = {
-		    popularity = 10
+		    popularity = 0
 		}
 		right_wing_populist = {
-			popularity = 1
+			popularity = 3
 		}
 		national_syndicalist = {
-			popularity = 0
+			popularity = 2
 		}
 		national_corporatist = {
-			popularity = 0
+			popularity = 4
 		}
 	}
 	
