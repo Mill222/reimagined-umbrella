@@ -1,20 +1,9 @@
 on_actions = {
     on_startup = {
         effect = {
-			   USA = {
-					set_variable = {
-						var = USA.var_democrat_1932
-						value = 0
-					}
-					set_variable = {
-						var = USA.var_republican_1932
-						value = 0
-					}
-					set_variable = {
-						var = USA.var_progressive_1932
-						value = 0
-					}
-				}
+               USA = {
+                country_event = { id = ustates.2 days = 184 }
+                }
         }
     }
 }
