@@ -3,11 +3,11 @@
 state={
 	id=741
 	name="STATE_741"
-	manpower = 1031874
+	manpower = 943570
 	resources={
 		steel=4
 	}		
-	state_category = large_city
+	state_category = large_town
 
 	history={
 		owner = BEL
@@ -19,7 +19,7 @@ state={
 
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 2
+			industrial_complex = 1
 			arms_factory = 1
 			}
 		}

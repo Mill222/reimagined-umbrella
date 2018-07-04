@@ -13,9 +13,6 @@ state={
 			587 10 
 		}
 		victory_points = {
-			11435 5 
-		}
-		victory_points = {
 			9522 3 
 		}
 		buildings = {
@@ -26,14 +23,9 @@ state={
 				bunker = 2
 
 			}
-			11494 = {
-				bunker = 2
-			}
-			3547 = {
-				bunker = 2
-			}
 			587 = {
 				bunker = 4
+
 			}
 
 		}
@@ -41,9 +33,9 @@ state={
 	}
 
 	provinces={
-		587 3444 3547 9522 11435 11470 11494 
+		587 3444 9522 
 	}
-	manpower=3075331
+	manpower=2056331
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 }

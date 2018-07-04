@@ -1,0 +1,33 @@
+
+state={
+	id=1169
+	name="STATE_1169"
+	provinces={
+		3547 11435 11470 11494 
+	}
+	history={
+		owner = WEI
+		add_claim_by = GER
+		victory_points = {
+			11435 5 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 1
+			11494 = {
+				bunker = 2
+
+			}
+			3547 = {
+				bunker = 2
+
+			}
+
+		}
+
+	}
+	manpower=1319540
+	state_category = city
+	buildings_max_level_factor=1.000
+}

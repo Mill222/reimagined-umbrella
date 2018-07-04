@@ -8,11 +8,12 @@ state={
 		owner=BEL
 		add_core_of=BEL
 		add_claim_by=GER
+		add_core_of = WEI
 		buildings={
-			infrastructure=3
+			infrastructure=5
 		}
 	}
-	manpower=16050
-	state_category = rural
+	manpower=13117
+	state_category = pastoral
 	buildings_max_level_factor=1.000
 }

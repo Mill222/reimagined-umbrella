@@ -14,36 +14,41 @@ state={
 			infrastructure = 7
 			arms_factory = 1
 			industrial_complex = 1
-			
 			6581 = {
 				bunker = 3
+
 			}
 			3574 = {
 				bunker = 3
+
 			}
 			589 = {
 				bunker = 3
+
 			}
 			6568 = {
 				bunker = 1
+
 			}
 			3530 = {
 				bunker = 1
+
 			}
+
 		}
 		victory_points = {
 			6712 3 
 		}
 		victory_points = {
-			3530 5
+			3530 5 
 		}
 
 	}
 
 	provinces={
-		589 3530 3574 3692 6542 6568 6581 6712 11640 
+		589 3530 3574 3679 3692 6542 6568 6581 6712 11640 
 	}
-	manpower=2512462
+	manpower=2612462
 	buildings_max_level_factor=1.000
 	state_category=city
 }
