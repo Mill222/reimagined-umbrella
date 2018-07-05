@@ -1,11 +1,9 @@
-﻿capital = 670 #today Vientiane in 1945 Luang Prabang sel proclaimed indie Laos 
+﻿capital = 670
 
 oob = "LAO"
 
 set_research_slots = 3
 
-# Starting tech
-# clone of France
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -88,37 +86,81 @@ set_politics = {
 
 }
 
+# Souphanouvong was royalty turned radical and pro-Ho Chi Minh/Indochinese unity
+
 create_country_leader = {
 	name = "Souphanouvong"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	expire = "1953.3.1"
-	ideology = marxism
+	ideology = leninist_subtype
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Sisavang Vong"
+	name = "Souphanouvong"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	expire = "1953.3.1"
+	ideology = marxist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Souphanouvong"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	expire = "1953.3.1"
+	ideology = revolutionary_socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Souvanna Phouma" #Leader of so called Neutralist faction
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 	expire = "1953.3.1"
-	ideology = despotism
+	ideology = social_conservative_subtype
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Kou Voragong" 
+	name = "Sisavang Vong" #King of Laos
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		
 	}
 }
 
-#couldnt find historical fascists
+create_country_leader = {
+	name = "Phetsarath Ratanavongsa" #Nationalist vice-king
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+	expire = "1953.3.1"
+	ideology = right_wing_populist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Boun Oum" #Ultra royalist of Champasak
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+	expire = "1953.3.1"
+	ideology = national_syndicalist_subtype
+	traits = {
+		
+	}
+}

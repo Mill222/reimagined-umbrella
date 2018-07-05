@@ -1,4 +1,4 @@
-capital = 679
+﻿capital = 679
 
 oob = "HEJ"
 
@@ -71,18 +71,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Ali_bin_Hussein.dds"
 	expire = "1935.2.13"
-	ideology = authoritarian_democrat
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Abd ul-Ilah bin Ali"
-	desc = ""
-	picture = "Ali_bin_Hussein.dds"
-	expire = "1958.7.14"
-	ideology = authoritarian_democrat
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}

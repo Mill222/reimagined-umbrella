@@ -1,5 +1,7 @@
 ﻿l_english:
 
+### Parties ###
+
 POR_leninist_party:0 "PCP"
 POR_leninist_party_long:0 "Partido Comunista Português"
 POR_marxist_party:0 "PRED"
@@ -25,6 +27,40 @@ POR_national_syndicalist_party_long:0 "Integralismo Lusitano"
 POR_national_corporatist_party:0 "UN"
 POR_national_corporatist_party_long:0 "União Nacional"
 
+### Decisions ###
+
+POR_wars:0 "Reclaiming our Lands"
+POR_reclaim_azores:0 "Reclaim the Azores"
+POR_seize_olivenza:0 "Seize Olivenza"
+
+POR_civil_war:0 "Portuguese Civil War"
+POR_civil_war_desc:0 "After a disastrous showing in the Great War, Portugal has been plunged into chaos. The humilation of the Republic which had only just been established in 1910 brought about renewed monarchists support in the north. A small rebellion in 1919 made this threat very real, and the subsequent revolutions in Europe intensified the conflicts between the left and right.\n\nBy 1926, the military had enough and attempted a coup, however this failed disastrously due to mass left wing reaction in the south. This just made the situation all that much worse, and by 1931, the people had enough of the liberal republic, overthrowing it in the Rose Revolution. However, it was not long before the predominately conservative and pro monarchist north declared the Republic defunct. Manuel II, the deposed king, returned to Portugal in November to help lead the rebellion, and now, with the new year, hostilities have broken out in full effect.\n\nThis war can only be won by making proper preparations and decisions. We will need §Gweaponry§!, §Yfood§!, §Rmen§! and §Minternational support§!"
+
+POR_bring_out_great_war_stockpiles:0 "§GBring out the Great War Stockpiles§!"
+POR_conscript_the_police:0 "§RConscript the Police§!"
+POR_transition_to_war_economy:0 "§GTransition to a War Economy§!"
+POR_mobilize_more_volunteers:0 "§RMobilize More Volunteers§!"
+POR_implement_emergency_rationing:0 "§YImplement Emergency Rationing§!"
+POR_requisition_civilian_rifles:0 "§GRequisition Civilian Rifles§!"
+
+POR_civil_war_germany:0 "Portuguese Civil War - Germany"
+POR_civil_war_germany_desc:0 "German support will be crucial towards winning this Civil War. As one of the two dominant socialist powers in the world, Germany can provide us with many of the important things we need. It would be wise to establish proper contacts with them to negotiate for support."
+
+POR_establish_german_contacts:0 "§MEstablishing German Contacts§!"
+POR_purchase_german_fighters:0 "§GPurchase German Fighters§!"
+POR_smuggle_german_rifles:0 "§GSmuggle German Rifles§!"
+POR_import_german_vegetables:0 "§YImport German Vegetables§!"
+POR_petition_for_german_volunteers:0 "§RPetition for German Volunteers§!"
+
+POR_civil_war_soviet:0 "Portuguese Civil War - Soviet Union"
+POR_civil_war_soviet_desc:0 "Soviet support will be crucial towards winning this Civil War. As one of the two dominant socialist powers in the world, the Soviet Union can provide us with many of the important things we need. It would be wise to establish proper contacts with them to negotiate for support."
+
+POR_establish_soviet_contacts:0 "§MEstablishing Soviet Contacts§!"
+POR_smuggle_soviet_rifles:0 "§GSmuggle Soviet Rifles§!"
+POR_purchase_old_soviet_rifles:0 "§GPurchase Old Soviet Rifles§!"
+POR_petition_for_soviet_volunteers:0 "§RPetition for Soviet Volunteers§!"
+POR_import_soviet_grain:0 "§YImport Soviet Grain§!"
+
 ### Tooltips ###
 POR_civil_war_check:0 "Portuguese Civil War"
 POR_civil_war_over:0 "Portuguese Civil War Ended"
@@ -47,6 +83,9 @@ POR_purge_disloyal_tt:0 "§RElements of our faction, the Leninists, will be purg
 
 POR_deploy_perm_tt:0 "§RDeploying police for an indefinite amount of time will solve the problem for a while, but the amount of manpower we will need to dedicate to this operation may hurt us later.\n§!"
 POR_deploy_temp_tt:0 "§RDeploying police for a temporary amount of time will solve the problem in the short term, but we cannot be sure the issue will not return later.\n§!"
+
+POR_german_contacts:0 "§GEstablishing contacts with the Germans will allow us to petition for support.\n§!"
+POR_german_vegetables:0 "§GBy importing food from Germany we can help combat the starvation that arises from this Civil War.\n§!"
 
 ### Ideas ###
 POR_divided_country:0 "Divided Country"
@@ -132,23 +171,6 @@ POR_outlaw_monarchy:0 "Outlaw the Monarchy"
 POR_outlaw_monarchy_desc:0 "In order to ensure monarchist sympathies do not resurface in the north, it would be best to outlaw the return of the monarchy within the new constitution."
 POR_a_triumphant_revolution:0 "A Triumphant Revolution"
 POR_a_trimphant_revolution_desc:0 "It has taken us many long, hard years to complete the revolution, but our republic is now truly great and united under the common socialist cause."
-
-POR_civil_war:0 "The Civil War"
-POR_civil_war_desc:0 "Unfortunately, our revolution will not be without blood. Our country is in a Civil War, and we must emerge victorious."
-POR_civil_war_eqpt1:0 "Use Great War Helmets"
-POR_civil_war_eqpt1desc:0 "Unfortunately, our revolution will not be without blood. Our country is in a Civil War, and we must emerge victorious."
-POR_civil_war_eqpt2:0 "Buy Soviet Equipment"
-POR_civil_war_eqpt2_desc:0 "Unfortunately, our revolution will not be without blood. Our country is in a Civil War, and we must emerge victorious."
-POR_civil_war_economy1:0 "War Economy"
-POR_civil_war_economy1_desc:0 "Unfortunately, our revolution will not be without blood. Our country is in a Civil War, and we must emerge victorious."
-POR_civil_war_economy2:0 "Emergency Rationing"
-POR_civil_war_economy2_desc:0 "Unfortunately, our revolution will not be without blood. Our country is in a Civil War, and we must emerge victorious."
-POR_civil_war_army1:0 "Employ the Police"
-POR_civil_war_army1_desc:0 "Unfortunately, our revolution will not be without blood. Our country is in a Civil War, and we must emerge victorious."
-POR_civil_war_army2:0 "Volunteer Recruitment"
-POR_civil_war_army2_desc:0 "Unfortunately, our revolution will not be without blood. Our country is in a Civil War, and we must emerge victorious."
-POR_ready_for_war:0 "Ready for War"
-POR_ready_for_war_desc:0 "Unfortunately, our revolution will not be without blood. Our country is in a Civil War, and we must emerge victorious."
 
 POR_navy:0 "Marinha Portuguesa"
 POR_navy_desc:0 "Our navy, while undergoing expansion during the Weltkrieg, is still not capable of properly defending our overseas provinces, nor our coastline! Relying on allied navies may not be an option available to us, so we must act now."
@@ -414,3 +436,15 @@ por.14.t:0 "Police Deployment to the North"
 por.14.d:0 "It has been some time since the revolution, but various bombings and attacks have dealt major blows to our economy, stability and our population. Giving up power is obviously not an option, and it would be preferable to deploy police to the northern part of our country. The question is, should this be permanent or temporary?"
 por.14.a:0 "They will never give up. Deploy indefinitely!"
 por.14.b:0 "I am sure a show of force will get them to stop. Half a year and they leave."
+
+por.30.t:0 "Minor Food Shortages Reported"
+por.30.d:0 "The Civil War is starting to take a toll on our population. Although the situation is so far relatively minor, there is a number of reported food shortages in the countryside as a result of the economic transition and the isolation we have experienced. This issue is easy to fix, but will require expending resources otherwise used to win the war.\n\nRural civilians are warning us that ignoring this issue as a whole will only hurt us in the long run."
+por.30.a:0 "We should take a look at this..."
+
+por.31.t:0 "Escalating Food Shortages Reported"
+por.31.d:0 "As a result of not implementing proper measures to halt the food shortage issue, the situation seems to be escalating and spreading to urban areas. This has generated much unrest among a populace that is getting more and more war weary by the minute.\n\nIt is imperative that we implement some measures to halt this immediately before it grows out of control."
+por.31.a:0 "Hey, calm down, we'll fix this!"
+
+por.32.t:0 "Major Food Shortages Reported"
+por.32.d:0 "Despite major warnings that it was coming, throughout the week major food shortages have been reported across all the territory we control. This was an easily preventable issue but the resources were deemed too valuable to the war effort to spend on preventive measures.\n\nThis has severely undermined our already waning support base and can only be ended with a conclusion to this bloody conflict."
+por.32.a:0 "This isn't good..."

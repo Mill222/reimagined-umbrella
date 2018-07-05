@@ -1,5 +1,31 @@
 spriteTypes = {	
 
+	# spriteType = {
+		# name = "GFX_decision_"
+		# texturefile = "gfx/interface/decisions/.dds"
+	# }
+
+	### categories
+	
+	### category pictures
+	
+	spriteType = {
+		name = "GFX_decision_cat_socialist_german_flag"
+		texturefile = "gfx/interface/decisions/decision_cat_socialist_german_flag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_soviet_flag"
+		texturefile = "gfx/interface/decisions/decision_cat_soviet_flag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_portuguese_civil_war"
+		texturefile = "gfx/interface/decisions/decision_cat_portuguese_civil_war.dds"
+	}
+	
+	### decision icons
+
 	spriteType = {
 		name = "GFX_decision_generic_fort"
 		texturefile = "gfx/interface/decisions/decision_generic_fort.dds"

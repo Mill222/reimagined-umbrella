@@ -1,10 +1,46 @@
+################
+### Portugal ###
+################
+
 POR_wars = {
 	allowed = {
 		original_tag = POR
 	}
 }
 
+POR_civil_war = {
+	allowed = {
+		OR = {
+			original_tag = POR
+			original_tag = PRM
+		}
+	}
+	icon = border_conflicts
+	
+	picture = GFX_decision_cat_portuguese_civil_war
+}
 
+POR_civil_war_germany = {
+	allowed = {
+		OR = {
+			original_tag = POR
+		}
+	}
+	icon = border_conflicts
+	
+	picture = GFX_decision_cat_socialist_german_flag
+}
+
+POR_civil_war_soviet = {
+	allowed = {
+		OR = {
+			original_tag = POR
+		}
+	}
+	icon = border_conflicts
+	
+	picture = GFX_decision_cat_soviet_flag
+}
 
 ##############
 ### Czechia ###

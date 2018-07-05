@@ -91,7 +91,7 @@ country_event = { # End of the Civil War
 		name = por.4.a
 
 		add_political_power = 100
-		set_country_flag = POR_civil_war_over
+		set_global_flag = POR_civil_war_over
 		remove_ideas = POR_divided_country
 		add_ideas = POR_recovering_civil_war
 		delete_unit_template_and_units = { division_template = "Brigada Republicana" }
@@ -511,5 +511,57 @@ country_event = {
 		hidden_effect = {
 			load_oob = POR_navy
 		}
+	}
+}
+
+#Food Shortages Event Chain
+
+news_event = { #Light Food Shortages
+	id = por.30
+	title = por.30.t
+	desc = por.30.d
+	picture = GFX_news_event_ger_civil_war
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.30.a
+		add_manpower = -500
+		add_stability = -0.025
+	}
+}
+
+news_event = { #Escalating Food Shortages
+	id = por.31
+	title = por.31.t
+	desc = por.31.d
+	picture = GFX_news_event_gathering_protest
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.31.a
+		add_manpower = -1000
+		add_stability = -0.05
+		add_war_support = -0.025
+	}
+}
+
+news_event = { #Major Food Shortages
+	id = por.32
+	title = por.32.t
+	desc = por.32.d
+	picture = GFX_news_event_generic_riot
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.32.a
+		add_manpower = -2000
+		add_stability = -0.10
+		add_war_support = -0.05
 	}
 }

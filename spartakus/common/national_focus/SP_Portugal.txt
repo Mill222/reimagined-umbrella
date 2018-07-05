@@ -21,7 +21,7 @@ focus_tree = {
 		cost = 1
 	    available = {
 			OR = {
-				has_country_flag = POR_civil_war_over
+				has_global_flag = POR_civil_war_over
 			}
 		}
 		ai_will_do = {
@@ -339,8 +339,6 @@ focus_tree = {
 		y = 1
 		cost = 8.6
 		completion_reward = {
-		swap_ideas = {
-			}
 		}
 	}
 			focus = {
@@ -446,115 +444,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_civil_war
-		icon = GFX_focus_generic_provoke_border_clashes
-		x = 9
-		y = 0
-		available = {
-			OR = {
-				has_country_flag = POR_civil_war_check
-			}
-		}
-		cost = 2
-		completion_reward = {	
-			add_equipment_to_stockpile = {
-				type = infantry_equipment amount = 500 producer = POR
-			}
-		}
-	}
-	
-	focus = {
-		id = POR_civil_war_economy1
-		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = POR_civil_war }
-		relative_position_id = POR_civil_war
-		x = 0
-		y = 1
-		cost = 8.6
-		completion_reward = {	
-		}
-	}
-
-	focus = {
-		id = POR_civil_war_economy2
-		icon = GFX_goal_generic_construction
-		prerequisite = { focus = POR_civil_war_economy1 }
-		relative_position_id = POR_civil_war
-		x = 0
-		y = 2
-		cost = 8.6
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = POR_civil_war_eqpt1
-		icon = GFX_focus_generic_commonwealth_build_infantry
-		prerequisite = { focus = POR_civil_war }
-		relative_position_id = POR_civil_war
-		x = -2
-		y = 1
-		cost = 8.6
-		completion_reward = {	
-		}
-	}
-
-	focus = {
-		id = POR_civil_war_eqpt2
-		icon = GFX_focus_generic_combined_arms
-		prerequisite = { focus = POR_civil_war_eqpt1 }
-		relative_position_id = POR_civil_war
-		x = -2
-		y = 2
-		cost = 8.6
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = POR_civil_war_army1
-		icon = GFX_focus_generic_little_entente
-		prerequisite = { focus = POR_civil_war }
-		relative_position_id = POR_civil_war
-		x = 2
-		y = 1
-		cost = 8.6
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = POR_civil_war_army2
-		icon = GFX_focus_generic_military_academy
-		prerequisite = { focus = POR_civil_war_army1 }
-		relative_position_id = POR_civil_war
-		x = 2
-		y = 2
-		cost = 8.6
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = POR_ready_for_war
-		icon = GFX_focus_secret_rearmament
-		prerequisite = { focus = POR_civil_war_army2 focus = POR_civil_war_eqpt2 focus = POR_civil_war_economy2 }
-		relative_position_id = POR_civil_war
-		x = 0
-		y = 3
-		cost = 8.6
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
 		id = POR_recovery
 		icon = GFX_goal_graveyard
 		x = 10
 		y = 4
 		available = {
 			OR = {
-				has_country_flag = POR_civil_war_over
+				has_global_flag = POR_civil_war_over
 			}
 		}
 		cost = 8.6
@@ -574,7 +470,7 @@ focus_tree = {
 		y = 1
 		available = {
 			OR = {
-				has_country_flag = POR_civil_war_over
+				has_global_flag = POR_civil_war_over
 			}
 		}
 		cost = 8.6
@@ -594,7 +490,7 @@ focus_tree = {
 		y = 1
 		available = {
 			OR = {
-				has_country_flag = POR_civil_war_over
+				has_global_flag = POR_civil_war_over
 			}
 		}
 		cost = 8.6
@@ -614,7 +510,7 @@ focus_tree = {
 		y = 1
 		available = {
 			OR = {
-				has_country_flag = POR_civil_war_over
+				has_global_flag = POR_civil_war_over
 			}
 		}
 		cost = 8.6
@@ -634,7 +530,7 @@ focus_tree = {
 		y = 1
 		available = {
 			OR = {
-				has_country_flag = POR_civil_war_over
+				has_global_flag = POR_civil_war_over
 			}
 		}
 		cost = 8.6
@@ -657,7 +553,7 @@ focus_tree = {
 		y = 2
 		available = {
 			OR = {
-				has_country_flag = POR_civil_war_over
+				has_global_flag = POR_civil_war_over
 			}
 		}
 		cost = 8.6
@@ -676,7 +572,7 @@ focus_tree = {
 		prerequisite = { focus = POR_a_united_commune focus = POR_a_triumphant_revolution }
 		available = {
 			OR = {
-				has_country_flag = POR_civil_war_over
+				has_global_flag = POR_civil_war_over
 			}
 		}
 		cost = 8.6
@@ -831,7 +727,7 @@ focus_tree = {
 		icon = GFX_goal_generic_sea_focused_navy
 		available = {
 			OR = {
-				has_country_flag = POR_civil_war_over
+				has_global_flag = POR_civil_war_over
 			}
 		}
 		x = 15
@@ -1064,7 +960,7 @@ focus_tree = {
 		cost = 8.6
 		available = {
 			OR = {
-				has_country_flag = POR_civil_war_over
+				has_global_flag = POR_civil_war_over
 			}
 		}
 		completion_reward = {	
@@ -1593,7 +1489,7 @@ focus_tree = {
 		icon = GFX_focus_generic_commonwealth_build_infantry
 		available = {
 			OR = {
-				has_country_flag = POR_civil_war_over
+				has_global_flag = POR_civil_war_over
 			}
 		}
 		x = 23
@@ -1978,7 +1874,7 @@ focus_tree = {
 		icon = GFX_goal_generic_build_airforce
 		available = {
 			OR = {
-				has_country_flag = POR_civil_war_over
+				has_global_flag = POR_civil_war_over
 			}
 		}
 		x = 29

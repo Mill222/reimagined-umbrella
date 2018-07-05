@@ -6,16 +6,15 @@ add_ideas = {
 	limited_conscription
 	POR_divided_country
 	POR_revolution
-	POR_Maria_da_Cunha_Lamas_for_rso
-	POR_Antonio_Pinto_Quartim_hog_syn
-	POR_Jose_Gomes_Ferreira_eco_rso
-	POR_Alvaro_Cunhal_sec_syn
-	POR_Antonio_Sergo_int_rso
-	POR_Jose_AP_Rebelo_cos_syn
+	POR_Maria_da_Cunha_Lamas_for_rev
+	POR_Antonio_Pinto_Quartim_hog_mar
+	POR_Jose_Gomes_Ferreira_eco_rev
+	POR_Alvaro_Cunhal_sec_mar
+	POR_Antonio_Sergo_int_rev
+	POR_Jose_AP_Rebelo_cos_mar
 	POR_Humberto_Carmona_carm_sli
-	POR_Bento_Goncalves_cnav_syn
+	POR_Bento_Goncalves_cnav_mar
 	POR_JM_Sarmento_Beires_cair_sde
-	average_stability
 	partial_economic_mobilisation
 }
 
@@ -41,40 +40,40 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 8
+			popularity = 10
 		}
 		marxist = {
-			popularity = 12
+			popularity = 13
 		}
 		revolutionary_socialist = {
-			popularity = 50
+			popularity = 40
 		}
 		democratic_socialist = {
-			popularity = 10
+			popularity = 11
 		}
 		social_democrat = {
-			popularity = 10
+			popularity = 7
 		}
 		social_liberal = {
-			popularity = 6
+			popularity = 5
 		}
 		liberal_conservative = {
 			popularity = 4
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 2
 		}
 		authoritarian_democrat = {
-		    popularity = 0
+		    popularity = 1
 		}
 		right_wing_populist = {
-			popularity = 0
+			popularity = 4
 		}
 		national_syndicalist = {
-			popularity = 0
+			popularity = 2
 		}
 		national_corporatist = {
-			popularity = 0
+			popularity = 1
 		}
 	}
 	
