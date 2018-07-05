@@ -360,6 +360,9 @@ create_corps_commander = {
 # Intro
 country_event = { id = cze.0 hours = 6 }
 
+# Explain Gajda Coup Mission
+country_event = { id = czegajda.0 days = 2 }
+
 # Great Depression
 country_event = { id = cze.1 days = 86 }
 

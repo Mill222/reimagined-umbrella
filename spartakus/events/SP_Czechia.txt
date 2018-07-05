@@ -1,4 +1,5 @@
 add_namespace = cze
+add_namespace = czegajda
 
 country_event = { # Intro
 	id = cze.0
@@ -136,31 +137,17 @@ country_event = { # "Iron Rector" August Naegle dies - 12 Oct 1932
 	}
 }
 
-country_event = { # Explaining Gajda coup missions
+country_event = { # Masaryk's stroke
 	id = cze.5
 	title = cze.5.t
-	desc = cze.5.desc
-	picture = GFX_report_event_Gajda
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = cze.5.a
-		custom_effect_tooltip = CZE_Gajda_check_decision_tab_tt
-	}
-}
-
-country_event = { # Masaryk's stroke
-	id = cze.6
-	title = cze.6.t
 	desc = {
-		text = cze.6.desc.a
+		text = cze.5.desc.a
 		trigger = {
 			NOT = { has_country_flag = CZE_elections_suspended }
 		}
 	}
 	desc = {
-		text = cze.6.desc.b
+		text = cze.5.desc.b
 		trigger = {
 			has_country_flag = CZE_elections_suspended
 		}
@@ -170,7 +157,7 @@ country_event = { # Masaryk's stroke
 	is_triggered_only = yes
 	
 	option = {
-		name = cze.6.a
+		name = cze.5.a
 		trigger = {
 			NOT = { has_country_flag = CZE_elections_suspended }
 		}
@@ -178,7 +165,7 @@ country_event = { # Masaryk's stroke
 		set_country_flag = CZE_Masaryk_stand_for_elections
 	}
 	option = {
-		name = cze.6.b
+		name = cze.5.b
 		trigger = {
 			NOT = { has_country_flag = CZE_elections_suspended }
 		}
@@ -186,13 +173,108 @@ country_event = { # Masaryk's stroke
 		set_country_flag = CZE_Masaryk_no_stand_for_elections
 	}
 	option = {
-		name = cze.6.c
+		name = cze.5.c
 		trigger = {
 			has_country_flag = CZE_elections_suspended
 		}
 	}
 }
 
+
+
+
+country_event = { # Explaining Gajda coup missions
+	id = czegajda.0
+	title = czegajda.0.t
+	desc = czegajda.0.desc
+	picture = GFX_report_event_Gajda
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = czegajda.0.a
+		custom_effect_tooltip = CZE_Gajda_check_decision_tab_tt
+	}
+}
+
+country_event = { # Gajda speaks out against suspension
+	id = czegajda.1
+	title = czegajda.1.t
+	desc = czegajda.1.desc
+	picture = GFX_report_event_Gajda
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = czegajda.1.a
+		add_political_power = -50
+	}
+}
+
+country_event = { # After having bribed Gajda, he doesn't retire
+	id = czegajda.2
+	title = czegajda.2.t
+	desc = czegajda.2.desc
+	picture = GFX_report_event_Gajda
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = czegajda.2.a
+	}
+}
+
+country_event = { # Raiding Stit Naroda offices
+	id = czegajda.3
+	title = czegajda.3.t
+	desc = czegajda.3.desc
+	picture = GFX_report_event_stit_naroda
+	
+	is_triggered_only = yes
+	
+	option = { # Harass them
+		name = czegajda.3.a
+		
+		ai_chance = { factor = 50 }
+	}
+	option = { # Arrest prominent members
+		name = czegajda.3.b
+		add_political_power = -15
+		add_stability = 0.01
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = -0.005
+		}
+		CZE_Gajda_increase_coup_timeout_days_5_effect = yes
+		
+		ai_chance = { factor = 35 }
+	}
+	option = { # Shut them down! 
+		name = czegajda.3.c
+		add_political_power = -30
+		add_stability = 0.025
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = -0.01
+		}
+		CZE_Gajda_increase_coup_timeout_days_10_effect = yes
+		
+		ai_chance = { factor = 15 }
+	}
+}
+
+country_event = { # Workers' Guard (Delnicka straz) allowed
+	id = czegajda.4
+	title = czegajda.4.t
+	desc = czegajda.4.desc
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = czegajda.4.a
+	}
+}
 
 
 

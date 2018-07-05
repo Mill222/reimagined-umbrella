@@ -86,6 +86,15 @@ CZE_increase_Gajda_coup_progress_effect = {
 			check_variable = { CZE_Gajda_coup_prog_counter < 6 }
 		}
 		custom_effect_tooltip = CZE_increase_Gajda_coup_progress_tt
+		if = {
+			limit = {
+				check_variable = { CZE_Gajda_coup_prog_counter > CZE_countering_Gajda }
+			}
+			add_popularity = {
+				ideology = national_corporatist
+				popularity = 0.005
+			}
+		}
 		hidden_effect = {
 			add_to_variable = { CZE_Gajda_coup_prog_counter = 1 }
 			activate_mission = CZE_Gajda_coup_progress_mission
@@ -100,8 +109,40 @@ CZE_increase_Gajda_coup_progress_effect = {
 }
 
 CZE_postpone_Gajda_coup_progress_effect = {
+	custom_effect_tooltip = CZE_postpone_Gajda_coup_progress_tt
+	if = {
+		limit = {
+			check_variable = { CZE_countering_Gajda > CZE_Gajda_coup_prog_counter }
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = -0.005
+		}
+	}
 	hidden_effect = {
+		add_to_variable = { CZE_countering_Gajda = 1 }
 		remove_mission = CZE_Gajda_coup_progress_mission
 		activate_mission = CZE_Gajda_coup_progress_mission
+	}
+}
+
+CZE_Gajda_increase_coup_timeout_days_5_effect = {
+	custom_effect_tooltip = CZE_Gajda_increase_coup_prog_timer_5_days_tt
+	hidden_effect = {
+		add_to_variable = { CZE_Gajda_coup_timeout_days = 5 }
+	}
+}
+
+CZE_Gajda_increase_coup_timeout_days_10_effect = {
+	custom_effect_tooltip = CZE_Gajda_increase_coup_prog_timer_10_days_tt
+	hidden_effect = {
+		add_to_variable = { CZE_Gajda_coup_timeout_days = 10 }
+	}
+}
+
+CZE_Gajda_increase_coup_prog_timer_15_days_effect = {
+	custom_effect_tooltip = CZE_Gajda_increase_coup_prog_timer_15_days_tt
+	hidden_effect = {
+		add_to_variable = { CZE_Gajda_coup_timeout_days = 15 }
 	}
 }

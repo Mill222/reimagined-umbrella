@@ -142,5 +142,20 @@ ideas = {
 			}
 			picture = GFX_idea_Food_Shortages
 		}
+		CZE_obrana = {
+			modifier = {
+				stability_factor = -0.05
+				national_corporatist_drift = 0.001
+			}
+			picture = GFX_idea_obrana
+		}
+		CZE_delnicka_straz = {
+			modifier = {
+				stability_factor = -0.05
+				national_corporatist_drift = -0.0005
+				marxist_drift = 0.0005
+			}
+			picture = GFX_idea_delnicka_straz
+		}
 	}
 }

@@ -19,15 +19,13 @@ cze.3.b:0 "We will prioritise agriculture."
 cze.4.t:0 "Death of the Iron Rector"
 cze.4.desc:0 "August Naegle, the German \"Iron Rector\" of Charles University, was found dead this morning after passing peacefully in his sleep. \n\nCharles University is the oldest university in Czechia, and was one of the most prominent in the Austro-Hungarian Empire. In the late 19th century, the institution was split into the German university and the Czech university, to satisfy ethnic tensions, but with the fall of the empire and the foundation of the Czech Republic, the question of which language would dominate the institution was revived. \n\nFor years, the university has been caught between the two camps: the minority Germans, who still hold a fair amount of sway over the institution, and the majority Czechs. The crux of the conflict: the insignia of the original university, officially shared between the two, but now claimed by both the German and Czech faculties as their own. \n\nAugust Naegle had been instrumental in maintaining the German university, and with his death, there are rumblings among the faculty once more. Ethnic tensions have for years been kept at bay in the Czech Republic, but some worry that this will spark renewed conflict."
 cze.4.a:0 "How fierce can academics really get?"
-cze.5.t:0 "The Rebellious Gajda"
-cze.5.desc:0 "Radola Gajda, a general in the Czech Army, has been a thorn in the side of our government for years. Rumours have swirled around him since the mid-1920s, but as nothing concrete has been found, we have been unable to rid ourselves of him once and for all. \n\nHowever, his involvement with the radical right-wing party, the Národní obec korporativistická (NOK) has many in our government worried. He remains popular among many of the old Legionaries, and so manages to hold sway over a significant portion of the army. We must combat his influence to ensure that the army remains under civilian control."
-cze.5.a:0 "We shall prevail!"
-cze.6.t:0 "Masaryk suffers a stroke!"
-cze.6.desc.a:0 "President Masaryk has suffered a stroke! He is aready recovering well, but some whisper that this may spell the definitive end of his political career. Although he has expressed in the past that he does not wish to stand for for a fourth term in the upcoming presidential election, and hopes that his protégé Edvard Beneš may succeed him, Beneš may not have enough support within the parliament to maintain the status quo if Masaryk steps down. \n\nWith this event bringing these worries back to the surface, it is time to make a definitive statement on the matter. Will Masaryk stand for another election?"
-cze.6.desc.b:0 "Former President Masaryk has suffered a stroke. Although he is recovering, this is a great blow to the forces of \"democracy\" in the Czech Republic. Masaryk was always the government's uniting force, and without such a strong figure for the various parties to look to in common, they will never unite to oppose us."
-cze.6.a:0 "Yes, Masaryk will stand once more."
-cze.6.b:0 "No, this will be Masaryk's last term."
-cze.6.c:0 "With this, the \"democratic\" opposition to our regime is weakened."
+cze.5.t:0 "Masaryk suffers a stroke!"
+cze.5.desc.a:0 "President Masaryk has suffered a stroke! He is aready recovering well, but some whisper that this may spell the definitive end of his political career. Although he has expressed in the past that he does not wish to stand for for a fourth term in the upcoming presidential election, and hopes that his protégé Edvard Beneš may succeed him, Beneš may not have enough support within the parliament to maintain the status quo if Masaryk steps down. \n\nWith this event bringing these worries back to the surface, it is time to make a definitive statement on the matter. Will Masaryk stand for another election?"
+cze.5.desc.b:0 "Former President Masaryk has suffered a stroke. Although he is recovering, this is a great blow to the forces of \"democracy\" in the Czech Republic. Masaryk was always the government's uniting force, and without such a strong figure for the various parties to look to in common, they will never unite to oppose us."
+cze.5.a:0 "Yes, Masaryk will stand once more."
+cze.5.b:0 "No, this will be Masaryk's last term."
+cze.5.c:0 "With this, the \"democratic\" opposition to our regime is weakened."
+
 
 cze.10.t:0 "1934 Presidential Election"
 cze.10.desc.a:0 "President Masaryk's third term has come to an end, and with it, a new presidential election has been called. The President is elected by the bicameral parliament of 300 Deputies and 150 Senators, and needs 60% of the vote in order to be elected. \n\nMasaryk is now 84 years old, and would have liked his protégé Edvard Beneš to succeed him. Beneš's support within the parliament is tenuous however, so Masaryk has stood once more for election in order to maintain the political status quo. There is no meaningful opposition to him."
@@ -37,27 +35,53 @@ cze.10.b:0 "Elect Edvard Beneš!"
 cze.10.c:0 "Elect Bohumil Němec!"
 
 
+
+czegajda.0.t:0 "The Rebellious Gajda"
+czegajda.0.desc:0 "Radola Gajda, a general in the Czech Army, has been a thorn in the side of our government for years. Rumours have swirled around him since the mid-1920s, but as nothing concrete has been found, we have been unable to rid ourselves of him once and for all. \n\nHowever, his involvement with the radical right-wing party, the Národní obec korporativistická (NOK) has many in our government worried. He remains popular among many of the old Legionaries, and so manages to hold sway over a significant portion of the army. We must combat his influence to ensure that the army remains under civilian control."
+czegajda.0.a:0 "We shall prevail!"
+czegajda.1.t:0 "Gajda Speaks Out"
+czegajda.1.desc:0 "In flagrant disregard for protocol, Gajda has spoken out publicly against his supsension. He claims that he is being targetted unfairly, and has denounced both the government's actions and the rumours around him being peddled by the press."
+czegajda.1.a:0 "How dare he?!"
+czegajda.2.t:0 "Gajda Active as Ever"
+czegajda.2.desc:0 "Despite our little \"gift\" to him, and its implicit urging for him to retire, Gajda has shown no motion towards doing so. It appears that although he has accepted our \"gift,\" and indeed quieted down for a few weeks, he will continue to actively pursue his military career as well as his involvement with the NOK."
+czegajda.2.a:0 "Damn."
+czegajda.3.t:0 "Raiding Štít Národa"
+czegajda.3.desc:0 "We have raided the offices of Štít Národa, a far-right newspaper that supports Gajda's National Corporatist Community (NOK), on charges of conspiring against the government. The evidence we have to support this is tenuous, but it is true that many of their articles have called for the establishment of an anti-liberal government – a proposition that inherently challenges the foundations of our very republic. \n\nWhat measures should we take against them?"
+czegajda.3.a:0 "Only search their offices and harass them."
+czegajda.3.b:0 "Arrest a few prominent members."
+czegajda.3.c:0 "Shut them down permanently!"
+
+
 # Decisions & Missions
 CZE_dealing_with_Gajda:0 "Dealing with Gajda"
 CZE_dealing_with_Gajda_desc:0 "Radola Gajda, a general in the Czech Army, has been a thorn in the side of our government for years. Rumours have swirled around him since the mid-1920s, but as nothing concrete has been found, we have been unable to rid ourselves of him once and for all. \n\nHowever, his involvement with the radical right-wing party, the Národní obec korporativistická (NOK) has many in our government worried. He remains popular among many of the old Legionaries, and so manages to hold sway over a significant portion of the army. We must combat his influence to ensure that the army remains under civilian control."
 CZE_Gajda_coup_progress_mission:0 "Gajda's Machinations"
 CZE_Gajda_coup_progress_mission_desc:0 "Gajda is constantly working to advance his interests. We must counter his machinations in the political and military areans."
 CZE_bribe_Gajda:0 "Bribe Gajda"
-CZE_bribe_Gajda_desc:0 "We can send Gajda a gift to get him to quiet down for a while."
+CZE_bribe_Gajda_desc:0 "We can send Gajda a gift to get him to quiet down for a while... and maybe even retire."
+CZE_raid_Stit_Naroda_offices:0 "Raid Štít Národa offices"
+CZE_raid_Stit_Naroda_offices_desc:0 "Štít Národa is a right-wing newspaper that supports Gajda's NOK. We could order the police to raid their offices for advocating anti-government action."
+CZE_investigate_NOK_members:0 "Investigate NOK Membership"
+CZE_investigate_NOK_members_desc:0 "Gajda's NOK harbours certain elements that have, in the past, come under suspicion for criminal activity. Perhaps we should investigate some of these elements, and in so doing, weaken the party."
+CZE_allow_delnicka_straz:0 "Allow Dělnická Stráž"
+CZE_allow_delnicka_straz_desc:0 "Some of the communist members of parliament have proposed that we allow them to set up a paramilitary group, the Dělnická Stráž or Workers' Guard, in order to counter the influence of the NOK's Obrana paramilitary organisation. This runs the risk of strengthening the communists, but if we play our cards right, we could play the communists and the corporatists against each other, and ultimately weaken them both."
 CZE_suspend_Gajda:0 "Send Gajda on Leave"
 CZE_suspend_Gajda_desc:0 "We now have enough political influence on our side to suspend Gajda from active service."
 
 
 # Custom Tooltips
-CZE_increase_rationing_tt:0 "§RWe will increase rationing measures§!"
-CZE_decrease_rationing_tt:0 "§BWe will decrease rationing measures§!"
-CZE_mission_dealing_with_Gajda_tt:0 "§BWe have dealt with Gajda... for now.§!"
-CZE_increase_Gajda_coup_progress_tt:0 "§RGajda will advance his interests...§!"
-CZE_Gajda_coup_tt:0 "§RWhat is Gajda doing...?§!"
-CZE_Gajda_increase_coup_prog_timer_5_days_tt:0 "§BIncrease the time it takes for Gajda to advance by 5 days§!"
-CZE_Gajda_increase_coup_prog_timer_10_days_tt:0 "§BIncrease the time it takes for Gajda to advance by 10 days§!"
-CZE_Gajda_increase_coup_prog_timer_15_days_tt:0 "§BIncrease the time it takes for Gajda to advance by 15 days§!"
+CZE_increase_rationing_tt:0 "§RWe will increase rationing measures§!\n"
+CZE_decrease_rationing_tt:0 "§BWe will decrease rationing measures§!\n"
+CZE_mission_dealing_with_Gajda_tt:0 "§BWe have dealt with Gajda... for now.§!\n"
+CZE_increase_Gajda_coup_progress_tt:0 "§RGajda will advance his interests...§!\n"
+CZE_Gajda_coup_tt:0 "§RWhat is Gajda doing...?§!\n"
+CZE_Gajda_increase_coup_prog_timer_5_days_tt:0 "§BIncrease the time it takes for Gajda to advance his schemes by 5 days§!\n"
+CZE_Gajda_increase_coup_prog_timer_10_days_tt:0 "§BIncrease the time it takes for Gajda to advance his schemes by 10 days§!\n"
+CZE_Gajda_increase_coup_prog_timer_15_days_tt:0 "§BIncrease the time it takes for Gajda to advance his schemes by 15 days§!\n"
+CZE_postpone_Gajda_coup_progress_tt:0 "§BWe will counter Gajda's machinations§!\n"
 CZE_Gajda_check_decision_tab_tt:0 "In your §bDecisions§! tab, you will find that you have a §bmission§! to deal with Gajda, your rebellious general. You have access to a number of §bdecisions§! in order to accomplish this. Check back there often for updates!"
+CZE_strengthen_communists_tt:0 "§RThis will strengthen the communists' influence!§!\n"
+CZE_begin_NOK_investigation_tt:0 "We will begin a lengthy investigation of the NOK's membership.\n"
 
 
 # Ideas
@@ -89,6 +113,11 @@ CZE_food_rationing_4:0 "Food Rationing"
 CZE_food_rationing_4_desc:0 "We have implemented a moderate amount of food rationing. This is having a notable effect on our population."
 CZE_food_rationing_5:0 "Food Rationing"
 CZE_food_rationing_5_desc:0 "We have implemented a large amount of food rationing. Our country suffers because of it."
+CZE_obrana:0 "Obrana"
+CZE_obrana_desc:0 "Obrana is a paramilitary group unofficially associated with Gajda's NOK. They occasionally march through the streets shouting antisemitic and militaristic slogans, and we suspect that they are guilty of actual criminal acts as well."
+CZE_delnicka_straz:0 "Dělnická Stráž"
+CZE_delnicka_straz_desc:0 "Dělnická Stráž is a communist paramilitary group that we have allowed to operate, in order to counter Obrana. Although some fear that this will lead to a strengthening of the communists' position, we hope that the clashes between them and Obrana will ultimately weaken both movements."
+
 
 # Focuses
 CZE_econ_revitalisation:0 "Revitalising our Economy"
@@ -116,6 +145,10 @@ CZE_agri_mass_mechanisation_desc:0 "We will sell our farmers machines at below m
 CZE_econ_revitalisation_complete:0 "Steps Towards Recovery"
 CZE_econ_revitalisation_complete_desc:0 "We have taken the first steps towards economic recovery."
 
+CZE_war_prep:0 "Preparing for War"
+CZE_war_prep_desc:0 "As the final struggle draws ever nearer, we must invest ever more into our military capabilities. \n\n§RYou will only be able to take one focus in this tree for every point of world tension. Choose wisely....§!"
+
+
 
 # Parties
 CZE_leninist_party:0 "KSČ"
@@ -141,7 +174,7 @@ CZE_right_wing_populist_party_long:0 "Republikánská strana zemědělského a m
 CZE_national_syndicalist_party:0 "KOU"
 CZE_national_syndicalist_party_long:0 "Křesťanská odborová unie"
 CZE_national_corporatist_party:0 "NOK"
-CZE_national_corporatist_party_long:0 "Národní obec korporativistická"
+CZE_national_corporatist_party_long:0 "Národní obec korporativistická (National Corporatist Community)"
 
 
 # Opinion Modifiers

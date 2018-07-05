@@ -21,16 +21,63 @@ CZE_dealing_with_Gajda = {
 	CZE_bribe_Gajda = {
 		fire_only_once = yes
 		cost = 50
+		days_remove = 120
 		complete_effect = {
 			CZE_postpone_Gajda_coup_progress_effect = yes
 			CZE_Gajda_increase_coup_timeout_days_10_effect = yes
 		}
 		modifier = {
-			civilian_factory_use = 1
+			production_speed_buildings_factor = -0.05
 		}
-		days_remove = 120
+		remove_effect = {
+			hidden_effect = {
+				country_event = czegajda.2
+			}
+		}
+	}
+	CZE_raid_Stit_Naroda_offices = {
+		fire_only_once = yes
+		cost = 20
+		complete_effect = {
+			CZE_postpone_Gajda_coup_progress_effect = yes
+			country_event = czegajda.3
+		}
+	}
+	CZE_investigate_NOK_members = {
+		fire_only_once = yes
+		cost = 15
+		complete_effect = {
+			custom_effect_tooltip = CZE_begin_NOK_investigation_tt
+			# Event chain for investigation of NOK members
+		}
+	}
+	CZE_allow_delnicka_straz = { # Workers' Guard
+		fire_only_once = yes
+		cost = 30
+		visible = {
+			has_idea = CZE_obrana
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = marxist
+				popularity = 0.005
+			}
+			add_popularity = {
+				ideology = leninist
+				popularity = 0.0025
+			}
+			add_ideas = CZE_delnicka_straz
+			CZE_postpone_Gajda_coup_progress_effect = yes
+			CZE_Gajda_increase_coup_timeout_days_5_effect = yes
+			country_event = czegajda.4
+			custom_effect_tooltip = CZE_strengthen_communists_tt
+			add_to_variable = { CZE_strengthened_communists_var = 1 }
+		}
 	}
 	CZE_suspend_Gajda = {
+		visible = {
+			check_variable = { CZE_countering_Gajda > 5 }
+		}
 		fire_only_once = yes
 		cost = 150
 		complete_effect = {
@@ -40,7 +87,28 @@ CZE_dealing_with_Gajda = {
 				}
 				add_unit_leader_trait = trait_suspended
 			}
+			hidden_effect = {
+				country_event = { id = czegajda.1 days = 30 random = 30 }
+				set_country_flag = CZE_Gajda_suspended
+			}
 			CZE_postpone_Gajda_coup_progress_effect = yes
 		}
 	}
+	CZE_retire_Gajda = {
+		visible = {
+			check_variable = { CZE_countering_Gajda > 6 }
+		}
+		fire_only_once = yes
+		cost = 150
+		complete_effect = {
+			every_unit_leader = {
+				limit = {
+					has_id = 0911 # Gajda
+				}
+				retire = yes
+			}
+		}
+	}
+			
+	
 }
