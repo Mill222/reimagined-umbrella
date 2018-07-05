@@ -179,11 +179,38 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/ROM_flight.dds"
 	}
 	
-	#Tibet
+	### Tibet ###
 	
 	spriteType = {
 		name = "GFX_news_event_dalai_lama"
 		texturefile = "gfx/event_pictures/Dalai_Lama.dds"
+	}
+	
+	### Japan ###
+	
+	spriteType = {
+		name = "GFX_JAP_introduction"
+		texturefile = "gfx/event_pictures/JAP_introduction.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_sakuradamon"
+		texturefile = "gfx/event_pictures/JAP_sakuradamon.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_election"
+		texturefile = "gfx/event_pictures/JAP_election.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_fire"
+		texturefile = "gfx/event_pictures/JAP_fire.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_anglo"
+		texturefile = "gfx/event_pictures/JAP_anglo.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_sanriku"
+		texturefile = "gfx/event_pictures/JAP_sanriku.dds"
 	}
 }
 	

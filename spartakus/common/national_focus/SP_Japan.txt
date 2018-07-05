@@ -1721,6 +1721,7 @@ focus_tree = {
 			icon = GFX_SIA_maritmesilkroad
 			prerequisite = { focus = JAP_empower_zaibatsu focus = JAP_mitigate_zaibatsu } 
 			available = { 
+				NOT = { has_idea = JAP_SP_depression } 
 			}
 			x = 34
 			y = 2
@@ -1739,6 +1740,7 @@ focus_tree = {
 			icon = GFX_Maritime_Silkroad_2
 			prerequisite = { focus = JAP_indian_markets } 
 			available = { 
+				NOT = { has_idea = JAP_SP_depression } 
 			}
 			x = 34
 			y = 4
@@ -1761,6 +1763,7 @@ focus_tree = {
 			icon = GFX_goal_MAF_Army_Reforms
 			prerequisite = { focus = JAP_empower_zaibatsu focus = JAP_mitigate_zaibatsu } 
 			available = { 
+				NOT = { has_idea = JAP_SP_depression } 
 			}
 			x = 36
 			y = 2
@@ -1779,6 +1782,7 @@ focus_tree = {
 			icon = GFX_goal_JAP_yen
 			prerequisite = { focus = JAP_reduce_spending } 
 			available = { 
+				NOT = { has_idea = JAP_SP_depression } 
 			}
 			x = 36
 			y = 4
@@ -1801,6 +1805,7 @@ focus_tree = {
 			prerequisite = { focus = JAP_steady_yen } 
 			prerequisite = { focus = JAP_indian_silk } 
 			available = { 
+				NOT = { has_idea = JAP_SP_depression } 
 			}
 			x = 35
 			y = 5
@@ -1826,6 +1831,7 @@ focus_tree = {
 			icon = GFX_focus_jap_zaibatsu
 			prerequisite = { focus = JAP_economy } 
 			available = { 
+				NOT = { has_idea = JAP_SP_depression } 
 			}
 			mutually_exclusive = { focus = JAP_mitigate_zaibatsu }
 			x = 33
@@ -1845,6 +1851,7 @@ focus_tree = {
 			icon = GFX_goal_production
 			prerequisite = { focus = JAP_empower_zaibatsu } 
 			available = { 
+				NOT = { has_idea = JAP_SP_depression } 
 			}
 			x = 33
 			y = 3
@@ -1866,6 +1873,7 @@ focus_tree = {
 			icon = GFX_goal_generic_national_unity
 			prerequisite = { focus = JAP_permanent_employment } 
 			available = { 
+				NOT = { has_idea = JAP_SP_depression } 
 			}
 			x = 33
 			y = 5
@@ -1887,6 +1895,7 @@ focus_tree = {
 			icon = GFX_Upset_the_Balance
 			prerequisite = { focus = JAP_economy } 
 			available = { 
+				NOT = { has_idea = JAP_SP_depression } 
 			}
 			mutually_exclusive = { focus = JAP_empower_zaibatsu }
 			x = 37
@@ -1906,6 +1915,7 @@ focus_tree = {
 			icon = GFX_SP_focus_trade_unions
 			prerequisite = { focus = JAP_mitigate_zaibatsu } 
 			available = { 
+				NOT = { has_idea = JAP_SP_depression } 
 			}
 			x = 37
 			y = 3
@@ -1927,6 +1937,7 @@ focus_tree = {
 			icon = GFX_goal_bag_of_money
 			prerequisite = { focus = JAP_farmers_unions } 
 			available = { 
+				NOT = { has_idea = JAP_SP_depression } 
 			}
 			x = 37
 			y = 5
@@ -1949,6 +1960,7 @@ focus_tree = {
 			prerequisite = { focus = JAP_business_funding focus = JAP_clique_cooperation } 
 			prerequisite = { focus = JAP_gold_standard } 
 			available = { 
+				NOT = { has_idea = JAP_SP_depression } 
 			}
 			x = 35
 			y = 6
@@ -1991,6 +2003,7 @@ focus_tree = {
 			id = JAP_recovery
 			icon = GFX_goal_economic_control
 			available = { 
+				has_idea = JAP_SP_depression
 			}
 			x = 35
 			y = 8
