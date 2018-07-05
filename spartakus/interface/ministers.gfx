@@ -19322,1979 +19322,490 @@ spriteTypes = {
 
 	#Head of Government
 	spriteType = {
-		name = "GFX_idea_CNT_Jose_Diaz_Ramos_hog_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Diaz_Ramos.tga"
+		name = "GFX_idea_SPR_Manuel_Carrasco_i_Formiguera_hog_ade"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Manuel_Carrasco_i_Formiguera.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Santiago_Carrillo_Solares_hog_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Santiago_Carrillo_Solares.tga"
+		name = "GFX_idea_SPR_Mateo_Torres_Bestard_hog_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Mateo_Torres_Bestard.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Antonio_Pinto_Quartim_hog_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Antonio_Pinto_Quartim.tga"
+		name = "GFX_idea_SPR_Miguel_Serra_Sucarrats_hog_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Miguel_Serra_Sucarrats.tga"
 	}
-
+	
 	spriteType = {
-		name = "GFX_idea_CNT_Joaquin_Ascaso_Budria_hog_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Joaquin_Ascaso_Budria.tga"
+		name = "GFX_idea_SPR_Jesus_Maria_de_Leizaola_hog_sco"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Jesus_Maria_de_Leizaola.tga"
 	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Francisco_Largo_Caballero_hog_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Francisco_Largo_Caballero.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Garcia_Oliver_hog_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Garcia_Oliver.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Negrin_Lopez_hog_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Negrin_Lopez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Luis_Jimenez_de_Asua_hog_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Luis_Jimenez_de_Asua.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Indalencio_Prieto_Tuero_hog_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Indalencio_Prieto_Tuero.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Giral_Pereira_hog_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Giral_Pereira.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Azana_Diaz_hog_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Azana_Diaz.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Santiago_Casares_Quiroga_hog_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Santiago_Casares_Quiroga.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Carles_Pi_Sunyer_hog_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Carles_Pi_Sunyer.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Diego_Martinez_Barrio_hog_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Diego_Martinez_Barrio.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Lorenzo_Carbonell_hog_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Lorenzo_Carbonell.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Claudio_Sanchez_Albornoz_hog_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Claudio_Sanchez_Albornoz.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Josep_Carner_i_Puig_Oriol_hog_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Josep_Carner_i_Puig_Oriol.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Portela_Valladares_hog_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Portela_Valladares.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Miguel_Maura_Gamazo_hog_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Miguel_Maura_Gamazo.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Maria_Gil_Robles_Quinones_hog_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Maria_Gil_Robles_Quinones.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Carrasco_i_Formiguera_hog_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Carrasco_i_Formiguera.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Mateo_Torres_Bestard_hog_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Mateo_Torres_Bestard.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Miguel_Serra_Sucarrats_hog_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Miguel_Serra_Sucarrats.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Alexandre_Boveda_Iglesias_hog_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Alexandre_Boveda_Iglesias.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jesus_Maria_de_Leizaola_hog_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jesus_Maria_de_Leizaola.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Santiago_Casares_Quiroga_hog_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Santiago_Casares_Quiroga.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Valentin_Paz_Andrade_hog_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Valentin_Paz_Andrade.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_JM_Gil_Robles_Quinones_hog_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_JM_Gil_Robles_Quinones.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Pedro_Mourlane_Michelena_hog_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Pedro_Mourlane_Michelena.tga"
-	}
-
 
 	#Foreign Minister
 	spriteType = {
-		name = "GFX_idea_CNT_Dolores_Ibaurri_Gomez_for_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Dolores_Ibaurri_Gomez.tga"
+		name = "GFX_idea_SPR_Jesus_Hernandez_y_Tomas_for_len"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Jesus_Hernandez_y_Tomas.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Jesus_Hernandez_y_Tomas_for_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jesus_Hernandez_y_Tomas.tga"
+		name = "GFX_idea_SPR_Diego_Abad_de_Santillan_for_mar"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Diego_Abad_de_Santillan.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Margarita_Nelken_for_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Margarita_Nelken.tga"
+		name = "GFX_idea_SPR_Joaquin_Maurin_Julia_for_mar"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Joaquin_Maurin_Julia.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Santiago_Carrillo_Solares_for_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Santiago_Carrillo_Solares.tga"
+		name = "GFX_idea_SPR_Alvaro_de_Albornoz_Liminiana_for_rev"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Alvaro_de_Albornoz_Liminiana.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Andreu_Nin_i_Perez_for_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Andreu_Nin_i_Perez.tga"
+		name = "GFX_idea_SPR_Augusto_Barcia_Trelles_for_sde"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Augusto_Barcia_Trelles.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Diego_Abad_de_Santillan_for_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Diego_Abad_de_Santillan.tga"
+		name = "GFX_idea_SPR_Lluis_Companys_i_Jover_for_sde"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Lluis_Companys_i_Jover.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Eduardo_de_Guzman_for_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Eduardo_de_Guzman.tga"
+		name = "GFX_idea_SPR_Angel_Osorio_y_Gallardo_for_sco"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Angel_Osorio_y_Gallardo.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Joaquin_Maurin_Julia_for_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Joaquin_Maurin_Julia.tga"
+		name = "GFX_idea_SPR_Manuel_de_Irujo_y_Ollo_for_sco"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Manuel_de_Irujo_y_Ollo.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Jose_Peirats_for_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Peirats.tga"
+		name = "GFX_idea_SPR_Emilio_de_Palacios_y_Fau_for_ade"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Emilio_de_Palacios_y_Fau.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Angel_Pestana_for_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Angel_Pestana.tga"
+		name = "GFX_idea_SPR_Eugeni_d'Ors_for_ade"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Eugeni_d'Ors.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Alvaro_de_Albornoz_Liminiana_for_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Alvaro_de_Albornoz_Liminiana.tga"
+		name = "GFX_idea_SPR_Jeroni_Alomar_for_ade"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Jeroni_Alomar.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Fernando_de_los_Rios_Urruti_for_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Fernando_de_los_Rios_Urruti.tga"
+		name = "GFX_idea_SPR_Manuel_Jimenez_Fernandez_for_ade"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Manuel_Jimenez_Fernandez.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Julian_Besteiro_Fernandez_for_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Julian_Besteiro_Fernandez.tga"
+		name = "GFX_idea_SPR_Salvio_Huix_Miralpeix_for_ade"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Salvio_Huix_Miralpeix.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Julio_Alvarez_del_Vayo_for_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Julio_Alvarez_del_Vayo.tga"
+		name = "GFX_idea_SPR_Llorenc_Vilallonga_for_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Llorenc_Vilallonga.tga"
 	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Victoria_Kent_for_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Victoria_Kent.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Augusto_Barcia_Trelles_for_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Augusto_Barcia_Trelles.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Bibiano_Fernandez_Ossorio_for_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Bibiano_Fernandez_Ossorio.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Francesc_Cambo_i_Batlle_for_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Francesc_Cambo_i_Batlle.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Giral_Pereira_for_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Giral_Pereira.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Lluis_Companys_i_Jover_for_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Lluis_Companys_i_Jover.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Azana_Diaz_for_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Azana_Diaz.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Santiago_Casares_Quiroga_for_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Santiago_Casares_Quiroga.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Sebastian_Pozas_Perea_for_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Sebastian_Pozas_Perea.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Diego_Hidalgo_Duran_for_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Diego_Hidalgo_Duran.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Diego_Martinez_Barrio_for_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Diego_Martinez_Barrio.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_F_Lopez_Goicoechea_Inchaurrandieta_for_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_F_Lopez_Goicoechea_Inchaurrandieta.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Rafael_Menacho_for_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Rafael_Menacho.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Ricardo_Samper_Ibanez_for_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Ricardo_Samper_Ibanez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Salvador_de_Madariaga_for_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Salvador_de_Madariaga.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Joaquin_Urzaiz_Cadaval_for_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Joaquin_Urzaiz_Cadaval.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Angel_Osorio_y_Gallardo_for_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Angel_Osorio_y_Gallardo.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Claudio_Sanchez_Albornoz_for_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Claudio_Sanchez_Albornoz.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jaume_Aiguader_y_Miro_for_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jaume_Aiguader_y_Miro.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_de_Irujo_y_Ollo_for_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_de_Irujo_y_Ollo.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Niceto_Alcala_Zamora_for_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Niceto_Alcala_Zamora.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Emilio_de_Palacios_y_Fau_for_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Emilio_de_Palacios_y_Fau.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Eugeni_d'Ors_for_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Eugeni_d'Ors.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jeroni_Alomar_for_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jeroni_Alomar.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Martinez_de_Velasco_for_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Martinez_de_Velasco.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Luis_Lucia_Lucia_for_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Luis_Lucia_Lucia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Jimenez_Fernandez_for_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Jimenez_Fernandez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Salvio_Huix_Miralpeix_for_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Salvio_Huix_Miralpeix.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Llorenc_Vilallonga_for_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Llorenc_Vilallonga.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Claudio_Sanchez_Albornoz_for_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Claudio_Sanchez_Albornoz.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_de_Areilza_y_Martinez_Rodas_for_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_de_Areilza_y_Martinez_Rodas.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Martinez_de_Velasco_for_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Martinez_de_Velasco.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Luis_Lucia_Lucia_for_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Luis_Lucia_Lucia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Niceto_Alcala_Zamora_for_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Niceto_Alcala_Zamora.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Alexandre_Boveda_Iglesias_for_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Alexandre_Boveda_Iglesias.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Francisco_Javier_de_Landaburu_for_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Francisco_Javier_de_Landaburu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Santiago_Casares_Quiroga_for_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Santiago_Casares_Quiroga.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Alberto_M_Artejo_Alvarez_for_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Alberto_M_Artejo_Alvarez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Francisco_Gomez_Jordana_y_Souza_for_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Francisco_Gomez_Jordana_y_Souza.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Lequerica_y_Erquiza_for_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Lequerica_y_Erquiza.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Beigbeder_Atienza_for_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Beigbeder_Atienza.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Luis_Beigbeder_Atienza_for_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Luis_Beigbeder_Atienza.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Ramon_Serrano_Suner_for_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Ramon_Serrano_Suner.tga"
-	}
-
 
 	#Economy Minister
-	spriteType = {
-		name = "GFX_idea_CNT_Enrique_Castro_Delgado_eco_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Enrique_Castro_Delgado.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Etelvino_Vega_Martinez_eco_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Etelvino_Vega_Martinez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jesus_Hernandez_y_Tomas_eco_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jesus_Hernandez_y_Tomas.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Comorera_y_Soler_eco_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Comorera_y_Soler.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Vicente_Uribe_Galdeano_eco_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Vicente_Uribe_Galdeano.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Angel_Pestana_eco_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Angel_Pestana.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Federica_Monsteny_Mane_eco_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Federica_Monsteny_Mane.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Joaquin_Ascaso_Budria_eco_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Joaquin_Ascaso_Budria.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Joaquin_Maurin_Julia_eco_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Joaquin_Maurin_Julia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Lopez_Sanchez_eco_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Lopez_Sanchez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Peiro_Belis_eco_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Peiro_Belis.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Ricardo_Sanz_Garcia_eco_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Ricardo_Sanz_Garcia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Belamino_Tomas_Alvarez_eco_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Belamino_Tomas_Alvarez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Felix_Gordon_Ordas_eco_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Felix_Gordon_Ordas.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Fernando_de_los_Rios_Urruti_eco_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Fernando_de_los_Rios_Urruti.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Francisco_Largo_Caballero_eco_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Francisco_Largo_Caballero.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Indalencio_Prieto_Tuero_eco_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Indalencio_Prieto_Tuero.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Joan_Peiro_eco_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Joan_Peiro.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Negrin_Lopez_eco_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Negrin_Lopez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Todolfo_Llopis_Ferrandiz_eco_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Todolfo_Llopis_Ferrandiz.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Bibiano_Fernandez_Ossorio_eco_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Bibiano_Fernandez_Ossorio.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Carles_Pi_i_Suner_eco_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Carles_Pi_i_Suner.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Francisco_Mendez_Aspe_eco_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Francisco_Mendez_Aspe.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Franklin_Albricias_Goetz_eco_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Franklin_Albricias_Goetz.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Giral_Pereira_eco_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Giral_Pereira.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Larraz_Lopez_eco_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Larraz_Lopez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Prat_Garcia_eco_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Prat_Garcia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Azana_Diaz_eco_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Azana_Diaz.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Santiago_Casares_Quiroga_eco_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Santiago_Casares_Quiroga.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Alejandro_Lerroux_Garcia_eco_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Alejandro_Lerroux_Garcia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Bernardo_Giner_de_los_Rios_Garcia_eco_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Bernardo_Giner_de_los_Rios_Garcia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Emilio_Herrera_eco_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Emilio_Herrera.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Josep_Puig_i_Cadafalch_eco_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Josep_Puig_i_Cadafalch.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Lluis_Nicolau_d'Olwer_eco_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Lluis_Nicolau_d'Olwer.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Lorenzo_Carbonell_eco_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Lorenzo_Carbonell.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Miguel_Nunez_de_Prado_eco_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Miguel_Nunez_de_Prado.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Josep_Tarradellas_eco_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Josep_Tarradellas.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Angel_Osorio_y_Gallardo_eco_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Angel_Osorio_y_Gallardo.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Diego_Hidalgo_Duran_eco_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Diego_Hidalgo_Duran.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Joaquin_Chapaprieta_Torregosa_eco_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Joaquin_Chapaprieta_Torregosa.tga"
-	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Jose_Mendizabal_y_Bonilla_eco_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Mendizabal_y_Bonilla.tga"
+		name = "GFX_idea_SPR_Jesus_Hernandez_y_Tomas_eco_len"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Jesus_Hernandez_y_Tomas.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Jose_Yanguas_Messia_eco_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Yanguas_Messia.tga"
+		name = "GFX_idea_SPR_Joaquin_Maurin_Julia_eco_mar"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Joaquin_Maurin_Julia.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Antoni_Goicoechea_i_Coscullela_eco_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Antoni_Goicoechea_i_Coscullela.tga"
+		name = "GFX_idea_SPR_Juan_Lopez_Sanchez_eco_mar"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Juan_Lopez_Sanchez.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Jose_Calvo_Sotelo_eco_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Calvo_Sotelo.tga"
+		name = "GFX_idea_SPR_Miguel_Nunez_de_Prado_eco_sli"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Miguel_Nunez_de_Prado.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Jose_Maria_Gil_Robles_Quinones_eco_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Maria_Gil_Robles_Quinones.tga"
+		name = "GFX_idea_SPR_Angel_Osorio_y_Gallardo_eco_sco"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Angel_Osorio_y_Gallardo.tga"
 	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Maria_Quinones_de_Leon_eco_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Maria_Quinones_de_Leon.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_March_Ordinas_eco_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_March_Ordinas.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Luis_Lucia_Lucia_eco_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Luis_Lucia_Lucia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Carrasco_i_Formiguera_eco_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Carrasco_i_Formiguera.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Ramon_Iglesias_Navarri_eco_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Ramon_Iglesias_Navarri.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Enrique_Fontana_i_Codina_eco_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Enrique_Fontana_i_Codina.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Fidel_Davila_eco_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Fidel_Davila.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Emilio_Herrera_eco_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Emilio_Herrera.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Joaquin_Chapaprieta_Torregosa_eco_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Joaquin_Chapaprieta_Torregosa.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Luis_Lucia_Lucia_eco_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Luis_Lucia_Lucia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Alexandre_Boveda_Iglesias_eco_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Alexandre_Boveda_Iglesias.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Fermin_Zarza_eco_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Fermin_Zarza.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Heliodoro_de_la_Torre_eco_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Heliodoro_de_la_Torre.tga"
-	}
-
+	
 	spriteType = {
-		name = "GFX_idea_CNT_Valentin_Paz_Andrade_eco_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Valentin_Paz_Andrade.tga"
+		name = "GFX_idea_SPR_Antoni_Goicoechea_i_Coscullela_eco_ade"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Antoni_Goicoechea_i_Coscullela.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Jose_de_Areilza_y_Martinez_Rodas_eco_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_de_Areilza_y_Martinez_Rodas.tga"
+		name = "GFX_idea_SPR_Jose_Maria_Quinones_de_Leon_eco_ade"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Jose_Maria_Quinones_de_Leon.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Mariano_Anso_eco_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Mariano_Anso.tga"
+		name = "GFX_idea_SPR_Manuel_Carrasco_i_Formiguera_eco_ade"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Manuel_Carrasco_i_Formiguera.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Jose_Luis_Arrese_Magra_eco_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Luis_Arrese_Magra.tga"
+		name = "GFX_idea_SPR_Ramon_Iglesias_Navarri_eco_ade"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Ramon_Iglesias_Navarri.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Juan_Vigon_Suerodiaz_eco_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Vigon_Suerodiaz.tga"
+		name = "GFX_idea_SPR_Enrique_Fontana_i_Codina_eco_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Enrique_Fontana_i_Codina.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Onesimo_Redondo_Ortega_eco_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Onesimo_Redondo_Ortega.tga"
+		name = "GFX_idea_SPR_Fidel_Davila_eco_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Fidel_Davila.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Rafael_Garcia_Valino_y_Marcen_eco_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Rafael_Garcia_Valino_y_Marcen.tga"
+		name = "GFX_idea_SPR_Rafael_Garcia_Valino_y_Marcen_eco_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Rafael_Garcia_Valino_y_Marcen.tga"
 	}
 
 
 	#Security Minister
 	spriteType = {
-		name = "GFX_idea_CNT_Antonio_Mije_sec_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Antonio_Mije.tga"
+		name = "GFX_idea_SPR_Angel_Osorio_y_Gallardo_sec_sco"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Angel_Osorio_y_Gallardo.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Dolores_Ibaurri_Gomez_sec_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Dolores_Ibaurri_Gomez.tga"
+		name = "GFX_idea_SPR_Manuel_de_Irujo_y_Ollo_sec_sco"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Manuel_de_Irujo_y_Ollo.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Joaquin_Grimau_Garcia_sec_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Joaquin_Grimau_Garcia.tga"
+		name = "GFX_idea_SPR_Jose_Maria_Quinones_de_Leon_sec_ade"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Jose_Maria_Quinones_de_Leon.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Jose_Diaz_Ramos_sec_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Diaz_Ramos.tga"
+		name = "GFX_idea_SPR_Jose_Maria_Albinana_y_Sanz_sec_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Jose_Maria_Albinana_y_Sanz.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Margarita_Nelken_sec_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Margarita_Nelken.tga"
+		name = "GFX_idea_SPR_Trinidad_Benjumea_sec_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Trinidad_Benjumea.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Santiago_Carrillo_Solares_sec_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Santiago_Carrillo_Solares.tga"
+		name = "GFX_idea_SPR_Jesus_Maria_de_Leizaola_sec_sco"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Jesus_Maria_de_Leizaola.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Valentin_Gonzalez_Gonzalez_sec_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Valentin_Gonzalez_Gonzalez.tga"
+		name = "GFX_idea_SPR_Esteban_Bilbao_sec_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Esteban_Bilbao.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Vicente_Uribe_Galdeano_sec_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Vicente_Uribe_Galdeano.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Andreu_Nin_i_Perez_sec_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Andreu_Nin_i_Perez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Buenaventura_Durruti_Dumange_sec_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Buenaventura_Durruti_Dumange.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Eduardo_de_Guzman_sec_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Eduardo_de_Guzman.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Exposito_Leiva_sec_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Exposito_Leiva.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Garcia_Oliver_sec_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Garcia_Oliver.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Melchor_Rodriguez_de_Galdeano_sec_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Melchor_Rodriguez_de_Galdeano.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Angel_Galarza_y_Gago_sec_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Angel_Galarza_y_Gago.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Antonio_Ortega_Gutierrez_sec_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Antonio_Ortega_Gutierrez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Joaquin_Ascaso_Budria_sec_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Joaquin_Ascaso_Budria.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Julian_Zugazagoitia_Mendieta_sec_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Julian_Zugazagoitia_Mendieta.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Ramon_Gonzalez_Pena_sec_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Ramon_Gonzalez_Pena.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Victoria_Kent_sec_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Victoria_Kent.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Wenceslao_Carrillo_Forjador_sec_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Wenceslao_Carrillo_Forjador.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Amos_Salvador_Carreras_sec_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Amos_Salvador_Carreras.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Marcelino_Domingo_Sanjuan_sec_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Marcelino_Domingo_Sanjuan.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Rafael_Altamira_sec_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Rafael_Altamira.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Santiago_Casares_Quiroga_sec_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Santiago_Casares_Quiroga.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Sebastian_Pozas_Perea_sec_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Sebastian_Pozas_Perea.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Alejandro_Lerroux_Garcia_sec_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Alejandro_Lerroux_Garcia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Diego_Martinez_Barrio_sec_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Diego_Martinez_Barrio.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Federico_Escofet_Alsina_sec_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Federico_Escofet_Alsina.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Maria_Benet_Capara_i_Rotes_sec_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Maria_Benet_Capara_i_Rotes.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Julio_Lopez_Olivan_sec_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Julio_Lopez_Olivan.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Pablo_de_Azcarate_y_Flores_sec_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Pablo_de_Azcarate_y_Flores.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Angel_Osorio_y_Gallardo_sec_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Angel_Osorio_y_Gallardo.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Martinez_de_Velasco_sec_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Martinez_de_Velasco.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_de_Irujo_y_Ollo_sec_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_de_Irujo_y_Ollo.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Portela_Valladares_sec_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Portela_Valladares.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Mariano_Gomez_sec_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Mariano_Gomez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Miguel_Maura_Gamazo_sec_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Miguel_Maura_Gamazo.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Maria_Quinones_de_Leon_sec_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Maria_Quinones_de_Leon.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Tomas_Garciano_Goni_sec_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Tomas_Garciano_Goni.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Maria_Albinana_y_Sanz_sec_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Maria_Albinana_y_Sanz.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Trinidad_Benjumea_sec_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Trinidad_Benjumea.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Miguel_Maura_Gamazo_sec_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Miguel_Maura_Gamazo.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Antonio_Roson_sec_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Antonio_Roson.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jesus_Maria_de_Leizaola_sec_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jesus_Maria_de_Leizaola.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Blas_Perez_Gonzalez_sec_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Blas_Perez_Gonzalez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Dionisio_Ridruejo_sec_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Dionisio_Ridruejo.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Millan_Astray_sec_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Millan_Astray.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Luis_Valdes_Cavanillas_sec_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Luis_Valdes_Cavanillas.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Miguel_Ponte_Manso_de_Zuniga_sec_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Miguel_Ponte_Manso_de_Zuniga.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Severiano_Martinez_Anido_sec_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Severiano_Martinez_Anido.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Valentin_Galarza_Morante_sec_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Valentin_Galarza_Morante.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Esteban_Bilbao_sec_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Esteban_Bilbao.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Gonzalo_Queipo_de_Llano_sec_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Gonzalo_Queipo_de_Llano.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Pedro_Mourlane_Michelena_sec_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Pedro_Mourlane_Michelena.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Rafael_Sanchez_Mazas_sec_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Rafael_Sanchez_Mazas.tga"
+		name = "GFX_idea_SPR_Rafael_Sanchez_Mazas_sec_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Rafael_Sanchez_Mazas.tga"
 	}
 
 
 	#Intel Minister
+
 	spriteType = {
-		name = "GFX_idea_CNT_Daniel_Ortega_Martinez_int_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Daniel_Ortega_Martinez.tga"
+		name = "GFX_idea_SPR_Jesus_Hernandez_y_Tomas_int_len"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Jesus_Hernandez_y_Tomas.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Jesus_Hernandez_y_Tomas_int_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jesus_Hernandez_y_Tomas.tga"
+		name = "GFX_idea_SPR_Juan_Lopez_Sanchez_int_mar"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Juan_Lopez_Sanchez.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Juan_Comorera_y_Soler_int_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Comorera_y_Soler.tga"
+		name = "GFX_idea_SPR_Alvaro_de_Albornoz_Liminiana_int_rev"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Alvaro_de_Albornoz_Liminiana.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Rafael_Videlia_Rubio_int_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Rafael_Videlia_Rubio.tga"
+		name = "GFX_idea_SPR_Gustavo_Duran_Martinez_int_rev"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Gustavo_Duran_Martinez.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Santiago_Carrillo_Solares_int_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Santiago_Carrillo_Solares.tga"
+		name = "GFX_idea_SPR_Juan_Hernandez_Sarabia_int_rev"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Juan_Hernandez_Sarabia.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Angel_Pestana_int_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Angel_Pestana.tga"
+		name = "GFX_idea_SPR_Juan_Botella_int_sde"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Juan_Botella.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Federica_Monsteny_Mane_int_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Federica_Monsteny_Mane.tga"
+		name = "GFX_idea_SPR_Manuel_Estrada_Manchon_int_sli"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Manuel_Estrada_Manchon.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Juan_Lopez_Sanchez_int_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Lopez_Sanchez.tga"
+		name = "GFX_idea_SPR_Josep_Bertran_i_Musitu_int_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Josep_Bertran_i_Musitu.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Julian_Gorkin_Gomez_Garcia_int_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Julian_Gorkin_Gomez_Garcia.tga"
+		name = "GFX_idea_SPR_Victor_Ensenat_Martinez_int_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Victor_Ensenat_Martinez.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Mariano_Vazquez_Rodriguez_int_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Mariano_Vazquez_Rodriguez.tga"
+		name = "GFX_idea_SPR_Angel_Herrera_Oria_int_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Angel_Herrera_Oria.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Ricardo_Sanz_Garcia_int_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Ricardo_Sanz_Garcia.tga"
+		name = "GFX_idea_SPR_Javier_Cid_Toubes_int_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Javier_Cid_Toubes.tga"
 	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Alvaro_de_Albornoz_Liminiana_int_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Alvaro_de_Albornoz_Liminiana.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Felix_Gordon_Ordas_int_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Felix_Gordon_Ordas.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Francisco_Ascaso_Budria_int_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Francisco_Ascaso_Budria.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Gustavo_Duran_Martinez_int_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Gustavo_Duran_Martinez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Hernandez_Sarabia_int_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Hernandez_Sarabia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Benjamin_Balboa_Lopez_int_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Benjamin_Balboa_Lopez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Francisco_Mendez_Aspe_int_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Francisco_Mendez_Aspe.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Giral_Pereira_int_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Giral_Pereira.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Josep_Tarradellas_y_Joan_int_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Josep_Tarradellas_y_Joan.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Botella_int_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Botella.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Torres_Campana_int_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Torres_Campana.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Vicent_Guarner_Vivancos_int_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Vicent_Guarner_Vivancos.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Alejandro_Lerroux_Garcia_int_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Alejandro_Lerroux_Garcia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Prat_Garcia_int_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Prat_Garcia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Estrada_Manchon_int_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Estrada_Manchon.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Pujol_i_Garcia_int_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Pujol_i_Garcia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Mariano_Anso_Zungarren_int_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Mariano_Anso_Zungarren.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Diego_Hidalgo_Duran_int_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Diego_Hidalgo_Duran.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Joaquin_Chapaprieta_Torregosa_int_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Joaquin_Chapaprieta_Torregosa.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_March_Ordinas_int_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_March_Ordinas.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Matallana_Gomez_int_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Matallana_Gomez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Ricardo_Samper_Ibanez_int_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Ricardo_Samper_Ibanez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Luis_Lucia_Lucia_int_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Luis_Lucia_Lucia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Luis_Orgaz_Yoldi_int_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Luis_Orgaz_Yoldi.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Josep_Bertran_i_Musitu_int_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Josep_Bertran_i_Musitu.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Victor_Ensenat_Martinez_int_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Victor_Ensenat_Martinez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Joaquin_Chapaprieta_Torregosa_int_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Joaquin_Chapaprieta_Torregosa.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_March_Ordinas_int_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_March_Ordinas.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Luis_Lucia_Lucia_int_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Luis_Lucia_Lucia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Ricardo_Samper_Ibanez_int_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Ricardo_Samper_Ibanez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Ajuriaguerra_int_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Ajuriaguerra.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Antonio_Barroso_Sanchez_Guerra_int_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Antonio_Barroso_Sanchez_Guerra.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Vigon_Suerodiaz_int_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Vigon_Suerodiaz.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Angel_Herrera_Oria_int_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Angel_Herrera_Oria.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Javier_Cid_Toubes_int_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Javier_Cid_Toubes.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Vigon_Suerodiaz_int_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Vigon_Suerodiaz.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Onesimo_Redondo_Ortega_int_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Onesimo_Redondo_Ortega.tga"
-	}
-
 
 	#Chief of Staff
 	spriteType = {
-		name = "GFX_idea_CNT_Antonio_Cordon_Garcia_cos_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Antonio_Cordon_Garcia.tga"
+		name = "GFX_idea_SPR_Frank_Ryan_cos_len"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Frank_Ryan.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Emilio_Kleber_cos_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Emilio_Kleber.tga"
+		name = "GFX_idea_SPR_Juan_Modesto_Guilloto_cos_len"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Juan_Modesto_Guilloto.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Enrique_Lister_Forjan_cos_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Enrique_Lister_Forjan.tga"
+		name = "GFX_idea_SPR_Cipriano_Mera_Sanz_cos_mar"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Cipriano_Mera_Sanz.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Francisco_Galan_Rodriguez_cos_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Francisco_Galan_Rodriguez.tga"
+		name = "GFX_idea_SPR_Arturo_Mena_Roig_cos_rev"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Arturo_Mena_Roig.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Frank_Ryan_cos_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Frank_Ryan.tga"
+		name = "GFX_idea_SPR_Gustavo_Duran_Martinez_cos_rev"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Gustavo_Duran_Martinez.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Juan_Modesto_Guilloto_cos_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Modesto_Guilloto.tga"
+		name = "GFX_idea_SPR_Juan_Hernandez_Sarabia_cos_rev"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Juan_Hernandez_Sarabia.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Taguena_Lacorte_cos_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Taguena_Lacorte.tga"
+		name = "GFX_idea_SPR_Juan_Perea_Capulino_cos_rev"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Juan_Perea_Capulino.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Buenaventura_Durruti_Dumange_cos_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Buenaventura_Durruti_Dumange.tga"
+		name = "GFX_idea_SPR_Enrique_Jurado_Barrio_cos_sde"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Enrique_Jurado_Barrio.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Cipriano_Mera_Sanz_cos_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Cipriano_Mera_Sanz.tga"
+		name = "GFX_idea_SPR_Luis_Castello_Pantoja_cos_sde"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Luis_Castello_Pantoja.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SPR_Manuel_Estrada_Manchon_cos_sli"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Manuel_Estrada_Manchon.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Francisco_Ascaso_Budria_cos_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Francisco_Ascaso_Budria.tga"
+		name = "GFX_idea_SPR_Rodolfo_Llopis_cos_sli"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Rodolfo_Llopis.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Miguel_Garcia_Vivancos_cos_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Miguel_Garcia_Vivancos.tga"
+		name = "GFX_idea_SPR_Toribio_Martinez_Cabrera_cos_sli"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Toribio_Martinez_Cabrera.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Vicente_Guarner_Vivancos_cos_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Vicente_Guarner_Vivancos.tga"
+		name = "GFX_idea_SPR_Fidel_Davila_cos_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Fidel_Davila.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Arturo_Mena_Roig_cos_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Arturo_Mena_Roig.tga"
+		name = "GFX_idea_SPR_Manuel_Goded_Llopis_cos_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Manuel_Goded_Llopis.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Gustavo_Duran_Martinez_cos_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Gustavo_Duran_Martinez.tga"
+		name = "GFX_idea_SPR_Jesus_Maria_de_Leizaola_cos_sco"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Jesus_Maria_de_Leizaola.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Juan_Hernandez_Sarabia_cos_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Hernandez_Sarabia.tga"
+		name = "GFX_idea_SPR_Jose_Enrique_Varela_cos_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Jose_Enrique_Varela.tga"
 	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Perea_Capulino_cos_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Perea_Capulino.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Vicente_Rojo_Lluch_cos_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Vicente_Rojo_Lluch.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Carlos_Masquelet_Lacaci_cos_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Carlos_Masquelet_Lacaci.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Enrique_Jurado_Barrio_cos_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Enrique_Jurado_Barrio.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Enrique_Perez_Farras_cos_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Enrique_Perez_Farras.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Luis_Castello_Pantoja_cos_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Luis_Castello_Pantoja.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Sebastian_Pozas_Perea_cos_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Sebastian_Pozas_Perea.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Estrada_Manchon_cos_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Estrada_Manchon.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Rodolfo_Llopis_cos_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Rodolfo_Llopis.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Toribio_Martinez_Cabrera_cos_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Toribio_Martinez_Cabrera.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Domingo_Batet_Mestre_cos_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Domingo_Batet_Mestre.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Miaja_Menant_cos_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Miaja_Menant.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Moles_Ormella_cos_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Moles_Ormella.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Joaquin_Fanjul_Goni_cos_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Joaquin_Fanjul_Goni.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Luis_Orgaz_Yoldi_cos_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Luis_Orgaz_Yoldi.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Fidel_Davila_cos_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Fidel_Davila.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Goded_Llopis_cos_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Goded_Llopis.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jesus_Maria_de_Leizaola_cos_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jesus_Maria_de_Leizaola.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Yague_Blanco_cos_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Yague_Blanco.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Gonzalo_Queipo_de_Llano_cos_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Gonzalo_Queipo_de_Llano.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Enrique_Varela_cos_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Enrique_Varela.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Onesimo_Redondo_Ortega_cos_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Onesimo_Redondo_Ortega.tga"
-	}
-
 
 	#Chief of Army
+
 	spriteType = {
-		name = "GFX_idea_CNT_Antonio_Cordon_Garcia_carm_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Antonio_Cordon_Garcia.tga"
+		name = "GFX_idea_SPR_Juan_Modesto_Guilloto_carm_len"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Juan_Modesto_Guilloto.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Enrique_Lister_Forjan_carm_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Enrique_Lister_Forjan.tga"
+		name = "GFX_idea_SPR_Cipriano_Mera_Sanz_carm_mar"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Cipriano_Mera_Sanz.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Etelvino_Vega_Martinez_carm_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Etelvino_Vega_Martinez.tga"
+		name = "GFX_idea_SPR_Arturo_Mena_Roig_carm_rev"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Arturo_Mena_Roig.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Juan_Modesto_Guilloto_carm_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Modesto_Guilloto.tga"
+		name = "GFX_idea_SPR_Gustavo_Duran_Martinez_carm_rev"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Gustavo_Duran_Martinez.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Taguena_Lacorte_carm_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Taguena_Lacorte.tga"
+		name = "GFX_idea_SPR_Juan_Hernandez_Sarabia_carm_rev"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Juan_Hernandez_Sarabia.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Buenaventura_Durruti_Dumange_carm_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Buenaventura_Durruti_Dumange.tga"
+		name = "GFX_idea_SPR_Juan_Perea_Capulino_carm_rev"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Juan_Perea_Capulino.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Cipriano_Mera_Sanz_carm_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Cipriano_Mera_Sanz.tga"
+		name = "GFX_idea_SPR_Enrique_Jurado_Barrio_carm_sde"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Enrique_Jurado_Barrio.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Francisco_Ascaso_Budria_carm_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Francisco_Ascaso_Budria.tga"
+		name = "GFX_idea_SPR_Luis_Castello_Pantoja_carm_sde"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Luis_Castello_Pantoja.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Miguel_Garcia_Vivancos_carm_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Miguel_Garcia_Vivancos.tga"
+		name = "GFX_idea_SPR_Domenech_Batet_Mestre_carm_sli"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Domenech_Batet_Mestre.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Vicente_Guarner_Vivancos_carm_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Vicente_Guarner_Vivancos.tga"
+		name = "GFX_idea_SPR_Manuel_Estrada_Manchon_carm_sli"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Manuel_Estrada_Manchon.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Arturo_Mena_Roig_carm_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Arturo_Mena_Roig.tga"
+		name = "GFX_idea_SPR_Toribio_Martinez_Cabrera_carm_sli"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Toribio_Martinez_Cabrera.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Gregorio_Jover_carm_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Gregorio_Jover.tga"
+		name = "GFX_idea_SPR_Jose_Antonio_de_Aguirre_y_Lecube_carm_sco"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Jose_Antonio_de_Aguirre_y_Lecube.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Gustavo_Duran_Martinez_carm_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Gustavo_Duran_Martinez.tga"
+		name = "GFX_idea_SPR_Nicolas_Molero_Lobo_carm_sco"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Nicolas_Molero_Lobo.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Juan_Hernandez_Sarabia_carm_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Hernandez_Sarabia.tga"
+		name = "GFX_idea_SPR_Fidel_Davila_carm_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Fidel_Davila.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Juan_Perea_Capulino_carm_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Perea_Capulino.tga"
+		name = "GFX_idea_SPR_Luis_Garcia_Ruiz_carm_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Luis_Garcia_Ruiz.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Vicente_Rojo_Lluch_carm_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Vicente_Rojo_Lluch.tga"
+		name = "GFX_idea_SPR_Rafael_Garcia_Valino_y_Marcen_carm_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Rafael_Garcia_Valino_y_Marcen.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Enrique_Jurado_Barrio_carm_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Enrique_Jurado_Barrio.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jaume_Bosch_i_Grassi_carm_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jaume_Bosch_i_Grassi.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Luis_Castello_Pantoja_carm_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Luis_Castello_Pantoja.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Azana_Diaz_carm_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Azana_Diaz.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Sebastian_Pozas_Perea_carm_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Sebastian_Pozas_Perea.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Carlos_Masquelet_Lacaci_carm_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Carlos_Masquelet_Lacaci.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Domenech_Batet_Mestre_carm_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Domenech_Batet_Mestre.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Eixea_carm_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Eixea.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Manuel_Estrada_Manchon_carm_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Manuel_Estrada_Manchon.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Toribio_Martinez_Cabrera_carm_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Toribio_Martinez_Cabrera.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Vicente_Llano_De_La_Encomienda_carm_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Vicente_Llano_De_La_Encomienda.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Domingo_Batet_Mestre_carm_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Domingo_Batet_Mestre.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Antonio_de_Aguirre_y_Lecube_carm_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Antonio_de_Aguirre_y_Lecube.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Miaja_Menant_carm_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Miaja_Menant.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Nicolas_Molero_Lobo_carm_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Nicolas_Molero_Lobo.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Antonio_Aranda_Mata_carm_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Antonio_Aranda_Mata.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Joaquin_Fanjul_Goni_carm_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Joaquin_Fanjul_Goni.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Maria_Gil_Robles_Quinones_carm_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Maria_Gil_Robles_Quinones.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Fidel_Davila_carm_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Fidel_Davila.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Luis_Garcia_Ruiz_carm_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Luis_Garcia_Ruiz.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Antonio_Ortega_carm_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Antonio_Ortega.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Saturnino_Bengoa_carm_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Saturnino_Bengoa.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Yague_Blanco_carm_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Yague_Blanco.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Rafael_Garcia_Valino_carm_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Rafael_Garcia_Valino.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Gonzalo_Queipo_de_Llano_carm_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Gonzalo_Queipo_de_Llano.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Onesimo_Redondo_Ortega_carm_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Onesimo_Redondo_Ortega.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Rafael_Garcia_Valino_y_Marcen_carm_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Rafael_Garcia_Valino_y_Marcen.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Ricardo_de_Rada_del_Peral_carm_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Ricardo_de_Rada_del_Peral.tga"
+		name = "GFX_idea_SPR_Ricardo_de_Rada_del_Peral_carm_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Ricardo_de_Rada_del_Peral.tga"
 	}
 
 
 	#Chief of Navy
+
 	spriteType = {
-		name = "GFX_idea_CNT_Francisco_Galan_Rodriguez_cnav_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Francisco_Galan_Rodriguez.tga"
+		name = "GFX_idea_SPR_Juan_Lopez_Sanchez_cnav_mar"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Juan_Lopez_Sanchez.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Pedro_Fernandez_Checa_cnav_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Pedro_Fernandez_Checa.tga"
+		name = "GFX_idea_SPR_Indalecio_Prieto_Tuero_cnav_rev"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Indalecio_Prieto_Tuero.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SPR_Lluis_Companys_i_Jover_cnav_sde"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Lluis_Companys_i_Jover.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Pedro_Prado_Mendizabal_cnav_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Pedro_Prado_Mendizabal.tga"
+		name = "GFX_idea_SPR_Salvador_Moreno_Fernandez_cnav_ade"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Salvador_Moreno_Fernandez.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Vicente_Uribe_Galdeano_cnav_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Vicente_Uribe_Galdeano.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Lopez_Sanchez_cnav_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Lopez_Sanchez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Peiro_Belis_cnav_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Peiro_Belis.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Andres_Saborit_Colomer_cnav_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Andres_Saborit_Colomer.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Bruno_Alonso_cnav_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Bruno_Alonso.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Indalecio_Prieto_Tuero_cnav_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Indalecio_Prieto_Tuero.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Joaquin_Julio_Maurin_cnav_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Joaquin_Julio_Maurin.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Luis_Gonzalez_Ubieta_cnav_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Luis_Gonzalez_Ubieta.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Constante_Alona_cnav_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Constante_Alona.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Jose_Giral_Pereira_cnav_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Jose_Giral_Pereira.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Lluis_Companys_i_Jover_cnav_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Lluis_Companys_i_Jover.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Santiago_Casares_Quiroga_cnav_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Santiago_Casares_Quiroga.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Antonio_Azarola_Gresillon_cnav_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Antonio_Azarola_Gresillon.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Antonio_Ruiz_Funes_Garcia_cnav_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Antonio_Ruiz_Funes_Garcia.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Josep_Tarradellas_cnav_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Josep_Tarradellas.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Miguel_Buiza_Palacios_cnav_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Miguel_Buiza_Palacios.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Miguel_Maura_Gamazo_cnav_sco"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Miguel_Maura_Gamazo.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Francisco_Nunez_de_Olaneta_cnav_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Francisco_Nunez_de_Olaneta.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Antonio_Azarola_Gresillon_cnav_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Antonio_Azarola_Gresillon.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Miguel_Maura_Gamazo_cnav_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Miguel_Maura_Gamazo.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Carlos_Bareda_Terry_cnav_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Carlos_Bareda_Terry.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Francisco_Reglado_Rodriguez_cnav_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Francisco_Reglado_Rodriguez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Luis_Carrero_Blanco_cnav_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Luis_Carrero_Blanco.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Salvador_Moreno_Fernandez_cnav_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Salvador_Moreno_Fernandez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Salvador_Moreno_cnav_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Salvador_Moreno.tga"
+		name = "GFX_idea_SPR_Salvador_Moreno_cnav_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Salvador_Moreno.tga"
 	}
 
 
 	#Chief of Air Force
+
 	spriteType = {
-		name = "GFX_idea_CNT_Pedro_Fernandez_Checa_cair_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Pedro_Fernandez_Checa.tga"
+		name = "GFX_idea_SPR_Juan_Lopez_Sanchez_cair_mar"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Juan_Lopez_Sanchez.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Vicente_Uribe_Galdeano_cair_len"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Vicente_Uribe_Galdeano.tga"
+		name = "GFX_idea_SPR_Ventura_Gassol_Rovira_cair_mar"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Ventura_Gassol_Rovira.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Juan_Lopez_Sanchez_cair_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Lopez_Sanchez.tga"
+		name = "GFX_idea_SPR_Indalecio_Prieto_Tuero_cair_rev"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Indalecio_Prieto_Tuero.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Juan_Peiro_Belis_cair_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Peiro_Belis.tga"
+		name = "GFX_idea_SPR_Lluis_Companys_i_Jover_cair_sde"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Lluis_Companys_i_Jover.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SPR_Miguel_Nunez_de_Prado_cair_sli"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Miguel_Nunez_de_Prado.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Mariano_Vazquez_Rodriguez_cair_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Mariano_Vazquez_Rodriguez.tga"
+		name = "GFX_idea_SPR_Luis_Rambaud_Goma_cair_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Luis_Rambaud_Goma.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_CNT_Ventura_Gassol_Rovira_cair_mar"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Ventura_Gassol_Rovira.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Ignacio_Hidalgo_de_Cisneros_cair_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Ignacio_Hidalgo_de_Cisneros.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Indalecio_Prieto_Tuero_cair_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Indalecio_Prieto_Tuero.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Trifon_Gomez_San_Jose_cair_rev"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Trifon_Gomez_San_Jose.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Angel_Camacho_Benitez_cair_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Angel_Camacho_Benitez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Felipe_Diaz_Sandino_cair_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Felipe_Diaz_Sandino.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Julio_Just_Gimeno_cair_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Julio_Just_Gimeno.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Lluis_Companys_i_Jover_cair_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Lluis_Companys_i_Jover.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Maria_Lejarraga_de_Martinez_cair_sde"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Maria_Lejarraga_de_Martinez.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Angel_Pastor_Velasco_cair_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Angel_Pastor_Velasco.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Miguel_Nunez_de_Prado_cair_sli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Miguel_Nunez_de_Prado.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Diego_Hidalgo_Duran_cair_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Diego_Hidalgo_Duran.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Emilio_Herrera_cair_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Emilio_Herrera.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Luis_Rambaud_Goma_cair_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Luis_Rambaud_Goma.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Andres_Saliquet_Zumeta_cair_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Andres_Saliquet_Zumeta.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Camilo_Alonso_Vega_cair_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Camilo_Alonso_Vega.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Emilio_Herrera_cair_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Emilio_Herrera.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Rudolf_von_Moreau_cair_mli"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Rudolf_von_Moreau.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Eduardo_Gonzalez_Gallarza_cair_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Eduardo_Gonzalez_Gallarza.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Vigon_Suerodiaz_cair_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Vigon_Suerodiaz.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Yague_Blanco_cair_ade"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Yague_Blanco.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Joaquin_Garcia_Morato_y_Castano_cair_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Joaquin_Garcia_Morato_y_Castano.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_CNT_Juan_Vigon_Suerodiaz_cair_rwp"
-		texturefile = "gfx/interface/ministers/CNT/CNT_Juan_Vigon_Suerodiaz.tga"
+		name = "GFX_idea_SPR_Joaquin_Garcia_Morato_y_Castano_cair_rwp"
+		texturefile = "gfx/interface/ministers/SPR/SPR_Joaquin_Garcia_Morato_y_Castano.tga"
 	}
 
 
