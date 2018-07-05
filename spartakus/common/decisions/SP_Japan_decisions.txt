@@ -1,0 +1,673 @@
+
+
+# South Pacific
+JAP_decisions_nanko = {
+
+	JAP_dec_okinawa_workers = { 
+		icon = GFX_decision_generic_political_discourse
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+        }
+        cost = 50
+        complete_effect = {
+			1159 = {
+				add_manpower = 6000
+			}
+			684 = {
+				add_manpower = 6000
+			}
+			1161 = {
+				add_manpower = 6000
+			}
+			1160 = {
+				add_manpower = 6000
+			}
+			633 = {
+				add_manpower = 6000
+			}
+			1158 = {
+				add_manpower = 6000
+			}
+			1157 = {
+				add_manpower = 6000
+			}
+		}
+	}
+	JAP_dec_pacific_settlers_1 = { 
+		icon = GFX_decision_generic_political_discourse
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+        }
+        cost = 100
+        complete_effect = {
+			646 = {
+				add_manpower = 10000
+			}
+			647 = {
+				add_manpower = 10000
+			}
+		}
+	}
+	JAP_dec_pacific_settlers_2 = { 
+		icon = GFX_decision_generic_political_discourse
+		fire_only_once = yes
+		days_remove = 5
+		visible = {
+			has_decision = JAP_dec_pacific_settlers_1
+		}
+        available = {
+        }
+        cost = 100
+        complete_effect = {
+			646 = {
+				add_manpower = 6000
+			}
+			647 = {
+				add_manpower = 6000
+			}
+		}
+	}
+	JAP_dec_develop_palau = { 
+		icon = GFX_decision_generic_construction
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+        }
+        cost = 50
+        complete_effect = {
+			647 = {
+				add_building_construction = { 
+					type = infrastructure 
+					level = 1
+					instant_build = yes
+				} 
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 4
+			}
+			
+          }
+	}
+	JAP_dec_develop_marshall = { 
+		icon = GFX_decision_generic_construction
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+        }
+        cost = 50
+        complete_effect = {
+			633 = {
+				add_manpower = 3000
+				add_building_construction = { 
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			1158 = {
+				add_manpower = 3000
+				add_building_construction = { 
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			1162 = {
+				add_building_construction = { 
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			1157 = {
+				add_building_construction = { 
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			1162 = {
+				add_building_construction = { 
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	JAP_dec_trade_timor = { 
+		icon = GFX_decision_generic_independence
+		fire_only_once = yes
+		days_remove = 5
+		visible = {	
+			PRM = { owns_state = 721 }
+		}
+        available = {
+			AND = {
+				has_decision = JAP_dec_develop_marshall
+				has_decision = JAP_dec_develop_palau
+			}
+			NOT = { 
+				has_war_with = HOL
+			}
+        }
+        cost = 100
+        complete_effect = {
+			add_offsite_building = { type = industrial_complex level = 3 }
+			HOL = { add_opinion_modifier = {
+				target = JAP
+				modifier = JAP_timor_negative
+			} }
+			PRM = { add_opinion_modifier = {
+				target = JAP
+				modifier = JAP_timor_positive
+			} }
+		}
+	}
+	
+	JAP_dec_ijn_forts = { 
+		icon = GFX_decision_generic_fort
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+        }
+        cost = 50
+        complete_effect = {
+			648 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					instant_build = yes
+					province = 13026
+				}
+			}
+			645 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					instant_build = yes
+					province = 13025
+				}
+			}
+			647 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					instant_build = yes
+					province = 4357
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					instant_build = yes
+					province = 12103
+				}
+			}
+          }
+	}
+	JAP_dec_ijn_truk = { 
+		icon = GFX_decision_generic_anchor
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+			has_decision = JAP_dec_ijn_forts
+        }
+        cost = 100
+        complete_effect = {
+			1161 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 4
+					instant_build = yes
+					province = 2489
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 4
+			}
+			
+          }
+	}
+}
+
+JAP_decisions_corporate_government = {
+	JAP_dec_buy_nauru = { 
+		icon = GFX_decision_generic_naval
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+			AST = { owns_state = 725 }
+			NOT = { 
+				has_war_with = AST
+				has_war_with = ENG
+			}
+        }
+        cost = 150
+        complete_effect = {
+			AST = {
+				country_event = {
+				id = jap.9
+				days = 3
+				}
+			}
+		}
+	}
+}
+
+JAP_decisions_naval_government = {
+	JAP_dec_ijn_yap = { 
+		icon = GFX_decision_generic_anchor
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+        }
+        cost = 50
+        complete_effect = {
+			1159 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 4
+					instant_build = yes
+					province = 13028
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					instant_build = yes
+					province = 13029
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					instant_build = yes
+					province = 13027
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+          }
+	}
+	JAP_dec_ijn_admin_truk = { 
+		icon = GFX_decision_generic_anchor
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+        }
+        cost = 50
+        complete_effect = {
+			1161 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 4
+					instant_build = yes
+					province = 2489
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+			
+          }
+	}
+	JAP_dec_ijn_engebi = { 
+		icon = GFX_decision_generic_anchor
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+        }
+        cost = 50
+        complete_effect = {
+			633 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 4
+					instant_build = yes
+					province = 13046
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+			}
+			
+          }
+	}
+	JAP_dec_ijn_civilians = { 
+		icon = GFX_decision_jap_pacific_guardian
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+        }
+        cost = 100
+        complete_effect = {
+			647 = {
+				add_building_construction = { 
+					type = coastal_bunker 
+					level = 5
+					instant_build = yes
+					province = 12103
+				} 
+				add_building_construction = { 
+					type = coastal_bunker 
+					level = 5
+					instant_build = yes
+					province = 4357
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 3
+					instant_build = yes
+				}
+			}
+			646 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+      }
+	}
+	JAP_dec_ijn_mandate_shipping = { 
+		icon = GFX_decision_generic_naval
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+			AND = { 
+				has_decision = JAP_dec_ijn_admin_truk
+				has_decision = JAP_dec_ijn_yap
+				has_decision = JAP_dec_ijn_engebi
+			}
+        }
+        cost = 150
+        complete_effect = {
+			add_timed_idea = {
+				idea = JAP_SP_mandate_naval_expansion
+				days = 250
+			}
+			USA = { add_opinion_modifier = {
+				target = JAP
+				modifier = JAP_pacific_buildup
+			} }
+          }
+	}
+}
+
+JAP_decisions_economy = {
+	JAP_dec_subway_1 = { 
+		icon = GFX_decision_generic_construction
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+        }
+        cost = 80
+        complete_effect = {
+			282 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	JAP_dec_subway_2 = { 
+		icon = GFX_decision_generic_construction
+		fire_only_once = yes
+		days_remove = 5
+		visible = {
+			has_decision = JAP_dec_subway_1
+		}
+        available = {
+        }
+        cost = 120
+        complete_effect = {
+			282 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	JAP_dec_regional_railways = { 
+		icon = GFX_decision_generic_decision
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+        }
+        cost = 50
+        complete_effect = {
+			528 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			529 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			530 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			531 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			532 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			533 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			534 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			535 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			536 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	JAP_dec_south_factories = { 
+		icon = GFX_decision_ger_military_buildup
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+        }
+        cost = 100
+        complete_effect = {
+			528 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			529 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			530 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	JAP_dec_north_factories = { 
+		icon = GFX_decision_generic_industry
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+        }
+        cost = 100
+        complete_effect = {
+			533 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			536 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	JAP_dec_exploit_aluminium = { 
+		icon = GFX_decision_aluminium
+		fire_only_once = yes
+		days_remove = 5
+        available = {
+			has_tech = excavation2
+        }
+        cost = 100
+        complete_effect = {
+			531 = {
+				add_state_modifier = {
+					modifier = {
+						local_resources = 0.5
+					}
+				}
+			}
+			282 = {
+				add_state_modifier = {
+					modifier = {
+						local_resources = 0.5
+					}
+				}
+			}
+		}
+	}
+	JAP_dec_oil_effort = { 
+		icon = GFX_decision_oil
+		fire_only_once = yes
+		days_remove = 150
+        available = {
+			has_tech = oil_processing
+        }
+        cost = 100
+		modifier = {
+			civilian_factory_use = 3
+			production_speed_synthetic_refinery_factor = 0.25
+		}
+        complete_effect = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 1
+			}
+		}
+	}
+}

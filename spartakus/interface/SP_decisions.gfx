@@ -1,0 +1,12 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_decision_generic_fort"
+		texturefile = "gfx/interface/decisions/decision_generic_fort.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_generic_anchor"
+		texturefile = "gfx/interface/decisions/decision_generic_anchor.dds"
+	}
+}

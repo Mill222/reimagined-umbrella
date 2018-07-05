@@ -240,7 +240,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Constantin Prezan"
-	gfx = Portrait_ROM_Prezan
+	picture = "Portrait_ROM_Prezan.tga"
 	traits = { career_officer }
 	skill = 3
 	attack_skill = 2

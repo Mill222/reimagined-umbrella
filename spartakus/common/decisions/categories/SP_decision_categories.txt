@@ -33,5 +33,41 @@ ENG_Burmese_revolt_cat = {
 	visible = {
 		RAJ = { has_war_with = BMR }
 		NOT = { has_global_flag = SP_Raj_collapse }
+	}	
+}
+
+#############
+### Japan ###
+#############
+
+JAP_decisions_nanko = {
+	allowed = { tag = JAP }
+	visible = {
+		has_completed_focus = JAP_nanyo_mantetsu
 	}
+	icon = GFX_decision_category_generic_industry
+}
+
+JAP_decisions_corporate_government = {
+	allowed = { tag = JAP }
+	visible = {
+		has_completed_focus = JAP_nanyo_corporate
+	}
+	icon = GFX_decision_category_generic_political_actions
+}
+
+JAP_decisions_naval_government = {
+	allowed = { tag = JAP }
+	visible = {
+		has_completed_focus = JAP_nanyo_naval
+	}
+	icon = GFX_decision_category_military_operation
+}
+
+JAP_decisions_economy = {
+	allowed = { tag = JAP }
+	visible = {
+		has_completed_focus = JAP_economy
+	}
+	icon = GFX_decision_category_generic_economy
 }

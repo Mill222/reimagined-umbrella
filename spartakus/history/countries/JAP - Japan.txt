@@ -10,6 +10,7 @@ set_research_slots = 4
 add_ideas = {
 JAP_SP_liberty
 JAP_SP_mantetsu
+free_trade
 JAP_Katayama_Tetsu_hog_sde
 JAP_Suzuki_Bunji_for_sde
 JAP_Kagawa_Toyohiko_eco_sde

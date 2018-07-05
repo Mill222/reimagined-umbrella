@@ -138,7 +138,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_JAP_Shitty_Tracks"
-		texturefile = "gfx/interface/ideas/ideas/JAP_Shitty_Tracks.dds"
+		texturefile = "gfx/interface/ideas/ideas/JAP/JAP_Shitty_Tracks.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_SWI_conscription"
@@ -666,11 +666,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_JAP_co_prosper"
-		texturefile = "gfx/interface/ideas/ideas/JAP_co_prosper.dds"
+		texturefile = "gfx/interface/ideas/ideas/JAP/JAP_co_prosper.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_JAP_mantetsu_collapse"
-		texturefile = "gfx/interface/ideas/ideas/mantetsu_collapse.tga"
+		texturefile = "gfx/interface/ideas/ideas/JAP/mantetsu_collapse.tga"
 	}
 	
 	########
@@ -721,27 +721,27 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_JAP_yen"
-		texturefile = "gfx/interface/ideas/ideas/JAP_yen.dds"
+		texturefile = "gfx/interface/ideas/JAP/JAP_yen.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_JAP_democracy"
-		texturefile = "gfx/interface/ideas/ideas/JAP_democracy.dds"
+		texturefile = "gfx/interface/ideas/JAP/JAP_democracy.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_niigata_revolt_icon"
-		texturefile = "gfx/interface/ideas/ideas/niigata_revolt_icon.dds"
+		texturefile = "gfx/interface/ideas/JAP/niigata_revolt_icon.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_JAP_kohoda"
-		texturefile = "gfx/interface/ideas/ideas/JAP_kohoda.dds"
+		texturefile = "gfx/interface/ideas/JAP/JAP_kohoda.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_JAP_toseiha"
-		texturefile = "gfx/interface/ideas/ideas/JAP_toseiha.dds"
+		texturefile = "gfx/interface/ideas/JAP/JAP_toseiha.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_JAP_fengtian_exploitation"
-		texturefile = "gfx/interface/ideas/ideas/JAP_fengtian_exploitation.dds"
+		texturefile = "gfx/interface/ideas/JAP/JAP_fengtian_exploitation.dds"
 	}
 	
 	###########
@@ -1332,6 +1332,37 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_Food_Shortages"
 		texturefile = "gfx/interface/ideas/CZE/Food_Shortages.dds"
+	}
+	
+	# Japan
+	
+	spriteType = {
+		name = "GFX_idea_JAP_liberty"
+		texturefile = "gfx/interface/ideas/JAP/JAP_liberty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_mantetsu"
+		texturefile = "gfx/interface/ideas/JAP/JAP_mantetsu.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_doka"
+		texturefile = "gfx/interface/ideas/JAP/JAP_idea_doka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_kominka"
+		texturefile = "gfx/interface/ideas/JAP/JAP_idea_kominka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_opium"
+		texturefile = "gfx/interface/ideas/JAP/JAP_idea_opium.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_assimilation"
+		texturefile = "gfx/interface/ideas/JAP/JAP_assimilation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_cooperation"
+		texturefile = "gfx/interface/ideas/JAP/JAP_cooperation.dds"
 	}
 		
 }

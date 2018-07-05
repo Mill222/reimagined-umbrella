@@ -993,4 +993,136 @@ spriteTypes = {
 		name = "GFX_Teutonic_Man"
 		texturefile = "gfx/interface/goals/Teutonic_Man.dds"
 	}
+	SpriteType = {
+		name = "GFX_JAP_focus_democracy"
+		texturefile = "gfx/interface/goals/JAP_focus_democracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_Great_Railway_Incident"
+		texturefile = "gfx/interface/goals/Great_Railway_Incident.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_tsingtau"
+		texturefile = "gfx/interface/goals/JAP_focus_tsingtau.dds"
+	}
+	SpriteType = {
+		name = "GFX_SP_focus_shadow_government"
+		texturefile = "gfx/interface/goals/SP_focus_shadow_government.dds"
+	}
+	SpriteType = {
+		name = "GFX_KTG_Bookstack"
+		texturefile = "gfx/interface/goals/KTG_Bookstack.dds"
+	}
+	SpriteType = {
+		name = "GFX_Crush_the_Rebellion"
+		texturefile = "gfx/interface/goals/Crush_the_Rebellion.dds"
+	}
+	SpriteType = {
+		name = "GFX_SP_focus_opium_ban"
+		texturefile = "gfx/interface/goals/SP_focus_opium_ban.dds"
+	}
+	SpriteType = {
+		name = "GFX_SP_focus_opium_profits"
+		texturefile = "gfx/interface/goals/SP_focus_opium_profits.dds"
+	}
+	SpriteType = {
+		name = "GFX_SP_focus_judaism"
+		texturefile = "gfx/interface/goals/SP_focus_judaism.dds"
+	}
+	SpriteType = {
+		name = "GFX_SP_focus_book_burning"
+		texturefile = "gfx/interface/goals/SP_focus_book_burning.dds"
+	}
+	SpriteType = {
+		name = "GFX_PER_Claim_Turkmenistan"
+		texturefile = "gfx/interface/goals/PER_Claim_Turkmenistan.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_japan_helmet"
+		texturefile = "gfx/interface/goals/goal_japan_helmet.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_women_industry"
+		texturefile = "gfx/interface/goals/goal_women_industry.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_puyi"
+		texturefile = "gfx/interface/goals/JAP_focus_puyi.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_spy_focus"
+		texturefile = "gfx/interface/goals/goal_spy_focus.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_concordia"
+		texturefile = "gfx/interface/goals/JAP_focus_concordia.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_japanese_officer"
+		texturefile = "gfx/interface/goals/goal_japanese_officer.dds"
+	}
+	SpriteType = {
+		name = "GFX_Japanese_Glory"
+		texturefile = "gfx/interface/goals/Japanese_Glory.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_geisha"
+		texturefile = "gfx/interface/goals/JAP_focus_geisha.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_pagoda"
+		texturefile = "gfx/interface/goals/JAP_focus_pagoda.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_tonarigumi"
+		texturefile = "gfx/interface/goals/JAP_focus_tonarigumi.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_turan"
+		texturefile = "gfx/interface/goals/JAP_focus_turan.dds"
+	}
+	SpriteType = {
+		name = "GFX_SP_focus_education"
+		texturefile = "gfx/interface/goals/SP_focus_education.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_samurai_spirit"
+		texturefile = "gfx/interface/goals/JAP_focus_samurai_spirit.dds"
+	}
+	SpriteType = {
+		name = "GFX_National_Security_Act"
+		texturefile = "gfx/interface/goals/National_Security_Act.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_tsunami"
+		texturefile = "gfx/interface/goals/JAP_focus_tsunami.dds"
+	}
+	SpriteType = {
+		name = "GFX_AUS_agriculture"
+		texturefile = "gfx/interface/goals/AUS_agriculture.dds"
+	}
+	SpriteType = {
+		name = "GFX_Upset_the_Balance"
+		texturefile = "gfx/interface/goals/Upset_the_Balance.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_korea"
+		texturefile = "gfx/interface/goals/JAP_focus_korea.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_taiwan"
+		texturefile = "gfx/interface/goals/JAP_focus_taiwan.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_nanyo"
+		texturefile = "gfx/interface/goals/JAP_focus_nanyo.dds"
+	}
+	SpriteType = {
+		name = "GFX_SP_focus_spear_the_bear"
+		texturefile = "gfx/interface/goals/SP_focus_spear_the_bear.dds"
+	}
+	SpriteType = {
+		name = "GFX_SP_focus_trade_unions"
+		texturefile = "gfx/interface/goals/SP_focus_trade_unions.dds"
+	}
 }
