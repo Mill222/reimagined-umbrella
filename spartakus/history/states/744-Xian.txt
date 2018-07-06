@@ -12,7 +12,6 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			arms_factory = 0
 			air_base = 1
 			10000 = {
 				naval_base = 3
@@ -28,7 +27,7 @@ state={
 	provinces={
 		10000 
 	}
-	manpower=9758200
+	manpower=544800
 	buildings_max_level_factor=1.000
 	state_category=town
 }
