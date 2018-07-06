@@ -897,11 +897,6 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_tsunami2"
-		texturefile = "gfx/interface/goals/tsunami2.dds"
-	}
-
-	SpriteType = {
 		name = "GFX_goal_japanese_imperialism"
 		texturefile = "gfx/interface/goals/goal_japanese_imperialism.dds"
 
