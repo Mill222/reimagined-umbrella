@@ -1,7 +1,7 @@
 state={
 	id=664
 	name="STATE_664"
-	manpower = 854300
+	manpower = 869299
 	resources={
 		steel=24
 	}
@@ -20,7 +20,6 @@ state={
 			11679 2
 		}
 		add_core_of = SLO
-		add_claim_by = HUN
 		add_claim_by = CZE
 		
 
