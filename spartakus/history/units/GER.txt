@@ -1,20 +1,4 @@
 ﻿division_template = {
-	name = "Rote Frontkämpfer" #Militia
-
-	division_names_group = GER_Inf_01
-
-	regiments = {
-		militia = { x = 0 y = 0 }
-		militia = { x = 0 y = 1 }
-		militia = { x = 0 y = 2 }
-		militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
-		militia = { x = 1 y = 2 }
-	}
-	priority = 0
-}
-
-division_template = {
 	name = "Volksarmee Division" #Infantry
 
 	division_names_group = GER_Inf_02
@@ -36,6 +20,49 @@ division_template = {
         artillery = { x = 0 y = 1 }
 	}
 }
+
+division_template = {
+	name = "Rote Garde" #Elite Red Guards
+	
+	is_locked = yes
+
+	regiments = {
+		garrison = { x = 0 y = 0 }
+		garrison = { x = 0 y = 1 }
+		garrison = { x = 0 y = 2 }
+        garrison = { x = 1 y = 0 }
+		garrison = { x = 1 y = 1 }
+		garrison = { x = 1 y = 2 }
+        garrison = { x = 2 y = 0 }
+		garrison = { x = 2 y = 1 }
+		garrison = { x = 2 y = 2 }
+	}
+	
+	priority = 2
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Rote Frontkämpfer" #Militia
+	
+	is_locked = yes
+
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
 division_template = {
 	name = "Panzerdivision" #Armored
 
@@ -121,6 +148,13 @@ units = {
 
 	#Berlin
 	division= {	
+		name = "Rote Garde Berlin"
+		location = 6521
+		division_template = "Rote Garde"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1.0
+	}
+	division= {	
 		name = "1. Volksarmee Division Berlin"
 		location = 6521
 		division_template = "Volksarmee Division"
@@ -129,13 +163,6 @@ units = {
 	}
 	division= {	
 		name = "2. Volksarmee Division Berlin"
-		location = 6521
-		division_template = "Volksarmee Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	division= {	
-		name = "3. Volksarmee Division Berlin"
 		location = 6521
 		division_template = "Volksarmee Division"
 		start_experience_factor = 0.3
@@ -293,6 +320,13 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division= {	
+		name = "Rote Garde Leipzig"
+		location = 3535
+		division_template = "Rote Garde"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1.0
+	}
+	division= {	
 		name = "Volksbergbrigade Dresden"
 		location = 514
 		division_template = "Volksbergbrigade"
@@ -342,17 +376,24 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division= {	
-		name = "Rote Frontkämpfer Nuremburg"
-		location = 11544
+		name = "Rote Frontkämpfer Karlsbad"
+		location = 6470
 		division_template = "Rote Frontkämpfer"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division= {	
-		name = "Rote Frontkämpfer Munich"
-		location = 692
-		division_template = "Rote Frontkämpfer"
-		start_experience_factor = 0.1
+		name = "Rote Garde Reichenberg"
+		location = 11401
+		division_template = "Rote Garde"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Volksarmee Division Aussig"
+		location = 11432
+		division_template = "Volksarmee Division"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	#North
@@ -361,6 +402,13 @@ units = {
 		location = 6377
 		division_template = "Volksarmee Division"
 		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "Rote Frontkämpfer Stolp"
+		location = 11372
+		division_template = "Rote Frontkämpfer"
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division= {	

@@ -1584,7 +1584,7 @@
 	 LIV_Ruediger_von_der_Goltz_hog_rwp:0 "Rüdiger von der Goltz"
 	 LIV_Oskars_Dankers_hog_nsy:0 "Oskars Dankers"
 	 LIV_Reinhard_Heydrich_hog_nsy:0 "Reinhard Heydrich"
-	 LIV_Gustavs_Celmins_hog_tcp:0 "Gustavs Celmiņš"
+	 LIV_Gustavs_Celmins_hog_ncp:0 "Gustavs Celmiņš"
 
 	### Foreign Minister ###
 	 LIV_Johannes_Kabin_for_sde:0 "Johannes Kabin"
@@ -15160,7 +15160,7 @@
 	 POR_Joao_Tamagnini_Barbosa_hog_sco:0 "João Tamagnini Barbosa"
 	 POR_Antonio_de_Fragosa_Carmona_hog_ade:0 "António de Fragosa Carmona"
 	 POR_Antonio_Lopes_Mateus_hog_ade:0 "António Lopes Mateus"
-	 POR_Antonio_De_Oliveira_Salazar_hog_ade:0 "Antonio De Oliveira Salazar"
+	 POR_Antonio_De_Oliveira_Salazar_hog_ncp:0 "Antonio De Oliveira Salazar"
 	 POR_Jaime_Afreixo_hog_ade:0 "Jaime Afreixo"
 	 POR_Sidonio_Pais_hog_ade:0 "Sidónio Pais"
 	 POR_Alberto_Monsaraz_hog_rwp:0 "Alberto Monsaraz"
@@ -15178,7 +15178,7 @@
 	 POR_Quintao_Meireles_for_sco:0 "Quintão Meireles"
 	 POR_Abel_de_Abreu_Sotto_Mayor_for_ade:0 "Abel de Abreu Sotto Mayor"
 	 POR_Alfredo_Pimenta_for_ade:0 "Alfredo Pimenta"
-	 POR_Antonio_De_Oliveira_Salazar_for_ade:0 "Antonio De Oliveira Salazar"
+	 POR_Antonio_De_Oliveira_Salazar_for_ncp:0 "Antonio De Oliveira Salazar"
 	 POR_Jose_Caeiro_da_Mata_for_ade:0 "José Caeiro da Mata"
 	 POR_Paulo_Cunha_for_ade:0 "Paulo Cunha"
 	 POR_Xavier_Cordeiro_for_ade:0 "Xavier Cordeiro"
@@ -15186,7 +15186,7 @@
 	 POR_Maria_Adelaide_de_BraganCa_for_rwp:0 "Maria Adelaide de BraganÇa"
 	 POR_Martinho_Nobre_de_Melo_for_rwp:0 "Martinho Nobre de Melo"
 	 POR_Afonso_Lopes_Vieira_for_nsy:0 "Afonso Lopes Vieira"
-	 POR_Jose_Adriano_Pequito_Rebelo_for_nsy:0 "José Adriano Pequito Rebelo"
+	 POR_Jose_Adriano_Pequito_Rebelo_for_mar:0 "José Adriano Pequito Rebelo"
 
 	### Economy Minister ###
 	 POR_FSalgado_Zenha_eco_mar:0 "F.Salgado Zenha"
@@ -15219,7 +15219,7 @@
 	 POR_JCosta_Leite_sec_ade:0 "J.Costa Leite"
 	 POR_Martinho_Nobre_Melo_sec_ade:0 "Martinho Nobre Melo"
 	 POR_Mario_Pais_Sousa_sec_ade:0 "Mario Pais Sousa"
-	 POR_Antonio_De_Oliveira_Salazar_sec_rwp:0 "Antonio De Oliveira Salazar"
+	 POR_Antonio_De_Oliveira_Salazar_sec_ncp:0 "Antonio De Oliveira Salazar"
 	 POR_JBotelho_Moniz_sec_rwp:0 "J.Botelho Moniz"
 	 POR_Jose_Hipolito_Vaz_Raposo_sec_rwp:0 "José Hipólito Vaz Raposo"
 	 POR_Francisco_Rolao_Preto_sec_nsy:0 "Francisco Rolão Preto"
@@ -15231,7 +15231,7 @@
 	 POR_Joao_Pereira_Bastos_int_ade:0 "Joao Pereira Bastos"
 	 POR_Julio_Dantas_int_ade:0 "Julio Dantas"
 	 POR_Pedro_Teotonio_Pereira_int_ade:0 "Pedro Teotónio Pereira"
-	 POR_Antonio_De_Oliveira_Salazar_int_rwp:0 "Antonio De Oliveira Salazar"
+	 POR_Antonio_De_Oliveira_Salazar_int_ncp:0 "Antonio De Oliveira Salazar"
 	 POR_Joao_de_Almeida_int_rwp:0 "João de Almeida"
 	 POR_Luis_Carlos_de_Lima_de_Almeida_Braga_int_nsy:0 "Luís Carlos de Lima de Almeida Braga"
 
@@ -19787,7 +19787,6 @@
 	 USA_Norman_Thomas_hog_rev:0 "Norman Thomas"
 	 USA_Fiorello_H_La_Guardia_hog_sde:0 "Fiorello H. La Guardia"
 	 USA_Henry_A_Wallace_hog_sde:0 "Henry A. Wallace"
-	 USA_Quentin_Roosevelt_hog_sde:0 "Quentin Roosevelt"
 	 USA_Thomas_E_Dewey_hog_sde:0 "Thomas E. Dewey"
 	 USA_Adlai_Stevenson_hog_sli:0 "Adlai Stevenson"
 	 USA_Alben_W_Barkley_hog_sli:0 "Alben W. Barkley"
