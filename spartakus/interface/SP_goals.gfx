@@ -1920,4 +1920,34 @@ spriteTypes = {
 		name = "GFX_Weimar_Constitution"
 		texturefile = "gfx/interface/goals/Weimar_Constitution.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_Cash_for_Forts"
+		texturefile = "gfx/interface/goals/Cash_for_Forts.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Election_Rigging"
+		texturefile = "gfx/interface/goals/Election_Rigging.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_International_Espionage"
+		texturefile = "gfx/interface/goals/International_Espionage.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Multinational_Army"
+		texturefile = "gfx/interface/goals/Multinational_Army.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Puppet_President"
+		texturefile = "gfx/interface/goals/Puppet_President.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Czech_Attack"
+		texturefile = "gfx/interface/goals/Czech_Attack.dds"
+	}
 }
