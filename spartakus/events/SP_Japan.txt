@@ -318,28 +318,32 @@ country_event = {
 	option = { #don't press it
 		name = jap.4.a
 		ai_chance = { factor = 80 }		
-		add_popularity = {
-			ideology = marxist
-			popularity = -0.05
-		}
+		add_political_power = -15
+			add_popularity = {
+				ideology = leninist
+				popularity = -0.01
+			}
+			add_popularity = {
+				ideology = marxist
+				popularity = -0.01
+			}
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = -0.01
+			}
+			add_popularity = {
+				ideology = democratic_socialist
+				popularity = -0.01
+			}
 	}
 
-	option = { #use this to shut down the communists
+	option = { #use this to shut down the communists / unlocks anti-communist decisions
 		name = jap.4.b
 		ai_chance = { factor = 20 }	
 		add_political_power = -50
-		add_popularity = {
-			ideology = leninist
-			popularity = -0.1
-		}
-		add_popularity = {
-			ideology = marxist
-			popularity = -0.1
-		}
-		add_popularity = {
-			ideology = revolutionary_socialist
-			popularity = -0.1
-		}
+		add_stability = -0.05
+		unlock_decision_category_tooltip = JAP_decisions_anticommunist
+		hidden_effect = { set_country_flag = JAP_anticommunist }
 	}
 }
 
@@ -424,7 +428,8 @@ country_event = {
 	option = {
 		name = jap.15.a
 		ai_chance = { factor = 100 }
-		add_ideas = JAP_SP_depression
+		add_ideas = JAP_SP_depression_economy
+		add_ideas = JAP_SP_depression_unrest
 	}
 }
 

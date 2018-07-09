@@ -1,41 +1,48 @@
 ﻿l_english:
 
-### Opinions ###
-
-### Events ###
-
 ### Parties ###
 
 NOR_leninist_party:0 "NKP"
-NOR_leninist_party_long:0 "Norges Kommunistiske Parti"
+NOR_leninist_party_long:0 "Norges Kommunistiske Parti (Marxist-Leninistene)"
 NOR_marxist_party:0 "NKP"
-NOR_marxist_party_long:0 "Norges Kommunistiske Parti"
+NOR_marxist_party_long:0 "Norges Kommunistiske Parti (Marxist-Luxemburgistene)"
 NOR_revolutionary_socialist_party:0 "Arbeiderpartiet"
 NOR_revolutionary_socialist_party_long:0 "Arbeiderpartiet"
 NOR_democratic_socialist_party:0 "NSA"
 NOR_democratic_socialist_party_long:0 "Norges Socialdemokratiske Arbeiderparti"
-NOR_social_democrat_party:0 "RFp"
-NOR_social_democrat_party_long:0 " Radikale Folkeparti"
+NOR_social_democrat_party:0 "RF"
+NOR_social_democrat_party_long:0 "Radikale Folkeparti"
 NOR_social_liberal_party:0 "Venstre"
 NOR_social_liberal_party_long:0 "Venstre"
 NOR_liberal_conservative_party:0 "Høyre"
 NOR_liberal_conservative_party_long:0 "Høyre"
 NOR_social_conservative_party:0 "Bondepartiet"
 NOR_social_conservative_party_long:0 "Bondepartiet"
-NOR_authoritarian_democrat_party:0 "KrF"
-NOR_authoritarian_democrat_party_long:0 "Kristelig Folkeparti"
-NOR_right_wing_populist_party:0 "Fedrelandslaget"
-NOR_right_wing_populist_party_long:0 "Fedrelandslaget"
-NOR_national_syndicalist_party:0 "Fedrelandslaget"
-NOR_national_syndicalist_party_long:0 "Fedrelandslaget"
+NOR_authoritarian_democrat_party:0 "Fedrelandslaget"
+NOR_authoritarian_democrat_party_long:0 "Fedrelandslaget"
+NOR_right_wing_populist_party:0 "Samfundsvernet"
+NOR_right_wing_populist_party_long:0 "Norsk Samfundsvern"
+NOR_national_syndicalist_party:0 "DNL"
+NOR_national_syndicalist_party_long:0 "Den Nationale Legion"
 NOR_national_corporatist_party:0 "DNL"
 NOR_national_corporatist_party_long:0 "Den Nationale Legion"
-NOR_alt_natcorp_party:0 "NS"
+NOR_alt_natcorp_party:0 "Nasjonal Samling"
 NOR_alt_natcorp_party_long:0 "Nasjonal Samling"
+
+### Ideas ###
+
+NOR_liberal_conservative_agreement_idea:0 "The Liberal-Conservative Agreement"
+NOR_liberal_conservative_agreement_idea_desc:0 "After the 1930 election, actions had to be taken to not let the socialists seize power in Norway. Before the socialist parties had the chance to form coalition, came Venstre and Høyre together and made an agreement. Venstre should support a government lead by Høyre in order to prevent a socialist takeover."
+NOR_recovering_economy_idea:0 "Recovering Economy"
+NOR_recovering_economy_idea_desc:0 "While the Norwegian economy suffered after the Great war, this was not so critical as the effects from the London Stock Exchange Crash. As Norway had grown itself nearly depended on British trade. While the economy is recovering, there are those who feels that the government has done too little with this crisis, or too little to prevent such in the future."
+NOR_anti_establishment_sentiments_idea:0 "Anti-Establishment Sentiments"
+NOR_anti_establishment_sentiments_idea_desc:0 "Most of the population does not agree that the Conservatives are ruling with Liberal support. Many find the leaders of these parties non-understanding of the experience of the common Norwegian, that they does not take the situation Norway is in that serious."
 
 ### Focuses ###
 
-### Ideas ###
+### Events ###
+
+### Opinions ###
 
 ### Flags ###
 

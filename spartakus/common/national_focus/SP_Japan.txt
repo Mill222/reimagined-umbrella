@@ -997,7 +997,7 @@ focus_tree = {
 	
 	focus = {
 			id = JAP_nanyo_mantetsu
-			icon = GFX_goal_mantetsu_collaboration
+			icon = GFX_JAP_focus_ssdc
 			prerequisite = { focus = JAP_nanyo } 
 			available = { 
 			}
@@ -1700,7 +1700,18 @@ focus_tree = {
 			id = JAP_economy
 			icon = GFX_goal_HOL_black_monday
 			available = { 
-				NOT = { has_idea = JAP_SP_depression } 
+				custom_trigger_tooltip = {
+					tooltip = JAP_no_depression_tt
+					NOT = { 
+						has_idea = JAP_SP_depression_economy 
+						has_idea = JAP_SP_depression_economy_2 
+						has_idea = JAP_SP_depression_economy_3 
+						has_idea = JAP_SP_depression_unrest 
+						has_idea = JAP_SP_depression_unrest_2
+						has_idea = JAP_SP_depression_unrest_3
+						has_idea = JAP_SP_depression_2 
+					} 
+				}
 			}
 			x = 35
 			y = 0
@@ -1721,7 +1732,18 @@ focus_tree = {
 			icon = GFX_SIA_maritmesilkroad
 			prerequisite = { focus = JAP_empower_zaibatsu focus = JAP_mitigate_zaibatsu } 
 			available = { 
-				NOT = { has_idea = JAP_SP_depression } 
+				custom_trigger_tooltip = {
+					tooltip = JAP_no_depression_tt
+					NOT = { 
+						has_idea = JAP_SP_depression_economy 
+						has_idea = JAP_SP_depression_economy_2 
+						has_idea = JAP_SP_depression_economy_3 
+						has_idea = JAP_SP_depression_unrest 
+						has_idea = JAP_SP_depression_unrest_2
+						has_idea = JAP_SP_depression_unrest_3
+						has_idea = JAP_SP_depression_2 
+					} 
+				}
 			}
 			x = 34
 			y = 2
@@ -1740,7 +1762,18 @@ focus_tree = {
 			icon = GFX_Maritime_Silkroad_2
 			prerequisite = { focus = JAP_indian_markets } 
 			available = { 
-				NOT = { has_idea = JAP_SP_depression } 
+				custom_trigger_tooltip = {
+					tooltip = JAP_no_depression_tt
+					NOT = { 
+						has_idea = JAP_SP_depression_economy 
+						has_idea = JAP_SP_depression_economy_2 
+						has_idea = JAP_SP_depression_economy_3 
+						has_idea = JAP_SP_depression_unrest 
+						has_idea = JAP_SP_depression_unrest_2
+						has_idea = JAP_SP_depression_unrest_3
+						has_idea = JAP_SP_depression_2 
+					} 
+				}
 			}
 			x = 34
 			y = 4
@@ -1763,7 +1796,18 @@ focus_tree = {
 			icon = GFX_goal_MAF_Army_Reforms
 			prerequisite = { focus = JAP_empower_zaibatsu focus = JAP_mitigate_zaibatsu } 
 			available = { 
-				NOT = { has_idea = JAP_SP_depression } 
+				custom_trigger_tooltip = {
+					tooltip = JAP_no_depression_tt
+					NOT = { 
+						has_idea = JAP_SP_depression_economy 
+						has_idea = JAP_SP_depression_economy_2 
+						has_idea = JAP_SP_depression_economy_3 
+						has_idea = JAP_SP_depression_unrest 
+						has_idea = JAP_SP_depression_unrest_2
+						has_idea = JAP_SP_depression_unrest_3
+						has_idea = JAP_SP_depression_2 
+					} 
+				}
 			}
 			x = 36
 			y = 2
@@ -1782,7 +1826,18 @@ focus_tree = {
 			icon = GFX_goal_JAP_yen
 			prerequisite = { focus = JAP_reduce_spending } 
 			available = { 
-				NOT = { has_idea = JAP_SP_depression } 
+				custom_trigger_tooltip = {
+					tooltip = JAP_no_depression_tt
+					NOT = { 
+						has_idea = JAP_SP_depression_economy 
+						has_idea = JAP_SP_depression_economy_2 
+						has_idea = JAP_SP_depression_economy_3 
+						has_idea = JAP_SP_depression_unrest 
+						has_idea = JAP_SP_depression_unrest_2
+						has_idea = JAP_SP_depression_unrest_3
+						has_idea = JAP_SP_depression_2 
+					} 
+				}
 			}
 			x = 36
 			y = 4
@@ -1805,7 +1860,18 @@ focus_tree = {
 			prerequisite = { focus = JAP_steady_yen } 
 			prerequisite = { focus = JAP_indian_silk } 
 			available = { 
-				NOT = { has_idea = JAP_SP_depression } 
+				custom_trigger_tooltip = {
+					tooltip = JAP_no_depression_tt
+					NOT = { 
+						has_idea = JAP_SP_depression_economy 
+						has_idea = JAP_SP_depression_economy_2 
+						has_idea = JAP_SP_depression_economy_3 
+						has_idea = JAP_SP_depression_unrest 
+						has_idea = JAP_SP_depression_unrest_2
+						has_idea = JAP_SP_depression_unrest_3
+						has_idea = JAP_SP_depression_2 
+					} 
+				}
 			}
 			x = 35
 			y = 5
@@ -1831,7 +1897,18 @@ focus_tree = {
 			icon = GFX_focus_jap_zaibatsu
 			prerequisite = { focus = JAP_economy } 
 			available = { 
-				NOT = { has_idea = JAP_SP_depression } 
+				custom_trigger_tooltip = {
+					tooltip = JAP_no_depression_tt
+					NOT = { 
+						has_idea = JAP_SP_depression_economy 
+						has_idea = JAP_SP_depression_economy_2 
+						has_idea = JAP_SP_depression_economy_3 
+						has_idea = JAP_SP_depression_unrest 
+						has_idea = JAP_SP_depression_unrest_2
+						has_idea = JAP_SP_depression_unrest_3
+						has_idea = JAP_SP_depression_2 
+					} 
+				}
 			}
 			mutually_exclusive = { focus = JAP_mitigate_zaibatsu }
 			x = 33
@@ -1851,7 +1928,18 @@ focus_tree = {
 			icon = GFX_goal_production
 			prerequisite = { focus = JAP_empower_zaibatsu } 
 			available = { 
-				NOT = { has_idea = JAP_SP_depression } 
+				custom_trigger_tooltip = {
+					tooltip = JAP_no_depression_tt
+					NOT = { 
+						has_idea = JAP_SP_depression_economy 
+						has_idea = JAP_SP_depression_economy_2 
+						has_idea = JAP_SP_depression_economy_3 
+						has_idea = JAP_SP_depression_unrest 
+						has_idea = JAP_SP_depression_unrest_2
+						has_idea = JAP_SP_depression_unrest_3
+						has_idea = JAP_SP_depression_2 
+					} 
+				}
 			}
 			x = 33
 			y = 3
@@ -1873,7 +1961,18 @@ focus_tree = {
 			icon = GFX_goal_generic_national_unity
 			prerequisite = { focus = JAP_permanent_employment } 
 			available = { 
-				NOT = { has_idea = JAP_SP_depression } 
+				custom_trigger_tooltip = {
+					tooltip = JAP_no_depression_tt
+					NOT = { 
+						has_idea = JAP_SP_depression_economy 
+						has_idea = JAP_SP_depression_economy_2 
+						has_idea = JAP_SP_depression_economy_3 
+						has_idea = JAP_SP_depression_unrest 
+						has_idea = JAP_SP_depression_unrest_2
+						has_idea = JAP_SP_depression_unrest_3
+						has_idea = JAP_SP_depression_2 
+					} 
+				}
 			}
 			x = 33
 			y = 5
@@ -1895,7 +1994,18 @@ focus_tree = {
 			icon = GFX_Upset_the_Balance
 			prerequisite = { focus = JAP_economy } 
 			available = { 
-				NOT = { has_idea = JAP_SP_depression } 
+				custom_trigger_tooltip = {
+					tooltip = JAP_no_depression_tt
+					NOT = { 
+						has_idea = JAP_SP_depression_economy 
+						has_idea = JAP_SP_depression_economy_2 
+						has_idea = JAP_SP_depression_economy_3 
+						has_idea = JAP_SP_depression_unrest 
+						has_idea = JAP_SP_depression_unrest_2
+						has_idea = JAP_SP_depression_unrest_3
+						has_idea = JAP_SP_depression_2 
+					} 
+				}
 			}
 			mutually_exclusive = { focus = JAP_empower_zaibatsu }
 			x = 37
@@ -1915,7 +2025,18 @@ focus_tree = {
 			icon = GFX_SP_focus_trade_unions
 			prerequisite = { focus = JAP_mitigate_zaibatsu } 
 			available = { 
-				NOT = { has_idea = JAP_SP_depression } 
+				custom_trigger_tooltip = {
+					tooltip = JAP_no_depression_tt
+					NOT = { 
+						has_idea = JAP_SP_depression_economy 
+						has_idea = JAP_SP_depression_economy_2 
+						has_idea = JAP_SP_depression_economy_3 
+						has_idea = JAP_SP_depression_unrest 
+						has_idea = JAP_SP_depression_unrest_2
+						has_idea = JAP_SP_depression_unrest_3
+						has_idea = JAP_SP_depression_2 
+					} 
+				}
 			}
 			x = 37
 			y = 3
@@ -1937,7 +2058,18 @@ focus_tree = {
 			icon = GFX_goal_bag_of_money
 			prerequisite = { focus = JAP_farmers_unions } 
 			available = { 
-				NOT = { has_idea = JAP_SP_depression } 
+				custom_trigger_tooltip = {
+					tooltip = JAP_no_depression_tt
+					NOT = { 
+						has_idea = JAP_SP_depression_economy 
+						has_idea = JAP_SP_depression_economy_2 
+						has_idea = JAP_SP_depression_economy_3 
+						has_idea = JAP_SP_depression_unrest 
+						has_idea = JAP_SP_depression_unrest_2
+						has_idea = JAP_SP_depression_unrest_3
+						has_idea = JAP_SP_depression_2 
+					} 
+				}
 			}
 			x = 37
 			y = 5
@@ -1960,7 +2092,18 @@ focus_tree = {
 			prerequisite = { focus = JAP_business_funding focus = JAP_clique_cooperation } 
 			prerequisite = { focus = JAP_gold_standard } 
 			available = { 
-				NOT = { has_idea = JAP_SP_depression } 
+				custom_trigger_tooltip = {
+					tooltip = JAP_no_depression_tt
+					NOT = { 
+						has_idea = JAP_SP_depression_economy 
+						has_idea = JAP_SP_depression_economy_2 
+						has_idea = JAP_SP_depression_economy_3 
+						has_idea = JAP_SP_depression_unrest 
+						has_idea = JAP_SP_depression_unrest_2
+						has_idea = JAP_SP_depression_unrest_3
+						has_idea = JAP_SP_depression_2 
+					} 
+				}
 			}
 			x = 35
 			y = 6
@@ -2001,18 +2144,146 @@ focus_tree = {
 	
 	focus = {
 			id = JAP_recovery
-			icon = GFX_goal_economic_control
+			icon = GFX_empty_coffers
 			available = { 
-				has_idea = JAP_SP_depression
+				has_idea = JAP_SP_depression_economy
 			}
 			x = 35
 			y = 8
+			cost = 1
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+				unlock_decision_category_tooltip = JAP_decisions_depression
+			}
+	}
+	
+	focus = {
+			id = JAP_stimulus
+			icon = GFX_goal_construction
+			prerequisite = { focus = JAP_recovery } 
+			available = { 
+			}
+			x = 36
+			y = 9
 			cost = 5
 			ai_will_do = {
 				factor = 50
 			}
 
 			completion_reward = {
+				swap_ideas = {
+					remove_idea = JAP_SP_depression_economy
+					add_idea = JAP_SP_depression_economy_2
+				}
+			}
+	}
+	
+	focus = {
+			id = JAP_loans
+			icon = GFX_goal_bag_of_money
+			prerequisite = { focus = JAP_stimulus } 
+			available = { 
+			}
+			x = 36
+			y = 10
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+				swap_ideas = {
+					remove_idea = JAP_SP_depression_economy_2
+					add_idea = JAP_SP_depression_economy_3
+				}
+			}
+	}
+	
+	focus = {
+			id = JAP_workplace_reform
+			icon = GFX_tblra_union_agreement
+			prerequisite = { focus = JAP_recovery } 
+			available = { 
+			}
+			x = 34
+			y = 9
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+				swap_ideas = {
+					remove_idea = JAP_SP_depression_unrest
+					add_idea = JAP_SP_depression_unrest_2
+				}
+			}
+	}
+	
+	focus = {
+			id = JAP_crush_unions
+			icon = GFX_Anti_Communist
+			prerequisite = { focus = JAP_workplace_reform } 
+			available = { 
+			}
+			x = 34
+			y = 10
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+				swap_ideas = {
+					remove_idea = JAP_SP_depression_unrest_2
+					add_idea = JAP_SP_depression_unrest_3
+				}
+			}
+	}
+	
+	focus = {
+			id = JAP_recovery_2
+			icon = GFX_goal_generic_positive_trade_relations
+			prerequisite = { focus = JAP_crush_unions } 
+			prerequisite = { focus = JAP_loans } 
+			available = { 
+			}
+			x = 35
+			y = 11
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+				custom_effect_tooltip = JAP_depression_decisions_tt
+				remove_ideas = {
+					JAP_SP_depression_unrest_3
+					JAP_SP_depression_economy_3
+				}
+				add_ideas = JAP_SP_depression_2
+			}
+	}
+	
+	focus = {
+			id = JAP_recovery_3
+			icon = GFX_goal_economic_control
+			prerequisite = { focus = JAP_recovery_2 } 
+			available = { 
+				date > 1936.02.01
+			}
+			x = 35
+			y = 12
+			cost = 1
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+				remove_ideas = JAP_SP_depression_2
 			}
 	}
 }

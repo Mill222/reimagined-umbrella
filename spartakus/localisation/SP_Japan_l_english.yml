@@ -2,7 +2,9 @@
 
 ### Ideas ###
 JAP_SP_liberty:0 "Japanese Democracy"
+JAP_SP_liberty_2:0 "Flawed Democracy"
 JAP_SP_mantetsu:0 "Mantetsu Railway Company"
+JAP_SP_peace_preservation:0 "Peace Preservation Law"
 JAP_SP_nanyo:0 "Mantetsu of the South"
 JAP_SP_civil_administration:0 "South Pacific Civil Administration"
 JAP_SP_corporate_administration:0 "South Pacific Nankō Administration"
@@ -43,7 +45,13 @@ JAP_SP_local_economy_2:0 "Decentralized Economic Policy"
 JAP_SP_local_economy_3:0 "Decentralized Economic Policy"
 JAP_SP_secure_zaibatsu:0 "Healthy Economy"
 JAP_SP_secure_local:0 "Healthy Economy"
-JAP_SP_depression:0 "Great Depression"
+JAP_SP_depression_economy:0 "Great Depression"
+JAP_SP_depression_economy_2:0 "Great Depression"
+JAP_SP_depression_economy_3:0 "Great Depression"
+JAP_SP_depression_unrest:0 "Industrial Unrest"
+JAP_SP_depression_unrest_2:0 "Industrial Unrest"
+JAP_SP_depression_unrest_3:0 "Industrial Unrest"
+JAP_SP_depression_2:0 "Recovering Economy"
 
 ### Focuses ###
 JAP_democracy:0 "Shōwa Democracy"
@@ -142,6 +150,14 @@ JAP_misogyny:0 "Good Wife, Wise Mother"
 JAP_working_women:0 "Put Women to Work"
 JAP_tonarigumi:0 "Tonarigumi"
 
+JAP_recovery:0 "Begin Depression Recovery"
+JAP_stimulus:0 "Economic Stimulus Programs"
+JAP_loans:0 "Special Loans"
+JAP_workplace_reform:0 "Workplace Reform"
+JAP_crush_unions:0 "Crush the Radical Unions"
+JAP_recovery_2:0 "The Worst is Over"
+JAP_recovery_3:0 "End of the Depression"
+
 ### Ministers ###
 
 ### Parties ###
@@ -178,6 +194,11 @@ JAP_tooltip_economy:0 "§RIf this is not addressed soon, the economy may not far
 JAP_tooltip_assimilation:0 "§RThis policy will draw backlash from the Korean populace.§! \n"
 JAP_tooltip_opium:0 "§RThis policy will take some time to take full effect, and may have negative repercussions at first.§! \n"
 JAP_tooltip_economy_saved:0 "§GThe economy will be safe from any further crises.§! \n"
+JAP_no_depression_tt:0 "§YJapan has not been hit by the Great Depression§! \n"
+JAP_depression_decisions_tt:0 "§WRemoves§! §YDepression Recovery§! §WDecisions.§! \n"
+jap_truk_tt:0 "§WHas selected§! §YIJN Contract: Naval Fortifications§!\n"
+jap_timor_tt:0 "§WHas selected§! §YDevelop Palau§! §Wand§! §YDevelop the Marshall Islands§!\n"
+jap_shipping_tt:0 "§WHas selected§! §YFortify Truk, Fortify Yap§! §Wand§! §YFortify Engebi§! \n"
 
 ### Opinion Modifiers ###
 JAP_timor_positive:0 "Japanese Investment in Timor"
@@ -213,6 +234,24 @@ JAP_dec_south_factories:0 "Develop Southern Industry"
 JAP_dec_north_factories:0 "Develop Northern Industry"
 JAP_dec_exploit_aluminium:0 "Expand Aluminium Industry"
 JAP_dec_oil_effort:0 "Synthetic Oil Effort"
+
+JAP_decisions_political:0 "Political Decisions"
+JAP_dec_socdem_1:0 "Hold Social Democratic Speaking Campaign"
+
+JAP_decisions_anticommunist:0 "Anti-Communist Efforts"
+JAP_dec_commie_raid:0 "Raid Radical Hideouts"
+JAP_dec_socialist_raid_radical:0 "Crack down on Radical Farmer's Unions"
+JAP_dec_socialist_raid_moderate:0 "Conduct Anti-Socialist Speaking Campaign"
+JAP_dec_socialist_crackdown:0 "Extrajudicial Action"
+JAP_dec_socialist_crackdown_desc:0 "The Japanese Police Force is known to be a hotbed of reactionary attitudes. They have also been known to overstep their bounds at times. Many of them would be happy to round up some 'traitors', should the government turn a blind eye."
+JAP_dec_ban_communism:0 "Pass the Peace Preservation Law"
+
+JAP_decisions_depression:0 "Depression Recovery"
+JAP_dec_factory_shifts:0 "Extend Factory Shifts"
+JAP_dec_resource_shifts:0 "Extend Mining Shifts"
+JAP_dec_construction_shifts:0 "Launch Construction Effort"
+JAP_dec_conversion_shifts:0 "Military-Industrial Appropriation Program"
+JAP_dec_austerity:0 "National Austerity Program"
 
 ## Intro Events ##
 

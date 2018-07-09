@@ -15,6 +15,10 @@ JAP_Katayama_Tetsu_hog_sde
 JAP_Suzuki_Bunji_for_sde
 JAP_Kagawa_Toyohiko_eco_sde
 JAP_Kikuchi_Yonosuke_sec_sde
+JAP_Tashiro_Kanichiro_cos_mli
+JAP_Tashiro_Kanichiro_carm_mli
+JAP_Tagawa_Daikichiro_int_sde
+JAP_Yamamoto_Isoroku_cnav_mli
 }
 
 set_technology = {

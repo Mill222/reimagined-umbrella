@@ -1364,5 +1364,9 @@ spriteTypes = {
 		name = "GFX_idea_JAP_cooperation"
 		texturefile = "gfx/interface/ideas/JAP/JAP_cooperation.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_JAP_ssdc"
+		texturefile = "gfx/interface/ideas/JAP/JAP_ssdc.dds"
+	}
 		
 }

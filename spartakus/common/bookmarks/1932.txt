@@ -61,6 +61,8 @@ bookmarks = {
 			history = "JAP_SP_GATHERING_STORM_DESC"
 			ideology = social_conservative
 			ideas = {
+				JAP_SP_liberty
+				JAP_SP_mantetsu
 			}
 			focuses = {
 			}
