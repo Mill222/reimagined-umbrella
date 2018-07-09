@@ -1950,4 +1950,9 @@ spriteTypes = {
 		name = "GFX_Czech_Attack"
 		texturefile = "gfx/interface/goals/Czech_Attack.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_JAP_focus_ssdc"
+		texturefile = "gfx/interface/goals/JAP_focus_ssdc.dds"
+	}
 }

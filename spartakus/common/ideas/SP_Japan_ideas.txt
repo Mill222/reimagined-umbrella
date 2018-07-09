@@ -22,6 +22,21 @@ ideas = {
 			}
 		}
 	
+		JAP_SP_liberty_2 = {
+			picture = JAP_liberty
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = +0.15
+				war_support_factor = -0.05
+				conscription_factor = -0.1
+			}
+		}
+	
 		JAP_SP_mantetsu = {
 			picture = JAP_mantetsu
 
@@ -35,13 +50,30 @@ ideas = {
 				local_resources_factor = 0.10
 			}
 		}
+	
+		JAP_SP_peace_preservation = {
+			picture = ast_classify_aliens
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				drift_defence_factor = 0.25
+				leninist_drift = -0.05
+				marxist_drift = -0.05
+				revolutionary_socialist_drift = -0.05
+				democratic_socialist_drift = -0.05
+			}
+		}
 
 #################
 # South Pacific #
 #################
 	
 		JAP_SP_nanyo = {
-			picture = generic_degauss_ship_hulls
+			picture = JAP_ssdc
 
 			allowed = {
 				original_tag = JAP
@@ -688,7 +720,7 @@ ideas = {
 # Depression #
 ##############
 		
-		JAP_SP_depression = {
+		JAP_SP_depression_economy = {
 			picture = great_depression
 
 			allowed = {
@@ -697,10 +729,105 @@ ideas = {
 
 			removal_cost = -1
 			modifier = {
-				stability_factor = -0.10
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.20
 				production_factory_max_efficiency_factor = -0.15
-				production_speed_buildings_factor = -0.15	
+				production_speed_buildings_factor = -0.15
+			}
+		}
+		
+		JAP_SP_depression_economy_2 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.15
+				production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.05
+			}
+		}
+		
+		JAP_SP_depression_economy_3 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.1
+				production_factory_max_efficiency_factor = -0.1
+			}
+		}
+		
+		JAP_SP_depression_unrest = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.10
+				conscription_factor = -0.15
 				production_factory_efficiency_gain_factor = -0.15
+			}
+		}
+		
+		JAP_SP_depression_unrest_2 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.10
+				conscription_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.1
+			}
+		}
+		
+		JAP_SP_depression_unrest_3 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				war_support_factor = -0.05
+				conscription_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+			}
+		}
+		
+		JAP_SP_depression_2 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				industrial_capacity_factory = -0.05
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+				war_support_factor = -0.05
 			}
 		}
 	
