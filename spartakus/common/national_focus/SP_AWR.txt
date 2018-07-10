@@ -1,3 +1,22 @@
+# focus = {
+#			id = 
+#			icon = 
+#			x = 
+#			y = 
+#			cost = 
+#
+#			prerequisite ={
+#				focus = 
+#			}
+#			mutually_exclusive = {
+#				focus = 
+#			}
+#
+#			completion_reward = {
+#
+#			}
+#		}
+
 focus_tree = {
 	id = awr_focus
 	country = {
@@ -85,7 +104,7 @@ focus_tree = {
 		icon = GFX_focus_generic_soviet_politics
 		x = 6
 		y = 2
-		cost = 3
+		cost = 10
 
             prerequisite = {
 				focus = AWR_pol_3
@@ -102,6 +121,140 @@ focus_tree = {
             }
         }
 
+		focus = {
+		id = AWR_war_2_1
+		icon = GFX_focus_generic_soviet_politics
+		x = 6
+		y = 3
+		cost = 10
+
+            prerequisite = {
+				focus = AWR_war_1
+			}
+
+            completion_reward = {
+
+            }
+        }
+
+		focus = {
+		id = AWR_war_2_2
+		icon = GFX_focus_generic_soviet_politics
+		x = 6
+		y = 4
+		cost = 10
+
+            prerequisite = {
+				focus = AWR_war_2_1
+			}
+
+            completion_reward = {
+
+            }
+        }
+
+		focus = {
+		id = AWR_war_2_3
+		icon = GFX_focus_generic_soviet_politics
+		x = 6
+		y = 5
+		cost = 10
+
+            prerequisite = {
+				focus = AWR_war_2_2
+			}
+
+            completion_reward = {
+
+            }
+        }
+
+		focus = {
+		id = AWR_war_3_1
+		icon = GFX_focus_generic_soviet_politics
+		x = 4
+		y = 3
+		cost = 10
+
+            prerequisite = {
+				focus = AWR_war_1
+			}
+
+            completion_reward = {
+
+            }
+        }
+
+		focus = {
+		id = AWR_war_3_2
+		icon = GFX_focus_generic_soviet_politics
+		x = 4
+		y = 4
+		cost = 10
+
+            prerequisite = {
+				focus = AWR_war_3_1
+			}
+
+            completion_reward = {
+
+            }
+        }
+
+		focus = {
+		id = AWR_war_3_3
+		icon = GFX_focus_generic_soviet_politics
+		x = 4
+		y = 5
+		cost = 10
+
+            prerequisite = {
+				focus = AWR_war_3_2
+			}
+
+            completion_reward = {
+
+            }
+        }
+
+		focus = {
+		id = AWR_war_4
+		icon = GFX_focus_generic_soviet_politics
+		x = 5
+		y = 6
+		cost = 10
+
+            prerequisite = {
+				focus = AWR_war_2_3
+			}
+			prerequisite = {
+				focus = AWR_war_3_3
+			}
+
+            completion_reward = {
+
+            }
+        }
+
+		focus = {
+		id = AWR_war_5
+		icon = GFX_focus_generic_soviet_politics
+		x = 5
+		y = 8
+		cost = 10
+
+            prerequisite = {
+				focus = AWR_war_4
+			}
+			prerequisite = {
+				focus = AWR_both_1
+			}
+
+            completion_reward = {
+
+            }
+        }
+
     #############################################
     #Defence Path
     #############################################
@@ -111,7 +264,7 @@ focus_tree = {
 		icon = GFX_focus_generic_soviet_politics
 		x = 10
 		y = 2
-		cost = 3
+		cost = 10
 
             prerequisite = {
 				focus = AWR_pol_4
@@ -127,4 +280,184 @@ focus_tree = {
 
             }
         }
+
+		focus = {
+		id = AWR_def_2_1
+		icon = GFX_focus_generic_soviet_politics
+		x = 10
+		y = 3
+		cost = 10
+
+            prerequisite = {
+				focus = AWR_def_1
+			}
+
+            completion_reward = {
+
+            }
+        }
+
+		focus = {
+		id = AWR_def_2_2
+		icon = GFX_focus_generic_soviet_politics
+		x = 10
+		y = 4
+		cost = 10
+
+            prerequisite = {
+				focus = AWR_def_2_1
+			}
+
+            completion_reward = {
+
+            }
+        }
+
+		focus = {
+		id = AWR_def_2_3
+		icon = GFX_focus_generic_soviet_politics
+		x = 10
+		y = 5
+		cost = 10
+
+            prerequisite = {
+				focus = AWR_def_2_2
+			}
+
+            completion_reward = {
+
+            }
+        }
+
+		focus = {
+		id = AWR_def_3_1
+		icon = GFX_focus_generic_soviet_politics
+		x = 12
+		y = 3
+		cost = 10
+
+            prerequisite = {
+				focus = AWR_def_1
+			}
+
+            completion_reward = {
+
+            }
+        }
+
+		focus = {
+		id = AWR_def_3_2
+		icon = GFX_focus_generic_soviet_politics
+		x = 12
+		y = 4
+		cost = 10
+
+            prerequisite = {
+				focus = AWR_def_3_1
+			}
+
+            completion_reward = {
+
+            }
+        }
+
+		focus = {
+		id = AWR_def_3_3
+		icon = GFX_focus_generic_soviet_politics
+		x = 12
+		y = 5
+		cost = 10
+
+            prerequisite = {
+				focus = AWR_def_3_2
+			}
+
+            completion_reward = {
+
+            }
+        }
+
+		focus = {
+		id = AWR_def_4
+		icon = GFX_focus_generic_soviet_politics
+		x = 11
+		y = 6
+		cost = 10
+
+            prerequisite = {
+				focus = AWR_def_2_3
+			}
+			prerequisite = {
+				focus = AWR_def_3_3
+			}
+
+            completion_reward = {
+
+            }
+        }
+
+		focus = {
+		id = AWR_def_5
+		icon = GFX_focus_generic_soviet_politics
+		x = 11
+		y = 8
+		cost = 10
+
+            prerequisite = {
+				focus = AWR_def_4
+			}
+			prerequisite = {
+				focus = AWR_both_2
+			}
+
+            completion_reward = {
+
+            }
+        }
+
+#############################################
+#Both Govs
+#############################################
+
+		focus = {
+			id = AWR_both_1
+			icon = GFX_focus_generic_soviet_politics
+			x = 7
+			y = 7
+			cost = 10
+
+			prerequisite ={
+				focus = AWR_war_4
+				focus = AWR_def_4
+			}
+			mutually_exclusive = {
+				focus = AWR_both_2
+			}
+
+			completion_reward = {
+
+			}
+
+		}
+
+		focus = {
+			id = AWR_both_2
+			icon = GFX_focus_generic_soviet_politics
+			x = 9
+			y = 7
+			cost = 10
+
+			prerequisite ={
+				focus = AWR_war_4
+				focus = AWR_def_4
+			}
+			mutually_exclusive = {
+				focus = AWR_both_1
+			}
+
+			completion_reward = {
+
+			}
+
+		}
 }

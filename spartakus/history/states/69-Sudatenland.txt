@@ -12,7 +12,6 @@ state={
 		}
 		add_core_of = GER
 		add_claim_by = CZE
-		add_core_of = AUS
 		victory_points = {
 			11401 3 
 		}

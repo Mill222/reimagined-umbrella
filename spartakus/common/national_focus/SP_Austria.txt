@@ -1,3 +1,22 @@
+# focus = {
+#			id = 
+#			icon = 
+#			x = 
+#			y = 
+#			cost = 
+#
+#			prerequisite ={
+#				focus = 
+#			}
+#			mutually_exclusive = {
+#				focus = 
+#			}
+#
+#			completion_reward = {
+#
+#			}
+#		}
+
 focus_tree = {
 	id = austrian_focus
 	country = {
@@ -41,41 +60,8 @@ focus_tree = {
             }
 	}
 
-		focus = {
-		id = AUS_pol_turmoil_3_1
-		icon = GFX_goal_unknown
-		x = 4
-		y = 3
-		cost = 1
-
-            prerequisite = {
-                focus = AUS_pol_turmoil_2
-            }
-			prerequisite = {
-				focus = AUS_mil_turmoil_2
-			}
-			prerequisite = {
-				focus = AUS_eco_turmoil_2
-			}
-			mutually_exclusive = {
-        		focus = AUS_pol_turmoil_3_2
-    		}			
-
-            completion_reward = {
-				add_stability = -0.1
-				add_popularity = { 
-					ideology = democratic_socialist 
-					popularity = 0.075
-					}
-				add_popularity = {
-					ideology = revolutionary_socialist
-					popularity = 0.05
-				}
-            }
-	}
-
     	focus = {
-		id = AUS_pol_turmoil_3_2
+		id = AUS_pol_turmoil_3
 		icon = GFX_goal_unknown
 		x = 10
 		y = 3
@@ -89,10 +75,6 @@ focus_tree = {
 			}
 			prerequisite = {
 				focus = AUS_mil_turmoil_2
-			}
-
-			mutually_exclusive = {
-        		focus = AUS_pol_turmoil_3_1
 			}
 
             completion_reward = {
@@ -182,32 +164,7 @@ focus_tree = {
 #####################################################
 # Political Choices
 #####################################################
-
-		focus = {											###WIP###
-		id = AUS_GOV_left
-		icon = GFX_goal_Communist_Loyalty
-		x = 4
-		y = 4
-		cost = 3
-			
-			prerequisite = {
-				focus = AUS_pol_turmoil_3_1
-			}
-
-            completion_reward = {
-                AWR = {
-					change_tag_from = AUS
-					declare_war_on = {
-						target = AUS
-						type = annex_everything
-					}
-				}
-            }
-		}													###WIP###
-#
-#
-#
-		focus = {
+		focus = {									###Gov Choice
 		id = AUS_GOV_right
 		icon = GFX_goal_Catholic_2
 		x = 9
@@ -215,36 +172,687 @@ focus_tree = {
 		cost = 3
 
 			prerequisite = {
-				focus = AUS_pol_turmoil_3_2
+				focus = AUS_pol_turmoil_3
+			}
+
+			mutually_exclusive = {
+				focus = AUS_GOV_nazi
 			}
 
             completion_reward = {
                 add_popularity = { ideology = right_wing_populist popularity = 0.10 }
 				set_politics = { ruling_party = right_wing_populist }
 				add_ideas = AUS_right_wing_gov
+				add_political_power = 150
             }
+		}
+##### Right Stuff
+
+		focus = {								
+		id = AUS_rwp_1_1
+		icon = GFX_goal_unknown
+		x = 9
+		y = 5
+		cost = 4
+
+			prerequisite = {
+				focus = AUS_GOV_right
+			}
+
+			completion_reward = {
+
+			}
 		}
 
 		focus = {
-		id = AUS_GOV_nazi
+		id = AUS_rwp_1_2
+		icon = GFX_goal_unknown
+		x = 9
+		y = 6
+		cost = 4
+
+			prerequisite = {
+				focus = AUS_rwp_1_1
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_rwp_2_1
+		icon = GFX_goal_unknown
+		x = 7
+		y = 5
+		cost = 4
+
+			prerequisite = {
+				focus = AUS_GOV_right
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_rwp_2_2
+		icon = GFX_goal_unknown
+		x = 7
+		y = 6
+		cost = 4
+
+			prerequisite = {
+				focus = AUS_rwp_2_1
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_rwp_3
+		icon = GFX_goal_unknown
+		x = 8
+		y = 7
+		cost = 4
+
+			prerequisite = {
+				focus = AUS_rwp_1_2
+			}
+			prerequisite = {
+				focus = AUS_rwp_2_2
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_rwp_4_1
+		icon = GFX_goal_unknown
+		x = 8
+		y = 8
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_rwp_3
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_rwp_4_2
+		icon = GFX_goal_unknown
+		x = 6
+		y = 8
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_rwp_3
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_rwp_5_1
+		icon = GFX_goal_unknown
+		x = 9
+		y = 9
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_rwp_4_1
+			}
+			prerequisite = {
+				focus = AUS_rwp_4_2
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_rwp_5_2
+		icon = GFX_goal_unknown
+		x = 9
+		y = 10
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_rwp_5_1
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_rwp_5_3
+		icon = GFX_goal_unknown
+		x = 9
+		y = 11
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_rwp_5_2
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_rwp_6_1
+		icon = GFX_goal_unknown
+		x = 7
+		y = 9
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_rwp_4_1
+			}
+			prerequisite = {
+				focus = AUS_rwp_4_2
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_rwp_6_2
+		icon = GFX_goal_unknown
+		x = 7
+		y = 10
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_rwp_6_1
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_rwp_6_3
+		icon = GFX_goal_unknown
+		x = 7
+		y = 11
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_rwp_6_2
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_rwp_7_1
+		icon = GFX_goal_unknown
+		x = 5
+		y = 9
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_rwp_4_1
+			}
+			prerequisite = {
+				focus = AUS_rwp_4_2
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_rwp_7_2
+		icon = GFX_goal_unknown
+		x = 5
+		y = 10
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_rwp_7_1
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_rwp_7_3
+		icon = GFX_goal_unknown
+		x = 5
+		y = 11
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_rwp_7_2
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_rwp_8
+		icon = GFX_goal_unknown
+		x = 7
+		y = 12
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_rwp_5_3
+			}
+			prerequisite = {
+				focus = AUS_rwp_6_3
+			}
+			prerequisite = {
+				focus = AUS_rwp_7_3
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+######################
+
+		focus = {
+		id = AUS_GOV_nazi													###Gov Choice
 		icon = GFX_goal_MAF_Kulturkampf
 		x = 11
 		y = 4
 		cost = 3
 
 			prerequisite = {
-				focus = AUS_pol_turmoil_3_2
+				focus = AUS_pol_turmoil_3
+			}
+			
+			mutually_exclusive = {
+				focus = AUS_GOV_right
 			}
 
             completion_reward = {
-                add_popularity = { ideology = national_syndicalist popularity = 0.15 }
+                add_popularity = { ideology = national_syndicalist popularity = 0.20 }
 				set_politics = { ruling_party = national_syndicalist }
 				add_ideas = AUS_nazi_gov
+				add_political_power = 150
+				if = {
+					limit = {
+						has_idea = aus_gleichschaltung
+					}
+					swap_ideas = {
+						add_idea = { aus_gleichschaltung_nazi }
+						remove_idea = { aus_gleichschaltung }
+					}
+				}
             }
 		}
 
+########### Nazi Stuff
 
+		focus = {								
+		id = AUS_nzs_1_1
+		icon = GFX_goal_unknown
+		x = 11
+		y = 5
+		cost = 4
 
+			prerequisite = {
+				focus = AUS_GOV_nazi
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_nzs_1_2
+		icon = GFX_goal_unknown
+		x = 11
+		y = 6
+		cost = 4
+
+			prerequisite = {
+				focus = AUS_nzs_1_1
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_nzs_2_1
+		icon = GFX_goal_unknown
+		x = 13
+		y = 5
+		cost = 4
+
+			prerequisite = {
+				focus = AUS_GOV_nazi
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_nzs_2_2
+		icon = GFX_goal_unknown
+		x = 13
+		y = 6
+		cost = 4
+
+			prerequisite = {
+				focus = AUS_nzs_2_1
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_nzs_3
+		icon = GFX_goal_unknown
+		x = 12
+		y = 7
+		cost = 4
+
+			prerequisite = {
+				focus = AUS_nzs_1_2
+			}
+			prerequisite = {
+				focus = AUS_nzs_2_2
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_nzs_4_1
+		icon = GFX_goal_unknown
+		x = 12
+		y = 8
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_nzs_3
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_nzs_4_2
+		icon = GFX_goal_unknown
+		x = 14
+		y = 8
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_nzs_3
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_nzs_5_1
+		icon = GFX_goal_unknown
+		x = 11
+		y = 9
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_nzs_4_1
+			}
+			prerequisite = {
+				focus = AUS_nsz_4_2
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_nzs_5_2
+		icon = GFX_goal_unknown
+		x = 11
+		y = 10
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_nzs_5_1
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_nzs_5_3
+		icon = GFX_goal_unknown
+		x = 11
+		y = 11
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_nzs_5_2
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_nzs_6_1
+		icon = GFX_goal_unknown
+		x = 13
+		y = 9
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_nzs_4_1
+			}
+			prerequisite = {
+				focus = AUS_nzs_4_2
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_nzs_6_2
+		icon = GFX_goal_unknown
+		x = 13
+		y = 10
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_nzs_6_1
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_nzs_6_3
+		icon = GFX_goal_unknown
+		x = 13
+		y = 11
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_nzs_6_2
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_nzs_7_1
+		icon = GFX_goal_unknown
+		x = 15
+		y = 9
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_nzs_4_1
+			}
+			prerequisite = {
+				focus = AUS_nzs_4_2
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_nzs_7_2
+		icon = GFX_goal_unknown
+		x = 15
+		y = 10
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_nzs_7_1
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_nzs_7_3
+		icon = GFX_goal_unknown
+		x = 15
+		y = 11
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_nzs_7_2
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_nzs_8
+		icon = GFX_goal_unknown
+		x = 13
+		y = 12
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_nzs_5_3
+			}
+			prerequisite = {
+				focus = AUS_nzs_6_3
+			}
+			prerequisite = {
+				focus = AUS_nzs_7_3
+			}
+
+			completion_reward = {
+
+			}
+		}
+
+###################################################################################
+############################## Both Gov Focuses
+###################################################################################
+
+		focus = {
+		id = AUS_both_govs_1
+		icon = GFX_goal_unknown
+		x = 10
+		y = 13
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_rwp_8
+				focus = AUS_nzs_8
+			}
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_both_govs_2
+		icon = GFX_goal_unknown
+		x = 10
+		y = 14
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_both_govs_1
+			}
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_both_govs_3
+		icon = GFX_goal_unknown
+		x = 10
+		y = 15
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_both_govs_2
+			}
+			completion_reward = {
+
+			}
+		}
 
 }
 	

@@ -1,0 +1,113 @@
+ideas = {
+    country = {
+	
+        ### Gleichschaltung ###
+		
+        aus_gleichschaltung = {
+            available = { original_tag = AUS }
+            picture = neutrality_idea
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+            modifier = {
+             	political_power_gain = -0.25
+                stability_weekly = 0.001
+                economy_cost_factor = -0.25
+                mobilization_laws_cost_factor = -0.25 
+                trade_laws_cost_factor = -0.25 
+                political_advisor_cost_factor = 0.25
+                right_wing_populist_drift = 0.10
+                consumer_goods_factor = 0.05   
+            }
+        }
+
+        aus_gleichschaltung_nazi = {
+            available = { original_tag = AUS }
+            picture = neutrality_idea
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+            modifier = {
+             	political_power_gain = -0.25
+                stability_weekly = 0.001
+                economy_cost_factor = -0.25
+                mobilization_laws_cost_factor = -0.25 
+                trade_laws_cost_factor = -0.25 
+                political_advisor_cost_factor = 0.25
+                national_syndicalist_drift = 0.15
+                consumer_goods_factor = 0.05   
+            }
+        }
+
+        aus_decreased_expences = {
+            available = { original_tag = AUS }
+            picture = neutrality_idea
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                
+            }
+        }
+
+        aus_increased_expences = {
+            available = { original_tag = AUS }
+            picture = neutrality_idea
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                
+            }
+        }
+
+        AUS_right_wing_gov = {
+            available = { original_tag = AUS }
+            picture = neutrality_idea
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                political_power_gain = 0.5
+                add_stability = 0.1
+            }
+        }
+
+        AUS_nazi_gov = {
+            available = { original_tag = AUS }
+            picture = neutrality_idea
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                political_power_gain = 0.5
+                add_stability = 0.1
+            }
+        }
+    }
+}
+
