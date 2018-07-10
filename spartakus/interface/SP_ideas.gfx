@@ -1366,7 +1366,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_JAP_ssdc"
-		texturefile = "gfx/interface/ideas/JAP/JAP_ssdc.dds"
+		texturefile = "gfx/interface/ideas/JAP/JAP_ssdc.dds"	
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_nanko_admin"
+		texturefile = "gfx/interface/ideas/JAP/JAP_nanko_admin.dds"	
 	}
 	
 	# Baden
