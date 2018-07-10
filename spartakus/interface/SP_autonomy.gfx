@@ -38,4 +38,8 @@ spriteTypes = {
 		name = "GFX_sp_occupied_icon"
 		textureFile = "gfx/interface/autonomy/sp_occupied_icon.dds"
 	}
+	spriteType = {
+		name = "GFX_sp_Brit_Irish_crown_dominion_icon"
+		textureFile = "gfx/interface/autonomy/sp_Brit_Irish_crown_dominion_icon.dds"
+	}
 }

@@ -1304,19 +1304,19 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_backward_industry"
-		texturefile = "gfx/interface/ideas/ROM/idea_backward_industry.dds"
+		texturefile = "gfx/interface/ideas/ideas/backward_industry.dds"
 	}
 	spriteType = {
-		name = "GFX_NOR_planned_economy"
-		texturefile = "gfx/interface/ideas/ROM/NOR_planned_economy.dds"
+		name = "GFX_idea_NOR_planned_economy"
+		texturefile = "gfx/interface/ideas/ideas/NOR_planned_economy.dds"
 	}
 	spriteType = {
-		name = "GFX_ROM_seats"
+		name = "GFX_idea_ROM_seats"
 		texturefile = "gfx/interface/ideas/ROM/ROM_seats.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_JAP_showa"
-		texturefile = "gfx/interface/ideas/JAP/JAP_showa.dds"
+		name = "GFX_idea_ROM_agricultural_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROM_agricultural_icon.dds"
 	}
 	
 	# Czechia
@@ -1367,6 +1367,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_JAP_ssdc"
 		texturefile = "gfx/interface/ideas/JAP/JAP_ssdc.dds"
+	}
+	
+	# Baden
+	spriteType = {
+		name = "GFX_idea_sore_loser"
+		texturefile = "gfx/interface/ideas/SP_ideas/sore_loser.dds"
 	}
 		
 }
