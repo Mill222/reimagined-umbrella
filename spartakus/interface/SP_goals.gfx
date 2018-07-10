@@ -4034,6 +4034,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_women_snipers.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_ROM_conquest"
+		texturefile = "gfx/interface/goals/ROM_conquest.dds"
+	}
+	
 	# Flags
 	
 	SpriteType = {
