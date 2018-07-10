@@ -443,11 +443,13 @@ focus_tree = {
 		}
 	}
 	
+	# Civil War Recovery
+	
 	focus = {
 		id = POR_recovery
 		icon = GFX_goal_graveyard
 		x = 10
-		y = 4
+		y = 0
 		available = {
 			OR = {
 				has_global_flag = POR_civil_war_over
@@ -455,89 +457,54 @@ focus_tree = {
 		}
 		cost = 8.6
 		completion_reward = {	
-			add_equipment_to_stockpile = {
-				type = infantry_equipment_1 amount = 500 producer = POR
-			}
 		}
 	}
 	
 	focus = {
-		id = POR_recovery1
-		icon = GFX_goal_HOL_black_monday
-		relative_position_id = POR_recovery
-		prerequisite = { focus = POR_recovery }
-		x = 1
-		y = 1
-		available = {
-			OR = {
-				has_global_flag = POR_civil_war_over
-			}
-		}
-		cost = 8.6
-		completion_reward = {	
-			add_equipment_to_stockpile = {
-				type = infantry_equipment_1 amount = 500 producer = POR
-			}
-		}
-	}
-	
-	focus = {
-		id = POR_recovery2
-		icon = GFX_goal_USA_new_deal
-		relative_position_id = POR_recovery
-		prerequisite = { focus = POR_recovery }
-		x = -1
-		y = 1
-		available = {
-			OR = {
-				has_global_flag = POR_civil_war_over
-			}
-		}
-		cost = 8.6
-		completion_reward = {	
-			add_equipment_to_stockpile = {
-				type = infantry_equipment_1 amount = 500 producer = POR
-			}
-		}
-	}
-	
-	focus = {
-		id = POR_recovery3
-		icon = GFX_goal_Schelle
-		relative_position_id = POR_recovery
-		prerequisite = { focus = POR_recovery }
-		x = 3
-		y = 1
-		available = {
-			OR = {
-				has_global_flag = POR_civil_war_over
-			}
-		}
-		cost = 8.6
-		completion_reward = {	
-			add_equipment_to_stockpile = {
-				type = infantry_equipment_1 amount = 500 producer = POR
-			}
-		}
-	}
-	
-	focus = {
-		id = POR_recovery4
+		id = POR_recovery_agriculture
 		icon = GFX_goal_famine
 		relative_position_id = POR_recovery
 		prerequisite = { focus = POR_recovery }
 		x = -3
 		y = 1
-		available = {
-			OR = {
-				has_global_flag = POR_civil_war_over
-			}
-		}
 		cost = 8.6
 		completion_reward = {	
-			add_equipment_to_stockpile = {
-				type = infantry_equipment_1 amount = 500 producer = POR
-			}
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_rations
+		icon = GFX_goal_USA_new_deal
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery }
+		x = -1
+		y = 1
+		cost = 8.6
+		completion_reward = {	
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_economy
+		icon = GFX_goal_HOL_black_monday
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery }
+		x = 1
+		y = 1
+		cost = 8.6
+		completion_reward = {	
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_electricity
+		icon = GFX_goal_Schelle
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery }
+		x = 3
+		y = 1
+		cost = 8.6
+		completion_reward = {	
 		}
 	}
 	
@@ -545,22 +512,14 @@ focus_tree = {
 		id = POR_recovery_final
 		icon = GFX_goal_construction_engineering
 		relative_position_id = POR_recovery
-		prerequisite = { focus = POR_recovery1 }
-		prerequisite = { focus = POR_recovery2 }
-		prerequisite = { focus = POR_recovery3 }
-		prerequisite = { focus = POR_recovery4 }
+		prerequisite = { focus = POR_recovery_agriculture }
+		prerequisite = { focus = POR_recovery_rations }
+		prerequisite = { focus = POR_recovery_economy }
+		prerequisite = { focus = POR_recovery_electricity }
 		x = 0
 		y = 2
-		available = {
-			OR = {
-				has_global_flag = POR_civil_war_over
-			}
-		}
 		cost = 8.6
 		completion_reward = {	
-			add_equipment_to_stockpile = {
-				type = infantry_equipment_1 amount = 500 producer = POR
-			}
 		}
 	}
 	
@@ -725,13 +684,9 @@ focus_tree = {
 	focus = {
 		id = POR_navy
 		icon = GFX_goal_generic_sea_focused_navy
-		available = {
-			OR = {
-				has_global_flag = POR_civil_war_over
-			}
-		}
-		x = 15
-		y = 0
+		prerequisite = { focus = POR_army } 
+		x = 17
+		y = 1
 		cost = 8.6
 		completion_reward = {	
 		navy_experience = 30
@@ -742,8 +697,9 @@ focus_tree = {
 		id = POR_dockyard
 		icon = GFX_goal_generic_construct_naval_dockyard
 		prerequisite = { focus = POR_navy } 
-		x = 17
+		x = 2
 		y = 1
+		relative_position_id = POR_navy
 		cost = 8.6
 		completion_reward = {	
 		random_owned_state = {
@@ -769,9 +725,10 @@ focus_tree = {
 		id = POR_dockyard2
 		icon = GFX_goal_generic_construct_naval_dockyard
 		prerequisite = { focus = POR_dockyard } 		
-		x = 17
+		x = 2
 		y = 2
 		cost = 8.6
+		relative_position_id = POR_navy
 		completion_reward = {	
 		random_owned_state = {
 					limit = {
@@ -796,9 +753,10 @@ focus_tree = {
 		id = POR_dockyard3
 		icon = GFX_goal_generic_construct_naval_dockyard
 		prerequisite = { focus = POR_dockyard2 } 		
-		x = 17
+		x = 2
 		y = 3
 		cost = 8.6
+		relative_position_id = POR_navy
 		completion_reward = {	
 		random_owned_state = {
 					limit = {
@@ -824,8 +782,9 @@ focus_tree = {
 		icon = GFX_focus_generic_navy_battleship2
 		prerequisite = { focus = POR_navy }	
         mutually_exclusive = { focus = POR_backfoot_armada }				
-		x = 15
+		x = 0
 		y = 1
+		relative_position_id = POR_navy
 		cost = 8.6
 		completion_reward = {	
 				random_owned_state = {
@@ -851,8 +810,9 @@ focus_tree = {
 		id = POR_blueprints
 		icon = GFX_focus_generic_cruiser2
 		prerequisite = { focus = POR_capital_shipyrds}				
-		x = 15
+		x = 0
 		y = 2
+		relative_position_id = POR_navy
 		cost = 8.6
 		completion_reward = {	
 		add_tech_bonus = {
@@ -868,8 +828,9 @@ focus_tree = {
 		id = POR_nau_capitania
 		icon = GFX_goal_generic_navy_battleship
 		prerequisite = { focus = POR_blueprints }				
-		x = 15
+		x = 0
 		y = 3
+		relative_position_id = POR_navy
 		cost = 8.6
 		completion_reward = {	
 					navy_experience = 25
@@ -893,8 +854,9 @@ focus_tree = {
 		icon = GFX_focus_generic_destroyer
 		prerequisite = { focus = POR_navy }	
         mutually_exclusive = { focus = POR_capital_shipyrds }		
-		x = 13
+		x = -2
 		y = 1
+		relative_position_id = POR_navy
 		cost = 8.6
 		completion_reward = {
       add_tech_bonus= {	
@@ -914,9 +876,10 @@ focus_tree = {
 		id = POR_escort_effort
 		icon = GFX_goal_generic_navy_cruiser
 		prerequisite = { focus = POR_backfoot_armada }				
-		x = 13
+		x = -2
 		y = 2
 		cost = 8.6
+		relative_position_id = POR_navy
 		completion_reward = {	
 		add_tech_bonus = {
 				name = cr_bonus
@@ -935,9 +898,10 @@ focus_tree = {
 		id = POR_raiders
 		icon = GFX_goal_generic_navy_anti_submarine
 		prerequisite = { focus = POR_escort_effort }				
-		x = 13
+		x = -2
 		y = 3
 		cost = 8.6
+		relative_position_id = POR_navy
 		completion_reward = {	
 		add_tech_bonus = {
 				name = dd_bonus
@@ -955,8 +919,8 @@ focus_tree = {
 	focus = {
 		id = POR_economic
 		icon = GFX_goal_generic_production
-		x = 33
-		y = 0
+		x = 10
+		y = 7
 		cost = 8.6
 		available = {
 			OR = {
@@ -974,7 +938,7 @@ focus_tree = {
 	}
 	
 		focus = {
-		id = POR_investments
+		id = POR_industrial_investments
 		icon = GFX_focus_focus_generic_industry_1
 		relative_position_id = POR_economic
 		prerequisite = { focus = POR_economic } 		
@@ -1165,7 +1129,7 @@ focus_tree = {
 		id = POR_econimical_recovery
 		relative_position_id = POR_economic
 		icon = GFX_goal_generic_positive_trade_relations
-		prerequisite = { focus = POR_investments } 		
+		prerequisite = { focus = POR_industrial_investments } 		
 		x = 0
 		y = 2
 		cost = 8.6
@@ -1872,11 +1836,7 @@ focus_tree = {
 	   focus = {
 		id = POR_airforce
 		icon = GFX_goal_generic_build_airforce
-		available = {
-			OR = {
-				has_global_flag = POR_civil_war_over
-			}
-		}
+		prerequisite = { focus = POR_army } 
 		x = 29
 		y = 1
 		cost = 8.6

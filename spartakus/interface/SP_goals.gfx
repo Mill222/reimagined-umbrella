@@ -4023,4 +4023,21 @@ spriteTypes = {
 		name = "GFX_JAP_focus_ssdc"
 		texturefile = "gfx/interface/goals/JAP_focus_ssdc.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_IRE_farms"
+		texturefile = "gfx/interface/goals/IRE_farms.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_women_snipers"
+		texturefile = "gfx/interface/goals/goal_women_snipers.dds"
+	}
+	
+	# Flags
+	
+	SpriteType = {
+		name = "GFX_goal_flag_serbia"
+		texturefile = "gfx/interface/goals/goal_flag_serbia.dds"
+	}
 }
