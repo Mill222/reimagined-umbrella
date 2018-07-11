@@ -2389,11 +2389,6 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_threearrows"
-		texturefile = "gfx/interface/goals/threearrows.dds"
-	}
-	
-	SpriteType = {
 		name = "GFX_goal_germania"
 		texturefile = "gfx/interface/goals/germania.dds"
 	}
@@ -3870,8 +3865,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_Austrofascisim"
-		texturefile = "gfx/interface/goals/Austrofascisim.dds"
+		name = "GFX_Austro_Fascism"
+		texturefile = "gfx/interface/goals/Austro_Fascism.dds"
 	}
 	
 	SpriteType = {
@@ -4034,15 +4029,141 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_women_snipers.dds"
 	}
 	
-	SpriteType = {
-		name = "GFX_ROM_conquest"
-		texturefile = "gfx/interface/goals/ROM_conquest.dds"
-	}
-	
 	# Flags
 	
 	SpriteType = {
 		name = "GFX_goal_flag_serbia"
 		texturefile = "gfx/interface/goals/goal_flag_serbia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_flag_socialist_portugal"
+		texturefile = "gfx/interface/goals/goal_flag_socialist_portugal.dds"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_Advised_Military"
+		texturefile = "gfx/interface/goals/Advised_Military.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Attack_Romania"
+		texturefile = "gfx/interface/goals/Attack_Romania.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Attack_Belgium"
+		texturefile = "gfx/interface/goals/Attack_Belgium.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Austrian_Armor"
+		texturefile = "gfx/interface/goals/Austrian_Armor.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Austrofascism"
+		texturefile = "gfx/interface/goals/Austrofascism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Austrofascism2"
+		texturefile = "gfx/interface/goals/Austrofascism2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Austrofascism3"
+		texturefile = "gfx/interface/goals/Austrofascism3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Three_Arrows"
+		texturefile = "gfx/interface/goals/Three_Arrows.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Austro_Marxism"
+		texturefile = "gfx/interface/goals/Austro_Marxism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Austronationalism"
+		texturefile = "gfx/interface/goals/Austronationalism.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Blessed_Soldiers"
+		texturefile = "gfx/interface/goals/Blessed_Soldiers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Brazilian_Armor"
+		texturefile = "gfx/interface/goals/Brazilian_Armor.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Colonial_Expeditions"
+		texturefile = "gfx/interface/goals/Focus_Colonial_Expeditions.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Conscription_Act"
+		texturefile = "gfx/interface/goals/Focus_Conscription_Act.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Feed_the_People"
+		texturefile = "gfx/interface/goals/Feed_the_People.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Military_Mobilisation"
+		texturefile = "gfx/interface/goals/Focus_Military_Mobilisation.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Nothing_Left"
+		texturefile = "gfx/interface/goals/Nothing_Left.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_P1000"
+		texturefile = "gfx/interface/goals/focus_P1000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Punishing_Barrages"
+		texturefile = "gfx/interface/goals/Punishing_Barrages.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Shelter_the_People"
+		texturefile = "gfx/interface/goals/Shelter_the_People.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Soldiers_for_Workers"
+		texturefile = "gfx/interface/goals/Soldiers_for_Workers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ROM_conquest"
+		texturefile = "gfx/interface/goals/ROM_conquest.dds"
 	}
 }
