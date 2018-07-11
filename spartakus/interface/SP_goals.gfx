@@ -4166,4 +4166,24 @@ spriteTypes = {
 		name = "GFX_ROM_conquest"
 		texturefile = "gfx/interface/goals/ROM_conquest.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_Czech_Communists"
+		texturefile = "gfx/interface/goals/Czech_Communists.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Deep_Water_Terror"
+		texturefile = "gfx/interface/goals/Deep_Water_Terror.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Money_Bags"
+		texturefile = "gfx/interface/goals/Money_Bags.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Slovakian_Soviet"
+		texturefile = "gfx/interface/goals/Slovakian_Soviet.dds"
+	}
 }
