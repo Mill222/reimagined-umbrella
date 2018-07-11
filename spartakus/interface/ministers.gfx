@@ -64414,11 +64414,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_POR_Sidonio_Pais_hog_ade"
-		texturefile = "gfx/interface/ministers/POR/POR_Sidonio_Pais.tga"
-	}
-
-	spriteType = {
 		name = "GFX_idea_POR_Alberto_Monsaraz_hog_rwp"
 		texturefile = "gfx/interface/ministers/POR/POR_Alberto_Monsaraz.tga"
 	}
