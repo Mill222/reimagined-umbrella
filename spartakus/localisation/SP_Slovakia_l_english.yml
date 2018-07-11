@@ -1,7 +1,9 @@
 ﻿l_english:
 
 # Events
-
+slo.1.t:0 "A Curious Guest"
+slo.1.d:0 "Famed Austrian Film Director Wolfgang Liebeneiner has gone missing today after a filming excursion to the Austro-Slovak border regions. He was there to film a short piece on the plight of the border regions of both Austria and Slovakia under their current leaderships, according to the crew who were filming with him he was last seen entering a hut in Jarovce only to not return after an hour. The Crew tried searching for him but were forced back by the Border Police and told to forget about him, The Austrian Government has sent a telegram demanding the support of Slovakia in searching for it's citizen but the Slovakian Foreign Minister has refused to comment on the matter."
+slo.1.a:0 "He will make a fine addition to our Film Industry"
 # Decisions & Missions
 
 # Custom Tooltips

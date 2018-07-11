@@ -1,0 +1,20 @@
+﻿###########################
+# Slovakia Events
+###########################
+
+add_namespace = slo
+
+country_event = {
+	id = slo.1
+	title = slo.1.t
+	desc = slo.1.d
+	picture = GFX_campo
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = slo.1.a
+	}
+}
+
