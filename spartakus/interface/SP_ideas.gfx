@@ -435,6 +435,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ROM/ROM_seats.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_ROM_taxation"
+		texturefile = "gfx/interface/ideas/ROM/ROM_seats.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_ROM_agricultural_icon"
 		texturefile = "gfx/interface/ideas/ROM/ROM_agricultural_icon.dds"
 	}

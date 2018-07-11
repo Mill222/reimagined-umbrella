@@ -149,7 +149,7 @@ ideas = {
 		}
 		
 		ROM_subsidies = {
-			picture = IRE_debt_vlow
+			picture = Big_Money_Idea
 
 			allowed = {
 				original_tag = ROM
@@ -165,7 +165,7 @@ ideas = {
 		}
 		
 		ROM_rural_reform = {
-			picture = IRE_taxation
+			picture = ROM_taxation
 
 			allowed = {
 				original_tag = ROM
@@ -304,7 +304,7 @@ ideas = {
 		}
 		
 		ROM_industrial_unrest = {
-			picture = KTG_Industrial_Crisis_Factories
+			picture = idea_Small_Industrial_Crisis
 
 			allowed = {
 				original_tag = ROM
@@ -322,7 +322,7 @@ ideas = {
 		}
 		
 		ROM_industrial_unrest_2 = {
-			picture = KTG_Industrial_Crisis_Factories
+			picture = idea_Small_Industrial_Crisis
 
 			allowed = {
 				original_tag = ROM
@@ -340,7 +340,7 @@ ideas = {
 		}
 		
 		ROM_industrial_unrest_3 = {
-			picture = KTG_Industrial_Crisis_Factories
+			picture = idea_Small_Industrial_Crisis
 
 			allowed = {
 				original_tag = ROM
@@ -356,7 +356,7 @@ ideas = {
 		}
 		
 		ROM_industrial_unrest_4 = {
-			picture = KTG_Industrial_Crisis_Factories
+			picture = idea_Small_Industrial_Crisis
 
 			allowed = {
 				original_tag = ROM
@@ -373,7 +373,7 @@ ideas = {
 		}
 		
 		ROM_industrial_unrest_5 = {
-			picture = KTG_Industrial_Crisis_Factories
+			picture = idea_Small_Industrial_Crisis
 
 			allowed = {
 				original_tag = ROM
@@ -390,7 +390,7 @@ ideas = {
 		}
 		
 		ROM_industrial_unrest_6 = {
-			picture = KTG_Industrial_Crisis_Factories
+			picture = idea_Small_Industrial_Crisis
 
 			allowed = {
 				original_tag = ROM
@@ -408,7 +408,7 @@ ideas = {
 		}
 		
 		ROM_industrial_unrest_7 = {
-			picture = KTG_Industrial_Crisis_Factories
+			picture = idea_Small_Industrial_Crisis
 
 			allowed = {
 				original_tag = ROM
@@ -696,7 +696,7 @@ ideas = {
 		}
 		
 		ROM_conservative_state = {
-			picture = idea_japanese_aid_cut
+			picture = idea_aid_cut
 
 			allowed = {
 				original_tag = ROM
@@ -992,7 +992,7 @@ ideas = {
 		}
 		
 		ROM_nationalize_factories = {
-			picture = NOR_planned_economy
+			picture = Planned_Economy
 
 			allowed = {
 				original_tag = ROM
