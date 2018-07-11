@@ -34,7 +34,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_pol_turmoil_1
-		icon = GFX_goal_unknown
+		icon = GFX_Crush_the_Rebellion
 		x = 10
 		y = 0
 		cost = 1
@@ -46,7 +46,7 @@ focus_tree = {
 
 	focus = {
 		id = AUS_pol_turmoil_2
-		icon = GFX_goal_unknown
+		icon = GFX_goal_purge_opposition
 		x = 10
 		y = 1
 		cost = 1
@@ -62,7 +62,7 @@ focus_tree = {
 
     	focus = {
 		id = AUS_pol_turmoil_3
-		icon = GFX_goal_unknown
+		icon = GFX_goal_broken_red_star
 		x = 10
 		y = 3
 		cost = 1
@@ -90,7 +90,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_eco_turmoil_1
-		icon = GFX_goal_unknown
+		icon = GFX_Economic_Collapse
 		x = 7
 		y = 1
 		cost = 1
@@ -106,7 +106,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_eco_turmoil_2
-		icon = GFX_goal_unknown
+		icon = GFX_AUS_agriculture
 		x = 7
 		y = 2
 		cost = 1
@@ -129,7 +129,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_mil_turmoil_1
-		icon = GFX_goal_unknown
+		icon = GFX_goal_LEC_police3
 		x = 13
 		y = 1
 		cost = 1
@@ -145,7 +145,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_mil_turmoil_2
-		icon = GFX_goal_unknown
+		icon = GFX_goal_enlist_the_police
 		x = 13
 		y = 2
 		cost = 1
@@ -166,7 +166,7 @@ focus_tree = {
 #####################################################
 		focus = {									###Gov Choice
 		id = AUS_GOV_right
-		icon = GFX_goal_Catholic_2
+		icon = GFX_goal_new_treaty
 		x = 9
 		y = 4
 		cost = 3
@@ -190,7 +190,7 @@ focus_tree = {
 
 		focus = {								
 		id = AUS_rwp_1_1
-		icon = GFX_goal_unknown
+		icon = GFX_Money_Bags
 		x = 9
 		y = 5
 		cost = 4
@@ -206,7 +206,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_rwp_1_2
-		icon = GFX_goal_unknown
+		icon = GFX_goal_bag_of_money
 		x = 9
 		y = 6
 		cost = 4
@@ -222,7 +222,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_rwp_2_1
-		icon = GFX_goal_unknown
+		icon = GFX_DAH_Topke
 		x = 7
 		y = 5
 		cost = 4
@@ -238,7 +238,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_rwp_2_2
-		icon = GFX_goal_unknown
+		icon = GFX_Expand_the_Topke_System
 		x = 7
 		y = 6
 		cost = 4
@@ -548,7 +548,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_nzs_2_1
-		icon = GFX_goal_unknown
+		icon = GFX_Pile_of_Money
 		x = 13
 		y = 5
 		cost = 4
@@ -564,7 +564,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_nzs_2_2
-		icon = GFX_goal_unknown
+		icon = GFX_goal_factory_complex
 		x = 13
 		y = 6
 		cost = 4
@@ -580,7 +580,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_nzs_3
-		icon = GFX_goal_unknown
+		icon = State_Control
 		x = 12
 		y = 7
 		cost = 4
@@ -599,7 +599,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_nzs_4_1
-		icon = GFX_goal_unknown
+		icon = GFX_goal_state_economy
 		x = 12
 		y = 8
 		cost = 10
