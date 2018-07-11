@@ -580,7 +580,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_nzs_3
-		icon = State_Control
+		icon = GFX_State_Control
 		x = 12
 		y = 7
 		cost = 4
