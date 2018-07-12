@@ -222,7 +222,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_rwp_2_1
-		icon = GFX_DAH_Topke
+		icon = GFX_Topke
 		x = 7
 		y = 5
 		cost = 4
@@ -502,7 +502,7 @@ focus_tree = {
 				add_political_power = 150
 				if = {
 					limit = {
-						has_idea = aus_gleichschaltung
+						has_idea = { aus_gleichschaltung }
 					}
 					swap_ideas = {
 						add_idea = { aus_gleichschaltung_nazi }
@@ -854,5 +854,280 @@ focus_tree = {
 			}
 		}
 
+###########################################################
+## Army Tree
+###########################################################
+
+		focus = {
+		id = AUS_army_start
+		icon = GFX_goal_unknown
+		x = 20
+		y = 0
+		cost = 10
+
+			bypass = {
+        		has_completed_focus = AUS_mil_turmoil_2
+    		}
+			prerequisite = {
+				
+			}
+			completion_reward = {
+
+			}
+		}
+
+######
+# Militia Route
+######
+
+		focus = {
+		id = AUS_army_militia_route
+		icon = GFX_goal_unknown
+		x = 18
+		y = 1
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_army_start
+			}
+			completion_reward = {
+
+			}
+		}
+		
+		focus = {
+		id = AUS_army_militia_1
+		icon = GFX_goal_unknown
+		x = 18
+		y = 2
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_army_militia_route
+			}
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_army_militia_2
+		icon = GFX_goal_unknown
+		x = 18
+		y = 3
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_army_militia_1
+			}
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_army_militia_3
+		icon = GFX_goal_unknown
+		x = 18
+		y = 4
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_army_militia_2
+			}
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_army_militia_4
+		icon = GFX_goal_unknown
+		x = 18
+		y = 5
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_army_militia_3
+			}
+			completion_reward = {
+
+			}
+		}
+
+#######
+# Heer Route
+#######
+
+		focus = {
+		id = AUS_army_heer_route
+		icon = GFX_goal_unknown
+		x = 22
+		y = 1
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_army_start
+			}
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_army_heer_1
+		icon = GFX_goal_unknown
+		x = 22
+		y = 2
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_army_heer_route
+			}
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_army_heer_2
+		icon = GFX_goal_unknown
+		x = 22
+		y = 3
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_army_heer_1
+			}
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_army_heer_3
+		icon = GFX_goal_unknown
+		x = 22
+		y = 4
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_army_heer_2
+			}
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_army_heer_4
+		icon = GFX_goal_unknown
+		x = 22
+		y = 5
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_army_heer_3
+			}
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_army_middle_1
+		icon = GFX_goal_unknown
+		x = 20
+		y = 2
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_army_heer_route
+				focus = AUS_army_militia_route
+			}
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_army_middle_2
+		icon = GFX_goal_unknown
+		x = 20
+		y = 3
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_army_middle_1
+			}
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_army_middle_3
+		icon = GFX_goal_unknown
+		x = 20
+		y = 4
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_army_middle_2
+			}
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_army_middle_4
+		icon = GFX_goal_unknown
+		x = 20
+		y = 5
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_army_middle_3
+			}
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_army_middle_5
+		icon = GFX_goal_unknown
+		x = 20
+		y = 6
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_army_middle_4
+			}
+			completion_reward = {
+
+			}
+		}
+
+		focus = {
+		id = AUS_army_middle_6
+		icon = GFX_goal_unknown
+		x = 20
+		y = 7
+		cost = 10
+
+			prerequisite = {
+				focus = AUS_army_middle_5
+			}
+			prerequisite = {
+				focus = AUS_army_heer_4
+				focus = AUS_army_militia_4
+			}
+			completion_reward = {
+
+			}
+		}
+
+
 }
-	
