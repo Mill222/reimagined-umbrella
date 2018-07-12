@@ -273,33 +273,6 @@ spriteTypes = {
 		name = "GFX_idea_Austria_Flag_Burning"
 		texturefile = "gfx/interface/ideas/BurningFlags/Austria_Flag_Burning.dds"
 	}
-
-	# Generic Companies
-	
-	spriteType = {
-		name = "GFX_idea_generic_industrial_company"
-		texturefile = "gfx/interface/ideas/idea_generic_industrial_concern_1.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_generic_arms_company"
-		texturefile = "gfx/interface/ideas/idea_generic_infantry_equipment_manufacturer_2.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_generic_artillery_company"
-		texturefile = "gfx/interface/ideas/idea_generic_infantry_equipment_manufacturer_3.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_generic_tank_company"
-		texturefile = "gfx/interface/ideas/idea_generic_tank_manufacturer_2.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_generic_fighter_company"
-		texturefile = "gfx/interface/ideas/idea_generic_air_manufacturer_3.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_generic_naval_company"
-		texturefile = "gfx/interface/ideas/idea_generic_naval_manufacturer_3.dds"
-	}
 	
 	# Political Power
 	
@@ -322,17 +295,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_very_high_popularity"
 		texturefile = "gfx/interface/party_popularity_5.tga"
-	}
-	
-	# Companies
-	
-	spriteType = {
-		name = "GFX_idea_slot_weapons_manufacturer"
-		texturefile = "gfx/interface/idea_slot_weapons_manufacturer_sp.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_slot_air_naval_manufacturer"
-		texturefile = "gfx/interface/idea_slot_air_naval_manufacturer_sp.dds"
 	}
 	
 	# Ottomans/Turks

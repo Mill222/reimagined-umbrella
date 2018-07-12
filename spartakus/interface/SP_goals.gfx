@@ -4186,4 +4186,49 @@ spriteTypes = {
 		name = "GFX_Slovakian_Soviet"
 		texturefile = "gfx/interface/goals/Slovakian_Soviet.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_goal_oil_research"
+		texturefile = "gfx/interface/goals/goal_oil_research.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Army_March"
+		texturefile = "gfx/interface/goals/Army_March.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Automobile_Production"
+		texturefile = "gfx/interface/goals/Automobile_Production.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Chaos_at_the_Soviet"
+		texturefile = "gfx/interface/goals/Chaos_at_the_Soviet.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Crusader_Thought"
+		texturefile = "gfx/interface/goals/Crusader_Thought.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_NZL_Silver_Fern"
+		texturefile = "gfx/interface/goals/NZL_Silver_Fern.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Jungle_Warfare"
+		texturefile = "gfx/interface/goals/Jungle_Warfare.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Sandy_Tanks"
+		texturefile = "gfx/interface/goals/Sandy_Tanks.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Wolf_Hungers"
+		texturefile = "gfx/interface/goals/Wolf_Hungers.dds"
+	}
 }
