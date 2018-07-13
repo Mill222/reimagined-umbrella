@@ -4231,4 +4231,14 @@ spriteTypes = {
 		name = "GFX_Wolf_Hungers"
 		texturefile = "gfx/interface/goals/Wolf_Hungers.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_RAJ_indian_railways"
+		texturefile = "gfx/interface/goals/RAJ_indian_railways.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAJ_indian_railways_star"
+		texturefile = "gfx/interface/goals/RAJ_indian_railways_star.tga"
+	}
 }
