@@ -397,23 +397,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ROM/ROM_seats.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_ROM_taxation"
-		texturefile = "gfx/interface/ideas/ROM/ROM_seats.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_ROM_agricultural_icon"
 		texturefile = "gfx/interface/ideas/ROM/ROM_agricultural_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_taxation"
+		texturefile = "gfx/interface/ideas/ROM/ROM_taxation.dds"
 	}
 	
 	# Czechia
 	
 	spriteType = {
-		name = "GFX_idea_Bohemian_Crown_Lands"
-		texturefile = "gfx/interface/ideas/CZE/Bohemian_Crown_Lands.dds"
+		name = "GFX_idea_Bohemian_Legacy"
+		texturefile = "gfx/interface/ideas/CZE/Bohemian_Legacy.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_Dreams_of_Czechoslovakia"
-		texturefile = "gfx/interface/ideas/CZE/Dreams_of_Czechoslovakia.dds"
+		name = "GFX_idea_Czech_Dreams"
+		texturefile = "gfx/interface/ideas/CZE/Czech_Dreams.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_Food_Shortages"

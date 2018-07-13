@@ -671,7 +671,7 @@ focus_tree = {
 	
 	focus = {
 			id = ROM_odessa
-			icon = GFX_ROM_conquest
+			icon = GFX_ROM_tiraspol
 			prerequisite = { focus = ROM_integration }
 			x = 7
 			y = 10

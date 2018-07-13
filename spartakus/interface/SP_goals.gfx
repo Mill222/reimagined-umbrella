@@ -4233,6 +4233,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_ROM_tiraspol"
+		texturefile = "gfx/interface/goals/ROM_tiraspol.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_RAJ_indian_railways"
 		texturefile = "gfx/interface/goals/RAJ_indian_railways.tga"
 	}
