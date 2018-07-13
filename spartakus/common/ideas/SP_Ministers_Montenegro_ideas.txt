@@ -1,0 +1,130 @@
+ideas = {
+
+  ################################################################################################################################################################################################
+  ### AFG
+  ################################################################################################################################################################################################
+  
+    head_of_government = { ### Head of Government ###
+		MNT_Marko_Dakovic_hog_ade = {
+			allowed = {original_tag = MNT}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Marko_Dakovic_dead}
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_happy_amateur
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+
+	head_of_government = { ### Head of Government ###
+		MNT_Andrija_Radovic_hog_rwp = {
+			allowed = {original_tag = MNT}
+			available = {
+				has_country_flag = can_replace_hog
+			}
+			visible = {
+				right_wing_populist_allowed = yes
+				NOT = {has_country_flag = Andrija_Radovic_dead}
+			}
+			traits = {
+				head_of_government
+				right_wing_populist
+				hog_spiritual_leader
+			}
+			cancel_if_invalid = yes
+		}
+
+	}	
+	
+	foreign_minister = { ### Foreign Minister ###
+		MNT_Jovan_Simonov_Plamenac_for_ade = {
+			allowed = {original_tag = MNT}
+			visible = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Jovan_Simonov_Plamenac_dead}
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_great_compromiser
+			}
+			cancel_if_invalid = yes
+		}
+	}
+		
+	economy_minister = { ### Economy Minister ###
+		MNT_Sekula_Drljevic_eco_ade = {
+			allowed = {original_tag = MNT}
+			visible = {
+				authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Sekula_Drljevic_dead}
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_military_entrepreneur
+			}
+			cancel_if_invalid = yes
+		}
+    }
+	
+	security_minister = { 
+	
+		MNT_Mihailo_Ivanovic_sec_ade = {
+			allowed = {original_tag = MNT}
+			visible = {
+			    authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Mihailo_Ivanovic_dead}
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_back_stabber
+			}
+			cancel_if_invalid = yes
+		}
+	
+}
+
+    head_of_intel = {
+
+        MNT_Savo_Raspopovic_int_ade = {
+			allowed = {original_tag = MNT}
+			visible = {
+			    authoritarian_democrat_allowed = yes
+				NOT = {has_country_flag = Savo_Raspopovic_dead}
+			}
+			traits = {
+				head_of_intel
+				authoritarian_democrat
+				int_logistics_specialist
+			}
+			cancel_if_invalid = yes
+		}
+    }
+	
+	chief_of_staff = { 
+	
+		MNT_Krsto_Popovic_cos_ade = {
+			allowed = {original_tag = MNT}
+			visible = {
+			NOT = {has_country_flag = Krsto_Popovic_dead}
+			}
+			traits = {
+				chief_of_staff
+				authoritarian_democrat
+				cos_school_of_psychology
+			}
+			cancel_if_invalid = yes
+		}
+	
+	
+}

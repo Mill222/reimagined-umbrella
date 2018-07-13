@@ -3,6 +3,16 @@
 oob = "MNT"
 
 set_research_slots = 2
+set_stability = 0.3
+set_war_support = 0.5
+add_ideas = {
+	MNT_Marko_Dakovic_hog_ade
+	MNT_Jovan_Simonov_Plamenac_for_ade
+	MNT_Sekula_Drljevic_eco_ade
+	MNT_Mihailo_Ivanovic_sec_ade
+	MNT_Savo_Raspopovic_int_ade
+	MNT_Krsto_Popovic_cos_ade
+}
 
 # Starting tech
 set_technology = {
@@ -198,4 +208,32 @@ create_country_leader = {
 	traits = {
 		
 	}
+}
+
+create_corps_commander = {
+	name = "Radomir Vešović"
+	portrait_path = "gfx/leaders/MNT/Portrait_Radomir_Vešović.dds"
+	traits = {
+	    war_hero
+		ambusher
+		trait_reckless
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Mitar Martinović"
+	portrait_path = "gfx/leaders/MNT/Portrait_Mitar_Martinović.dds"
+	traits = {
+	    defensive_doctrine
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
 }

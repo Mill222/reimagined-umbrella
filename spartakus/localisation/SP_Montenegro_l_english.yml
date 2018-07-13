@@ -35,6 +35,14 @@ MNT_national_corporatist_party_long:0 "Nacionalisti"
 
 ### Ideas ###
 
+     MNT_Marko_Dakovic_hog_ade:0 "Marko Daković"
+     MNT_Andrija_Radovic_hog_rwp:0 "Andrija Radović"
+     MNT_Jovan_Simonov_Plamenac_for_ade: "Jovan Simonov Plamenac"
+     MNT_Sekula_Drljevic_eco_ade:0 "Sekula Drljević"
+     MNT_Mihailo_Ivanovic_sec_ade:0 "Mihailo Ivanović"
+     MNT_Savo_Raspopovic_int_ade:0 "Savo Raspopović"
+     MNT_Krsto_Popovic_cos_ade:0 "Krsto Popović"
+     
 ### Flags ###
 
 ### Tooltips ###

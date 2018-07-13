@@ -1,0 +1,60 @@
+spriteTypes = {	
+
+	### Temps, fill empty slots in the UI ###
+	### DDS files intentionally don't exist to take advantage of a UI bug and not appear in the interface ###
+	spriteType = {
+		name = "GFX_idea_temp_1"
+		texturefile = "gfx/interface/thisdoesnotexist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_temp_2"
+		texturefile = "gfx/interface/thisdoesnotexist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_temp_3"
+		texturefile = "gfx/interface/thisdoesnotexist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_temp_4"
+		texturefile = "gfx/interface/thisdoesnotexist.dds"
+	}
+	
+	
+	# Montenegro
+	
+	spriteType = {
+		name = "GFX_idea_MNT_Andrija_Radovic_hog_rwp"
+		texturefile = "gfx/interface/ideas/MNT/MNT_Andrija_Radovic_hog_rwp.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MNT_Marko_Dakovic_hog_ade"
+		texturefile = "gfx/interface/ideas/MNT/MNT_Marko_Dakovic_hog_ade.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MNT_Jovan_Simonov_Plamenac_for_ade"
+		texturefile = "gfx/interface/ideas/MNT/MNT_Jovan_Simonov_Plamenac_for_ade.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MNT_Sekula_Drljevic_eco_ade"
+		texturefile = "gfx/interface/ideas/MNT/MNT_Sekula_Drljevic_eco_ade.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MNT_Mihailo_Ivanovic_sec_ade"
+		texturefile = "gfx/interface/ideas/MNT/MNT_Mihailo_Ivanovic_sec_ade.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MNT_Savo_Raspopovic_int_ade"
+		texturefile = "gfx/interface/ideas/MNT/MNT_Savo_Raspopovic_int_ade.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MNT_Krsto_Popovic_cos_ade"
+		texturefile = "gfx/interface/ideas/MNT/MNT_Krsto_Popovic_cos_ade.dds"
+	}
+		
+}
