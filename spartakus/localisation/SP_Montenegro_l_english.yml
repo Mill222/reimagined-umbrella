@@ -3,6 +3,15 @@
 ### Opinions ###
 
 ### Events ###
+crnagoraflavor.1.t:0 "King Danilo Sues Metro-Goldwyn-Mayer"
+crnagoraflavor.1.d:0 "Ernst Lubitsch's 'The Merry Widow', a movie scheduled to release later this year, has just been hit by a $4000 lawsuit by none other than the King of Montenegro. The film supposedly depicts 'Prince Danilo of Montenegro' seducing a commoner and then rejecting her because it could impoverish the royal treasury. He then regrets his actions and tries to win her back, but fails to convince her of his true love. The film bears no relation to reality. Danilo considers this an attack on his image regardless, and demands reshooting and compensation."
+crnagoraflavor.1.a:0 "Nothing we can do about it..."
+crnagoraflavor.2.t:0 "MGM Lawsuit Successful"
+crnagoraflavor.2.d:0 "It appears that the court is on our royalty's side. 'The Merry Widow' is to be re-shot. In addition to demoting the Prince to a Captain, the date of the action was changed from 1905 to 1885, when the real Prince was a young boy. And of course, the lawsuit money is ours."
+crnagoraflavor.2.a:0 "Okay...?"
+crnagoraflavor.3.t:0 "MGM Lawsuit Fails!"
+crnagoraflavor.3.d:0 "The Parisian court has ruled out allegations of slander against the king. The lawsuit is going to be dropped, and 'The Merry Widow' is to be released without any alterations to the original script."
+crnagoraflavor.3.a:0 "If Montenegro can't even sue a film studio, what power does it have?"
 
 ###Parties###
 
@@ -35,13 +44,13 @@ MNT_national_corporatist_party_long:0 "Nacionalisti"
 
 ### Ideas ###
 
-     MNT_Marko_Dakovic_hog_ade:0 "Marko Daković"
-     MNT_Andrija_Radovic_hog_rwp:0 "Andrija Radović"
-     MNT_Jovan_Simonov_Plamenac_for_ade: "Jovan Simonov Plamenac"
-     MNT_Sekula_Drljevic_eco_ade:0 "Sekula Drljević"
-     MNT_Mihailo_Ivanovic_sec_ade:0 "Mihailo Ivanović"
-     MNT_Savo_Raspopovic_int_ade:0 "Savo Raspopović"
-     MNT_Krsto_Popovic_cos_ade:0 "Krsto Popović"
+MNT_Marko_Dakovic_hog_ade:0 "Marko Daković"
+MNT_Andrija_Radovic_hog_rwp:0 "Andrija Radović"
+MNT_Jovan_Simonov_Plamenac_for_ade: "Jovan Simonov Plamenac"
+MNT_Sekula_Drljevic_eco_ade:0 "Sekula Drljević"
+MNT_Mihailo_Ivanovic_sec_ade:0 "Mihailo Ivanović"
+MNT_Savo_Raspopovic_int_ade:0 "Savo Raspopović"
+MNT_Krsto_Popovic_cos_ade:0 "Krsto Popović"
      
 ### Flags ###
 
