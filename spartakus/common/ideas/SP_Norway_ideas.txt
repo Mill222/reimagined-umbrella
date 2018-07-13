@@ -47,6 +47,29 @@ ideas = {
 			}
 		}
 		
+		NOR_destroyed_economy_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = great_depression
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.15
+				production_speed_buildings_factor = -0.10
+				production_factory_max_efficiency_factor = -0.05
+				stability_factor = -0.20
+			}
+		}
+		
 		NOR_anti_establishment_sentiments_idea = {
 
 			allowed = {
@@ -64,6 +87,235 @@ ideas = {
 				stability_factor = -0.05
 				social_liberal_drift = -0.03
 				liberal_conservative_drift = -0.03
+			}
+		}
+		
+		# Focus Tree #
+		
+		NOR_transparent_prime_minister_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_army_war_college
+			
+			modifier = {
+				stability_factor = 0.05
+				social_liberal_drift = 0.02
+				liberal_conservative_drift = 0.02
+			}
+		}
+		
+		NOR_encourage_political_debate_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = chi_war_of_resistance
+			
+			modifier = {
+				stability_factor = -0.05
+				social_liberal_drift = -0.01
+				liberal_conservative_drift = -0.01
+			}
+		}
+		
+		NOR_cut_farmer_subsidies_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_foreign_capital
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.05
+				liberal_conservative_drift = -0.01
+				social_conservative_drift = 0.01
+				political_power_gain = 0.03
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+		
+		NOR_higher_taxes_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_foreign_capital
+			
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = 0.05
+			}
+		}
+		
+		NOR_cut_military_budget_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_army_problems
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_arms_factory_factor = -0.30
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+			}
+		}
+		
+		NOR_army_of_quality_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				conscription = 0.01
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				training_time_army_factor = 0.05
+			}
+		}
+		
+		NOR_low_casualties_focus_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				conscription = 0.01
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_morale_factor = 0.07
+				training_time_army_factor = 0.05
+			}
+		}
+		
+		NOR_army_of_quantity_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				conscription = 0.02
+				army_core_defence_factor = 0.05
+				army_org_Factor = -0.05
+			}
+		}
+		
+		NOR_establish_draft_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				conscription = 0.03
+				army_core_defence_factor = 0.05
+				army_org_Factor = -0.05
+			}
+		}
+		
+		NOR_train_populace_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				conscription = 0.03
+				army_core_defence_factor = 0.05
+				army_morale_factor = 0.03
+				training_time_army_factor = -0.05
+				army_org_Factor = -0.05
+			}
+		}
+		
+		NOR_expand_general_staff_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = general_staff
+			
+			modifier = {
+				planning_speed = 0.05
+				max_planning = 0.10
 			}
 		}
 

@@ -10,6 +10,11 @@ add_ideas = {
 	NOR_liberal_conservative_agreement_idea
 	NOR_recovering_economy_idea
 	NOR_anti_establishment_sentiments_idea
+	
+	NOR_Carl_Joachim_Hambro_hog_mli
+	NOR_Ivar_Lykke_for_mli
+	NOR_Jens_Isak_Kobro_eco_sli
+	NOR_Odd_Klingenberg_sec_mli
 }
 
 set_technology = {
