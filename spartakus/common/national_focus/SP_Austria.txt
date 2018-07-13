@@ -273,7 +273,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_rwp_4_1
-		icon = GFX_goal_unknown
+		icon = GFX_goal_constitutional_guarantees
 		x = 8
 		y = 8
 		cost = 10
@@ -289,7 +289,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_rwp_4_2
-		icon = GFX_goal_unknown
+		icon = GFX_Stomp_out_the_Weak
 		x = 6
 		y = 8
 		cost = 10
@@ -407,7 +407,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_rwp_7_1
-		icon = GFX_goal_unknown
+		icon = GFX_UK_ban_unions
 		x = 5
 		y = 9
 		cost = 10
@@ -458,7 +458,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_rwp_8
-		icon = GFX_goal_unknown
+		icon = GFX_BRA_faith_and_state
 		x = 7
 		y = 12
 		cost = 10
@@ -615,7 +615,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_nzs_4_2
-		icon = GFX_goal_unknown
+		icon = GFX_goal_economic_control
 		x = 14
 		y = 8
 		cost = 10
@@ -784,7 +784,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_nzs_8
-		icon = GFX_goal_unknown
+		icon = GFX_Austrofascisim
 		x = 13
 		y = 12
 		cost = 10
@@ -810,7 +810,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_both_govs_1
-		icon = GFX_goal_unknown
+		icon = GFX_Austria_Focus
 		x = 10
 		y = 13
 		cost = 10
@@ -826,7 +826,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_both_govs_2
-		icon = GFX_goal_unknown
+		icon = GFX_Anti_Communist
 		x = 10
 		y = 14
 		cost = 10
@@ -841,7 +841,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_both_govs_3
-		icon = GFX_goal_unknown
+		icon = GFX_Legacy_of_the_War
 		x = 10
 		y = 15
 		cost = 10
@@ -860,11 +860,14 @@ focus_tree = {
 
 		focus = {
 		id = AUS_army_start
-		icon = GFX_goal_unknown
+		icon = GFX_goal_enlist_the_police
 		x = 20
 		y = 0
 		cost = 10
-
+			
+			available = {
+				always = no
+			}
 			bypass = {
         		has_completed_focus = AUS_mil_turmoil_2
     		}
@@ -882,11 +885,14 @@ focus_tree = {
 
 		focus = {
 		id = AUS_army_militia_route
-		icon = GFX_goal_unknown
+		icon = GFX_Advised_Military
 		x = 18
 		y = 1
 		cost = 10
 
+			mutually_exclusive = {
+				focus = AUS_army_heer_route
+			}
 			prerequisite = {
 				focus = AUS_army_start
 			}
@@ -961,11 +967,14 @@ focus_tree = {
 
 		focus = {
 		id = AUS_army_heer_route
-		icon = GFX_goal_unknown
+		icon = GFX_A_Stronger_Military
 		x = 22
 		y = 1
 		cost = 10
 
+			mutually_exclusive = {
+				focus = AUS_army_militia_route
+			}
 			prerequisite = {
 				focus = AUS_army_start
 			}
@@ -976,7 +985,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_army_heer_1
-		icon = GFX_goal_unknown
+		icon = GFX_goal_army_guy
 		x = 22
 		y = 2
 		cost = 10
@@ -991,7 +1000,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_army_heer_2
-		icon = GFX_goal_unknown
+		icon = GFX_goal_army_guy_2
 		x = 22
 		y = 3
 		cost = 10
@@ -1006,7 +1015,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_army_heer_3
-		icon = GFX_goal_unknown
+		icon = GFX_goal_MAF_Army_Reforms
 		x = 22
 		y = 4
 		cost = 10
@@ -1021,7 +1030,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_army_heer_4
-		icon = GFX_goal_unknown
+		icon = GFX_Dark_Arms
 		x = 22
 		y = 5
 		cost = 10
@@ -1033,6 +1042,10 @@ focus_tree = {
 
 			}
 		}
+
+#################
+# Army middle
+##################
 
 		focus = {
 		id = AUS_army_middle_1
@@ -1097,7 +1110,7 @@ focus_tree = {
 
 		focus = {
 		id = AUS_army_middle_5
-		icon = GFX_goal_unknown
+		icon = GFX_Austrian_Armor
 		x = 20
 		y = 6
 		cost = 10
