@@ -363,4 +363,6 @@ create_equipment_variant = {
 ## Diplomacy
 
 give_guarantee = TUR
+give_guarantee = MNT
 give_military_access = TUR
+give_military_access = MNT
