@@ -1,0 +1,40 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+###Parties###
+
+SER_leninist_party:0 "KPJ (Lenjinisti)"
+SER_leninist_party_long:0 "Komunistička Partija Jugoslavije"
+SER_marxist_party:0 "KPJ (Marksisti)"
+SER_marxist_party_long:0 "Komunistička Partija Jugoslavije"
+SER_revolutionary_socialist_party:0 "KPJ (Anarhisti)"
+SER_revolutionary_socialist_party_long:0 "Komunistička Partija Jugoslavije"
+SER_democratic_socialist_party:0 "SSP"
+SER_democratic_socialist_party_long:0 "Srpska Socijaldemokratska Partija"
+SER_social_democrat_party:0 "RS (Ljevi)"
+SER_social_democrat_party_long:0 "Reformistička Stranka"
+SER_social_liberal_party:0 "RS (Žuti)"
+SER_social_liberal_party_long:0 "Reformistička Stranka"
+SER_liberal_conservative_party:0 "LDS"
+SER_liberal_conservative_party_long:0 "Liberalna Demokratska Stranka"
+SER_social_conservative_party:0 "NRS"
+SER_social_conservative_party_long:0 "Narodna Radikalna Stranka"
+SER_authoritarian_democrat_party:0 "SNS"
+SER_authoritarian_democrat_party_long:0 "Srpska Napredna Stranka"
+SER_right_wing_populist_party:0 "SRZ"
+SER_right_wing_populist_party_long:0 "Srpska Radikalna Zajednica"
+SER_national_syndicalist_party:0 "SBOR"
+SER_national_syndicalist_party_long:0 "Srpska Borbena Organizacija Rada"
+SER_national_corporatist_party:0 "ORJUNA"
+SER_national_corporatist_party_long:0 "Organizacija Jugoslavenskih Nacionalista"
+
+### Focuses ###
+
+### Ideas ###
+     
+### Flags ###
+
+### Tooltips ###

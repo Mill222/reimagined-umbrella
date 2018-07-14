@@ -1,0 +1,503 @@
+focus_tree = {
+	id = SP_Serbia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SER
+		}
+	}
+	default = no
+	focus = {
+		id = SER_The_Decade_of_Silence
+		icon = GFX_goal_unknown
+		cost = 3.00
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = SER_Bjelasi
+		icon = GFX_goal_unknown
+		cost = 2.00
+		mutually_exclusive = {
+			focus = SER_Keep_out_of_Montenegro
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = SER_Keep_out_of_Montenegro
+		icon = GFX_goal_unknown
+		cost = 2.00
+		mutually_exclusive = {
+			focus = SER_Bjelasi
+		}
+		x = 29
+		y = 4
+
+	}
+	focus = {
+		id = SER_Mayday_Pressure
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SER_The_Decade_of_Silence
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = SER_Adopt_a_Constitution
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Mayday_Pressure
+		}
+		mutually_exclusive = {
+			focus = SER_One_Party_State
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = SER_Fair_Elections
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Adopt_a_Constitution
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = SER_LDS_Victory
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = SER_Fair_Elections
+		}
+		mutually_exclusive = {
+			focus = SER_RS_Victory
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = SER_One_Party_State
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Mayday_Pressure
+		}
+		mutually_exclusive = {
+			focus = SER_Adopt_a_Constitution
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = SER_Put_Down_Riots
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = SER_One_Party_State
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = SER_Liberal_Coup
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Put_Down_Riots
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = SER_RS_Victory
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = SER_Fair_Elections
+			focus = SER_Liberal_Coup
+		}
+		mutually_exclusive = {
+			focus = SER_LDS_Victory
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = SER_Industrialization_Plan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SER_RS_Victory
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = SER_Communist_Coup
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Put_Down_Riots
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = SER_Declare_Federal_Yugoslavia
+		icon = GFX_goal_unknown
+		cost = 6.00
+		prerequisite = {
+			focus = SER_Communist_Coup
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = SER_Democratic_Alignment
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = SER_Declare_Federal_Yugoslavia
+		}
+		mutually_exclusive = {
+			focus = SER_Ban_Other_Parties
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = SER_Ban_Other_Parties
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = SER_Declare_Federal_Yugoslavia
+		}
+		mutually_exclusive = {
+			focus = SER_Democratic_Alignment
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = SER_Communalization
+		icon = GFX_goal_unknown
+		cost = 7.00
+		prerequisite = {
+			focus = SER_Democratic_Alignment
+		}
+		x = 13
+		y = 7
+
+	}
+	focus = {
+		id = SER_Align_With_Marxists
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Communalization
+		}
+		x = 13
+		y = 8
+
+	}
+	focus = {
+		id = SER_Illyria_in_Our_Sights
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Declare_Federal_Yugoslavia
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = SER_Integrate_Montenegro
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = SER_Declare_Federal_Yugoslavia
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = SER_Bring_in_Bulgaria
+		icon = GFX_goal_unknown
+		cost = 6.00
+		prerequisite = {
+			focus = SER_Illyria_in_Our_Sights
+		}
+		prerequisite = {
+			focus = SER_Integrate_Montenegro
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = SER_Hej_Slaveni
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Bring_in_Bulgaria
+		}
+		x = 16
+		y = 8
+
+	}
+	focus = {
+		id = SER_Military_Government
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = SER_Put_Down_Riots
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = SER_SBOR
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Military_Government
+		}
+		mutually_exclusive = {
+			focus = SER_ORJUNA
+		}
+		x = 19
+		y = 5
+
+	}
+	focus = {
+		id = SER_Nacertanije
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SER_SBOR
+		}
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = SER_ORJUNA
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Military_Government
+		}
+		mutually_exclusive = {
+			focus = SER_SBOR
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = SER_Svi_Na_Kongres
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SER_ORJUNA
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = SER_Gearing_Up
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Nacertanije
+			focus = SER_Svi_Na_Kongres
+		}
+		x = 21
+		y = 7
+
+	}
+	focus = {
+		id = SER_Encourage_Private_Enterprise
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = SER_LDS_Victory
+		}
+		x = 2
+		y = 6
+
+	}
+	focus = {
+		id = SER_Subsidized_Agriculture
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SER_LDS_Victory
+			focus = SER_RS_Victory
+		}
+		x = 4
+		y = 6
+
+	}
+	focus = {
+		id = SER_Attract_Investors
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Encourage_Private_Enterprise
+		}
+		x = 2
+		y = 7
+
+	}
+	focus = {
+		id = SER_Urbanization
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Attract_Investors
+			focus = SER_Land_Reform
+		}
+		x = 4
+		y = 8
+
+	}
+	focus = {
+		id = SER_Land_Reform
+		icon = GFX_goal_unknown
+		cost = 7.00
+		prerequisite = {
+			focus = SER_Industrialization_Plan
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = SER_Working_Women
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Tolerance
+		}
+		x = 9
+		y = 10
+
+	}
+	focus = {
+		id = SER_Intellectual_Center
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = SER_Urbanization
+		}
+		x = 4
+		y = 9
+
+	}
+	focus = {
+		id = SER_Rentier_State
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Attract_Investors
+		}
+		x = 2
+		y = 8
+
+	}
+	focus = {
+		id = SER_Tolerance
+		icon = GFX_goal_unknown
+		cost = 6.00
+		prerequisite = {
+			focus = SER_Land_Reform
+			focus = SER_Economic_Expansion
+		}
+		x = 8
+		y = 9
+
+	}
+	focus = {
+		id = SER_Civic_Nationalism
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Tolerance
+		}
+		x = 7
+		y = 10
+
+	}
+	focus = {
+		id = SER_Nationalization
+		icon = GFX_goal_unknown
+		cost = 7.00
+		prerequisite = {
+			focus = SER_Ban_Other_Parties
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = SER_Economic_Expansion
+		icon = GFX_goal_unknown
+		cost = 7.00
+		prerequisite = {
+			focus = SER_Nationalization
+			focus = SER_Communalization
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = SER_Align_With_Leninists
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Nationalization
+		}
+		x = 9
+		y = 8
+
+	}
+	focus = {
+		id = SER_March_West
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Gearing_Up
+		}
+		x = 21
+		y = 8
+
+	}
+}
