@@ -105,6 +105,8 @@ POR_decentralization_2:0 "Centralization Phase 2"
 POR_decentralization_3:0 "Centralization Phase 3"
 POR_united_commune:0 "A United Commune"
 
+POR_rifle_production:0 "Espingarda Rifle Production"
+
 ### Traits ###
 
 ### Opinion Modifiers ###
@@ -269,10 +271,10 @@ POR_guns:0 "Expand Espingarda Rifle Production"
 POR_guns_desc:0 ""
 POR_armylogis:0 "Invest in Industrial Logistics"
 POR_armylogis_desc:0 ""
-POR_milfact:0 "Build Lisbon Tank Factories"
-POR_milfact_desc:0 ""
-POR_milfac2:0 "Expand the Coimbra Electronics Industry"
-POR_milfac2_desc:0 ""
+POR_tankfactory:0 "Build Lisbon Tank Factories"
+POR_tankfactory_desc:0 ""
+POR_electronics_industry:0 "Expand the Coimbra Electronics Industry"
+POR_electronics_industry_desc:0 ""
 
 POR_education:0 "A Bright Future for Portugal"
 POR_education_desc:0 ""
@@ -418,3 +420,23 @@ por.31.a:0 "Hey, calm down, we'll fix this!"
 por.32.t:0 "Major Food Shortages Reported"
 por.32.d:0 "Despite major warnings that it was coming, throughout the week major food shortages have been reported across all the territory we control. This was an easily preventable issue but the resources were deemed too valuable to the war effort to spend on preventive measures.\n\nThis has severely undermined our already waning support base and can only be ended with a conclusion to this bloody conflict."
 por.32.a:0 "This isn't good..."
+
+por.40.t:0 "Rebuilding the Agricultural Sector"
+por.40.d:0 "The Civil War has ravaged the countryside and has severely damaged the ability for our agricultural section to function. The frequent reports of starvations are solid proof of this issue. As part of our duties towards rebuilding from this Civil War, we must immediately decide which agricultural industry to prop up.\nSome are advocating for propping up the vast wheat industry based in Alentejo, while others are suggesting propping up the grape production industry to increase wine exports for greater profits. What will it be?"
+por.40.a:0 "The wheat industry could use some help."
+por.40.b:0 "Grape production for wine would be the most profitable."
+
+por.41.t:0 "Addressing Wartime Rationing"
+por.41.d:0 ""
+por.41.a:0 "This is too costly. End the programs."
+por.41.b:0 "It may cost us but keeping our people fed is preferable."
+
+por.42.t:0 "Addressing the Economy"
+por.42.d:0 ""
+por.42.a:0 "Perhaps encouraging a larger female workforce would work."
+por.42.b:0 "The demobilized Republican militias can do the job."
+
+por.43.t:0 "Restoring Electricity"
+por.43.d:0 ""
+por.43.a:0 "Completing the Santa Luzia Dam would boost our power output."
+por.43.b:0 "The Tejo Power Plant in Lisbon could use some modernizing."

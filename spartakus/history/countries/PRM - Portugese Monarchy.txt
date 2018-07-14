@@ -4,6 +4,8 @@ oob = "PRM"
 
 add_ideas = {
 	limited_conscription
+	POR_divided_country
+	PRM_restoration
 	POR_Henrique_Mitchell_de_Paiva_Cabral_Couceiro_hog_rwp
 	POR_Luis_Almeida_Braga_for_rwp
 	POR_Jose_Hipolito_Vaz_Raposo_eco_nsy

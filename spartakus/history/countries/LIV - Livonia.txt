@@ -87,51 +87,53 @@ set_autonomy = {
 }
 
 EST = {
-	set_politics = {
-		parties = {
-			leninist = {
-				popularity = 2
-			}
-			marxist = {
-				popularity = 1
-			}
-			revolutionary_socialist = {
-				popularity = 3
-			}
-			democratic_socialist = {
-				popularity = 2
-			}
-			social_democrat = {
-				popularity = 6
-			}
-			social_liberal = {
-				popularity = 17
-			}
-			liberal_conservative = {
-				popularity = 2
-			}
-			social_conservative = {
-				popularity = 10
-			}
-			authoritarian_democrat = {
-				popularity = 48
-			}
-			right_wing_populist = {
-				popularity = 1
-			}
-			national_syndicalist = {
-				popularity = 1
-			}
-			national_corporatist = {
-				popularity = 7
-			}
+set_politics = {
+
+	parties = {
+		leninist = {
+			popularity = 1
 		}
-	
-		ruling_party = authoritarian_democrat
-		last_election = "1888.15.6"
-		election_frequency = 48
-		elections_allowed = no
+		marxist = {
+			popularity = 2
+		}
+		revolutionary_socialist = {
+			popularity = 2
+		}
+		democratic_socialist = {
+			popularity = 1
+		}
+		social_democrat = {
+			popularity = 20
+		}
+		social_liberal = {
+			popularity = 12
+		}
+		liberal_conservative = {
+			popularity = 15
+		}
+		social_conservative = {
+			popularity = 5
+		}
+		authoritarian_democrat = {
+		    popularity = 30
+		}
+		right_wing_populist = {
+			popularity = 1
+		}
+		national_syndicalist = {
+			popularity = 1
+		}
+		national_corporatist = {
+			popularity = 10
+		}
 	}
+	
+	ruling_party = authoritarian_democrat
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
+
+}
 }
 
 create_country_leader = {
@@ -369,17 +371,6 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Gustav Jonson"
-	picture = "Portrait_Baltic_Gustav_Jonson.tga"
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
 }
 
 create_corps_commander = {

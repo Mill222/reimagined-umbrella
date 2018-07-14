@@ -6,6 +6,8 @@ set_research_slots = 2
 
 add_ideas = {
 	limited_conscription
+	EST_subordinate_to_livonia
+	EST_vaps_movement
 	EST_Kaarel_Eenpalu_hog_ade
 	EST_Karl_Selter_for_ade
 	EST_Alfred_Vendt_eco_rwp
@@ -29,31 +31,31 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 2
-		}
-		marxist = {
 			popularity = 1
 		}
+		marxist = {
+			popularity = 2
+		}
 		revolutionary_socialist = {
-			popularity = 3
+			popularity = 2
 		}
 		democratic_socialist = {
-			popularity = 2
+			popularity = 1
 		}
 		social_democrat = {
-			popularity = 6
+			popularity = 20
 		}
 		social_liberal = {
-			popularity = 17
+			popularity = 12
 		}
 		liberal_conservative = {
-			popularity = 2
+			popularity = 15
 		}
 		social_conservative = {
-			popularity = 10
+			popularity = 5
 		}
 		authoritarian_democrat = {
-		    popularity = 48
+		    popularity = 30
 		}
 		right_wing_populist = {
 			popularity = 1
@@ -62,7 +64,7 @@ set_politics = {
 			popularity = 1
 		}
 		national_corporatist = {
-			popularity = 7
+			popularity = 10
 		}
 	}
 	

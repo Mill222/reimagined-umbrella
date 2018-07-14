@@ -565,3 +565,89 @@ news_event = { #Major Food Shortages
 		add_war_support = -0.05
 	}
 }
+
+# Civil War Recovery Events
+
+country_event = { #Agriculture Recovery
+	id = por.40
+	title = por.40.t
+	desc = por.40.d
+	picture = GFX_report_event_generic_read_write
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.40.a
+		add_political_power = 25
+		set_country_flag = POR_wheat_industry
+	}
+	option = {
+		name = por.40.b
+		add_political_power = 25
+		set_country_flag = POR_wine_industry
+	}
+}
+
+country_event = { #Rationing Recovev
+	id = por.41
+	title = por.41.t
+	desc = por.41.d
+	picture = GFX_report_event_generic_read_write
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.41.a
+		add_political_power = 25
+		set_country_flag = POR_end_rationing
+	}
+	option = {
+		name = por.41.b
+		add_political_power = 25
+		set_country_flag = POR_extend_rationing
+	}
+}
+
+country_event = { #Addressing the Economy
+	id = por.42
+	title = por.42.t
+	desc = por.42.d
+	picture = GFX_report_event_generic_read_write
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.42.a
+		add_political_power = 25
+		set_country_flag = POR_female_workforce_expansion
+	}
+	option = {
+		name = por.42.b
+		add_political_power = 25
+		set_country_flag = POR_militias_to_work
+	}
+}
+
+country_event = { #Restoring Electricity
+	id = por.43
+	title = por.43.t
+	desc = por.43.d
+	picture = GFX_report_event_generic_read_write
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.43.a
+		add_political_power = 25
+		set_country_flag = POR_santa_luzia_dam
+	}
+	option = {
+		name = por.43.b
+		add_political_power = 25
+		set_country_flag = POR_tejo_power_plant
+	}
+}

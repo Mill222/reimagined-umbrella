@@ -20,9 +20,7 @@ focus_tree = {
 		y = 0
 		cost = 1
 	    available = {
-			OR = {
-				has_global_flag = POR_civil_war_over
-			}
+			has_global_flag = POR_civil_war_over
 		}
 		ai_will_do = {
 					factor = 100
@@ -452,12 +450,11 @@ focus_tree = {
 		x = 14
 		y = 0
 		available = {
-			OR = {
-				has_global_flag = POR_civil_war_over
-			}
+			has_global_flag = POR_civil_war_over
 		}
-		cost = 8.6
+		cost = 2
 		completion_reward = {	
+			add_political_power = 25
 		}
 	}
 	
@@ -468,8 +465,9 @@ focus_tree = {
 		prerequisite = { focus = POR_recovery }
 		x = -6
 		y = 1
-		cost = 8.6
-		completion_reward = {	
+		cost = 5
+		completion_reward = {
+			country_event = por.40
 		}
 	}
 	
@@ -478,6 +476,7 @@ focus_tree = {
 		icon = GFX_Focus_Wine
 		relative_position_id = POR_recovery
 		prerequisite = { focus = POR_recovery_agriculture }
+		available = { has_country_flag = POR_wine_industry }
 		mutually_exclusive = { focus = POR_recovery_agriculture_2_left }
 		x = -5
 		y = 2
@@ -491,6 +490,7 @@ focus_tree = {
 		icon = GFX_Wheat_Yields
 		relative_position_id = POR_recovery
 		prerequisite = { focus = POR_recovery_agriculture }
+		available = { has_country_flag = POR_wheat_industry }
 		mutually_exclusive = { focus = POR_recovery_agriculture_2_right }
 		x = -7
 		y = 2
@@ -506,8 +506,9 @@ focus_tree = {
 		prerequisite = { focus = POR_recovery }
 		x = -2
 		y = 1
-		cost = 8.6
-		completion_reward = {	
+		cost = 5
+		completion_reward = {
+			country_event = por.41
 		}
 	}
 	
@@ -516,6 +517,7 @@ focus_tree = {
 		icon = GFX_Feed_the_People
 		relative_position_id = POR_recovery
 		prerequisite = { focus = POR_recovery_rations }
+		available = { has_country_flag = POR_extend_rationing }
 		mutually_exclusive = { focus = POR_recovery_rations_2_left }
 		x = -1
 		y = 2
@@ -529,6 +531,7 @@ focus_tree = {
 		icon = GFX_goal_famine
 		relative_position_id = POR_recovery
 		prerequisite = { focus = POR_recovery_rations }
+		available = { has_country_flag = POR_end_rationing }
 		mutually_exclusive = { focus = POR_recovery_rations_2_right }
 		x = -3
 		y = 2
@@ -544,8 +547,9 @@ focus_tree = {
 		prerequisite = { focus = POR_recovery }
 		x = 2
 		y = 1
-		cost = 8.6
+		cost = 5
 		completion_reward = {	
+			country_event = por.42
 		}
 	}
 	
@@ -554,6 +558,7 @@ focus_tree = {
 		icon = GFX_Soldiers_for_Workers
 		relative_position_id = POR_recovery
 		prerequisite = { focus = POR_recovery_economy }
+		available = { has_country_flag = POR_militias_to_work }
 		mutually_exclusive = { focus = POR_recovery_economy_2_left }
 		x = 3
 		y = 2
@@ -567,6 +572,7 @@ focus_tree = {
 		icon = GFX_goal_women_industry
 		relative_position_id = POR_recovery
 		prerequisite = { focus = POR_recovery_economy }
+		available = { has_country_flag = POR_female_workforce_expansion }
 		mutually_exclusive = { focus = POR_recovery_economy_2_right }
 		x = 1
 		y = 2
@@ -582,8 +588,9 @@ focus_tree = {
 		prerequisite = { focus = POR_recovery }
 		x = 6
 		y = 1
-		cost = 8.6
-		completion_reward = {	
+		cost = 5
+		completion_reward = {
+			country_event = por.43
 		}
 	}
 	
@@ -592,6 +599,7 @@ focus_tree = {
 		icon = GFX_Factory_Town
 		relative_position_id = POR_recovery
 		prerequisite = { focus = POR_recovery_electricity }
+		available = { has_country_flag = POR_tejo_power_plant }
 		mutually_exclusive = { focus = POR_recovery_electricity_2_left }
 		x = 7
 		y = 2
@@ -605,6 +613,7 @@ focus_tree = {
 		icon = GFX_goal_dam
 		relative_position_id = POR_recovery
 		prerequisite = { focus = POR_recovery_electricity }
+		available = { has_country_flag = POR_santa_luzia_dam }
 		mutually_exclusive = { focus = POR_recovery_electricity_2_right }
 		x = 5
 		y = 2
@@ -997,20 +1006,7 @@ focus_tree = {
 		y = 1
 		cost = 8.6
 		completion_reward = {	
-		add_political_power = 45	
-		}
-	}
-
-	focus = {
-		id = POR_guns
-		icon = GFX_goal_generic_military_sphere
-		relative_position_id = POR_economic
-		prerequisite = { focus = POR_military_industry } 		
-		x = -4
-		y = 2
-		cost = 8.6
-		completion_reward = {	
-		random_owned_state = {
+			random_owned_state = {
 				limit = {
 					free_building_slots = {
 						building = arms_factory
@@ -1042,6 +1038,19 @@ focus_tree = {
 			}	
 		}
 	}
+
+	focus = {
+		id = POR_guns
+		icon = GFX_goal_generic_military_sphere
+		relative_position_id = POR_economic
+		prerequisite = { focus = POR_military_industry } 		
+		x = -4
+		y = 2
+		cost = 8.6
+		completion_reward = {	
+			add_ideas = POR_rifle_production	
+		}
+	}
 	
 	focus = {
 		id = POR_armylogis
@@ -1062,7 +1071,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_milfact
+		id = POR_tankfactory
 		icon = GFX_Focus_Military_Mobilisation
 		prerequisite = { focus = POR_armylogis }
 		prerequisite = { focus = POR_guns }
@@ -1105,44 +1114,20 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_milfac2
+		id = POR_electronics_industry
 		icon = GFX_goal_electronics
-		prerequisite = { focus = POR_milfact } 
+		prerequisite = { focus = POR_tankfactory } 
 		relative_position_id = POR_economic		
 		x = -3
 		y = 4
 		cost = 8.6
 		completion_reward = {	
-		random_owned_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = arms_factory
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}	
+			add_tech_bonus = {
+				name = electronics_bonus
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
 		}
 	}
 	
@@ -1186,7 +1171,7 @@ focus_tree = {
 		y = 2
 		cost = 8.6
 		completion_reward = {	
-					add_tech_bonus = {
+			add_tech_bonus = {
 				name = industrial_bonus
 				bonus = 0.5
 				uses = 1
@@ -1368,7 +1353,7 @@ focus_tree = {
 		icon = GFX_goal_oil_research
 		relative_position_id = POR_economic	
 		prerequisite = { focus = POR_railways } 
-		prerequisite = { focus = POR_milfac2 } 
+		prerequisite = { focus = POR_electronics_industry } 
 		prerequisite = { focus = POR_civfac3 } 
 		prerequisite = { focus = POR_civfac4 } 
 		x = 0
@@ -1591,9 +1576,7 @@ focus_tree = {
 		id = POR_army
 		icon = GFX_goal_POR_army
 		available = {
-			OR = {
-				has_global_flag = POR_civil_war_over
-			}
+			has_completed_focus = POR_recovery_final
 		}
 		x = 31
 		y = 0

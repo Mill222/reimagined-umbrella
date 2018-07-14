@@ -1,0 +1,45 @@
+﻿l_english:
+
+# Events
+
+# Decisions & Missions
+
+# Custom Tooltips
+
+# Ideas
+
+EST_subordinate_to_livonia:0 "Subordinate to Livonia"
+EST_vaps_movement:0 "Vaps Movement"
+
+# Focuses
+
+# Traits
+
+### Parties ###
+
+EST_leninist_party:0 "VKP"
+EST_leninist_party_long:0 "Vsesojuznaja kommunisticheskaja partija"
+EST_marxist_party:0 "EKP/TUV"
+EST_marxist_party_long:0 "Eestimaa Kommunistlik Partei/Töörahva Ühine Väerind"
+EST_revolutionary_socialist_party:0 "EKP/TUV"
+EST_revolutionary_socialist_party_long:0 "Eestimaa Kommunistlik Partei/Töörahva Ühine Väerind"
+EST_democratic_socialist_party:0 "ESTP"
+EST_democratic_socialist_party_long:0 "Eesti Sotsialistlik Tööliste Partei"
+EST_social_democrat_party:0 "ESTP"
+EST_social_democrat_party_long:0 "Eesti Sotsialistlik Tööliste Partei"
+EST_social_liberal_party:0 "AP"
+EST_social_liberal_party_long:0 "Asunikkude partei"
+EST_liberal_conservative_party:0 "PK"
+EST_liberal_conservative_party_long:0 "Põllumeeste Kogud"
+EST_social_conservative_party:0 "RKE"
+EST_social_conservative_party_long:0 "Rahvuslik Keskerakond"
+EST_authoritarian_democrat_party:0 "Isamaaliit"
+EST_authoritarian_democrat_party_long:0 "Isamaaliit"
+EST_right_wing_populist_party:0 "DBpE"
+EST_right_wing_populist_party_long:0 "Deutsch-baltische Partei in Estland"
+EST_national_syndicalist_party:0 "RNSE"
+EST_national_syndicalist_party_long:0 "Roosskiy natzionalʲniy soyoz v Estonii"
+EST_national_corporatist_party:0 "Vapsid"
+EST_national_corporatist_party_long:0 "Vabadussõjalased"
+
+# Opinion Modifiers
