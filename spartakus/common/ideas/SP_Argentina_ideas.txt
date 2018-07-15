@@ -1,18 +1,18 @@
 ideas = {
 	
 	country = {
-		ARG_landowner_pact = {
-			modifier = {
-     			add_stability = 0.1
-    			industrial_capacity_factory = 0.05
+
+		ARG_coalition_lisandro = {
+			picture = ROM_michael
+
+			allowed = {
+				original_tag = ARG
 			}
-		}
-		ARG_nationalize_farms = {
+
+			removal_cost = -1
 			modifier = {
-     			add_stability = -0.1
-    			industrial_capacity_factory = 0.10
-    			political_power_gain = 0.05
-    			consumer_goods_factor = 0.05
+				stability_factor = 0.05
+				political_power_gain = -0.05
 			}
 		}
 	}

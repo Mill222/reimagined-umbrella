@@ -147,3 +147,58 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Ljubomir Davidović"
+	desc = ""
+	picture = "Portrait_Ljubomir_Davidović.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Dragiša Lapčević"
+	desc = ""
+	picture = "Portrait_Dragiša_Lapčević.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "KPJ-S"
+	desc = ""
+	picture = "Portrait_KPJ.dds"
+	expire = "1965.3.1"
+	ideology = revolutionary_socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "KPJ-S"
+	desc = ""
+	picture = "Portrait_KPJ.dds"
+	expire = "1965.3.1"
+	ideology = marxist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "KPJ-S"
+	desc = ""
+	picture = "Portrait_KPJ.dds"
+	expire = "1965.3.1"
+	ideology = leninist_subtype
+	traits = {
+		
+	}
+}
