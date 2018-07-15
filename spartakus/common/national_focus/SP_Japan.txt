@@ -621,8 +621,8 @@ focus_tree = {
 	}
 	
 	focus = {
-			id = JAP_philippines
-			icon = GFX_goal_generic_occupy_states_coastal
+			id = JAP_indochina
+			icon = GFX_goal_spy_focus
 			prerequisite = { focus = JAP_tsingtau } 
 			available = { 
 			}
@@ -638,9 +638,9 @@ focus_tree = {
 	}
 	
 	focus = {
-			id = JAP_indochina
-			icon = GFX_goal_spy_focus
-			prerequisite = { focus = JAP_philippines } 
+			id = JAP_philippines
+			icon = GFX_goal_generic_occupy_states_coastal
+			prerequisite = { focus = JAP_indochina } 
 			available = { 
 			}
 			x = 8
@@ -673,7 +673,7 @@ focus_tree = {
 	
 	focus = {
 			id = JAP_koain
-			icon = GFX_goal_JAP_yen
+			icon = GFX_JAP_governance
 			prerequisite = { focus = JAP_faction } 
 			available = { 
 			}
@@ -806,7 +806,7 @@ focus_tree = {
 			available = { 
 			}
 			x = 11
-			y = 12
+			y = 13
 			cost = 5
 			ai_will_do = {
 				factor = 50
@@ -823,7 +823,7 @@ focus_tree = {
 			available = { 
 			}
 			x = 14
-			y = 13
+			y = 14
 			cost = 5
 			ai_will_do = {
 				factor = 50
@@ -841,7 +841,7 @@ focus_tree = {
 			}
 			mutually_exclusive = { focus = JAP_working_women }
 			x = 12
-			y = 13
+			y = 14
 			cost = 5
 			ai_will_do = {
 				factor = 50
@@ -859,7 +859,7 @@ focus_tree = {
 			}
 			mutually_exclusive = { focus = JAP_misogyny }
 			x = 10
-			y = 13
+			y = 14
 			cost = 5
 			ai_will_do = {
 				factor = 50
@@ -877,7 +877,7 @@ focus_tree = {
 			}
 			mutually_exclusive = { focus = JAP_misogyny }
 			x = 11
-			y = 14
+			y = 15
 			cost = 5
 			ai_will_do = {
 				factor = 50
@@ -894,7 +894,7 @@ focus_tree = {
 			available = { 
 			}
 			x = 8
-			y = 13
+			y = 14
 			cost = 5
 			ai_will_do = {
 				factor = 50
