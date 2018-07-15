@@ -28,6 +28,17 @@ country = {
 		removal_cost = -1
 		picture = FRA_scw_intervention_republicans_focus
 	}
+	
+	CHL_illegitimate_government = {
+		allowed = { always = no }
+		modifier = { 
+			stability_factor = -0.20  
+			war_support_factor = -0.15
+			political_power_gain = -0.5
+		}
+		removal_cost = -1
+		picture = FRA_scw_intervention_republicans_focus
+	}
 }
 ##############
 # Companies
@@ -108,7 +119,7 @@ air_naval_manufacturer = {
 		CHL_carlos_davila_hog = { 
 			allowed = { original_tag = CHL }
 			visible = {
-				social_democrat_allowed = yes
+				authoritarian_democrat_allowed = yes
 				NOT = {has_country_flag = Carlos_Davila_dead}
 			}
 			available = {
@@ -116,7 +127,7 @@ air_naval_manufacturer = {
 			}
 			traits = {
 				head_of_government
-				social_democrat
+				authoritarian_democrat
 				hog_happy_amateur 
 			}
 			cancel_if_invalid = no

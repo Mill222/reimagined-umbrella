@@ -1,7 +1,7 @@
 ### SR Chile - Grove ###
 
 focus_tree = {
-	id = SR_CHILE_GROVE_FOCUS
+	id = SR_CHILE_FOCUS
 	country = {
 		factor=0
 		modifier = {
@@ -11,14 +11,16 @@ focus_tree = {
 	}
 	
 	default = no
+	
+### Poli ###
 
-focus = { # Grove's Republic
-	id = CHL_groves_republic 
+focus = { # Socialist Republic
+	id = CHL_socialist_republic 
 	icon = GFX_goal_commune_politics 
-	bypass = { has_country_flag = SR_CHILE_GROVE } 
+	bypass = { has_country_flag = SR_CHILE } 
 	ai_will_do = { factor = 0 } 
 	
-	x =3
+	x =4
 	y =0 
 	
 	mutually_exclusive = { } 
@@ -31,259 +33,96 @@ focus = { # Grove's Republic
 	available_if_capitulated = yes  
 } 
 
-focus = { 
-	id = CHL_meet_pcch 
-	icon = GFX_goal_syndicalist_lenin 
+focus = { # President Grove
+	id = CHL_president_grove
+	icon = GFX_goal_commune_politics 
+	available = { has_country_flag = SR_CHILE_GROVE }
+	bypass = { has_country_flag = SR_CHILE_GROVE } 
 	ai_will_do = { factor = 0 } 
 	
-	x =0 
-	y =1 
+	x =2
+	y =1
 	
 	mutually_exclusive = { } 
-	prerequisite = { focus = CHL_groves_republic } 
+	prerequisite = { CHL_socialist_republic } 
 	
-	cost = 8  
-  
+	available = { always = no } 
+	
+	cost = 1  
+	
 	available_if_capitulated = yes  
-	
-	completion_reward = { 
-		country_event = { 
-			days = 1  
-			id = chile.8
-		} 
-	} 
-}
-	 
-focus = { 
-	id = CHL_meet_ic 
-	icon = GFX_goal_generic_war_with_comintern 
-	ai_will_do = { factor = 0 }
-		
-	x =3 
-	y =1 
-
-	mutually_exclusive = { } 
-	prerequisite = { focus = CHL_groves_republic}
-		
-	cost = 8  
-	 
-	available_if_capitulated = yes 
-		
-	completion_reward = { 
-		country_event = { 
-			id = chile.14
-			days = 1 
-		} 
-	} 
 } 
 
-focus = { 
-	id = CHL_meet_iww 
-	icon = GFX_goal_syndicalist_industry 
+focus = { # Pardon the Mutineers
+	id = CHL_pardon_mutineers
+	icon = GFX_goal_commune_politics 
 	ai_will_do = { factor = 0 } 
-		
+	
+	x =4
+	y =2
+	
+	mutually_exclusive = { } 
+	prerequisite = { CHL_president_davila CHL_president_grove } 
+	
+	available = { always = no } 
+	
+	cost = 8
+	
+	available_if_capitulated = yes  
+} 
+
+focus = { # Pardon the Mutineers
+	id = CHL_pardon_mutineers
+	icon = GFX_goal_commune_politics 
+	ai_will_do = { factor = 0 } 
+	
+	x =4
+	y =2
+	
+	mutually_exclusive = { } 
+	prerequisite = { CHL_president_davila CHL_president_grove } 
+	
+	available = { always = no } 
+	
+	cost = 8
+	
+	available_if_capitulated = yes  
+} 
+
+focus = { # Pardon the Mutineers
+	id = CHL_pardon_mutineers
+	icon = GFX_goal_commune_politics 
+	ai_will_do = { factor = 0 } 
+	
+	x =4
+	y =3
+	
+	mutually_exclusive = { } 
+	prerequisite = { CHL_pardon_mutineers } 
+	
+	available = { always = no } 
+	
+	cost = 8
+	
+	available_if_capitulated = yes  
+} 
+
+focus = { # President Davila
+	id = CHL_president_davila
+	icon = GFX_goal_commune_politics 
+	available = { has_country_flag = SR_CHILE_DAVILA }
+	bypass = { has_country_flag = SR_CHILE_DAVILA } 
+	ai_will_do = { factor = 0 } 
+	
 	x =6
-	y =1 
-
-	mutually_exclusive = { } 
-	prerequisite = { focus = CHL_groves_republic} 
-
-	cost = 8  
-
+	y =1
+	
+	mutually_exclusive = { CHL_president_grove } 
+	prerequisite = { CHL_socialist_republic } 
+	
+	available = { always = no } 
+	
+	cost = 1  
+	
 	available_if_capitulated = yes  
-
-	completion_reward = { 
-		country_event = { 
-			days = 1  
-			id = chile.20
-		} 
-	} 
-}
-	 
-focus = { 
-	id = CHL_popular_unity 
-	icon = GFX_goal_CHL_unidad_popular
-	bypass = {has_country_flag = SR_CHILE_NO_COALITION} 
-	ai_will_do = { factor = 0 } 
-
-	x =3
-	y =2 
-		
-	mutually_exclusive = { } 
-	prerequisite = { focus = CHL_meet_pcch} 
-	prerequisite = { focus =CHL_meet_iww} 
-	prerequisite = { focus =CHL_meet_ic} 
-
-	cost = 8  
-
-	available_if_capitulated = yes  
-}
-
-focus = {
-	id = CHL_socialist_victory_focus
-	icon = GFX_goal_red_star_dove
-	bypass = { has_country_flag = CHL_PSC_victory }
-	ai_will_do = { factor = 0 }
-	available = { has_country_flag = CHL_PSC_victory }
-	
-	x = 0
-	y = 3
-	
-	prerequisite = { focus = CHL_popular_unity }
-	
-	cost = 8
-	
-	available_if_capitulated = yes
-}
-
-focus = {
-	id = CHL_syndicalist_victory_focus
-	icon = GFX_goal_anarcho_communism
-	bypass = { has_country_flag = CHL_syndicalist_victory }
-	ai_will_do = { factor = 0 }
-	available = { has_country_flag = CHL_syndicalist_victory }
-	
-	x = 2
-	y = 3
-	
-	prerequisite = { focus = CHL_popular_unity }
-	
-	cost = 8
-	
-	available_if_capitulated = yes
-}
-
-focus = {
-	id = CHL_marxist_victory_focus
-	icon = GFX_goal_red_star
-	bypass = { has_country_flag = CHL_IC_victory }
-	ai_will_do = { factor = 0 }
-	available = { has_country_flag = CHL_IC_victory }
-	
-	x = 4
-	y = 3
-	
-	prerequisite = { focus = CHL_popular_unity }
-	
-	cost = 8
-	
-	available_if_capitulated = yes
-}
-
-focus = {
-	id = CHL_leninist_victory_focus
-	icon = GFX_goal_support_communism
-	bypass = { has_country_flag = CHL_PCCh_victory }
-	ai_will_do = { factor = 0 }
-	available = { has_country_flag = CHL_PCCh_victory }
-	
-	x = 6
-	y = 3
-	
-	prerequisite = { focus = CHL_popular_unity }
-	
-	cost = 8
-	
-	available_if_capitulated = yes
-}
-
-focus = {
-	id = CHL_draft_new_constitution
-	icon = GFX_goal_constitutional_guarantees
-	ai_will_do = { factor = 0 }
-	
-	x = 3
-	y = 4
-	
-	prerequisite = { focus = CHL_leninist_victory_focus focus = CHL_marxist_victory_focus focus = CHL_syndicalist_victory_focus focus = CHL_socialist_victory_focus }
-	
-	cost = 8
-	
-	available_if_capitulated = yes
-}
-
-focus = {
-	id = CHL_destroy_reactionaries
-	icon = GFX_goal_skull_treaty
-	ai_will_do = { factor = 0 }
-	prerequisite = { focus = CHL_draft_new_constitution }
-	prerequisite = { focus = CHL_leninist_victory_focus }
-	
-	x = 6
-	y = 5
-	
-	cost = 8
-	
-	available_if_capitulated = yes
-}
-
-focus = {
-	id = CHL_release_easter_island
-	icon = GFX_focus_generic_the_giant_wakes
-	ai_will_do = { factor = 0 }
-	prerequisite = { focus = CHL_draft_new_constitution }
-	prerequisite = { focus = CHL_socialist_victory_focus }
-
-	x = 0
-	y = 5
-	
-	cost = 8
-	
-	available_if_capitulated = yes
-}
-
-focus = {
-	id = CHL_invite_left_radicals
-	icon = GFX_goal_generic_improve_relations
-	ai_will_do = { factor = 0 }
-	prerequisite = { focus = CHL_release_easter_island }
-	
-	x = 0
-	y = 6
-	
-	cost = 8
-	
-	available_if_capitulated = yes
-}
-
-focus = {
-	id = CHL_chilean_way_to_socialism
-	icon = GFX_goal_chilean_way
-	ai_will_do = { factor = 0 }
-	prerequisite = { focus = CHL_invite_left_radicals }
-	
-	x = 0
-	y = 7
-	
-	cost = 8
-	
-	available_if_capitulated = yes
-}
-
-focus = {
-	id = CHL_build_popular_support
-	icon = GFX_goal_volunteer_alliance
-	ai_will_do = { factor = 0 }
-	prerequisite = { focus = CHL_chilean_way_to_socialism }
-	
-	x = 0
-	y = 8
-	
-	cost = 8
-	
-	available_if_capitulated = yes
-}
-
-focus = {
-	id = CHL_hold_elections_SRC
-	icon = GFX_goal_elections
-	ai_will_do = { factor = 0 }
-	prerequisite = { focus = CHL_build_popular_support }
-	
-	x = 0
-	y = 9
-	
-	cost = 8
-	
-	available_if_capitulated = yes
-}
+} 
