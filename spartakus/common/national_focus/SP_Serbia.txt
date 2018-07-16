@@ -9,10 +9,10 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = SER_The_Decade_of_Silence
-		icon = GFX_goal_unknown
+		id = SER_End_of_The_Decade_of_Silence
+		icon = GFX_Crush_Resistance
 		cost = 3.00
-		x = 7
+		x = 5
 		y = 0
 
 	}
@@ -40,18 +40,18 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Mayday_Pressure
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ideology_social_democrat
 		cost = 0.00
 		prerequisite = {
-			focus = SER_The_Decade_of_Silence
+			focus = SER_End_of_The_Decade_of_Silence
 		}
-		x = 7
+		x = 5
 		y = 1
 
 	}
 	focus = {
 		id = SER_Adopt_a_Constitution
-		icon = GFX_goal_unknown
+		icon = GFX_goal_constitutional_guarantees
 		cost = 5.00
 		prerequisite = {
 			focus = SER_Mayday_Pressure
@@ -59,13 +59,13 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SER_One_Party_State
 		}
-		x = 7
-		y = 3
+		x = 4
+		y = 2
 
 	}
 	focus = {
 		id = SER_Fair_Elections
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_elections
 		cost = 10.00
 		prerequisite = {
 			focus = SER_Adopt_a_Constitution
@@ -76,7 +76,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_LDS_Victory
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ideology_market_liberal
 		cost = 1.00
 		prerequisite = {
 			focus = SER_Fair_Elections
@@ -90,7 +90,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_One_Party_State
-		icon = GFX_goal_unknown
+		icon = GFX_goal_POR_royal_edicts
 		cost = 5.00
 		prerequisite = {
 			focus = SER_Mayday_Pressure
@@ -98,18 +98,18 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SER_Adopt_a_Constitution
 		}
-		x = 10
+		x = 6
 		y = 2
 
 	}
 	focus = {
 		id = SER_Put_Down_Riots
-		icon = GFX_goal_unknown
+		icon = GFX_HOL_crackdown_syndie
 		cost = 3.00
 		prerequisite = {
 			focus = SER_One_Party_State
 		}
-		x = 10
+		x = 6
 		y = 3
 
 	}
@@ -120,13 +120,13 @@ focus_tree = {
 		prerequisite = {
 			focus = SER_Put_Down_Riots
 		}
-		x = 8
+		x = 12
 		y = 4
 
 	}
 	focus = {
 		id = SER_RS_Victory
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ideology_social_liberal
 		cost = 1.00
 		prerequisite = {
 			focus = SER_Fair_Elections
@@ -141,7 +141,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Industrialization_Plan
-		icon = GFX_goal_unknown
+		icon = GFX_goal_factory_complex
 		cost = 10.00
 		prerequisite = {
 			focus = SER_RS_Victory
@@ -157,7 +157,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SER_Put_Down_Riots
 		}
-		x = 11
+		x = 15
 		y = 4
 
 	}
@@ -344,7 +344,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Encourage_Private_Enterprise
-		icon = GFX_goal_unknown
+		icon = GFX_goal_capitalist_system
 		cost = 8.00
 		prerequisite = {
 			focus = SER_LDS_Victory
@@ -355,7 +355,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Subsidized_Agriculture
-		icon = GFX_goal_unknown
+		icon = GFX_AUS_agriculture
 		cost = 5.00
 		prerequisite = {
 			focus = SER_LDS_Victory
@@ -367,7 +367,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Attract_Investors
-		icon = GFX_goal_unknown
+		icon = GFX_goal_collaborate_local_elites
 		cost = 8.00
 		prerequisite = {
 			focus = SER_Encourage_Private_Enterprise
@@ -390,7 +390,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Land_Reform
-		icon = GFX_goal_unknown
+		icon = GFX_goal_agrarian_reform
 		cost = 7.00
 		prerequisite = {
 			focus = SER_Industrialization_Plan
@@ -423,7 +423,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Rentier_State
-		icon = GFX_goal_unknown
+		icon = GFX_IRE_medium_industry
 		cost = 5.00
 		prerequisite = {
 			focus = SER_Attract_Investors

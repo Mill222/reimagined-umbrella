@@ -1,0 +1,72 @@
+﻿###########################
+# Serbia Events
+###########################
+# By Last Witch of Illyrith (im gay)
+###########################
+
+add_namespace = serbia
+
+#VIDOVDAN
+
+news_event = {
+	id = serbia.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.1"}
+	title = serbia.1.t
+	desc = serbia.1.d
+	picture = GFX_news_event_generic_rally2
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = SER
+		date > 1932.6.24
+		date < 1932.7.1
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	immediate = {
+		hidden_effect = {
+			news_event = { days = 365 id = serbia.2 }
+			news_event = { days = 730 id = serbia.2 }
+			news_event = { days = 1095 id = serbia.2 }
+			news_event = { days = 1460 id = serbia.2 }
+			news_event = { days = 1825 id = serbia.2 }
+			news_event = { days = 2190 id = serbia.2 }
+			news_event = { days = 2555 id = serbia.2 }
+			news_event = { days = 2920 id = serbia.2 }
+			news_event = { days = 3285 id = serbia.2 }
+			news_event = { days = 3650 id = serbia.2 }
+			news_event = { days = 4015 id = serbia.2 }
+			news_event = { days = 4380 id = serbia.2 }
+			news_event = { days = 4745 id = serbia.2 }
+		}
+	}
+
+	option = {
+		name = serbia.1.a # okay
+
+		add_political_power = 5
+	}
+}
+
+#VIDOVDAN repeater
+
+news_event = {
+	id = serbia.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.2"}
+	title = serbia.1.t
+	desc = serbia.1.d
+	picture = GFX_news_event_generic_rally2
+
+	is_triggered_only = yes
+
+	option = {
+		name = serbia.1.a # okay
+
+		add_political_power = 5
+	}
+}
+

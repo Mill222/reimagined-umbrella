@@ -3,6 +3,9 @@
 ### Opinions ###
 
 ### Events ###
+serbia.1.t:0 "Vidovdan"
+serbia.1.d:0 "Vidovdan is a Serbian national and religious holiday, memorial to the Saint Prince Lazar and the Serbian holy martyrs who fell during the Battle of Kosovo against the Ottoman Empire in 1389. This is also the day the Austro-Hungarian archduke Franz Ferdinand was assassinated by Gavrilo Princip, kicking off what became the Great War."
+serbia.1.a:0 "How Eventful"
 
 ###Parties###
 
@@ -33,8 +36,42 @@ SER_national_corporatist_party_long:0 "Organizacija Jugoslavenskih Nacionalista"
 
 ### Focuses ###
 
+SER_End_of_The_Decade_of_Silence:0 "End of the Decade of Silence"
+SER_End_of_The_Decade_of_Silence_desc:0 "Press has been censored, public meetings have been dispersed, political parties and organizations banned, but change is coming to Serbia regardless, whether it may be for the better or worse..."
+SER_Mayday_Pressure:0 "May Day Pressure"   
+SER_Mayday_Pressure_desc:0 "A number of underground workers rights groups, including the KPJ and SSP have been planning a grand May Day march. All public organizations and meetings have been violently prohibited since the royal dictatorship begun, but this policy has worn down over time as numerous concessions have been made. §RThere will be bloodshed.§" 
+SER_Adopt_a_Constitution:0 "Alexander's Constitution"
+SER_Adopt_a_Constitution_desc:0 "The absolute monarchy can survive no longer. The king himself has decided to omit most of his powers, remaining only a head of state and commander-in-chief. The constitution will allow freedom of speech, religion, and association, and a senate with elected members. It seems that most are content, except for the KPJ and parts of the ORJUNA."
+SER_One_Party_State:0 "Octroic Constitution"
+SER_One_Party_State_desc:0 "The king may allow for some more liberties, but only superficially. The country shall be run by a one-party parliament, indirectly run by the monarch, the Serbian Radical Community."
+SER_Put_Down_Riots:0 "Put Down the Riots"
+SER_Put_Down_Riots_desc:0 "The octroic constitution isn't fooling anyone. Opposition movements are still out in the streets, and the situation is getting worse. Stop this madness!"
+SER_Fair_Elections:0 "Hold Fair Elections"
+SER_Fair_Elections_desc:0 "Serbia is waiting for it's first free and fair elections. Campaign trucks traverse the city centers and countryside, shouting party slogans. So far, the absolutely predominant in the polls seem to be the LDS, a moderate liberal party popular among the upper strata of our country, and the RS, promising jobs, better work conditions and liberties."
+SER_LDS_Victory:0 "Liberal Democrats Win"
+SER_LDS_Victory_desc:0 "Surprisingly, the Liberal Democrats have won this election, despite a far more narrow voting block. They shall control most of the legislation for at least the next 4 years."
+SER_RS_Victory:0 "Reformist Win"
+SER_Encourage_Private_Enterprise:0 "Encourage Private Enterprise"
+SER_Encourage_Private_Enterprise_desc:0 "Encouraging small bussinesses and capitalists is the core of the policy of the LDS government. This includes tax breaks and other benefits."
+SER_Attract_Investors:0 "Attract Investors"
+SER_Attract_Investors_desc:0 "Another beneficial policy for our economy will be to provide a promising enviroment for foreign investors, kickstarting our backwater industry and economy."
+SER_Rentier_State:0 "Rentier State"
+SER_Rentier_State_desc:0 "We have to cut some corners on labor laws in the short run in order to enrich our nation. Most of our progress is predicated on renting cheap labor to foreign capitalists, but it's not our problem, right?"
+SER_Subsidized_Agriculture:0 "Subsidize Agriculture"
+SER_Subsidized_Agriculture_desc:0 "Serbia is predominately rural, yet underdeveloped, so a good policy to further our popularity would be to help out the farmers. Additional funding will also help them mechanize their craft and improve our economy."
+SER_Industrialization_Plan:0 "Planned Industries"
+SER_Industrialization_Plan_desc:0 "The Reform Party embraces a somewhat social-democratic, centrally planned view of advancing our economy. Factory complexes for unskilled laborers should soon be cropping up all across the nation, thanks to our administrations shrewd planning."
+SER_Land_Reform:0 "Land Reform"
+SER_Land_Reform_desc:0 "Our country has a major issue of unused agricultural land. We should confiscate and redistribute it. This will allow the previously landless to keep developing our agriculture."
+
+
 ### Ideas ###
-     
+
+SER_The_Decade_of_Silence:0 "End of the Decade of Silence"
+SER_The_Decade_of_Silence_desc:0 "The Decade of Silence (Ser. Decenija Tišine) refers to the period of 1922-1932, during which the Serbian monarchy instituted a policy of extremely strict and rigorous censorship as well as other restrictions on civil liberties, in order to prevent a coup or popular revolution after the Adriatic war destabilized the country. Despite a total embargo on all official flow of information, dissenting movements continued to grow and at the dawn of the 30s, the dictatorship is tearing at it's seams."
+SER_Decree_on_the_Colonization_of_the_Southern_Regions:0 "The DCSR"
+SER_Decree_on_the_Colonization_of_the_Southern_Regions_desc:0 "The Decree on the Colonization of the Southern Regions is a programme implemented by the Kingdom of Serbia in order to alter the ethnic population of Kosovo by settling it with Serbs, and even expulsing the native population into the Ottoman Sultanate. It has proven to be generally unsuccessful, as very few are willing to settle in Kosovo, but the government is stubborny enforcing it anyways, leading to even more tensions in the south..."
+
 ### Flags ###
 
 ### Tooltips ###

@@ -5,7 +5,15 @@ oob = "SER"
 set_research_slots = 3
 
 add_ideas = {
-ROM_rural_population
+very_low_popularity
+SER_The_Decade_of_Silence
+SER_Decree_on_the_Colonization_of_the_Southern_Regions
+limited_conscription
+SER_Milan_Acimovic_hog_rwp
+SER_Ninko_Peric_for_sco
+SER_Milutin_Milankovic_eco_mli
+SER_Tanasije_Dinic_sec_rwp
+SER_Bosko_Becarevic_int_rwp
 }
 
 set_technology = {
@@ -38,28 +46,28 @@ set_politics = {
 			popularity = 6
 		}
 		social_democrat = {
-			popularity = 6
+			popularity = 9
 		}
 		social_liberal = {
-			popularity = 16
+			popularity = 24
 		}
 		liberal_conservative = {
-			popularity = 7
+			popularity = 13
 		}
 		social_conservative = {
-			popularity = 24
+			popularity = 7
 		}
 		authoritarian_democrat = {
 		    popularity = 9
 		}
 		right_wing_populist = {
-			popularity = 12
+			popularity = 9
 		}
 		national_syndicalist = {
-			popularity = 2
+			popularity = 6
 		}
 		national_corporatist = {
-			popularity = 6
+			popularity = 5
 		}
 	}
 	
@@ -201,4 +209,20 @@ create_country_leader = {
 	traits = {
 		
 	}
+}
+
+create_field_marshal = {
+	name = "Petar Bojović"
+	portrait_path = "gfx/leaders/SER/Portrait_Petar_Bojović.dds"
+	traits = {
+	    war_hero
+	    offensive_doctrine 
+		reckless
+		politically_connected
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
 }
