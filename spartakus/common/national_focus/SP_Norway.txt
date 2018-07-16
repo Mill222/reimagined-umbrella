@@ -8,7 +8,7 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 50 y = 1700 }
+	continuous_focus_position = { x = 50 y = 1250 }
 	focus = {
 		id = NOR_national_reforms
 		icon = GFX_goal_generic_dangerous_deal
@@ -61,6 +61,19 @@ focus_tree = {
 				has_completed_focus = NOR_free_economy
 			}
 		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = industry_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		}
 
 	}
 	focus = {
@@ -75,6 +88,26 @@ focus_tree = {
 				has_completed_focus = NOR_revolutionary_economy
 				has_completed_focus = NOR_corporatist_economy
 				has_completed_focus = NOR_free_economy
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 30
+			add_tech_bonus = {
+				name = industry_bonus
+				bonus = 0.5
+				uses = 1
+				category = construction_tech
+			}
+			add_tech_bonus = {
+				name = industry_bonus
+				bonus = 0.25
+				uses = 1
+				category = synth_resources
 			}
 		}
 
@@ -169,8 +202,7 @@ focus_tree = {
 		y = 0
 		
 		available = {
-			always = no
-			custom_trigger_tooltip = { tooltip = unlocked_later  }
+			has_country_flag = NOR_communist_coup_flag
 		}
 		
 		bypass = {
@@ -193,8 +225,7 @@ focus_tree = {
 		y = 0
 		
 		available = {
-			always = no
-			custom_trigger_tooltip = { tooltip = unlocked_later  }
+			has_country_flag = NOR_1933_election_flag
 		}
 		
 		bypass = {
@@ -217,8 +248,7 @@ focus_tree = {
 		y = 0
 		
 		available = {
-			always = no
-			custom_trigger_tooltip = { tooltip = unlocked_later  }
+			has_country_flag = NOR_samfundsvernet_coup_flag
 		}
 		
 		bypass = {
@@ -369,7 +399,7 @@ focus_tree = {
 			add_political_power = 10
 			add_timed_idea = {
 				idea = NOR_cut_military_budget_idea
-				days = 150
+				days = 120
 			}
 		}
 
@@ -405,6 +435,14 @@ focus_tree = {
 				has_government = social_democrat
 			}
 		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+		}
 
 	}
 	focus = {
@@ -416,6 +454,14 @@ focus_tree = {
 		}
 		x = 2
 		y = 4
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			country_event = { id = nor.100 days = 1 }
+		}
 
 	}
 	focus = {
@@ -427,6 +473,18 @@ focus_tree = {
 		}
 		x = 1
 		y = 5
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = -10
+			add_popularity = { ideology = liberal_conservative popularity = -0.03 }
+			add_popularity = { ideology = social_conservative popularity = -0.01 }
+			add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }
+			add_ideas = NOR_illegalize_strikebreaking_idea
+		}
 
 	}
 	focus = {
@@ -438,6 +496,23 @@ focus_tree = {
 		}
 		x = 4
 		y = 4
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = 10
+			ENG = {
+				add_opinion_modifier = { target = NOR modifier = NOR_stop_trade_with_capitalists_opinion }
+			}
+			FRA = {
+				add_opinion_modifier = { target = NOR modifier = NOR_stop_trade_with_capitalists_opinion }
+			}
+			USA = {
+				add_opinion_modifier = { target = NOR modifier = NOR_stop_trade_with_capitalists_opinion }
+			}
+		}
 
 	}
 	focus = {
@@ -452,6 +527,15 @@ focus_tree = {
 		}
 		x = 3
 		y = 5
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = -10
+			add_ideas = NOR_worker_owned_industries_idea
+		}
 
 	}
 	focus = {
@@ -466,6 +550,31 @@ focus_tree = {
 		}
 		x = 2
 		y = 6
+		
+		available = {
+			controls_state = 110
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			110 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			remove_ideas = NOR_illegalize_strikebreaking_idea
+			swap_ideas = {
+				remove_idea = NOR_worker_owned_industries_idea
+				add_idea = NOR_sieze_highclass_wealth_idea
+			}
+		}
 
 	}
 	focus = {
@@ -480,6 +589,15 @@ focus_tree = {
 		}
 		x = 3
 		y = 7
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+			remove_ideas = NOR_destroyed_economy_idea
+		}
 
 	}
 	focus = {
@@ -513,6 +631,14 @@ focus_tree = {
 				has_government = national_corporatist
 			}
 		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+		}
 
 	}
 	focus = {
@@ -524,6 +650,15 @@ focus_tree = {
 		}
 		x = 6
 		y = 4
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = -10
+			add_ideas = NOR_uphold_farmer_subsidies_idea
+		}
 
 	}
 	focus = {
@@ -536,6 +671,24 @@ focus_tree = {
 		}
 		x = 5
 		y = 5
+		
+		available = {
+			controls_state = 144
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_popularity = { ideology = social_liberal popularity = -0.01 }
+			add_popularity = { ideology = liberal_conservative popularity = -0.01 }
+			add_resource = {
+				type = steel
+				amount = 5
+				state = 144
+			}
+		}
 
 	}
 	focus = {
@@ -551,6 +704,50 @@ focus_tree = {
 		}
 		x = 5
 		y = 6
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_popularity = { ideology = social_liberal popularity = -0.01 }
+			add_popularity = { ideology = liberal_conservative popularity = -0.01 }
+			if = {
+				limit = {
+					NOR = {
+						has_idea = free_trade
+					}
+				}
+				remove_ideas = free_trade
+				add_ideas = export_focus
+			}
+			if = {
+				limit = {
+					NOR = {
+						has_idea = export_focus
+					}
+				}
+				remove_ideas = export_focus
+				add_ideas = limited_exports
+			}
+			if = {
+				limit = {
+					NOR = {
+						has_idea = limited_exports
+					}
+				}
+				remove_ideas = limited_exports
+				add_ideas = closed_economy
+			}
+			if = {
+				limit = {
+					NOR = {
+						has_idea = closed_economy
+					}
+				}
+				add_political_power = 75
+			}
+		}
 
 	}
 	focus = {
@@ -562,6 +759,15 @@ focus_tree = {
 		}
 		x = 8
 		y = 4
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = -10
+			add_ideas = NOR_introduce_arbeidstjeneste_idea
+		}
 
 	}
 	focus = {
@@ -576,6 +782,31 @@ focus_tree = {
 		}
 		x = 7
 		y = 5
+		
+		available = {
+			controls_state = 110
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = 15
+			110 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			remove_ideas = NOR_uphold_farmer_subsidies_idea
+			swap_ideas = {
+				remove_idea = NOR_introduce_arbeidstjeneste_idea
+				add_idea = NOR_sieze_unloyal_industries_idea
+			}
+		}
 
 	}
 	focus = {
@@ -590,6 +821,15 @@ focus_tree = {
 		}
 		x = 7
 		y = 7
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+			remove_ideas = NOR_destroyed_economy_idea
+		}
 
 	}
 	focus = {
@@ -620,6 +860,14 @@ focus_tree = {
 				has_government = social_liberal
 				has_government = liberal_conservative
 			}
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = 25
 		}
 
 	}
@@ -1130,169 +1378,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NOR_expand_northern_railway
-		icon = GFX_goal_generic_construct_infrastructure
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_rebuild_norwegian_industry
-		}
-		x = 16
-		y = 7
-
-	}
-	focus = {
-		id = NOR_invest_fishing_industry
-		icon = GFX_Focus_Fish
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_expand_northern_railway
-		}
-		x = 15
-		y = 8
-
-	}
-	focus = {
-		id = NOR_establish_rural_industrial_centers
-		icon = GFX_goal_generic_construct_civilian
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_expand_northern_railway
-		}
-		x = 17
-		y = 8
-
-	}
-	focus = {
-		id = NOR_buy_dunderland_iron_ore
-		icon = GFX_focus_generic_steel
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_invest_fishing_industry
-		}
-		prerequisite = {
-			focus = NOR_establish_rural_industrial_centers
-		}
-		x = 16
-		y = 9
-
-	}
-	focus = {
-		id = NOR_improve_western_infastructure
-		icon = GFX_goal_generic_construct_infrastructure
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_rebuild_norwegian_industry
-		}
-		x = 19
-		y = 7
-
-	}
-	focus = {
-		id = NOR_expand_hydropower_industry
-		icon = GFX_goal_dam
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_improve_western_infastructure
-		}
-		x = 19
-		y = 8
-
-	}
-	focus = {
-		id = NOR_invest_in_christiania_spigerverk
-		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_rebuild_norwegian_industry
-		}
-		x = 21
-		y = 7
-
-	}
-	focus = {
-		id = NOR_expand_universitetet_i_oslo
-		icon = GFX_focus_research
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_invest_in_christiania_spigerverk
-		}
-		x = 21
-		y = 8
-
-	}
-	focus = {
-		id = NOR_invest_hydro_aluminium
-		icon = GFX_focus_generic_aluminum
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_expand_hydropower_industry
-		}
-		prerequisite = {
-			focus = NOR_expand_universitetet_i_oslo
-		}
-		x = 20
-		y = 9
-
-	}
-	focus = {
-		id = NOR_kongsberg_vapenfabrik
-		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_rebuild_norwegian_defence
-		}
-		x = 23
-		y = 7
-
-	}
-	focus = {
-		id = NOR_raufoss_ammunisjon
-		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_kongsberg_vapenfabrik
-		}
-		x = 23
-		y = 8
-
-	}
-	focus = {
-		id = NOR_fortify_glomma
-		icon = GFX_goal_generic_construct_military
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_rebuild_norwegian_defence
-		}
-		x = 25
-		y = 7
-
-	}
-	focus = {
-		id = NOR_modernize_costal_defences
-		icon = GFX_focus_generic_coastal_fort
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_fortify_glomma
-		}
-		x = 25
-		y = 8
-
-	}
-	focus = {
-		id = NOR_festning_norge
-		icon = GFX_goal_generic_construct_military
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_raufoss_ammunisjon
-		}
-		prerequisite = {
-			focus = NOR_modernize_costal_defences
-		}
-		x = 24
-		y = 9
-
-	}
-	focus = {
 		id = NOR_expand_kjeller_air_base
 		icon = GFX_goal_generic_air_production
 		cost = 10,00
@@ -1330,7 +1415,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_one_united_air_force
-		icon = GFX_goal_unknown
+		icon = GFX_Aerial_Fleet_2
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_expand_kjeller_air_base
@@ -1403,6 +1488,427 @@ focus_tree = {
 		}
 		x = 30
 		y = 5
+
+	}
+	focus = {
+		id = NOR_expand_northern_railway
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_rebuild_norwegian_industry
+		}
+		x = 16
+		y = 7
+		
+		available = {
+			controls_state = 143
+			controls_state = 144
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			143 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			144 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = NOR_invest_fishing_industry
+		icon = GFX_Focus_Fish
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_expand_northern_railway
+		}
+		x = 15
+		y = 8
+		
+		available = {
+			controls_state = 142
+			controls_state = 144
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			142 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			144 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = NOR_establish_rural_industrial_centers
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_expand_northern_railway
+		}
+		x = 17
+		y = 8
+		
+		available = {
+			controls_state = 144
+			controls_state = 936
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = -25
+			add_manpower = -150
+			144 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			936 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = NOR_buy_dunderland_iron_ore
+		icon = GFX_focus_generic_steel
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_invest_fishing_industry
+		}
+		prerequisite = {
+			focus = NOR_establish_rural_industrial_centers
+		}
+		x = 16
+		y = 9
+		
+		available = {
+			controls_state = 144
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = -30
+			144 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_resource = {
+				type = steel
+				amount = 17
+				state = 144
+			}
+		}
+
+	}
+	focus = {
+		id = NOR_improve_western_infastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_rebuild_norwegian_industry
+		}
+		x = 19
+		y = 7
+		
+		available = {
+			controls_state = 142
+			controls_state = 143
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+
+		completion_reward = {
+			142 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			143 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = NOR_expand_hydropower_industry
+		icon = GFX_goal_dam
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_improve_western_infastructure
+		}
+		x = 19
+		y = 8
+		
+		available = {
+			controls_state = 142
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = -25
+			142 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = NOR_invest_in_christiania_spigerverk
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_rebuild_norwegian_industry
+		}
+		x = 21
+		y = 7
+		
+		available = {
+			controls_state = 110
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			110 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = NOR_expand_universitetet_i_oslo
+		icon = GFX_focus_research
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_invest_in_christiania_spigerverk
+		}
+		x = 21
+		y = 8
+		
+		available = {
+			controls_state = 110
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+
+	}
+	focus = {
+		id = NOR_invest_hydro_aluminium
+		icon = GFX_focus_generic_aluminum
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_expand_hydropower_industry
+		}
+		prerequisite = {
+			focus = NOR_expand_universitetet_i_oslo
+		}
+		x = 20
+		y = 9
+		
+		available = {
+			controls_state = 142
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = -30
+			142 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_resource = {
+				type = aluminium
+				amount = 12
+				state = 142
+			}
+		}
+
+	}
+	focus = {
+		id = NOR_kongsberg_vapenfabrik
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_rebuild_norwegian_defence
+		}
+		x = 23
+		y = 7
+		
+		available = {
+			controls_state = 110
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			110 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = NOR_raufoss_ammunisjon
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_kongsberg_vapenfabrik
+		}
+		x = 23
+		y = 8
+		
+		available = {
+			controls_state = 110
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			110 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = NOR_fortify_glomma
+		icon = GFX_goal_generic_construct_military
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_rebuild_norwegian_defence
+		}
+		x = 25
+		y = 7
+
+	}
+	focus = {
+		id = NOR_modernize_costal_defences
+		icon = GFX_focus_generic_coastal_fort
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_fortify_glomma
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = NOR_festning_norge
+		icon = GFX_goal_generic_construct_military
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_raufoss_ammunisjon
+		}
+		prerequisite = {
+			focus = NOR_modernize_costal_defences
+		}
+		x = 24
+		y = 9
 
 	}
 	focus = {
@@ -1520,6 +2026,18 @@ focus_tree = {
 		}
 		x = 42
 		y = 1
+		
+		available = {
+			has_country_flag = NOR_socialist_coalition_victory_flag
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+		}
 
 	}
 	focus = {
@@ -1663,6 +2181,18 @@ focus_tree = {
 		}
 		x = 48
 		y = 1
+		
+		available = {
+			has_country_flag = NOR_continued_agreement_flag
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+		}
 
 	}
 	focus = {
@@ -1785,6 +2315,18 @@ focus_tree = {
 		}
 		x = 54
 		y = 1
+		
+		available = {
+			has_country_flag = NOR_national_coalition_victory_flag
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+		}
 
 	}
 	focus = {

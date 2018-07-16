@@ -195,6 +195,152 @@ ideas = {
 			}
 		}
 		
+		NOR_factory_owners_slaves_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = saf_history_of_segregation
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				political_power_gain = -0.05
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		
+		NOR_illegalize_strikebreaking_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_volunteer_expedition_bonus
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				political_power_gain = -0.05
+				stability_factor = 0.05
+			}
+		}
+		
+		NOR_worker_owned_industries_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = economic_control_icon
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		
+		NOR_sieze_highclass_wealth_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = economic_control_icon
+			
+			modifier = {
+				consumer_goods_factor = 0.07
+				production_factory_efficiency_gain_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+		
+		NOR_uphold_farmer_subsidies_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_agrarian_society
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				local_resources_factor = 0.05
+				MONTHLY_POPULATION = 0.05
+			}
+		}
+		
+		NOR_introduce_arbeidstjeneste_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				local_resources_factor = 0.10
+				production_speed_bunker_factor = 0.15
+				production_speed_coastal_bunker_factor = 0.15
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+		}
+		
+		NOR_sieze_unloyal_industries_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				local_resources_factor = 0.15
+				production_speed_bunker_factor = 0.15
+				production_speed_coastal_bunker_factor = 0.15
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				MONTHLY_POPULATION = 0.05
+			}
+		}
+		
 		NOR_army_of_quality_idea = {
 
 			allowed = {
