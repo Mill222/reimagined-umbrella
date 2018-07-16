@@ -162,6 +162,70 @@ country = {
 		picture = FRA_scw_intervention_nationalists_focus
 	}
 	
+	POR_thriving_agriculture = {
+		allowed = {always = no}
+		modifier = {
+				industrial_capacity_factory = 0.10
+				conscription_factor = 0.05
+			}
+		removal_cost = -1
+		picture = idea_generic_trade
+	}
+	
+	POR_wine_exports = {
+		allowed = {always = no}
+		modifier = {
+				consumer_goods_factor = -0.10
+				political_power_gain = 0.05
+			}
+		removal_cost = -1
+		picture = idea_generic_trade
+	}
+	
+	POR_struggling_agricultural_industry = {
+		allowed = {always = no}
+		modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.05
+				MONTHLY_POPULATION = -0.05
+			}
+		removal_cost = -1
+		picture = idea_generic_trade
+	}
+	
+	POR_struggling_wine_industry = {
+		allowed = {always = no}
+		modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.05
+				industrial_capacity_factory = -0.05
+			}
+		removal_cost = -1
+		picture = idea_generic_trade
+	}
+	
+	POR_extended_rationing = {
+		allowed = {always = no}
+		modifier = {
+				consumer_goods_factor = 0.10
+				stability_factor = 0.05
+				political_power_gain = 0.10
+			}
+		removal_cost = -1
+		picture = idea_generic_trade
+	}
+	
+	POR_ended_rationing = {
+		allowed = {always = no}
+		modifier = {
+				consumer_goods_factor = -0.10
+				stability_factor = -0.05
+				political_power_gain = -0.10
+			}
+		removal_cost = -1
+		picture = idea_generic_trade
+	}
+	
 	POR_rifle_production = {
 			picture = FRA_factory_strikes
 			allowed = {always = no}
@@ -173,6 +237,61 @@ country = {
 					instant = yes
 				}
 			}
+	}
+	
+	POR_automotive_exports = {
+		allowed = {always = no}
+		modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05
+			}
+		removal_cost = -1
+		picture = idea_generic_trade
+	}
+	
+	POR_militias_working = {
+		allowed = {always = no}
+		modifier = {
+				political_power_gain = 0.05
+				war_support_factor = 0.05
+				industrial_capacity_factory = 0.10
+				conscription_factor = -0.05
+			}
+		removal_cost = -1
+		picture = idea_generic_trade
+	}
+	
+	POR_female_workforce = {
+		allowed = {always = no}
+		modifier = {
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.10
+				conscription_factor = 0.10
+			}
+		removal_cost = -1
+		picture = idea_generic_trade
+	}
+	
+	POR_constructing_dam = {
+		allowed = {always = no}
+		modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = -0.05
+				conscription_factor = -0.05
+			}
+		removal_cost = -1
+		picture = idea_generic_trade
+	}
+	
+	POR_expanding_power_plant = {
+		allowed = {always = no}
+		modifier = {
+				consumer_goods_factor = 0.10
+				industrial_capacity_factory = -0.10
+				conscription_factor = -0.05
+			}
+		removal_cost = -1
+		picture = idea_generic_trade
 	}
 }
 

@@ -449,12 +449,15 @@ focus_tree = {
 		icon = GFX_goal_graveyard
 		x = 14
 		y = 0
+		bypass = {
+			has_global_flag = POR_civil_war_over
+		}
 		available = {
 			has_global_flag = POR_civil_war_over
 		}
-		cost = 2
+		cost = 0
 		completion_reward = {	
-			add_political_power = 25
+			custom_effect_tooltip = POR_bypass_tt
 		}
 	}
 	
@@ -481,7 +484,12 @@ focus_tree = {
 		x = -5
 		y = 2
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+			add_ideas = POR_wine_exports
+			add_timed_idea = {
+				idea = POR_struggling_agricultural_industry
+				days = 140
+			}
 		}
 	}
 	
@@ -495,7 +503,12 @@ focus_tree = {
 		x = -7
 		y = 2
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+			add_ideas = POR_thriving_agriculture
+			add_timed_idea = {
+				idea = POR_struggling_wine_industry
+				days = 140
+			}
 		}
 	}
 	
@@ -522,7 +535,11 @@ focus_tree = {
 		x = -1
 		y = 2
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+			add_timed_idea = {
+				idea = POR_extended_rationing
+				days = 365
+			}
 		}
 	}
 	
@@ -536,7 +553,11 @@ focus_tree = {
 		x = -3
 		y = 2
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+			add_timed_idea = {
+				idea = POR_ended_rationing
+				days = 365
+			}
 		}
 	}
 	
@@ -563,7 +584,8 @@ focus_tree = {
 		x = 3
 		y = 2
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+			add_ideas = POR_militias_working
 		}
 	}
 	
@@ -577,7 +599,8 @@ focus_tree = {
 		x = 1
 		y = 2
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+			add_ideas = POR_female_workforce
 		}
 	}
 	
@@ -604,7 +627,18 @@ focus_tree = {
 		x = 7
 		y = 2
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+			custom_effect_tooltip = POR_expanding_power_plant_tt
+			add_timed_idea = {
+				idea = POR_expanding_power_plant
+				days = 365
+			}
+			hidden_effect = {
+				country_event = {
+					id = por.44
+					days = 365
+				}
+			}
 		}
 	}
 	
@@ -618,7 +652,18 @@ focus_tree = {
 		x = 5
 		y = 2
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+			custom_effect_tooltip = POR_constructing_dam_tt
+			add_timed_idea = {
+				idea = POR_constructing_dam
+				days = 1825
+			}
+			hidden_effect = {
+				country_event = {
+					id = por.45
+					days = 1825
+				}
+			}
 		}
 	}
 	
@@ -633,7 +678,9 @@ focus_tree = {
 		x = 0
 		y = 3
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+			add_political_power = 50
+			remove_ideas = POR_recovering_civil_war
 		}
 	}
 	
@@ -658,7 +705,7 @@ focus_tree = {
 		id = POR_align_with_germany
 		icon = GFX_GER_diplomacy
 		prerequisite = { focus = POR_diplomacy_a }
-		mutually_exclusive = { focus = POR_align_with_soviet focus = POR_our_own_path }
+		mutually_exclusive = { focus = POR_align_with_soviet }
 		relative_position_id = POR_diplomacy_a
 		x = -1
 		y = 1
@@ -696,7 +743,7 @@ focus_tree = {
 		id = POR_align_with_soviet
 		icon = GFX_focus_chi_mission_to_the_soviet_union
 		prerequisite = { focus = POR_diplomacy_a }
-		mutually_exclusive = { focus = POR_align_with_germany focus = POR_our_own_path }
+		mutually_exclusive = { focus = POR_align_with_germany }
 		relative_position_id = POR_diplomacy_a
 		x = -3
 		y = 1
@@ -733,20 +780,18 @@ focus_tree = {
 	focus = {
 		id = POR_our_own_path
 		icon = GFX_POR_diplomacy
-		mutually_exclusive = { focus = POR_align_with_germany focus = POR_align_with_soviet }
 		prerequisite = { focus = POR_diplomacy_a }
 		relative_position_id = POR_diplomacy_a
 		x = 3
 		y = 1
 		cost = 8.6
 		completion_reward = {	
-			add_political_power = 50
-			create_faction = Portuguese_Bloc
+			add_political_power = 100
 		}
 	}
 	
 	focus = {
-		id = POR_alliance_with_brazil
+		id = POR_brazilian_trade
 		icon = GFX_goal_HOL_council_communism
 		prerequisite = { focus = POR_our_own_path }
 		relative_position_id = POR_diplomacy_a
@@ -758,7 +803,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_alliance_with_italy
+		id = POR_italian_trade
 		icon = GFX_goal_HOL_council_communism
 		prerequisite = { focus = POR_our_own_path }
 		relative_position_id = POR_diplomacy_a
@@ -770,7 +815,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_alliance_with_spain
+		id = POR_spanish_trade
 		icon = GFX_goal_HOL_council_communism
 		prerequisite = { focus = POR_our_own_path }
 		relative_position_id = POR_diplomacy_a
@@ -784,7 +829,7 @@ focus_tree = {
 	focus = {
 		id = POR_diplo_research
 		icon = GFX_focus_research
-		prerequisite = { focus = POR_alliance_with_spain focus = POR_alliance_with_italy focus = POR_alliance_with_brazil }
+		prerequisite = { focus = POR_spanish_trade focus = POR_italian_trade focus = POR_brazilian_trade }
 		relative_position_id = POR_diplomacy_a
 		x = 3
 		y = 3
@@ -800,11 +845,12 @@ focus_tree = {
 		icon = GFX_goal_generic_sea_focused_navy
 		prerequisite = { focus = POR_army }
 		relative_position_id = POR_army
-		x = -6
+		x = -8
 		y = 1
-		cost = 8.6
-		completion_reward = {	
-		navy_experience = 30
+		cost = 5
+		completion_reward = {
+			add_war_support = 0.025
+			navy_experience = 25
 		}
 	}
 	
@@ -817,16 +863,12 @@ focus_tree = {
 		y = 1
 		relative_position_id = POR_navy
 		cost = 8.6
-		completion_reward = {	
-				random_owned_state = {
-					limit = {
-						is_coastal = yes
-						free_building_slots = {
-							building = dockyard
-							size > 1
-							include_locked = yes
-						}
-					}
+		available = {
+			controls_state = 180
+		}
+		completion_reward = {
+				navy_experience = 10
+				180 = {
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = dockyard
@@ -834,8 +876,8 @@ focus_tree = {
 						instant_build = yes
 					}
 				}
-			}	
-		}
+		}	
+	}
 	
 	focus = {
 		id = POR_a_grand_armada
@@ -845,11 +887,12 @@ focus_tree = {
 		y = 2
 		relative_position_id = POR_navy
 		cost = 8.6
-		completion_reward = {	
-		add_tech_bonus = {
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
 				name = fleet_in_being_bonus
 				bonus = 0.5
-				uses = 3
+				uses = 2
 				category = fleet_in_being_tree
 			}	
 		}
@@ -864,7 +907,7 @@ focus_tree = {
 		relative_position_id = POR_navy
 		cost = 8.6
 		completion_reward = {	
-					navy_experience = 25
+			navy_experience = 25
 			add_tech_bonus = {
 				name = capital_ships_bonus
 				bonus = 0.5
@@ -874,8 +917,6 @@ focus_tree = {
 				technology = basic_battleship
 				technology = improved_battleship
 				technology = advanced_battleship
-				technology = heavy_battleship
-				technology = heavy_battleship2
 			}	
 		}
 	}
@@ -888,23 +929,26 @@ focus_tree = {
 		y = 2
 		relative_position_id = POR_navy
 		cost = 8.6
+		available = {
+			controls_state = 112
+		}
 		completion_reward = {	
-		random_owned_state = {
-					limit = {
-						is_coastal = yes
-						free_building_slots = {
-							building = dockyard
-							size > 1
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = dockyard
-						level = 1
-						instant_build = yes
-					}
-				}	
+			112 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			112 = {
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					province = 970
+					instant_build = yes
+				}
+			}			
 		}
 	}
 	
@@ -917,17 +961,19 @@ focus_tree = {
 		y = 1
 		relative_position_id = POR_navy
 		cost = 8.6
+		available = {
+			controls_state = 180
+		}
 		completion_reward = {
-      add_tech_bonus= {	
-		name = sub_op_bonus
-				bonus = 0.5
-				uses = 2
-				technology = convoy_interdiction_ti
-				technology = unrestricted_submarine_warfare
-				technology = wolfpacks
-				technology = advanced_submarine_warfare
-				technology = combined_operations_raiding
-			}	
+				navy_experience = 10
+				180 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
 		}
 	}
 
@@ -940,15 +986,16 @@ focus_tree = {
 		cost = 8.6
 		relative_position_id = POR_navy
 		completion_reward = {	
-		add_tech_bonus = {
+			navy_experience = 25
+			add_tech_bonus = {
 				name = cr_bonus
 				bonus = 0.5
 				ahead_reduction = 1
 				uses = 1
-				technology = improved_light_cruiser
-				technology = advanced_light_cruiser
-				technology = improved_heavy_cruiser
-				technology = advanced_heavy_cruiser
+				technology = early_destroyer
+				technology = basic_destroyer
+				technology = improved_destroyer
+				technology = advanced_destroyer
 			}	
 		}
 	}
@@ -961,16 +1008,17 @@ focus_tree = {
 		y = 3
 		cost = 8.6
 		relative_position_id = POR_navy
-		completion_reward = {	
-		add_tech_bonus = {
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
 				name = dd_bonus
 				bonus = 0.5
 				ahead_reduction = 1
 				uses = 1
-				technology = early_destroyer
-				technology = basic_destroyer
-				technology = improved_destroyer
-				technology = advanced_destroyer
+				technology = early_submarine
+				technology = basic_submarine
+				technology = improved_submarine
+				technology = advanced_submarine
 			}	
 		}
 	}	
@@ -987,14 +1035,16 @@ focus_tree = {
 				has_global_flag = POR_civil_war_over
 			}
 		}
-		completion_reward = {	
-		add_tech_bonus = {
+		completion_reward = {
+			add_stability = 0.05
+			add_tech_bonus = {
 				name = industrial_bonus
 				bonus = 0.5
 				uses = 1
 				category = industry
 			}	
 		}
+		
 	}
 	
 	focus = {
@@ -1132,7 +1182,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_industrial_investments
+		id = POR_fishing_industry
 		icon = GFX_Focus_Fish
 		relative_position_id = POR_economic
 		prerequisite = { focus = POR_economic } 		
@@ -1140,319 +1190,7 @@ focus_tree = {
 		y = 1
 		cost = 8.6
 		completion_reward = {	
-		add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 0.5
-				uses = 1
-				category = industry
-			}	
-		}
-	}
-
-	focus = {
-		id = POR_econimical_recovery
-		relative_position_id = POR_economic
-		icon = GFX_goal_generic_positive_trade_relations
-		prerequisite = { focus = POR_economic } 		
-		x = 1
-		y = 1
-		cost = 8.6
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = POR_focus_shift
-		icon = GFX_Soviet_Investments
-		relative_position_id = POR_economic
-		prerequisite = { focus = POR_econimical_recovery } 	
-		prerequisite = { focus = POR_industrial_investments } 		
-		x = 0
-		y = 2
-		cost = 8.6
-		completion_reward = {	
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 0.5
-				uses = 1
-				category = industry
-			}	
-		}
-	}
-	
-	focus = {
-		id = POR_civfac
-		relative_position_id = POR_economic
-		icon = GFX_Focus_Tropical_Wood
-		prerequisite = { focus = POR_focus_shift } 		
-		x = -1
-		y = 3
-		cost = 8.6
-		completion_reward = {	
-		random_owned_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}	
-		}
-	}
-	
-	focus = {
-		id = POR_civfac2
-		relative_position_id = POR_economic
-		icon = GFX_goal_basic_oil
-		prerequisite = { focus = POR_focus_shift } 		
-		x = 1
-		y = 3
-		cost = 8.6
-		completion_reward = {	
-		random_owned_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}	
-		}
-	}
-	
-	focus = {
-		id = POR_civfac3
-		relative_position_id = POR_economic
-		icon = GFX_Automobile_Production
-		prerequisite = { focus = POR_civfac2 } 		
-		x = 1
-		y = 4
-		cost = 8.6
-		completion_reward = {	
-		random_owned_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}	
-		}
-	}
-	
-	focus = {
-		id = POR_civfac4
-		relative_position_id = POR_economic
-		icon = GFX_Focus_Glass
-		prerequisite = { focus = POR_civfac } 		
-		x = -1
-		y = 4
-		cost = 8.6
-		completion_reward = {	
-		random_owned_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}	
-		}
-	}
-	
-	focus = {
-		id = POR_education
-		icon = GFX_goal_oil_research
-		relative_position_id = POR_economic	
-		prerequisite = { focus = POR_railways } 
-		prerequisite = { focus = POR_electronics_industry } 
-		prerequisite = { focus = POR_civfac3 } 
-		prerequisite = { focus = POR_civfac4 } 
-		x = 0
-		y = 5
-		cost = 8.6
-		completion_reward = {	
-		add_research_slot = 1	
-		}
-	}
-	
-	focus = {
-		id = POR_not_again
-		icon = GFX_goal_gold_reserve
-		relative_position_id = POR_economic
-		prerequisite = { focus = POR_economic } 		
-		x = 3
-		y = 1
-		cost = 8.6
-		completion_reward = {	
-		add_political_power = 45	
-		}
-	}
-
-	focus = {
-		id = POR_railwaya
-		icon = GFX_goal_Fix_Shitty_Rails
-		relative_position_id = POR_economic
-		prerequisite = { focus = POR_not_again } 		
-		x = 2
-		y = 2
-		cost = 8.6
-		completion_reward = {	
-		random_owned_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 0
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
 			random_owned_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 0
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}	
-		}
-	}	
-	
-	focus = {
-		id = POR_construction
-		relative_position_id = POR_economic
-		icon = GFX_goal_generic_construction
-		prerequisite = { focus = POR_not_again } 		
-		x = 4
-		y = 2
-		cost = 8.6
-		completion_reward = {	
-		random_owned_state = {
 				limit = {
 					free_building_slots = {
 						building = industrial_complex
@@ -1486,40 +1224,51 @@ focus_tree = {
 	}
 
 	focus = {
-		id = POR_naval_supply
+		id = POR_foreign_workforce
 		relative_position_id = POR_economic
-		icon = GFX_Focus_Paper
-		prerequisite = { focus = POR_construction } 	
-		prerequisite = { focus = POR_railwaya }
-		x = 3
-		y = 3
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = POR_economic } 		
+		x = 1
+		y = 1
 		cost = 8.6
-		completion_reward = {	
-		112 = {
-				add_building_construction = {
-					type = naval_base
-					level = 3
-					province = 11805
-					instant_build = yes
-				}
-			}	
+		completion_reward = {
+			112 = {
+				add_manpower = 1500
+			}
+			180 = {
+				add_manpower = 1000
+			}
+			179 = {
+				add_manpower = 500
+			}
+			181 = {
+				add_manpower = 500
+			}
 		}
-	}	
+	}
 	
 	focus = {
-		id = POR_railways
+		id = POR_new_communes
+		icon = GFX_Soviet_Investments
 		relative_position_id = POR_economic
-		icon = GFX_Southern_Steel
-		prerequisite = { focus = POR_naval_supply } 		
-		x = 3
-		y = 4
+		prerequisite = { focus = POR_foreign_workforce } 	
+		prerequisite = { focus = POR_fishing_industry } 		
+		x = 0
+		y = 2
 		cost = 8.6
 		completion_reward = {	
-		random_owned_state = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+			random_owned_state = {
 				limit = {
 					free_building_slots = {
-						building = infrastructure
+						building = industrial_complex
 						size > 0
+						include_locked = yes
 					}
 					OR = {
 						is_in_home_area = yes
@@ -1527,8 +1276,9 @@ focus_tree = {
 							owner = {
 								any_owned_state = {
 									free_building_slots = {
-										building = infrastructure
+										building = industrial_complex
 										size > 0
+										include_locked = yes
 									}
 									is_in_home_area = yes
 								}
@@ -1536,39 +1286,240 @@ focus_tree = {
 						}
 					}
 				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}			
+		}
+	}
+	
+	focus = {
+		id = POR_wood_industry
+		relative_position_id = POR_economic
+		icon = GFX_Focus_Tropical_Wood
+		prerequisite = { focus = POR_new_communes } 		
+		x = -1
+		y = 3
+		cost = 8.6
+		available = {
+			controls_state = 180
+		}
+		completion_reward = {	
+			180 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_glass_industry
+		relative_position_id = POR_economic
+		icon = GFX_Focus_Glass
+		prerequisite = { focus = POR_wood_industry } 		
+		x = -1
+		y = 4
+		cost = 8.6
+		available = {
+			controls_state = 112
+		}
+		completion_reward = {	
+			112 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_oil_industry
+		relative_position_id = POR_economic
+		icon = GFX_goal_basic_oil
+		prerequisite = { focus = POR_new_communes } 		
+		x = 1
+		y = 3
+		cost = 8.6
+		available = {
+			controls_state = 179
+		}
+		completion_reward = {	
+			179 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_automotive_industry
+		relative_position_id = POR_economic
+		icon = GFX_Automobile_Production
+		prerequisite = { focus = POR_oil_industry } 		
+		x = 1
+		y = 4
+		cost = 8.6
+		completion_reward = {	
+			add_ideas = POR_automotive_exports
+		}
+	}
+	
+	focus = {
+		id = POR_a_bright_future
+		icon = GFX_goal_oil_research
+		relative_position_id = POR_economic	
+		prerequisite = { focus = POR_iron_industry } 
+		prerequisite = { focus = POR_electronics_industry } 
+		prerequisite = { focus = POR_automotive_industry } 
+		prerequisite = { focus = POR_glass_industry } 
+		x = 0
+		y = 5
+		cost = 8.6
+		completion_reward = {
+			add_stability = 0.025
+			add_research_slot = 1	
+		}
+	}
+	
+	focus = {
+		id = POR_gold_reserves
+		icon = GFX_goal_gold_reserve
+		relative_position_id = POR_economic
+		prerequisite = { focus = POR_economic } 		
+		x = 3
+		y = 1
+		cost = 8.6
+		completion_reward = {	
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = POR_railway
+		icon = GFX_goal_Fix_Shitty_Rails
+		relative_position_id = POR_economic
+		prerequisite = { focus = POR_gold_reserves } 		
+		x = 2
+		y = 2
+		cost = 8.6
+		available = {
+			controls_state = 180
+			controls_state = 181
+			controls_state = 179
+			controls_state = 112
+		}
+		completion_reward = {
+			add_political_power = -50
+			180 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
 			}
-			random_owned_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 0
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
+			181 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
 				}
+			}
+			179 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			112 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}	
+	
+	focus = {
+		id = POR_lisbon_infra
+		relative_position_id = POR_economic
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = POR_gold_reserves } 		
+		x = 4
+		y = 2
+		cost = 8.6
+		available = {
+			controls_state = 112
+		}
+		completion_reward = {
+			add_stability = 0.025
+			112 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
 			}	
+		}
+	}
+
+	focus = {
+		id = POR_paper_industry
+		relative_position_id = POR_economic
+		icon = GFX_Focus_Paper
+		prerequisite = { focus = POR_lisbon_infra } 	
+		prerequisite = { focus = POR_railway }
+		x = 3
+		y = 3
+		cost = 8.6
+		available = {
+			controls_state = 112
+		}
+		completion_reward = {	
+			112 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}			
+		}
+	}	
+	
+	focus = {
+		id = POR_iron_industry
+		relative_position_id = POR_economic
+		icon = GFX_Southern_Steel
+		prerequisite = { focus = POR_paper_industry } 		
+		x = 3
+		y = 4
+		cost = 8.6
+		available = {
+			controls_state = 181
+		}
+		completion_reward = {	
+			add_resource = {
+				type = steel
+				amount = 8
+				state = 181
+			}
 		}
 	}	
 	
@@ -1578,7 +1529,7 @@ focus_tree = {
 		available = {
 			has_completed_focus = POR_recovery_final
 		}
-		x = 31
+		x = 33
 		y = 0
 		cost = 8.6
 		completion_reward = {	
@@ -1960,7 +1911,7 @@ focus_tree = {
 		icon = GFX_goal_generic_build_airforce
 		prerequisite = { focus = POR_army } 
 		relative_position_id = POR_army
-		x = 6
+		x = 8
 		y = 1
 		cost = 8.6
 		completion_reward = {	
