@@ -4246,4 +4246,9 @@ spriteTypes = {
 		name = "GFX_RAJ_indian_railways_star"
 		texturefile = "gfx/interface/goals/RAJ_indian_railways_star.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_JAP_governance"
+		texturefile = "gfx/interface/goals/JAP_governance.dds"
+	}
 }

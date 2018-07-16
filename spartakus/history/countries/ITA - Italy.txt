@@ -364,5 +364,7 @@ create_equipment_variant = {
 
 give_guarantee = TUR
 give_guarantee = MNT
+give_guarantee = ALB
 give_military_access = TUR
 give_military_access = MNT
+give_military_access = ALB

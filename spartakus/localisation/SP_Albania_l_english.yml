@@ -1,0 +1,48 @@
+﻿l_english:
+
+### Ideas ###
+ALB_aristocracy:0 "British Aristocracy"
+ALB_italian_industry:0 "Italian Economic Domination"
+
+### Focuses ###
+
+### Ministers ###
+ALB_drita_sec:0 "Queen-Consort Drita I"
+
+### Parties ###
+ALB_leninist_party:0 "KONARE (Leninist)"
+ALB_leninist_party_long:0 "KONARE (Leninist)"
+ALB_marxist_party:0 "KONARE (Marxist)"
+ALB_marxist_party_long:0 "KONARE (Marxist)"
+ALB_revolutionary_socialist_party:0 "KONARE (Socialist)"
+ALB_revolutionary_socialist_party_long:0 "KONARE (Socialist)"
+ALB_democratic_socialist_party:0 "Grupi Korçë"
+ALB_democratic_socialist_party_long:0 "Grupi Korçë"
+ALB_social_democrat_party:0 "Bashkimi"
+ALB_social_democrat_party_long:0 "Partia e Bashkimi"
+ALB_social_liberal_party:0 "Partia Popullore"
+ALB_social_liberal_party_long:0 "Partia Popullore"
+ALB_liberal_conservative_party:0 "Partia Demokrate e Re"
+ALB_liberal_conservative_party_long:0 "Partia Demokrate e Re"
+ALB_social_conservative_party:0 "Partinë Përparimtare"
+ALB_social_conservative_party_long:0 "Partinë Përparimtare"
+ALB_authoritarian_democrat_party:0 "Partia e Popullit"
+ALB_authoritarian_democrat_party_long:0 "Partia e Popullit"
+ALB_right_wing_populist_party:0 "Këshilli i Lartë"
+ALB_right_wing_populist_party_long:0 "Këshilli i Lartë"
+ALB_national_syndicalist_party:0 "Zogists (Syndicalist)"
+ALB_national_syndicalist_party_long:0 "Zogists (Syndicalist)"
+ALB_national_corporatist_party:0 "Zogists (Corporatist)"
+ALB_national_corporatist_party_long:0 "Zogists (Corporatist)"
+
+### Tooltips ###
+
+### Opinion Modifiers ###
+
+### Decisions ###
+
+## Events ##
+
+## Misc ##
+ALB_blind:0 "Blind King"
+sec_highland_queen:0 "Queen of the Highlanders"

@@ -25,12 +25,13 @@ focus_tree = {
 			mutually_exclusive = { focus = ROM_elections }
 			x = 12
 			y = 0
-			cost = 5
+			cost = 0
 			ai_will_do = {
 				factor = 50
 			}
 
 			completion_reward = {
+				custom_effect_tooltip = ROM_bypass_focus
 			}
 	}
 	
@@ -147,12 +148,13 @@ focus_tree = {
 			mutually_exclusive = { focus = ROM_coup }
 			x = 5
 			y = 0
-			cost = 5
+			cost = 0
 			ai_will_do = {
 				factor = 50
 			}
 
 			completion_reward = {
+				custom_effect_tooltip = ROM_bypass_focus
 			}
 	}
 	
@@ -170,12 +172,13 @@ focus_tree = {
 			mutually_exclusive = { focus = ROM_elections_fascists }
 			x = 1
 			y = 1
-			cost = 5
+			cost = 0
 			ai_will_do = {
 				factor = 50
 			}
 
 			completion_reward = {
+				custom_effect_tooltip = ROM_bypass_focus
 				custom_effect_tooltip = ROM_leninist_victory
 			}
 	}
@@ -322,12 +325,13 @@ focus_tree = {
 			mutually_exclusive = { focus = ROM_elections_fascists }
 			x = 3
 			y = 1
-			cost = 5
+			cost = 0
 			ai_will_do = {
 				factor = 50
 			}
 
 			completion_reward = {
+				custom_effect_tooltip = ROM_bypass_focus
 				custom_effect_tooltip = ROM_socdem_victory
 			}
 	}
@@ -859,12 +863,13 @@ focus_tree = {
 			mutually_exclusive = { focus = ROM_elections_fascists }
 			x = 5
 			y = 1
-			cost = 5
+			cost = 0
 			ai_will_do = {
 				factor = 50
 			}
 
 			completion_reward = {
+				custom_effect_tooltip = ROM_bypass_focus
 				custom_effect_tooltip = ROM_liberal_victory
 			}
 	}
@@ -930,12 +935,13 @@ focus_tree = {
 			mutually_exclusive = { focus = ROM_elections_fascists }
 			x = 7
 			y = 1
-			cost = 5
+			cost = 0
 			ai_will_do = {
 				factor = 50
 			}
 
 			completion_reward = {
+				custom_effect_tooltip = ROM_bypass_focus
 				custom_effect_tooltip = ROM_conservative_victory
 			}
 	}
@@ -1045,12 +1051,13 @@ focus_tree = {
 			mutually_exclusive = { focus = ROM_elections_leninists }
 			x = 9
 			y = 1
-			cost = 5
+			cost = 0
 			ai_will_do = {
 				factor = 50
 			}
 
 			completion_reward = {
+				custom_effect_tooltip = ROM_bypass_focus
 				custom_effect_tooltip = ROM_fascist_victory
 			}
 	}
@@ -2405,7 +2412,7 @@ focus_tree = {
 			prerequisite = {  focus = ROM_factory_town }
 			x = 20
 			y = 9
-			cost = 10
+			cost = 5
 			ai_will_do = {
 				factor = 50
 			}

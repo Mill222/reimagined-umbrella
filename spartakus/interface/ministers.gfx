@@ -792,6 +792,11 @@ spriteTypes = {
 		name = "GFX_idea_ALB_Vasil_Shanto_sec_len"
 		texturefile = "gfx/interface/ministers/ALB/ALB_Vasil_Shanto.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_ALB_drita_sec"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Drita.tga"
+	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Zuhdi_Shabani_sec_len"

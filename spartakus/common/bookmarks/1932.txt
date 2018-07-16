@@ -155,6 +155,17 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"ALB"={
+			minor = yes
+			history = "ALB_SP_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+				ALB_aristocracy
+				ALB_italian_industry
+			}
+			focuses = {
+			}
+		}
 		
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !

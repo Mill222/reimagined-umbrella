@@ -1,0 +1,59 @@
+ideas = {
+
+###################
+#  Albania Ideas  #
+###################
+
+	country = {
+	
+		ALB_aristocracy = {
+			picture = British_Ties
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.10
+				political_power_gain = 0.5
+				trade_opinion_factor = 0.4
+			}
+		}
+	
+		ALB_italian_industry = {
+			picture = ALB_industry
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				production_speed_buildings_factor = -0.25
+				min_export = 0.3
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+
+###################
+#  Ministers  #
+###################
+	
+	security_minister = {
+		ALB_drita_sec = {
+			allowed = { original_tag = ALB }
+			visible = {
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_highland_queen
+			}
+				cancel_if_invalid = yes
+		}
+	}
+	
+}

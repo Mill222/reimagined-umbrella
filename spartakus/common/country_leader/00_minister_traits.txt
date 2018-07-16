@@ -765,6 +765,14 @@ leader_traits = {
 		random = no
 	}
 
+	sec_highland_queen = { #albania
+		stability_factor = 0.05
+		political_power_gain = 0.05
+		global_building_slots_factor = 0.25
+		
+		random = no
+	}
+
 	########################################
 	## INTELLIGENCE MINISTERS
 	########################################

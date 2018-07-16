@@ -1,0 +1,16 @@
+###########################
+# Albanian Focus Tree
+# By Hiraeth
+###########################
+
+focus_tree = {
+	id = SP_Albania
+	country = {
+		factor=0
+		modifier = {
+			add = 10
+			tag = ALB
+		}
+	}
+	
+	default = no

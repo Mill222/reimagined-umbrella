@@ -243,6 +243,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/idea_aid_cut.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_British_Ties"
+		texturefile = "gfx/interface/ideas/ideas/British_Ties.dds"
+	}
+	
 	# Burning Flags
 	
 	spriteType = {
@@ -507,6 +512,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_sore_loser"
 		texturefile = "gfx/interface/ideas/WUR/sore_loser.dds"
+	}
+	
+	# Albania
+	
+	spriteType = {
+		name = "GFX_idea_ALB_industry"
+		texturefile = "gfx/interface/ideas/ALB/ALB_industry.dds"
 	}
 		
 }
