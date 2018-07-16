@@ -1,0 +1,30 @@
+### Serbian Ideas
+ideas = {
+    ##############
+    # Country ideas
+    ##############
+
+    country = {
+	
+		# Start
+
+        SER_The_Decade_of_Silence = {
+            picture = Crying_Eye
+            modifier = {
+				stability_factor = -0.30
+				industrial_capacity_factory = -0.25
+				production_speed_buildings_factor = -0.25
+            }
+        }
+		
+		SER_Decree_on_the_Colonization_of_the_Southern_Regions = {
+            picture = Political_Crisis_Idea
+            modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.3
+            }
+        }
+		
+    }
+	
+}
