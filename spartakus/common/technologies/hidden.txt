@@ -321,4 +321,18 @@ technologies = {
 			}
 		}
 	}
+	
+	elephant_support = {
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1932
+
+		enable_subunits = {
+			elephant_company
+		}		
+	}
 }
