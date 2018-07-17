@@ -12,8 +12,13 @@ set_technology = {
 
 add_ideas = {
 ALB_aristocracy
+ALB_military_culture
 ALB_italian_industry
+ALB_Myfid_Libohova_hog_sco
+ALB_Mehmet_Konica_for_rwp
+ALB_Fejzi_Alizoti_eco_sco
 ALB_drita_sec
+ALB_Hajre_Dizdari_int_sco
 }
 
 set_politics = {

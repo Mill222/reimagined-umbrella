@@ -161,6 +161,7 @@ bookmarks = {
 			ideology = social_conservative
 			ideas = {
 				ALB_aristocracy
+				ALB_military_culture
 				ALB_italian_industry
 			}
 			focuses = {

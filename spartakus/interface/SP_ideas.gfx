@@ -514,11 +514,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/WUR/sore_loser.dds"
 	}
 	
-	# Albania
+	# Albania 
 	
 	spriteType = {
 		name = "GFX_idea_ALB_industry"
 		texturefile = "gfx/interface/ideas/ALB/ALB_industry.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ALB_book"
+		texturefile = "gfx/interface/ideas/ALB/ALB_book.dds"
 	}
 		
 }

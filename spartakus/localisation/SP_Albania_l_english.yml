@@ -2,12 +2,13 @@
 
 ### Ideas ###
 ALB_aristocracy:0 "British Aristocracy"
+ALB_military_culture:0 "Albanian Kanun"
 ALB_italian_industry:0 "Italian Economic Domination"
 
 ### Focuses ###
 
 ### Ministers ###
-ALB_drita_sec:0 "Queen-Consort Drita I"
+ALB_drita_sec:0 "Edith Durham"
 
 ### Parties ###
 ALB_leninist_party:0 "KONARE (Leninist)"
@@ -42,7 +43,11 @@ ALB_national_corporatist_party_long:0 "Zogists (Corporatist)"
 ### Decisions ###
 
 ## Events ##
+alb.1.t:0 "The Kingdom of Albania"
+alb.1.d:0 "Having been disjointed, divided and fought over since the collapse of the Ottoman Empire in Europe, Albania at last found some modicum of stability. Initially doomed to the status of an Italian protectorate after the Great War, Albanian militias attempting to seize the port city of Vlore sparked a full war between Italy and Albania. The insecure government, still seeking a monarch after the flight of the short-lived Price Vidi I, found their savior in the unlikely candidate of British MP and Aristocrat Aubrey Herbert. A orientalist and long-time champion for Albanian self-determination and one of the western diplomats who had first assured Albanian statehood in the 1913 Treaty of London, Herbert was hastily crowned as Herthe I of Albania. Successfully mediating with Italy he managed to conclude the Vlora War on terms favourable to Albania, while retaining amicability with Italy. Over the intervening decade, the unlikely British King has managed to establish a stable and developing Albanian state under the auspicies of a small clique of fellow British Albanologists. \n\n However, there is a growing movement of discontented nationalist intellectuals and army officers, lead by Ahmet Zogu. Influenced by ultranationalist ideologies developed in Italy and Romania, these young radicals desire to cast down what they see as a paternalistic foreign order and instate a true Albanian government, hoping to restore the ethnically Albanian territories lost to Greece, Serbia and Montenegro."
+alb.1.a:0 "Long live Albania!"
 
 ## Misc ##
-ALB_blind:0 "Blind King"
+ALB_blind:0 "The Blind King"
 sec_highland_queen:0 "Queen of the Highlanders"
+ALB_SP_GATHERING_STORM_DESC:0 "Though initially doomed to the status of an Italian protectorate after the Great War, Albanian resistance sparked a full war between with their would-be overlords. The Albanian government, still seeking a monarch after the flight of the short-lived Price Vidi I, found their savior in the unlikely candidate of British MP  Aubrey Herbert. A long-time champion for Albanian independence, he was hastily crowned as Herthe I and succeeded in concluding the Vlora War on terms favourable to Albania. In the decade since, the unlikely British King has managed to establish a stable and developing Albanian state under the auspicies of a small clique of fellow British Albanologists." 

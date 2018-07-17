@@ -36,6 +36,22 @@ ideas = {
 				consumer_goods_factor = 0.05
 			}
 		}
+	
+		ALB_military_culture = {
+			picture = ALB_book
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor = 0.15
+				conscription = 0.1
+				experience_gain_army = 0.05
+				stability_factor = -0.05
+			}
+		}
 	}
 
 ###################

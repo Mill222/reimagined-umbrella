@@ -1,0 +1,9 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			   ALB = {
+					country_event = { id = alb.1 days = 2 }
+				}
+        }
+    }
+}

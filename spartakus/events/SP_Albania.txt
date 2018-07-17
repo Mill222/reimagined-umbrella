@@ -1,0 +1,14 @@
+add_namespace = alb
+
+country_event = { # Intro
+	id = alb.1
+	title = alb.1.t
+	desc = alb.1.d
+	picture = GFX_ALB_map
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = alb.1.a
+	}
+}
