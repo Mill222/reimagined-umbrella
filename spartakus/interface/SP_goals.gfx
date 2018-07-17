@@ -4239,16 +4239,528 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_RAJ_indian_railways"
-		texturefile = "gfx/interface/goals/RAJ_indian_railways.dds"
+		texturefile = "gfx/interface/goals/RAJ_indian_railways.tga"
 	}
 	
 	SpriteType = {
 		name = "GFX_RAJ_indian_railways_star"
-		texturefile = "gfx/interface/goals/RAJ_indian_railways_star.dds"
+		texturefile = "gfx/interface/goals/RAJ_indian_railways_star.tga"
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_Vichy_French_Glory"
+		texturefile = "gfx/interface/goals/Vichy_French_Glory.tga"
 	}
 	
 	SpriteType = {
-		name = "GFX_JAP_governance"
-		texturefile = "gfx/interface/goals/JAP_governance.dds"
+		name = "GFX_The_Burning_Crescent"
+		texturefile = "gfx/interface/goals/The_Burning_Crescent.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Suburban_Development"
+		texturefile = "gfx/interface/goals/Suburban_Development.tga"
+	}
+	SpriteType = {
+		name = "GFX_Spread_Industrialization"
+		texturefile = "gfx/interface/goals/Spread_Industrialization.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Republican_Federation"
+		texturefile = "gfx/interface/goals/Republican_Federation.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Quell_Algerian_Nationalist_Demands"
+		texturefile = "gfx/interface/goals/Quell_Algerian_Nationalist_Demands.tga"
+	}
+	SpriteType = {
+		name = "GFX_Purge_Dissenters"
+		texturefile = "gfx/interface/goals/Purge_Dissenters.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Protect_Sandwiched_Countries"
+		texturefile = "gfx/interface/goals/Protect_Sandwiched_Countries.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_POR_airforce"
+		texturefile = "gfx/interface/goals/POR_airforce.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Pied_Noir_Elitism"
+		texturefile = "gfx/interface/goals/Pied_Noir_Elitism.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Petain_Focus"
+		texturefile = "gfx/interface/goals/Petain_Focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Partido_Socialista"
+		texturefile = "gfx/interface/goals/Partido_Socialista.tga"
+	}
+	SpriteType = {
+		name = "GFX_Partido_Democrata"
+		texturefile = "gfx/interface/goals/Partido_Democrata.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Parti_Radical"
+		texturefile = "gfx/interface/goals/Parti_Radical.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Old_Train"
+		texturefile = "gfx/interface/goals/Old_Train.tga"
+	}
+	SpriteType = {
+		name = "GFX_Officers_Command"
+		texturefile = "gfx/interface/goals/Officers_Command.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Oath_of_Loyalty"
+		texturefile = "gfx/interface/goals/Oath_of_Loyalty.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Nationalize_the_Press"
+		texturefile = "gfx/interface/goals/Nationalize_the_Press.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Mobilize_Algeria"
+		texturefile = "gfx/interface/goals/Mobilize_Algeria.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Military_Attache"
+		texturefile = "gfx/interface/goals/Military_Attache.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Milice_Francais"
+		texturefile = "gfx/interface/goals/Milice_Francais.tga"
+	}
+	SpriteType = {
+		name = "GFX_Metal_Inferno"
+		texturefile = "gfx/interface/goals/Metal_Inferno.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Livonia_Diplomacy_Flag"
+		texturefile = "gfx/interface/goals/Livonia_Diplomacy_Flag.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Liberty_Lads"
+		texturefile = "gfx/interface/goals/Liberty_Lads.tga"
+	}
+	SpriteType = {
+		name = "GFX_leninmausoleum"
+		texturefile = "gfx/interface/goals/leninmausoleum.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_labour_voucher_focus"
+		texturefile = "gfx/interface/goals/labour_voucher_focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Kosovo_Flames_Focus"
+		texturefile = "gfx/interface/goals/Kosovo_Flames_Focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_kill_vargas"
+		texturefile = "gfx/interface/goals/kill_vargas.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Junta_Youth"
+		texturefile = "gfx/interface/goals/Junta_Youth.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Japanese_Spirit"
+		texturefile = "gfx/interface/goals/Japanese_Spirit.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italy_Must_Die"
+		texturefile = "gfx/interface/goals/Italy_Must_Die.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Italian_Soldiers"
+		texturefile = "gfx/interface/goals/Italian_Soldiers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Influence_Spain"
+		texturefile = "gfx/interface/goals/Influence_Spain.tga"
+	}
+	SpriteType = {
+		name = "GFX_Influence_Scandinavia"
+		texturefile = "gfx/interface/goals/Influence_Scandinavia.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Influence_Bulgaria"
+		texturefile = "gfx/interface/goals/Influence_Bulgaria.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Influence_Benelux"
+		texturefile = "gfx/interface/goals/Influence_Benelux.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Independent_Radicals"
+		texturefile = "gfx/interface/goals/Independent_Radicals.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Imperial_Germany_Flag"
+		texturefile = "gfx/interface/goals/Imperial_Germany_Flag.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hungarian_Deal"
+		texturefile = "gfx/interface/goals/Hungarian_Deal.tga"
+	}
+	SpriteType = {
+		name = "GFX_Hostile_Operations"
+		texturefile = "gfx/interface/goals/Hostile_Operations.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hammer_of_Wrath"
+		texturefile = "gfx/interface/goals/Hammer_of_Wrath.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Georges_Focus"
+		texturefile = "gfx/interface/goals/Georges_Focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_Gamelin_Focus"
+		texturefile = "gfx/interface/goals/Gamelin_Focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_French_Soldiers"
+		texturefile = "gfx/interface/goals/French_Soldiers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_French_Glory"
+		texturefile = "gfx/interface/goals/French_Glory.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_French_Algeria"
+		texturefile = "gfx/interface/goals/French_Algeria.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Franco_British_Treaties"
+		texturefile = "gfx/interface/goals/Franco_British_Treaties.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_France_Flag_Focus"
+		texturefile = "gfx/interface/goals/France_Flag_Focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Returning_Home"
+		texturefile = "gfx/interface/goals/FRA_Returning_Home.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Expand_the_Metros"
+		texturefile = "gfx/interface/goals/Expand_the_Metrose.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Enshrine_Secularism"
+		texturefile = "gfx/interface/goals/Enshrine_Secularism.tga"
+	}
+	SpriteType = {
+		name = "GFX_Encourage_Urbanization"
+		texturefile = "gfx/interface/goals/Encourage_Urbanization.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Elephants"
+		texturefile = "gfx/interface/goals/Elephants.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Egyptian_Officers"
+		texturefile = "gfx/interface/goals/Egyptian_Officers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Egyptian_Crown"
+		texturefile = "gfx/interface/goals/Egyptian_Crown.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_East_Asian_Strike"
+		texturefile = "gfx/interface/goals/East_Asian_Strike.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Dragons_Head"
+		texturefile = "gfx/interface/goals/Dragons_Head.tga"
+	}
+	SpriteType = {
+		name = "GFX_Democratic_Republican_Alliance"
+		texturefile = "gfx/interface/goals/Democratic_Republican_Alliance.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Czech_Soldiers"
+		texturefile = "gfx/interface/goals/Czech_Soldiers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Cult_of_Personality"
+		texturefile = "gfx/interface/goals/Cult_of_Personality.tga"
+	}
+	SpriteType = {
+		name = "GFX_Crown_of_Prussia"
+		texturefile = "gfx/interface/goals/Crown_of_Prussia.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Convoy_Protection_2"
+		texturefile = "gfx/interface/goals/Convoy_Protection_2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Commie_Treaty"
+		texturefile = "gfx/interface/goals/Commie_Treaty.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Cisplatina_e_Nossa"
+		texturefile = "gfx/interface/goals/Cisplatina_e_Nossa.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_British_Soldiers"
+		texturefile = "gfx/interface/goals/British_Soldiers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_British_Fortifications"
+		texturefile = "gfx/interface/goals/British_Fortifications.tga"
+	}
+	SpriteType = {
+		name = "GFX_BEL_franc"
+		texturefile = "gfx/interface/goals/BEL_franc.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_BEL_caritas"
+		texturefile = "gfx/interface/goals/BEL_caritas.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Attack_Fengtian"
+		texturefile = "gfx/interface/goals/Attack_Fengtian.tga"
+	}
+	SpriteType = {
+		name = "GFX_Attack_Bulgaria"
+		texturefile = "gfx/interface/goals/Attack_Bulgaria.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Argentine_Soldiers"
+		texturefile = "gfx/interface/goals/Argentine_Soldiers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Anglo_Irish_Strife"
+		texturefile = "gfx/interface/goals/Anglo_Irish_Strife.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Anglo_Egyptian_Co_Operation"
+		texturefile = "gfx/interface/goals/Anglo_Egyptian_Co_Operation.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_American_Service"
+		texturefile = "gfx/interface/goals/American_Service.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Ally_With_Italy"
+		texturefile = "gfx/interface/goals/Ally_With_Italy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Algerian_Algeria"
+		texturefile = "gfx/interface/goals/Algerian_Algeria.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Algeria_Crushed"
+		texturefile = "gfx/interface/goals/Algeria_Crushed.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_African_Recruits"
+		texturefile = "gfx/interface/goals/African_Recruits.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Grand_Carrier"
+		texturefile = "gfx/interface/goals/Grand_Carrier.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_German_Pressure"
+		texturefile = "gfx/interface/goals/German_Pressure.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Egypt_Ottoman_Mission"
+		texturefile = "gfx/interface/goals/Egypt_Ottoman_Mission.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Dutch_Indonesian_Troops"
+		texturefile = "gfx/interface/goals/Dutch_Indonesian_Troops.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Communist_Armada"
+		texturefile = "gfx/interface/goals/Communist_Armada.tga"
+	}
+	SpriteType = {
+		name = "GFX_Battleship_Investment"
+		texturefile = "gfx/interface/goals/Battleship_Investment.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_yerba_mate"
+		texturefile = "gfx/interface/goals/focus_yerba_mate.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_peace_talks"
+		texturefile = "gfx/interface/goals/focus_peace_talks.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_kick_ladder"
+		texturefile = "gfx/interface/goals/focus_kick_ladder.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_hornero"
+		texturefile = "gfx/interface/goals/focus_hornero.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_falangism"
+		texturefile = "gfx/interface/goals/focus_falangism.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_arg_university"
+		texturefile = "gfx/interface/goals/focus_arg_university.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_arg_tanks"
+		texturefile = "gfx/interface/goals/focus_arg_tanks.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_arg_sorondo"
+		texturefile = "gfx/interface/goals/focus_arg_sorondo.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_arg_lisandro"
+		texturefile = "gfx/interface/goals/focus_arg_lisandro.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_arg_justo"
+		texturefile = "gfx/interface/goals/focus_arg_justo.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_arg_ibarguren_fash"
+		texturefile = "gfx/interface/goals/focus_arg_ibarguren_fash.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_arg_ibarguren"
+		texturefile = "gfx/interface/goals/focus_arg_ibarguren.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_arg_carles"
+		texturefile = "gfx/interface/goals/focus_arg_carles.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_arc_de_triomphe"
+		texturefile = "gfx/interface/goals/focus_arc_de_triomphe.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_small_farms"
+		texturefile = "gfx/interface/goals/focus_small_farms.tga"
 	}
 }
