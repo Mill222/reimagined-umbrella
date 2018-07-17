@@ -42,7 +42,7 @@ SER_SPINF_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SER_GAR_01 }
+	#link_numbering_with = { SER_SPGAR_01 }
 
 	fallback_name = "%d. Pesadijska Divizija"
 
@@ -51,14 +51,6 @@ SER_SPINF_01 =
 	ordered =
 	{
 		4 = { "Gardijska Pesadijska Div." }
-		1 = { "%d. 'Cerska' Pesadijska Div." }
-		3 = { "%d. 'Dunavska' Pesadijska Div." }
-		5 = { "%d. 'Sumadijska' Pesadijska Div." }
-		7 = { "%d. 'Potiska' Pesadijska Div." }
-		8 = { "%d. 'Krajinska' Pesadijska Div." }
-		9 = { "%d. 'Timocka' Pesadijska Div." }
-		10 = { "%d. 'Kosovska' Pesadijska Div." }
-		12 = { "%d. 'Drinska' Pesadijska Divizija" }
 	}
 }
 
@@ -73,7 +65,6 @@ SER_SPCAV_01 =
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { GER_Gar_01 }
 
 	fallback_name = "%d. Konjička Divizija"
 
@@ -106,7 +97,7 @@ SER_SPMOT_01 =
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SER_INF_01 }
+	link_numbering_with = { SER_SPINF_01 }
 
 	fallback_name = "%d. Motorizovana Divizija"
 
@@ -139,7 +130,7 @@ SER_SPARM_01 =
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SER_INF_01 }
+	#link_numbering_with = { SER_SPINF_01 }
 
 	fallback_name = "%d. Oklopna Divizija"
 
@@ -172,7 +163,7 @@ SER_SPMEC_01 =
 	division_types = { "mechanized"  }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SER_INF_01 }
+	link_numbering_with = { SER_SPINF_01 }
 
 	fallback_name = "%d. Mehanizovana Divizija"
 
@@ -205,7 +196,7 @@ SER_SPGAR_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SER_INF_01 }
+	link_numbering_with = { SER_SPINF_01 }
 
 	fallback_name = "%d. Pesadijska Divizija"
 
@@ -228,7 +219,7 @@ SER_SPMAR_01 =
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SER_GAR_01 }
+	#link_numbering_with = { SER_SPGAR_01 }
 
 	fallback_name = "%d. Mornaricka Divizija"
 
@@ -261,7 +252,7 @@ SER_SPMTN_01 =
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SER_INF_01 }
+	#link_numbering_with = { SER_SPINF_01 }
 
 	fallback_name = "%d. Planinski Odred"
 

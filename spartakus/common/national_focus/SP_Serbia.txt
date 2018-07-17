@@ -115,12 +115,12 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Liberal_Coup
-		icon = GFX_goal_unknown
+		icon = GFX_goal_Freedom
 		cost = 3.00
 		prerequisite = {
 			focus = SER_Put_Down_Riots
 		}
-		x = 12
+		x = 6
 		y = 4
 
 	}
@@ -135,7 +135,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SER_LDS_Victory
 		}
-		x = 5
+		x = 6
 		y = 5
 
 	}
@@ -152,29 +152,29 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Communist_Coup
-		icon = GFX_goal_unknown
+		icon = GFX_goal_checkmate
 		cost = 3.00
 		prerequisite = {
 			focus = SER_Put_Down_Riots
 		}
-		x = 15
+		x = 14
 		y = 4
 
 	}
 	focus = {
 		id = SER_Declare_Federal_Yugoslavia
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SER_form_yugoslavia
 		cost = 6.00
 		prerequisite = {
 			focus = SER_Communist_Coup
 		}
-		x = 15
+		x = 14
 		y = 5
 
 	}
 	focus = {
 		id = SER_Democratic_Alignment
-		icon = GFX_goal_unknown
+		icon = GFX_goal_commune_politics
 		cost = 4.00
 		prerequisite = {
 			focus = SER_Declare_Federal_Yugoslavia
@@ -188,7 +188,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Ban_Other_Parties
-		icon = GFX_goal_unknown
+		icon = GFX_goal_authoritarian
 		cost = 4.00
 		prerequisite = {
 			focus = SER_Declare_Federal_Yugoslavia
@@ -202,7 +202,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Communalization
-		icon = GFX_goal_unknown
+		icon = GFX_goal_anarcho_communism
 		cost = 7.00
 		prerequisite = {
 			focus = SER_Democratic_Alignment
@@ -212,19 +212,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SER_Align_With_Marxists
-		icon = GFX_goal_unknown
-		cost = 3.00
-		prerequisite = {
-			focus = SER_Communalization
-		}
-		x = 13
-		y = 8
-
-	}
-	focus = {
 		id = SER_Illyria_in_Our_Sights
-		icon = GFX_goal_unknown
+		icon = GFX_goal_WIP
 		cost = 5.00
 		prerequisite = {
 			focus = SER_Declare_Federal_Yugoslavia
@@ -235,7 +224,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Integrate_Montenegro
-		icon = GFX_goal_unknown
+		icon = GFX_goal_WIP
 		cost = 4.00
 		prerequisite = {
 			focus = SER_Declare_Federal_Yugoslavia
@@ -246,7 +235,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Bring_in_Bulgaria
-		icon = GFX_goal_unknown
+		icon = GFX_goal_WIP
 		cost = 6.00
 		prerequisite = {
 			focus = SER_Illyria_in_Our_Sights
@@ -260,7 +249,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Hej_Slaveni
-		icon = GFX_goal_unknown
+		icon = GFX_focus_YUG_pan_slavic_congress
 		cost = 3.00
 		prerequisite = {
 			focus = SER_Bring_in_Bulgaria
@@ -271,7 +260,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Military_Government
-		icon = GFX_goal_unknown
+		icon = GFX_Military_Government
 		cost = 1.00
 		prerequisite = {
 			focus = SER_Put_Down_Riots
@@ -282,7 +271,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_SBOR
-		icon = GFX_goal_unknown
+		icon = GFX_goal_support_fascism
 		cost = 5.00
 		prerequisite = {
 			focus = SER_Military_Government
@@ -296,7 +285,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Nacertanije
-		icon = GFX_goal_unknown
+		icon = GFX_Death_or_Dishonor
 		cost = 5.00
 		prerequisite = {
 			focus = SER_SBOR
@@ -307,7 +296,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_ORJUNA
-		icon = GFX_goal_unknown
+		icon = GFX_focus_HOL_deal_with_right
 		cost = 5.00
 		prerequisite = {
 			focus = SER_Military_Government
@@ -321,7 +310,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Svi_Na_Kongres
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_propaganda
 		cost = 5.00
 		prerequisite = {
 			focus = SER_ORJUNA
@@ -332,7 +321,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Gearing_Up
-		icon = GFX_goal_unknown
+		icon = GFX_A_Stronger_Military
 		cost = 8.00
 		prerequisite = {
 			focus = SER_Nacertanije
@@ -365,6 +354,18 @@ focus_tree = {
 		y = 6
 
 	}
+	
+	focus = {
+		id = SER_Grants_to_MIN
+		icon = GFX_RAJ_indian_railways
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Subsidized_Agriculture
+		}
+		x = 4
+		y = 7
+
+	}
 	focus = {
 		id = SER_Attract_Investors
 		icon = GFX_goal_collaborate_local_elites
@@ -378,7 +379,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Urbanization
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ITA_urban
 		cost = 5.00
 		prerequisite = {
 			focus = SER_Attract_Investors
@@ -401,23 +402,48 @@ focus_tree = {
 	}
 	focus = {
 		id = SER_Working_Women
-		icon = GFX_goal_unknown
+		icon = GFX_goal_women_industry
 		cost = 5.00
 		prerequisite = {
-			focus = SER_Tolerance
+			focus = SER_End_DSCR
 		}
-		x = 9
+		x = 5
 		y = 10
 
 	}
+	
 	focus = {
-		id = SER_Intellectual_Center
-		icon = GFX_goal_unknown
+		id = SER_Rural_Schools
+		icon = GFX_SP_focus_education
 		cost = 4.00
 		prerequisite = {
 			focus = SER_Urbanization
 		}
-		x = 4
+		x = 3
+		y = 9
+
+	}
+	
+	focus = {
+		id = SER_Intellectual_Center
+		icon = GFX_goal_brain
+		cost = 4.00
+		prerequisite = {
+			focus = SER_Rural_Schools
+		}
+		x = 3
+		y = 10
+
+	}
+	
+	focus = {
+		id = SER_End_DSCR
+		icon = GFX_Kosovo_Flames_Focus
+		cost = 4.00
+		prerequisite = {
+			focus = SER_Urbanization
+		}
+		x = 5
 		y = 9
 
 	}
@@ -433,31 +459,19 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SER_Tolerance
-		icon = GFX_goal_unknown
-		cost = 6.00
-		prerequisite = {
-			focus = SER_Land_Reform
-			focus = SER_Economic_Expansion
-		}
-		x = 8
-		y = 9
-
-	}
-	focus = {
 		id = SER_Civic_Nationalism
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_national_unity
 		cost = 5.00
 		prerequisite = {
-			focus = SER_Tolerance
+			focus = SER_Land_Reform
 		}
-		x = 7
-		y = 10
+		x = 6
+		y = 8
 
 	}
 	focus = {
 		id = SER_Nationalization
-		icon = GFX_goal_unknown
+		icon = GFX_goal_state_economy
 		cost = 7.00
 		prerequisite = {
 			focus = SER_Ban_Other_Parties
@@ -466,10 +480,11 @@ focus_tree = {
 		y = 7
 
 	}
+	
 	focus = {
-		id = SER_Economic_Expansion
-		icon = GFX_goal_unknown
-		cost = 7.00
+		id = SER_Proletarian_Women
+		icon = GFX_goal_women_industry
+		cost = 3.00
 		prerequisite = {
 			focus = SER_Nationalization
 			focus = SER_Communalization
@@ -478,20 +493,48 @@ focus_tree = {
 		y = 8
 
 	}
+	
 	focus = {
-		id = SER_Align_With_Leninists
-		icon = GFX_goal_unknown
+		id = SER_New_Schools
+		icon = GFX_SP_focus_education
 		cost = 3.00
 		prerequisite = {
 			focus = SER_Nationalization
+			focus = SER_Communalization
+		}
+		x = 13
+		y = 8
+
+	}
+	
+	focus = {
+		id = SER_Agricultural_Mechanization
+		icon = GFX_goal_agriculture2
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Nationalization
+			focus = SER_Communalization
 		}
 		x = 9
 		y = 8
 
 	}
+	
+	focus = {
+		id = SER_Women_in_Combat
+		icon = GFX_goal_women_snipers
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Proletarian_Women
+		}
+		x = 11
+		y = 9
+
+	}
+	
 	focus = {
 		id = SER_March_West
-		icon = GFX_goal_unknown
+		icon = GFX_goal_offensive_army
 		cost = 10.00
 		prerequisite = {
 			focus = SER_Gearing_Up
