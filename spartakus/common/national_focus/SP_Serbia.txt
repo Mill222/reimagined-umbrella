@@ -120,6 +120,15 @@ focus_tree = {
 		prerequisite = {
 			focus = SER_Put_Down_Riots
 		}
+		mutually_exclusive = {
+			focus = SER_Military_Government
+			
+		}
+		mutually_exclusive = {
+			focus = SER_Communist_Coup
+			
+		}
+		
 		x = 6
 		y = 4
 
@@ -156,6 +165,15 @@ focus_tree = {
 		cost = 3.00
 		prerequisite = {
 			focus = SER_Put_Down_Riots
+		}
+		
+		mutually_exclusive = {
+			focus = SER_Military_Government
+			
+		}
+		mutually_exclusive = {
+			focus = SER_Liberal_Coup
+			
 		}
 		x = 14
 		y = 4
@@ -264,6 +282,15 @@ focus_tree = {
 		cost = 1.00
 		prerequisite = {
 			focus = SER_Put_Down_Riots
+		}
+		
+		mutually_exclusive = {
+			focus = SER_Liberal_Coup
+			
+		}
+		mutually_exclusive = {
+			focus = SER_Communist_Coup
+			
 		}
 		x = 21
 		y = 4
