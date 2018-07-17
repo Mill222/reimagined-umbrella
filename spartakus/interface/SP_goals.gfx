@@ -4763,4 +4763,12 @@ spriteTypes = {
 		name = "GFX_focus_small_farms"
 		texturefile = "gfx/interface/goals/focus_small_farms.tga"
 	}
+	SpriteType = {
+		name = "GFX_ALB_funeral"
+		texturefile = "gfx/interface/goals/ALB_funeral.tga"
+	}
+	SpriteType = {
+		name = "GFX_ALB_crown"
+		texturefile = "gfx/interface/goals/ALB_crown.tga"
+	}
 }

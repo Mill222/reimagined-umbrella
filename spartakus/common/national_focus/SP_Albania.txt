@@ -14,3 +14,711 @@ focus_tree = {
 	}
 	
 	default = no
+	
+	### Industrialisation ###
+
+	focus = {
+			id = ALB_industrialise
+			icon = GFX_goal_economic_control
+			available = { 
+			}
+			x = 5
+			y = 0
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_tame_north
+			icon = GFX_goal_construction
+			prerequisite = { focus = ALB_industrialise } 
+			available = { 
+			}
+			x = 3
+			y = 1
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_roads
+			icon = GFX_goal_generic_construct_infrastructure
+			prerequisite = { focus = ALB_tame_north } 
+			available = { 
+			}
+			x = 3
+			y = 3	
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_urban_population
+			icon = GFX_Encourage_Urbanization
+			prerequisite = { focus = ALB_roads } 
+			available = { 	
+				has_completed_focus = ALB_depression_over
+			}
+			mutually_exclusive = { focus = ALB_rural_population }
+			x = 1
+			y = 4	
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_incentives
+			icon = GFX_American_Flush
+			prerequisite = { focus = ALB_urban_population } 
+			available = { 
+			}
+			x = 0
+			y = 5
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_three_cities
+			icon = GFX_goal_model_cities
+			prerequisite = { focus = ALB_urban_population } 
+			available = { 
+			}
+			x = 2
+			y = 5
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_southern_centre
+			icon = GFX_goal_production
+			prerequisite = { focus = ALB_three_cities } 
+			prerequisite = { focus = ALB_incentives } 
+			available = { 
+			}
+			x = 1
+			y = 6
+			cost = 8.6
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_city_expansion
+			icon = GFX_Suburban_Development
+			prerequisite = { focus = ALB_three_cities focus = ALB_incentives } 
+			available = { 
+			}
+			x = 0
+			y = 7
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_urban_employment
+			icon = GFX_goal_conspiracy
+			prerequisite = { focus = ALB_three_cities focus = ALB_incentives } 
+			available = { 
+			}
+			x = 2
+			y = 7
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_rural_population
+			icon = GFX_Farmsteads
+			prerequisite = { focus = ALB_roads } 
+			available = { 
+				has_completed_focus = ALB_depression_over
+			}
+			mutually_exclusive = { focus = ALB_urban_population }
+			x = 5
+			y = 4	
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_dams
+			icon = GFX_goal_dam
+			prerequisite = { focus = ALB_rural_population } 
+			available = { 
+			}
+			x = 4
+			y = 5
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_oil
+			icon = GFX_goal_oil_derrick
+			prerequisite = { focus = ALB_rural_population } 
+			available = { 
+			}
+			x = 6
+			y = 5
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_grain
+			icon = GFX_AUS_agriculture
+			prerequisite = { focus = ALB_oil focus = ALB_dams } 
+			available = { 
+			}
+			x = 6
+			y = 7
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_radio
+			icon = GFX_goal_radio
+			prerequisite = { focus = ALB_oil focus = ALB_dams } 
+			available = { 
+			}
+			x = 4
+			y = 7
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_northern_factories
+			icon = GFX_goal_factory_complex
+			prerequisite = { focus = ALB_oil } 
+			prerequisite = { focus = ALB_dams } 
+			available = { 
+			}
+			x = 5
+			y = 6
+			cost = 8.6
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_shipyards
+			icon = GFX_goal_generic_construct_naval_dockyard
+			prerequisite = { focus = ALB_industrialise } 
+			available = { 
+			}
+			x = 2
+			y = 2
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_corruption
+			icon = GFX_Stamp_out_Corruption
+			prerequisite = { focus = ALB_industrialise } 
+			available = { 
+			}
+			x = 4
+			y = 2
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_nationalisation
+			icon = GFX_goal_state_economy
+			prerequisite = { focus = ALB_industrialise } 
+			available = { 
+			}
+			mutually_exclusive = { focus = ALB_privatization }
+			x = 6
+			y = 1
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_excellence
+			icon = GFX_goal_brain
+			prerequisite = { focus = ALB_nationalisation } 
+			available = { 
+			}
+			x = 6
+			y = 2
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_university
+			icon = GFX_goal_oil_research
+			prerequisite = { focus = ALB_excellence } 
+			available = { 
+			}
+			x = 6
+			y = 3
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_privatization
+			icon = GFX_goal_bag_of_money
+			prerequisite = { focus = ALB_industrialise } 
+			available = { 
+			}
+			mutually_exclusive = { focus = ALB_nationalisation }
+			x = 8
+			y = 1
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_abundance
+			icon = GFX_Ally_With_Italy
+			prerequisite = { focus = ALB_privatization } 
+			available = { 
+			}
+			x = 8
+			y = 2
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_expertise
+			icon = GFX_Automobile_Production
+			prerequisite = { focus = ALB_abundance } 
+			available = { 
+			}
+			x = 8
+			y = 3
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	### Depression Recovery ###
+	
+	focus = {
+			id = ALB_depression
+			icon = GFX_goal_bankruptcy
+			available = { 
+			}
+			x = 13
+			y = 0
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_lek
+			icon = GFX_goal_HOL_black_monday
+			available = { 
+			}
+			prerequisite = { focus = ALB_depression } 
+			x = 13
+			y = 1
+			cost = 8.6
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_subsidies
+			icon = GFX_goal_coffee_boom
+			available = { 
+			}
+			prerequisite = { focus = ALB_depression } 
+			x = 11
+			y = 1
+			cost = 8.6
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_trades
+			icon = GFX_SIA_maritmesilkroad
+			available = { 
+			}
+			prerequisite = { focus = ALB_depression } 
+			x = 15
+			y = 1
+			cost = 8.6
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_temper_communism
+			icon = GFX_Crush_Resistance
+			available = { 
+			}
+			prerequisite = { focus = ALB_subsidies } 
+			prerequisite = { focus = ALB_trades } 
+			prerequisite = { focus = ALB_lek}  
+			mutually_exclusive = { focus = ALB_blame_rich }
+			x = 12
+			y = 2
+			cost = 8.6
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_blame_rich
+			icon = GFX_goal_revolution
+			available = { 
+			}
+			prerequisite = { focus = ALB_subsidies } 
+			prerequisite = { focus = ALB_trades } 
+			prerequisite = { focus = ALB_lek} 
+			mutually_exclusive = { focus = ALB_temper_communism }
+			x = 14
+			y = 2
+			cost = 8.6
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_depression_over
+			icon = GFX_goal_generic_positive_trade_relations
+			available = { 
+			}
+			prerequisite = { focus = ALB_blame_rich focus = ALB_temper_communism } 
+			x = 13
+			y = 3
+			cost = 10
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	### Military ###
+	
+	focus = {
+			id = ALB_military
+			icon = GFX_goal_army_guy
+			available = { 
+			}
+			x = 18
+			y = 0
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	### Political ###
+	
+	focus = {
+			id = ALB_herthe_funeral
+			icon = GFX_ALB_funeral
+			available = { 
+				custom_trigger_tooltip = {
+					tooltip = alb_tt_funeral
+					has_country_flag = herthe_dead
+				}
+			}
+			x = 13
+			y = 5
+			cost = 0
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+				custom_effect_tooltip = ROM_bypass_focus
+			}
+	}
+	
+	focus = {
+			id = ALB_coronation
+			icon = GFX_ALB_crown
+			prerequisite = { focus = ALB_herthe_funeral } 
+			available = { 
+				hidden_trigger = {
+					has_country_flag = king_alban
+				}
+			}
+			mutually_exclusive = { focus = ALB_coup }
+			mutually_exclusive = { focus = ALB_revolution }
+			x = 13
+			y = 6
+			cost = 0
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+				custom_effect_tooltip = ROM_bypass_focus
+			}
+	}
+	
+	focus = {
+			id = ALB_constitution
+			icon = GFX_goal_constitutional_guarantees
+			prerequisite = { focus = ALB_coronation } 
+			available = { 
+			}
+			x = 13
+			y = 7
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_elections
+			icon = GFX_goal_generic_elections
+			prerequisite = { focus = ALB_constitution } 
+			available = { 
+			}
+			x = 13
+			y = 8
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_elections_socdems
+			icon = GFX_goal_ideology_social_democrat
+			prerequisite = { focus = ALB_elections } 
+			available = { 
+			}
+			mutually_exclusive = { focus = ALB_elections_conservatives }
+			x = 12
+			y = 9
+			cost = 0
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+				custom_effect_tooltip = ROM_bypass_focus
+			}
+	}
+	
+	focus = {
+			id = ALB_elections_conservatives
+			icon = GFX_goal_ideology_social_conservative
+			prerequisite = { focus = ALB_elections }  
+			available = { 
+			}
+			mutually_exclusive = { focus = ALB_elections_socdems }
+			x = 14
+			y = 9
+			cost = 0
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+				custom_effect_tooltip = ROM_bypass_focus
+			}
+	}
+	
+	focus = {
+			id = ALB_coup
+			icon = GFX_goal_ideology_national_populist
+			prerequisite = { focus = ALB_herthe_funeral } 
+			available = { 
+				hidden_trigger = {
+					has_country_flag = zogist_government
+				}
+			}
+			mutually_exclusive = { focus = ALB_coronation }
+			mutually_exclusive = { focus = ALB_revolution }
+			x = 10
+			y = 6
+			cost = 0
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+				custom_effect_tooltip = ROM_bypass_focus
+			}
+	}
+	
+	focus = {
+			id = ALB_revolution
+			icon = GFX_goal_commune_politics
+			prerequisite = { focus = ALB_herthe_funeral } 
+			available = { 
+				hidden_trigger = {
+					has_country_flag = nolist_government
+				}
+			}
+			mutually_exclusive = { focus = ALB_coronation }
+			mutually_exclusive = { focus = ALB_coup }
+			x = 16
+			y = 6
+			cost = 0
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+				custom_effect_tooltip = ROM_bypass_focus
+			}
+	}

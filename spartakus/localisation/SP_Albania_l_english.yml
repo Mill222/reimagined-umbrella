@@ -6,6 +6,48 @@ ALB_military_culture:0 "Albanian Kanun"
 ALB_italian_industry:0 "Italian Economic Domination"
 
 ### Focuses ###
+ALB_industrialise:0 "Industrialize the Country!"
+ALB_tame_north:0 "Tame the North"
+ALB_roads:0 "National Road Network"
+ALB_urban_population:0 "Encourage Urban Migration"
+ALB_rural_population:0 "Enrich the Countryside"
+ALB_dams:0 "Tap Hydroelectric Potential"
+ALB_oil:0 "Exploit Oil Resources"
+ALB_northern_factories:0 "Northern Industrial Area"
+ALB_grain:0 "Strengthen Agricultural Products"
+ALB_radio:0 "Connect Isolated Villages"
+ALB_shipyards:0 "Shipyards of Durrës"
+ALB_nationalisation:0 "Seize Italian Industry"
+ALB_excellence:0 "Invest in Excellence"
+ALB_university:0 "Tirana Polytechnic"
+ALB_abundance:0 "The Italian Abundance"
+ALB_expertise:0 "Foreign Expertise"
+ALB_privatization:0 "Encourage Foreign Investment"
+ALB_corruption:0 "Stamp out Corruption"
+ALB_incentives:0 "Tax Incentives"
+ALB_three_cities:0 "The Three Cities"
+ALB_southern_centre:0 "Industrial-Population Centre"
+ALB_city_expansion:0 "Urban Sprawl"
+ALB_urban_employment:0 "Mass Employment"
+
+ALB_depression:0 "From the Ashes"
+ALB_lek:0 "Stabilize the Lek"
+ALB_subsidies:0 "Subsidize Albanian Industry"
+ALB_trades:0 "Maintain Foreign Trade"
+ALB_temper_communism:0 "Temper Leftist Radicalism"
+ALB_blame_rich:0 "Blame the Bourgoisie"
+ALB_depression_over:0 "Depression Recovery"
+
+ALB_military:0 "Towards a National Army"
+
+ALB_herthe_funeral:0 "The King is Dead"
+ALB_coronation:0 "Crown Alban I"
+ALB_constitution:0 "Albanist Constitution"
+ALB_elections:0 "Hold New Elections"
+ALB_elections_socdems:0 "Democracy for the New Age"
+ALB_elections_conservatives:0 "Centralist Coalition"
+ALB_coup:0 "Zogist Coup"
+ALB_revolution:0 "Noli's  Revolution"
 
 ### Ministers ###
 ALB_drita_sec:0 "Edith Durham"
@@ -37,6 +79,7 @@ ALB_national_corporatist_party:0 "Zogists (Corporatist)"
 ALB_national_corporatist_party_long:0 "Zogists (Corporatist)"
 
 ### Tooltips ###
+alb_tt_funeral:0 "Herthe I has died"
 
 ### Opinion Modifiers ###
 

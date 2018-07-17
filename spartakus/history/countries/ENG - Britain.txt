@@ -922,3 +922,4 @@ give_military_access = TUR
 give_guarantee = HEJ
 give_military_access = HEJ
 give_guarantee = ALB
+give_military_access = ALB
