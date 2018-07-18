@@ -35,6 +35,14 @@ CZE_dealing_with_Gajda = {
 			}
 		}
 	}
+	CZE_sponsor_anti_NOK_publications = {
+		fire_only_once = yes
+		cost = 30
+		complete_effect = {
+			CZE_postpone_Gajda_coup_progress_effect = yes
+			country_event = czegajda.6
+		}
+	}
 	CZE_raid_Stit_Naroda_offices = {
 		fire_only_once = yes
 		cost = 20
@@ -69,7 +77,7 @@ CZE_dealing_with_Gajda = {
 			add_ideas = CZE_delnicka_straz
 			CZE_postpone_Gajda_coup_progress_effect = yes
 			CZE_Gajda_increase_coup_timeout_days_5_effect = yes
-			country_event = czegajda.4
+			country_event = czegajda.5
 			custom_effect_tooltip = CZE_strengthen_communists_tt
 			add_to_variable = { CZE_strengthened_communists_var = 1 }
 		}
@@ -106,6 +114,14 @@ CZE_dealing_with_Gajda = {
 					has_id = 0911 # Gajda
 				}
 				retire = yes
+			}
+			remove_mission = CZE_Gajda_coup_progress_mission
+			if = {
+				limit = { national_corporatist > 0.01 }
+				add_popularity = {
+					ideology = national_corporatist
+					popularity = -0.005
+				}
 			}
 		}
 	}

@@ -11,12 +11,12 @@ sp_protectorate:0 "Protectorate"
 ### Custom Autonomy Levels ###
 
 sp_Raj_princely_state:0 "Princely State"
-sp_Brit_protectorate:0 "British Protectorate"
-sp_Brit_dominion:0 "British Dominion"
-sp_Brit_colony:0 "British Colony"
-sp_Brit_Irish_free_state:0 "Irish Free State"
-sp_Brit_Irish_dominion:0 "Irish Dominion"
-sp_Brit_Irish_crown_dominion:0 "Irish Crown Dominion"
+sp_Brit_protectorate:0 "Protectorate"
+sp_Brit_dominion:0 "Dominion"
+sp_Brit_colony:0 "Colony"
+sp_Brit_Irish_free_state:0 "Free State"
+sp_Brit_Irish_dominion:0 "Dominion"
+sp_Brit_Irish_crown_dominion:0 "Crown Dominion"
 
 ### Tooltips ###
 can_lower_autonomy_level:0 "Can lower autonomy level\n"

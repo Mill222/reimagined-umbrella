@@ -95,6 +95,16 @@ CZE_increase_Gajda_coup_progress_effect = {
 				popularity = 0.005
 			}
 		}
+		if = {
+			limit = {
+				check_variable = { CZE_Gajda_coup_prog_counter > 3 }
+				NOT = { has_idea = CZE_obrana }
+			}
+			hidden_effect = {
+				country_event = czegajda.4
+				add_ideas = CZE_obrana
+			}
+		}
 		hidden_effect = {
 			add_to_variable = { CZE_Gajda_coup_prog_counter = 1 }
 			activate_mission = CZE_Gajda_coup_progress_mission

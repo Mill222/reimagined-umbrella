@@ -127,7 +127,7 @@ set_autonomy = {
 	# }
 # }
 
-REVISIT Unclear if appropriate for this ideology
+# REVISIT Unclear if appropriate for this ideology
 # create_country_leader = {
 	# name = "V. D. Savarkar"
 	# desc = "POLITICS_VD_SAVARKAR_DESC"

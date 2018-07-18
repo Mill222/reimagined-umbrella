@@ -263,16 +263,69 @@ country_event = { # Raiding Stit Naroda offices
 	}
 }
 
-country_event = { # Workers' Guard (Delnicka straz) allowed
+country_event = { # Obrana becomes active
 	id = czegajda.4
 	title = czegajda.4.t
 	desc = czegajda.4.desc
-	picture = GFX_report_event_worker_protests
+	picture = GFX_report_event_Gajda_paramilitaries
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = czegajda.4.a
+		effect_tooltip = { add_ideas = CZE_obrana }
+	}
+}
+
+country_event = { # Workers' Guard (Delnicka straz) allowed
+	id = czegajda.5
+	title = czegajda.5.t
+	desc = czegajda.5.desc
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = czegajda.5.a
+	}
+}
+
+country_event = { # Sponsoring anti-NOK newspaper articles
+	id = czegajda.6
+	title = czegajda.6.t
+	desc = czegajda.6.desc
+	picture = GFX_report_event_Czech_newspapers
+	
+	is_triggered_only = yes
+	
+	option = { # Sponsor NatSoc publication
+		name = czegajda.6.a
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.005
+		}
+		
+		ai_chance = { factor = 50 }
+	{
+	option = { # Sponsor SocDem publication
+		name = czegajda.6.b
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.005
+		}
+		
+		ai_chance = { factor = 35 }
+	}
+	option = { # Sponsor communist publication
+		name = czegajda.6.c
+		add_popularity = {
+			ideology = marxist
+			popularity = 0.005
+		}
+		custom_effect_tooltip = CZE_strengthen_communists_tt
+		add_to_variable = { CZE_strengthened_communists_var = 1 }
+		
+		ai_chance = { factor = 15 }
 	}
 }
 
@@ -323,6 +376,78 @@ country_event = { # 1934 Presidential election
 			has_country_flag = CZE_Masaryk_no_stand_for_elections
 		}
 		
+		create_country_leader = {
+			name = "Edvard Beneš"
+			desc = "POLITICS_Edvard_Benes_DESC"
+			picture = "Portrait_Czechia_Edvard_Benes.tga"
+			expire = "1965.1.1"
+			ideology = social_democrat_subtype
+			traits = {
+				#
+			}
+		}
+
+		create_country_leader = {
+			name = "Edvard Beneš"
+			desc = "POLITICS_Edvard_Benes_DESC"
+			picture = "Portrait_Czechia_Edvard_Benes.tga"
+			expire = "1965.1.1"
+			ideology = social_liberal_subtype
+			traits = {
+				#
+			}
+		}
+
+		create_country_leader = {
+			name = "Edvard Beneš"
+			desc = "POLITICS_Edvard_Benes_DESC"
+			picture = "Portrait_Czechia_Edvard_Benes.tga"
+			expire = "1965.1.1"
+			ideology = liberal_conservative_subtype
+			traits = {
+				#
+			}
+		}
+
+		create_country_leader = {
+			name = "Edvard Beneš"
+			desc = "POLITICS_Edvard_Benes_DESC"
+			picture = "Portrait_Czechia_Edvard_Benes.tga"
+			expire = "1965.1.1"
+			ideology = social_conservative_subtype
+			traits = {
+				#
+			}
+		}
+
+		create_country_leader = {
+			name = "Edvard Beneš"
+			desc = "POLITICS_Edvard_Benes_DESC"
+			picture = "Portrait_Czechia_Edvard_Benes.tga"
+			expire = "1965.1.1"
+			ideology = right_wing_populist_subtype
+			traits = {
+				#
+			}
+		}
+		
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.015
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.015
+		}
+		add_popularity = {
+			ideology = marxist
+			popularity = 0.005
+		}
+		
 		ai_chance = {
 			factor = 75
 		}
@@ -333,8 +458,195 @@ country_event = { # 1934 Presidential election
 			has_country_flag = CZE_Masaryk_no_stand_for_elections
 		}
 		
+		create_country_leader = {
+			name = "Bohumil Němec"
+			desc = "POLITICS_Bohumil_Nemec_DESC"
+			picture = "Portrait_Czechia_Bohumil_Nemec.tga"
+			expire = "1965.1.1"
+			ideology = social_democrat_subtype
+			traits = {
+				#
+			}
+		}
+
+		create_country_leader = {
+			name = "Bohumil Němec"
+			desc = "POLITICS_Bohumil_Nemec_DESC"
+			picture = "Portrait_Czechia_Bohumil_Nemec.tga"
+			expire = "1965.1.1"
+			ideology = social_liberal_subtype
+			traits = {
+				#
+			}
+		}
+
+		create_country_leader = {
+			name = "Bohumil Němec"
+			desc = "POLITICS_Bohumil_Nemec_DESC"
+			picture = "Portrait_Czechia_Bohumil_Nemec.tga"
+			expire = "1965.1.1"
+			ideology = liberal_conservative_subtype
+			traits = {
+				#
+			}
+		}
+
+		create_country_leader = {
+			name = "Bohumil Němec"
+			desc = "POLITICS_Bohumil_Nemec_DESC"
+			picture = "Portrait_Czechia_Bohumil_Nemec.tga"
+			expire = "1965.1.1"
+			ideology = social_conservative_subtype
+			traits = {
+				#
+			}
+		}
+
+		create_country_leader = {
+			name = "Bohumil Němec"
+			desc = "POLITICS_Bohumil_Nemec_DESC"
+			picture = "Portrait_Czechia_Bohumil_Nemec.tga"
+			expire = "1965.1.1"
+			ideology = right_wing_populist_subtype
+			traits = {
+				#
+			}
+		}
+		
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.025
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.025
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.005
+		}
 		ai_chance = {
 			factor = 25
+		}
+	}
+}
+
+country_event = { # 1935 Parliamentary Election
+	id = cze.11
+	title = cze.11.t
+	desc = {
+		text = cze.11.desc.a
+		trigger = {
+			has_country_leader = {
+				name = "Tomáš Garrigue Masaryk"
+				is_ruling_only = yes
+			}
+		}
+	}
+	desc = {
+		text = cze.11.desc.b
+		trigger = {
+			has_country_leader = {
+				name = "Edvard Beneš"
+				is_ruling_only = yes
+			}
+		}
+	}
+	desc = {
+		text = cze.11.desc.c
+		trigger = {
+			has_country_leader = {
+				name = "Bohumil Němec"
+				is_ruling_only = yes
+			}
+		}
+	}
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = { # Continue the Petka
+		name = cze.11.a
+		trigger = {
+			has_country_leader = {
+				name = "Tomáš Garrigue Masaryk"
+				is_ruling_only = yes
+			}
+		}
+		add_political_power = 50
+		
+		# Change government positions here
+		
+		ai_chance = { factor = 100 }
+	}
+	
+	option = { # Left Coalition
+		name = cze.11.b
+		trigger = {
+			NOT = {
+				has_country_leader = {
+					name = "Tomáš Garrigue Masaryk"
+					is_ruling_only = yes
+				}
+			}
+		}
+		
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.025
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.025
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.025
+		}
+		
+		ai_chance = {
+			factor = 50
+			
+			modifier = {
+				factor = 1.35
+				has_country_leader = {
+					name = "Edvard Beneš"
+					is_ruling_only = yes
+				}
+			}
+		}
+	}
+	
+	option = { # Right Coalition
+		name = cze.11.c
+		trigger = {
+			NOT = {
+				has_country_leader = {
+					name = "Tomáš Garrigue Masaryk"
+					is_ruling_only = yes
+				}
+			}
+		}
+		
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.035
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.035
+		}
+		
+		ai_chance = {
+			factor = 50
+			
+			modifier = {
+				factor = 1.35
+				has_country_leader = {
+					name = "Bohumil Němec"
+					is_ruling_only = yes
+				}
+			}
 		}
 	}
 }

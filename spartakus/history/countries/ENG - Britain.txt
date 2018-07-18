@@ -50,6 +50,7 @@ add_ideas = {
 	UK_hawkish_military_command
 	UK_the_irish_question_idea_1
 	UK_recovering_economy
+	RAJ_BMR_revolt
 }
 
 set_convoys = 800
@@ -234,7 +235,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = leninist_subtype
 	traits = {
-		
+		UK_George_V_trait
 	}
 }
 
@@ -245,7 +246,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = marxist_subtype
 	traits = {
-		
+		UK_George_V_trait
 	}
 }
 

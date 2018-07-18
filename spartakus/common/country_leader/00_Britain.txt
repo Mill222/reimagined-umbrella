@@ -33,6 +33,15 @@ leader_traits = {
 			value = 50
 		}
 	}
+	
+	IRE_foreign_monarchy_trait = {
+		random = no
+		stability_factor = -0.05
+	}
+	IRE_compromising_king_trait = {
+		random = no
+		stability_factor = 0.025
+	}
 
 
 }

@@ -53,16 +53,16 @@ set_politics = {
 			popularity = 13
 		}
 		liberal_conservative = {
-			popularity = 18
+			popularity = 17
 		}
 		social_conservative = {
-			popularity = 17
+			popularity = 24
 		}
 		authoritarian_democrat = {
 		    popularity = 3
 		}
 		right_wing_populist = {
-			popularity = 24
+			popularity = 18
 		}
 		national_syndicalist = {
 			popularity = 2
@@ -72,7 +72,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = right_wing_populist
+	ruling_party = social_conservative
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
