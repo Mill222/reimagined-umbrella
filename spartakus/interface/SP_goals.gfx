@@ -4527,7 +4527,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_Expand_the_Metros"
-		texturefile = "gfx/interface/goals/Expand_the_Metrose.tga"
+		texturefile = "gfx/interface/goals/Expand_the_Metros.tga"
 	}
 	
 	SpriteType = {
@@ -4770,5 +4770,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ALB_crown"
 		texturefile = "gfx/interface/goals/ALB_crown.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Norwegian_Arms"
+		texturefile = "gfx/interface/goals/Norwegian_Arms.tga"
 	}
 }

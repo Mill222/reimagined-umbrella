@@ -1,0 +1,34 @@
+﻿l_english:
+###Parties###
+SML_leninist_party:0 "GSK"
+SML_leninist_party_long:0 "Gollaha Sare ee Kacaanka"
+SML_marxist_party:0 "USS"
+SML_marxist_party_long:0 "Ururka Shaqaalaha Soomaalida"
+SML_democratic_socialist_party:0 "XSK"
+SML_democratic_socialist_party_long:0 "Xisbiga Sucuudiga ee Kacaanka"
+SML_revolutionary_socialist_party:0 "XSK"
+SML_revolutionary_socialist_party_long:0 "Xisbiga Sucuudiga ee Kacaanka"
+SML_social_democrat_party:0 "XSD"
+SML_social_democrat_party_long:0 "Xisbiga Sooshal Dimuqraadiga"
+SML_social_liberal_party:0 "XD"
+SML_social_liberal_party_long:0 "Xisbiga Dimuqraadiga"
+SML_liberal_conservative_party:0 "UDS"
+SML_liberal_conservative_party_long:0 "Ururka Dhalinyarada Soomaaliyeed"
+SML_social_conservative_party:0 "UDS"
+SML_social_conservative_party_long:0 "Ururka Dhalinyarada Soomaaliyeed"
+SML_authoritarian_democrat_party:0 "Warsangali"
+SML_authoritarian_democrat_party_long:0 "Saldanadii Warsangali"
+SML_right_wing_populist_party:0 "DD"
+SML_right_wing_populist_party_long:0 "Dawlada Daraawiish"
+SML_national_syndicalist_party:0 "Qaranimada"
+SML_national_syndicalist_party_long:0 "Qaranimada"
+SML_national_corporatist_party:0 "DQS"
+SML_national_corporatist_party_long:0 "Dhaqdhaqaaqa Qaranka Soomaaliyeed"
+
+###Focus###
+
+###Events###
+
+###Ideas###
+SML_british_protection:0 "British Protection"
+SML_legacy_of_the_dervish:0 "Legacy of the Dervish"
