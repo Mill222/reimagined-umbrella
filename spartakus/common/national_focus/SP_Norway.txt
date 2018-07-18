@@ -121,7 +121,7 @@ focus_tree = {
 		
 		available = {
 			has_completed_focus = NOR_lighten_anti_establishment_sentiments
-			has_completed_focus = NOR_cut_military_budget
+			has_completed_focus = NOR_higher_taxes
 			NOT = {
 				has_idea = NOR_cut_military_budget_idea
 			}
@@ -146,7 +146,7 @@ focus_tree = {
 		
 		available = {
 			has_completed_focus = NOR_lighten_anti_establishment_sentiments
-			has_completed_focus = NOR_cut_military_budget
+			has_completed_focus = NOR_higher_taxes
 			NOT = {
 				has_idea = NOR_cut_military_budget_idea
 			}
@@ -171,9 +171,24 @@ focus_tree = {
 		
 		available = {
 			has_completed_focus = NOR_lighten_anti_establishment_sentiments
-			has_completed_focus = NOR_cut_military_budget
+			has_completed_focus = NOR_higher_taxes
 			NOT = {
 				has_idea = NOR_cut_military_budget_idea
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			air_experience = 5
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				uses = 1
+				technology = CAS1
+				technology = CAS2
 			}
 		}
 
@@ -187,10 +202,26 @@ focus_tree = {
 		
 		available = {
 			has_completed_focus = NOR_lighten_anti_establishment_sentiments
-			has_completed_focus = NOR_cut_military_budget
+			has_completed_focus = NOR_higher_taxes
 			NOT = {
 				has_idea = NOR_cut_military_budget_idea
 			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			air_experience = 5
+			add_tech_bonus = {
+				name = nav_bomber_bonus
+				bonus = 0.5
+				uses = 1
+				technology = naval_bomber1
+				technology = naval_bomber2
+			}
+			
 		}
 
 	}
@@ -198,7 +229,7 @@ focus_tree = {
 		id = NOR_communist_coup
 		icon = GFX_Communist_Loyalty
 		cost = 5,00
-		x = 38
+		x = 37
 		y = 0
 		
 		available = {
@@ -356,40 +387,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NOR_higher_taxes
-		icon = GFX_goal_generic_forceful_treaty
+		id = NOR_cut_military_budget
+		icon = GFX_goal_break_rifle
 		cost = 7,00
 		prerequisite = {
 			focus = NOR_dealing_with_economy
 		}
 		x = 10
 		y = 1
-		
-		ai_will_do = {
-			factor = 25
-		}
-		
-		completion_reward = {
-			add_political_power = -10
-			add_timed_idea = {
-				idea = NOR_higher_taxes_idea
-				days = 120
-			}
-		}
-
-	}
-	focus = {
-		id = NOR_cut_military_budget
-		icon = GFX_goal_break_rifle
-		cost = 7,00
-		prerequisite = {
-			focus = NOR_cut_farmer_subsidies
-		}
-		prerequisite = {
-			focus = NOR_higher_taxes
-		}
-		x = 9
-		y = 2
 		
 		ai_will_do = {
 			factor = 25
@@ -405,6 +410,32 @@ focus_tree = {
 
 	}
 	focus = {
+		id = NOR_higher_taxes
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 7,00
+		prerequisite = {
+			focus = NOR_cut_farmer_subsidies
+		}
+		prerequisite = {
+			focus = NOR_cut_military_budget
+		}
+		x = 9
+		y = 2
+		
+		ai_will_do = {
+			factor = 25
+		}
+		
+		completion_reward = {
+			add_political_power = -10
+			add_timed_idea = {
+				idea = NOR_higher_taxes_idea
+				days = 120
+			}
+		}
+
+	}
+	focus = {
 		id = NOR_revolutionary_recovery
 		icon = GFX_goal_socialist_infrastructure
 		cost = 5,00
@@ -412,7 +443,7 @@ focus_tree = {
 			focus = NOR_lighten_anti_establishment_sentiments
 		}
 		prerequisite = {
-			focus = NOR_cut_military_budget
+			focus = NOR_higher_taxes
 		}
 		mutually_exclusive = {
 			focus = NOR_corporatist_recovery
@@ -608,7 +639,7 @@ focus_tree = {
 			focus = NOR_lighten_anti_establishment_sentiments
 		}
 		prerequisite = {
-			focus = NOR_cut_military_budget
+			focus = NOR_higher_taxes
 		}
 		mutually_exclusive = {
 			focus = NOR_revolutionary_recovery
@@ -718,7 +749,7 @@ focus_tree = {
 						has_idea = free_trade
 					}
 				}
-				remove_ideas = free_trade
+				#remove_ideas = free_trade
 				add_ideas = export_focus
 			}
 			if = {
@@ -727,7 +758,7 @@ focus_tree = {
 						has_idea = export_focus
 					}
 				}
-				remove_ideas = export_focus
+				#remove_ideas = export_focus
 				add_ideas = limited_exports
 			}
 			if = {
@@ -736,7 +767,7 @@ focus_tree = {
 						has_idea = limited_exports
 					}
 				}
-				remove_ideas = limited_exports
+				#remove_ideas = limited_exports
 				add_ideas = closed_economy
 			}
 			if = {
@@ -840,7 +871,7 @@ focus_tree = {
 			focus = NOR_lighten_anti_establishment_sentiments
 		}
 		prerequisite = {
-			focus = NOR_cut_military_budget
+			focus = NOR_higher_taxes
 		}
 		mutually_exclusive = {
 			focus = NOR_corporatist_recovery
@@ -880,6 +911,15 @@ focus_tree = {
 		}
 		x = 10
 		y = 4
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = -10
+			add_ideas = NOR_work_with_buisnesses_idea
+		}
 
 	}
 	focus = {
@@ -892,6 +932,15 @@ focus_tree = {
 		}
 		x = 9
 		y = 5
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_popularity = { ideology = revolutionary_socialist popularity = -0.01 }
+			add_popularity = { ideology = democratic_socialist popularity = -0.01 }
+		}
 
 	}
 	focus = {
@@ -907,6 +956,15 @@ focus_tree = {
 		}
 		x = 9
 		y = 6
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_popularity = { ideology = revolutionary_socialist popularity = -0.01 }
+			add_popularity = { ideology = democratic_socialist popularity = -0.01 }
+		}
 
 	}
 	focus = {
@@ -918,6 +976,15 @@ focus_tree = {
 		}
 		x = 12
 		y = 4
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = -10
+			add_ideas = NOR_introduce_austerity_idea
+		}
 
 	}
 	focus = {
@@ -932,6 +999,23 @@ focus_tree = {
 		}
 		x = 11
 		y = 5
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = -35
+			ENG = {
+				add_opinion_modifier = { target = NOR modifier = NOR_international_recovery_opinion }
+			}
+			FRA = {
+				add_opinion_modifier = { target = NOR modifier = NOR_international_recovery_opinion }
+			}
+			USA = {
+				add_opinion_modifier = { target = NOR modifier = NOR_international_recovery_opinion }
+			}
+		}
 
 	}
 	focus = {
@@ -943,6 +1027,18 @@ focus_tree = {
 		}
 		x = 13
 		y = 5
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = -10
+			swap_ideas = {
+				remove_idea = NOR_introduce_austerity_idea
+				add_idea = NOR_cut_government_spending_idea
+			}
+		}
 
 	}
 	focus = {
@@ -957,6 +1053,51 @@ focus_tree = {
 		}
 		x = 12
 		y = 6
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_popularity = { ideology = revolutionary_socialist popularity = -0.01 }
+			add_popularity = { ideology = social_conservative popularity = -0.01 }
+			add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }
+			if = {
+				limit = {
+					NOR = {
+						has_idea = free_trade
+					}
+				}
+				add_political_power = 75
+			}
+			if = {
+				limit = {
+					NOR = {
+						has_idea = export_focus
+					}
+				}
+				#remove_ideas = export_focus
+				add_ideas = free_trade
+			}
+			if = {
+				limit = {
+					NOR = {
+						has_idea = limited_exports
+					}
+				}
+				#remove_ideas = limited_exports
+				add_ideas = export_focus
+			}
+			if = {
+				limit = {
+					NOR = {
+						has_idea = closed_economy
+					}
+				}
+				#remove_ideas = free_trade
+				add_ideas = limited_exports
+			}
+		}
 
 	}
 	focus = {
@@ -971,6 +1112,15 @@ focus_tree = {
 		}
 		x = 11
 		y = 7
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+			remove_ideas = NOR_destroyed_economy_idea
+		}
 
 	}
 	focus = {
@@ -1306,6 +1456,20 @@ focus_tree = {
 		}
 		x = 23
 		y = 2
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 0.5
+				uses = 1
+				category = dd_tech
+				category = cl_tech
+			}
+		}
 
 	}
 	focus = {
@@ -1317,6 +1481,19 @@ focus_tree = {
 		}
 		x = 23
 		y = 3
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 0.5
+				uses = 1
+				category = ss_tech
+			}
+		}
 
 	}
 	focus = {
@@ -1328,6 +1505,15 @@ focus_tree = {
 		}
 		x = 23
 		y = 4
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			navy_experience = 5
+			add_ideas = NOR_lighter_faster_ships_idea
+		}
 
 	}
 	focus = {
@@ -1342,6 +1528,20 @@ focus_tree = {
 		}
 		x = 25
 		y = 2
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 0.5
+				uses = 1
+				category = cl_tech
+				category = ca_tech
+			}
+		}
 
 	}
 	focus = {
@@ -1353,6 +1553,27 @@ focus_tree = {
 		}
 		x = 25
 		y = 3
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 0.5
+				uses = 1
+				category = ca_tech
+			}
+			add_tech_bonus = {
+				name = artillery_bonus
+				bonus = 0.3
+				uses = 1
+				technology = interwar_antiair
+				technology = antiair1
+				technology = antiair2
+			}
+		}
 
 	}
 	focus = {
@@ -1364,6 +1585,15 @@ focus_tree = {
 		}
 		x = 25
 		y = 4
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			navy_experience = 5
+			add_ideas = NOR_heavier_powerful_ships_idea
+		}
 
 	}
 	focus = {
@@ -1375,6 +1605,55 @@ focus_tree = {
 		}
 		x = 26
 		y = 1
+		
+		available = {
+			controls_state = 110
+			controls_state = 142
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			110 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 6115
+					instant_build = yes
+				}
+			}
+			142 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 122
+					instant_build = yes
+				}
+			}
+			844 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 3022
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -1386,6 +1665,25 @@ focus_tree = {
 		}
 		x = 28
 		y = 1
+		
+		available = {
+			controls_state = 110
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			110 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -1411,6 +1709,31 @@ focus_tree = {
 		}
 		x = 32
 		y = 1
+		
+		available = {
+			controls_state = 110
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			110 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					province = 6115
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -1918,7 +2241,7 @@ focus_tree = {
 		prerequisite = {
 			focus = NOR_communist_coup
 		}
-		x = 38
+		x = 37
 		y = 1
 
 	}
@@ -1935,7 +2258,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_leninist_lead
-		icon = GFX_goal_unknown
+		icon = GFX_Devotion_to_Lenin
 		cost = 5,00
 		prerequisite = {
 			focus = NOR_first_marxist_assembly
@@ -1960,7 +2283,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_illegalize_other_political_parties
-		icon = GFX_goal_generic_forceful_treaty
+		icon = GFX_Purge_the_Revolution
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_state_run_industires
@@ -1971,7 +2294,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_orthodox_marxist_lead
-		icon = GFX_goal_unknown
+		icon = GFX_goal_red_star_green_wreath
 		cost = 5,00
 		prerequisite = {
 			focus = NOR_first_marxist_assembly
@@ -1985,7 +2308,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_direct_worker_controlled_industries
-		icon = GFX_focus_yug_pan_slavic_congress
+		icon = GFX_goal_economic_control
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_orthodox_marxist_lead
@@ -1996,7 +2319,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_control_unions
-		icon = GFX_goal_unknown
+		icon = GFX_Communist_Subterfuge
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_state_run_industires
@@ -2008,7 +2331,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_semi_democratic_structures
-		icon = GFX_goal_generic_support_democracy
+		icon = GFX_Election_Rigging
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_direct_worker_controlled_industries
@@ -2054,7 +2377,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_uniting_the_left
-		icon = GFX_focus_generic_soviet_politics
+		icon = GFX_goal_Pride_of_The_Left
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_com_consilidate_regime
@@ -2102,7 +2425,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_socialist_agrariansim
-		icon = GFX_goal_unknown
+		icon = GFX_goal_red_star_green_wreath
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_provide_free_education
@@ -2112,6 +2435,24 @@ focus_tree = {
 		}
 		x = 41
 		y = 5
+
+	}
+	focus = {
+		id = NOR_centralized_power
+		icon = GFX_Communist_Repression_2
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_illegalize_other_political_parties
+			focus = NOR_semi_democratic_structures
+		}
+		prerequisite = {
+			focus = NOR_control_unions
+		}
+		prerequisite = {
+			focus = NOR_socialist_agrariansim
+		}
+		x = 37
+		y = 6
 
 	}
 	focus = {
@@ -2127,7 +2468,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_strong_independent_unions
-		icon = GFX_goal_unknown
+		icon = GFX_goal_syndicalist_industry
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_strengthen_local_power
@@ -2160,7 +2501,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_decentralized_power
-		icon = GFX_goal_unknown
+		icon = GFX_goal_anarcho_communism
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_socialist_agrariansim
@@ -2168,7 +2509,7 @@ focus_tree = {
 		prerequisite = {
 			focus = NOR_socialist_welfare_system
 		}
-		x = 43
+		x = 42
 		y = 6
 
 	}
@@ -2280,7 +2621,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_weaken_union_influences
-		icon = GFX_goal_unknown
+		icon = GFX_HOL_crackdown_syndie
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_british_cooperation
@@ -2294,7 +2635,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_status_quo_victorious
-		icon = GFX_goal_unknown
+		icon = GFX_goal_model_cities
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_promote_free_market
@@ -2386,7 +2727,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_pan_europa_consept
-		icon = GFX_goal_unknown
+		icon = GFX_Compassionaite_Politics
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_monarchist_bonds
@@ -2397,7 +2738,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_reawake_nationalist_feelings
-		icon = GFX_goal_unknown
+		icon = GFX_Norwegian_Arms
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_illegalize_marxist_unions
@@ -2411,7 +2752,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_rise_of_nasjonal_samling
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ideology_national_populist
 		cost = 5,00
 		prerequisite = {
 			focus = NOR_samfundsvernet_coup
@@ -2422,7 +2763,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_lower_taxes_on_farmers
-		icon = GFX_goal_unknown
+		icon = GFX_goal_agrarian_reform
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_national_coalition_victory
@@ -2434,7 +2775,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_tariffs_on_foreign_grain
-		icon = GFX_goal_generic_trade
+		icon = GFX_Wheat_Yields
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_lower_taxes_on_farmers
@@ -2470,7 +2811,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_agrarian_education
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_Technological_Supremacy
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_protect_norwegian_seas
@@ -2481,7 +2822,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_idolize_nansen
-		icon = GFX_goal_unknown
+		icon = GFX_goal_WIP
 		cost = 10,00
 		prerequisite = {
 			focus = NOR_reawake_nationalist_feelings
@@ -2527,20 +2868,52 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NOR_centralized_power
-		icon = GFX_goal_unknown
+		id = NOR_question_monarchs_loyalty
+		icon = GFX_focus_rom_handle_king
 		cost = 10,00
 		prerequisite = {
-			focus = NOR_illegalize_other_political_parties
-			focus = NOR_semi_democratic_structures
+			focus = NOR_dissolve_parliament
+		}
+		x = 62
+		y = 3
+
+	}
+	focus = {
+		id = NOR_threaten_conservatives
+		icon = GFX_goal_step_on_skull
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_question_monarchs_loyalty
+		}
+		x = 62
+		y = 4
+
+	}
+	focus = {
+		id = NOR_hird_supremacy
+		icon = GFX_focus_generic_little_entente
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_hunt_down_socialists
 		}
 		prerequisite = {
-			focus = NOR_control_unions
+			focus = NOR_threaten_conservatives
+		}
+		x = 61
+		y = 5
+
+	}
+	focus = {
+		id = NOR_norwegian_autarky
+		icon = GFX_focus_generic_tank_production
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_agrarian_education
 		}
 		prerequisite = {
-			focus = NOR_socialist_agrariansim
+			focus = NOR_hird_supremacy
 		}
-		x = 36
+		x = 59
 		y = 6
 
 	}
@@ -2570,56 +2943,6 @@ focus_tree = {
 		}
 		x = 44
 		y = 9
-
-	}
-	focus = {
-		id = NOR_question_monarchs_loyalty
-		icon = GFX_focus_rom_handle_king
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_dissolve_parliament
-		}
-		x = 62
-		y = 3
-
-	}
-	focus = {
-		id = NOR_threaten_conservatives
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_question_monarchs_loyalty
-		}
-		x = 62
-		y = 4
-
-	}
-	focus = {
-		id = NOR_hird_supremacy
-		icon = GFX_focus_generic_little_entente
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_hunt_down_socialists
-		}
-		prerequisite = {
-			focus = NOR_threaten_conservatives
-		}
-		x = 61
-		y = 5
-
-	}
-	focus = {
-		id = NOR_norwegian_autarky
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_agrarian_education
-		}
-		prerequisite = {
-			focus = NOR_hird_supremacy
-		}
-		x = 59
-		y = 6
 
 	}
 	focus = {

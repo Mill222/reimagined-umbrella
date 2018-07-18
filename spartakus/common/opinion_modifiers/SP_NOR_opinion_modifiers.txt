@@ -1,4 +1,5 @@
 opinion_modifiers = {
 	
 	NOR_stop_trade_with_capitalists_opinion = { value = -30 }
+	NOR_international_recovery_opinion = { value = 20 }
 }
