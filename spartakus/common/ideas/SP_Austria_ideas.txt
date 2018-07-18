@@ -1,8 +1,32 @@
 ideas = {
     country = {
+
+        hidden_ideas = {
+            aus_famine_1 = {
+                modifier = {
+                    conscription = -0.001
+                }
+            }
+            aus_famine_2 = {
+                modifier = {
+                    conscription = -0.005
+                    consumer_goods_factor = 0.05
+                }
+            }
+            aus_famine_3 = {
+                modifier = {
+                    conscription = -0.01
+                    consumer_goods_factor = 0.1
+                    MONTHLY_POPULATION = -0.01
+                }
+            }
+            aus_government_bankruptcy_1 = {
+                modifier = {
+                    
+                }
+            }
+        }
 	
-        ### Gleichschaltung ###
-		
         aus_gleichschaltung = {
             available = { original_tag = AUS }
             picture = neutrality_idea
@@ -58,7 +82,11 @@ ideas = {
             removal_cost = -1
 
             modifier = {
-                
+                political_power_gain = 1
+                consumer_goods_factor = 0.025
+                production_speed_buildings_factor = -0.05
+                production_factory_max_efficiency_factor = -0.025
+                research_time_factor = 0.01
             }
         }
 
@@ -73,7 +101,11 @@ ideas = {
             removal_cost = -1
 
             modifier = {
-                
+                political_power_gain = -1
+                consumer_goods_factor = -0.025
+                production_speed_buildings_factor = 0.05
+                production_factory_max_efficiency_factor = 0.025
+                research_time_factor = -0.01
             }
         }
 

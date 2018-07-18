@@ -175,6 +175,10 @@ aus.3.name:0 "Economic Restructuring"
 aus.3.desc:0 "Due to the stock market crash, it's become obvious that our current expenses aren't sustainable for the time being. This means we need to rethink them"
 aus_eco_1.1.a:0 "Decrease state expences!"
 aus_eco_1.1.b:0 "Increase state expences!"
+aus.4.name:0 "Agricultural Production"
+aus.4.desc:0 "Our country has seen great disperaty and to avoid another famnie like we've experienced in 1921 we must decide now how to get our food!"
+aus_eco_2.1.a:0 "Further rely on food imports"
+aus_eco_2.1.b:0 "Strengthen local farmers"
 
 ###Ideas###
 aus_gleichschaltung:0 "Gleichschaltung!"
