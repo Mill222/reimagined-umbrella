@@ -1,6 +1,6 @@
 ﻿capital = 997
 
-oob = "SLO_1939"
+oob = "SLO_Independence"
 
 set_technology = {
 	gw_artillery = 1
