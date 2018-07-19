@@ -475,10 +475,10 @@ focus_tree = {
 
 		complete_tooltip = {
 			navy_experience = 25
-			add_extra_state_shared_building_slots = 3
+			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = dockyard
-				level = 3
+				level = 1
 				instant_build = yes
 			}
 		}
@@ -510,10 +510,10 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 3
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = dockyard
-						level = 3
+						level = 1
 						instant_build = yes
 					}
 				}
@@ -540,10 +540,10 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 3
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = dockyard
-						level = 3
+						level = 1
 						instant_build = yes
 					}
 				}
@@ -571,10 +571,10 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 3
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = dockyard
-						level = 3
+						level = 1
 						instant_build = yes
 					}
 				}
@@ -806,7 +806,6 @@ focus_tree = {
 		available = {
 			OR = {
 				NOT = {	is_ai = yes	}
-				is_subject = yes
 				num_of_factories > 10
 			}
 		}
@@ -1362,7 +1361,7 @@ focus_tree = {
 				all_owned_state = {
 					free_building_slots = {
 						building = industrial_complex
-						size < 2
+						size < 1
 						include_locked = yes
 					}
 				}
@@ -1370,10 +1369,10 @@ focus_tree = {
 		}
 
 		complete_tooltip = {
-			add_extra_state_shared_building_slots = 2
+			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = industrial_complex
-				level = 2
+				level = 1
 				instant_build = yes
 			}
 		}
@@ -1402,10 +1401,10 @@ focus_tree = {
 						}
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -1480,11 +1479,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = generic_collectivist_ethos_kr
+		id = generic_collectivist_ethos_sp
 		icon = GFX_goal_generic_national_unity #icon = GFX_goal_tripartite_pact
 
 		prerequisite = { focus = generic_political_effort }
-		mutually_exclusive = { focus = generic_liberty_ethos_kr }
+		mutually_exclusive = { focus = generic_liberty_ethos_sp }
 
 		x = 16
 		y = 1
@@ -1502,7 +1501,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = generic_liberty_ethos_kr
+		id = generic_liberty_ethos_sp
 		icon = GFX_goal_support_democracy
 
 		available = {
@@ -1521,7 +1520,7 @@ focus_tree = {
 		}
 
 		prerequisite = { focus = generic_political_effort }
-		mutually_exclusive = { focus = generic_collectivist_ethos_kr }
+		mutually_exclusive = { focus = generic_collectivist_ethos_sp }
 
 		x = 18
 		y = 1
@@ -1541,7 +1540,7 @@ focus_tree = {
 		id = generic_militarism
 		icon = GFX_goal_generic_political_pressure
 
-		prerequisite = { focus = generic_collectivist_ethos_kr }
+		prerequisite = { focus = generic_collectivist_ethos_sp }
 		x = 16
 		y = 2
 		cost = 10
@@ -1571,9 +1570,28 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			if = {
 
-			add_ideas = generic_military_youth_focus
+					limit = {
 
+						is_ai = no
+
+					}
+
+				add_ideas = generic_military_youth_focus
+
+			}
+			if = {
+
+					limit = {
+
+						is_ai = yes
+
+					}
+
+				add_manpower = 10000
+
+			}
 		}
 
 	}
@@ -1603,7 +1621,7 @@ focus_tree = {
 		id = generic_rights_of_man
 		icon = GFX_goal_government_icon
 
-		prerequisite = { focus = generic_liberty_ethos_kr }
+		prerequisite = { focus = generic_liberty_ethos_sp }
 
 		x = 18
 		y = 2
