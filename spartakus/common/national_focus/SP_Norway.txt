@@ -2440,7 +2440,7 @@ focus_tree = {
 	focus = {
 		id = NOR_centralized_power
 		icon = GFX_Communist_Repression_2
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
 			focus = NOR_illegalize_other_political_parties
 			focus = NOR_semi_democratic_structures
@@ -2502,7 +2502,7 @@ focus_tree = {
 	focus = {
 		id = NOR_decentralized_power
 		icon = GFX_goal_anarcho_communism
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
 			focus = NOR_socialist_agrariansim
 		}
@@ -2636,7 +2636,7 @@ focus_tree = {
 	focus = {
 		id = NOR_status_quo_victorious
 		icon = GFX_goal_model_cities
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
 			focus = NOR_promote_free_market
 		}
@@ -2823,7 +2823,7 @@ focus_tree = {
 	focus = {
 		id = NOR_idolize_nansen
 		icon = GFX_goal_WIP
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
 			focus = NOR_reawake_nationalist_feelings
 		}
@@ -2906,7 +2906,7 @@ focus_tree = {
 	focus = {
 		id = NOR_norwegian_autarky
 		icon = GFX_focus_generic_tank_production
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
 			focus = NOR_agrarian_education
 		}
@@ -2915,6 +2915,21 @@ focus_tree = {
 		}
 		x = 59
 		y = 6
+
+	}
+	focus = {
+		id = NOR_our_foreign_policy
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = NOR_centralized_power
+			focus = NOR_decentralized_power
+			focus = NOR_status_quo_victorious
+			focus = NOR_idolize_nansen
+			focus = NOR_norwegian_autarky
+		}
+		x = 48
+		y = 7
 
 	}
 	focus = {
@@ -2946,6 +2961,17 @@ focus_tree = {
 
 	}
 	focus = {
+		id = NOR_expantionist_norway
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 5,00
+		prerequisite = {
+			focus = NOR_our_foreign_policy
+		}
+		x = 56
+		y = 8
+
+	}
+	focus = {
 		id = NOR_greenland_case
 		icon = GFX_goal_unknown
 		cost = 5,00
@@ -2953,6 +2979,17 @@ focus_tree = {
 			focus = NOR_expantionist_norway
 		}
 		x = 54
+		y = 9
+
+	}
+	focus = {
+		id = NOR_claim_shetland
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = NOR_expantionist_norway
+		}
+		x = 56
 		y = 9
 
 	}
@@ -2968,28 +3005,6 @@ focus_tree = {
 		}
 		x = 55
 		y = 10
-
-	}
-	focus = {
-		id = NOR_expantionist_norway
-		icon = GFX_focus_generic_strike_at_democracy1
-		cost = 5,00
-		prerequisite = {
-			focus = NOR_our_foreign_policy
-		}
-		x = 56
-		y = 8
-
-	}
-	focus = {
-		id = NOR_claim_shetland
-		icon = GFX_goal_unknown
-		cost = 5,00
-		prerequisite = {
-			focus = NOR_expantionist_norway
-		}
-		x = 56
-		y = 9
 
 	}
 	focus = {
@@ -3046,21 +3061,6 @@ focus_tree = {
 		}
 		x = 55
 		y = 11
-
-	}
-	focus = {
-		id = NOR_our_foreign_policy
-		icon = GFX_goal_unknown
-		cost = 5,00
-		prerequisite = {
-			focus = NOR_centralized_power
-			focus = NOR_decentralized_power
-			focus = NOR_status_quo_victorious
-			focus = NOR_idolize_nansen
-			focus = NOR_norwegian_autarky
-		}
-		x = 48
-		y = 7
 
 	}
 	focus = {
