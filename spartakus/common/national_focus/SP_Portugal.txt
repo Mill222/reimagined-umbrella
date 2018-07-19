@@ -1713,8 +1713,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_infeq
-		icon = GFX_goal_generic_small_arms
+		id = POR_army_modernization
+		icon = GFX_Renewed_Arms
 		relative_position_id = POR_army
 		prerequisite = { focus = POR_army } 		
 		x = 3
@@ -1731,10 +1731,10 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_training
-		icon = GFX_focus_generic_little_entente
+		id = POR_new_rifle_designs
+		icon = GFX_goal_double_research
 		relative_position_id = POR_army
-		prerequisite = { focus = POR_infeq } 		
+		prerequisite = { focus = POR_army_modernization } 		
 		x = 2
 		y = 2
 		cost = 8.6
@@ -1743,10 +1743,10 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_artillerybattalion
+		id = POR_new_artillery_designs
 		relative_position_id = POR_army
-		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = POR_infeq } 		
+		icon = GFX_goal_national_artillery
+		prerequisite = { focus = POR_army_modernization } 		
 		x = 4
 		y = 2
 		cost = 8.6
@@ -1762,11 +1762,11 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_linha_vedras
-		icon = GFX_goal_nested_fortifications
+		id = POR_armored_designs
+		icon = GFX_goal_light_tanks
 		relative_position_id = POR_army
-		prerequisite = { focus = POR_artillerybattalion }
-		prerequisite = { focus = POR_training } 		
+		prerequisite = { focus = POR_new_artillery_designs }
+		prerequisite = { focus = POR_new_rifle_designs } 		
 		x = 3
 		y = 3
 		cost = 8.6
@@ -1795,10 +1795,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = POR_spotter_squads
-		icon = GFX_goal_munitions_factories
+		id = POR_modern_communications_systems
+		icon = GFX_goal_radio
 		relative_position_id = POR_army
-		prerequisite = { focus = POR_linha_vedras } 		
+		prerequisite = { focus = POR_armored_designs } 		
 		x = 3
 		y = 4
 		cost = 8.6
@@ -1845,7 +1845,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_standarized_equipment
+		id = POR_standardized_equipment
 		icon = GFX_Red_Army_Hat
 		prerequisite = { focus = POR_recruitment_drive } 		
 		relative_position_id = POR_army		
@@ -1866,7 +1866,7 @@ focus_tree = {
 		id = POR_mass_munitions
 		icon = GFX_goal_munitions_factories
 		prerequisite = { focus = POR_draft_cards }
-		prerequisite = { focus = POR_standarized_equipment } 		
+		prerequisite = { focus = POR_standardized_equipment } 		
 		relative_position_id = POR_army		
 		x = -3
 		y = 3
@@ -1906,7 +1906,7 @@ focus_tree = {
 		prerequisite = { focus = POR_prodeff }
 		prerequisite = { focus = POR_prodeff2 }
 		prerequisite = { focus = POR_establish_proper_reserves }
-		prerequisite = { focus = POR_spotter_squads } 		
+		prerequisite = { focus = POR_modern_communications_systems } 		
 		x = 0
 		y = 5
 		cost = 8.6
