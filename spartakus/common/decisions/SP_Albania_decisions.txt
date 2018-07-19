@@ -1,0 +1,196 @@
+
+# Epirus Border War
+ALB_decisions_epirus = {
+
+	ALB_dec_epirus_rally = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+        }
+		days_remove = 15
+		days_re_enable = 15
+        cost = 25
+        complete_effect = {
+			add_to_variable = { ALB.epirus_conflict = 2 } 
+		}
+	}
+
+	ALB_dec_epirus_pamphlets_1 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_epirus_5	
+				check_variable = { ALB.epirus_conflict > 5 }
+			}
+        }
+        cost = 50
+        complete_effect = {
+			multiply_variable = { ALB.epirus_conflict = 1.2 } 
+			hidden_effect = { 
+				set_country_flag = ALB_pamphlets_1 
+			}
+		}
+	}
+
+	ALB_dec_epirus_pamphlets_2 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_epirus_15	
+				check_variable = { ALB.epirus_conflict > 15 }
+			}
+        }
+		visible = {
+			hidden_trigger = {
+				has_country_flag = ALB_pamphlets_1
+			}
+		}
+        cost = 70
+        complete_effect = {
+			multiply_variable = { ALB.epirus_conflict = 1.3 } 
+			hidden_effect = { 
+				set_country_flag = ALB_pamphlets_2 
+			}
+		}
+	}
+
+	ALB_dec_epirus_pamphlets_3 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_epirus_25	
+				check_variable = { ALB.epirus_conflict > 25 }
+			}
+        }
+		visible = {
+			hidden_trigger = {
+				has_country_flag = ALB_pamphlets_2
+			}
+		}
+        cost = 90
+        complete_effect = {
+			multiply_variable = { ALB.epirus_conflict = 1.4 } 
+		}
+	}
+
+	ALB_dec_epirus_weapons = { 
+		icon = GFX_decision_generic_prepare_civil_war
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_epirus_20
+				check_variable = { ALB.epirus_conflict > 20 }
+			}
+        }
+		days_remove = 30
+		days_re_enable = 30
+
+		custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment_0 > 100
+				convoy > 2
+			}
+		}
+		custom_cost_text = ALB_dec_cost_infantry_100
+
+        complete_effect = {
+			add_to_variable = { ALB.epirus_conflict = 5 } 
+			hidden_effect = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_0
+					amount = -100
+				}
+				add_equipment_to_stockpile = {
+					type = convoy
+					amount = -2
+				}
+			}
+		}
+	}
+
+	ALB_dec_epirus_officers	 = { 
+		icon = GFX_decision_generic_army_support
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_epirus_30
+				check_variable = { ALB.epirus_conflict > 30 }
+			}
+        }
+		days_remove = 30
+		days_re_enable = 30
+
+		custom_cost_trigger = {
+			has_manpower > 10
+			has_army_experience  > 15
+		}
+		custom_cost_text = ALB_dec_cost_mpxp_1015
+
+        complete_effect = {
+			add_to_variable = { ALB.epirus_conflict = 7 } 
+			hidden_effect = {
+				army_experience = -15
+				add_manpower = -10
+			}
+		}
+	}
+
+	ALB_dec_epirus_troops = { 
+		icon = GFX_decision_infiltrate_state
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_epirus_40
+				check_variable = { ALB.epirus_conflict > 40 }
+			}
+        }
+		days_remove = 60
+		days_re_enable = 60
+
+		custom_cost_trigger = {
+			has_manpower > 100
+			has_army_experience  > 25
+		}
+		custom_cost_text = ALB_dec_cost_mpxp_10025
+
+        complete_effect = {
+			add_to_variable = { ALB.epirus_conflict = 10 } 
+			hidden_effect = {
+				army_experience = -25
+				add_manpower = -100
+			}
+		}
+	}
+
+	ALB_dec_greek_conference = { 
+		icon = GFX_decision_generic_political_discourse
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_epirus_85
+				check_variable = { ALB.epirus_conflict > 85 }
+			}
+        }
+        cost = 100
+        complete_effect = {
+			add_to_variable = { ALB.epirus_conflict = -5 } 
+		}
+	}
+
+	ALB_dec_greek_war = { 
+		icon = GFX_decision_generic_independence
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_epirus_100	
+				check_variable = { ALB.epirus_conflict > 100 }
+			}
+        }
+        cost = 150
+        complete_effect = {
+			declare_war_on = {
+				target = GRE
+				type = take_core_state
+			}
+		}
+	}
+}

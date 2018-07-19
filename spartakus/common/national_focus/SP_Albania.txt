@@ -14,6 +14,8 @@ focus_tree = {
 	}
 	
 	default = no
+
+	continuous_focus_position = { x = 50 y = 2200 }
 	
 	### Industrialisation ###
 
@@ -29,7 +31,7 @@ focus_tree = {
 				factor = 50
 			}
 
-			completion_reward = {
+			completion_reward = {	
 			}
 	}
 	
@@ -278,6 +280,43 @@ focus_tree = {
 	}
 	
 	focus = {
+			id = ALB_northern_factories
+			icon = GFX_goal_factory_complex
+			prerequisite = { focus = ALB_oil } 
+			prerequisite = { focus = ALB_dams } 
+			available = { 
+			}
+			x = 5
+			y = 6
+			cost = 8.6
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_research
+			icon = GFX_focus_research
+			prerequisite = { 
+				focus = ALB_radio focus = ALB_urban_employment } 
+			available = { 
+			}
+			x = 3
+			y = 8
+			cost = 8.6
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+				add_research_slot = 1
+			}
+	}
+	
+	focus = {
 			id = ALB_shipyards
 			icon = GFX_goal_generic_construct_naval_dockyard
 			prerequisite = { focus = ALB_industrialise } 
@@ -354,12 +393,13 @@ focus_tree = {
 			}
 			x = 6
 			y = 3
-			cost = 5
+			cost = 8.6
 			ai_will_do = {
 				factor = 50
 			}
 
 			completion_reward = {
+				add_research_slot = 1
 			}
 	}
 	
@@ -406,12 +446,13 @@ focus_tree = {
 			}
 			x = 8
 			y = 3
-			cost = 5
+			cost = 8.6
 			ai_will_do = {
 				factor = 50
 			}
 
 			completion_reward = {
+				add_research_slot = 1
 			}
 	}
 	
@@ -420,7 +461,8 @@ focus_tree = {
 	focus = {
 			id = ALB_depression
 			icon = GFX_goal_bankruptcy
-			available = { 
+			available = {
+				has_idea = ALB_idea_depression
 			}
 			x = 13
 			y = 0
@@ -495,7 +537,7 @@ focus_tree = {
 			mutually_exclusive = { focus = ALB_blame_rich }
 			x = 12
 			y = 2
-			cost = 8.6
+			cost = 5
 			ai_will_do = {
 				factor = 50
 			}
@@ -515,7 +557,7 @@ focus_tree = {
 			mutually_exclusive = { focus = ALB_temper_communism }
 			x = 14
 			y = 2
-			cost = 8.6
+			cost = 5
 			ai_will_do = {
 				factor = 50
 			}
@@ -548,8 +590,267 @@ focus_tree = {
 			icon = GFX_goal_army_guy
 			available = { 
 			}
-			x = 18
+			x = 20
 			y = 0
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_disarm_tribes
+			icon = GFX_goal_break_rifle
+			available = { 
+			}
+			prerequisite = { focus = ALB_military } 
+			mutually_exclusive = { focus = ALB_recruit_tribes }
+			x = 19
+			y = 1
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_recruit_tribes
+			icon = GFX_Oath_of_Loyalty	
+			available = { 
+			}
+			prerequisite = { focus = ALB_military } 
+			mutually_exclusive = { focus = ALB_disarm_tribes }
+			x = 21
+			y = 1
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_attaches
+			icon = GFX_focus_generic_military_mission
+			available = { 
+			}
+			prerequisite = { focus = ALB_recruit_tribes focus = ALB_disarm_tribes } 
+			x = 20
+			y = 2
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_mil_factories
+			icon = GFX_goal_generic_construct_mil_factory
+			available = { 
+			}
+			prerequisite = { focus = ALB_attaches } 
+			x = 23
+			y = 3
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_mil_research
+			icon = GFX_goal_national_arsenal
+			available = { 
+			}
+			prerequisite = { focus = ALB_attaches } 
+			x = 17
+			y = 3
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_gbp_1
+			icon = GFX_goal_planning_bonus
+			available = { 
+			}
+			prerequisite = { focus = ALB_attaches } 
+			mutually_exclusive = { focus = ALB_sfp_1 }
+			x = 19
+			y = 3
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_gbp_2
+			icon = GFX_GEA_counter_insurgency
+			available = { 
+			}
+			prerequisite = { focus = ALB_gbp_1 } 
+			x = 19
+			y = 4
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_gbp_3
+			icon = GFX_goal_generic_position_armies
+			available = { 
+			}
+			prerequisite = { focus = ALB_gbp_2 } 
+			x = 19
+			y = 5
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_sfp_1
+			icon = GFX_goal_artillery
+			available = { 
+			}
+			prerequisite = { focus = ALB_attaches } 
+			mutually_exclusive = { focus = ALB_gbp_1 }
+			x = 21
+			y = 3
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_sfp_2
+			icon = GFX_goal_spy_focus
+			available = { 
+			}
+			prerequisite = { focus = ALB_sfp_1 } 
+			x = 21
+			y = 4
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_sfp_3
+			icon = GFX_goal_national_artillery
+			available = { 
+			}
+			prerequisite = { focus = ALB_sfp_2 } 
+			x = 21
+			y = 5
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_staff
+			icon = GFX_goal_officers
+			available = { 
+			}
+			prerequisite = { focus = ALB_sfp_3 focus = ALB_gbp_3 } 
+			x = 20
+			y = 6
+			cost = 8.6
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_conscription
+			icon = GFX_Prepare_the_Troops
+			available = { 
+			}
+			prerequisite = { focus = ALB_staff } 
+			x = 20
+			y = 7
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_airforce
+			icon = GFX_goal_generic_build_airforce
+			available = { 
+			}
+			prerequisite = { focus = ALB_staff } 
+			x = 22
+			y = 7
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_navy
+			icon = GFX_Naval_Operations
+			available = { 
+			}
+			prerequisite = { focus = ALB_staff } 
+			x = 18
+			y = 7
 			cost = 5
 			ai_will_do = {
 				factor = 50
@@ -570,8 +871,8 @@ focus_tree = {
 					has_country_flag = herthe_dead
 				}
 			}
-			x = 13
-			y = 5
+			x = 12
+			y = 8
 			cost = 0
 			ai_will_do = {
 				factor = 50
@@ -593,8 +894,8 @@ focus_tree = {
 			}
 			mutually_exclusive = { focus = ALB_coup }
 			mutually_exclusive = { focus = ALB_revolution }
-			x = 13
-			y = 6
+			x = 12
+			y = 9
 			cost = 0
 			ai_will_do = {
 				factor = 50
@@ -611,8 +912,8 @@ focus_tree = {
 			prerequisite = { focus = ALB_coronation } 
 			available = { 
 			}
-			x = 13
-			y = 7
+			x = 12
+			y = 10
 			cost = 5
 			ai_will_do = {
 				factor = 50
@@ -628,8 +929,8 @@ focus_tree = {
 			prerequisite = { focus = ALB_constitution } 
 			available = { 
 			}
-			x = 13
-			y = 8
+			x = 12
+			y = 11
 			cost = 5
 			ai_will_do = {
 				factor = 50
@@ -646,8 +947,8 @@ focus_tree = {
 			available = { 
 			}
 			mutually_exclusive = { focus = ALB_elections_conservatives }
-			x = 12
-			y = 9
+			x = 11
+			y = 12
 			cost = 0
 			ai_will_do = {
 				factor = 50
@@ -665,8 +966,8 @@ focus_tree = {
 			available = { 
 			}
 			mutually_exclusive = { focus = ALB_elections_socdems }
-			x = 14
-			y = 9
+			x = 13
+			y = 12
 			cost = 0
 			ai_will_do = {
 				factor = 50
@@ -676,6 +977,8 @@ focus_tree = {
 				custom_effect_tooltip = ROM_bypass_focus
 			}
 	}
+
+	### Fascist Path ###
 	
 	focus = {
 			id = ALB_coup
@@ -688,8 +991,8 @@ focus_tree = {
 			}
 			mutually_exclusive = { focus = ALB_coronation }
 			mutually_exclusive = { focus = ALB_revolution }
-			x = 10
-			y = 6
+			x = 6
+			y = 9
 			cost = 0
 			ai_will_do = {
 				factor = 50
@@ -697,6 +1000,188 @@ focus_tree = {
 
 			completion_reward = {
 				custom_effect_tooltip = ROM_bypass_focus
+			}
+	}
+	
+	focus = {
+			id = ALB_irredentism
+			icon = GFX_ALB_nationalism
+			prerequisite = { focus = ALB_coup } 
+			available = { 
+			}
+			x = 9
+			y = 10
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = { 
+			}
+	}
+	
+	focus = {
+			id = ALB_target_serbia
+			icon = GFX_ALB_kosovo
+			prerequisite = { focus = ALB_irredentism } 
+			available = { 
+			}
+			x = 10
+			y = 11
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = { #should unlock decisions
+				unlock_decision_category_tooltip = ALB_decisions_kosovo
+				765 = { 
+					set_border_war = yes
+				}
+			}
+	}
+	
+	focus = {
+			id = ALB_greek_agitation
+			icon = GFX_focus_generic_provoke_border_clashes
+			prerequisite = { focus = ALB_coup } 
+			available = { 
+			}
+			x = 8
+			y = 11
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = { #should start a border war in northern epirus
+				unlock_decision_category_tooltip = ALB_decisions_epirus
+				766 = { 
+					set_border_war = yes
+				}
+			}
+	}
+	
+	focus = {
+			id = ALB_albanianism
+			icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ALB_coup } 
+			mutually_exclusive = { focus = ALB_islamism }
+			available = { 
+			}
+			x = 3
+			y = 10
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = { 
+			}
+	}
+	
+	focus = {
+			id = ALB_islamism
+			icon = GFX_goal_islamic_government
+			prerequisite = { focus = ALB_coup } 
+			mutually_exclusive = { focus = ALB_albanianism }
+			available = { 
+			}
+			x = 5
+			y = 10
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = { 
+			}
+	}
+	
+	focus = {
+			id = ALB_end_dependence
+			icon = GFX_Italy_Must_Die
+			prerequisite = { focus = ALB_islamism  focus = ALB_albanianism } 
+			available = { 
+			}
+			x = 6
+			y = 11
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_repatriation
+			icon = GFX_goal_skull_treaty2
+			prerequisite = { focus = ALB_end_dependence } 
+			available = { 
+			}
+			x = 6
+			y = 12
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_crush_nolists
+			icon = GFX_goal_broken_red_star
+			prerequisite = { focus = ALB_islamism  focus = ALB_albanianism } 
+			available = { 
+			}
+			x = 4
+			y = 11
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = { 
+			}
+	}
+	
+	focus = {
+			id = ALB_banish_britons
+			icon = GFX_goal_step_on_skull
+			prerequisite = { focus = ALB_islamism  focus = ALB_albanianism } 
+			available = { 
+			}
+			x = 2
+			y = 11
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = { 
+			}
+	}
+	
+	focus = {
+			id = ALB_king_zog
+			icon = GFX_goal_monarchism
+			prerequisite = { focus = ALB_banish_britons } 
+			prerequisite = { focus = ALB_end_dependence } 
+			prerequisite = { focus = ALB_crush_nolists } 
+			available = { 
+			}
+			x = 4
+			y = 13
+			cost = 8.6
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = { 
 			}
 	}
 	
@@ -711,8 +1196,8 @@ focus_tree = {
 			}
 			mutually_exclusive = { focus = ALB_coronation }
 			mutually_exclusive = { focus = ALB_coup }
-			x = 16
-			y = 6
+			x = 18
+			y = 9
 			cost = 0
 			ai_will_do = {
 				factor = 50

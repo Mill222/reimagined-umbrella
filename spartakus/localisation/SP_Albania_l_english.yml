@@ -29,6 +29,7 @@ ALB_three_cities:0 "The Three Cities"
 ALB_southern_centre:0 "Industrial-Population Centre"
 ALB_city_expansion:0 "Urban Sprawl"
 ALB_urban_employment:0 "Mass Employment"
+ALB_research:0 "Mass Literacy"
 
 ALB_depression:0 "From the Ashes"
 ALB_lek:0 "Stabilize the Lek"
@@ -39,6 +40,21 @@ ALB_blame_rich:0 "Blame the Bourgoisie"
 ALB_depression_over:0 "Depression Recovery"
 
 ALB_military:0 "Towards a National Army"
+ALB_disarm_tribes:0 "Disarm the Tribes"
+ALB_recruit_tribes:0 "Enlist the Tribes"
+ALB_attaches:0 "Invite Foreign Attaches"
+ALB_mil_factories:0 "Expand Military Production"
+ALB_mil_research:0 "Small Arms Development"
+ALB_gbp_1:0 "Conventional Planning"
+ALB_gbp_2:0 "Integrate Kachak Tactics"
+ALB_gbp_3:0 "Wide-Net Tactical Doctrine"
+ALB_sfp_1:0 "Minimal-Loss Planning"
+ALB_sfp_2:0 "Eyes in the Countryside"
+ALB_sfp_3:0 "Divisional Artillery Officers"
+ALB_staff:0 "Albanian General Staff"
+ALB_conscription:0 "Conscription Act"
+ALB_airforce:0 "Aerial Experiments"
+ALB_navy:0 "Develop the Coastguard"
 
 ALB_herthe_funeral:0 "The King is Dead"
 ALB_coronation:0 "Crown Alban I"
@@ -46,8 +62,20 @@ ALB_constitution:0 "Albanist Constitution"
 ALB_elections:0 "Hold New Elections"
 ALB_elections_socdems:0 "Democracy for the New Age"
 ALB_elections_conservatives:0 "Centralist Coalition"
+
 ALB_coup:0 "Zogist Coup"
-ALB_revolution:0 "Noli's  Revolution"
+ALB_end_dependence:0 "End Italian Dependence"
+ALB_repatriation:0 "Repatriate Arbëreshë"
+ALB_irredentism:0 "Greater Albania"
+ALB_target_serbia:0 "Agitate in Kosovo"
+ALB_greek_agitation:0 "Agitate in Gjirokastër"
+ALB_albanianism:0 "Evoke Albanianism"
+ALB_islamism:0 "Islamic Direction"
+ALB_crush_nolists:0 "Crush the Nolists"
+ALB_banish_britons:0 "Banish British Puppeteers"
+ALB_king_zog:0 "King Zog"
+
+ALB_revolution:0 "Noli's Revolution"
 
 ### Ministers ###
 ALB_drita_sec:0 "Edith Durham"
@@ -81,9 +109,45 @@ ALB_national_corporatist_party_long:0 "Zogists (Corporatist)"
 ### Tooltips ###
 alb_tt_funeral:0 "Herthe I has died"
 
+### Decisions ###
+alb_tt_epirus_5:0 "Requires 5% Regional Tension§!"
+alb_tt_epirus_15:0 "Requires 15% Regional Tension§!"
+alb_tt_epirus_20:0 "Requires 20% Regional Tension§!"
+alb_tt_epirus_25:0 "Requires 25% Regional Tension§!"
+alb_tt_epirus_30:0 "Requires 30% Regional Tension§!"
+alb_tt_epirus_40:0 "Requires 40% Regional Tension§!"
+alb_tt_epirus_85:0 "Requires 85% Regional Tension§!"
+alb_tt_epirus_100:0 "Requires 100% Regional Tension§!"
+
+ALB_dec_cost_infantry_100:0 "£topbar_convoys §Y2§! £infantry_weapons_texticon §Y100§!"
+ALB_dec_cost_infantry_100_blocked:0 "£topbar_convoys §R2§! £infantry_weapons_texticon §R100§!"
+ALB_dec_cost_infantry_100_tooltip:0 "It costs 2 £topbar_convoys Convoys and 100 £infantry_weapons_texticon  Infantry Equipment to select this."
+
+ALB_dec_cost_mpxp_1015:0 "£manpower_texticon §Y10§! £army_experience §Y15§"
+ALB_dec_cost_mpxp_1015_blocked:0 "£manpower_texticon §R10§! £army_experience §R15§!"
+ALB_dec_cost_mpxp_1015_tooltip:0 "It costs 10 £manpower_texticon Manpower and 15 £army_experience to select this."
+
+ALB_dec_cost_mpxp_10025:0 "£manpower_texticon §Y100§! £army_experience §Y25§"
+ALB_dec_cost_mpxp_10025_blocked:0 "£manpower_texticon §R100§! £army_experience §R25§!"
+ALB_dec_cost_mpxp_10025_tooltip:0 "It costs 100 £manpower_texticon Manpower and 25 £army_experience to select this."
+    
 ### Opinion Modifiers ###
 
 ### Decisions ###
+ALB_decisions_epirus:0 "Gjirokastër Conflict"
+ALB_decisions_epirus_desc:0 "Now under the leadership of a truly Albanian national government, we can begin to work to free our countrymen from the south in Greek captivity. \n\nHere we can take a number of covert actions in occupied territory to raise nationalist consciousness and the §Rtension§! in the region. As §Rtension§! rises, we will unlock new decisions and choices on our approach. \n\n Regional Tension at:  §R[?ALB.epirus_conflict|0]%§!"
+ALB_dec_epirus_rally:0 "Hold Nationalist Rally  §R+2%§!"
+ALB_dec_epirus_pamphlets_1:0 "Distribute Seperatist Pamphlets (1/3)  §Rx1.2%§!"
+ALB_dec_epirus_pamphlets_1_desc:0 "Literature will enable us to rapidly disseminate a nationalist message among the Albanian population in Gjirokaster, however because literacy is rare in the region, there is a low ceiling to how many people we can reach with this tactic. Let us use it wisely."
+ALB_dec_epirus_pamphlets_2:0 "Distribute Seperatist Pamphlets (2/3)  §Rx1.3%§!"
+ALB_dec_epirus_pamphlets_2_desc:0 "Literature will enable us to rapidly disseminate a nationalist message among the Albanian population in Gjirokaster, however because literacy is rare in the region, there is a low ceiling to how many people we can reach with this tactic. Let us use it wisely."
+ALB_dec_epirus_pamphlets_3:0 "Distribute Seperatist Pamphlets (3/3)  §Rx1.4%§!"
+ALB_dec_epirus_pamphlets_3_desc:0 "Literature will enable us to rapidly disseminate a nationalist message among the Albanian population in Gjirokaster, however because literacy is rare in the region, there is a low ceiling to how many people we can reach with this tactic. Let us use it wisely."
+ALB_dec_epirus_weapons:0 "Smuggle in Weapons  §R+5%§!"
+ALB_dec_epirus_troops:0 "Send Covert Troops  §R+10%§!"
+ALB_dec_epirus_officers:0 "Send Military Advisors  §R+7%§!"
+ALB_dec_greek_conference:0 "Hold Diplomatic Talks §G-5%§!"
+ALB_dec_greek_war:0 "Cross the Border  §RWar with Greece!§!"
 
 ## Events ##
 alb.1.t:0 "The Kingdom of Albania"

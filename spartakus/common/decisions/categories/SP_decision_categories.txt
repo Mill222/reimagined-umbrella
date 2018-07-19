@@ -73,6 +73,26 @@ ENG_Burmese_revolt_cat = {
 }
 
 #############
+### Albania #
+#############
+
+ALB_decisions_epirus = {
+	allowed = { tag = ALB }
+	visible = {
+		has_completed_focus = ALB_greek_agitation
+	}
+	icon = GFX_decision_category_border_conflicts
+}
+
+ALB_decisions_kosovo = {
+	allowed = { tag = ALB }
+	visible = {
+		has_completed_focus = ALB_target_serbia
+	}
+	icon = GFX_decision_category_border_conflicts
+}
+
+#############
 ### Japan ###
 #############
 

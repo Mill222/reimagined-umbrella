@@ -1,0 +1,9 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_infantry_weapons_texticon"
+		texturefile = "gfx/texticons/infantry_weapons_texticon.dds"
+		legacy_lazy_load = no
+	}
+		
+}

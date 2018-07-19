@@ -55,10 +55,10 @@ set_politics = {
 			popularity = 0
 		}
 		national_syndicalist = {
-			popularity = 24
+			popularity = 4
 		}
 		national_corporatist = {
-			popularity = 5
+			popularity = 25
 		}
 	}
 	

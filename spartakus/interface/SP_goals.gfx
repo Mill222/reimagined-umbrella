@@ -4764,6 +4764,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_small_farms.tga"
 	}
 	SpriteType = {
+		name = "GFX_Norwegian_Arms"
+		texturefile = "gfx/interface/goals/Norwegian_Arms.tga"
+	}
+	SpriteType = {
 		name = "GFX_ALB_funeral"
 		texturefile = "gfx/interface/goals/ALB_funeral.tga"
 	}
@@ -4771,9 +4775,12 @@ spriteTypes = {
 		name = "GFX_ALB_crown"
 		texturefile = "gfx/interface/goals/ALB_crown.tga"
 	}
-	
 	SpriteType = {
-		name = "GFX_Norwegian_Arms"
-		texturefile = "gfx/interface/goals/Norwegian_Arms.tga"
+		name = "GFX_ALB_kosovo"
+		texturefile = "gfx/interface/goals/ALB_kosovo.tga"
+	}
+	SpriteType = {
+		name = "GFX_ALB_nationalism"
+		texturefile = "gfx/interface/goals/ALB_nationalism.tga"
 	}
 }
