@@ -313,6 +313,11 @@ focus_tree = {
 
 			completion_reward = {
 				add_research_slot = 1
+				swap_ideas = {
+					add_idea = ALB_illiteracy_2
+					remove_idea = ALB_illiteracy
+				}
+
 			}
 	}
 	
@@ -931,7 +936,7 @@ focus_tree = {
 			}
 			x = 12
 			y = 11
-			cost = 5
+			cost = 2
 			ai_will_do = {
 				factor = 50
 			}
@@ -939,6 +944,27 @@ focus_tree = {
 			completion_reward = {
 			}
 	}
+	
+	focus = {
+			id = ALB_literacy
+			icon = GFX_KTG_Bookstack
+			prerequisite = { focus = ALB_elections_socdems focus = ALB_elections_conservatives }
+			available = { 
+				has_completed_focus = ALB_research
+			}
+			x = 12
+			y = 13
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+				remove_ideas = ALB_illiteracy_2	
+			}
+	}
+	
+	### Social Democrat ###
 	
 	focus = {
 			id = ALB_elections_socdems
@@ -960,6 +986,42 @@ focus_tree = {
 	}
 	
 	focus = {
+			id = ALB_local_economy
+			icon = GFX_goal_generic_positive_trade_relations
+			prerequisite = { focus = ALB_elections_socdems } 
+			available = { 
+			}
+			x = 10
+			y = 13
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_modernization
+			icon = GFX_SP_focus_education
+			prerequisite = { focus = ALB_local_economy } 
+			available = { 
+			}
+			x = 10
+			y = 14
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	### Conservative ###
+	
+	focus = {
 			id = ALB_elections_conservatives
 			icon = GFX_goal_ideology_social_conservative
 			prerequisite = { focus = ALB_elections }  
@@ -977,8 +1039,42 @@ focus_tree = {
 				custom_effect_tooltip = ROM_bypass_focus
 			}
 	}
+	
+	focus = {
+			id = ALB_british_investment
+			icon = GFX_focus_chi_british_cooperation
+			prerequisite = { focus = ALB_elections_conservatives }  
+			available = { 
+			}
+			x = 14
+			y = 13
+			cost = 0
+			ai_will_do = {
+				factor = 50
+			}
 
-	### Fascist Path ###
+			completion_reward = { #should increase efficiency
+			}
+	}
+	
+	focus = {
+			id = ALB_italian_investment
+			icon = GFX_Ally_With_Italy
+			prerequisite = { focus = ALB_british_investment }  
+			available = { 
+			}
+			x = 14
+			y = 14
+			cost = 0
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = { #change up italian domination idea starting
+			}
+	}
+
+	### Fascist ###
 	
 	focus = {
 			id = ALB_coup
@@ -1044,7 +1140,7 @@ focus_tree = {
 	focus = {
 			id = ALB_greek_agitation
 			icon = GFX_focus_generic_provoke_border_clashes
-			prerequisite = { focus = ALB_coup } 
+			prerequisite = { focus = ALB_irredentism } 
 			available = { 
 			}
 			x = 8
@@ -1134,7 +1230,7 @@ focus_tree = {
 	
 	focus = {
 			id = ALB_crush_nolists
-			icon = GFX_goal_broken_red_star
+			icon = GFX_Prison_Camps
 			prerequisite = { focus = ALB_islamism  focus = ALB_albanianism } 
 			available = { 
 			}
@@ -1173,8 +1269,9 @@ focus_tree = {
 			prerequisite = { focus = ALB_end_dependence } 
 			prerequisite = { focus = ALB_crush_nolists } 
 			available = { 
+				has_completed_focus = ALB_albanianism
 			}
-			x = 4
+			x = 3
 			y = 13
 			cost = 8.6
 			ai_will_do = {
@@ -1184,6 +1281,8 @@ focus_tree = {
 			completion_reward = { 
 			}
 	}
+
+	### Cummies ###
 	
 	focus = {
 			id = ALB_revolution
@@ -1205,5 +1304,162 @@ focus_tree = {
 
 			completion_reward = {
 				custom_effect_tooltip = ROM_bypass_focus
+			}
+	}
+	
+	focus = {
+			id = ALB_chairman
+			icon = GFX_Communist_Pride
+			prerequisite = { focus = ALB_revolution } 
+			mutually_exclusive = { focus = ALB_committee }
+			available = { 
+			}
+			x = 16
+			y = 10
+			cost = 0
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+				custom_effect_tooltip = ROM_bypass_focus
+			}
+	}
+	
+	focus = {
+			id = ALB_internationalism
+			icon = GFX_World_Ablaze_Communist
+			prerequisite = { focus = ALB_chairman } 
+			available = { 
+			}
+			x = 16
+			y = 12
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_twenty_points
+			icon = GFX_goal_generic_soviet_construction
+			prerequisite = { focus = ALB_chairman } 
+			available = { 
+			}
+			x = 15
+			y = 11
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_committee
+			icon = GFX_goal_HOL_council_communism
+			prerequisite = { focus = ALB_revolution } 
+			mutually_exclusive = { focus = ALB_chairman }
+			available = { 
+			}
+			x = 20
+			y = 10
+			cost = 0
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+				custom_effect_tooltip = ROM_bypass_focus
+			}
+	}
+	
+	focus = {
+			id = ALB_integrate_liberals
+			icon = GFX_Political_Support
+			prerequisite = { focus = ALB_committee } 
+			available = { 
+			}
+			x = 21
+			y = 11
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_communist_nationalism
+			icon = GFX_ALB_nationalism
+			prerequisite = { focus = ALB_committee } 
+			available = { 
+			}
+			x = 20
+			y = 12
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_bunkers
+			icon = GFX_goal_skull_fortification
+			prerequisite = { focus = ALB_committee focus = ALB_chairman } 
+			available = { 
+			}
+			x = 17
+			y = 11
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = { #a young man named enver hoxha in our government has a strange fixation on these concrete husks.....
+			}
+	}
+	
+	focus = {
+			id = ALB_end_tribes
+			icon = GFX_Crush_the_Rebellion
+			prerequisite = { focus = ALB_committee focus = ALB_chairman } 
+			available = { 
+			}
+			x = 19
+			y = 11
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	focus = {
+			id = ALB_control_industry
+			icon = GFX_goal_syndicalist_industry
+			prerequisite = { focus = ALB_committee focus = ALB_chairman } 
+			available = { 
+			}
+			x = 18
+			y = 12
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
 			}
 	}

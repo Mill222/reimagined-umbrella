@@ -162,6 +162,7 @@ bookmarks = {
 			ideas = {
 				ALB_aristocracy
 				ALB_military_culture
+				ALB_illiteracy
 				ALB_italian_industry
 			}
 			focuses = {

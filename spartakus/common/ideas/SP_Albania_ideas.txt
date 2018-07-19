@@ -52,6 +52,32 @@ ideas = {
 				stability_factor = -0.1
 			}
 		}
+	
+		ALB_illiteracy = {
+			picture = Backwards_Technology
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				research_time_factor = 0.15
+			}
+		}
+	
+		ALB_illiteracy_2 = {
+			picture = Backwards_Technology
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				research_time_factor = 0.1
+			}
+		}
 	}
 
 ###################
