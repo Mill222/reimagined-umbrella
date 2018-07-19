@@ -99,7 +99,7 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = EGY
-	autonomous_state = sp_Brit_protectorate
+	autonomous_state = sp_EGY
 }
 set_autonomy = {
 	target = ADE

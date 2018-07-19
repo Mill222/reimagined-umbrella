@@ -322,7 +322,7 @@ technologies = {
 		}
 	}
 	
-	elephant_support = {
+	elephant_support = { #For Burma and Raj Breakaways
 		
 		allow = {
 			always = no
