@@ -181,6 +181,16 @@ bookmarks = {
 			}
 		}
 		
+		"SER"={
+			minor = yes
+			history = "SER_SP_GATHERING_STORM_DESC"
+			ideology = right_wing_populist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
