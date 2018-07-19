@@ -12,6 +12,15 @@ focus_tree = {
 		id = SER_End_of_The_Decade_of_Silence
 		icon = GFX_Crush_Resistance
 		cost = 3.00
+		
+		available = { always = no }
+		bypass = { has_country_flag = SER_May_Day }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_End_of_The_Decade_of_Silence"
+			country_event = { id = serbia.3 }
+		}
+		
 		x = 5
 		y = 0
 
@@ -20,6 +29,7 @@ focus_tree = {
 		id = SER_Bjelasi
 		icon = GFX_goal_unknown
 		cost = 2.00
+		available = { always = no }
 		mutually_exclusive = {
 			focus = SER_Keep_out_of_Montenegro
 		}
@@ -31,6 +41,7 @@ focus_tree = {
 		id = SER_Keep_out_of_Montenegro
 		icon = GFX_goal_unknown
 		cost = 2.00
+		available = { always = no }
 		mutually_exclusive = {
 			focus = SER_Bjelasi
 		}
@@ -39,22 +50,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SER_Mayday_Pressure
-		icon = GFX_goal_ideology_social_democrat
-		cost = 0.00
-		prerequisite = {
-			focus = SER_End_of_The_Decade_of_Silence
-		}
-		x = 5
-		y = 1
-
-	}
-	focus = {
 		id = SER_Adopt_a_Constitution
 		icon = GFX_goal_constitutional_guarantees
 		cost = 5.00
 		prerequisite = {
-			focus = SER_Mayday_Pressure
+			focus = SER_End_of_The_Decade_of_Silence
 		}
 		mutually_exclusive = {
 			focus = SER_One_Party_State
@@ -93,7 +93,7 @@ focus_tree = {
 		icon = GFX_goal_POR_royal_edicts
 		cost = 5.00
 		prerequisite = {
-			focus = SER_Mayday_Pressure
+			focus = SER_End_of_The_Decade_of_Silence
 		}
 		mutually_exclusive = {
 			focus = SER_Adopt_a_Constitution

@@ -1,0 +1,9 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			#SER = {
+				#news_event = { id = template.3 days = 331 }
+			}
+		}
+    }
+}

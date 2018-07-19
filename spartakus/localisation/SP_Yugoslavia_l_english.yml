@@ -1,0 +1,28 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+### Focuses ###
+
+### Ideas ###
+
+YUG_Very_Low_Desire_to_Form:0 "Very Low Desire to Form Yugoslavia"
+YUG_Very_Low_Desire_to_Form_desc:0 "Yugoslavism is generally considered a failed fantasy or contrary to the beliefs of the majority of this nation."
+YUG_Low_Desire_to_Form:0 "Low Desire to Form Yugoslavia"
+YUG_Low_Desire_to_Form_desc:0 "There is a small Yugoslavist movement present in this nation, but it's relegated to the fringe and is unlikely to break into the mainstream."
+YUG_Moderate_Desire_to_Form:0 "Moderate Desire to Form Yugoslavia"
+YUG_Moderate_Desire_to_Form_desc:0 "Yugoslavist ideas are fairly popular in parts of this country, and there's a noticeable presence of them in mainstream politics."
+YUG_Plurality_Desire_to_Form:0 "Plurality Desire to Form Yugoslavia"
+YUG_Plurality_Desire_to_Form_desc:0 "The nation is divided, but a plurality of the population supports the formation of a single Yugoslav nation, when factoring in the undecided."
+YUG_Majority_Desire_to_Form:0 "Majority Desire to Form Yugoslavia"
+YUG_Majority_Desire_to_Form_desc:0 "Over 50% of our nations population wants to form Yugoslavia. If a referendum were to be held today, they would surely win."
+YUG_Formed:0 "Yugoslavia Formed"
+YUG_Formed_desc:0 "Yugoslavia has been formed, and it will be seen as the bastion of South Slavic liberation from foreign rule."
+
+### Flags ###
+
+### Tooltips ###

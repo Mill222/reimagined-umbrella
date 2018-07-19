@@ -6,6 +6,7 @@ set_research_slots = 3
 
 add_ideas = {
 very_low_popularity
+YUG_Moderate_Desire_to_Form
 SER_The_Decade_of_Silence
 SER_Decree_on_the_Colonization_of_the_Southern_Regions
 limited_conscription

@@ -1,0 +1,49 @@
+### Yugoslav Ideas
+ideas = {
+    ##############
+    # Desire to Form Yugo
+    ##############
+
+    country = {
+	
+		# Start
+
+        YUG_Very_Low_Desire_to_Form = {
+            picture = Crying_Eye
+            modifier = {
+            }
+        }
+		
+		YUG_Low_Desire_to_Form = {
+            picture = Crying_Eye
+            modifier = {
+            }
+        }
+		
+		YUG_Moderate_Desire_to_Form = {
+            picture = Crying_Eye
+            modifier = {
+            }
+        }
+		
+		YUG_Plurality_Desire_to_Form = {
+            picture = Crying_Eye
+            modifier = {
+            }
+        }
+		
+		YUG_Majority_Desire_to_Form = {
+            picture = Crying_Eye
+            modifier = {
+            }
+        }
+		
+		YUG_Formed = {
+            picture = Crying_Eye
+            modifier = {
+            }
+        }
+		
+    }
+	
+}
