@@ -4783,4 +4783,24 @@ spriteTypes = {
 		name = "GFX_ALB_nationalism"
 		texturefile = "gfx/interface/goals/ALB_nationalism.tga"
 	}
+	SpriteType = {
+		name = "GFX_Sacrifices_Needed"
+		texturefile = "gfx/interface/goals/Sacrifices_Needed.tga"
+	}
+	SpriteType = {
+		name = "GFX_Prison_Camps"
+		texturefile = "gfx/interface/goals/Prison_Camps.tga"
+	}
+	SpriteType = {
+		name = "GFX_East_Asian_Recruits"
+		texturefile = "gfx/interface/goals/East_Asian_Recruits.tga"
+	}
+	SpriteType = {
+		name = "GFX_Burma_and_Raj_Flag_Focus"
+		texturefile = "gfx/interface/goals/Burma_and_Raj_Flag_Focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_Blood_for_Blood"
+		texturefile = "gfx/interface/goals/Blood_for_Blood.tga"
+	}
 }
