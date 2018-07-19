@@ -167,6 +167,18 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"NOR"={
+			minor = yes
+			history = "NOR_SP_GATHERING_STORM_DESC"
+			ideology = liberal_conservative
+			ideas = {
+				NOR_liberal_conservative_agreement_idea
+				NOR_recovering_economy_idea
+				NOR_anti_establishment_sentiments_idea
+			}
+			focuses = {
+			}
+		}
 		
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
