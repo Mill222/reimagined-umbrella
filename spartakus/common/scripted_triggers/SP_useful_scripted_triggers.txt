@@ -53,6 +53,60 @@ has_same_government_as_ROOT = {
 	}
 }
 
+# checks whether the country in scope has the same government as PREV (the previous scope)
+has_same_government_as_PREV = {
+	OR = {
+		AND = {
+			has_government = leninist
+			PREV = { has_government = leninist }
+		}
+		AND = {
+			has_government = marxist
+			PREV = { has_government = marxist }
+		}
+		AND = {
+			has_government = revolutionary_socialist
+			PREV = { has_government = revolutionary_socialist }
+		}
+		AND = {
+			has_government = democratic_socialist
+			PREV = { has_government = democratic_socialist }
+		}
+		AND = {
+			has_government = social_democrat
+			PREV = { has_government = social_democrat }
+		}
+		AND = {
+			has_government = social_liberal
+			PREV = { has_government = social_liberal }
+		}
+		AND = {
+			has_government = liberal_conservative
+			PREV = { has_government = liberal_conservative }
+		}
+		AND = {
+			has_government = social_conservative
+			PREV = { has_government = social_conservative }
+		}
+		AND = {
+			has_government = authoritarian_democrat
+			PREV = { has_government = authoritarian_democrat }
+		}
+		AND = {
+			has_government = right_wing_populist
+			PREV = { has_government = right_wing_populist }
+		}
+		AND = {
+			has_government = national_syndicalist
+			PREV = { has_government = national_syndicalist }
+		}
+		AND = {
+			has_government = national_corporatist
+			PREV = { has_government = national_corporatist }
+		}
+	}
+}
+
 # checks for these four government types for the country in scope
 has_socialist_government = {
 	OR = {

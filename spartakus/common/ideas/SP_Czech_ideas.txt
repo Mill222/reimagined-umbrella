@@ -155,7 +155,7 @@ ideas = {
 				national_corporatist_drift = -0.0005
 				marxist_drift = 0.0005
 			}
-			picture = GFX_idea_delnicka_straz
+			picture = GFX_Czech_Communists
 		}
 	}
 }

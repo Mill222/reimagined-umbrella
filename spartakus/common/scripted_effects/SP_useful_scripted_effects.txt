@@ -78,6 +78,54 @@ copy_government_of_ROOT = {
 	}
 }
 
+# changes the government of the country in scope to that of PREV (the previous scope)
+copy_government_of_PREV = {
+	if = {
+		limit = { PREV = { has_government = leninist } }
+		set_politics = { ruling_party = leninist elections_allowed = no }
+	}
+	if = {
+		limit = { PREV = { has_government = marxist } }
+		set_politics = { ruling_party = marxist elections_allowed = no }
+	}
+	if = {
+		limit = { PREV = { has_government = revolutionary_socialist } }
+		set_politics = { ruling_party = revolutionary_socialist elections_allowed = no }
+	}
+	if = {
+		limit = { PREV = { has_government = social_democrat } }
+		set_politics = { ruling_party = social_democrat elections_allowed = no }
+	}
+	if = {
+		limit = { PREV = { has_government = social_liberal } }
+		set_politics = { ruling_party = social_liberal elections_allowed = no }
+	}
+	if = {
+		limit = { PREV = { has_government = liberal_conservative } }
+		set_politics = { ruling_party = liberal_conservative elections_allowed = no }
+	}
+	if = {
+		limit = { PREV = { has_government = social_conservative } }
+		set_politics = { ruling_party = social_conservative elections_allowed = no }
+	}
+	if = {
+		limit = { PREV = { has_government = authoritarian_democrat } }
+		set_politics = { ruling_party = authoritarian_democrat elections_allowed = no }
+	}
+	if = {
+		limit = { PREV = { has_government = right_wing_populist } }
+		set_politics = { ruling_party = right_wing_populist elections_allowed = no }
+	}
+	if = {
+		limit = { PREV = { has_government = national_syndicalist } }
+		set_politics = { ruling_party = national_syndicalist elections_allowed = no }
+	}
+	if = {
+		limit = { PREV = { has_government = national_corporatist } }
+		set_politics = { ruling_party = national_corporatist elections_allowed = no }
+	}
+}
+
 # the following effects are excellent for preserving a puppet's government so it doesn't change to the overlord
 # use the first command in the scope of the about-to-be-puppeted country right before the puppet command is executed
 # and then the second, also in the scope of the puppet, right after
@@ -209,6 +257,48 @@ restore_previous_government_type = {
 			set_politics = { ruling_party = national_corporatist }
 		}
 		
+		add_popularity = { ideology = revolutionary_socialist popularity = -1.0 }
+		add_popularity = { ideology = revolutionary_socialist popularity = revsoc }
+		add_popularity = { ideology = marxist popularity = -1.0 }
+		add_popularity = { ideology = marxist popularity = marx }
+		add_popularity = { ideology = leninist popularity = -1.0 }
+		add_popularity = { ideology = leninist popularity = len }
+		add_popularity = { ideology = democratic_socialist popularity = -1.0 }
+		add_popularity = { ideology = democratic_socialist popularity = demsoc }
+		add_popularity = { ideology = social_democrat popularity = -1.0 }
+		add_popularity = { ideology = social_democrat popularity = socdem }
+		add_popularity = { ideology = social_liberal popularity = -1.0 }
+		add_popularity = { ideology = social_liberal popularity = soclib }
+		add_popularity = { ideology = liberal_conservative popularity = -1.0 }
+		add_popularity = { ideology = liberal_conservative popularity = libcon }
+		add_popularity = { ideology = social_conservative popularity = -1.0 }
+		add_popularity = { ideology = social_conservative popularity = soccon }
+		add_popularity = { ideology = authoritarian_democrat popularity = -1.0 }
+		add_popularity = { ideology = authoritarian_democrat popularity = authdem }
+		add_popularity = { ideology = right_wing_populist popularity = -1.0 }
+		add_popularity = { ideology = right_wing_populist popularity = ripop }
+		add_popularity = { ideology = national_syndicalist popularity = -1.0 }
+		add_popularity = { ideology = national_syndicalist popularity = natsyn }
+		add_popularity = { ideology = national_corporatist popularity = -1.0 }
+		add_popularity = { ideology = national_corporatist popularity = natcorp }
+		
+		clear_variable = revsoc
+		clear_variable = marx
+		clear_variable = len
+		clear_variable = demsoc
+		clear_variable = socdem
+		clear_variable = soclib
+		clear_variable = libcon
+		clear_variable = soccon
+		clear_variable = authdem
+		clear_variable = ripop
+		clear_variable = natsyn
+		clear_variable = natcorp
+	}
+}
+
+restore_previous_party_popularity = {
+	hidden_effect = {
 		add_popularity = { ideology = revolutionary_socialist popularity = -1.0 }
 		add_popularity = { ideology = revolutionary_socialist popularity = revsoc }
 		add_popularity = { ideology = marxist popularity = -1.0 }
