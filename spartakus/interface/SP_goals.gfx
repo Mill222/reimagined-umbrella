@@ -4835,4 +4835,12 @@ spriteTypes = {
 		name = "GFX_focus_red_army"
 		texturefile = "gfx/interface/goals/focus_red_army.tga"
 	}
+	SpriteType = {
+		name = "GFX_Nansen"
+		texturefile = "gfx/interface/goals/Nansen.tga"
+	}
+	SpriteType = {
+		name = "GFX_Norway_Diplomacy"
+		texturefile = "gfx/interface/goals/Norway_Diplomacy.tga"
+	}
 }

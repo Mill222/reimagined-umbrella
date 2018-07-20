@@ -2822,7 +2822,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_idolize_nansen
-		icon = GFX_goal_WIP
+		icon = GFX_Nansen
 		cost = 5,00
 		prerequisite = {
 			focus = NOR_reawake_nationalist_feelings
@@ -2919,7 +2919,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_our_foreign_policy
-		icon = GFX_goal_unknown
+		icon = GFX_Norway_Diplomacy
 		cost = 5,00
 		prerequisite = {
 			focus = NOR_centralized_power
@@ -2933,6 +2933,21 @@ focus_tree = {
 
 	}
 	focus = {
+		id = NOR_embassy_in_moscow
+		icon = GFX_focus_ger_strike_at_the_source
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_our_foreign_policy
+		}
+		x = 40
+		y = 8
+		
+		available = {
+			has_country_flag = NOR_pro_soviet_policy_flag
+		}
+
+	}
+	focus = {
 		id = NOR_join_sovetsglas
 		icon = GFX_focus_chi_mission_to_the_soviet_union
 		cost = 10,00
@@ -2942,8 +2957,23 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = NOR_join_rotfront
 		}
-		x = 42
+		x = 40
 		y = 9
+
+	}
+	focus = {
+		id = NOR_embassy_in_berlin
+		icon = GFX_goal_tripartite_pact
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_our_foreign_policy
+		}
+		x = 42
+		y = 8
+		
+		available = {
+			has_country_flag = NOR_pro_soviet_policy_flag
+		}
 
 	}
 	focus = {
@@ -2956,8 +2986,119 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = NOR_join_sovetsglas
 		}
+		x = 42
+		y = 9
+
+	}
+	focus = {
+		id = NOR_soviet_german_investment
+		icon = GFX_goal_generic_soviet_construction
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_join_sovetsglas
+			focus = NOR_join_rotfront
+		}
+		x = 41
+		y = 10
+
+	}
+	focus = {
+		id = NOR_affirm_norwegian_neutrality
+		icon = GFX_focus_generic_home_defense
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_our_foreign_policy
+		}
+		x = 45
+		y = 8
+		
+		available = {
+			has_country_flag = NOR_neutral_policy_flag
+		}
+
+	}
+	focus = {
+		id = NOR_armed_neutrality
+		icon = GFX_goal_generic_build_tank
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_affirm_norwegian_neutrality
+		}
 		x = 44
 		y = 9
+
+	}
+	focus = {
+		id = NOR_establish_home_guard
+		icon = GFX_focus_generic_little_entente
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_affirm_norwegian_neutrality
+		}
+		x = 46
+		y = 9
+
+	}
+	focus = {
+		id = NOR_propose_scandinavian_neutrality
+		icon = GFX_goal_NOR_scandinavia
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_armed_neutrality
+		}
+		prerequisite = {
+			focus = NOR_establish_home_guard
+		}
+		x = 45
+		y = 10
+
+	}
+	focus = {
+		id = NOR_improve_british_relations
+		icon = GFX_focus_chi_british_cooperation
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_our_foreign_policy
+		}
+		x = 49
+		y = 8
+		
+		available = {
+			has_country_flag = NOR_pro_british_policy_flag
+		}
+
+	}
+	focus = {
+		id = NOR_alliance_with_london
+		icon = GFX_goal_generic_alliance
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_improve_british_relations
+		}
+		x = 49
+		y = 9
+
+	}
+	focus = {
+		id = NOR_strengthen_economic_cooperation
+		icon = GFX_goal_generic_construction
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_alliance_with_london
+		}
+		x = 48
+		y = 10
+
+	}
+	focus = {
+		id = NOR_norvego_british_naval_agreements
+		icon = GFX_focus_generic_cruiser2
+		cost = 10,00
+		prerequisite = {
+			focus = NOR_alliance_with_london
+		}
+		x = 50
+		y = 10
 
 	}
 	focus = {
@@ -2967,8 +3108,12 @@ focus_tree = {
 		prerequisite = {
 			focus = NOR_our_foreign_policy
 		}
-		x = 56
+		x = 54
 		y = 8
+		
+		available = {
+			has_country_flag = NOR_expantionist_policy_flag
+		}
 
 	}
 	focus = {
@@ -2978,7 +3123,7 @@ focus_tree = {
 		prerequisite = {
 			focus = NOR_expantionist_norway
 		}
-		x = 54
+		x = 52
 		y = 9
 
 	}
@@ -2989,7 +3134,7 @@ focus_tree = {
 		prerequisite = {
 			focus = NOR_expantionist_norway
 		}
-		x = 56
+		x = 54
 		y = 9
 
 	}
@@ -3003,7 +3148,7 @@ focus_tree = {
 		prerequisite = {
 			focus = NOR_claim_shetland
 		}
-		x = 55
+		x = 53
 		y = 10
 
 	}
@@ -3014,7 +3159,7 @@ focus_tree = {
 		prerequisite = {
 			focus = NOR_expantionist_norway
 		}
-		x = 58
+		x = 56
 		y = 9
 
 	}
@@ -3025,25 +3170,8 @@ focus_tree = {
 		prerequisite = {
 			focus = NOR_claim_swedish_land
 		}
-		x = 58
+		x = 56
 		y = 10
-
-	}
-	focus = {
-		id = NOR_greater_norway
-		icon = GFX_goal_unknown
-		cost = 5,00
-		prerequisite = {
-			focus = NOR_claim_north_atlantic_territories
-		}
-		prerequisite = {
-			focus = NOR_claim_petsamo
-		}
-		mutually_exclusive = {
-			focus = NOR_scandinavian_dream
-		}
-		x = 57
-		y = 11
 
 	}
 	focus = {
@@ -3059,151 +3187,25 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = NOR_greater_norway
 		}
-		x = 55
+		x = 53
 		y = 11
 
 	}
 	focus = {
-		id = NOR_improve_british_relations
-		icon = GFX_focus_chi_british_cooperation
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_our_foreign_policy
-		}
-		mutually_exclusive = {
-			focus = NOR_affirm_norwegian_neutrality
-			focus = NOR_embassy_in_moscow
-			focus = NOR_embassy_in_berlin
-		}
-		x = 51
-		y = 8
-
-	}
-	focus = {
-		id = NOR_alliance_with_london
-		icon = GFX_goal_generic_alliance
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_improve_british_relations
-		}
-		x = 51
-		y = 9
-
-	}
-	focus = {
-		id = NOR_norvego_british_naval_agreements
-		icon = GFX_focus_generic_cruiser2
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_alliance_with_london
-		}
-		x = 52
-		y = 10
-
-	}
-	focus = {
-		id = NOR_strengthen_economic_cooperation
-		icon = GFX_goal_generic_construction
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_alliance_with_london
-		}
-		x = 50
-		y = 10
-
-	}
-	focus = {
-		id = NOR_affirm_norwegian_neutrality
-		icon = GFX_focus_generic_home_defense
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_our_foreign_policy
-		}
-		mutually_exclusive = {
-			focus = NOR_embassy_in_moscow
-			focus = NOR_embassy_in_berlin
-			focus = NOR_improve_british_relations
-		}
-		x = 47
-		y = 8
-
-	}
-	focus = {
-		id = NOR_armed_neutrality
-		icon = GFX_goal_generic_build_tank
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_affirm_norwegian_neutrality
-		}
-		x = 46
-		y = 9
-
-	}
-	focus = {
-		id = NOR_establish_home_guard
-		icon = GFX_focus_generic_little_entente
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_affirm_norwegian_neutrality
-		}
-		x = 48
-		y = 9
-
-	}
-	focus = {
-		id = NOR_propose_scandinavian_neutrality
+		id = NOR_greater_norway
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 5,00
 		prerequisite = {
-			focus = NOR_armed_neutrality
+			focus = NOR_claim_north_atlantic_territories
 		}
 		prerequisite = {
-			focus = NOR_establish_home_guard
-		}
-		x = 47
-		y = 10
-
-	}
-	focus = {
-		id = NOR_embassy_in_berlin
-		icon = GFX_goal_tripartite_pact
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_our_foreign_policy
+			focus = NOR_claim_petsamo
 		}
 		mutually_exclusive = {
-			focus = NOR_affirm_norwegian_neutrality
-			focus = NOR_improve_british_relations
+			focus = NOR_scandinavian_dream
 		}
-		x = 44
-		y = 8
-
-	}
-	focus = {
-		id = NOR_embassy_in_moscow
-		icon = GFX_focus_ger_strike_at_the_source
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_our_foreign_policy
-		}
-		mutually_exclusive = {
-			focus = NOR_affirm_norwegian_neutrality
-			focus = NOR_improve_british_relations
-		}
-		x = 42
-		y = 8
-
-	}
-	focus = {
-		id = NOR_soviet_german_investment
-		icon = GFX_goal_generic_soviet_construction
-		cost = 10,00
-		prerequisite = {
-			focus = NOR_join_sovetsglas
-			focus = NOR_join_rotfront
-		}
-		x = 43
-		y = 10
+		x = 55
+		y = 11
 
 	}
 }
