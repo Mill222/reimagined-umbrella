@@ -28,7 +28,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_UK_art_avantgarde"
-		texturefile = "gfx/interface/goals/UK_art_avantgarde.dds"
+		texturefile = "gfx/interface/goals/UK_art_avantgarde.tga"
 	}
 
 	#######################
@@ -4822,5 +4822,17 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Blood_for_Blood"
 		texturefile = "gfx/interface/goals/Blood_for_Blood.tga"
+	}
+	SpriteType = {
+		name = "GFX_Sell_the_Congo"
+		texturefile = "gfx/interface/goals/Sell_the_Congo.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_align_sinkiang"
+		texturefile = "gfx/interface/goals/focus_align_sinkiang.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_red_army"
+		texturefile = "gfx/interface/goals/focus_red_army.tga"
 	}
 }
