@@ -1,0 +1,19 @@
+state={
+	id=1172
+	name="STATE_1172"
+	provinces={
+		14554 
+	}
+	history={
+		owner = MNT
+		buildings = {
+			infrastructure = 3
+		}
+		add_claim_by = SER
+		add_core_of = MNT
+
+	}
+	manpower=32430
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}
