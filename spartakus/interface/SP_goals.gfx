@@ -4843,4 +4843,28 @@ spriteTypes = {
 		name = "GFX_Norway_Diplomacy"
 		texturefile = "gfx/interface/goals/Norway_Diplomacy.tga"
 	}
+	SpriteType = {
+		name = "GFX_Serbian_Infiltraitors"
+		texturefile = "gfx/interface/goals/Serbian_Infiltraitors.tga"
+	}
+	SpriteType = {
+		name = "GFX_Counter_Push"
+		texturefile = "gfx/interface/goals/Counter_Push.tga"
+	}
+	SpriteType = {
+		name = "GFX_British_Saboteurs"
+		texturefile = "gfx/interface/goals/British_Saboteurs.tga"
+	}
+	SpriteType = {
+		name = "GFX_Barrel_Puncher"
+		texturefile = "gfx/interface/goals/Barrel_Puncher.tga"
+	}
+	SpriteType = {
+		name = "GFX_Army_Factories"
+		texturefile = "gfx/interface/goals/Army_Factories.tga"
+	}
+	SpriteType = {
+		name = "GFX_Algerian_Partisans"
+		texturefile = "gfx/interface/goals/Algerian_Partisans.tga"
+	}
 }
