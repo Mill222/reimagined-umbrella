@@ -3,9 +3,24 @@
 ### Ideas ###
 ALB_aristocracy:0 "British Aristocracy"
 ALB_military_culture:0 "Albanian Kanun"
+ALB_military_culture_2:0 "Albanian Kanun"
 ALB_illiteracy:0 "Nationwide Illiteracy"
 ALB_illiteracy_2:0 "Illiteracy Problem"
 ALB_italian_industry:0 "Italian Economic Domination"
+ALB_italian_industry_2:0 "Foreign Economic Domination"
+ALB_italian_industry_3:0 "Foreign Economic Domination"
+ALB_italian_industry_4:0 "Foreign Economic Domination"
+ALB_urbanization_1:0 "Urbanizing Population"
+ALB_urbanization_2:0 "Urbanizing Population"
+ALB_employment:0 "Mass Employment"
+ALB_exploitation:0 "Natural Exploitation"
+ALB_exploitation_2:0 "Natural Exploitation"
+ALB_currency_crash:0 "Currency Crash"
+ALB_failing_business:0 "Mass Bankruptcy"
+ALB_trade_crisis:0 "Trade Crisis"
+ALB_depression_1:0 "Great Depression"
+ALB_depression_2:0 "Recovering from the Depression"
+ALB_local_excellence:0 "Local Expertise"
 
 ### Focuses ###
 ALB_industrialise:0 "Industrialize the Country!"
@@ -35,7 +50,7 @@ ALB_research:0 "Establish a Ministry of Education"
 
 ALB_depression:0 "From the Ashes"
 ALB_lek:0 "Stabilize the Lek"
-ALB_subsidies:0 "Subsidize Albanian Industry"
+ALB_subsidies:0 "Subsidize Albanian Business"
 ALB_trades:0 "Maintain Foreign Trade"
 ALB_temper_communism:0 "Temper Leftist Radicalism"
 ALB_blame_rich:0 "Blame the Bourgoisie"
@@ -126,18 +141,24 @@ ALB_national_syndicalist_party_long:0 "Zogists (Syndicalist)"
 ALB_national_corporatist_party:0 "Zogists (Corporatist)"
 ALB_national_corporatist_party_long:0 "Zogists (Corporatist)"
 
-### Tooltips ###
-alb_tt_funeral:0 "Herthe I has died"
+### Tooltips ###    
+alb_tt_funeral:0 "Herthe I has died\n"
+alb_tt_depression:0 "The Great Depression has struck\n"
+alb_tt_influence_establishment:0 "§GThis will increase Establishment influence!§!\n"
+alb_tt_influence_anti_establishment:0 "§RThis will increase Anti-Establishment influence!§!\n"
+alb_tt_influence_communists:0 "§RThis will increase KONARE influence!§!\n"
+alb_tt_influence_fascists:0 "§RThis will increase Zogist influence!§!\n"
+alb_tt_domination_swap:0 "Replace §YItalian Economic Domination§! with §YForeign Economic Domination§!\n"
 
 ### Decisions ###
-alb_tt_epirus_5:0 "Requires 5% Regional Tension§!"
-alb_tt_epirus_15:0 "Requires 15% Regional Tension§!"
-alb_tt_epirus_20:0 "Requires 20% Regional Tension§!"
-alb_tt_epirus_25:0 "Requires 25% Regional Tension§!"
-alb_tt_epirus_30:0 "Requires 30% Regional Tension§!"
-alb_tt_epirus_40:0 "Requires 40% Regional Tension§!"
-alb_tt_epirus_85:0 "Requires 85% Regional Tension§!"
-alb_tt_epirus_100:0 "Requires 100% Regional Tension§!"
+alb_tt_tension_5:0 "Requires 5% Regional Tension§!"
+alb_tt_tension_15:0 "Requires 15% Regional Tension§!"
+alb_tt_tension_20:0 "Requires 20% Regional Tension§!"
+alb_tt_tension_25:0 "Requires 25% Regional Tension§!"
+alb_tt_tension_30:0 "Requires 30% Regional Tension§!"
+alb_tt_tension_40:0 "Requires 40% Regional Tension§!"
+alb_tt_tension_85:0 "Requires 85% Regional Tension§!"
+alb_tt_tension_100:0 "Requires 100% Regional Tension§!"
 
 ALB_dec_cost_infantry_100:0 "£topbar_convoys §Y2§! £infantry_weapons_texticon §Y100§!"
 ALB_dec_cost_infantry_100_blocked:0 "£topbar_convoys §R2§! £infantry_weapons_texticon §R100§!"
@@ -151,7 +172,9 @@ ALB_dec_cost_mpxp_10025:0 "£manpower_texticon §Y100§! £army_experience §Y25
 ALB_dec_cost_mpxp_10025_blocked:0 "£manpower_texticon §R100§! £army_experience §R25§!"
 ALB_dec_cost_mpxp_10025_tooltip:0 "It costs 100 £manpower_texticon Manpower and 25 £army_experience to select this."
     
-### Opinion Modifiers ###
+### Opinion Modifiers ### 
+ALB_om_investment:0 "Positive Economic Relations"
+ALB_om_nationalization:0 "Nationalized Industry"
 
 ### Decisions ###
 ALB_decisions_epirus:0 "Gjirokastër Conflict"
@@ -168,6 +191,23 @@ ALB_dec_epirus_troops:0 "Send Covert Troops  §R+10%§!"
 ALB_dec_epirus_officers:0 "Send Military Advisors  §R+7%§!"
 ALB_dec_greek_conference:0 "Hold Diplomatic Talks §G-5%§!"
 ALB_dec_greek_war:0 "Cross the Border  §RWar with Greece!§!"
+
+ALB_decisions_kosovo:0 "Kosovo Conflict"
+ALB_decisions_kosovo_desc:0 "Now under the leadership of a truly Albanian national government, we can begin to work to free our countrymen to the north in Serb captivity. \n\nHere we can take a number of covert actions in occupied territory to raise nationalist consciousness and the §Rtension§! in the region. As §Rtension§! rises, we will unlock new decisions and choices on our approach. \n\n Regional Tension at:  §R[?ALB.kosovo_conflict|0]%§!"
+ALB_dec_kosovo_rally:0 "Hold Nationalist Rally  §R+2%§!"
+ALB_dec_kosovo_pamphlets_1:0 "Distribute Seperatist Pamphlets (1/3)  §Rx1.2%§!"
+ALB_dec_kosovo_pamphlets_1_desc:0 "Literature will enable us to rapidly disseminate a nationalist message among the Albanian population in Kosovo, however because literacy is rare in the region, there is a low ceiling to how many people we can reach with this tactic. Let us use it wisely."
+ALB_dec_kosovo_pamphlets_2:0 "Distribute Seperatist Pamphlets (2/3)  §Rx1.3%§!"
+ALB_dec_kosovo_pamphlets_2_desc:0 "Literature will enable us to rapidly disseminate a nationalist message among the Albanian population in Kosovo, however because literacy is rare in the region, there is a low ceiling to how many people we can reach with this tactic. Let us use it wisely."
+ALB_dec_kosovo_pamphlets_3:0 "Distribute Seperatist Pamphlets (3/3)  §Rx1.4%§!"
+ALB_dec_kosovo_pamphlets_3_desc:0 "Literature will enable us to rapidly disseminate a nationalist message among the Albanian population in Kosovo, however because literacy is rare in the region, there is a low ceiling to how many people we can reach with this tactic. Let us use it wisely."
+ALB_dec_kosovo_weapons:0 "Smuggle in Weapons  §R+5%§!"
+ALB_dec_kosovo_troops:0 "Send Covert Troops  §R+10%§!"
+ALB_dec_kosovo_officers:0 "Send Military Advisors  §R+7%§!"
+ALB_dec_kosovo_conference:0 "Hold Diplomatic Talks §G-5%§!"
+ALB_dec_kosovo_war:0 "Cross the Border  §RWar with Serbia!§!"
+
+ALB_decisions_investment:0 "Foreign Investment"
 
 ## Events ##
 alb.1.t:0 "The Kingdom of Albania"
@@ -189,6 +229,10 @@ alb.4.a:0 "This is the future!"
 alb.5.t:0 "King Alban Coronated"
 alb.5.d:0 ""
 alb.5.a:0 "Long live the King!"
+
+alb.6.t:0 "The Great Depression!"
+alb.6.d:0 ""
+alb.6.a:0 "Blast!"
 
 ## Misc ##
 ALB_blind:0 "The Blind King"

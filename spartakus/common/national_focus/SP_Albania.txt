@@ -26,12 +26,27 @@ focus_tree = {
 			}
 			x = 5
 			y = 0
-			cost = 5
+			cost = 2
 			ai_will_do = {
 				factor = 50
 			}
 
 			completion_reward = {	
+				add_political_power = 50
+				add_stability = 0.05 
+				44 = { 
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 2
+				}
 			}
 	}
 	
@@ -49,6 +64,22 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				1177 = { 
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 2
+				}
+				1171 = { 
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 2
+				}
 			}
 	}
 	
@@ -66,6 +97,34 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				1177 = { 
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				1171 = { 
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				44 = { 
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				1178 = { 
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
 			}
 	}
 	
@@ -85,6 +144,19 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				add_ideas = ALB_urbanization_1
+				44 = { 
+					add_manpower = 70000
+				}
+				1178 = { 
+					add_manpower = 40000
+				}
+				1177 = { 
+					add_manpower = -70000
+				}
+				1171 = { 
+					add_manpower = -40000
+				}
 			}
 	}
 	
@@ -102,6 +174,12 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				44 = { 
+					add_extra_state_shared_building_slots = 3
+				}
+				1178 = { 
+					add_extra_state_shared_building_slots = 3
+				}
 			}
 	}
 	
@@ -119,6 +197,32 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				44 = { 
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 1
+				}
+				1178 = { 
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 1
+				}
 			}
 	}
 	
@@ -137,6 +241,32 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				44 = { 
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 3
+				}
+				1178 = { 
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 2
+				}
 			}
 	}
 	
@@ -154,6 +284,10 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				swap_ideas = {
+					add_idea = ALB_urbanization_2
+					remove_idea = ALB_urbanization_1
+				}
 			}
 	}
 	
@@ -171,6 +305,7 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				add_ideas = ALB_employment	
 			}
 	}
 	
@@ -190,6 +325,13 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				add_ideas = ALB_exploitation
+				1177 = { 
+					add_extra_state_shared_building_slots = 2
+				}
+				1171 = { 
+					add_extra_state_shared_building_slots = 2
+				}
 			}
 	}
 	
@@ -207,6 +349,25 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				1177 = { 
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				1171 = { 
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				add_resource = {
+					type = aluminium
+					amount = 4
+					state = 1177
+				}
 			}
 	}
 	
@@ -224,6 +385,16 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				add_resource = {
+					type = oil
+					amount = 4
+					state = 44
+				}
+				add_resource = {
+					type = oil
+					amount = 1
+					state = 1178
+				}
 			}
 	}
 	
@@ -241,6 +412,10 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				swap_ideas = {
+					add_idea = ALB_exploitation_2
+					remove_idea = ALB_exploitation
+				}
 			}
 	}
 	
@@ -258,6 +433,18 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				1171 = { 
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				add_tech_bonus = {
+					bonus = 0.3
+					uses = 3
+					category = electronics
+				}
 			}
 	}
 	
@@ -276,24 +463,37 @@ focus_tree = {
 			}
 
 			completion_reward = {
-			}
-	}
-	
-	focus = {
-			id = ALB_northern_factories
-			icon = GFX_goal_factory_complex
-			prerequisite = { focus = ALB_oil } 
-			prerequisite = { focus = ALB_dams } 
-			available = { 
-			}
-			x = 5
-			y = 6
-			cost = 8.6
-			ai_will_do = {
-				factor = 50
-			}
-
-			completion_reward = {
+				1177 = { 
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 3
+				}
+				1171 = { 
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 2
+				}
+				add_resource = {
+					type = aluminum
+					amount = 2
+					state = 1177
+				}
 			}
 	}
 	
@@ -335,6 +535,20 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				44 = { 
+					add_building_construction = {
+						type = naval_base
+						level = 2
+						instant_build = yes
+						province = 9914
+					}
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 2
+				}
 			}
 	}
 	
@@ -352,6 +566,10 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				swap_ideas = {
+					add_idea = ALB_military_culture_2
+					remove_idea = ALB_military_culture
+				}
 			}
 	}
 	
@@ -370,6 +588,30 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				custom_effect_tooltip = alb_tt_influence_anti_establishment
+				remove_ideas = ALB_italian_industry
+				ITA = {
+					add_opinion_modifier = {
+						target = ALB
+						modifier = ALB_om_nationalization
+					}
+				}
+				44 = { 
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 2
+				}
+				1178 = { 
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 1
+				}
 			}
 	}
 	
@@ -387,6 +629,7 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				add_ideas = ALB_local_excellence
 			}
 	}
 	
@@ -422,7 +665,34 @@ focus_tree = {
 				factor = 50
 			}
 
-			completion_reward = {
+			completion_reward = { #unlock some investment decisions
+				custom_effect_tooltip = alb_tt_influence_establishment
+				unlock_decision_category_tooltip = ALB_decisions_investment
+				ITA = {
+					add_opinion_modifier = {
+						target = ALB
+						modifier = ALB_om_investment
+					}
+				}	
+				ENG = {
+					add_opinion_modifier = {
+						target = ALB
+						modifier = ALB_om_investment
+					}
+				}	
+				FRA = {
+					add_opinion_modifier = {
+						target = ALB
+						modifier = ALB_om_investment
+					}
+				}
+				custom_effect_tooltip = alb_tt_domination_swap
+				hidden_effect = {
+					swap_ideas = {
+						add_idea = ALB_italian_industry_2
+						remove_idea = ALB_italian_industry
+					}
+				}
 			}
 	}
 	
@@ -440,6 +710,10 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				swap_ideas = {
+					add_idea = ALB_italian_industry_3
+					remove_idea = ALB_italian_industry_2
+				}	
 			}
 	}
 	
@@ -457,6 +731,10 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				swap_ideas = {
+					add_idea = ALB_italian_industry_4
+					remove_idea = ALB_italian_industry_3
+				}
 				add_research_slot = 1
 			}
 	}
@@ -467,7 +745,10 @@ focus_tree = {
 			id = ALB_depression
 			icon = GFX_goal_bankruptcy
 			available = {
-				has_idea = ALB_idea_depression
+				custom_trigger_tooltip = {
+					tooltip = alb_tt_depression
+					has_country_flag = ALB_depression_flag
+				}
 			}
 			x = 13
 			y = 0
@@ -477,6 +758,8 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				add_political_power = 25	
+				add_stability = 0.05
 			}
 	}
 	
@@ -493,7 +776,8 @@ focus_tree = {
 				factor = 50
 			}
 
-			completion_reward = {
+			completion_reward = {	
+				remove_ideas = ALB_currency_crash
 			}
 	}
 	
@@ -511,6 +795,7 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				remove_ideas = ALB_failing_business
 			}
 	}
 	
@@ -528,6 +813,7 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				remove_ideas = ALB_trade_crisis
 			}
 	}
 	
@@ -548,6 +834,24 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				custom_effect_tooltip = alb_tt_influence_fascists
+				add_popularity = {
+					ideology = leninist
+					popularity = -0.02
+				}
+				add_popularity = {
+					ideology = marxist
+					popularity = -0.02
+				}
+				add_popularity = {
+					ideology = revolutionary_socialist
+					popularity = -0.02
+				}
+				swap_ideas = {
+					add_idea = ALB_depression_2
+					remove_idea = ALB_depression_1
+				}
+
 			}
 	}
 	
@@ -568,6 +872,23 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				custom_effect_tooltip = alb_tt_influence_communists
+				add_popularity = {
+					ideology = leninist
+					popularity = 0.03
+				}
+				add_popularity = {
+					ideology = marxist
+					popularity = 0.03
+				}
+				add_popularity = {
+					ideology = revolutionary_socialist
+					popularity = 0.05
+				}
+				swap_ideas = {
+					add_idea = ALB_depression_2
+					remove_idea = ALB_depression_1
+				}
 			}
 	}
 	
@@ -585,6 +906,9 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				add_stability = 0.1
+				add_political_power = 100
+				remove_ideas = ALB_depression_2
 			}
 	}
 	
@@ -603,6 +927,7 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				army_experience = 10
 			}
 	}
 	
@@ -621,6 +946,7 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				custom_effect_tooltip = alb_tt_influence_anti_establishment
 			}
 	}
 	
@@ -639,6 +965,7 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				custom_effect_tooltip = alb_tt_influence_establishment
 			}
 	}
 	
@@ -1113,6 +1440,10 @@ focus_tree = {
 			}
 
 			completion_reward = { 
+				1173 = { add_core_of = ALB }
+				1176 = { add_core_of = ALB }
+				1172 = { add_core_of = ALB }
+				1174 = { add_core_of = ALB }
 			}
 	}
 	
@@ -1410,6 +1741,9 @@ focus_tree = {
 			}
 
 			completion_reward = {
+				1173 = { add_core_of = ALB }
+				1172 = { add_core_of = ALB }
+				1174 = { add_core_of = ALB }
 			}
 	}
 	

@@ -14,6 +14,11 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/ALB_map.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_ALB_ceremony"
+		texturefile = "gfx/event_pictures/ALB_ceremony.dds"
+	}
+	
 	#Portugal
 	
 	spriteType = {

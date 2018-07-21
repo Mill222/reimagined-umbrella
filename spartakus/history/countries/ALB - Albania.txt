@@ -1,8 +1,8 @@
 ﻿capital = 44
 
 OOB = "ALB"
-set_stability = 0.3
-set_war_support = 0.4
+set_stability = 0.4
+set_war_support = 0.5
 
 set_technology = {
 	infantry_weapons = 1
@@ -74,7 +74,7 @@ set_convoys = 5
 create_country_leader = {
 	name = "Fan Noli"
 	desc = ""
-	picture = ""
+	picture = "Portrait_ALB_Noli.tga"
 	expire = "1965.1.1"
 	ideology = leninist_subtype
 	traits = {
@@ -84,7 +84,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Fan Noli"
 	desc = ""
-	picture = ""
+	picture = "Portrait_ALB_Noli.tga"
 	expire = "1965.1.1"
 	ideology = marxist_subtype
 	traits = {
@@ -94,7 +94,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Fan Noli"
 	desc = ""
-	picture = ""
+	picture = "Portrait_ALB_Noli.tga"
 	expire = "1965.1.1"
 	ideology = revolutionary_socialist_subtype
 	traits = {
@@ -110,6 +110,16 @@ create_country_leader = {
 	traits = {
 	}
 }
+
+create_country_leader = {
+	name = "Kolë Tromara"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}	
 
 create_country_leader = {
 	name = "Herthe I"

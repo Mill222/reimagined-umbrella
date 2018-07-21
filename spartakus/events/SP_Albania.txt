@@ -13,6 +13,28 @@ country_event = { # Intro
 	}
 }
 
+country_event = { # Great Depression
+	id = alb.6
+	title = alb.6.t
+	desc = alb.6.d
+	picture = GFX_darkestday3
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = alb.6.a
+		add_ideas = {
+			ALB_depression_1
+			ALB_currency_crash
+			ALB_failing_business
+			ALB_trade_crisis
+		}
+		hidden_effect = { 
+			set_country_flag = ALB_depression_flag
+		}
+	}
+}
+
 ### 					###
 ###  GENERAL POLITICAL  ###
 ### 					###
@@ -21,7 +43,7 @@ country_event = { # Herthe's Death
 	id = alb.2
 	title = alb.2.t
 	desc = alb.2.d
-	picture = GFX_ALB_map
+	picture = GFX_report_event_generic_funeral
 	
 	is_triggered_only = yes
 	
@@ -38,12 +60,15 @@ country_event = { # Zogist Coup
 	id = alb.3
 	title = alb.3.t
 	desc = alb.3.d
-	picture = GFX_ALB_map
+	picture = GFX_report_event_romanian_soldiers
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = alb.3.a
+		set_politics = {
+			ruling_party = national_corporatist
+		}
 		hidden_effect = { 
 			set_country_flag = zogist_government 
 			complete_national_focus = ALB_coup
@@ -55,12 +80,15 @@ country_event = { # Nolist Revolution
 	id = alb.4
 	title = alb.4.t
 	desc = alb.4.d
-	picture = GFX_ALB_map
+	picture = GFX_report_event_generic_riot
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = alb.4.a
+		set_politics = {
+			ruling_party = revolutionary_socialist
+		}
 		hidden_effect = { 
 			set_country_flag = nolist_government 
 			complete_national_focus = ALB_revolution
@@ -72,7 +100,7 @@ country_event = { # King Alban Coronated
 	id = alb.5
 	title = alb.5.t
 	desc = alb.5.d
-	picture = GFX_ALB_map
+	picture = GFX_ALB_ceremony
 	
 	is_triggered_only = yes
 	
