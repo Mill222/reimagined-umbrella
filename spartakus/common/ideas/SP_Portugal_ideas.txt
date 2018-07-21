@@ -293,6 +293,37 @@ country = {
 		removal_cost = -1
 		picture = idea_generic_trade
 	}
+	
+	POR_plane_production = {
+		allowed = {always = no}
+		modifier = {
+				industrial_capacity_factory = 0.05
+				production_speed_anti_air_building_factor = 0.05
+				production_speed_air_base_factor = 0.05
+			}
+		removal_cost = -1
+		picture = idea_air_support_focus
+	}
+	
+	POR_delgado_doctrine = {
+		allowed = {always = no}
+		modifier = {
+			air_close_air_support_attack_factor = 0.05
+			air_strategic_bomber_bombing_factor = 0.05
+		}
+		removal_cost = -1
+		picture = idea_air_support_focus
+	}
+	
+	POR_beires_doctrine = {
+		allowed = {always = no}
+		modifier = {
+			air_air_superiority_attack_factor = 0.05
+			air_interception_agility_factor = 0.05
+		}
+		removal_cost = -1
+		picture = idea_air_support_focus
+	}
 }
 
 ##############
