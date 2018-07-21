@@ -537,5 +537,28 @@ spriteTypes = {
 		name = "GFX_idea_Kosovo_Flames"
 		texturefile = "gfx/interface/ideas/SER/Kosovo_Flames.dds"
 	}
+	
+	# Yugoslavia
+	
+	spriteType = {
+		name = "GFX_idea_Yug_Support_1"
+		texturefile = "gfx/interface/ideas/YUG/Yug_Support_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Yug_Support_2"
+		texturefile = "gfx/interface/ideas/YUG/Yug_Support_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Yug_Support_3"
+		texturefile = "gfx/interface/ideas/YUG/Yug_Support_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Yug_Support_4"
+		texturefile = "gfx/interface/ideas/YUG/Yug_Support_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Yug_Support_5"
+		texturefile = "gfx/interface/ideas/YUG/Yug_Support_5.dds"
+	}
 		
 }

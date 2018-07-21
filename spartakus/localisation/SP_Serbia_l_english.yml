@@ -1,9 +1,8 @@
 ﻿l_english:
 
 ### Bookmark ###
-SER_SP_GATHERING_STORM_DESC:0 "The Adriatic War was sparked by the Italians supporting the anti-Yugoslav elements in Montenegro, and tore apart the newly formed Kingdom of Serbs, Croats and Slovenes, splitting among three states.
 
-The loss of all Great War gains caused mass unrest in Serbia, and in order to prevent it from escalating further, the parliament was suspended and all political organizations were banned. However, 10 years have passed since then, and King Alexander’s power is caving under pressure and various concessions to underground organizer and activists. He is massively unpopular, and probably won’t hold up for long."
+SER_SP_GATHERING_STORM_DESC:0 "The Adriatic War was sparked by the Italians supporting the anti-Yugoslav elements in Montenegro, and tore apart the newly formed Kingdom of Serbs, Croats and Slovenes, splitting among three states. The loss of all Great War gains caused mass unrest in Serbia, and in order to prevent it from escalating further, the parliament was suspended and all political organizations were banned. However, 10 years have passed since then, and King Alexander’s power is caving under pressure and various concessions to underground organizer and activists. He is massively unpopular, and probably won’t hold up for long."
 
 ### Opinions ###
 
@@ -149,3 +148,5 @@ SER_Decree_on_the_Colonization_of_the_Southern_Regions_desc:0 "The Decree on the
 
 ### Tooltips ###
 SER_May_Day:0 "May Day Pressure"
+
+### Equipment ###

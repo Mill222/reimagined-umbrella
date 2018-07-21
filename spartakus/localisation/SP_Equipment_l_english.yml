@@ -7459,9 +7459,35 @@ SAF_cv_fighter_equipment_3_short:0 "Firefly"
 
 ### Land ###
 
+SER_infantry_equipment_0:0 "Mannlicher 1895"
+SER_infantry_equipment_0_short:0 "Mannlicher 1895"
+SER_infantry_equipment_1:0 "Užički M1924"
+SER_infantry_equipment_1_short:0 "Užički M24"
+SER_infantry_equipment_2:0 "Erma Maschinenpistole"
+SER_infantry_equipment_2_short:0 "EMP"
+SER_infantry_equipment_3:0 "Užički S1937"
+SER_infantry_equipment_3_short:0 "Užički S37"
+SER_infantry_equipment_4:0 "Užički S1943"
+SER_infantry_equipment_4_short:0 "Užički S43"
+SER_infantry_equipment_5:0 "Užički S1949"
+SER_infantry_equipment_5_short:0 "Užički S49"
+
 ### Sea ###
 
 ### Air ###
+
+SER_fighter_equipment_0:0 "Fizir F1V"
+SER_fighter_equipment_0_short:0 "Fizir F1V"
+SER_fighter_equipment_1:0 "Ikarus IK-2"
+SER_fighter_equipment_1_short:0 "Ikarus IK-2"
+SER_fighter_equipment_2:0 "Rogožarski IK-3"
+SER_fighter_equipment_2_short:0 "Rogožarski IK-3"
+SER_fighter_equipment_3:0 "Ikarus S-49"
+SER_fighter_equipment_3_short:0 "Ikarus S-49"
+SER_jet_fighter_equipment_1:0 "Ikarus S-451"
+SER_jet_fighter_equipment_1_short:0 "Ikarus S-451M"
+SER_jet_fighter_equipment_2:0 "451MM Stršljen"
+SER_jet_fighter_equipment_2_short:0 "451MM Stršljen"
 
 ###
 ### Kingdom of Siam ###

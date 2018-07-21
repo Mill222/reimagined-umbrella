@@ -1538,8 +1538,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_mic
-		icon = GFX_goal_generic_construct_mil_factory
+		id = POR_expanded_military_arsenals
+		icon = GFX_Army_Factories
 		relative_position_id = POR_army
 		prerequisite = { focus = POR_army } 		
 		x = 1
@@ -1580,8 +1580,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_motorized_dragoons
-		icon = GFX_goal_generic_army_motorized
+		id = POR_logistical_improvements
+		icon = GFX_Old_Train
 		relative_position_id = POR_army
 		prerequisite = { focus = POR_army } 		
 		x = -1
@@ -1598,11 +1598,11 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_buildnavapower
-		icon = GFX_goal_generic_build_navy
+		id = POR_tactics_for_a_new_era
+		icon = GFX_focus_red_army
 		relative_position_id = POR_army
-		prerequisite = { focus = POR_mic } 	
-		prerequisite = { focus = POR_motorized_dragoons } 			
+		prerequisite = { focus = POR_expanded_military_arsenals } 	
+		prerequisite = { focus = POR_logistical_improvements } 			
 		x = 0
 		y = 2
 		cost = 8.6
@@ -1627,11 +1627,11 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_miltech
+		id = POR_superior_firepower
 		icon = GFX_goal_doctrine_fire_superiority
 		relative_position_id = POR_army
-		prerequisite = { focus = POR_buildnavapower}
-		mutually_exclusive = { focus = POR_milindu }		
+		prerequisite = { focus = POR_tactics_for_a_new_era}
+		mutually_exclusive = { focus = POR_grand_battleplan }		
 		x = -1
 		y = 3
 		cost = 8.6
@@ -1646,10 +1646,10 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_prodeff2
+		id = POR_superior_firepower_2
 		icon = GFX_goal_offensive_army
 		relative_position_id = POR_army
-		prerequisite = { focus = POR_miltech }
+		prerequisite = { focus = POR_superior_firepower }
 		x = -1
 		y = 4
 		cost = 8.6
@@ -1658,11 +1658,11 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_milindu
+		id = POR_grand_battleplan
 		icon = GFX_The_Big_Push
 		relative_position_id = POR_army
-		prerequisite = { focus = POR_buildnavapower }
-		mutually_exclusive = { focus = POR_miltech }
+		prerequisite = { focus = POR_tactics_for_a_new_era }
+		mutually_exclusive = { focus = POR_superior_firepower }
 		x = 1
 		y = 3
 		cost = 8.6
@@ -1701,10 +1701,10 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_prodeff
+		id = POR_grand_battleplan_2
 		icon = GFX_Swing_the_Sword
 		relative_position_id = POR_army
-		prerequisite = { focus = POR_milindu }
+		prerequisite = { focus = POR_grand_battleplan }
 		x = 1
 		y = 4
 		cost = 8.6
@@ -1901,10 +1901,10 @@ focus_tree = {
 	
 	focus = {
 		id = POR_an_army_reborn
-		icon = GFX_focus_prc_infiltration
+		icon = GFX_Army_March
 		relative_position_id = POR_army
-		prerequisite = { focus = POR_prodeff }
-		prerequisite = { focus = POR_prodeff2 }
+		prerequisite = { focus = POR_grand_battleplan_2 }
+		prerequisite = { focus = POR_superior_firepower_2 }
 		prerequisite = { focus = POR_establish_proper_reserves }
 		prerequisite = { focus = POR_modern_communications_systems } 		
 		x = 0
@@ -1951,8 +1951,10 @@ focus_tree = {
 		relative_position_id = POR_army
 		x = 8
 		y = 1
-		cost = 8.6
-		completion_reward = {	
+		cost = 5
+		completion_reward = {
+			add_war_support = 0.025
+			air_experience = 25
 					if = {
 				limit = {
 					capital_scope = {
@@ -2005,22 +2007,53 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_air_superiority
-		icon = GFX_goal_generic_air_fighter
+		id = POR_anti_air
+		icon = GFX_goal_anti_air
 		prerequisite = { focus = POR_airforce }
 		relative_position_id = POR_airforce
 		x = -2
 		y = 1
 		cost = 8.6
+		completion_reward = {
+			add_stability = 0.025
+			112 = {
+				add_building_construction = {
+				type = anti_air_building
+				level = 2
+				instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_enhanced_plane_production
+		icon = GFX_goal_industry_air
+		relative_position_id = POR_airforce
+		prerequisite = { focus = POR_anti_air } 		
+		x = -2
+		y = 2
+		cost = 8.6
 		completion_reward = {	
-		add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 0.55
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
+			add_ideas = POR_plane_production
+		}
+	}
+	
+	focus = {
+		id = POR_new_air_doctrines
+		icon = GFX_goal_generic_air_doctrine
+		relative_position_id = POR_airforce
+		prerequisite = { focus = POR_enhanced_plane_production } 		
+		x = -2
+		y = 3
+		cost = 8.6
+		completion_reward = {
+			air_experience = 5
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
 			}	
 		}
 	}
@@ -2035,148 +2068,123 @@ focus_tree = {
 		y = 1
 		cost = 8.6
 		completion_reward = {
+		add_ideas = POR_delgado_doctrine
+		air_experience = 10
 		add_tech_bonus = {		
-			name = bomber_bonus
+			name = air_doc_bonus
 				bonus = 0.5
-				uses = 2
-				category = tactical_bomber
+				uses = 1
+				category = strategic_destruction_tree
 			}
-		}
-		}
-
-	
-	focus = {
-		id = POR_fighterefforto
-		icon = GFX_goal_generic_air_fighter2
-		relative_position_id = POR_airforce
-		prerequisite = { focus = POR_air_superiority } 		
-		x = -2
-		y = 2
-		cost = 8.6
-		completion_reward = {	
-				add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 0.55
-				uses = 2
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}	
 		}
 	}
 	
 	focus = {
 		id = POR_cas
-		icon = GFX_goal_generic_CAS
+		icon = GFX_goal_bombs_away
 		relative_position_id = POR_airforce
 		prerequisite = { focus = POR_bomber } 		
 		x = 0
 		y = 2
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+		air_experience = 25
 		add_tech_bonus = {
 				name = CAS_bonus
 				bonus = 0.5
-				ahead_reduction = 1
 				uses = 1
 				category = cas_bomber
-			}	
-		}
-	}
-	
-	focus = {
-		id = POR_projection_of_airpower
-		icon = GFX_goal_generic_air_doctrine
-		relative_position_id = POR_airforce
-		prerequisite = { focus = POR_fighterefforto } 		
-		x = -2
-		y = 3
-		cost = 8.6
-		completion_reward = {	
-        add_tech_bonus = {
-				name = air_doc_bonus
-				bonus = 0.5
-				uses = 2
-				category = air_doctrine
 			}	
 		}
 	}
 	
 	focus = {
 		id = POR_strategic_bomber
-		icon = GFX_goal_poland_goal
+		icon = GFX_Aerial_Offensive
 		prerequisite = { focus = POR_cas } 		
 		relative_position_id = POR_airforce
 		x = 0
 		y = 3
 		cost = 8.6
-		completion_reward = {	
-		 add_tech_bonus = {
-			name = bomber_bonus
-				bonus = 0.5
-				uses = 2
-				technology = strategic_bomber1
-				technology = strategic_bomber2
-				technology = strategic_bomber3
-			}	
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {		
+				name = air_doc_bonus
+					bonus = 0.5
+					uses = 1
+					category = strategic_destruction_tree
+				}
+			add_tech_bonus = {
+				name = bomber_bonus
+					bonus = 0.5
+					uses = 1
+					category = cat_strategic_bomber
+				}	
 		}
 	}
 	
 	focus = {
 		id = POR_all_around
-		icon = GFX_goal_generic_CAS
+		icon = GFX_Aerial_Fleet_2
 		mutually_exclusive = { focus = POR_bomber }
 		relative_position_id = POR_airforce
 		prerequisite = { focus = POR_airforce } 		
 		x = 2
 		y = 1
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+		add_ideas = POR_beires_doctrine
+		air_experience = 10
 		add_tech_bonus = {
-				name = CAS_bonus
+				name = air_doc_bonus
 				bonus = 0.5
-				ahead_reduction = 1
 				uses = 1
-				category = cas_bomber
+				category = operational_integrity_tree
 			}	
 		}
 	}
 	
 	focus = {
-		id = POR_heavy_fighters
-		icon = GFX_goal_generic_air_doctrine
+		id = POR_fighters
+		icon = GFX_goal_generic_air_fighter2
 		relative_position_id = POR_airforce
 		prerequisite = { focus = POR_all_around } 		
 		x = 2
 		y = 2
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+		air_experience = 25
         add_tech_bonus = {
-				name = air_doc_bonus
-				bonus = 0.5
-				uses = 2
-				category = air_doctrine
-			}	
+				name = fighter_bonus
+					bonus = 0.5
+					uses = 1
+					category = light_fighter
+				}	
 		}
 	}
 	
 	focus = {
 		id = POR_tactical_bombing
-		icon = GFX_goal_poland_goal
-		prerequisite = { focus = POR_heavy_fighters } 		
+		icon = GFX_Aerial_Fleet
+		prerequisite = { focus = POR_fighters } 		
 		relative_position_id = POR_airforce
 		x = 2
 		y = 3
 		cost = 8.6
-		completion_reward = {	
-		 add_tech_bonus = {
-			name = bomber_bonus
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = air_doc_bonus
 				bonus = 0.5
-				uses = 2
-				technology = strategic_bomber1
-				technology = strategic_bomber2
-				technology = strategic_bomber3
-			}	
+				uses = 1
+				category = operational_integrity_tree
+			}
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 1
+				category = tactical_bomber
+			}
 		}
 	}
 
