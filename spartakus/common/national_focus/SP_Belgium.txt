@@ -128,7 +128,7 @@ focus = {
 
 focus = {
 		id = BEL_Economy1fold
-		icon = GFX_goal_MAF_Support_Anglos
+		icon = GFX_Sell_the_Congo
 		relative_position_id = BEL_Economy
 		prerequisite = { focus = BEL_Economy4 }
 		mutually_exclusive = { focus = BEL_Economy1hold }
@@ -191,7 +191,7 @@ focus = {
 
 focus = {
 		id = BEL_Economy2hold
-		icon = GFX_goal_BEL_caritas
+		icon = GFX_BEL_caritas
 		relative_position_id = BEL_Economy
 		prerequisite = { focus = BEL_Economy1hold }
 		x = 1
@@ -231,7 +231,7 @@ focus = {
 
 focus = {
 		id = BEL_Economy3hold
-		icon = GFX_goal_europamark
+		icon = GFX_BEL_franc
 		relative_position_id = BEL_Economy
 		prerequisite = { focus = BEL_Economy2hold }
 		x = 1
@@ -373,7 +373,7 @@ focus = {
 
 focus = {
 		id = BEL_Political
-		icon = GFX_ROM_seats
+		icon = GFX_goal_generic_elections
 		#relative_position_id = LIV_Economy_Liberal
 		#prerequisite = { focus = LIV_Economy_Liberal6 }
 		available = {
@@ -410,7 +410,7 @@ focus = {
 
 focus = {
 		id = BEL_Flanders
-		icon = GFX_goal_FLN_Vlaanderen_Industry2
+		icon = GFX_flanders
 		#relative_position_id = BEL_Political
 		prerequisite = { focus = BEL_Political }
 		x = 13
@@ -445,7 +445,7 @@ focus = {
 
 focus = {
 		id = BEL_Electover
-		icon = GFX_ROM_seats
+		icon = GFX_KTG_Elections
 		#relative_position_id = BEL_Political
 		prerequisite = { focus = BEL_Walloon }
 		prerequisite = { focus = BEL_Flanders }
