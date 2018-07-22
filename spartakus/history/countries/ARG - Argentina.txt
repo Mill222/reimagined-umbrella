@@ -17,46 +17,58 @@ set_technology = {
 	transport = 1
 }
 
+add_ideas = {
+	hog_lisandro
+	ARG_agriculture_problem
+	ARG_coalition
+}
+
+set_country_flag = coalition_social_conservative
+set_country_flag = coalition_authoritarian_democrat
+set_country_flag = coalition_right_wing_populist
+set_country_flag = coalition_national_syndicalist
+set_country_flag = coalition_national_corporatist
+
 set_convoys = 120
 
 set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 1
+			popularity = 4
 		}
 		marxist = {
 			popularity = 1
 		}
 		revolutionary_socialist = {
-			popularity = 5
+			popularity = 3
 		}
 		democratic_socialist = {
-			popularity = 7
+			popularity = 6
 		}
 		social_democrat = {
-			popularity = 8
+			popularity = 10
 		}
 		social_liberal = {
-			popularity = 11
+			popularity = 17
 		}
 		liberal_conservative = {
 			popularity = 9
 		}
 		social_conservative = {
-			popularity = 10
+			popularity = 14
 		}
 		authoritarian_democrat = {
-			popularity = 7
+			popularity = 5
 		}
 		right_wing_populist = {
-			popularity = 15
+			popularity = 9
 		}
 		national_syndicalist = {
 			popularity = 12
 		}
 		national_corporatist = {
-			popularity = 14
+			popularity = 10
 		}
 	}
 	

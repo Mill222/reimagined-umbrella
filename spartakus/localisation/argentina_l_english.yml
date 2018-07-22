@@ -9,8 +9,6 @@
   ARG_revolutionary_socialist_party_long:0 "Federación Obrera Regional Argentina"
   ARG_democratic_socialist_party:0 "CGT"
   ARG_democratic_socialist_party_long:0 "Confederación General de los Trabajadores"
-  ARG_democratic_socialist_party_specialname:0 "SFN"
-  ARG_democratic_socialist_party_specialname_long:0 "Sindicato Federado Nacional"
   ARG_social_democrat_party:0 "PS"
   ARG_social_democrat_party_long:0 "Partido Socialista"
   ARG_social_liberal_party:0 "UCR"
@@ -23,10 +21,10 @@
   ARG_authoritarian_democrat_party_long:0 "Fuerzas Armadas Argentinas"
   ARG_right_wing_populist_party:0 "LPA"
   ARG_right_wing_populist_party_long:0 "Liga Patriótica Argentina"
-  ARG_national_syndicalist_party:0 "PP"
-  ARG_national_syndicalist_party_long:0 "Partido Progresista"
-  ARG_national_syndicalism_party_specialname:0 "LR"
-  ARG_national_syndicalism_party_specialname_long:0 "Liga Republicana"
+  ARG_national_syndicalist_party:0 "PDP"
+  ARG_national_syndicalist_party_long:0 "Partido Demócrata Progresista"
+  ARG_national_syndicalism_party_specialname:0 "PDC"
+  ARG_national_syndicalism_party_specialname_long:0 "Partido Demócrata Cristiano"
   ARG_national_corporatist_party:0 "PN"
   ARG_national_corporatist_party_long:0 "Partido Nacional"
 
@@ -77,4 +75,7 @@
   hog_lugones:0 "Leopoldo Lugones"
 
   #ideas
-  ARG_nationalize_farms:0 "Land Redistribution"
+  ARG_agriculture_problem:0 "Food Exports Problem"
+  ARG_coalition:0 "Coalición Nacional"
+  ARG_coalition_1:0 "Coalición Nacional"
+  ARG_coalition_broken:0 "Broken Coalition"
