@@ -569,4 +569,11 @@ NOR_neutral_policy_flag:0 "Neutral Policy Taken"
 NOR_pro_british_policy_flag:0 "Pro-British Policy Taken"
 NOR_expantionist_policy_flag:0 "Expantionist Policy Taken"
 
+### Decisions ###
+
+NOR_expantionist_norway_decision_cat:0 "Decisions Regarding Norwegian Expantionism"
+NOR_expantionist_norway_decision_cat_desc:0 "Our government has given green light to Norwegian expantionism and take back territories that once was under Norwegian control but today is occupied by foreign powers. Will we be able to regain the power and influence we once had in Northern Europe, or see a new Scandinavia rise under our control?!"
+NOR_greenland_negotiate_with_danes:0 "Negotiate Over Greenland"
+NOR_greenland_negotiate_with_danes_desc:0 ""
+
 ### Tooltips ###

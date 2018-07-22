@@ -16,7 +16,7 @@ state={
 			}
 		}
 		victory_points = {
-			3022 1 #Trondheim
+			3022 3 #Trondheim
 		}
 		add_core_of = NOR
 	}
