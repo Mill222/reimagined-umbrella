@@ -189,6 +189,18 @@ bookmarks = {
 			focuses = {
 			}
 		}
+
+		"ARG"={
+			minor = yes
+			history = "ARG_SP_GATHERING_STORM_DESC"
+			ideology = national_corporatist
+			ideas = {
+				ARG_agriculture_problem
+				ARG_coalition
+			}
+			focuses = {
+			}
+		}
 		
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
