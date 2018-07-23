@@ -12,6 +12,10 @@ on_actions = {
 			every_country = {
 				country_event = { id = NS_on_action.1 days = 7 }
 			}
+			#Begin on_monthly event cycle
+			every_country = {
+				country_event = { id = NS_on_action.3 days = 30 }
+			}
 		}
 	}
 

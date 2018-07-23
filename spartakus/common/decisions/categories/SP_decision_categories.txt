@@ -55,6 +55,22 @@ CZE_dealing_with_Gajda = {
 	picture = GFX_Portrait_Czechia_Radola_Gajda
 }
 
+CZE_managing_petka = {
+	allowed = { tag = CZE }
+	visible = {
+		OR = {
+			has_government = social_democrat
+			has_government = social_liberal
+			has_government = liberal_conservative
+			has_government = social_conservative
+			has_government = right_wing_populist
+		}
+		has_idea = CZE_petka
+	}
+	icon = CZE_petka_decision_icon
+	picture = GFX_Czech_Petka
+}
+
 ##############
 ### British ###
 ##############

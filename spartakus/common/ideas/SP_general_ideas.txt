@@ -560,6 +560,63 @@ ideas = {
 			}
 		}
 	}
+	
+	hidden_ideas = {
+		SP_at_war_idea_1 = {
+			modifier = {
+				stability_weekly = -0.01
+				war_support_weekly = -0.01
+			}
+		}
+		SP_at_war_idea_2 = {
+			modifier = {
+				stability_weekly = -0.009
+				war_support_weekly = -0.009
+			}
+		}
+		SP_at_war_idea_3 = {
+			modifier = {
+				stability_weekly = -0.008
+				war_support_weekly = -0.008
+			}
+		}
+		SP_at_war_idea_4 = {
+			modifier = {
+				stability_weekly = -0.007
+				war_support_weekly = -0.007
+			}
+		}
+		SP_at_war_idea_5 = {
+			modifier = {
+				stability_weekly = -0.006
+				war_support_weekly = -0.006
+			}
+		}
+		SP_at_war_idea_6 = {
+			modifier = {
+				stability_weekly = -0.005
+				war_support_weekly = -0.005
+			}
+		}
+		SP_at_war_idea_7 = {
+			modifier = {
+				stability_weekly = -0.004
+				war_support_weekly = -0.004
+			}
+		}
+		SP_at_war_idea_8 = {
+			modifier = {
+				stability_weekly = -0.003
+				war_support_weekly = -0.003
+			}
+		}
+		SP_at_war_idea_9 = {
+			modifier = {
+				stability_weekly = -0.002
+				war_support_weekly = -0.002
+			}
+		}
+	}
 
 #	economic_health = {
 #		law = yes		
