@@ -175,7 +175,7 @@ focus_tree = {
 			focus = SER_Liberal_Coup
 			
 		}
-		x = 14
+		x = 13
 		y = 4
 
 	}
@@ -186,7 +186,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SER_Communist_Coup
 		}
-		x = 14
+		x = 13
 		y = 5
 
 	}
@@ -200,7 +200,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SER_Ban_Other_Parties
 		}
-		x = 13
+		x = 14
 		y = 6
 
 	}
@@ -214,8 +214,21 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SER_Democratic_Alignment
 		}
-		x = 9
+		x = 12
 		y = 6
+
+	}
+	
+	focus = {
+		id = SER_Crackdown_on_Nationalists
+		icon = GFX_Crush_the_Rebellion
+		cost = 4.00
+		prerequisite = {
+			focus = SER_Ban_Other_Parties
+			focus = SER_Democratic_Alignment
+		}
+		x = 13
+		y = 7
 
 	}
 	focus = {
@@ -225,7 +238,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SER_Democratic_Alignment
 		}
-		x = 13
+		x = 15
 		y = 7
 
 	}
@@ -234,10 +247,10 @@ focus_tree = {
 		icon = GFX_goal_WIP
 		cost = 5.00
 		prerequisite = {
-			focus = SER_Declare_Federal_Yugoslavia
+			focus = 
 		}
-		x = 15
-		y = 6
+		x = 12
+		y = 11
 
 	}
 	focus = {
@@ -245,15 +258,15 @@ focus_tree = {
 		icon = GFX_goal_WIP
 		cost = 4.00
 		prerequisite = {
-			focus = SER_Declare_Federal_Yugoslavia
+			focus = 
 		}
-		x = 17
-		y = 6
+		x = 14
+		y = 11
 
 	}
 	focus = {
 		id = SER_Bring_in_Bulgaria
-		icon = GFX_goal_WIP
+		icon = GFX_Attack_Bulgaria
 		cost = 6.00
 		prerequisite = {
 			focus = SER_Illyria_in_Our_Sights
@@ -261,8 +274,8 @@ focus_tree = {
 		prerequisite = {
 			focus = SER_Integrate_Montenegro
 		}
-		x = 16
-		y = 7
+		x = 13
+		y = 12
 
 	}
 	focus = {
@@ -272,8 +285,8 @@ focus_tree = {
 		prerequisite = {
 			focus = SER_Bring_in_Bulgaria
 		}
-		x = 16
-		y = 8
+		x = 13
+		y = 13
 
 	}
 	focus = {
@@ -354,7 +367,7 @@ focus_tree = {
 			focus = SER_Nacertanije
 			focus = SER_Svi_Na_Kongres
 		}
-		x = 21
+		x = 23
 		y = 7
 
 	}
@@ -503,8 +516,81 @@ focus_tree = {
 		prerequisite = {
 			focus = SER_Ban_Other_Parties
 		}
-		x = 9
+		x = 11
 		y = 7
+
+	}
+	
+	focus = {
+		id = SER_Central_Command
+		icon = GFX_goal_military_academy
+		cost = 7.00
+		prerequisite = {
+			focus = SER_Nationalization
+		}
+		x = 8
+		y = 8
+
+	}
+	
+	focus = {
+		id = SER_Yugoimport
+		icon = GFX_goal_WIP
+		cost = 7.00
+		prerequisite = {
+			focus = SER_Central_Command
+		}
+		x = 8
+		y = 9
+
+	}
+	
+	focus = {
+		id = SER_State_Education
+		icon = GFX_State_Control
+		cost = 7.00
+		prerequisite = {
+			focus = SER_Nationalization
+		}
+		x = 10
+		y = 8
+
+	}
+	
+	focus = {
+		id = SER_Union_of_Pioneers_of_Yugoslavia
+		icon = GFX_Junta_Youth
+		cost = 7.00
+		prerequisite = {
+			focus = SER_State_Education
+		}
+		x = 10
+		y = 9
+
+	}
+	
+	focus = {
+		id = SER_Minority_Cooperation
+		icon = GFX_goal_LBR_whiter_pale
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Nationalization
+			focus = SER_Communalization
+		}
+		x = 12
+		y = 8
+
+	}
+	
+	focus = {
+		id = SER_Kosovar_Repatriation
+		icon = GFX_ALB_kosovo
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Minority_Cooperation
+		}
+		x = 12
+		y = 9
 
 	}
 	
@@ -516,7 +602,7 @@ focus_tree = {
 			focus = SER_Nationalization
 			focus = SER_Communalization
 		}
-		x = 11
+		x = 14
 		y = 8
 
 	}
@@ -526,11 +612,22 @@ focus_tree = {
 		icon = GFX_SP_focus_education
 		cost = 3.00
 		prerequisite = {
-			focus = SER_Nationalization
 			focus = SER_Communalization
 		}
-		x = 13
+		x = 18
 		y = 8
+
+	}
+	
+	focus = {
+		id = SER_Moderna_Skola
+		icon = GFX_goal_KTG_Educate_natives
+		cost = 3.00
+		prerequisite = {
+			focus = SER_New_Schools
+		}
+		x = 18
+		y = 9
 
 	}
 	
@@ -542,8 +639,44 @@ focus_tree = {
 			focus = SER_Nationalization
 			focus = SER_Communalization
 		}
-		x = 9
+		x = 16
 		y = 8
+
+	}
+	
+	focus = {
+		id = SER_Modern_Industry
+		icon = GFX_IRE_heavy_industry
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Agricultural_Mechanization
+		}
+		x = 16
+		y = 9
+
+	}
+	
+	focus = {
+		id = SER_Democratic_Militias
+		icon = GFX_goal_HOL_military_union
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Communalization
+		}
+		x = 20
+		y = 8
+
+	}
+	
+	focus = {
+		id = SER_Zastava_Kooperativa
+		icon = GFX_goal_WIP
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Democratic_Militias
+		}
+		x = 20
+		y = 9
 
 	}
 	
@@ -554,7 +687,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SER_Proletarian_Women
 		}
-		x = 11
+		x = 14
 		y = 9
 
 	}
@@ -566,7 +699,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SER_Gearing_Up
 		}
-		x = 21
+		x = 23
 		y = 8
 
 	}
