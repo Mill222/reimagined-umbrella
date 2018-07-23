@@ -1,5 +1,9 @@
 add_namespace = alb
 
+### 		###
+###   MISC  ###
+### 		###
+
 country_event = { # Intro
 	id = alb.1
 	title = alb.1.t
@@ -35,6 +39,40 @@ country_event = { # Great Depression
 	}
 }
 
+country_event = { # Përpjekja shqiptare
+	id = alb.7
+	title = alb.7.t
+	desc = alb.7.d
+	picture = GFX_ALB_magazine
+	fire_only_once = yes
+
+	trigger = {
+		tag = ALB
+		date > 1933.3.3
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+		name = alb.7.a
+		custom_effect_tooltip = alb_tt_influence_establishment
+		add_to_variable = { ALB.monarch_influence = 1 } 
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.04
+		}
+	}
+	
+	option = {
+		name = alb.7.b
+		custom_effect_tooltip = alb_tt_influence_fascists
+		add_political_power = -50
+		add_to_variable = { ALB.zogist_influence = 1 } 
+	}
+}
+
 ### 					###
 ###  GENERAL POLITICAL  ###
 ### 					###
@@ -49,9 +87,56 @@ country_event = { # Herthe's Death
 	
 	option = {
 		name = alb.2.a
+		kill_country_leader = yes
+		add_stability = -0.05
 		hidden_effect = { #begin the chain of events to the new government based on variables in previous focuses
 			set_country_flag = herthe_dead 
 			complete_national_focus = ALB_herthe_funeral
+			create_country_leader = {
+				name = "Mehdi Frashëri"
+				desc = ""
+				picture = ""
+				expire = "1965.1.1"
+				ideology = social_liberal_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Shefqet Vërlaci"
+				desc = ""
+				picture = ""
+				expire = "1965.1.1"
+				ideology = liberal_conservative_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Xhafer Ypi"
+				desc = ""
+				picture = ""
+				expire = "1965.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Prek Cali"
+				desc = ""
+				picture = ""
+				expire = "1965.1.1"
+				ideology = right_wing_populist_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Regency Government"
+				desc = ""
+				picture = "Portrait_ALB_Regency.tga"
+				expire = "1965.1.1"
+				ideology = social_conservative_subtype
+				traits = {
+				}
+			}
 		}
 	}
 }
@@ -92,11 +177,12 @@ country_event = { # Nolist Revolution
 		hidden_effect = { 
 			set_country_flag = nolist_government 
 			complete_national_focus = ALB_revolution
+			remove_ideas = ALB_aristocracy
 		}
 	}
 }
 
-country_event = { # King Alban Coronated
+country_event = { # Queen Drita Coronated
 	id = alb.5
 	title = alb.5.t
 	desc = alb.5.d

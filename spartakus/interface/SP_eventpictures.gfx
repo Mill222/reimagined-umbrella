@@ -6,7 +6,7 @@ spriteTypes = {
 		name = "GFX_shape_of_things_to_come"
 		texturefile = "gfx/event_pictures/shape_of_things_to_come.dds"
 	}
-	
+		
 	#Serbia
 	
 	spriteType = {
@@ -21,9 +21,14 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/ALB_map.dds"
 	}
 	
-	spriteType = {
+	spriteType = {	
 		name = "GFX_ALB_ceremony"
 		texturefile = "gfx/event_pictures/ALB_ceremony.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ALB_magazine"
+		texturefile = "gfx/event_pictures/ALB_magazine.dds"
 	}
 	
 	#Portugal

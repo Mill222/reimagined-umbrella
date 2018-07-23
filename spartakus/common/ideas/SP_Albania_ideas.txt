@@ -40,7 +40,7 @@ ideas = {
 		}
 	
 		ALB_italian_industry_2 = {
-			picture = generic_foreign_capital
+			picture = ALB_foreign_ownership
 
 			allowed = {
 				original_tag = ALB
@@ -56,7 +56,7 @@ ideas = {
 		}
 	
 		ALB_italian_industry_3 = {
-			picture = generic_foreign_capital
+			picture = ALB_foreign_ownership
 
 			allowed = {
 				original_tag = ALB
@@ -73,7 +73,7 @@ ideas = {
 		}
 	
 		ALB_italian_industry_4 = {
-			picture = generic_foreign_capital
+			picture = ALB_foreign_ownership
 
 			allowed = {
 				original_tag = ALB
@@ -119,12 +119,24 @@ ideas = {
 				conscription = 0.05
 				experience_gain_army = 0.05
 				stability_factor = -0.1
-				production_factory_max_efficiency_factor = -0.1
-				production_factory_efficiency_gain_factor = -0.05
 			}
 		}
 	
-		ALB_military_culture_2 = {
+		ALB_military_culture_2 = { #disarm the tribes
+			picture = ALB_book
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+				experience_gain_army = 0.05
+			}
+		}
+	
+		ALB_military_culture_3 = { #arm the tribes
 			picture = ALB_book
 
 			allowed = {
@@ -134,9 +146,9 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				army_core_defence_factor = 0.15
-				conscription = 0.05
+				conscription = 0.1
 				experience_gain_army = 0.05
-				stability_factor = -0.1
+				stability_factor = -0.05
 			}
 		}
 
@@ -150,7 +162,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			modifier = {
+			modifier = { 
 				research_time_factor = 0.15
 			}
 		}
@@ -317,6 +329,53 @@ ideas = {
 				production_factory_start_efficiency_factor = -0.1
 			}
 		}
+
+	#### Army
+	
+		ALB_kachaks = {
+			picture = yug_yugoslavian_general_staff
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = 0.15
+				out_of_supply_factor = -0.1
+				attrition = -0.1
+			}
+		}
+	
+		ALB_countryside_eyes = {
+			picture = Binoculars
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				recon_factor = 0.15
+				army_org_Factor = 0.1
+			}
+		}
+	
+		ALB_generals = {
+			picture = general_staff
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				max_planning = 0.15
+				planning_speed = 0.1
+				land_reinforce_rate = 0.1
+				training_time_army_factor = -0.15
+			}
+		}
 	
 	}
 
@@ -337,5 +396,27 @@ ideas = {
 				cancel_if_invalid = yes
 		}
 	}
+	
+#############
+# Companies #
+#############
+
+#### General ####
+industrial_concern = {
+
+	ALB_telekom = {
+		allowed = { 
+			OR = {
+				original_tag = ALB
+			}
+		}
+		picture = telekomi_shqiptar
+		traits = { electronics_concern }
+		modifier = {
+			production_speed_infrastructure_factor = 0.25
+		}
+	}
+
+}
 	
 }
