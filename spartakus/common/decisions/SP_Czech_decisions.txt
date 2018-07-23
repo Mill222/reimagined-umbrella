@@ -1,4 +1,4 @@
-### Quebec Decisions & Missions
+### Czech Decisions & Missions
 
 # Political Struggle
 CZE_dealing_with_Gajda = {
@@ -78,8 +78,7 @@ CZE_dealing_with_Gajda = {
 			CZE_postpone_Gajda_coup_progress_effect = yes
 			CZE_Gajda_increase_coup_timeout_days_5_effect = yes
 			country_event = czegajda.5
-			custom_effect_tooltip = CZE_strengthen_communists_tt
-			add_to_variable = { CZE_strengthened_communists_var = 1 }
+			CZE_strengthen_communists_effect = yes
 		}
 	}
 	CZE_suspend_Gajda = {

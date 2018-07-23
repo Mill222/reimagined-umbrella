@@ -103,6 +103,16 @@ CZE_increase_Gajda_coup_progress_effect = {
 			hidden_effect = {
 				country_event = czegajda.4
 				add_ideas = CZE_obrana
+				if = {
+					limit = {
+						NOT = { has_country_flag = CZE_communists_fight_gajda }
+					}
+					country_event = {
+						id = czegajda.8
+						days = 25
+						random = 25
+					}
+				}
 			}
 		}
 		hidden_effect = {
@@ -155,4 +165,51 @@ CZE_Gajda_increase_coup_prog_timer_15_days_effect = {
 	hidden_effect = {
 		add_to_variable = { CZE_Gajda_coup_timeout_days = 15 }
 	}
+}
+
+CZE_Gajda_decrease_coup_timeout_days_5_effect = {
+	custom_effect_tooltip = CZE_Gajda_decrease_coup_prog_timer_5_days_tt
+	hidden_effect = {
+		subtract_from_variable = { CZE_Gajda_coup_timeout_days = 5 }
+	}
+}
+
+CZE_Gajda_decrease_coup_timeout_days_10_effect = {
+	custom_effect_tooltip = CZE_Gajda_decrease_coup_prog_timer_10_days_tt
+	hidden_effect = {
+		subtract_from_variable = { CZE_Gajda_coup_timeout_days = 10 }
+	}
+}
+
+CZE_Gajda_decrease_coup_prog_timer_15_days_effect = {
+	custom_effect_tooltip = CZE_Gajda_decrease_coup_prog_timer_15_days_tt
+	hidden_effect = {
+		subtract_from_variable = { CZE_Gajda_coup_timeout_days = 15 }
+	}
+}
+
+CZE_increase_petka_left_wing_influence_effect = {
+	custom_effect_tooltip = CZE_increase_petka_left_wing_influence_tt
+	hidden_effect = {
+		add_to_variable = { CZE_petka_left_wing_influence = 1 }
+		subtract_from_variable = { CZE_petka_right_wing_influence = 1 }
+	}
+}
+
+CZE_increase_petka_right_wing_influence_effect = {
+	custom_effect_tooltip = CZE_increase_petka_right_wing_influence_tt
+	hidden_effect = {
+		add_to_variable = { CZE_petka_right_wing_influence = 1 }
+		subtract_from_variable = { CZE_petka_left_wing_influence = 1 }
+	}
+}
+
+CZE_strengthen_communists_effect = {
+	custom_effect_tooltip = CZE_strengthen_communists_tt
+	add_to_variable = { CZE_strengthened_communists_var = 1 }
+}
+
+CZE_weaken_communists_effect = {
+	custom_effect_tooltip = CZE_weaken_communists_tt
+	subtract_from_variable = { CZE_strengthened_communists_var = 1 }
 }
