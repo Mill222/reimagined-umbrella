@@ -62,19 +62,11 @@ set_autonomy = {
 	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
-	target = MLW
-	autonomous_state = sp_Brit_protectorate
-}
-set_autonomy = {
 	target = SML
 	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
 	target = BOT
-	autonomous_state = sp_Brit_protectorate
-}
-set_autonomy = {
-	target = ZAM
 	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
@@ -86,7 +78,7 @@ set_autonomy = {
 	autonomous_state = sp_Brit_protectorate
 }
 set_autonomy = {
-	target = ZIM
+	target = CAF
 	autonomous_state = sp_Brit_colony
 }
 set_autonomy = {

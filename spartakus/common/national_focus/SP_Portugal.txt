@@ -1111,7 +1111,7 @@ focus_tree = {
 		y = 2
 		cost = 8.6
 		completion_reward = {	
-				add_tech_bonus = {
+			add_tech_bonus = {
 				name = infantry_weapons_bonus
 				bonus = 0.75
 				uses = 1
@@ -1587,12 +1587,13 @@ focus_tree = {
 		x = -1
 		y = 1
 		cost = 8.6
-		completion_reward = {	
-		add_tech_bonus = {
-				name = motorized_bonus
-				bonus = 0.75
-				technology = motorised_infantry
-				technology  = rocket_artillery
+		completion_reward = {
+			add_war_support = 0.025
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 1
+				category = logistics_tech
 			}	
 		}
 	}
@@ -1607,22 +1608,12 @@ focus_tree = {
 		y = 2
 		cost = 8.6
 		completion_reward = {	
-		random_state = {
-					limit = {
-						controller = { tag = ROOT }
-						free_building_slots = {
-							building = dockyard
-							size > 2
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = dockyard
-						level = 1
-						instant_build = yes
-					}
-				}	
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	}
 	
@@ -1636,12 +1627,12 @@ focus_tree = {
 		y = 3
 		cost = 8.6
 		completion_reward = {	
-		add_tech_bonus = {
+			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 0.5
 				uses = 1
 				category = land_doctrine
-			}	
+			}
 		}
 	}
 	
@@ -1653,7 +1644,7 @@ focus_tree = {
 		x = -1
 		y = 4
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
 		}
 	}
 	
@@ -1667,35 +1658,11 @@ focus_tree = {
 		y = 3
 		cost = 8.6
 		completion_reward = {	
-		random_owned_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = arms_factory
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
 			}	
 		}
 	}
@@ -1721,9 +1688,9 @@ focus_tree = {
 		y = 1
 		cost = 8.6
 		completion_reward = {	
-				add_tech_bonus = {
+			add_tech_bonus = {
 				name = infantry_weapons_bonus
-				bonus = 0.75
+				bonus = 0.5
 				uses = 1
 				category = infantry_weapons
 			}	
@@ -1738,7 +1705,13 @@ focus_tree = {
 		x = 2
 		y = 2
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}	
 		}
 	}
 	
@@ -1753,7 +1726,7 @@ focus_tree = {
 		completion_reward = {	
 			add_tech_bonus = {
 				name = infantry_weapons_bonus
-				bonus = 0.75
+				bonus = 0.5
 				uses = 1
 				category = artillery
 				
@@ -1822,7 +1795,8 @@ focus_tree = {
 		x = -3
 		y = 1
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+			add_ideas = POR_grande_exercito
 		}
 	}
 	
@@ -1835,12 +1809,10 @@ focus_tree = {
 		y = 2
 		cost = 8.6
 		completion_reward = {	
-		add_tech_bonus = {
-				name = armor_bonus
-				bonus = 0.5
-				uses = 2
-				category = armor
-			}	
+			swap_ideas = {
+				remove_idea = POR_grande_exercito
+				add_idea = POR_grande_exercito_draft
+			}
 		}
 	}
 	
@@ -1852,12 +1824,13 @@ focus_tree = {
 		x = -2
 		y = 2
 		cost = 8.6
-		completion_reward = {	
-		add_tech_bonus = {
-				name = armor_bonus
+		completion_reward = {
+			add_ideas = POR_standardized_equipment_idea
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
 				bonus = 0.5
-				uses = 2
-				category = armor
+				uses = 1
+				category = infantry_weapons
 			}	
 		}
 	}
@@ -1872,11 +1845,9 @@ focus_tree = {
 		y = 3
 		cost = 8.6
 		completion_reward = {	
-				add_tech_bonus = {
-				name = armor_bonus
-				bonus = 0.5
-				uses = 2
-				category = armor
+			swap_ideas = {
+				remove_idea = POR_standardized_equipment_idea
+				add_idea = POR_mass_munitions_idea
 			}
 		}
 	}
@@ -1889,13 +1860,13 @@ focus_tree = {
 		x = -3
 		y = 4
 		cost = 8.6
-		completion_reward = {	
-				add_tech_bonus = {
-				name = infantry_weapons_bonus
-				bonus = 0.75
-				uses = 1
-				category = support_tech
-			}	
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -500
+				producer = POR
+			}
+			add_manpower = 20000	
 		}
 	}
 	
