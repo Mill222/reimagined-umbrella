@@ -30,7 +30,7 @@ set_politics = {
 		revolutionary_socialist = {
 			popularity = 8
 		}
-		demcoratic_socialist = {
+		democratic_socialist = {
 			popularity = 2
 		}
 		social_democrat = {
