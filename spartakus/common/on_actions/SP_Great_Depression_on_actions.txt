@@ -10,6 +10,9 @@ on_actions = {
 			BEL = {
 				news_event = { id = belnews.2 days = 80 }
 			}
+			ARG = {
+				country_event = { id = argentina.17 days = 76 }
+			}
 			every_country = {
 				if = {
 					limit = {
@@ -17,6 +20,7 @@ on_actions = {
 							tag = USA
 							tag = ROM
 							tag = BEL
+							tag = ARG
 						}
 					}
 					news_event = { id = depression.2 days = 80 }

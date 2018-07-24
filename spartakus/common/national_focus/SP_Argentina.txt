@@ -1250,7 +1250,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ARG_help_aslco
-		icon = GFX_goal_generic_elections
+		icon = GFX_focus_chi_british_cooperation
 		x = 34
 		y = 2
 		cost = 5
@@ -1307,7 +1307,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ARG_nationalize_aslco
-		icon = GFX_goal_generic_elections
+		icon = GFX_focus_RAJ_clamp_down_on_corruption
 		x = 40
 		y = 2
 		cost = 5
@@ -1401,6 +1401,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ARG_sra_monopoly
 			focus = ARG_help_small_farms
+			focus = ARG_full_nationalization
 		}
 	    available = {
 			has_flag = ARG_sra
@@ -1419,8 +1420,9 @@ focus_tree = {
 		y = 4
 		cost = 5
 		prerequisite = {
-			focus = ARG_full_nationalization
+			focus = ARG_sra_monopoly
 			focus = ARG_help_small_farms
+			focus = ARG_full_nationalization
 		}
 	    available = {
 			has_flag = ARG_no_sra
@@ -1457,12 +1459,12 @@ focus_tree = {
 		icon = GFX_Economic_Collapse
 		x = 46
 		y = 0
-		cost = 5
+		cost = 0
 	    available = {
-			NOT = {
-				has_government = authoritarian_democrat
-				has_government = right_wing_populist
-			}
+			has_idea = ARG_great_depression
+		}
+		bypass = {
+			has_idea = ARG_great_depression
 		}
 		ai_will_do = {
 			factor = 100
@@ -1490,7 +1492,9 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			
+			add_ideas = {
+				ARG_austerity_1
+			}
 		}
 	}
 	focus = {
@@ -1512,7 +1516,10 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			
+			swap_ideas = {
+    			remove_idea = ARG_austerity_1
+    			add_idea = ARG_austerity_2
+			}
 		}
 	}
 	focus = {
@@ -1529,12 +1536,16 @@ focus_tree = {
 				has_government = authoritarian_democrat
 				has_government = right_wing_populist
 			}
+			has_completed_focus = ARG_curfew
 		}
 		ai_will_do = {
 			factor = 100
 		}
 		completion_reward = {	
-			
+			swap_ideas = {
+    			remove_idea = ARG_austerity_2
+    			add_idea = ARG_austerity_3
+			}
 		}
 	}
 	focus = {
@@ -1548,6 +1559,9 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = ARG_food_limit
+		}
+		mutually_exclusive = {
+			focus = ARG_increase_taxes
 		}
 	    available = {
 			NOT = {
@@ -1573,6 +1587,9 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = ARG_food_limit
+		}
+		mutually_exclusive = {
+			focus = ARG_reduce_spending
 		}
 	    available = {
 			NOT = {
@@ -1653,7 +1670,17 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			
+			278 = {
+				add_building_construction = {
+    				type = infrastructure
+   					level = 1
+    				instant_build = yes
+    			}
+			}
+			country_event = {
+				id = argentina.200
+				days = 30
+			}
 		}
 	}
 	focus = {
@@ -1675,7 +1702,13 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			
+			1060 = {
+				add_building_construction = {
+    				type = infrastructure
+   					level = 2
+    				instant_build = yes
+    			}
+			}
 		}
 	}
 	focus = {
@@ -1697,12 +1730,22 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			
+			278 = {
+				add_building_construction = {
+    				type = infrastructure
+   					level = 1
+    				instant_build = yes
+    			}
+			}
+			country_event = {
+				id = argentina.200
+				days = 30
+			}
 		}
 	}
 	focus = {
 		id = ARG_bridges
-		icon = GFX_tblra_union_agreement
+		icon = GFX_goal_construction_engineering
 		x = 49
 		y = 3
 		cost = 5
@@ -1719,7 +1762,24 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			
+			1060 = {
+				add_building_construction = {
+    				type = infrastructure
+   					level = 1
+    				instant_build = yes
+    			}
+			}
+			278 = {
+				add_building_construction = {
+    				type = infrastructure
+   					level = 1
+    				instant_build = yes
+    			}
+			}
+			country_event = {
+				id = argentina.200
+				days = 30
+			}
 		}
 	}
 	focus = {
@@ -1744,7 +1804,9 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			
+			country_event = {
+				id = argentina.200
+			}
 		}
 	}
 	focus = {
@@ -1766,7 +1828,10 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			
+			swap_ideas = {
+				remove_idea = ARG_great_depression
+				add_idea = ARG_great_depression_2
+			}
 		}
 	}
 	focus = {
@@ -1886,7 +1951,10 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			
+			swap_ideas = {
+    			remove_idea = ARG_austerity_3
+    			add_idea = ARG_austerity_4
+			}
 		}
 	}
 	focus = {
@@ -1905,7 +1973,10 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			
+			swap_ideas = {
+    			remove_idea = ARG_austerity_4
+    			add_idea = ARG_austerity_5
+			}
 		}
 	}
 	focus = {
@@ -1972,7 +2043,10 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			
+			swap_ideas = {
+    			remove_idea = ARG_austerity_5
+    			add_idea = ARG_austerity_6
+			}
 		}
 	}
 	focus = {
@@ -1991,7 +2065,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			
+			remove_idea = ARG_austerity_6
 		}
 	}
 	focus = {
@@ -2010,7 +2084,11 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 30
+			}
+
 		}
 	}
 	focus = {
@@ -2030,6 +2108,1431 @@ focus_tree = {
 		}
 		completion_reward = {	
 			
+		}
+	}
+	focus = {
+		id = ARG_national_industry
+		icon = GFX_goal_state_economy
+		x = 51
+		y = 6
+		cost = 5
+		prerequisite = {
+			focus = ARG_work_to_people
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_mertig_plan
+		icon = GFX_goal_construction
+		x = 51
+		y = 7
+		cost = 5
+		prerequisite = {
+			focus = ARG_national_industry
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_specialized_agriculture
+		icon = GFX_goal_coffee_boom
+		x = 48
+		y = 6
+		cost = 5
+		prerequisite = {
+			focus = ARG_work_to_people
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_bunge_y_born_food
+		icon = GFX_goal_agrarian_reform
+		x = 47
+		y = 7
+		cost = 5
+		prerequisite = {
+			focus = ARG_specialized_agriculture
+		}
+		mutually_exclusive = {
+			focus = ARG_agriculture_institute
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_agriculture_institute
+		icon = GFX_goal_agrarian_reform
+		x = 49
+		y = 7
+		cost = 5
+		prerequisite = {
+			focus = ARG_specialized_agriculture
+		}
+		mutually_exclusive = {
+			focus = ARG_bunge_y_born_food
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_sugar_provinces
+		icon = GFX_Focus_Sugar
+		x = 47
+		y = 8
+		cost = 5
+		prerequisite = {
+			focus = ARG_agriculture_institute
+			focus = ARG_bunge_y_born_food
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			903 = {
+				add_building_construction = {
+    				type = industrial_complex
+   					level = 1
+    				instant_build = yes
+    			}
+    			add_extra_state_shared_building_slots = 1
+			}
+			1058 = {
+				add_building_construction = {
+    				type = industrial_complex
+   					level = 1
+    				instant_build = yes
+    			}
+    			add_extra_state_shared_building_slots = 1
+			}
+			1059 = {
+				add_building_construction = {
+    				type = industrial_complex
+   					level = 1
+    				instant_build = yes
+    			}
+    			add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	focus = {
+		id = ARG_tobacco_provinces
+		icon = GFX_Focus_Tobacco
+		x = 49
+		y = 8
+		cost = 5
+		prerequisite = {
+			focus = ARG_agriculture_institute
+			focus = ARG_bunge_y_born_food
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			903 = {
+				add_building_construction = {
+    				type = industrial_complex
+   					level = 1
+    				instant_build = yes
+    			}
+    			add_extra_state_shared_building_slots = 1
+			}
+			1058 = {
+				add_building_construction = {
+    				type = industrial_complex
+   					level = 1
+    				instant_build = yes
+    			}
+    			add_extra_state_shared_building_slots = 1
+			}
+			1054 = {
+				add_building_construction = {
+    				type = industrial_complex
+   					level = 1
+    				instant_build = yes
+    			}
+    			add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	focus = {
+		id = ARG_yerba_mate_provinces
+		icon = GFX_focus_yerba_mate
+		x = 47
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = ARG_sugar_provinces
+		}
+		prerequisite = {
+			focus = ARG_tobacco_provinces
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			1054 = {
+				add_building_construction = {
+    				type = industrial_complex
+   					level = 1
+    				instant_build = yes
+    			}
+    			add_extra_state_shared_building_slots = 1
+			}
+			1053 = {
+				add_building_construction = {
+    				type = industrial_complex
+   					level = 1
+    				instant_build = yes
+    			}
+    			add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	focus = {
+		id = ARG_wine_provinces
+		icon = GFX_Focus_Wine
+		x = 49
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = ARG_sugar_provinces
+		}
+		prerequisite = {
+			focus = ARG_tobacco_provinces
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			511 = {
+				add_building_construction = {
+    				type = industrial_complex
+   					level = 1
+    				instant_build = yes
+    			}
+    			add_extra_state_shared_building_slots = 1
+			}
+			1056 = {
+				add_building_construction = {
+    				type = industrial_complex
+   					level = 1
+    				instant_build = yes
+    			}
+    			add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	focus = {
+		id = ARG_resource_search
+		icon = GFX_all_resource
+		x = 51
+		y = 8
+		cost = 5
+		prerequisite = {
+			focus = ARG_mertig_plan
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_industrial_propaganda
+		icon = GFX_goal_economic_control
+		x = 53
+		y = 8
+		cost = 5
+		prerequisite = {
+			focus = ARG_mertig_plan
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_prepare_infrestructure
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 51
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = ARG_resource_search
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_encourage_migration
+		icon = GFX_goal_tblra_union_agreement
+		x = 53
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = ARG_industrial_propaganda
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			902 = { add_manpower = 500 }
+			1055 = { add_manpower = 500 }
+			1060 = { add_manpower = 1250 }
+			278 = { add_manpower = 1250 }
+			510 = { add_manpower = 750 }
+		}
+	}
+	focus = {
+		id = ARG_industrial_cordoba
+		icon = GFX_focus_generic_industry_3
+		x = 47
+		y = 10
+		cost = 5
+		prerequisite = {
+			focus = ARG_prepare_infrestructure
+		}
+		prerequisite = {
+			focus = ARG_encourage_migration
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			902 = {
+				add_building_construction = {
+    				type = industrial_complex
+   					level = 2
+    				instant_build = yes
+    			}
+    			add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	focus = {
+		id = ARG_industrial_santa_fe
+		icon = GFX_focus_generic_industry_3
+		x = 49
+		y = 10
+		cost = 5
+		prerequisite = {
+			focus = ARG_prepare_infrestructure
+		}
+		prerequisite = {
+			focus = ARG_encourage_migration
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			1055 = {
+				add_building_construction = {
+    				type = industrial_complex
+   					level = 2
+    				instant_build = yes
+    			}
+    			add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	focus = {
+		id = ARG_industrial_baires
+		icon = GFX_focus_generic_industry_3
+		x = 51
+		y = 10
+		cost = 5
+		prerequisite = {
+			focus = ARG_prepare_infrestructure
+		}
+		prerequisite = {
+			focus = ARG_encourage_migration
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			1060 = {
+				add_building_construction = {
+    				type = industrial_complex
+   					level = 4
+    				instant_build = yes
+    			}
+    			add_extra_state_shared_building_slots = 4
+			}
+		}
+	}
+	focus = {
+		id = ARG_industrial_baires_north
+		icon = GFX_focus_generic_industry_3
+		x = 53
+		y = 10
+		cost = 5
+		prerequisite = {
+			focus = ARG_prepare_infrestructure
+		}
+		prerequisite = {
+			focus = ARG_encourage_migration
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			278 = {
+				add_building_construction = {
+    				type = industrial_complex
+   					level = 3
+    				instant_build = yes
+    			}
+    			add_extra_state_shared_building_slots = 3
+			}
+		}
+	}
+	focus = {
+		id = ARG_industrial_entre_rios
+		icon = GFX_focus_generic_industry_3
+		x = 55
+		y = 10
+		cost = 5
+		prerequisite = {
+			focus = ARG_prepare_infrestructure
+		}
+		prerequisite = {
+			focus = ARG_encourage_migration
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			510 = {
+				add_building_construction = {
+    				type = industrial_complex
+   					level = 2
+    				instant_build = yes
+    			}
+    			add_extra_state_shared_building_slots = 2
+			}	
+		}
+	}
+	focus = {
+		id = ARG_industrial_light
+		icon = GFX_Focus_Yarn
+		x = 50
+		y = 11
+		cost = 5
+		prerequisite = {
+			focus = ARG_industrial_cordoba
+		}
+		prerequisite = {
+			focus = ARG_industrial_santa_fe
+		}
+		prerequisite = {
+			focus = ARG_industrial_baires
+		}
+		prerequisite = {
+			focus = ARG_industrial_baires_north
+		}
+		prerequisite = {
+			focus = ARG_industrial_entre_rios
+		}
+		mutually_exclusive = {
+			focus = ARG_industrial_heavy
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_industrial_heavy
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 52
+		y = 11
+		cost = 5
+		prerequisite = {
+			focus = ARG_industrial_cordoba
+		}
+		prerequisite = {
+			focus = ARG_industrial_santa_fe
+		}
+		prerequisite = {
+			focus = ARG_industrial_baires
+		}
+		prerequisite = {
+			focus = ARG_industrial_baires_north
+		}
+		prerequisite = {
+			focus = ARG_industrial_entre_rios
+		}
+		mutually_exclusive = {
+			focus = ARG_industrial_light
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_resources
+		icon = GFX_all_resource
+		x = 33
+		y = 6
+		cost = 5
+	    available = {
+			has_completed_focus = ARG_resource_search
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_savio
+		icon = GFX_goal_oil
+		x = 23
+		y = 7
+		cost = 5
+		prerequisite = {
+			focus = ARG_resources
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_expeditions_metal
+		icon = GFX_Focus_Colonial_Expeditions
+		x = 25
+		y = 8
+		cost = 5
+		prerequisite = {
+			focus = ARG_savio
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_search_north
+		icon = GFX_goal_Steel
+		x = 23
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = ARG_expeditions_metal
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_zapla
+		icon = GFX_goal_Steel
+		x = 23
+		y = 10
+		cost = 5
+		prerequisite = {
+			focus = ARG_search_north
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_search_centre
+		icon = GFX_goal_tungsten
+		x = 25
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = ARG_expeditions_metal
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_petroquimica
+		icon = GFX_goal_tungsten
+		x = 25
+		y = 10
+		cost = 5
+		prerequisite = {
+			focus = ARG_search_centre
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_search_south
+		icon = GFX_Aluminium
+		x = 27
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = ARG_expeditions_metal
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_aluar
+		icon = GFX_Aluminium
+		x = 27
+		y = 10
+		cost = 5
+		prerequisite = {
+			focus = ARG_search_south
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_fabricaciones_militares
+		icon = GFX_focus_secret_rearmament
+		x = 24
+		y = 11
+		cost = 5
+		prerequisite = {
+			focus = ARG_zapla
+		}
+		prerequisite = {
+			focus = ARG_petroquimica
+		}
+		prerequisite = {
+			focus = ARG_aluar
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_somisa
+		icon = GFX_focus_generic_steel
+		x = 26
+		y = 11
+		cost = 5
+		prerequisite = {
+			focus = ARG_zapla
+		}
+		prerequisite = {
+			focus = ARG_petroquimica
+		}
+		prerequisite = {
+			focus = ARG_aluar
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_rubber
+		icon = GFX_goal_KTG_Rubber_Farming
+		x = 21
+		y = 8
+		cost = 5
+		prerequisite = {
+			focus = ARG_savio
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_synthetic_rubber
+		icon = GFX_goal_generic_army_motorized
+		x = 21
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = ARG_rubber
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_la_forestal
+		icon = GFX_focus_generic_rubber
+		x = 21
+		y = 10
+		cost = 5
+		prerequisite = {
+			focus = ARG_synthetic_rubber
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_fuchs
+		icon = GFX_goal_oil
+		x = 33
+		y = 7
+		cost = 5
+		prerequisite = {
+			focus = ARG_resources
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_outside_oil
+		icon = GFX_goal_generic_oil_refinery
+		x = 36
+		y = 8
+		cost = 5
+		prerequisite = {
+			focus = ARG_fuchs
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_inside_oil
+		icon = GFX_goal_generic_oil_refinery
+		x = 30
+		y = 8
+		cost = 5
+		prerequisite = {
+			focus = ARG_fuchs
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_oil_north
+		icon = GFX_goal_oil_derrick
+		x = 29
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = ARG_inside_oil
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_oil_south
+		icon = GFX_goal_further_oil
+		x = 31
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = ARG_inside_oil
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_refineries
+		icon = GFX_goal_basic_oil
+		x = 30
+		y = 10
+		cost = 5
+		prerequisite = {
+			focus = ARG_oil_north
+		}
+		prerequisite = {
+			focus = ARG_oil_south
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_oil_dutch
+		icon = GFX_goal_generic_oil_refinery
+		x = 34
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = ARG_outside_oil
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_intervene_indonesia
+		icon = GFX_Dutch_Indonesian_Troops
+		x = 33
+		y = 10
+		cost = 5
+		prerequisite = {
+			focus = ARG_oil_dutch
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_oil_usa
+		icon = GFX_focus_chi_mission_to_the_us
+		x = 36
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = ARG_outside_oil
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_oil_romania
+		icon = GFX_goal_generic_oil_refinery
+		x = 35
+		y = 10
+		cost = 5
+		prerequisite = {
+			focus = ARG_oil_usa
+			focus = ARG_oil_dutch
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_chaco_mission
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 38
+		y = 9
+		cost = 5
+		prerequisite = {
+			focus = ARG_outside_oil
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_oil_road
+		icon = GFX_goal_generic_oil_refinery
+		x = 37
+		y = 10
+		cost = 5
+		prerequisite = {
+			focus = ARG_chaco_mission
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_incident_chaco
+		icon = GFX_goal_Great_Railway_Incident
+		x = 39
+		y = 10
+		cost = 5
+		prerequisite = {
+			focus = ARG_chaco_mission
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_oil_army
+		icon = GFX_focus_generic_tank_production
+		x = 32
+		y = 11
+		cost = 5
+		prerequisite = {
+			focus = ARG_refineries
+		}
+		prerequisite = {
+			focus = ARG_oil_romania
+		}
+		prerequisite = {
+			focus = ARG_incident_chaco
+			focus = ARG_oil_road
+		}
+		mutually_exclusive = {
+			focus = ARG_oil_both
+			focus = ARG_oil_civilian
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_oil_both
+		icon = GFX_goal_oil
+		x = 34
+		y = 11
+		cost = 5
+		prerequisite = {
+			focus = ARG_refineries
+		}
+		prerequisite = {
+			focus = ARG_oil_romania
+		}
+		prerequisite = {
+			focus = ARG_incident_chaco
+			focus = ARG_oil_road
+		}
+		mutually_exclusive = {
+			focus = ARG_oil_army
+			focus = ARG_oil_civilian
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_oil_civilian
+		icon = GFX_goal_factory_complex
+		x = 36
+		y = 11
+		cost = 5
+		prerequisite = {
+			focus = ARG_refineries
+		}
+		prerequisite = {
+			focus = ARG_oil_romania
+		}
+		prerequisite = {
+			focus = ARG_incident_chaco
+			focus = ARG_oil_road
+		}
+		mutually_exclusive = {
+			focus = ARG_oil_army
+			focus = ARG_oil_both
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_ejercito
+		icon = GFX_Argentine_Soldiers
+		x = 60
+		y = 0
+		cost = 5
+	    available = {
+			NOT = {
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ARG_menendez_cavalry
+		icon = GFX_focus_arg_tanks
+		x = 54
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = ARG_ejercito
+		}
+	    available = {
+			NOT = {
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ARG_hafdasa_contracts
+		icon = GFX_goal_generic_army_motorized
+		x = 54
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = ARG_menendez_cavalry
+		}
+	    available = {
+			NOT = {
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ARG_british_tanks
+		icon = GFX_doctrine_tank_warfare
+		x = 52
+		y = 3
+		cost = 5
+		prerequisite = {
+			focus = ARG_hafdasa_contracts
+		}
+	    available = {
+			NOT = {
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_country_flag = ARG_french_tanks
+				has_country_flag = ARG_italian_tanks
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ARG_french_tanks
+		icon = GFX_goal_light_tanks
+		x = 54
+		y = 3
+		cost = 5
+		prerequisite = {
+			focus = ARG_hafdasa_contracts
+		}
+	    available = {
+			NOT = {
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_country_flag = ARG_british_tanks
+				has_country_flag = ARG_italian_tanks
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ARG_italian_tanks
+		icon = GFX_doctrine_tank_warfare
+		x = 56
+		y = 3
+		cost = 5
+		prerequisite = {
+			focus = ARG_hafdasa_contracts
+		}
+	    available = {
+			NOT = {
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+				has_country_flag = ARG_french_tanks
+				has_country_flag = ARG_british_tanks
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ARG_own_tanks
+		icon = GFX_doctrine_tank_warfare
+		x = 54
+		y = 5
+		cost = 5
+		prerequisite = {
+			focus = ARG_infantry_support
+			focus = ARG_attack_tanks
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ARG_infantry_support
+		icon = GFX_doctrine_tank_warfare
+		x = 53
+		y = 4
+		cost = 5
+		prerequisite = {
+			focus = ARG_british_tanks
+			focus = ARG_french_tanks
+			focus = ARG_italian_tanks
+		}
+	    available = {
+			OR = {
+				has_country_flag = ARG_british_tanks
+				has_country_flag = ARG_french_tanks
+				has_country_flag = ARG_italian_tanks
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ARG_attack_tanks
+		icon = GFX_doctrine_tank_warfare
+		x = 55
+		y = 4
+		cost = 5
+		prerequisite = {
+			focus = ARG_british_tanks
+			focus = ARG_french_tanks
+			focus = ARG_italian_tanks
+		}
+	    available = {
+			OR = {
+				has_country_flag = ARG_british_tanks
+				has_country_flag = ARG_french_tanks
+				has_country_flag = ARG_italian_tanks
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ARG_lonardi_planning
+		icon = GFX_focus_arg_tanks
+		x = 60
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = ARG_ejercito
+		}
+		mutually_exclusive = {
+			focus = ARG_ramirez_training
+		}
+	    available = {
+			NOT = {
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ARG_ramirez_training
+		icon = GFX_goal_doctrine_fire_superiority
+		x = 64
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = ARG_ejercito
+		}
+		mutually_exclusive = {
+			focus = ARG_lonardi_planning
+		}
+	    available = {
+			NOT = {
+				has_government = authoritarian_democrat
+				has_government = right_wing_populist
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+
 		}
 	}
 

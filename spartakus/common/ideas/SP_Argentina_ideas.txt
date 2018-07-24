@@ -16,7 +16,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				stability_factor = -0.25
+				stability_factor = -0.15
 				political_power_gain = 0.10
 			}
 		}
@@ -34,7 +34,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				stability_factor = -0.20
+				stability_factor = -0.10
 				political_power_gain = 0.05
 			}
 		}
@@ -52,13 +52,168 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				industrial_capacity_factory = -0.085
-				industrial_capacity_dockyard = -0.085
-				consumer_goods_factor = 0.075
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				consumer_goods_factor = 0.01
 				local_resources_factor = -0.03
 				economy_cost_factor = 0.25
-				production_speed_buildings_factor = -0.05
 				production_factory_efficiency_gain_factor = -0.10
+			}
+		}
+		ARG_great_depression = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.2
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.3
+			}
+		}
+		ARG_great_depression_2 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.2
+				industrial_capacity_factory = -0.125
+				industrial_capacity_dockyard = -0.125
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.2
+			}
+		}
+		ARG_austerity_1 = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		ARG_austerity_2 = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.05
+				industrial_capacity_factory = -0.04
+				industrial_capacity_dockyard = -0.04
+				consumer_goods_factor = -0.10
+				production_factory_efficiency_gain_factor = -0.10
+			}
+		}
+		ARG_austerity_3 = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.02
+				consumer_goods_factor = -0.17
+				industrial_capacity_factory = -0.07
+				industrial_capacity_dockyard = -0.07
+				production_factory_efficiency_gain_factor = -0.10
+			}
+		}
+		ARG_austerity_4 = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.07
+				consumer_goods_factor = -0.12
+				industrial_capacity_factory = -0.07
+				industrial_capacity_dockyard = -0.07
+				production_factory_efficiency_gain_factor = -0.10
+			}
+		}
+		ARG_austerity_5 = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.07
+				consumer_goods_factor = -0.08
+				industrial_capacity_factory = -0.03
+				industrial_capacity_dockyard = -0.03
+				production_factory_efficiency_gain_factor = -0.04
+			}
+		}
+		ARG_austerity_6 = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.1
+				consumer_goods_factor = -0.03
 			}
 		}
 		ARG_landowner_pact = {
