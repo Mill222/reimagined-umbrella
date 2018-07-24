@@ -1,0 +1,21 @@
+
+state={
+	id=1182
+	name="STATE_1182"
+	provinces={
+		9977 12519 14788 14789 14792 14795 14797 14798 14799 14803 14805 14809 14813 14818 14827 
+	}
+	history={
+		owner = SAF
+		add_core_of = NAM
+		add_core_of = SAF
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=46730
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

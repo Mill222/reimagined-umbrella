@@ -1,10 +1,7 @@
 
 state={
 	id=681
-	name="STATE_681" # Southern Cape
-	manpower = 1799558
-
-	state_category = town
+	name="STATE_681"
 
 	history={
 		owner = SAF
@@ -15,15 +12,21 @@ state={
 			dockyard = 1
 			12589 = {
 				naval_base = 4
+
 			}
+
 		}
 		victory_points = {
-			12589 10 #Cape Town
+			12589 10 
 		}
 		add_core_of = SAF
+
 	}
 
 	provinces={
-		12547 12589 12692
+		12547 12589 12692 14557 14558 14559 14560 14561 14563 14565 14566 14567 14568 14572 14573 14575 14576 14583 14584 14595 
 	}
+	manpower=1799558
+	buildings_max_level_factor=1.000
+	state_category=town
 }

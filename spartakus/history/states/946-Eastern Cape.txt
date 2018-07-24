@@ -1,31 +1,33 @@
 
 state={
-	id = 946
-	name = "STATE_946" # Eastern Cape
-	manpower = 1115540
-
-	state_category = rural
-	
-	resources = {
-		chromium = 40
+	id=946
+	name="STATE_946"
+	resources={
+		chromium=40.000
 	}
 
 	history={
 		owner = SAF
 		add_core_of = SAF
-		buildings={
+		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			4696 = {
 				naval_base = 2
+
 			}
+
 		}
 		victory_points = {
-			4696 2 #Port Elizabeth
+			4696 2 
 		}
+
 	}
 
 	provinces={
-		1833 4584 4696 4822 7576
+		1833 4584 4696 4822 7576 14562 14564 14569 14570 14571 14574 14577 14579 14580 14581 14587 14589 14590 14592 14596 14597 14601 14603 14609 
 	}
+	manpower=1115540
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

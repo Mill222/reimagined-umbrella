@@ -1,14 +1,10 @@
 
 state={
-	id = 275
-	name="STATE_275" # Transvaal
-	manpower = 3341500
-	
-	state_category = city
-	
-	resources = {
-		steel = 8
-		chromium = 45
+	id=275
+	name="STATE_275"
+	resources={
+		steel=8.000
+		chromium=45.000
 	}
 
 	history={
@@ -18,14 +14,19 @@ state={
 			arms_factory = 1
 			industrial_complex = 4
 			air_base = 3
+
 		}
 		victory_points = {
-			10400 10 #Pretoria
+			10400 10 
 		}
 		add_core_of = SAF
+
 	}
 
 	provinces={
-		1688 2171 2213 5106 5217 10400 10566
+		1688 2171 2213 5106 5217 10400 10566 14672 14682 14685 14690 14693 14694 14695 14696 14700 14701 14702 14705 14712 14713 14714 14716 14719 14720 14721 14724 14726 14727 14729 14731 14733 14735 14736 14737 14739 14740 14741 14742 14747 14749 14752 14753 14756 14760 14762 14763 14764 14766 14771 14772 14776 14777 
 	}
+	manpower=3341500
+	buildings_max_level_factor=1.000
+	state_category=city
 }
