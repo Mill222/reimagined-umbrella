@@ -4,7 +4,8 @@ state={
 	name="STATE_813"
 
 	history={
-		owner = ZAM
+		owner = CAF
+		add_core_of = CAF
 		add_core_of = ZAM
 		victory_points = {
 			5199 1 

@@ -1,0 +1,137 @@
+﻿capital = 965
+
+oob = "CAF"
+
+set_cosmetic_tag = CAF_UK
+
+# Starting tech
+
+set_research_slots = 2
+set_technology = {
+	shipbuild_basics = 1
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+
+add_ideas = {
+	limited_conscription
+}
+
+set_stability = 0.35
+set_war_support = 0.2
+
+
+set_politics = {
+
+	parties = {
+		leninist = {
+			popularity = 3
+		}
+		marxist = {
+			popularity = 9
+		}
+		revolutionary_socialist = {
+			popularity = 1
+		}
+		democratic_socialist = {
+			popularity = 1
+		}
+		social_democrat = {
+			popularity = 1
+		}
+		social_liberal = {
+			popularity = 1
+		}
+		liberal_conservative = {
+			popularity = 1
+		}
+		social_conservative = {
+			popularity = 7
+		}
+		authoritarian_democrat = {
+		    popularity = 64
+		}
+		right_wing_populist = {
+			popularity = 2
+		}
+		national_syndicalist = {
+			popularity = 9
+		}
+		national_corporatist = {
+			popularity = 1
+		}
+	}
+	
+	ruling_party = authoritarian_democrat
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = right_wing_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
