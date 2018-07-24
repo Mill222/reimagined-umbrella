@@ -731,7 +731,8 @@ country_event = { # Battle of Oslo
 		set_politics = {
 			ruling_party = leninist elections_allowed = no
 		}
-		add_popularity = { ideology = leninist popularity = 0.10 }
+		add_popularity = { ideology = leninist popularity = 0.05 }
+		add_popularity = { ideology = marxist popularity = 0.05 }
 		set_country_flag = NOR_communist_coup_flag
 		hidden_effect = {
 			#country_event = { id = nor.29 days = 1 }
@@ -765,7 +766,7 @@ country_event = { # Nasjonal Samling Takes Control
 	is_triggered_only = yes
 	
 	option = {
-		name = nor.29.a
+		name = nor.30.a
 		set_politics = {
 			ruling_party = national_corporatist elections_allowed = no
 		}
@@ -834,6 +835,121 @@ country_event = { # Blame Factory Owners
 		add_manpower = -500
 		increase_ruling_party_popularity_by_5 = yes
 		
+	}
+}
+
+country_event = { # First Marxist Assembly
+	id = nor.101
+	title = nor.101.t
+	desc = nor.101.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.101.a
+		ai_chance = { base = 40 }
+		add_stability = 0.01
+		set_politics = {
+			ruling_party = leninist elections_allowed = no
+		}
+		add_popularity = { ideology = leninist popularity = 0.07 }
+		add_popularity = { ideology = marxist popularity = -0.07 }
+	}
+	
+	option = {
+		name = nor.101.b
+		ai_chance = { base = 60 }
+		add_stability = 0.01
+		set_politics = {
+			ruling_party = marxist elections_allowed = no
+		}
+		add_popularity = { ideology = marxist popularity = 0.07 }
+		add_popularity = { ideology = leninist popularity = -0.07 }
+	}
+}
+
+country_event = { # Unite the Left
+	id = nor.102
+	title = nor.102.t
+	desc = nor.102.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.102.a
+		add_political_power = 5
+		increase_ruling_party_popularity_by_5 = yes
+		add_ideas = NOR_uniting_the_left_idea
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # Monarchy Question
+	id = nor.103
+	title = nor.103.t
+	desc = nor.103.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.103.a
+		ai_chance = { base = 98 }
+		add_stability = -0.02
+		add_political_power = 25
+		hidden_effect = {
+			create_country_leader = {
+				name = "Olav Scheflo"
+				desc = "POLITICS_OLAV_SCHEFLO_DESC"
+				#picture = "NOR.tga"
+				expire = "1965.1.1"
+				ideology = leninist_subtype
+				traits = {
+					#
+				}
+			}
+			create_country_leader = {
+				name = "Peder Furubotn"
+				desc = "POLITICS_PEDER_FURUBOTN_DESC"
+				#picture = "NOR.tga"
+				expire = "1965.1.1"
+				ideology = marxist_subtype
+				traits = {
+					#
+				}
+			}
+			create_country_leader = {
+				name = "Martin Tranmæl"
+				desc = "POLITICS_MARTIN_TRANMAEL_DESC"
+				#picture = "NOR.tga"
+				expire = "1965.1.1"
+				ideology = revolutionary_socialist_subtype
+				traits = {
+					#
+				}
+			}
+			create_country_leader = {
+				name = "Michael Puntervold"
+				desc = "POLITICS_MICHAEL_PUNTERVOLD_DESC"
+				#picture = "NOR.tga"
+				expire = "1965.1.1"
+				ideology = democratic_socialist_subtype
+				traits = {
+					#
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = nor.103.b
+		ai_chance = { base = 2 }
+		add_stability = 0.02
+		add_political_power = -25
 	}
 }
 

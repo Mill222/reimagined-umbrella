@@ -75,6 +75,15 @@ NOR_expand_general_staff_idea:0 "Expanded General Staff"
 NOR_lighter_faster_ships_idea:0 "Lighter and Faster Ships"
 NOR_heavier_powerful_ships_idea:0 "Heavier and Powerful Ships"
 
+NOR_direct_worker_controlled_industries_idea:0 "Direct Worker Control"
+NOR_socialist_agrariansim_idea:0 "Socialist Agrarianism"
+NOR_uniting_the_left_idea:0 "The Left United"
+NOR_centralized_power_idea:0 "A Socialist Centralized Command"
+NOR_strengthen_local_power_idea:0 "Local Power Strengthen"
+NOR_strong_independent_unions_idea:0 "Strong and Independent Unions"
+NOR_socialist_welfare_system_idea:0 "The Socialist System"
+NOR_decentralized_power_idea:0 "A Socialist Decentralized Command"
+
 ### Focuses ###
 
 NOR_national_reforms:0 "National Reforms"
@@ -550,6 +559,20 @@ nor.100.t:0 "The Factory Owners' Sentence"
 nor.100.d:0 "WIP"
 nor.100.a:0 "They Shall no Longer Exploit the Workers, but Become the Slaves of the Revolution!"
 nor.100.b:0 "They Have no Welcome in Norway. Boot Them of Our Country!"
+
+nor.101.t:0 "The First Marxist Assembly"
+nor.101.d:0 "WIP"
+nor.101.a:0 "Olav Scheflo is Elected Chairman"
+nor.101.b:0 "Peder Furubotn is Elected Chairman"
+
+nor.102.t:0 "A Union of the Left"
+nor.102.d:0 "WIP"
+nor.102.a:0 "The Revolution is Too Important for Internal Strife!"
+
+nor.103.t:0 "The Question of the Monarchy"
+nor.103.d:0 "WIP"
+nor.103.a:0 "It is not a Question. We shall Abolish the Monarchy"
+nor.103.b:0 "So Long the King Does not Stand in our way, We can let him stay"
 
 ### Opinions ###
 

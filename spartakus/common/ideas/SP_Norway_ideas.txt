@@ -357,7 +357,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = -0.05
 				industrial_capacity_factory = 0.03
-				political_power_gain = -0.15
+				political_power_gain = -0.10
 			}
 		}
 		
@@ -564,6 +564,167 @@ ideas = {
 				navy_capital_ship_defence_factor = 0.05
 				naval_hit_chance = 0.10
 				navy_max_range_factor = 0.05
+			}
+		}
+		
+		NOR_direct_worker_controlled_industries_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_local_self_management
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+				production_factory_efficiency_gain_factor = 0.05
+				production_speed_infrastructure_factor = 0.05
+				political_power_gain = -0.05
+			}
+		}
+		
+		NOR_socialist_agrariansim_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_radical_socialist_revolution
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+				local_resources_factor = 0.05
+				social_conservative_drift = -0.01
+			}
+		}
+		
+		NOR_uniting_the_left_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_communist_army
+			
+			modifier = {
+				conscription_factor = 0.25
+				political_power_gain = 0.10
+			}
+		}
+		
+		NOR_centralized_power_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_communist_army
+			
+			modifier = {
+				conscription_factor = 0.25
+				political_power_gain = 0.15
+			}
+		}
+		
+		NOR_strengthen_local_power_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = neutrality_idea
+			
+			modifier = {
+				social_liberal_drift = -0.01
+				liberal_conservative_drift = -0.01
+				political_power_gain = -0.10
+			}
+		}
+		
+		NOR_strong_independent_unions_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = economic_control_icon
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+				production_factory_efficiency_gain_factor = 0.10
+				production_speed_infrastructure_factor = 0.05
+				political_power_gain = -0.05
+			}
+		}
+		
+		NOR_socialist_welfare_system_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_radical_socialist_revolution
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.10
+				production_speed_infrastructure_factor = 0.05
+				MONTHLY_POPULATION = 0.10
+				political_power_gain = -0.05
+			}
+		}
+		
+		NOR_decentralized_power_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_communist_army
+			
+			modifier = {
+				conscription_factor = 0.35
+				political_power_gain = 0.05
 			}
 		}
 
