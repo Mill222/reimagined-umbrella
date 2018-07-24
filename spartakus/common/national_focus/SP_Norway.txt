@@ -227,7 +227,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_communist_coup
-		icon = GFX_Communist_Loyalty
+		icon = GFX_focus_red_army
 		cost = 5,00
 		x = 37
 		y = 0
@@ -1120,6 +1120,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 25
 			remove_ideas = NOR_destroyed_economy_idea
+			remove_ideas = NOR_cut_government_spending_idea
 		}
 
 	}
@@ -2236,13 +2237,23 @@ focus_tree = {
 	}
 	focus = {
 		id = NOR_com_consilidate_regime
-		icon = GFX_goal_demand_sudetenland
+		icon = GFX_goal_ideology_syndicalist
 		cost = 5,00
 		prerequisite = {
 			focus = NOR_communist_coup
 		}
 		x = 37
 		y = 1
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+			add_popularity = { ideology = leninist popularity = 0.04 }
+			add_popularity = { ideology = marxist popularity = 0.04 }
+		}
 
 	}
 	focus = {
@@ -2254,6 +2265,14 @@ focus_tree = {
 		}
 		x = 36
 		y = 2
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			country_event = { id = nor.101 days = 1 }
+		}
 
 	}
 	focus = {
@@ -2268,6 +2287,19 @@ focus_tree = {
 		}
 		x = 35
 		y = 3
+		
+		available = {
+			has_government = leninist
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 20
+			add_popularity = { ideology = leninist popularity = 0.02 }
+		}
 
 	}
 	focus = {
@@ -2279,6 +2311,26 @@ focus_tree = {
 		}
 		x = 35
 		y = 4
+		
+		available = {
+			controls_state = 110
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_popularity = { ideology = leninist popularity = 0.01 }
+			110 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -2290,6 +2342,21 @@ focus_tree = {
 		}
 		x = 34
 		y = 5
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = -40
+			add_popularity = { ideology = leninist popularity = 0.03 }
+			add_popularity = { ideology = revolutionary_socialist popularity = -0.01 }
+			add_popularity = { ideology = democratic_socialist popularity = -0.01 }
+			add_popularity = { ideology = social_liberal popularity = -0.01 }
+			add_popularity = { ideology = liberal_conservative popularity = -0.01 }
+			add_popularity = { ideology = social_conservative popularity = -0.01 }
+			add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }
+		}
 
 	}
 	focus = {
@@ -2304,6 +2371,19 @@ focus_tree = {
 		}
 		x = 37
 		y = 3
+		
+		available = {
+			has_government = marxist
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 20
+			add_popularity = { ideology = marxist popularity = 0.02 }
+		}
 
 	}
 	focus = {
@@ -2315,6 +2395,16 @@ focus_tree = {
 		}
 		x = 37
 		y = 4
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_popularity = { ideology = marxist popularity = 0.01 }
+			add_stability = 0.03
+			add_ideas = NOR_direct_worker_controlled_industries_idea
+		}
 
 	}
 	focus = {
@@ -2327,6 +2417,15 @@ focus_tree = {
 		}
 		x = 36
 		y = 5
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			increase_ruling_party_popularity_by_5 = yes
+		}
 
 	}
 	focus = {
@@ -2338,6 +2437,21 @@ focus_tree = {
 		}
 		x = 38
 		y = 5
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = -25
+			add_popularity = { ideology = marxist popularity = 0.01 }
+			add_popularity = { ideology = revolutionary_socialist popularity = 0.01 }
+			add_popularity = { ideology = democratic_socialist popularity = 0.01 }
+			add_popularity = { ideology = social_liberal popularity = -0.01 }
+			add_popularity = { ideology = liberal_conservative popularity = -0.01 }
+			add_popularity = { ideology = social_conservative popularity = -0.01 }
+			add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }
+		}
 
 	}
 	focus = {
@@ -2373,6 +2487,17 @@ focus_tree = {
 		}
 		x = 40
 		y = 2
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_manpower = -1500
+			add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }
+			add_popularity = { ideology = national_syndicalist popularity = -0.01 }
+			add_popularity = { ideology = national_corporatist popularity = -0.01 }
+		}
 
 	}
 	focus = {
@@ -2385,6 +2510,14 @@ focus_tree = {
 		}
 		x = 42
 		y = 2
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			country_event = { id = nor.102 days = 1 }
+		}
 
 	}
 	focus = {
@@ -2399,6 +2532,14 @@ focus_tree = {
 		}
 		x = 41
 		y = 3
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			country_event = { id = nor.103 days = 1 }
+		}
 
 	}
 	focus = {
@@ -2410,6 +2551,14 @@ focus_tree = {
 		}
 		x = 40
 		y = 4
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
 
 	}
 	focus = {
@@ -2421,6 +2570,27 @@ focus_tree = {
 		}
 		x = 42
 		y = 4
+		
+		available = {
+			controls_state = 143
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = -25
+			add_manpower = -700
+			143 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -2435,6 +2605,22 @@ focus_tree = {
 		}
 		x = 41
 		y = 5
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_popularity = { ideology = leninist popularity = 0.005 }
+			add_popularity = { ideology = marxist popularity = 0.005 }
+			add_popularity = { ideology = revolutionary_socialist popularity = 0.005 }
+			add_popularity = { ideology = democratic_socialist popularity = 0.005 }
+			add_popularity = { ideology = social_conservative popularity = -0.02 }
+			add_timed_idea = {
+				idea = NOR_socialist_agrariansim_idea
+				days = 200
+			}
+		}
 
 	}
 	focus = {
@@ -2453,6 +2639,18 @@ focus_tree = {
 		}
 		x = 37
 		y = 6
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			swap_ideas = {
+				remove_idea = NOR_uniting_the_left_idea
+				add_idea = NOR_centralized_power_idea
+			}
+		}
 
 	}
 	focus = {
@@ -2464,6 +2662,19 @@ focus_tree = {
 		}
 		x = 44
 		y = 2
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = -35
+			add_stability = 0.03
+			add_timed_idea = {
+				idea = NOR_strengthen_local_power_idea
+				days = 200
+			}
+		}
 
 	}
 	focus = {
@@ -2475,6 +2686,14 @@ focus_tree = {
 		}
 		x = 44
 		y = 3
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_ideas = NOR_strong_independent_unions_idea
+		}
 
 	}
 	focus = {
@@ -2486,6 +2705,16 @@ focus_tree = {
 		}
 		x = 44
 		y = 4
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+			add_stability = 0.02
+			add_manpower = 1500
+		}
 
 	}
 	focus = {
@@ -2497,6 +2726,17 @@ focus_tree = {
 		}
 		x = 44
 		y = 5
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = NOR_strong_independent_unions_idea
+				add_idea = NOR_socialist_welfare_system_idea
+			}
+		}
 
 	}
 	focus = {
@@ -2511,6 +2751,18 @@ focus_tree = {
 		}
 		x = 42
 		y = 6
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			swap_ideas = {
+				remove_idea = NOR_uniting_the_left_idea
+				add_idea = NOR_decentralized_power_idea
+			}
+		}
 
 	}
 	focus = {
@@ -2759,6 +3011,16 @@ focus_tree = {
 		}
 		x = 59
 		y = 1
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+			add_popularity = { ideology = national_corporatist popularity = 0.04 }
+			add_popularity = { ideology = national_syndicalist popularity = 0.04 }
+		}
 
 	}
 	focus = {

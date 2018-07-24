@@ -3,7 +3,7 @@
 ### Loading Messages ###
 LOADING_GUI:0 "Crashing the Stock Market"
 #"Loading GUI"
-LOADING_HISTORY:0 "Hiding Trotsky"
+LOADING_HISTORY:0 "Rioting in the Colonies"
 #"Loading History"
 LOADING_SAVEGAME:0 "Rewriting History: $NAME$"
 #"Loading savegame: $NAME$"
@@ -75,6 +75,7 @@ autonomy_dominion:1 "Autonomous Dependency"
 ### Land Units ###
 garrison:0 "Garrison"
 militia:0 "Militia"
+light_infantry:0 "Light Infantry"
 
 ### Interface ###
 minister:1 "Ministers"
@@ -752,3 +753,13 @@ generic_liberty_research_idea:0 "University Grants"
 generic_liberty_research_idea_desc:0 "We are paying modest but still relatively decent university grants to ensure any aspiring student has a shot at higher education. This is bound to increase the size of our intelligentsia"
 generic_welfare_idea:0 "Welfare Programs"
 generic_welfare_idea_desc:0 "We are ensuring that the poorest in our society receive the help they need to survive, so that they do not have to fend for themselves and may work for our economy one day."
+
+SP_at_war_idea_1:0 "At War"
+SP_at_war_idea_2:0 "At War"
+SP_at_war_idea_3:0 "At War"
+SP_at_war_idea_4:0 "At War"
+SP_at_war_idea_5:0 "At War"
+SP_at_war_idea_6:0 "At War"
+SP_at_war_idea_7:0 "At War"
+SP_at_war_idea_8:0 "At War"
+SP_at_war_idea_9:0 "At War"

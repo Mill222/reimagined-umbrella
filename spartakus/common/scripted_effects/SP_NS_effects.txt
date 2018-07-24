@@ -399,3 +399,204 @@ SP_NS_clear_coalition_effect = {
 	clr_country_flag = coalition_national_syndicalist
 	clr_country_flag = coalition_national_corporatist
 }
+
+SP_NS_war_modifiers_effect = {
+	if = {
+		limit = { has_war = yes }
+		if = { # 0-20% WT
+			limit = {
+				threat < 0.20
+			}
+			remove_ideas = {
+				SP_at_war_idea_2
+				SP_at_war_idea_3
+				SP_at_war_idea_4
+				SP_at_war_idea_5
+				SP_at_war_idea_6
+				SP_at_war_idea_7
+				SP_at_war_idea_8
+				SP_at_war_idea_9
+			}
+			add_ideas = SP_at_war_idea_1
+		}
+		else_if = { # 20-30% WT
+			limit = {
+				check_variable = {
+					var = threat
+					value = 0.20
+					compare = greater_than_or_equals
+				}
+				threat < 0.30
+			}
+			remove_ideas = {
+				SP_at_war_idea_1
+				SP_at_war_idea_3
+				SP_at_war_idea_4
+				SP_at_war_idea_5
+				SP_at_war_idea_6
+				SP_at_war_idea_7
+				SP_at_war_idea_8
+				SP_at_war_idea_9
+			}
+			add_ideas = SP_at_war_idea_2
+		}
+		else_if = { # 30-40% WT
+			limit = {
+				check_variable = {
+					var = threat
+					value = 0.30
+					compare = greater_than_or_equals
+				}
+				threat < 0.40
+			}
+			remove_ideas = {
+				SP_at_war_idea_1
+				SP_at_war_idea_2
+				SP_at_war_idea_4
+				SP_at_war_idea_5
+				SP_at_war_idea_6
+				SP_at_war_idea_7
+				SP_at_war_idea_8
+				SP_at_war_idea_9
+			}
+			add_ideas = SP_at_war_idea_3
+		}
+		else_if = { # 40-50% WT
+			limit = {
+				check_variable = {
+					var = threat
+					value = 0.40
+					compare = greater_than_or_equals
+				}
+				threat < 0.50
+			}
+			remove_ideas = {
+				SP_at_war_idea_1
+				SP_at_war_idea_2
+				SP_at_war_idea_3
+				SP_at_war_idea_5
+				SP_at_war_idea_6
+				SP_at_war_idea_7
+				SP_at_war_idea_8
+				SP_at_war_idea_9
+			}
+			add_ideas = SP_at_war_idea_4
+		}
+		else_if = { # 50-60% WT
+			limit = {
+				check_variable = {
+					var = threat
+					value = 0.50
+					compare = greater_than_or_equals
+				}
+				threat < 0.60
+			}
+			remove_ideas = {
+				SP_at_war_idea_1
+				SP_at_war_idea_2
+				SP_at_war_idea_3
+				SP_at_war_idea_4
+				SP_at_war_idea_6
+				SP_at_war_idea_7
+				SP_at_war_idea_8
+				SP_at_war_idea_9
+			}
+			add_ideas = SP_at_war_idea_5
+		}
+		else_if = { # 60-70% WT
+			limit = {
+				check_variable = {
+					var = threat
+					value = 0.50
+					compare = greater_than_or_equals
+				}
+				threat < 0.60
+			}
+			remove_ideas = {
+				SP_at_war_idea_1
+				SP_at_war_idea_2
+				SP_at_war_idea_3
+				SP_at_war_idea_4
+				SP_at_war_idea_5
+				SP_at_war_idea_7
+				SP_at_war_idea_8
+				SP_at_war_idea_9
+			}
+			add_ideas = SP_at_war_idea_6
+		}
+		else_if = { # 70-80% WT
+			limit = {
+				check_variable = {
+					var = threat
+					value = 0.70
+					compare = greater_than_or_equals
+				}
+				threat < 0.80
+			}
+			remove_ideas = {
+				SP_at_war_idea_1
+				SP_at_war_idea_2
+				SP_at_war_idea_3
+				SP_at_war_idea_4
+				SP_at_war_idea_5
+				SP_at_war_idea_6
+				SP_at_war_idea_8
+				SP_at_war_idea_9
+			}
+			add_ideas = SP_at_war_idea_7
+		}
+		else_if = { # 80-90% WT
+			limit = {
+				check_variable = {
+					var = threat
+					value = 0.80
+					compare = greater_than_or_equals
+				}
+				threat < 0.90
+			}
+			remove_ideas = {
+				SP_at_war_idea_1
+				SP_at_war_idea_2
+				SP_at_war_idea_3
+				SP_at_war_idea_4
+				SP_at_war_idea_5
+				SP_at_war_idea_6
+				SP_at_war_idea_7
+				SP_at_war_idea_9
+			}
+			add_ideas = SP_at_war_idea_8
+		}
+		else_if = { # 90-100% WT
+			limit = {
+				check_variable = {
+					var = threat
+					value = 0.90
+					compare = greater_than_or_equals
+				}
+			}
+			remove_ideas = {
+				SP_at_war_idea_1
+				SP_at_war_idea_2
+				SP_at_war_idea_3
+				SP_at_war_idea_4
+				SP_at_war_idea_5
+				SP_at_war_idea_6
+				SP_at_war_idea_7
+				SP_at_war_idea_8
+			}
+			add_ideas = SP_at_war_idea_9
+		}
+	}
+	else = {
+		remove_ideas = {
+			SP_at_war_idea_1
+			SP_at_war_idea_2
+			SP_at_war_idea_3
+			SP_at_war_idea_4
+			SP_at_war_idea_5
+			SP_at_war_idea_6
+			SP_at_war_idea_7
+			SP_at_war_idea_8
+		}
+	}
+}

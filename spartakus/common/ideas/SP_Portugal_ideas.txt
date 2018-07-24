@@ -21,8 +21,12 @@ country = {
 	}
 	
 	POR_revolution = {
-		allowed = {always = no}
-		modifier = { conscription = 0.010 army_morale_factor = 0.05 stability_factor = 0.05 ai_focus_aggressive_factor = -1.0  }
+		allowed = { always = no }
+		modifier = { 
+			conscription = 0.010 
+			army_morale_factor = 0.05 
+			stability_factor = 0.05   
+		}
 		removal_cost = -1
 		picture = home_of_revolution
 	}
@@ -162,6 +166,8 @@ country = {
 		picture = FRA_scw_intervention_nationalists_focus
 	}
 	
+	# Focus shit
+	
 	POR_thriving_agriculture = {
 		allowed = {always = no}
 		modifier = {
@@ -292,6 +298,94 @@ country = {
 			}
 		removal_cost = -1
 		picture = idea_generic_trade
+	}
+	
+	POR_plane_production = {
+		allowed = {always = no}
+		modifier = {
+				industrial_capacity_factory = 0.05
+				production_speed_anti_air_building_factor = 0.05
+				production_speed_air_base_factor = 0.05
+			}
+		removal_cost = -1
+		picture = idea_air_support_focus
+	}
+	
+	POR_delgado_doctrine = {
+		allowed = {always = no}
+		modifier = {
+			air_close_air_support_attack_factor = 0.05
+			air_strategic_bomber_bombing_factor = 0.05
+		}
+		removal_cost = -1
+		picture = idea_air_support_focus
+	}
+	
+	POR_beires_doctrine = {
+		allowed = {always = no}
+		modifier = {
+			air_air_superiority_attack_factor = 0.05
+			air_interception_agility_factor = 0.05
+		}
+		removal_cost = -1
+		picture = idea_air_support_focus
+	}
+	
+	POR_grande_exercito = {
+		allowed = { always = no }
+		modifier = { 
+			conscription = 0.02 
+			consumer_goods_factor = 0.05
+		}
+		removal_cost = -1
+		picture = Mass_Conscription
+	}
+	
+	POR_grande_exercito_draft = {
+		allowed = { always = no }
+		modifier = { 
+			conscription = 0.025 
+			consumer_goods_factor = 0.05
+			war_support_factor = -0.05
+		}
+		removal_cost = -1
+		picture = Mass_Conscription
+	}
+	
+	POR_standardized_equipment_idea = {
+			picture = FRA_factory_strikes
+			allowed = {always = no}
+			removal_cost = -1
+			modifier = {
+				army_org_Factor = 0.05
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+	}
+	
+	POR_mass_munitions_idea = {
+			picture = FRA_factory_strikes
+			allowed = {always = no}
+			removal_cost = -1
+			modifier = {
+				army_org_Factor = 0.05
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+			equipment_bonus = {
+				support_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
 	}
 }
 

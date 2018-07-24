@@ -162,7 +162,6 @@ bookmarks = {
 			ideas = {
 				ALB_aristocracy
 				ALB_military_culture
-				ALB_illiteracy
 				ALB_italian_industry
 			}
 			focuses = {
@@ -186,6 +185,18 @@ bookmarks = {
 			history = "SER_SP_GATHERING_STORM_DESC"
 			ideology = right_wing_populist
 			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"ARG"={
+			minor = yes
+			history = "ARG_SP_GATHERING_STORM_DESC"
+			ideology = national_corporatist
+			ideas = {
+				ARG_agriculture_problem
+				ARG_coalition
 			}
 			focuses = {
 			}

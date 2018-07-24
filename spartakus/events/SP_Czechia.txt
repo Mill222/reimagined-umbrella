@@ -117,10 +117,12 @@ country_event = { # From Economic Revitalisation focus - decide whether to inves
 	option = { # Industry
 		name = cze.3.a
 		set_country_flag = CZE_industrial_investments_first
+		CZE_increase_petka_left_wing_influence_effect = yes
 	}
 	option = { # Agriculture
 		name = cze.3.b
 		set_country_flag = CZE_agricultural_investments_first
+		CZE_increase_petka_right_wing_influence_effect = yes
 	}
 }
 
@@ -258,6 +260,9 @@ country_event = { # Raiding Stit Naroda offices
 			popularity = -0.01
 		}
 		CZE_Gajda_increase_coup_timeout_days_10_effect = yes
+		hidden_effect = {
+			country_event = { id = czegajda.7 days = 2 }
+		}
 		
 		ai_chance = { factor = 15 }
 	}
@@ -322,10 +327,265 @@ country_event = { # Sponsoring anti-NOK newspaper articles
 			ideology = marxist
 			popularity = 0.005
 		}
-		custom_effect_tooltip = CZE_strengthen_communists_tt
-		add_to_variable = { CZE_strengthened_communists_var = 1 }
+		if = {
+			limit = {
+				NOT = { has_idea = CZE_delnicka_straz }
+			}
+			custom_effect_tooltip = CZE_communists_fight_gajda_tt
+			hidden_effect = {
+				country_event = {
+					id = czegajda.8
+					days = 25
+					random = 25
+				}
+				set_country_flag = CZE_communists_fight_gajda
+			}
+		}
+		CZE_strengthen_communists_effect = yes
 		
 		ai_chance = { factor = 15 }
+	}
+}
+
+country_event = { # NOK MPs protest shutdown of Stit Naroda newspaper
+	id = czegajda.7
+	title = czegajda.7.t
+	desc = czegajda.7.desc
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = czegajda.7.a
+		add_political_power = -15
+		add_stability = -0.005
+	}
+}
+
+country_event = { # Clashes between communists and NOK supporters
+	id = czegajda.8
+	title = czegajda.8.t
+	desc = { # Communist victory - no Obrana, no DS
+		text = czegajda.8.desc.aa
+		trigger = {
+			check_variable = { czegajda8 = 1 }
+			NOT = {
+				has_idea = CZE_obrana
+				has_idea = CZE_delnicka_straz
+			}
+		}
+	}
+	desc = { # Communist victory - Obrana, no DS
+		text = czegajda.8.desc.ab
+		trigger = {
+			check_variable = { czegajda8 = 1 }
+			has_idea = CZE_obrana
+			NOT = { has_idea = CZE_delnicka_straz }
+		}
+	}
+	desc = { # Communist victory - Obrana, DS
+		text = czegajda.8.desc.aa
+		trigger = {
+			check_variable = { czegajda8 = 1 }
+			has_idea = CZE_obrana
+			has_idea = CZE_delnicka_straz
+		}
+	}
+	desc = { # NOK  - no Obrana, no DS
+		text = czegajda.8.desc.ba
+		trigger = {
+			check_variable = { czegajda8 = 2 }
+			
+			NOT = {
+				has_idea = CZE_obrana
+				has_idea = CZE_delnicka_straz
+			}
+		}
+	}
+	desc = { # NOK  - Obrana, no DS
+		text = czegajda.8.desc.bb
+		trigger = {
+			check_variable = { czegajda8 = 2 }
+			has_idea = CZE_obrana
+			NOT = { has_idea = CZE_delnicka_straz }
+		}
+	}
+	desc = { # NOK  - Obrana, DS
+		text = czegajda.8.desc.bc
+		trigger = {
+			check_variable = { czegajda8 = 2 }
+			has_idea = CZE_obrana
+			has_idea = CZE_delnicka_straz
+		}
+	}
+	picture = GFX_report_event_worker_protests
+	
+	trigger = {
+		OR = {
+			has_government = social_democrat
+			has_government = social_liberal
+			has_government = liberal_conservative
+			has_government = social_conservative
+			has_government = right_wing_populist
+		}
+		has_active_mission = CZE_Gajda_coup_progress_mission
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_list = {
+			50 = { # Communist victory
+				modifier = {
+					factor = 1.2
+					check_variable = {
+						var = CZE_strengthened_communists_var
+						value = 1
+						compare = greater_than_or_equals
+					}
+				}
+				modifier = {
+					factor = 1.2
+					check_variable = {
+						var = CZE_strengthened_communists_var
+						value = 2
+						compare = greater_than_or_equals
+					}
+				}
+				modifier = {
+					factor = 1.2
+					check_variable = {
+						var = CZE_strengthened_communists_var
+						value = 3
+						compare = greater_than_or_equals
+					}
+				}
+				modifier = {
+					factor = 1.2
+					check_variable = {
+						var = CZE_strengthened_communists_var
+						value = 4
+						compare = greater_than_or_equals
+					}
+				}
+				modifier = {
+					factor = 1.2
+					check_variable = {
+						var = CZE_strengthened_communists_var
+						value = 5
+						compare = greater_than_or_equals
+					}
+				}
+				modifier = {
+					factor = 1.5
+					has_idea = CZE_delnicka_straz
+				}
+				
+				set_temp_variable = { czegajda8 = 1 }
+			}
+			50 = { # NOK victory
+				modifier = {
+					factor = 1.2
+					check_variable = {
+						var = CZE_Gajda_coup_prog_counter
+						value = 1
+						compare = greater_than_or_equals
+					}
+				}
+				modifier = {
+					factor = 1.2
+					check_variable = {
+						var = CZE_Gajda_coup_prog_counter
+						value = 2
+						compare = greater_than_or_equals
+					}
+				}
+				modifier = {
+					factor = 1.2
+					check_variable = {
+						var = CZE_Gajda_coup_prog_counter
+						value = 3
+						compare = greater_than_or_equals
+					}
+				}
+				modifier = {
+					factor = 1.5
+					has_idea = CZE_obrana
+				}
+				
+				set_temp_variable = { czegajda8 = 2 }
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = czegajda.8
+				days = 25
+				random = 25
+			}
+		}
+	}
+	
+	option = {
+		name = czegajda.8.a
+		add_stability = -0.005
+		if = { # Communist victory
+			limit = {
+				check_variable = { czegajda8 = 1 }
+			}
+			add_popularity = {
+				ideology = marxist
+				popularity = 0.005
+			}
+			add_popularity = {
+				ideology = national_corporatist
+				popularity = -0.0025
+			}
+			add_to_temp_variable = { czegajda8comvic = 1 }
+			if = {
+				limit = {
+					check_variable = { czegajda8comvic > 2 }
+				}
+				CZE_strengthen_communists_effect = yes
+			}
+			if = {
+				limit = {
+					check_variable = { czegajda8comvic > 3 }
+				}
+				CZE_Gajda_increase_coup_timeout_days_5_effect = yes
+			}
+			if = {
+				limit = {
+					check_variable = { czegajda8comvic > 5 }
+					CZE_postpone_Gajda_coup_progress_effect = yes
+				}
+			}
+		}
+		if = { # NOK victory
+			limit = {
+				check_variable = { czegajda8 = 2 }
+			}
+			add_popularity = {
+				ideology = national_corporatist
+				popularity = 0.005
+			}
+			add_popularity = {
+				ideology = marxist
+				popularity = -0.0025
+			}
+			add_to_temp_variable = { czegajda8nokvic = 1 }
+			if = {
+				limit = {
+					check_variable = { czegajda8nokvic > 2 }
+				}
+				CZE_Gajda_decrease_coup_timeout_days_5_effect = yes
+			}
+			if = {
+				limit = {
+					check_variable = { czegajda8nokvic > 5 }
+				}
+				CZE_increase_Gajda_coup_progress_effect = yes
+			}
+		}
 	}
 }
 
@@ -593,15 +853,15 @@ country_event = { # 1935 Parliamentary Election
 		
 		add_popularity = {
 			ideology = social_liberal
-			popularity = 0.025
+			popularity = 0.015
 		}
 		add_popularity = {
 			ideology = social_democrat
-			popularity = 0.025
+			popularity = 0.015
 		}
 		add_popularity = {
 			ideology = liberal_conservative
-			popularity = 0.025
+			popularity = 0.015
 		}
 		
 		ai_chance = {
@@ -630,11 +890,15 @@ country_event = { # 1935 Parliamentary Election
 		
 		add_popularity = {
 			ideology = social_conservative
-			popularity = 0.035
+			popularity = 0.02
 		}
 		add_popularity = {
 			ideology = right_wing_populist
-			popularity = 0.035
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = national_corporatism
+			popularity = 0.005
 		}
 		
 		ai_chance = {

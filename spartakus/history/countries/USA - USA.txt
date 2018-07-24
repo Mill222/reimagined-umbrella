@@ -40,6 +40,25 @@ set_technology = {
 
 }
 
+add_ideas = {
+USA_Charles_Curtis_hog_mli
+USA_Henry_L_Stimson_for_sde
+USA_Roy_D_Chapin_eco_mli
+USA_Charles_Evans_Hughes_Sr_sec_sco
+USA_J_Edgar_Hoover_int_ade
+USA_Omar_N_Bradley_carm_sde
+USA_Douglas_MacArthur_cos_mli
+USA_Oscar_Westover_cair_sde
+USA_Charles_F_Adams_cnav_mli
+disarmed_nation
+free_trade
+undisturbed_isolation
+USA_booming_economy
+USA_tariff_act
+USA_impending_drought
+USA_neutrality_movement
+}
+
 set_politics = {
 
 	parties = {
@@ -86,32 +105,6 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 
-}
-
-add_ideas = {
-USA_Charles_Curtis_hog_mli
-USA_Henry_L_Stimson_for_sde
-USA_Roy_D_Chapin_eco_mli
-USA_Charles_Evans_Hughes_Sr_sec_sco
-USA_J_Edgar_Hoover_int_ade
-USA_Omar_N_Bradley_carm_sde
-USA_Douglas_MacArthur_cos_mli
-USA_Oscar_Westover_cair_sde
-USA_Charles_F_Adams_cnav_mli
-disarmed_nation
-free_trade
-undisturbed_isolation
-USA_booming_economy
-USA_tariff_act
-USA_impending_drought
-USA_neutrality_movement
-}
-
-
-# DIPLOMACY
-set_autonomy = {
-	target = PHI
-	autonomous_state = SP_autonomous
 }
 
 create_country_leader = {

@@ -2,17 +2,119 @@ ideas = {
 	
 	country = {
 
-		ARG_coalition_lisandro = {
-			picture = ROM_michael
+		ARG_coalition = {
+			picture = GFX_idea_police_hat
 
 			allowed = {
 				original_tag = ARG
 			}
 
+			allowed_civil_war = {
+				always = yes
+			}
+
 			removal_cost = -1
+
 			modifier = {
-				stability_factor = 0.05
-				political_power_gain = -0.05
+				stability_factor = -0.25
+				political_power_gain = 0.10
+			}
+		}
+		ARG_coalition_1 = {
+			picture = GFX_idea_police_hat
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.20
+				political_power_gain = 0.05
+			}
+		}
+		ARG_agriculture_problem = {
+			picture = GFX_idea_Economic_Meltdown
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = -0.085
+				industrial_capacity_dockyard = -0.085
+				consumer_goods_factor = 0.075
+				local_resources_factor = -0.03
+				economy_cost_factor = 0.25
+				production_speed_buildings_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.10
+			}
+		}
+		ARG_landowner_pact = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.02
+				industrial_capacity_dockyard = 0.02
+			}
+		}
+		ARG_land_reform = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.035
+				industrial_capacity_dockyard = 0.035
+				political_power_gain = -0.15
+			}
+		}
+		ARG_coalition_broken = {
+			picture = GFX_idea_police_hat
+
+			allowed = {
+				original_tag = ARG
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.35
+				war_support_factor = -0.30
+				political_power_gain = -0.10
 			}
 		}
 	}

@@ -28,7 +28,7 @@ country_event = {
 		
 		
 		#### Remove independent war
-		country_event = sp.political.30
+		# country_event = sp.political.30
 		
 		
 		### Trigger the same event next week
@@ -36,4 +36,36 @@ country_event = {
 	}
 	
 	option = { name = OK }
+}
+
+### on_biweekly (every 14 days)
+
+country_event = {
+	id = NS_on_action.2
+	hidden = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		
+		### Trigger the same event next week
+		country_event = { id = NS_on_action.2 days = 14 }
+	}
+	
+	option = { name = OK }
+}
+
+### on_monthly (every 30 days)
+
+country_event = {
+	id = NS_on_action.3
+	hidden = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		### Check WT for war support and stability modifiers
+		SP_NS_war_modifiers_effect = yes
+		
+		### Trigger the same event next week
+		country_event = { id = NS_on_action.3 days = 30 }
+	}
 }

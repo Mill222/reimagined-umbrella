@@ -4,14 +4,12 @@ state={
 	name="STATE_957"
 
 	history={
-		owner = ZAM
+		owner = CAF
+		add_core_of = CAF
 		add_core_of = ZAM
 		buildings = {
 			infrastructure = 3
 
-		}
-		victory_points = {
-			13648 1 
 		}
 
 	}

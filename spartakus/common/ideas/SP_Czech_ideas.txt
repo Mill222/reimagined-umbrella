@@ -157,5 +157,22 @@ ideas = {
 			}
 			picture = GFX_Czech_Communists
 		}
+		CZE_petka_idea = {
+			modifier = {
+			}
+			cancel = {
+				NOT = {
+					OR = {
+						has_government = social_democrat
+						has_government = social_liberal
+						has_government = liberal_conservative
+						has_government = social_conservative
+						has_government = right_wing_populist
+					}
+				}
+			}
+			picture = GFX_Czech_Petka
+		}
+		
 	}
 }

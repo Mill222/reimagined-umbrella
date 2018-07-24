@@ -286,7 +286,11 @@ DOM = {
 }
 EAF = {
 	color = rgb { 80 27 190 }
-	color_ui = rgb { 45 12 78 }
+	color_ui = rgb { 80 27 190 }
+}
+CAF = {
+	color = rgb { 50 77 240 }
+	color_ui = rgb { 50 77 240 }
 }
 ECU = {
 	color = rgb { 255 255 158 }

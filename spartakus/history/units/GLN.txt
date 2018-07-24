@@ -1,0 +1,93 @@
+﻿division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Red Brigades"
+
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+		light_infantry = { x = 2 y = 0 }
+		light_infantry = { x = 2 y = 1 }
+		light_infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = { 
+		name =  "1. Infantry Division"
+		location = 4609
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { 
+		name =  "Rašt Brigade"
+		location = 4637
+		division_template = "Red Brigades"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { 
+		name =  "1. Mianeh Brigade"
+		location = 2071
+		division_template = "Red Brigades"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}	
+	division = { 
+		name =  "2. Mianeh Brigade"
+		location = 12793
+		division_template = "Red Brigades"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}	
+	division = { 
+		name =  "1. Cavalry Brigade"
+		location = 1636
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}	
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "GLN"
+		}
+		requested_factories = 1
+		progress = 0.85
+		efficiency = 100
+	}
+}

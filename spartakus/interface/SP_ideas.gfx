@@ -248,6 +248,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/British_Ties.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_Binoculars"
+		texturefile = "gfx/interface/ideas/ideas/Binoculars.dds"
+	}
+	
 	# Burning Flags
 	
 	spriteType = {
@@ -529,6 +534,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ALB_book"
 		texturefile = "gfx/interface/ideas/ALB/ALB_book.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ALB_foreign_ownership"
+		texturefile = "gfx/interface/ideas/ALB/ALB_foreign_ownership.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_telekomi_shqiptar"
+		texturefile = "gfx/interface/ideas/ALB/companies/telekomi_shqiptar.dds"
 	}
 	
 	# Serbia
