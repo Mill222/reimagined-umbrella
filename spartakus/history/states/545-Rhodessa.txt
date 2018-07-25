@@ -3,8 +3,8 @@ state={
 	id=545
 	name="STATE_545"
 	resources={
-		chromium=64
-		tungsten=16
+		chromium=64.000
+		tungsten=16.000
 	}
 
 	history={
@@ -12,19 +12,19 @@ state={
 		add_core_of = CAF
 		add_core_of = ZIM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 
 		}
 		victory_points = {
-			10929 1
+			10929 3 
 		}
 
 	}
 
 	provinces={
-		1874 2151 2216 4851 7842 10929
+		10929 14875 14877 14878 14881 14885 14890 14892 
 	}
-	manpower=3055400
-	buildings_max_level_factor=1
-	state_category="rural"
+	manpower=242624
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -1,0 +1,21 @@
+
+state={
+	id=1189
+	name="STATE_1189"
+	provinces={
+		2151 14838 14841 14844 14845 14847 14851 14853 14857 14865 
+	}
+	history={
+		owner = CAF
+		add_core_of = CAF
+		add_core_of = ZIM
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+	manpower=146210
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}
