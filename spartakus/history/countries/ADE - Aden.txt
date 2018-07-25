@@ -19,7 +19,7 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 0
+			popularity = 1
 		}
 		marxist = {
 			popularity = 3
@@ -31,28 +31,28 @@ set_politics = {
 			popularity = 0
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 1
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 1
 		}
 		liberal_conservative = {
-			popularity = 0
+			popularity = 3
 		}
 		social_conservative = {
-			popularity = 17
+			popularity = 11
 		}
 		authoritarian_democrat = {
-			popularity = 48
+			popularity = 52
 		}
 		right_wing_populist = {
-			popularity = 32
+			popularity = 17
 		}
 		national_syndicalist = {
-			popularity = 0
+			popularity = 3
 		}
 		national_corporatist = {
-			popularity = 0
+			popularity = 8
 		}
 	}
 	
@@ -67,9 +67,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Sultans of Aden"
+	name = "Sultans Under British Protection"
 	desc = ""
-	picture = "Portrait_Sultans_of_Aden.dds"
+	picture = "Portrait_Aden_Protectorate.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {

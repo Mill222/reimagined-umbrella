@@ -14,40 +14,40 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 0
+			popularity = 3
 		}
 		marxist = {
-			popularity = 0
+			popularity = 2
 		}
 		revolutionary_socialist = {
-			popularity = 0
+			popularity = 2
 		}
 		democratic_socialist = {
-			popularity = 0
+			popularity = 1
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 1
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 1
 		}
 		liberal_conservative = {
-			popularity = 0
+			popularity = 2
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 21
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 64
 		}
 		right_wing_populist = {
-			popularity = 0
+			popularity = 1
 		}
 		national_syndicalist = {
-			popularity = 0
+			popularity = 1
 		}
 		national_corporatist = {
-			popularity = 0
+			popularity = 1
 		}
 	}
 	
@@ -61,20 +61,9 @@ set_politics = {
 create_country_leader = {
 	name = "Haile Selassie"
 	desc = "POLITICS_HAILE_SELASSIE_DESC"
-	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
+	picture = "Portrait_Haile_Selassie.tga"
 	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Fitawrari Yeebio Woldai"
-	desc = "POLITICS_YEEBIO_WOLDAI_DESC"
-	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
-	expire = "1965.1.1"
-	ideology = socialism
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
