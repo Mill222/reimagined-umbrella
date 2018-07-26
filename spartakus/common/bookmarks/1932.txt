@@ -10,11 +10,11 @@ bookmarks = {
 			history = "GER_SP_GATHERING_STORM_DESC"
 			ideology = marxist
 			ideas = {
-			}
-			focuses = {
 				GER_A_Divided_Nation
 				GER_Global_Embargo
 				GER_Minority_Rights
+			}
+			focuses = {
 			}
 		}
 		"SOV"={
