@@ -1,26 +1,28 @@
 ﻿l_english:
 
+### Bookmark ###
+
 ### Opinions ###
 
 ### Events ###
 
 ###Parties###
 
-ITA_leninist_party:0 "PCI"
+ITA_leninist_party:0 "Avaguardista"
 ITA_leninist_party_long:0 "Partito Communista d'Italia"
-ITA_marxist_party:0 "PCI"
+ITA_marxist_party:0 "Internazionalista"
 ITA_marxist_party_long:0 "Partito Communista d'Italia"
-ITA_revolutionary_socialist_party:0 "PCI"
-ITA_revolutionary_socialist_party_long:0 "Partito Communista d'Italia"
-ITA_democratic_socialist_party:0 "PCI"
-ITA_democratic_socialist_party_long:0 "Partito Communista d'Italia"
-ITA_social_democrat_party:0 "PSI"
+ITA_revolutionary_socialist_party:0 "Sindicalistas"
+ITA_revolutionary_socialist_party_long:0 "Unione Sindacale Italiana"
+ITA_democratic_socialist_party:0 "Massimalisti"
+ITA_democratic_socialist_party_long:0 "Partito Socialista Italiano"
+ITA_social_democrat_party:0 "Riformista"
 ITA_social_democrat_party_long:0 "Partito Socialista Italiano"
-ITA_social_liberal_party:0 "PRI"
+ITA_social_liberal_party:0 "Repubblicani"
 ITA_social_liberal_party_long:0 "Parito Repubblicano Italiano"
-ITA_liberal_conservative_party:0 "PLI"
+ITA_liberal_conservative_party:0 "Liberali"
 ITA_liberal_conservative_party_long:0 "Partito Liberale Italiano"
-ITA_social_conservative_party:0 "PPI"
+ITA_social_conservative_party:0 "Popolari"
 ITA_social_conservative_party_long:0 "Partito Populare Italiano"
 ITA_authoritarian_democrat_party:0 "Governo Militare"
 ITA_authoritarian_democrat_party_long:0 "Governo Militare di Transizione per la Stabilità"
@@ -34,6 +36,15 @@ ITA_national_corporatist_party_long:0 "Partito Nazionale Fascista"
 ### Focuses ###
 
 ### Ideas ###
+
+ITA_Anni_di_Piombo:0 "The Years of Lead"
+ITA_Anni_di_Piombo_desc:0 "Years of Lead WIP Lore"
+ITA_Ghastly_Memories:0 "Ghastly Memories of the Great War"
+ITA_Ghastly_Memories_desc:0 "We stood victorious with our allies in the Entente over the Central Powers at the end of the Great War. However, our victory came with a cost now considered greater than the reward: Nearly two million Italians dead. There are many who wish to never see such tragedy occur again and are thus hesitant to send our boys off to war once more. It is commonplace for young Italian men to dodge the draft and our leadership considers peaceful approaches, even if through Appeasement."
+ITA_Senussi:0 "Senussi Insurgency in Libya!"
+ITA_Senussi_desc:0 "Our Possessions in North Africa are constantly being terrorized by members of the Senussi Order. While we had granted them autonomy in 1920, they have rallied several of the various clans in Cyrenaica and Fezzan to their side and have begun a campaign of raids, sabotage and  assassinations. The situation has worsened to the point that the entire region has been put under martial law and governed by the Military. With clouds gathering over the Madrepatria, It is feared that this insurgency will devolve into a full-blown War for independence."
+ITA_Corrupt_Army:0 "Corruption in the Royal Army"
+ITA_Corrupt_Army_desc:0 "Corruption in the Royal Army WIP Lore"
 
 ### Flags ###
 

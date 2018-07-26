@@ -1,0 +1,44 @@
+### Italian Ideas ###
+ideas = {
+    ##############
+    # Italian Ideas
+    ##############
+
+    country = {
+	
+		# Start
+
+        ITA_Ghastly_Memories = {
+            picture = Crying_Eye
+            modifier = {
+				war_support_factor = -0.25
+				training_time_factor = 0.20
+				conscription = -0.20
+            }
+        }
+		
+		ITA_Anni_di_Piombo = {
+            picture = Italy_Broke
+            modifier = {
+				stability_factor = -0.40
+				political_power_gain = -0.5
+				consumer_goods_factor = 0.30
+            }
+        }
+		
+		ITA_Corupt_Army = {
+            picture = WIP
+            modifier = {
+	
+            }
+        }
+		
+		ITA_Senussi = {
+            picture = Senussi_Partisans
+            modifier = {
+				
+            }
+        }
+    }
+	
+}
