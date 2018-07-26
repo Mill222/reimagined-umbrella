@@ -225,3 +225,16 @@ NOR_expantionist_norway_decision_cat = {
 		has_completed_focus = NOR_expantionist_norway
 	}
 }
+
+################
+###  Serbia  ###
+################
+
+SER_decisions_unification = {
+	
+	icon = category_generic_political_actions
+
+	picture = GFX_decision_cat_soviet_flag
+	
+	allowed = { original_tag = SER }
+}

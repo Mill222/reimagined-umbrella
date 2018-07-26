@@ -1,0 +1,84 @@
+
+# Agitation
+SER_decisions_unification = {
+
+	SER_dec_agitate_backa = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+		has_country_flag = Is_Yugoslavia
+			NOT = {
+				controls_state = 45
+				controls_state = 1002
+			}
+        }
+		fire_only_once = yes
+        cost = 100
+        complete_effect = {
+			unlock_decision_category_tooltip = SER_decisions_backa
+			hidden_effect = {
+			set_country_flag = SER_backa
+			}
+		}
+	}
+	
+	SER_dec_agitate_banat = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+		has_country_flag = Is_Yugoslavia
+			NOT = {
+				controls_state = 875
+			}
+        }
+		fire_only_once = yes
+        cost = 100
+        complete_effect = {
+			unlock_decision_category_tooltip = SER_decisions_banat
+			hidden_effect = {
+			set_country_flag = SER_banat
+			}
+		}
+	}
+
+	SER_dec_agitate_italian_territories = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+		has_country_flag = Is_Yugoslavia
+			NOT = {
+				controls_state = 996
+				controls_state = 1008
+				controls_state = 736
+			}
+        }
+		fire_only_once = yes
+        cost = 100
+        complete_effect = {
+			unlock_decision_category_tooltip = SER_decisions_itter
+			hidden_effect = {
+			set_country_flag = SER_itter
+			}
+		}
+	}
+
+	SER_dec_rename_backa = { 
+		icon = GFX_decision_generic_decision
+        available = {
+			controls_state = 45
+        }
+		fire_only_once = yes
+        cost = 5
+        complete_effect = {
+			45 = {
+				set_state_name = "Bačka"
+			}
+			set_province_name = {
+				id = 619
+				name = "Novi Sad"
+			}
+			set_province_name = {
+				id = 9621
+				name = "Subotica"
+			}
+
+		}
+	}
+}
