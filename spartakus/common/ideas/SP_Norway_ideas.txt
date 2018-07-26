@@ -727,6 +727,26 @@ ideas = {
 				political_power_gain = 0.05
 			}
 		}
+		
+		NOR_our_own_welfare_plan_idea = {
+
+			allowed = {
+				original_tag = NOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = capital_outflow
+			
+			modifier = {
+				consumer_goods_factor = 0.02
+				MONTHLY_POPULATION = 0.05
+				political_power_gain = 0.05
+			}
+		}
 
 	}
 }

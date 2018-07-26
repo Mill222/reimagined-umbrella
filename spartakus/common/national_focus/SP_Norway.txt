@@ -2797,6 +2797,17 @@ focus_tree = {
 		}
 		x = 47
 		y = 2
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = -20
+			add_stability = 0.02
+			add_popularity = { ideology = liberal_conservative popularity = 0.02 }
+			add_popularity = { ideology = social_liberal popularity = -0.02 }
+		}
 
 	}
 	focus = {
@@ -2808,6 +2819,18 @@ focus_tree = {
 		}
 		x = 49
 		y = 2
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = -20
+			add_stability = 0.02
+			add_popularity = { ideology = liberal_conservative popularity = 0.02 }
+			add_popularity = { ideology = social_liberal popularity = -0.01 }
+			add_popularity = { ideology = social_conservative popularity = -0.01 }
+		}
 
 	}
 	focus = {
@@ -2822,6 +2845,14 @@ focus_tree = {
 		}
 		x = 48
 		y = 3
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_ideas = NOR_our_own_welfare_plan_idea
+		}
 
 	}
 	focus = {
@@ -2833,6 +2864,14 @@ focus_tree = {
 		}
 		x = 46
 		y = 4
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
 
 	}
 	focus = {
