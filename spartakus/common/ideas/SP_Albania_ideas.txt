@@ -411,12 +411,38 @@ industrial_concern = {
 			}
 		}
 		picture = telekomi_shqiptar
-		traits = { electronics_concern }
-		modifier = {
-			production_speed_infrastructure_factor = 0.25
+		traits = { electronics_manufacturer  }
+		modifier = { }
+		research_bonus = {
+			electronics = 0.1
 		}
 	}
 
+}
+	
+#### Air and Naval Manufacturer ####
+air_naval_manufacturer = {
+	designer = yes
+
+	ALB_vlore = {
+		allowed = { 
+			OR = {
+				original_tag = ALB
+			}
+		}
+		picture = vlore
+		traits = { coastal_defence_naval_manufacturer  }
+	}
+
+	ALB_durres = {
+		allowed = { 
+			OR = {
+				original_tag = ALB
+			}
+		}
+		picture = durres
+		traits = { convoy_escort_naval_manufacturer }
+	}
 }
 	
 }

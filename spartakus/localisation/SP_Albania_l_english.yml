@@ -196,7 +196,7 @@ ALB_om_nationalization:0 "Nationalized Industry"
 ### Decisions ###
 ALB_decisions_nationalism:0 "Greater Albania"
 ALB_dec_agitate_epirus:0 "Agitate in Gjirokaster"
-ALB_dec_agitate_kosovo:0 "Albanianize Kosovo"
+ALB_dec_agitate_kosovo:0 "Agitate in Kosovo"
 ALB_dec_rename_epirus:0 "Albanianize Northern Epirus"
 ALB_dec_rename_dibar:0 "Albanianize Dibar"
 ALB_dec_rename_skopje:0 "Albanianize Skopje"
@@ -273,8 +273,14 @@ alb.7.d:0 "'The Albanian Struggle' is a Tirana-based literary magazine"
 alb.7.a:0 "Interesting."
 alb.7.b:0 "Let's not have them thinking too much."
 
+alb.0.t:0 "Debug Menu"
+alb.0.d:0 "Zogists: [?ALB.zogist_influence|0]\n\n Nolists: [?ALB.nolist_influence|0]\n\n Monarchy: [?ALB.monarch_influence|0]"
+alb.0.a:0 "You shouldn't be able to see this."
+
 ## Companies ##
 ALB_telekom:0 "Telekomi Shqiptar"
+ALB_vlore:0 "Vlore Shipyard"
+ALB_durres:0 "Port of Durres"
 
 ## Misc ##
 ALB_blind:0 "The Blind King"

@@ -722,6 +722,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/Human_tsunam_1.tga"
 
 	}
+	SpriteType = {
+		name = "GFX_goal_JAP_governance"
+		texturefile = "gfx/interface/goals/JAP_governance.tga"
+
+	}
 
 	###### Legation Cities ######
 

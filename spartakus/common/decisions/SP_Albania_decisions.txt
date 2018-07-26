@@ -4,6 +4,11 @@ ALB_decisions_nationalism = {
 
 	ALB_dec_agitate_epirus = { 
 		icon = GFX_decision_generic_nationalism
+		visible = {
+			NOT = {
+				controls_state = 766
+			}
+		}
         available = {
 			NOT = {
 				controls_state = 766
@@ -21,6 +26,11 @@ ALB_decisions_nationalism = {
 
 	ALB_dec_agitate_kosovo = { 
 		icon = GFX_decision_generic_nationalism
+		visible = {
+			NOT = {
+				controls_state = 765
+			}
+		}
         available = {
 			NOT = {
 				controls_state = 765

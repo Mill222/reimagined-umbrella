@@ -253,8 +253,8 @@ COS = {
 	color_ui = rgb { 152 128 43 }
 }
 CRO = {
-	color = rgb { 196 188 150 } 
-	color_ui = rgb { 196 188 150 } 
+	color = rgb { 196 188 150 }
+	color_ui = rgb { 196 188 150 }
 }
 CUB = {
 	color = rgb { 140 65 166 }
@@ -349,8 +349,8 @@ GNE = {
 	color_ui = rgb { 220 29 29 }
 }
 GRE = {
-	color = rgb { 93 181 227 }
-	color_ui = rgb { 121 235 255 }
+	color = rgb { 73  180  229 }
+	color_ui = rgb { 73  180  229 }
 }
 GUA = {
 	color = rgb { 54 29 225 }
@@ -381,8 +381,8 @@ HON = {
 	color_ui = rgb { 72 49 112 }
 }
 HUN = {
-	color = rgb { 249 126 98 }
-	color_ui = rgb { 249 126 98 }
+	color = rgb { 111 137 96 }
+	color_ui = rgb { 111 137 96 }
 }
 HYD = {
 	color = rgb { 245 162 10 }
@@ -413,8 +413,8 @@ ITA = {
 	color_ui = rgb { 74 186 82 }
 }
 JAP = {
-	color = rgb { 252 201 185 }
-	color_ui = rgb { 252 201 185 }
+	color = rgb { 255 176 173 }
+	color_ui = rgb { 255 176 173 }
 }
 JKA = {
 	color = rgb { 222 222 222 }
@@ -756,8 +756,8 @@ TUN = {
 	color_ui = rgb { 146 134 57 }
 }
 TUR = {
-	color = rgb { 160 220 100 }
-	color_ui = rgb { 60 220 100 }
+	color = rgb { 184 196 147 }
+	color_ui = rgb { 184 196 147 }
 }
 UGA = {
 	color = rgb { 21 21 227 }
