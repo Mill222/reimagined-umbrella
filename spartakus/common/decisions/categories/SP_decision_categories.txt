@@ -244,3 +244,32 @@ SER_decisions_unification = {
 	
 	allowed = { original_tag = SER }
 }
+
+################
+###  Argie   ###
+################
+
+ARG_south_american_police = {
+	
+	icon = category_generic_political_actions
+
+	picture = GFX_decision_cat_soviet_flag
+	
+	allowed = { original_tag = ARG }
+
+	visible = {
+		has_completed_focus = ARG_sudamerican_police
+	}
+}
+ARG_soldiers_to_europe = {
+	
+	icon = category_generic_political_actions
+
+	picture = GFX_decision_cat_soviet_flag
+	
+	allowed = { original_tag = ARG }
+
+	visible = {
+		has_completed_focus = ARG_soldiers_to_europe
+	}
+}
