@@ -1212,7 +1212,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ARG_support_sra
-		icon = GFX_goal_generic_elections
+		icon = GFX_goal_agriculture
 		x = 35
 		y = 1
 		cost = 5
@@ -1231,7 +1231,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ARG_oppose_sra
-		icon = GFX_goal_generic_elections
+		icon = GFX_goal_agriculture
 		x = 39
 		y = 1
 		cost = 5
@@ -1269,7 +1269,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ARG_help_bunge_borne
-		icon = GFX_goal_generic_elections
+		icon = GFX_Wheat_Yields
 		x = 36
 		y = 2
 		cost = 5
@@ -1288,7 +1288,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ARG_nationalize_bunge_borne
-		icon = GFX_goal_generic_elections
+		icon = GFX_Wheat_Yields
 		x = 38
 		y = 2
 		cost = 5
@@ -1404,7 +1404,7 @@ focus_tree = {
 			focus = ARG_full_nationalization
 		}
 	    available = {
-			has_flag = ARG_sra
+			always = yes
 		}
 		ai_will_do = {
 			factor = 100
@@ -1415,7 +1415,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ARG_price_regulations
-		icon = GFX_goal_generic_elections
+		icon = GFX_Wheat_Yields
 		x = 38
 		y = 4
 		cost = 5
@@ -1425,7 +1425,7 @@ focus_tree = {
 			focus = ARG_full_nationalization
 		}
 	    available = {
-			has_flag = ARG_no_sra
+			always = yes
 		}
 		ai_will_do = {
 			factor = 100
@@ -1442,6 +1442,8 @@ focus_tree = {
 		cost = 5
 		prerequisite = {
 			focus = ARG_government_lift
+		}
+		prerequisite = {
 			focus = ARG_price_regulations
 		}
 	    available = {
@@ -1784,7 +1786,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ARG_british_transport
-		icon = GFX_Economic_Collapse
+		icon = GFX_focus_chi_british_cooperation
 		x = 48
 		y = 4
 		cost = 5
@@ -3281,149 +3283,236 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ARG_ejercito
-		icon = GFX_Argentine_Soldiers
-		x = 60
+		id = ARG_diplomacy
+		icon = GFX_goal_foreign_diplomacy
+		x = 58
 		y = 0
 		cost = 5
 	    available = {
-			NOT = {
-				has_government = authoritarian_democrat
-				has_government = right_wing_populist
-			}
+			always = yes
 		}
 		ai_will_do = {
 			factor = 100
 		}
-		completion_reward = {
-
+		completion_reward = {	
+			
 		}
 	}
 	focus = {
-		id = ARG_menendez_cavalry
-		icon = GFX_focus_arg_tanks
-		x = 54
+		id = ARG_support_bolivia
+		icon = GFX_goal_factory_complex
+		x = 53
 		y = 1
 		cost = 5
 		prerequisite = {
-			focus = ARG_ejercito
+			focus = ARG_diplomacy
+		}
+		mutually_exclusive = {
+			focus = ARG_support_paraguay
 		}
 	    available = {
-			NOT = {
-				has_government = authoritarian_democrat
-				has_government = right_wing_populist
-			}
+			always = yes
 		}
 		ai_will_do = {
 			factor = 100
 		}
-		completion_reward = {
-
+		completion_reward = {	
+			
 		}
 	}
 	focus = {
-		id = ARG_hafdasa_contracts
-		icon = GFX_goal_generic_army_motorized
+		id = ARG_support_paraguay
+		icon = GFX_goal_factory_complex
+		x = 55
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = ARG_diplomacy
+		}
+		mutually_exclusive = {
+			focus = ARG_support_bolivia
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_bolivia_treaty
+		icon = GFX_goal_factory_complex
+		x = 52
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = ARG_support_bolivia
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_neutral_treaty
+		icon = GFX_goal_factory_complex
 		x = 54
 		y = 2
 		cost = 5
 		prerequisite = {
-			focus = ARG_menendez_cavalry
+			focus = ARG_support_bolivia
+			focus = ARG_support_paraguay
 		}
 	    available = {
-			NOT = {
-				has_government = authoritarian_democrat
-				has_government = right_wing_populist
-			}
+			always = yes
 		}
 		ai_will_do = {
 			factor = 100
 		}
-		completion_reward = {
-
+		completion_reward = {	
+			
 		}
 	}
 	focus = {
-		id = ARG_british_tanks
-		icon = GFX_doctrine_tank_warfare
-		x = 52
-		y = 3
-		cost = 5
-		prerequisite = {
-			focus = ARG_hafdasa_contracts
-		}
-	    available = {
-			NOT = {
-				has_government = authoritarian_democrat
-				has_government = right_wing_populist
-				has_country_flag = ARG_french_tanks
-				has_country_flag = ARG_italian_tanks
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = ARG_french_tanks
-		icon = GFX_goal_light_tanks
-		x = 54
-		y = 3
-		cost = 5
-		prerequisite = {
-			focus = ARG_hafdasa_contracts
-		}
-	    available = {
-			NOT = {
-				has_government = authoritarian_democrat
-				has_government = right_wing_populist
-				has_country_flag = ARG_british_tanks
-				has_country_flag = ARG_italian_tanks
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = ARG_italian_tanks
-		icon = GFX_doctrine_tank_warfare
+		id = ARG_paraguay_treaty
+		icon = GFX_goal_factory_complex
 		x = 56
-		y = 3
+		y = 2
 		cost = 5
 		prerequisite = {
-			focus = ARG_hafdasa_contracts
+			focus = ARG_support_paraguay
 		}
 	    available = {
-			NOT = {
-				has_government = authoritarian_democrat
-				has_government = right_wing_populist
-				has_country_flag = ARG_french_tanks
-				has_country_flag = ARG_british_tanks
-			}
+			always = yes
 		}
 		ai_will_do = {
 			factor = 100
 		}
-		completion_reward = {
-
+		completion_reward = {	
+			
 		}
 	}
 	focus = {
-		id = ARG_own_tanks
-		icon = GFX_doctrine_tank_warfare
-		x = 54
-		y = 5
+		id = ARG_join_paraguay
+		icon = GFX_goal_factory_complex
+		x = 55
+		y = 3
 		cost = 5
 		prerequisite = {
-			focus = ARG_infantry_support
-			focus = ARG_attack_tanks
+			focus = ARG_paraguay_treaty
+		}
+		prerequisite = {
+			focus = ARG_neutral_treaty
+		}
+
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_join_bolivia
+		icon = GFX_goal_factory_complex
+		x = 53
+		y = 3
+		cost = 5
+		prerequisite = {
+			focus = ARG_bolivia_treaty
+		}
+		prerequisite = {
+			focus = ARG_neutral_treaty
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_oppose_communism
+		icon = GFX_goal_factory_complex
+		x = 60
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = ARG_diplomacy
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_ban_communism
+		icon = GFX_goal_factory_complex
+		x = 59
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = ARG_oppose_communism
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_receive_exiles
+		icon = GFX_goal_factory_complex
+		x = 61
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = ARG_oppose_communism
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_divisiones_celestes
+		icon = GFX_goal_factory_complex
+		x = 60
+		y = 3
+		cost = 5
+		prerequisite = {
+			focus = ARG_ban_communism
+		}
+		prerequisite = {
+			focus = ARG_receive_exiles
 		}
 	    available = {
 			always = yes
@@ -3436,104 +3525,61 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ARG_infantry_support
-		icon = GFX_doctrine_tank_warfare
-		x = 53
+		id = ARG_sudamerican_police
+		icon = GFX_goal_factory_complex
+		x = 61
 		y = 4
 		cost = 5
 		prerequisite = {
-			focus = ARG_british_tanks
-			focus = ARG_french_tanks
-			focus = ARG_italian_tanks
+			focus = ARG_divisiones_celestes
 		}
 	    available = {
-			OR = {
-				has_country_flag = ARG_british_tanks
-				has_country_flag = ARG_french_tanks
-				has_country_flag = ARG_italian_tanks
-			}
+			always = yes
 		}
 		ai_will_do = {
 			factor = 100
 		}
-		completion_reward = {
-
+		completion_reward = {	
+			
 		}
 	}
 	focus = {
-		id = ARG_attack_tanks
-		icon = GFX_doctrine_tank_warfare
-		x = 55
+		id = ARG_help_europe
+		icon = GFX_goal_factory_complex
+		x = 59
 		y = 4
 		cost = 5
 		prerequisite = {
-			focus = ARG_british_tanks
-			focus = ARG_french_tanks
-			focus = ARG_italian_tanks
+			focus = ARG_divisiones_celestes
 		}
 	    available = {
-			OR = {
-				has_country_flag = ARG_british_tanks
-				has_country_flag = ARG_french_tanks
-				has_country_flag = ARG_italian_tanks
-			}
+			always = yes
 		}
 		ai_will_do = {
 			factor = 100
 		}
-		completion_reward = {
-
+		completion_reward = {	
+			
 		}
 	}
 	focus = {
-		id = ARG_lonardi_planning
-		icon = GFX_focus_arg_tanks
+		id = ARG_expand_volunteer_office
+		icon = GFX_goal_factory_complex
 		x = 60
-		y = 1
+		y = 5
 		cost = 5
 		prerequisite = {
-			focus = ARG_ejercito
-		}
-		mutually_exclusive = {
-			focus = ARG_ramirez_training
+			focus = ARG_help_europe
+			focus = ARG_sudamerican_police
 		}
 	    available = {
-			NOT = {
-				has_government = authoritarian_democrat
-				has_government = right_wing_populist
-			}
+			always = yes
 		}
 		ai_will_do = {
 			factor = 100
 		}
-		completion_reward = {
-
+		completion_reward = {	
+			
 		}
 	}
-	focus = {
-		id = ARG_ramirez_training
-		icon = GFX_goal_doctrine_fire_superiority
-		x = 64
-		y = 1
-		cost = 5
-		prerequisite = {
-			focus = ARG_ejercito
-		}
-		mutually_exclusive = {
-			focus = ARG_lonardi_planning
-		}
-	    available = {
-			NOT = {
-				has_government = authoritarian_democrat
-				has_government = right_wing_populist
-			}
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		completion_reward = {
-
-		}
-	}
-
 }
