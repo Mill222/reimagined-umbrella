@@ -145,6 +145,9 @@ bookmarks = {
 				NOR_anti_establishment_sentiments_idea
 			}
 			focuses = {
+				NOR_1933_election
+				NOR_communist_coup
+				NOR_samfundsvernet_coup
 			}
 		}
 		
