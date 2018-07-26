@@ -2287,4 +2287,83 @@ focus_tree = {
 				remove_ideas = JAP_SP_depression_2
 			}
 	}
+	
+	############
+	### ARMY ###
+	############
+	
+	
+	focus = {
+			id = JAP_army
+			icon = GFX_JAP_focus_soldiers
+			available = { 
+			}
+			x = 42
+			y = 0
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	############
+	### NAVY ###
+	############
+	
+	
+	focus = {
+			id = JAP_navy_kk
+			icon = GFX_JAP_focus_navy
+			available = { 
+			}
+			mutually_exclusive = { focus = JAP_navy_swarm focus = JAP_navy_moderate }
+			x = 21
+			y = 8
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	
+	focus = {
+			id = JAP_navy_swarm
+			icon = GFX_focus_jap_zero
+			available = { 
+			}
+			mutually_exclusive = { focus = JAP_navy_kk focus = JAP_navy_moderate }
+			x = 27
+			y = 8
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
+	
+	
+	focus = {
+			id = JAP_navy_moderate
+			icon = GFX_goal_generic_navy_anti_submarine
+			available = { 
+			}
+			mutually_exclusive = { focus = JAP_navy_kk focus = JAP_navy_swarm }
+			x = 24
+			y = 8
+			cost = 5
+			ai_will_do = {
+				factor = 50
+			}
+
+			completion_reward = {
+			}
+	}
 }

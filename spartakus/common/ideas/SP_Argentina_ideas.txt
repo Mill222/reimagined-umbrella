@@ -3,7 +3,7 @@ ideas = {
 	country = {
 
 		ARG_coalition = {
-			picture = GFX_idea_police_hat
+			picture = police_hat
 
 			allowed = {
 				original_tag = ARG
@@ -21,7 +21,7 @@ ideas = {
 			}
 		}
 		ARG_coalition_1 = {
-			picture = GFX_idea_police_hat
+			picture = police_hat
 
 			allowed = {
 				original_tag = ARG
@@ -39,7 +39,7 @@ ideas = {
 			}
 		}
 		ARG_agriculture_problem = {
-			picture = GFX_idea_Economic_Meltdown
+			picture = Economic_Meltdown
 
 			allowed = {
 				original_tag = ARG

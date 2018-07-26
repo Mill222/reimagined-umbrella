@@ -727,6 +727,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/JAP_governance.tga"
 
 	}
+	SpriteType = {
+		name = "GFX_goal_JAP_focus_soldiers"
+		texturefile = "gfx/interface/goals/JAP_focus_soldiers.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_JAP_navy"
+		texturefile = "gfx/interface/goals/JAP_navy.tga"
+
+	}
 
 	###### Legation Cities ######
 
@@ -4871,5 +4881,17 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Algerian_Partisans"
 		texturefile = "gfx/interface/goals/Algerian_Partisans.tga"
+	}
+	SpriteType = {
+		name = "GFX_Algerian_Partisans"
+		texturefile = "gfx/interface/goals/Algerian_Partisans.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_soldiers"
+		texturefile = "gfx/interface/goals/JAP_focus_soldiers.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_navy"
+		texturefile = "gfx/interface/goals/JAP_focus_navy.tga"
 	}
 }

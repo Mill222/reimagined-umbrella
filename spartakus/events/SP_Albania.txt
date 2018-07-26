@@ -316,7 +316,43 @@ country_event = { # Queen Drita Coronated
 				desc = ""
 				picture = "Portrait_ALB_Drita.tga"
 				expire = "1965.1.1"
+				ideology = social_liberal_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Drita I"
+				desc = ""
+				picture = "Portrait_ALB_Drita.tga"
+				expire = "1965.1.1"
+				ideology = liberal_conservative_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Drita I"
+				desc = ""
+				picture = "Portrait_ALB_Drita.tga"
+				expire = "1965.1.1"
 				ideology = social_conservative_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Drita I"
+				desc = ""
+				picture = "Portrait_ALB_Drita.tga"
+				expire = "1965.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Drita I"
+				desc = ""
+				picture = "Portrait_ALB_Drita.tga"
+				expire = "1965.1.1"
+				ideology = right_wing_populist_subtype
 				traits = {
 				}
 			}
