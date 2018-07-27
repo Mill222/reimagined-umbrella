@@ -9,7 +9,7 @@ ideas = {
 		# Start
 
         ITA_Ghastly_Memories = {
-            picture = Crying_Eye
+            picture = WIP
             modifier = {
 				war_support_factor = -0.25
 				training_time_factor = 0.20
@@ -18,7 +18,7 @@ ideas = {
         }
 		
 		ITA_Anni_di_Piombo = {
-            picture = Italy_Broke
+            picture = WIP
             modifier = {
 				stability_factor = -0.40
 				political_power_gain = -0.5
@@ -29,16 +29,14 @@ ideas = {
 		ITA_Army_Sympathies = {
             picture = WIP
             modifier = {
-				defense = -0.20
-				attack = -0.20
 				army_org_factor = -0.15
-				army_moral_factor = -0.15
+				army_morale_factor = -0.15
 				planning_speed = -0.15
             }
         }
 		
 		ITA_Senussi = {
-            picture = Senussi_Partisans
+            picture = WIP
             modifier = {
 				
             }

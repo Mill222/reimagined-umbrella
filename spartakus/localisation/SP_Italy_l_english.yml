@@ -2,15 +2,17 @@
 
 ### Bookmark ###
 
+ITA_SP_GATHERING_STORM_DESC:0 "ITA_SP_GATHERING_STORM_DESC"
+
 ### Opinions ###
 
 ### Events ###
 
 ###Parties###
 
-ITA_leninist_party:0 "Avaguardista"
+ITA_leninist_party:0 "Bordighisti"
 ITA_leninist_party_long:0 "Partito Communista d'Italia"
-ITA_marxist_party:0 "Internazionalista"
+ITA_marxist_party:0 "Gramscisti"
 ITA_marxist_party_long:0 "Partito Communista d'Italia"
 ITA_revolutionary_socialist_party:0 "Sindacalisti"
 ITA_revolutionary_socialist_party_long:0 "Unione Sindacale Italiana"

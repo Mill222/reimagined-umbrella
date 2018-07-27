@@ -57,10 +57,13 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"CHI"={
-			history = "CHI_SP_GATHERING_STORM_DESC"
-			ideology = social_democrat
+		"ITA"={
+			history = "ITA_SP_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
 			ideas = {
+			ITA_Ghastly_Memories
+			ITA_Anni_di_Piombo
+			ITA_Senussi
 			}
 			focuses = {
 			}
@@ -171,6 +174,16 @@ bookmarks = {
 			ideas = {
 				ARG_agriculture_problem
 				ARG_coalition
+			}
+			focuses = {
+			}
+		}
+		
+		"CHI"={
+			minor = yes
+			history = "CHI_SP_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
 			}
 			focuses = {
 			}
