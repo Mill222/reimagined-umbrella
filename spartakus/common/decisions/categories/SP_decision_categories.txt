@@ -213,7 +213,7 @@ JAP_decisions_depression = {
 		}
 	}
 	icon = GFX_decision_category_generic_crisis
-}}
+}
 
 ################
 ###  Norway  ###
