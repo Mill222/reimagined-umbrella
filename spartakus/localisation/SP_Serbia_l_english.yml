@@ -16,6 +16,16 @@ serbia.3.a:0 "Change is Coming"
 serbia.4.t:0 "May Day Rally of 1932"
 serbia.4.d:0 "A number of underground workers rights groups, including the KPJ and SSP have been planning a grand May Day march. All public organizations and meetings have been violently prohibited since the royal dictatorship begun, but this policy has worn down over time as numerous concessions have been made. On May Day, Thousands of workers poured out into the streets of Belgrade, bearing illegal symbols such as red flags and hammers and sickles, and shouting communist slogans, demanding labor rights and even removal of Alexander II from power. The gendarmerie attempted to control it, eventually with lethal force, but things escalated even further as some of the protesters begun to shoot back. Unrest is spreading in other places in the country, and it looks like these may be the last days of the kingdom."
 serbia.4.a:0 "Oh no"
+serbia.5.t:0 "First Elections in Serbia"
+serbia.5.d:0 "After a long and arduous campaign, our first elections come to a close. Most pollsters are predicting that the Reformist Party, having appealed most to populist rhetoric, will win, however, the votes haven't been counted yet."
+serbia.5.a:0 "The LDS (Liberalna Demokratska Stranka) Wins!"
+serbia.5.b:0 "The RS (Reformistička Stranka) Wins!"
+serbia.6.t:0 "Unceasing Violence"
+serbia.6.d:0 "The 'constitution' isn't very convincing. The Reform Party and related movements are calling for the people to rise up against the king's dictatorship and this blatant attempt to calm dissent. The revolutionary KPJ and loyalist SBOR brawl in the streets, and many government officials have been targeted by the former." 
+serbia.6.a:0 "Can we wither this?"
+serbia.7.t:0 "Milan Aćimović murdered!"
+serbia.7.d:0 "While exiting a bus near his temporary protected residence in Belgrade, our head of government, the rather unpopular Milan Aćimović, had been identified by a civilian mob. Witnesses say he was beaten to death with blunt objects, as the mob most likely didn't have any firearms, or just preferred a more hands-on method of vengeance. Surprisingly, it seems that there were either no police officers present, or that they may have purposefully ignored the crime. The King will have to appoint a new head of the government, or he's bound to fall with the administration in disarray."
+serbia.7.a:0 "So much for tolerance..."
 
 ###Parties###
 
@@ -54,7 +64,7 @@ SER_Adopt_a_Constitution:0 "Alexander's Constitution"
 SER_Adopt_a_Constitution_desc:0 "The absolute monarchy can survive no longer. The king himself has decided to omit most of his powers, remaining only a head of state and commander-in-chief. The constitution will allow freedom of speech, religion, and association, and a senate with elected members. It seems that most are content, except for the KPJ and parts of the ORJUNA."
 SER_One_Party_State:0 "Octroic Constitution"
 SER_One_Party_State_desc:0 "The king may allow for some more liberties, but only superficially. The country shall be run by a one-party parliament, indirectly run by the monarch, the Serbian Radical Community."
-SER_Put_Down_Riots:0 "Put Down the Riots"
+SER_Put_Down_Riots:0 "The Struggle"
 SER_Put_Down_Riots_desc:0 "The octroic constitution isn't fooling anyone. Opposition movements are still out in the streets, and the situation is getting worse. Stop this madness!"
 SER_Fair_Elections:0 "Hold Fair Elections"
 SER_Fair_Elections_desc:0 "Serbia is waiting for it's first free and fair elections. Campaign trucks traverse the city centers and countryside, shouting party slogans. So far, the absolutely predominant in the polls seem to be the LDS, a moderate liberal party popular among the upper strata of our country, and the RS, promising jobs, better work conditions and liberties."
@@ -168,5 +178,6 @@ SER_Decree_on_the_Colonization_of_the_Southern_Regions_desc:0 "The Decree on the
 
 ### Tooltips ###
 SER_May_Day:0 "May Day Pressure"
+SER_Fair_Elections_tooltip:0 "Give the people what they want!"
 
 ### Equipment ###

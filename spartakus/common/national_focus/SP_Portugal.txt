@@ -1626,7 +1626,8 @@ focus_tree = {
 		x = -1
 		y = 3
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+			army_experience = 10
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 0.5
@@ -1645,6 +1646,7 @@ focus_tree = {
 		y = 4
 		cost = 8.6
 		completion_reward = {
+			add_ideas = POR_superior_firepower_idea
 		}
 	}
 	
@@ -1658,6 +1660,7 @@ focus_tree = {
 		y = 3
 		cost = 8.6
 		completion_reward = {	
+			army_experience = 10
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 0.5
@@ -1675,7 +1678,8 @@ focus_tree = {
 		x = 1
 		y = 4
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+			add_ideas = POR_grand_battleplan_idea
 		}
 	}
 	
@@ -1687,7 +1691,8 @@ focus_tree = {
 		x = 3
 		y = 1
 		cost = 8.6
-		completion_reward = {	
+		completion_reward = {
+			army_experience = 10
 			add_tech_bonus = {
 				name = infantry_weapons_bonus
 				bonus = 0.5
@@ -1778,9 +1783,9 @@ focus_tree = {
 		completion_reward = {	
 						add_tech_bonus = {
 				name = infantry_weapons_bonus
-				bonus = 0.75
+				bonus = 0.5
 				uses = 1
-				category = signal_company_tech
+				technology = radio
 				category = recon_tech
 			}	
 		}
@@ -1874,44 +1879,43 @@ focus_tree = {
 		id = POR_an_army_reborn
 		icon = GFX_Army_March
 		relative_position_id = POR_army
-		prerequisite = { focus = POR_grand_battleplan_2 }
-		prerequisite = { focus = POR_superior_firepower_2 }
+		prerequisite = { focus = POR_superior_firepower_2 focus = POR_grand_battleplan_2 }
 		prerequisite = { focus = POR_establish_proper_reserves }
 		prerequisite = { focus = POR_modern_communications_systems } 		
 		x = 0
 		y = 5
 		cost = 8.6
 		completion_reward = {	
-		random_owned_state = {
+			custom_effect_tooltip = POR_merge_army_ideas
+			army_experience = 25
+			if = {
 				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
+					has_completed_focus = POR_superior_firepower_2
+				}   
+				add_ideas = POR_army_merge_superior_firepower
+			}
+			if = {
+				limit = {
+					has_completed_focus = POR_grand_battleplan_2
+				}   
+				add_ideas = POR_army_merge_grand_battleplan
+			}
+			hidden_effect = {
+				remove_ideas = POR_mass_munitions_idea
+				remove_ideas = POR_grande_exercito_draft
+				if = {
+					limit = {
+						has_idea = POR_grand_battleplan_idea
+					}   
+					remove_ideas = POR_grand_battleplan_idea
 				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
+				if = {
+					limit = {
+						has_idea = POR_superior_firepower_idea
+					}   
+					remove_ideas = POR_superior_firepower_idea
 				}
-			}	
+			}
 		}
 	}
 	

@@ -387,6 +387,78 @@ country = {
 				}
 			}
 	}
+	
+	POR_superior_firepower_idea = {
+			picture = FRA_army_of_aggression_focus
+			allowed = {always = no}
+			removal_cost = -1
+			modifier = {
+				army_artillery_attack_factor = 0.05
+				army_artillery_defence_factor = 0.05
+			}
+	}
+	
+	POR_grand_battleplan_idea = {
+			picture = FRA_army_of_aggression_focus
+			allowed = {always = no}
+			removal_cost = -1
+			modifier = {
+				army_infantry_defence_factor = 0.05
+				planning_speed = 0.05
+			}
+	}
+	
+	POR_army_merge_superior_firepower = {
+			picture = FRA_army_of_aggression_focus
+			allowed = {always = no}
+			removal_cost = -1
+			modifier = {
+				army_artillery_attack_factor = 0.05
+				army_artillery_defence_factor = 0.05
+				conscription = 0.025 
+				consumer_goods_factor = 0.05
+				war_support_factor = -0.05
+				army_org_Factor = 0.05
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+			equipment_bonus = {
+				support_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+	}
+	
+	POR_army_merge_grand_battleplan = {
+			picture = FRA_army_of_aggression_focus
+			allowed = {always = no}
+			removal_cost = -1
+			modifier = {
+				army_infantry_defence_factor = 0.05
+				planning_speed = 0.05
+				conscription = 0.025 
+				consumer_goods_factor = 0.05
+				war_support_factor = -0.05
+				army_org_Factor = 0.05
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+			equipment_bonus = {
+				support_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+	}
 }
 
 ##############

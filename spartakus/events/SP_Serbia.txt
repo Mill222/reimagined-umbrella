@@ -112,3 +112,90 @@ news_event = { #May Day Rally
 	}
 }
 
+country_event = { #First Elections
+	id = serbia.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.5"}
+	title = serbia.5.t
+	desc = serbia.5.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.5.a # LDS
+
+		set_country_flag = SER_First_Elections_LDS
+		set_politics = {
+				ruling_party = liberal_conservative
+			}
+			add_popularity = {
+				ideology = liberal_conservative
+				popularity = 0.1
+			}
+		add_ideas = {
+        SER_Milos_Trifunovic_hog_sco
+        SER_Bozidar_Puric_for_mli
+        SER_Vojislav_Marinkovic_eco_mli
+        SER_Mihailo_Konstantinovic_sec_mli
+        SER_Dusan_Popov_int_mli
+        }
+	}
+	
+	option = {
+		name = serbia.5.b # RS
+
+		set_country_flag = SER_First_Elections_RS
+		set_politics = {
+				ruling_party = social_liberal
+			}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.1
+			}
+		add_ideas = {
+        SER_Ljubomir_Davidovic_hog_sli
+        SER_Milan_Grol_for_sli
+        SER_Kosta_Kumanudi_eco_sli
+        SER_Dragoljub_Jovanovic_sec_sli
+        SER_Dusan_Popov_int_mli
+        }
+	}
+}
+
+
+country_event = { #Unceasing Violence
+	id = serbia.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.6"}
+	title = serbia.6.t
+	desc = serbia.6.d
+	picture = GFX_report_event_albanian_partisans
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.6.a # oh no two
+		add_political_power = -100
+	}
+}
+
+news_event = { #poor conservative identitarian milan acimovic ASSAULTED by violent leftists :(((((
+	id = serbia.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.7"}
+	title = serbia.7.t
+	desc = serbia.7.d
+	picture = GFX_news_event_generic_funeral
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.7.a # dead fucker lmao
+		add_political_power = -100
+	}
+}
+

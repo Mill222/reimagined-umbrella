@@ -8,6 +8,10 @@ set_war_support = 0.7
 add_ideas = {
 	limited_exports
 	limited_conscription
+	ITA_Ghastly_Memories
+	ITA_Anni_di_Piombo
+	ITA_Army_Sympathies
+	ITA_Senussi
 }
 
 
@@ -38,10 +42,10 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 8
+			popularity = 4
 		}
 		marxist = {
-			popularity = 10
+			popularity = 14
 		}
 		revolutionary_socialist = {
 			popularity = 3
@@ -50,10 +54,10 @@ set_politics = {
 			popularity = 13
 		}
 		social_democrat = {
-			popularity = 12
+			popularity = 10
 		}
 		social_liberal = {
-			popularity = 6
+			popularity = 8
 		}
 		liberal_conservative = {
 			popularity = 11
@@ -98,9 +102,20 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Tina Modotti"
+	picture = "ITA_Tina_Modotti.dds"
+	desc = "A Native born Italian formerly living in Mexico, Tina Modotti was expelled from Mexico in 1930 and now currently resides in Turin, Italy."
+	expire = "1965.1.1"
+	ideology = marxist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
 	name = "Benito Mussolini"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Portrait_Italy_Benito_Mussolini.dds"
+	picture = "ITA_Benito_Mussolini.dds"
 	expire = "1965.1.1"
 	ideology = national_corporatist_subtype
 	traits = {
@@ -365,6 +380,8 @@ create_equipment_variant = {
 give_guarantee = TUR
 give_guarantee = MNT
 give_guarantee = ALB
+give_guarantee = CRO
 give_military_access = TUR
 give_military_access = MNT
 give_military_access = ALB
+give_military_access = CRO

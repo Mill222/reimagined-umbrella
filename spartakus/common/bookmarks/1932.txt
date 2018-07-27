@@ -10,6 +10,9 @@ bookmarks = {
 			history = "GER_SP_GATHERING_STORM_DESC"
 			ideology = marxist
 			ideas = {
+				GER_A_Divided_Nation
+				GER_Global_Embargo
+				GER_Minority_Rights
 			}
 			focuses = {
 			}
@@ -37,6 +40,8 @@ bookmarks = {
 			history = "FRA_SP_GATHERING_STORM_DESC"
 			ideology = social_conservative
 			ideas = {
+				FRA_victors_of_wwi
+				FRA_disjointed_government
 			}
 			focuses = {
 			}
@@ -45,6 +50,9 @@ bookmarks = {
 			history = "USA_SP_GATHERING_STORM_DESC"
 			ideology = liberal_conservative
 			ideas = {
+				USA_booming_economy
+				USA_tariff_act
+				USA_impending_drought
 			}
 			focuses = {
 			}
@@ -65,6 +73,9 @@ bookmarks = {
 				JAP_SP_mantetsu
 			}
 			focuses = {
+				JAP_restoration
+				JAP_nanyo_mantetsu
+				JAP_navy_kk
 			}
 		}
 
@@ -72,65 +83,14 @@ bookmarks = {
 			history = "OTHER_SP_GATHERING_STORM_DESC"
 		}
 		
-		"FNG"={
-			minor = yes
-			history = "FNG_SP_GATHERING_STORM_DESC"
-			ideology = authoritarian_democrat
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"ITA"={
-			minor = yes
-			history = "ITA_SP_GATHERING_STORM_DESC"
-			ideology = authoritarian_democrat
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"SPR"={
-			minor = yes
-			history = "SPR_SP_GATHERING_STORM_DESC"
-			ideology = social_liberal
-			ideas = {
-			}
-			focuses = {
-			}
-		}
 		"WUR"={
 			minor = yes
 			history = "WUR_SP_GATHERING_STORM_DESC"
 			ideology = authoritarian_democrat
 			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"TUR"={
-			minor = yes
-			history = "TUR_SP_GATHERING_STORM_DESC"
-			ideology = right_wing_populist
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"YUG" ={
-			minor = yes
-			history = "YUG_SP_GATHERING_STORM_DESC"
-			ideology = authoritarian_democrat
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"PRM"={
-			minor = yes
-			history = "PRM_SP_GATHERING_STORM_DESC"
-			ideology = right_wing_populist
-			ideas = {
+				WUR_sore_loser
+				WUR_discredited_kaiser
+				WUR_stagnant_economy
 			}
 			focuses = {
 			}
@@ -140,6 +100,8 @@ bookmarks = {
 			history = "POR_SP_GATHERING_STORM_DESC"
 			ideology = revolutionary_socialist
 			ideas = {
+				POR_divided_country
+				POR_revolution
 			}
 			focuses = {
 			}
@@ -153,6 +115,9 @@ bookmarks = {
 				ROM_rural_population
 			}
 			focuses = {
+				ROM_conference
+				ROM_conscription
+				ROM_roads
 			}
 		}
 		"ALB"={
@@ -165,6 +130,9 @@ bookmarks = {
 				ALB_italian_industry
 			}
 			focuses = {
+				ALB_rural_population
+				ALB_irredentism
+				ALB_constitution
 			}
 		}
 		"NOR"={
@@ -177,6 +145,9 @@ bookmarks = {
 				NOR_anti_establishment_sentiments_idea
 			}
 			focuses = {
+				NOR_1933_election
+				NOR_communist_coup
+				NOR_samfundsvernet_coup
 			}
 		}
 		
@@ -185,6 +156,9 @@ bookmarks = {
 			history = "SER_SP_GATHERING_STORM_DESC"
 			ideology = right_wing_populist
 			ideas = {
+				YUG_Moderate_Desire_to_Form
+				SER_The_Decade_of_Silence
+				SER_Decree_on_the_Colonization_of_the_Southern_Regions
 			}
 			focuses = {
 			}

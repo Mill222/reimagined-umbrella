@@ -59,6 +59,10 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SER_One_Party_State
 		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Adopt_a_Constitution"
+            add_stability = 0.1
+		}
 		x = 4
 		y = 2
 
@@ -69,6 +73,11 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = SER_Adopt_a_Constitution
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Fair_Elections"
+			custom_effect_tooltip = SER_Fair_Elections_tooltip
+			hidden_effect = { country_event = { id = serbia.5 } }
 		}
 		x = 4
 		y = 4
@@ -98,6 +107,12 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SER_Adopt_a_Constitution
 		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_One_Party_State"
+            add_stability = -0.1
+			hidden_effect = { country_event = { days = 2 id = serbia.6 } }
+			hidden_effect = { news_event = { days = 20 id = serbia.7 } }
+		}
 		x = 6
 		y = 2
 
@@ -108,6 +123,10 @@ focus_tree = {
 		cost = 3.00
 		prerequisite = {
 			focus = SER_One_Party_State
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Put_Down_Riots"
+            add_stability = -0.05
 		}
 		x = 6
 		y = 3

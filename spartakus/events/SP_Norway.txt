@@ -903,26 +903,6 @@ country_event = { # Monarchy Question
 		add_political_power = 25
 		hidden_effect = {
 			create_country_leader = {
-				name = "Olav Scheflo"
-				desc = "POLITICS_OLAV_SCHEFLO_DESC"
-				#picture = "NOR.tga"
-				expire = "1965.1.1"
-				ideology = leninist_subtype
-				traits = {
-					#
-				}
-			}
-			create_country_leader = {
-				name = "Peder Furubotn"
-				desc = "POLITICS_PEDER_FURUBOTN_DESC"
-				#picture = "NOR.tga"
-				expire = "1965.1.1"
-				ideology = marxist_subtype
-				traits = {
-					#
-				}
-			}
-			create_country_leader = {
 				name = "Martin Tranmæl"
 				desc = "POLITICS_MARTIN_TRANMAEL_DESC"
 				#picture = "NOR.tga"

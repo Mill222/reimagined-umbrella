@@ -25,6 +25,14 @@ ideas = {
             }
         }
 		
+		SER_Decree_on_the_Colonization_of_the_Southern_Regions = {
+            picture = Kosovo_Flames
+            modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.3
+            }
+        }
+		
     }
 	
 }

@@ -546,6 +546,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ALB/companies/telekomi_shqiptar.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_durres"
+		texturefile = "gfx/interface/ideas/ALB/companies/durres.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_vlore"
+		texturefile = "gfx/interface/ideas/ALB/companies/vlore.dds"
+	}
+	
 	# Serbia
 	
 	spriteType = {
