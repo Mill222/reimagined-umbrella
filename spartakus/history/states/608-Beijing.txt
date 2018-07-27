@@ -8,13 +8,13 @@ state={
 		add_core_of = FNG
 		add_core_of = CHI
 		victory_points = {
-			9843 20 
+			9843 30 
 		}
 		victory_points = {
 			11886 1 
 		}
 		victory_points = {
-			10068 1 
+			10068 5 
 		}
 		buildings = {
 			infrastructure = 5
