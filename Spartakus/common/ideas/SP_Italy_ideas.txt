@@ -13,7 +13,7 @@ ideas = {
             modifier = {
 				war_support_factor = -0.25
 				training_time_factor = 0.20
-				conscription = -0.20
+				conscription_factor = -0.20
             }
         }
 		
@@ -26,10 +26,14 @@ ideas = {
             }
         }
 		
-		ITA_Corupt_Army = {
+		ITA_Army_Sympathies = {
             picture = WIP
             modifier = {
-	
+				defense = -0.20
+				attack = -0.20
+				army_org_factor = -0.15
+				army_moral_factor = -0.15
+				planning_speed = -0.15
             }
         }
 		

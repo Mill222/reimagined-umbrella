@@ -8,6 +8,10 @@ set_war_support = 0.7
 add_ideas = {
 	limited_exports
 	limited_conscription
+	ITA_Ghastly_Memories
+	ITA_Anni_di_Piombo
+	ITA_Army_Sympathies
+	ITA_Senussi
 }
 
 
@@ -30,13 +34,6 @@ set_technology = {
 	early_battleship = 1
 	early_battlecruiser = 1
 	transport = 1
-}
-
-add_ideas = {
-	ITA_Ghastly_Memories
-	ITA_Anni_di_Piombo
-	ITA_Corrupt_Army
-	ITA_Senussi
 }
 
 set_convoys = 200
