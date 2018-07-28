@@ -596,6 +596,11 @@ NOR_expantionist_policy_flag:0 "Expantionist Policy Taken"
 
 ### Decisions ###
 
+NOR_deal_with_opposition_decision_cat:0 "Deal With the Oppositions"
+NOR_deal_with_opposition_decision_cat_desc:0 "What to do with these opposing our goals in making our country better?!"
+NOR_sieze_equipment_from_samfundsvernet:0 "Sieze Equipment from Samfundsvernet"
+NOR_sieze_equipment_from_samfundsvernet_desc:0 ""
+
 NOR_expantionist_norway_decision_cat:0 "Decisions Regarding Norwegian Expantionism"
 NOR_expantionist_norway_decision_cat_desc:0 "Our government has given green light to Norwegian expantionism and take back territories that once was under Norwegian control but today is occupied by foreign powers. Will we be able to regain the power and influence we once had in Northern Europe, or see a new Scandinavia rise under our control?!"
 NOR_greenland_negotiate_with_danes:0 "Negotiate Over Greenland"
