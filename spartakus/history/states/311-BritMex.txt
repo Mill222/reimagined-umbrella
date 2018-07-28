@@ -4,7 +4,8 @@ state={
 	name="STATE_311"
 
 	history={
-		owner = ENG
+		owner = CFA
+		add_core_of = CFA
 		buildings = {
 			infrastructure = 4
 			2077 = {

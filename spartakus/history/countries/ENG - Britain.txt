@@ -71,7 +71,7 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = EAF
-	autonomous_state = sp_Brit_protectorate
+	autonomous_state = sp_Brit_colony
 }
 set_autonomy = {
 	target = NGR
@@ -119,6 +119,14 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = GHA
+	autonomous_state = sp_Brit_colony
+}
+set_autonomy = {
+	target = CFA
+	autonomous_state = sp_Brit_colony
+}
+set_autonomy = {
+	target = GUY
 	autonomous_state = sp_Brit_colony
 }
 set_autonomy = {

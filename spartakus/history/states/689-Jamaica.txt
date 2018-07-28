@@ -6,7 +6,8 @@ state={
 	state_category = city
 
 	history={
-		owner = ENG
+		owner = CFA
+		add_core_of = CFA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

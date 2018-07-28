@@ -10,7 +10,8 @@ state={
 
 
 	history={
-		owner = ENG
+		owner = CFA
+		add_core_of = CFA
 		buildings = {
 			infrastructure = 3
 						industrial_complex = 1
