@@ -254,7 +254,7 @@ ideas = {
 			}
 		}
 		ARG_coalition_broken = {
-			picture = GFX_idea_police_hat
+			picture = police_hat
 
 			allowed = {
 				original_tag = ARG

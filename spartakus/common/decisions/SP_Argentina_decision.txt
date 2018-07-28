@@ -1,0 +1,309 @@
+
+ARG_south_american_police = {
+	ARG_police_bolivia = {
+		icon = GFX_decision_generic_nationalism
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			BOL = {
+				country_event = argentina.300
+			}
+		}
+		available = {
+			tag = ARG
+			any_country = {
+				has_war_with = BOL
+				OR = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+		visible = {
+			has_completed_focus = ARG_sudamerican_police
+			BOL = {
+				exist = yes
+				NOT = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+	}
+	ARG_police_brazil = {
+		icon = GFX_decision_generic_nationalism
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			BRA = {
+				country_event = argentina.300
+			}
+		}
+		available = {
+			tag = ARG
+			any_country = {
+				has_war_with = BRA
+				OR = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+		visible = {
+			has_completed_focus = ARG_sudamerican_police
+			BRA = {
+				exist = yes
+				NOT = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+	}
+	ARG_police_chile = {
+		icon = GFX_decision_generic_nationalism
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			CHL = {
+				country_event = argentina.300
+			}
+		}
+		available = {
+			tag = ARG
+			any_country = {
+				has_war_with = CHL
+				OR = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+		visible = {
+			has_completed_focus = ARG_sudamerican_police
+			CHL = {
+				exist = yes
+				NOT = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+	}
+	ARG_police_colombia = {
+		icon = GFX_decision_generic_nationalism
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			COL = {
+				country_event = argentina.300
+			}
+		}
+		available = {
+			tag = ARG
+			any_country = {
+				has_war_with = COL
+				OR = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+		visible = {
+			has_completed_focus = ARG_sudamerican_police
+			COL = {
+				exist = yes
+				NOT = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+	}
+	ARG_police_ecuador = {
+		icon = GFX_decision_generic_nationalism
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			ECU = {
+				country_event = argentina.300
+			}
+		}
+		available = {
+			tag = ARG
+			any_country = {
+				has_war_with = ECU
+				OR = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+		visible = {
+			has_completed_focus = ARG_sudamerican_police
+			ECU = {
+				exist = yes
+				NOT = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+	}
+	ARG_police_paraguay = {
+		icon = GFX_decision_generic_nationalism
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			PAR = {
+				country_event = argentina.300
+			}
+		}
+		available = {
+			tag = ARG
+			any_country = {
+				has_war_with = PAR
+				OR = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+		visible = {
+			has_completed_focus = ARG_sudamerican_police
+			PAR = {
+				exist = yes
+				NOT = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+	}
+	ARG_police_peru = {
+		icon = GFX_decision_generic_nationalism
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			PRU = {
+				country_event = argentina.300
+			}
+		}
+		available = {
+			tag = ARG
+			any_country = {
+				has_war_with = PRU
+				OR = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+		visible = {
+			has_completed_focus = ARG_sudamerican_police
+			PRU = {
+				exist = yes
+				NOT = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+	}
+	ARG_police_uruguay = {
+		icon = GFX_decision_generic_nationalism
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			URG = {
+				country_event = argentina.300
+			}
+		}
+		available = {
+			tag = ARG
+			any_country = {
+				has_war_with = URG
+				OR = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+		visible = {
+			has_completed_focus = ARG_sudamerican_police
+			URG = {
+				exist = yes
+				NOT = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+	}
+	ARG_police_venezuela = {
+		icon = GFX_decision_generic_nationalism
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			VEN = {
+				country_event = argentina.300
+			}
+		}
+		available = {
+			tag = ARG
+			any_country = {
+				has_war_with = VEN
+				OR = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+		visible = {
+			has_completed_focus = ARG_sudamerican_police
+			VEN = {
+				exist = yes
+				NOT = {
+					has_government = leninist
+					has_government = marxist
+					has_government = revolutionary_socialist
+					has_government = democratic_socialist
+				}
+			}
+		}
+	}
+}

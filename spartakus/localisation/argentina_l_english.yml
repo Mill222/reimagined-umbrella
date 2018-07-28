@@ -75,7 +75,7 @@
   hog_lugones:0 "Leopoldo Lugones"
 
   #ideas
-  ARG_agriculture_problem:0 "Food Exports Problem"
+  ARG_agriculture_problem:0 "Crisis Agraria"
   ARG_coalition:0 "Coalición Nacional"
   ARG_coalition_1:0 "Coalición Nacional"
   ARG_coalition_broken:0 "Broken Coalition"
@@ -87,3 +87,18 @@
   ARG_austerity_6:0 "Austerity"
   ARG_great_depression:0 "Great Depression"
   ARG_great_depression_2:0 "Great Depression"
+
+  #decisions
+  ARG_south_american_police:0 "South American Intervention"
+  ARG_police_brazil:0 "Aid the Brazilian Fight"
+  ARG_police_bolivia:0 "Aid the Bolivian Fight"
+  ARG_police_chile:0 "Aid the Chilean Fight"
+  ARG_police_colombia:0 "Aid the Colombian Fight"
+  ARG_police_ecuador:0 "Aid the Ecuatorian Fight"
+  ARG_police_paraguay:0 "Aid the Paraguayan Fight"
+  ARG_police_peru:0 "Aid the Peruvian Fight"
+  ARG_police_uruguay:0 "Aid the Uruguayan Fight"
+  ARG_police_venezuela:0 "Aid the Venezuelan Fight"
+
+  #descripciones
+  ARG_SP_GATHERING_STORM_DESC:0 "Since the German Revolution began, Argentina has seen itself in various conflicts against socialist militias, most notably in 1919, 1920 and 1922. These clashes between the government and paramilitary forces against socialists, and the crisis brought by the London Crash resulted in a coup d'etat led by José Félix Uriburu overthrowing the government in 1930. Ruling with the support of a coalition of Nationalist and Conservative parties, he began plans to instaurate a Corporatist regime. Not everyone in the coalition follows these corporatist ideas, however it remains united as a mean to counteract against socialist forces"

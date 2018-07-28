@@ -1321,7 +1321,7 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {	
-			
+			custom_effect_tooltip = "§Rthis text is red§!"
 		}
 	}
 	focus = {
@@ -3447,8 +3447,8 @@ focus_tree = {
 	}
 	focus = {
 		id = ARG_oppose_communism
-		icon = GFX_goal_factory_complex
-		x = 60
+		icon = GFX_Anti_Communist
+		x = 59
 		y = 1
 		cost = 5
 		prerequisite = {
@@ -3466,8 +3466,8 @@ focus_tree = {
 	}
 	focus = {
 		id = ARG_ban_communism
-		icon = GFX_goal_factory_complex
-		x = 59
+		icon = GFX_Anti_Communist
+		x = 58
 		y = 2
 		cost = 5
 		prerequisite = {
@@ -3485,8 +3485,8 @@ focus_tree = {
 	}
 	focus = {
 		id = ARG_receive_exiles
-		icon = GFX_goal_factory_complex
-		x = 61
+		icon = GFX_goal_white_star
+		x = 60
 		y = 2
 		cost = 5
 		prerequisite = {
@@ -3504,8 +3504,8 @@ focus_tree = {
 	}
 	focus = {
 		id = ARG_divisiones_celestes
-		icon = GFX_goal_factory_complex
-		x = 60
+		icon = GFX_Argentine_Soldiers
+		x = 59
 		y = 3
 		cost = 5
 		prerequisite = {
@@ -3526,12 +3526,32 @@ focus_tree = {
 	}
 	focus = {
 		id = ARG_sudamerican_police
-		icon = GFX_goal_factory_complex
-		x = 61
+		icon = GFX_goal_LEC_police3
+		x = 60
 		y = 4
 		cost = 5
 		prerequisite = {
 			focus = ARG_divisiones_celestes
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			add_political_power = 50
+			custom_effect_tooltip = "Allows you to intervene against Communism in South America"
+		}
+	}
+	focus = {
+		id = ARG_anticommunist_alliance
+		icon = GFX_Focus_Grain
+		x = 61
+		y = 5
+		cost = 5
+		prerequisite = {
+			focus = ARG_sudamerican_police
 		}
 	    available = {
 			always = yes
@@ -3546,7 +3566,7 @@ focus_tree = {
 	focus = {
 		id = ARG_help_europe
 		icon = GFX_goal_factory_complex
-		x = 59
+		x = 58
 		y = 4
 		cost = 5
 		prerequisite = {
@@ -3563,9 +3583,91 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = ARG_food_to_europe
+		icon = GFX_Focus_Grain
+		x = 57
+		y = 5
+		cost = 5
+		prerequisite = {
+			focus = ARG_help_europe
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_arms_to_europe
+		icon = GFX_goal_Arms_Export
+		x = 55
+		y = 5
+		cost = 5
+		prerequisite = {
+			focus = ARG_help_europe
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_soldiers_to_europe
+		icon = GFX_goal_navy_hat_ships
+		x = 53
+		y = 5
+		cost = 5
+		prerequisite = {
+			focus = ARG_help_europe
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
+		id = ARG_join_europe_war
+		icon = GFX_goal_factory_complex
+		x = 55
+		y = 6
+		cost = 5
+		prerequisite = {
+			focus = ARG_arms_to_europe
+		}
+		prerequisite = {
+			focus = ARG_food_to_europe
+		}
+		prerequisite = {
+			focus = ARG_soldiers_to_europe
+		}
+	    available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+			
+		}
+	}
+	focus = {
 		id = ARG_expand_volunteer_office
 		icon = GFX_goal_factory_complex
-		x = 60
+		x = 59
 		y = 5
 		cost = 5
 		prerequisite = {
