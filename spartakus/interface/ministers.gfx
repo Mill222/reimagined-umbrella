@@ -504,733 +504,733 @@ spriteTypes = {
 	#Head of Government
 	spriteType = {
 		name = "GFX_idea_ALB_Halim_Xhelo_hog_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Halim_Xhelo.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Halim_Xhelo.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Omer_Nishani_hog_mar"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Omer_Nishani.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Omer_Nishani.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Llazar_Fundo_hog_rev"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Llazar_Fundo.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Llazar_Fundo.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Fan_Noli_hog_sde"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Fan_Noli.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Fan_Noli.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Sulejman_Delvina_hog_sde"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Sulejman_Delvina.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Sulejman_Delvina.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Gjergj_Fishta_hog_sli"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Gjergj_Fishta.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Gjergj_Fishta.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Ceno_Kryeziu_hog_mli"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Ceno_Kryeziu.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Ceno_Kryeziu.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Ahmet_Zogu_hog_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Ahmet_Zogu.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Ahmet_Zogu.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Myfid_Libohova_hog_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Myfid_Libohova.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Myfid_Libohova.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_August_Ritter_von_Kral_hog_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_August_Ritter_von_Kral.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_August_Ritter_von_Kral.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Jup_Kazazi_hog_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Jup_Kazazi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Jup_Kazazi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Mehdi_Frasheri_hog_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Mehdi_Frasheri.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Mehdi_Frasheri.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Kostaq_Kota_hog_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Kostaq_Kota.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Kostaq_Kota.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Sejfi_Vllamasi_hog_nsy"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Sejfi_Vllamasi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Sejfi_Vllamasi.dds"
 	}
 
 
 	#Foreign Minister
 	spriteType = {
 		name = "GFX_idea_ALB_Zef_Mala_for_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Zef_Mala.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Zef_Mala.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Riza_Dani_for_mar"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Riza_Dani.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Riza_Dani.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Koco_Tashko_for_rev"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Koco_Tashko.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Koco_Tashko.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Ali_Shefqet_Shkupi_for_sde"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Ali_Shefqet_Shkupi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Ali_Shefqet_Shkupi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Sulejman_Delvina_for_sde"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Sulejman_Delvina.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Sulejman_Delvina.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Xhemal_Bushati_for_sli"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Xhemal_Bushati.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Xhemal_Bushati.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Eqrem_Vlora_for_mli"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Eqrem_Vlora.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Eqrem_Vlora.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Llazar_Fundua_for_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Llazar_Fundua.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Llazar_Fundua.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Pandeli_Evangjeli_for_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Pandeli_Evangjeli.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Pandeli_Evangjeli.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Rexhep_Mitrovica_for_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Rexhep_Mitrovica.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Rexhep_Mitrovica.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Fiqri_Dine_for_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Fiqri_Dine.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Fiqri_Dine.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Fuat_Aslam_for_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Fuat_Aslam.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Fuat_Aslam.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Hysen_Vrioni_for_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Hysen_Vrioni.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Hysen_Vrioni.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Mehdi_Frasheri_for_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Mehdi_Frasheri.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Mehdi_Frasheri.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Nazim_Dedolli_for_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Nazim_Dedolli.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Nazim_Dedolli.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Hasan_Begolli_for_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Hasan_Begolli.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Hasan_Begolli.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Kol_Bibe_Mirakaj_for_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Kol_Bibe_Mirakaj.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Kol_Bibe_Mirakaj.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Mehmet_Konica_for_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Mehmet_Konica.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Mehmet_Konica.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Tefik_Mborja_for_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Tefik_Mborja.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Tefik_Mborja.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Xhafer_Deva_for_nsy"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Xhafer_Deva.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Xhafer_Deva.dds"
 	}
 
 
 	#Economy Minister
 	spriteType = {
 		name = "GFX_idea_ALB_Tuk_Jakova_eco_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Tuk_Jakova.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Tuk_Jakova.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Kostandin_Boshnjaku_eco_mar"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Kostandin_Boshnjaku.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Kostandin_Boshnjaku.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Mehmet_Shehu_eco_rev"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Mehmet_Shehu.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Mehmet_Shehu.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Ali_Shefqet_Shkupi_eco_sde"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Ali_Shefqet_Shkupi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Ali_Shefqet_Shkupi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Luigj_Gurakuqi_eco_sde"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Luigj_Gurakuqi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Luigj_Gurakuqi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Qemal_Karaosmani_eco_sli"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Qemal_Karaosmani.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Qemal_Karaosmani.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Ferit_Vokopola_eco_mli"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Ferit_Vokopola.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Ferit_Vokopola.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Fejzi_Alizoti_eco_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Fejzi_Alizoti.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Fejzi_Alizoti.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Myfid_Libohova_eco_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Myfid_Libohova.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Myfid_Libohova.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Rexhep_Mitrovica_eco_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Rexhep_Mitrovica.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Rexhep_Mitrovica.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Xhelal_Mitrovica_eco_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Xhelal_Mitrovica.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Xhelal_Mitrovica.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Et'hem_Cara_eco_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Et'hem_Cara.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Et'hem_Cara.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Fiqri_Dine_eco_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Fiqri_Dine.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Fiqri_Dine.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Ismael_Ghaxa_eco_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Ismael_Ghaxa.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Ismael_Ghaxa.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Jocelyn_Percy_eco_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Jocelyn_Percy.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Jocelyn_Percy.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Quamar_Pakazi_eco_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Quamar_Pakazi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Quamar_Pakazi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Ruok_Geraj_eco_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Ruok_Geraj.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Ruok_Geraj.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Sthfphen_Delvine_eco_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Sthfphen_Delvine.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Sthfphen_Delvine.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Eqrem_Libohova_eco_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Eqrem_Libohova.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Eqrem_Libohova.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Idhomene_Kosturi_eco_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Idhomene_Kosturi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Idhomene_Kosturi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Maliq_Bushati_eco_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Maliq_Bushati.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Maliq_Bushati.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Qemal_Vrioni_eco_nsy"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Qemal_Vrioni.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Qemal_Vrioni.dds"
 	}
 
 
 	#Security Minister
 	spriteType = {
 		name = "GFX_idea_ALB_Vasil_Shanto_sec_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Vasil_Shanto.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Vasil_Shanto.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_ALB_drita_sec"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Drita.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Drita.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Zuhdi_Shabani_sec_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Zuhdi_Shabani.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Zuhdi_Shabani.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Riza_Cerova_sec_mar"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Riza_Cerova.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Riza_Cerova.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Sejfulla_Maleshova_sec_rev"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Sejfulla_Maleshova.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Sejfulla_Maleshova.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Bajram_Curri_sec_sde"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Bajram_Curri.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Bajram_Curri.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Josif_Pashko_sec_sde"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Josif_Pashko.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Josif_Pashko.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Thoma_Orollogaj_sec_sli"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Thoma_Orollogaj.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Thoma_Orollogaj.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Abdurraman_Dibra_sec_mli"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Abdurraman_Dibra.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Abdurraman_Dibra.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Muharrem_Bajraktari_sec_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Muharrem_Bajraktari.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Muharrem_Bajraktari.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Xhelal_Mitrovica_sec_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Xhelal_Mitrovica.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Xhelal_Mitrovica.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Ibrahim_Bicaku_sec_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Ibrahim_Bicaku.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Ibrahim_Bicaku.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Jocelyn_Percy_sec_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Jocelyn_Percy.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Jocelyn_Percy.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Nazim_Dedolli_sec_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Nazim_Dedolli.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Nazim_Dedolli.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Nexhip_Deva_sec_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Nexhip_Deva.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Nexhip_Deva.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Rauf_Fico_sec_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Rauf_Fico.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Rauf_Fico.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Eqrem_Libohova_sec_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Eqrem_Libohova.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Eqrem_Libohova.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Fiqri_Dine_sec_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Fiqri_Dine.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Fiqri_Dine.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Kol_Bibe_Mirakaj_sec_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Kol_Bibe_Mirakaj.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Kol_Bibe_Mirakaj.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Maliq_Bushati_sec_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Maliq_Bushati.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Maliq_Bushati.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Qazim_Mulleti_sec_nsy"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Qazim_Mulleti.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Qazim_Mulleti.dds"
 	}
 
 
 	#Intel Minister
 	spriteType = {
 		name = "GFX_idea_ALB_Abaz_Kupi_int_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Abaz_Kupi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Abaz_Kupi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Jup_Kazazi_int_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Jup_Kazazi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Jup_Kazazi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Nano_Xhana_int_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Nano_Xhana.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Nano_Xhana.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Zuhdi_Shabani_int_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Zuhdi_Shabani.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Zuhdi_Shabani.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Mustafa_Gjinishi_int_mar"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Mustafa_Gjinishi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Mustafa_Gjinishi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Hajre_Dizdari_int_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Hajre_Dizdari.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Hajre_Dizdari.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Rexhep_Mitrovica_int_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Rexhep_Mitrovica.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Rexhep_Mitrovica.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Xhelal_Mitrovica_int_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Xhelal_Mitrovica.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Xhelal_Mitrovica.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Ahmad_Zhahir_int_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Ahmad_Zhahir.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Ahmad_Zhahir.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Fuat_Aslam_int_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Fuat_Aslam.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Fuat_Aslam.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Quamar_Pakazi_int_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Quamar_Pakazi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Quamar_Pakazi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Hasan_Begolli_int_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Hasan_Begolli.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Hasan_Begolli.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Maliq_Bushati_int_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Maliq_Bushati.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Maliq_Bushati.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Nuhi_Berisha_int_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Nuhi_Berisha.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Nuhi_Berisha.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Qemal_Komani_int_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Qemal_Komani.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Qemal_Komani.dds"
 	}
 
 
 	#Chief of Staff
 	spriteType = {
 		name = "GFX_idea_ALB_Zuhdi_Shabani_cos_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Zuhdi_Shabani.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Zuhdi_Shabani.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Sadik_Djepi_cos_mar"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Sadik_Djepi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Sadik_Djepi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Bahri_Omari_cos_mli"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Bahri_Omari.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Bahri_Omari.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Hajre_Dizdari_cos_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Hajre_Dizdari.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Hajre_Dizdari.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Prenk_Pervizi_cos_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Prenk_Pervizi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Prenk_Pervizi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Sokrat_Agolli_cos_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Sokrat_Agolli.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Sokrat_Agolli.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Xhelal_Mitrovica_cos_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Xhelal_Mitrovica.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Xhelal_Mitrovica.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Nazim_Dedolli_cos_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Nazim_Dedolli.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Nazim_Dedolli.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Qemal_Komani_cos_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Qemal_Komani.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Qemal_Komani.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Rexhep_Mitrovica_cos_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Rexhep_Mitrovica.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Rexhep_Mitrovica.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Kol_Bibe_Mirakaj_cos_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Kol_Bibe_Mirakaj.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Kol_Bibe_Mirakaj.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Kristo_Cajupi_cos_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Kristo_Cajupi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Kristo_Cajupi.dds"
 	}
 
 
 	#Chief of Army
 	spriteType = {
 		name = "GFX_idea_ALB_Aziz_Sulejmani_carm_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Aziz_Sulejmani.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Aziz_Sulejmani.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Hassan_Shqabi_carm_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Hassan_Shqabi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Hassan_Shqabi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Mustafa_Merlika_carm_sli"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Mustafa_Merlika.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Mustafa_Merlika.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Hajre_Dizdari_carm_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Hajre_Dizdari.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Hajre_Dizdari.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Prenk_Pervizi_carm_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Prenk_Pervizi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Prenk_Pervizi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Xhelal_Mitrovica_carm_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Xhelal_Mitrovica.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Xhelal_Mitrovica.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Alexander_Mori_carm_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Alexander_Mori.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Alexander_Mori.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Kristo_Cajupi_carm_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Kristo_Cajupi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Kristo_Cajupi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Selim_Moishiou_carm_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Selim_Moishiou.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Selim_Moishiou.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Sokrat_Agolli_carm_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Sokrat_Agolli.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Sokrat_Agolli.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Stefkhi_Shatun_carm_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Stefkhi_Shatun.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Stefkhi_Shatun.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Kol_Bibe_Mirakaj_carm_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Kol_Bibe_Mirakaj.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Kol_Bibe_Mirakaj.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Qemal_Komani_carm_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Qemal_Komani.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Qemal_Komani.dds"
 	}
 
 
 	#Chief of Navy
 	spriteType = {
 		name = "GFX_idea_ALB_Hajre_Fetahu_cnav_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Hajre_Fetahu.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Hajre_Fetahu.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Halil_Nergutti_cnav_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Halil_Nergutti.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Halil_Nergutti.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Nako_Spiru_cnav_rev"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Nako_Spiru.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Nako_Spiru.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Hajre_Dizdari_cnav_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Hajre_Dizdari.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Hajre_Dizdari.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Xhelal_Mitrovica_cnav_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Xhelal_Mitrovica.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Xhelal_Mitrovica.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Nazim_Dedolli_cnav_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Nazim_Dedolli.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Nazim_Dedolli.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Nexhip_Deva_cnav_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Nexhip_Deva.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Nexhip_Deva.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Quamar_Pakazi_cnav_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Quamar_Pakazi.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Quamar_Pakazi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Rexhep_Mitrovica_cnav_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Rexhep_Mitrovica.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Rexhep_Mitrovica.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Sthfphen_Delvine_cnav_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Sthfphen_Delvine.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Sthfphen_Delvine.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Hasan_Begolli_cnav_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Hasan_Begolli.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Hasan_Begolli.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Ismael_Ghaxa_cnav_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Ismael_Ghaxa.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Ismael_Ghaxa.dds"
 	}
 
 
 	#Chief of Air Force
 	spriteType = {
 		name = "GFX_idea_ALB_Aziz_Sulejmani_cair_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Aziz_Sulejmani.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Aziz_Sulejmani.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Hajre_Fetahu_cair_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Hajre_Fetahu.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Hajre_Fetahu.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Hysni_Kapo_cair_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Hysni_Kapo.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Hysni_Kapo.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Zuhdi_Shabani_cair_len"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Zuhdi_Shabani.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Zuhdi_Shabani.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Sokrat_Agolli_cair_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Sokrat_Agolli.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Sokrat_Agolli.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Xhelal_Mitrovica_cair_sco"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Xhelal_Mitrovica.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Xhelal_Mitrovica.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Ahmad_Zhahir_cair_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Ahmad_Zhahir.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Ahmad_Zhahir.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Fiqri_Dine_cair_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Fiqri_Dine.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Fiqri_Dine.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Jocelyn_Percy_cair_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Jocelyn_Percy.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Jocelyn_Percy.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Nexhip_Deva_cair_ade"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Nexhip_Deva.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Nexhip_Deva.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Eqrem_Libohova_cair_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Eqrem_Libohova.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Eqrem_Libohova.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Hasan_Begolli_cair_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Hasan_Begolli.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Hasan_Begolli.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Nuhi_Berisha_cair_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Nuhi_Berisha.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Nuhi_Berisha.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ALB_Sthfphen_Delvine_cair_rwp"
-		texturefile = "gfx/interface/ministers/ALB/ALB_Sthfphen_Delvine.tga"
+		texturefile = "gfx/interface/ministers/ALB/ALB_Sthfphen_Delvine.dds"
 	}
 
 
