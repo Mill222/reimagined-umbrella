@@ -4,6 +4,8 @@ state={
 	provinces={
 		2224 
 	}
+	resources={
+	steel = 8.000}
 	history={
 		owner = ARG
 		add_core_of = ARG

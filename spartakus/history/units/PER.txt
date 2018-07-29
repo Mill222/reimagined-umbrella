@@ -33,7 +33,7 @@ units = {
 	##### Royal Iranian Army #####
 	division = {
 		name = "Persian Cossack Brigade"
-		location = 1896
+		location = 10913
 		division_template = "Cavalry Brigade"		
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -49,6 +49,14 @@ units = {
 	}
 	division = {
 		name = "Imperial Gendarmerie"
+		location = 10837
+		division_template = "Infantry Brigade"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Imperial Guards"
 		location = 10837
 		division_template = "Infantry Brigade"		
 		start_experience_factor = 0.2

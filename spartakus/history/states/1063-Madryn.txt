@@ -4,6 +4,10 @@ state={
 	provinces={
 		10953 13219 
 	}
+	resources={
+		oil=6.000
+		aluminium=12.000
+	}
 	history={
 		owner = ARG
 		buildings = {
