@@ -1,0 +1,1248 @@
+focus_tree = {
+	id = Slovakian_Focus_Tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SLO
+		}
+	}
+	default = no
+	focus = {
+		id = SLO_industry
+		icon = GFX_goal_generic_production2
+		cost = 10.00
+		x = 2
+		y = 0
+
+	}
+	focus = {
+		id = SLO_farming_grants
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_industry
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = SLO_expand_mines
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_farming_grants
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = SLO_business_grants
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_expand_mines
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = SLO_arms_production
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_industry
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = SLO_guns_for_all
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_arms_production
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = SLO_arms_for_army
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_guns_for_all
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = SLO_industrial_awakening
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_business_grants
+		}
+		prerequisite = {
+			focus = SLO_arms_for_army
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = SLO_tobacco_production
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_industrial_awakening
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = SLO_wine_production
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_tobacco_production
+		}
+		x = 1
+		y = 6
+
+	}
+	focus = {
+		id = SLO_increase_production
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_industrial_awakening
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = SLO_18_hour_days
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_increase_production
+		}
+		x = 3
+		y = 6
+    }
+	focus = {
+		id = SLO_army
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 10.00
+		x = 10
+		y = 0
+
+	}
+	focus = {
+		id = SLO_general_staff
+		icon = GFX_focus_secret_rearmament
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_army
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = SLO_officer_academy
+		icon = GFX_focus_chi_army_reform
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_army
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = SLO_doctrinal_choice
+		icon = GFX_focus_generic_license_production
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_general_staff
+		}
+		prerequisite = {
+			focus = SLO_officer_academy
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = SLO_motorised_force
+		icon = GFX_goal_generic_army_motorized
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_doctrinal_choice
+		}
+		mutually_exclusive = {
+			focus = SLO_great_war_doctrine
+			focus = SLO_fire_and_fury
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = SLO_synthetic_rubber
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_motorised_force
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = SLO_cut_corners
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_motorised_force
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = SLO_tank_research
+		icon = GFX_goal_generic_army_tanks
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_synthetic_rubber
+		}
+		prerequisite = {
+			focus = SLO_cut_corners
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = SLO_spearhead_push
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_tank_research
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = SLO_great_war_doctrine
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_doctrinal_choice
+		}
+		mutually_exclusive = {
+			focus = SLO_motorised_force
+			focus = SLO_fire_and_fury
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = SLO_bunker_thought
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_great_war_doctrine
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = SLO_entrenchment
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_great_war_doctrine
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = SLO_infantry_push
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_bunker_thought
+		}
+		prerequisite = {
+			focus = SLO_entrenchment
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = SLO_artillery_chorus
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_infantry_push
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = SLO_fire_and_fury
+		icon = GFX_focus_generic_provoke_border_clashes
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_doctrinal_choice
+		}
+		mutually_exclusive = {
+			focus = SLO_great_war_doctrine
+			focus = SLO_motorised_force
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = SLO_shells_not_soldiers
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_fire_and_fury
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = SLO_white_phosphorus
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_fire_and_fury
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = SLO_relentless_barrage
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_shells_not_soldiers
+		}
+		prerequisite = {
+			focus = SLO_white_phosphorus
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = SLO_aerial_spotters
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_relentless_barrage
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = SLO_desperate_measures
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_aerial_spotters
+			focus = SLO_artillery_chorus
+			focus = SLO_spearhead_push
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = SLO_unit_harvest
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_desperate_measures
+		}
+		x = 8
+		y = 8
+
+	}
+	focus = {
+		id = SLO_great_war_gases
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_desperate_measures
+		}
+		x = 12
+		y = 8
+
+	}
+	focus = {
+		id = SLO_triangular_bayonets
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_desperate_measures
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = SLO_mustard_shells
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_great_war_gases
+		}
+		x = 12
+		y = 9
+
+	}
+	focus = {
+		id = SLO_gas_grenades
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_mustard_shells
+		}
+		x = 12
+		y = 10
+
+	}
+	focus = {
+		id = SLO_entomological_warfare
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_unit_harvest
+		}
+		x = 8
+		y = 9
+
+	}
+	focus = {
+		id = SLO_potato_beetles
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_entomological_warfare
+		}
+		x = 8
+		y = 10
+
+	}
+	focus = {
+		id = SLO_no_prisoners
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_triangular_bayonets
+		}
+		x = 10
+		y = 9
+
+	}
+	focus = {
+		id = SLO_flamethrowers
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_no_prisoners
+		}
+		x = 10
+		y = 10
+
+	}
+	focus = {
+		id = SLO_aerial_arm
+		icon = GFX_goal_generic_build_airforce
+		cost = 10.00
+		x = 18
+		y = 0
+
+	}
+	focus = {
+		id = SLO_fighter_research
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_aerial_arm
+		}
+		x = 17
+		y = 1
+
+	}
+	focus = {
+		id = SLO_cas_research
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_aerial_arm
+		}
+		x = 19
+		y = 1
+
+	}
+	focus = {
+		id = SLO_expand_bases
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_fighter_research
+		}
+		prerequisite = {
+			focus = SLO_cas_research
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = SLO_aerial_wargames
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_expand_bases
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = SLO_hasten_production
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_aerial_wargames
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = SLO_education_funding
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10.00
+		x = 22
+		y = 0
+
+	}
+		focus = {
+		id = SLO_electronics_research
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_education_funding
+		}
+		x = 21
+		y = 1
+
+	}
+	focus = {
+		id = SLO_radar_experiments
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_education_funding
+		}
+		x = 23
+		y = 1
+
+	}
+	focus = {
+		id = SLO_expand_bratislava_university
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_electronics_research
+		}
+		prerequisite = {
+			focus = SLO_radar_experiments
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = SLO_further_expansion
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_expand_bratislava_university
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = SLO_soviet_preparations
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 34
+		y = 0
+
+	}
+	focus = {
+		id = SLO_crisis_at_the_soviet
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_soviet_preparations
+		}
+		x = 34
+		y = 1
+
+	}
+	focus = {
+		id = SLO_army_order
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_crisis_at_the_soviet
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = SLO_crush_communists
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_army_order
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = SLO_enlist_prisoners
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_army_order
+		}
+		x = 27
+		y = 3
+
+	}
+	focus = {
+		id = SLO_army_cadets
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_enlist_prisoners
+		}
+		x = 27
+		y = 4
+
+	}
+	focus = {
+		id = SLO_crush_the_church
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_army_cadets
+		}
+		x = 27
+		y = 5
+
+	}
+	focus = {
+		id = SLO_remove_statues
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_crush_communists
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = SLO_new_syllabus
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_remove_statues
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = SLO_salvation_prevails
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_new_syllabus
+		}
+		prerequisite = {
+			focus = SLO_crush_the_church
+		}
+		x = 26
+		y = 6
+
+	}
+	focus = {
+		id = SLO_german_rule
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_crisis_at_the_soviet
+		}
+		x = 31
+		y = 2
+
+	}
+	focus = {
+		id = SLO_german_priority
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_german_rule
+		}
+		x = 30
+		y = 3
+
+	}
+	focus = {
+		id = SLO_german_schools
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_german_priority
+		}
+		x = 30
+		y = 4
+
+	}
+	focus = {
+		id = SLO_german_investments
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_german_schools
+		}
+		x = 30
+		y = 5
+
+	}
+	focus = {
+		id = SLO_stormtroopers
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_german_rule
+		}
+		x = 32
+		y = 3
+
+	}
+	focus = {
+		id = SLO_asset_seizures
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_stormtroopers
+		}
+		x = 32
+		y = 4
+
+	}
+	focus = {
+		id = SLO_german_mercenaries
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_asset_seizures
+		}
+		x = 32
+		y = 5
+
+	}
+	focus = {
+		id = SLO_a_new_state
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_german_investments
+		}
+		prerequisite = {
+			focus = SLO_german_mercenaries
+		}
+		x = 31
+		y = 6
+
+	}
+	focus = {
+		id = SLO_hlinka_rule
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_crisis_at_the_soviet
+		}
+		x = 37
+		y = 2
+
+	}
+	focus = {
+		id = SLO_catholic_supremacy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_hlinka_rule
+		}
+		x = 36
+		y = 3
+
+	}
+	focus = {
+		id = SLO_church_schools
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_catholic_supremacy
+		}
+		x = 36
+		y = 4
+
+	}
+	focus = {
+		id = SLO_agricultural_grants
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_church_schools
+		}
+		x = 36
+		y = 5
+
+	}
+	focus = {
+		id = SLO_hlinka_youth
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_hlinka_rule
+		}
+		x = 38
+		y = 3
+
+	}
+	focus = {
+		id = SLO_oppress_czechs
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_hlinka_youth
+		}
+		x = 38
+		y = 4
+
+	}
+	focus = {
+		id = SLO_motherhood_grants
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_oppress_czechs
+		}
+		x = 38
+		y = 5
+
+	}
+	focus = {
+		id = SLO_a_holy_nation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_agricultural_grants
+		}
+		prerequisite = {
+			focus = SLO_motherhood_grants
+		}
+		x = 37
+		y = 6
+
+	}
+	focus = {
+		id = SLO_soviet_holds
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_crisis_at_the_soviet
+		}
+		x = 42
+		y = 2
+
+	}
+	focus = {
+		id = SLO_purge_germans
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_soviet_holds
+		}
+		x = 41
+		y = 3
+
+	}
+	focus = {
+		id = SLO_crush_the_catholics
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_purge_germans
+		}
+		x = 41
+		y = 4
+
+	}
+	focus = {
+		id = SLO_mass_repression
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_crush_the_catholics
+		}
+		x = 41
+		y = 5
+
+	}
+	focus = {
+		id = SLO_industrial_boon
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_soviet_holds
+		}
+		x = 43
+		y = 3
+
+	}
+	focus = {
+		id = SLO_sovietglas_investments
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_industrial_boon
+		}
+		x = 43
+		y = 4
+
+	}
+	focus = {
+		id = SLO_soviet_industrial_support
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_sovietglas_investments
+		}
+		x = 43
+		y = 5
+
+	}
+	focus = {
+		id = SLO_stayed_the_course
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_mass_repression
+		}
+		prerequisite = {
+			focus = SLO_soviet_industrial_support
+		}
+		x = 42
+		y = 6
+
+	}
+	focus = {
+		id = SLO_czechian_question
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_a_new_state
+			focus = SLO_a_holy_nation
+			focus = SLO_stayed_the_course
+			focus = SLO_salvation_prevails
+		}
+		x = 34
+		y = 7
+
+	}
+	focus = {
+		id = SLO_border_forts
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_czechian_question
+		}
+		x = 33
+		y = 8
+
+	}
+	focus = {
+		id = SLO_mass_conscripts
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_czechian_question
+		}
+		x = 35
+		y = 8
+
+	}
+	focus = {
+		id = SLO_begin_the_assault
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_border_forts
+		}
+		prerequisite = {
+			focus = SLO_mass_conscripts
+		}
+		x = 34
+		y = 9
+
+	}
+	focus = {
+		id = SLO_proclaim_slovakczechia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_begin_the_assault
+		}
+		x = 34
+		y = 10
+
+	}
+	focus = {
+		id = SLO_settled_ambitions
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_proclaim_slovakczechia
+		}
+		x = 31
+		y = 11
+
+	}
+	focus = {
+		id = SLO_rebuild_homes
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_settled_ambitions
+		}
+		x = 30
+		y = 12
+
+	}
+	focus = {
+		id = SLO_repair_infrastructure
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_settled_ambitions
+		}
+		x = 32
+		y = 12
+
+	}
+	focus = {
+		id = SLO_pacify_civillians
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_rebuild_homes
+		}
+		prerequisite = {
+			focus = SLO_repair_infrastructure
+		}
+		x = 31
+		y = 13
+
+	}
+	focus = {
+		id = SLO_integrate_outer_czechia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_pacify_civillians
+		}
+		x = 30
+		y = 14
+
+	}
+	focus = {
+		id = SLO_integrate_inner_czechia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_pacify_civillians
+		}
+		x = 32
+		y = 14
+
+	}
+	focus = {
+		id = SLO_solidify_union
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_integrate_outer_czechia
+		}
+		prerequisite = {
+			focus = SLO_integrate_inner_czechia
+		}
+		x = 31
+		y = 15
+
+	}
+	focus = {
+		id = SLO_a_greater_union
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_proclaim_slovakczechia
+		}
+		x = 37
+		y = 11
+
+	}
+	focus = {
+		id = SLO_moravian_legacy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_a_greater_union
+		}
+		x = 37
+		y = 12
+
+	}
+	focus = {
+		id = SLO_strike_magyars
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_moravian_legacy
+		}
+		x = 37
+		y = 13
+
+	}
+	focus = {
+		id = SLO_harsh_repressions
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_strike_magyars
+		}
+		x = 36
+		y = 14
+
+	}
+	focus = {
+		id = SLO_conscript_youth
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_strike_magyars
+		}
+		x = 38
+		y = 14
+
+	}
+	focus = {
+		id = SLO_austrian_jewel
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_harsh_repressions
+		}
+		prerequisite = {
+			focus = SLO_conscript_youth
+		}
+		x = 37
+		y = 15
+
+	}
+	focus = {
+		id = SLO_vienna_gold_reserves
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_austrian_jewel
+		}
+		x = 36
+		y = 16
+
+	}
+	focus = {
+		id = SLO_austrian_arms
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_austrian_jewel
+		}
+		x = 38
+		y = 16
+
+	}
+	focus = {
+		id = SLO_romanian_question
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_vienna_gold_reserves
+		}
+		prerequisite = {
+			focus = SLO_austrian_arms
+		}
+		x = 37
+		y = 17
+
+	}
+	focus = {
+		id = SLO_eastern_pride
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SLO_romanian_question
+		}
+		x = 37
+		y = 18
+
+	}
+}
