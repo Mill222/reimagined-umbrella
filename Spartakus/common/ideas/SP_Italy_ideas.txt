@@ -18,7 +18,7 @@ ideas = {
         }
 		
 		ITA_Anni_di_Piombo = {
-            picture = WIP
+            picture = Italy_Broke
             modifier = {
 				stability_factor = -0.40
 				political_power_gain = -0.5
@@ -36,7 +36,7 @@ ideas = {
         }
 		
 		ITA_Senussi = {
-            picture = WIP
+            picture = Senussi_Partisans
             modifier = {
 				
             }

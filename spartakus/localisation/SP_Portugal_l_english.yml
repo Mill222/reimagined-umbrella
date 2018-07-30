@@ -135,6 +135,17 @@ POR_plane_production:0 "Plane Production"
 POR_delgado_doctrine:0 "Delgado Doctrine"
 POR_beires_doctrine:0 "Beires Doctrine"
 
+POR_grande_exercito:0 "Grande Exército"
+POR_grande_exercito_draft:0 "Grande Exército - Draft"
+POR_standardized_equipment_idea:0 "Standardized Equipment"
+POR_mass_munitions_idea:0 "Mass Munitions"
+
+POR_grand_battleplan_idea:0 "Grand Battleplan Tactics"
+POR_superior_firepower_idea:0 "Superior Firepower Tactics"
+
+POR_army_merge_grand_battleplan:0 "An Army Reborn"
+POR_army_merge_superior_firepower:0 "An Army Reborn"
+
 ### Traits ###
 
 ### Opinion Modifiers ###
@@ -236,9 +247,9 @@ POR_strategic_bomber_desc:0 "One of the major components of the Delgado Doctrine
 POR_all_around:0 "The Beires Doctrine"
 POR_all_around_desc:0 "The Beires Doctrine is a plan presented by Sarmento Beires, one of our most important aerial experts. Beires believes a modern, large fleet of fighter aircraft mixed with a moderate amount of multipurpose bomber aircraft would be best for a less industrially relevant country like Portugal."
 POR_fighters:0 "A Fleet of Fighters"
-POR_fighters_desc:0 ""
+POR_fighters_desc:0 "In this new era, bombers are bigger and bolder and cannot easily be shot down from mere rifle fire. In order to protect our skies, Beires suggests that we invest in a fleet of modern fighter planes to crush our enemy before they have the chance to strike."
 POR_tactical_bombing:0 "Multipurpose Bombers"
-POR_tactical_bombing_desc:0 ""
+POR_tactical_bombing_desc:0 "One of the components of the Beires Doctrine is to employ lighter, multipurpose bombers which can play a dual role in supporting our men on the battlefield while also being useful for bombing the infrastructure and cities of our enemy."
 
 POR_diplomacy_a:0 "Diplomacy"
 POR_diplomacy_a_desc:0 ""
@@ -266,11 +277,11 @@ POR_soviet_rifle_designs:0 "Soviet Rifle Designs"
 POR_soviet_rifle_designs_desc:0 ""
 
 POR_economic:0 "Jumpstarting the Economy"
-POR_economic_desc:0 ""
+POR_economic_desc:0 "With the Civil War over and the recovery effort underway, we should look towards giving a jumpstart to an economy broken by years of liberal republicanism."
 POR_fishing_industry:0 "Invest in the Setúbal Fishing Industry"
-POR_fishing_industry_desc:0 ""
+POR_fishing_industry_desc:0 "Setúbal is the fishing capitol of this country and has been for many years, however with the economy struggling the fishing industry has tanked. We should provide some funding and incentive to rebuild it back to its former glory."
 POR_foreign_workforce:0 "Encourage a Foreign Workforce"
-POR_foreign_workforce_desc:0 ""
+POR_foreign_workforce_desc:0 "We experienced an unfortunately high amount of unemployment and migration from this Civil War an das a result our workforce has taken a toll. However, with things getting better, and jobs opening left and right, it would be wise to allow in a few thousand foreign workers to help out."
 POR_new_communes:0 "Establish New Communes"
 POR_new_communes_desc:0 ""
 POR_wood_industry:0 "Expand the Maia Wood Industry"

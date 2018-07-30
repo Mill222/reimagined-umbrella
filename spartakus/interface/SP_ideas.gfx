@@ -369,17 +369,17 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_Sanfedisti"
-		texturefile = "gfx/interface/ideas/ITA/Sanfedisti.dds"
+		texturefile = "gfx/interface/ideas/ITA/Sanfedisti.tga"
 	}
 	
 	spriteType = {
-		name = "GFX_Senussi_Partisans"
-		texturefile = "gfx/interface/ideas/ITA/Senussi_Partisans.dds"
+		name = "GFX_idea_Senussi_Partisans"
+		texturefile = "gfx/interface/ideas/ITA/Senussi_Partisans.tga"
 	}
 	
 	spriteType = {
-		name = "GFX_Italy_Broke"
-		texturefile = "gfx/interface/ideas/ITA/Italy_Broke.dds"
+		name = "GFX_idea_Italy_Broke"
+		texturefile = "gfx/interface/ideas/ITA/Italy_Broke.tga"
 	}
 	
 	# Belgium
