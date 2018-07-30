@@ -4894,4 +4894,129 @@ spriteTypes = {
 		name = "GFX_JAP_focus_navy"
 		texturefile = "gfx/interface/goals/JAP_focus_navy.tga"
 	}
+	
+	SpriteType = {
+		name = "GFX_versailles"
+		texturefile = "gfx/interface/goals/versailles.tga"
+	}
+	SpriteType = {
+		name = "GFX_South_American_Soldiers"
+		texturefile = "gfx/interface/goals/South_American_Soldiers.tga"
+	}
+	SpriteType = {
+		name = "GFX_South_American_Relations"
+		texturefile = "gfx/interface/goals/South_American_Relations.tga"
+	}
+	SpriteType = {
+		name = "GFX_socaid"
+		texturefile = "gfx/interface/goals/socaid.tga"
+	}
+	SpriteType = {
+		name = "GFX_Rotfront_Sovietglas_meeting"
+		texturefile = "gfx/interface/goals/Rotfront_Sovietglas_meeting.tga"
+	}
+	SpriteType = {
+		name = "GFX_rocque"
+		texturefile = "gfx/interface/goals/rocque.tga"
+	}
+	SpriteType = {
+		name = "GFX_pheonix_focus"
+		texturefile = "gfx/interface/goals/pheonix_focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_Nat_Corp_Spanish_Eagle"
+		texturefile = "gfx/interface/goals/Nat_Corp_Spanish_Eagle.tga"
+	}
+	SpriteType = {
+		name = "GFX_Kingdom_of_Saudi_Arabia"
+		texturefile = "gfx/interface/goals/Kingdom_of_Saudi_Arabia.tga"
+	}
+	SpriteType = {
+		name = "GFX_Irish_Soldiers"
+		texturefile = "gfx/interface/goals/Irish_Soldiers.tga"
+	}
+	SpriteType = {
+		name = "GFX_Ancient_Greece"
+		texturefile = "gfx/interface/goals/Ancient_Greece.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_strike_sociedad_rural"
+		texturefile = "gfx/interface/goals/focus_strike_sociedad_rural.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_la_forestal"
+		texturefile = "gfx/interface/goals/focus_la_forestal.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_clock"
+		texturefile = "gfx/interface/goals/focus_clock.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_arg_savio"
+		texturefile = "gfx/interface/goals/focus_arg_savio.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_arg_fuchs"
+		texturefile = "gfx/interface/goals/focus_arg_fuchs.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_arg_bondis"
+		texturefile = "gfx/interface/goals/focus_arg_bondis.tga"
+	}
+	SpriteType = {
+		name = "GFX_Expand_Airfields"
+		texturefile = "gfx/interface/goals/Expand_Airfields.tga"
+	}
+	SpriteType = {
+		name = "GFX_European_Soldiers"
+		texturefile = "gfx/interface/goals/European_Soldiers.tga"
+	}
+	SpriteType = {
+		name = "GFX_European_Relations"
+		texturefile = "gfx/interface/goals/European_Relations.tga"
+	}
+	SpriteType = {
+		name = "GFX_Egyptian_German_Deal"
+		texturefile = "gfx/interface/goals/Egyptian_German_Deal.tga"
+	}
+	SpriteType = {
+		name = "GFX_dukeofguise"
+		texturefile = "gfx/interface/goals/dukeofguise.tga"
+	}
+	SpriteType = {
+		name = "GFX_Deploy_the_Unthinkable"
+		texturefile = "gfx/interface/goals/Deploy_the_Unthinkable.tga"
+	}
+	SpriteType = {
+		name = "GFX_continued_hellenisation"
+		texturefile = "gfx/interface/goals/continued_hellenisation.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_navy"
+		texturefile = "gfx/interface/goals/JAP_focus_navy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Combined_Bomber_Offensive"
+		texturefile = "gfx/interface/goals/Combined_Bomber_Offensive.tga"
+	}
+	SpriteType = {
+		name = "GFX_Carrier_Focus"
+		texturefile = "gfx/interface/goals/Carrier_Focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_Baden_Supremacy"
+		texturefile = "gfx/interface/goals/Baden_Supremacy.tga"
+	}
+	SpriteType = {
+		name = "GFX_austrian_investments"
+		texturefile = "gfx/interface/goals/austrian_investments.tga"
+	}
+	SpriteType = {
+		name = "GFX_attack_montenegro"
+		texturefile = "gfx/interface/goals/attack_montenegro.tga"
+	}
+	SpriteType = {
+		name = "GFX_attack_illyria"
+		texturefile = "gfx/interface/goals/attack_illyria.tga"
+	}
 }
