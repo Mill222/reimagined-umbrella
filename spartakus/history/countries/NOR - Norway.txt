@@ -162,7 +162,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Vidkun Quisling"
 	desc = "POLITICS_VIDKUN_QUISLING_DESC"
-	picture = "Portrait_Norway_Vidkun_Quisling.dds"
+	picture = "Portrait_Vidkun_Quisling.tga"
 	expire = "1965.1.1"
 	ideology = national_corporatist_subtype
 	traits = {
@@ -170,15 +170,37 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+	name = "Kristian Laake"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Kristian_Laake.tga"
+	traits = { old_guard politically_connected }
+	skill = 3
+	attack_skill = 2
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+
 create_corps_commander = {
 	name = "Carl Gustav Fleischer"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Carl_Gustav_Fleischer.tga"
 	traits = {  trickster winter_specialist }
 	skill = 4
 	attack_skill = 3
 	defense_skill = 4
 	planning_skill = 2
 	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Otto Ruge"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Otto_Ruge.tga"
+	traits = { winter_specialist infantry_officer }
+	skill = 3
+	attack_skill = 3
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 3
 }
 
 create_navy_leader = {
