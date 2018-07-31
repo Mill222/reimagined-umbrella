@@ -17,40 +17,40 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 0
+			popularity = 1
 		}
 		marxist = {
-			popularity = 0
+			popularity = 1
 		}
 		revolutionary_socialist = {
-			popularity = 0
+			popularity = 1
 		}
 		democratic_socialist = {
-			popularity = 0
+			popularity = 1
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 3
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 5
 		}
 		liberal_conservative = {
-			popularity = 0
+			popularity = 3
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 14
 		}
 		authoritarian_democrat = {
-			popularity = 80
+			popularity = 52
 		}
 		right_wing_populist = {
-			popularity = 20
+			popularity = 15
 		}
 		national_syndicalist = {
-			popularity = 0
+			popularity = 3
 		}
 		national_corporatist = {
-			popularity = 0
+			popularity = 1
 		}
 	}
 	
@@ -62,15 +62,14 @@ set_politics = {
 
 add_ideas = {
 	extensive_conscription
-	HEJ_illegal_monarch
 	HEJ_tribal_system
 }
 
 create_country_leader = {
-	name = "Ali bin Al-Hussein"
+	name = "Ali bin Hussein"
 	desc = ""
-	picture = "Ali_bin_Hussein.dds"
-	expire = "1935.2.13"
+	picture = "Portrait_Ali_bin_Hussein.tga"
+	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
