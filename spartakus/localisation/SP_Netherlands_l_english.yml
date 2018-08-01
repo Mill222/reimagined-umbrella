@@ -43,6 +43,14 @@
 
 ### Events ###
 
+ holflv.1.title:0 "Completion of the Afsluitdijk"
+ holflv.1.desc:0 "Today on the 28th of May 1932, the Afsluitdijk was finished. Construction progressed better than expected; at three points along the line of the dike there were deeper underwater trenches where the tidal current was much stronger than elsewhere. These had been considered to be major obstacles to completing the dike, but all of them proved to be relatively straightforward.\n\nTwo years earlier than initially thought, the Zuiderzee ceased to be, as the last tidal trench, the Vlieter, was closed by a final bucket of till. The IJsselmeer was born, even though it was still salty at the time."
+ holflv.1.a:0 "We have done it once again!"
+
+ holflv.2.title:0 "Opening of the Afsluitdijk"
+ holflv.2.desc:0 "Today on the 25th September 1933, the Afsluitdijk is officially opened, with a monument designed by architect Dudok marking the spot where the dike had been closed.\n\nThe amount of material used is estimated at 23 million cubic metres of sand and 13.5 million cubic metres of till and over the years an average of around four to five thousand workers were involved with the construction every day, relieving some of the unemployment following the Great Depression."
+ holflv.2.a:0 "A true connection between North and West!"
+
 ### Parties ###
 
  HOL_leninist_party:0 "MLL-front"

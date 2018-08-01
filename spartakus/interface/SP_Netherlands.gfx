@@ -1,0 +1,14 @@
+spriteTypes = {
+
+    #Flavor
+
+    spriteType = {
+		name = "GFX_afsluitdijk_complete"
+		texturefile = "gfx/HOL/events/afsluitdijk_complete.tga"
+	}
+
+    spriteType = {
+		name = "GFX_afsluitdijk_opened"
+		texturefile = "gfx/HOL/events/afsluitdijk_opened.tga"
+	}
+}
