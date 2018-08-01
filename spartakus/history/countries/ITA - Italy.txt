@@ -9,7 +9,7 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	ITA_Ghastly_Memories
-	ITA_Anni_di_Piombo
+	ITA_Red_Decade
 	ITA_Army_Sympathies
 	ITA_Senussi
 }

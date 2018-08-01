@@ -9,7 +9,7 @@ ideas = {
 		# Start
 
         ITA_Ghastly_Memories = {
-            picture = WIP
+            picture = ENG_the_war_to_end_all_wars
             modifier = {
 				war_support_factor = -0.25
 				training_time_factor = 0.20
@@ -17,17 +17,17 @@ ideas = {
             }
         }
 		
-		ITA_Anni_di_Piombo = {
+		ITA_Red_Decade = {
             picture = Italy_Broke
             modifier = {
 				stability_factor = -0.40
 				political_power_gain = -0.5
-				consumer_goods_factor = 0.30
+				consumer_goods_factor = 0.10
             }
         }
 		
 		ITA_Army_Sympathies = {
-            picture = WIP
+            picture = vittoria_mutilata
             modifier = {
 				army_org_factor = -0.15
 				army_morale_factor = -0.15
