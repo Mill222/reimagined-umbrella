@@ -51327,343 +51327,338 @@ spriteTypes = {
 	#Head of Government
 	spriteType = {
 		name = "GFX_idea_LUX_Paul_Medinger_hog_mar"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Paul_Medinger.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Paul_Medinger.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Martin_Karp_hog_rev"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Martin_Karp.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Martin_Karp.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Rene_Blum_hog_sde"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Rene_Blum.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Rene_Blum.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Joseph_Bech_hog_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Joseph_Bech.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Joseph_Bech.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Pierre_Dupong_hog_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Pierre_Dupong.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Pierre_Dupong.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Guillaume_Soisson_hog_ade"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Guillaume_Soisson.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Guillaume_Soisson.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Damian_Kratzenberg_hog_rwp"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Damian_Kratzenberg.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Damian_Kratzenberg.dds"
 	}
 
 
 	#Foreign Minister
 	spriteType = {
 		name = "GFX_idea_LUX_Paul_Medinger_for_mar"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Paul_Medinger.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Paul_Medinger.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Francois_Schammel_for_rev"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Francois_Schammel.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Francois_Schammel.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Pierre_Krier_for_sde"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Pierre_Krier.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Pierre_Krier.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Rene_Blum_for_sde"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Rene_Blum.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Rene_Blum.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Joseph_Bech_for_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Joseph_Bech.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Joseph_Bech.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Henri_Ahnen_for_ade"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Henri_Ahnen.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Henri_Ahnen.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Damian_Kratzenberg_for_rwp"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Damian_Kratzenberg.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Damian_Kratzenberg.dds"
 	}
 
 
 	#Economy Minister
 	spriteType = {
 		name = "GFX_idea_LUX_Martin_Karp_eco_mar"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Martin_Karp.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Martin_Karp.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Jean_Pierre_Kauder_eco_rev"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Jean_Pierre_Kauder.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Jean_Pierre_Kauder.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Alex_Federspiel_eco_sde"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Alex_Federspiel.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Alex_Federspiel.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Pierre_Krier_eco_sde"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Pierre_Krier.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Pierre_Krier.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Auguste_Oster_eco_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Auguste_Oster.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Auguste_Oster.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Jules_Keiffer_eco_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Jules_Keiffer.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Jules_Keiffer.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Pierre_Dupong_eco_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Pierre_Dupong.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Pierre_Dupong.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Philip_Hoffmann_eco_ade"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Philip_Hoffmann.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Philip_Hoffmann.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Gustave_Farver_eco_rwp"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Gustave_Farver.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Gustave_Farver.dds"
 	}
 
 
 	#Security Minister
 	spriteType = {
 		name = "GFX_idea_LUX_Jean_Pierre_Kauder_sec_mar"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Jean_Pierre_Kauder.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Jean_Pierre_Kauder.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Michel_Hansen_sec_rev"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Michel_Hansen.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Michel_Hansen.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Joseph_Goedert_sec_sde"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Joseph_Goedert.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Joseph_Goedert.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Rene_Blum_sec_sde"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Rene_Blum.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Rene_Blum.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Eugene_Schaus_sec_sli"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Eugene_Schaus.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Eugene_Schaus.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Etienne_Schmit_sec_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Etienne_Schmit.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Etienne_Schmit.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Joseph_Bech_sec_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Joseph_Bech.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Joseph_Bech.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Nicolas_Braunshausen_sec_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Nicolas_Braunshausen.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Nicolas_Braunshausen.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Norbert_Dumont_sec_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Norbert_Dumont.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Norbert_Dumont.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Robert_Als_sec_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Robert_Als.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Robert_Als.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Victor_Bodson_sec_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Victor_Bodson.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Victor_Bodson.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Henri_Ahnen_sec_rwp"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Henri_Ahnen.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Henri_Ahnen.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Max_Simon_sec_rwp"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Max_Simon.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Max_Simon.dds"
 	}
 
 
 	#Intel Minister
 	spriteType = {
 		name = "GFX_idea_LUX_Jean_Pierre_Kauder_int_mar"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Jean_Pierre_Kauder.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Jean_Pierre_Kauder.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Max_Weckering_int_rev"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Max_Weckering.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Max_Weckering.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Charles_Becker_int_sde"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Charles_Becker.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Charles_Becker.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Francois_Schammel_int_sde"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Francois_Schammel.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Francois_Schammel.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Joseph_Tockert_int_sde"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Joseph_Tockert.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Joseph_Tockert.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Joseph_Wohlfart_int_mli"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Joseph_Wohlfart.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Joseph_Wohlfart.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Edmond_Klein_int_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Edmond_Klein.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Edmond_Klein.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Nicholas_Marque_int_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Nicholas_Marque.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Nicholas_Marque.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Jules_Prussen_int_ade"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Jules_Prussen.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Jules_Prussen.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Guillaume_Soisson_int_rwp"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Guillaume_Soisson.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Guillaume_Soisson.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Max_Simon_int_rwp"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Max_Simon.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Max_Simon.dds"
 	}
 
 
 	#Chief of Staff
 	spriteType = {
 		name = "GFX_idea_LUX_Martin_Karp_cos_mar"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Martin_Karp.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Martin_Karp.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Alex_Federspiel_cos_sde"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Alex_Federspiel.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Alex_Federspiel.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Francois_Schammel_cos_sde"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Francois_Schammel.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Francois_Schammel.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Jean_Seurlis_cos_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Jean_Seurlis.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Jean_Seurlis.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Pierre_Dupong_cos_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Pierre_Dupong.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Pierre_Dupong.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Aloyse_Glodt_cos_rwp"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Aloyse_Glodt.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Aloyse_Glodt.dds"
 	}
 
 
 	#Chief of Army
 	spriteType = {
 		name = "GFX_idea_LUX_Martin_Karp_carm_mar"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Martin_Karp.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Martin_Karp.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Emile_Speller_carm_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Emile_Speller.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Emile_Speller.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Felix_Bourbon_Parma_carm_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Felix_Bourbon_Parma.tga"
-	}
-
-	spriteType = {
-		name = "GFX_idea_LUX_Alexander_von_Falkenhausen_carm_rwp"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Alexander_von_Falkenhausen.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Felix_Bourbon_Parma.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Aloyse_Glodt_carm_rwp"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Aloyse_Glodt.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Aloyse_Glodt.dds"
 	}
 
 
 	#Chief of Navy
 	spriteType = {
 		name = "GFX_idea_LUX_Paul_Medinger_cnav_mar"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Paul_Medinger.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Paul_Medinger.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Emile_Speller_cnav_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Emile_Speller.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Emile_Speller.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Pierre_Fischbach_cnav_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Pierre_Fischbach.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Pierre_Fischbach.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Henri_Ahnen_cnav_rwp"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Henri_Ahnen.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Henri_Ahnen.dds"
 	}
 
 
 	#Chief of Air Force
 	spriteType = {
 		name = "GFX_idea_LUX_Jean_Marc_Steffen_cair_rev"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Jean_Marc_Steffen.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Jean_Marc_Steffen.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Nicholas_Diedrich_cair_sco"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Nicholas_Diedrich.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Nicholas_Diedrich.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LUX_Guillaume_Soisson_cair_rwp"
-		texturefile = "gfx/interface/ministers/LUX/LUX_Guillaume_Soisson.tga"
+		texturefile = "gfx/interface/ministers/LUX/LUX_Guillaume_Soisson.dds"
 	}
 
 

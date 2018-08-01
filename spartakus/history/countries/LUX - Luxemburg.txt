@@ -2,6 +2,16 @@
 
 oob = "LUX"
 
+add_ideas = {
+	LUX_Joseph_Bech_hog_sco
+	LUX_Joseph_Bech_for_sco
+	LUX_Pierre_Dupong_eco_sco
+	LUX_Norbert_Dumont_sec_sco
+	LUX_Edmond_Klein_int_sco
+	LUX_Francois_Schammel_cos_sde
+	LUX_Emile_Speller_carm_sco
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -18,44 +28,44 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 0
+			popularity = 1
 		}
 		marxist = {
-			popularity = 0
+			popularity = 4
 		}
 		revolutionary_socialist = {
-			popularity = 0
+			popularity = 1
 		}
 		democratic_socialist = {
-			popularity = 0
+			popularity = 21
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 9
 		}
 		social_liberal = {
-			popularity = 0
+			popularity = 8
 		}
 		liberal_conservative = {
-			popularity = 0
+			popularity = 7
 		}
 		social_conservative = {
-			popularity = 0
+			popularity = 42
 		}
 		authoritarian_democrat = {
-		    popularity = 100
+		    popularity = 0
 		}
 		right_wing_populist = {
-			popularity = 0
+			popularity = 5
 		}
 		national_syndicalist = {
-			popularity = 0
+			popularity = 1
 		}
 		national_corporatist = {
-			popularity = 0
+			popularity = 1
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = social_conservative
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -63,11 +73,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Joseph Bech"
-	desc = "POLITICS_JOSEPH_BECH_DESC"
-	picture = "GFX_portrait_luxembourg_joseph_bech"
+	name = "Charlotte"
+	desc = "POLITICS_CHARLOTTE_LUX_DESC"
+	picture = "Portrait_Charlotte.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
