@@ -103,10 +103,10 @@ BEL_national_corporatist_party_long:0 "Rexist"
 ### Focuses ###
 
 BEL_Economy:0 "The Promise"
-BEL_Economy_desc:0 "Belgium was scarred by the Weltkrieg. Western Flanders was completely destroyed, and parts of Wallonia as well due to the Germans. Reconstruction has not fully completed, and with the onset of the Depression, our people remain without hope that things will get better. We will make them the promise of making Belgium great again."
+BEL_Economy_desc:0 "Belgium was scarred by the Great War. Western Flanders was completely destroyed, and parts of Wallonia as well due to the Germans. Reconstruction has not fully completed, and with the onset of the Depression, our people remain without hope that things will get better. We will make them the promise of making Belgium great again."
 
-BEL_Economy2:0 "Finish Weltkrieg Reconstruction"
-BEL_Economy2_desc:0 "Belgium's infrastructure was left in ruins following the Weltkrieg. Repairs began, but were never finished. It's time to get our country back up to modern standards."
+BEL_Economy2:0 "Finish Great War Reconstruction"
+BEL_Economy2_desc:0 "Belgium's infrastructure was left in ruins following the Great War. Repairs began, but were never finished. It's time to get our country back up to modern standards."
 
 BEL_Economy3:0 "Restructure the Ministry of Finance"
 BEL_Economy3_desc:0 "Belgium's Ministry of Finance has been in chaos since the beginning of the depression. It's unable to get anything done. Sack the current Minister of Finance and replace him with someone more capable. Restructure the entire ministry."
