@@ -23,8 +23,8 @@ state= {
 		victory_points = {
 			3893 5
 		}
-		add_core_of = GRE
-		add_claim_by = TUR
+		add_claim_by = GRE
+		add_core_of = TUR
 	}
 	provinces= { 849 922 3879 3893 6895 11842 }
 }

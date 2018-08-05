@@ -13,6 +13,7 @@ state= {
 		owner = ENG
 		add_claim_by = GRE
 		add_core_of = CYP
+		add_claim_by = TUR
 		buildings = {
 			infrastructure = 4
 			air_base = 1

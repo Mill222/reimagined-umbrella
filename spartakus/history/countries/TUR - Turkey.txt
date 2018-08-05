@@ -28,34 +28,34 @@ set_politics = {
 
 	parties = {
 		leninist = {
-			popularity = 15
+			popularity = 5
 		}
 		marxist = {
-			popularity = 0
+			popularity = 1
 		}
 		revolutionary_socialist = {
-			popularity = 13
+			popularity = 1
 		}
 		democratic_socialist = {
-			popularity = 0
+			popularity = 3
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 5
 		}
 		social_liberal = {
-			popularity = 7
-		}
-		liberal_conservative = {
 			popularity = 10
 		}
+		liberal_conservative = {
+			popularity = 16
+		}
 		social_conservative = {
-			popularity = 20
+			popularity = 30
 		}
 		authoritarian_democrat = {
-		    popularity = 30
+		    popularity = 19
 		}
 		right_wing_populist = {
-			popularity = 5
+			popularity = 10
 		}
 		national_syndicalist = {
 			popularity = 0
@@ -76,7 +76,7 @@ add_ideas = {
 	TUR_corrupt_government
 	TUR_caliph_of_islam
 	TUR_dying_man_of_europe
-	TUR_kuva_yi_inzibatiye
+	TUR_nationalist_insurgency
 }
 
 set_convoys = 20
@@ -85,7 +85,7 @@ set_stability = 0.50
 create_country_leader = {
 	name = "Mehmed VI"
 	desc = "POLITICS_MEHMED_VI_DESC"
-	picture = ""
+	picture = "Mehmed.tga"
 	expire = "1965.11.10"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -94,9 +94,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Süleyman Şefik Pasha"
-	desc = "POLITICS_SULEYMAN_SEFIK_PASHA_DESC"
-	picture = ""
+	name = "Mehmed VI"
+	desc = "POLITICS_MEHMED_VI_DESC"
+	picture = "Mehmed.tga"
 	expire = "1965.1.1"
 	ideology = right_wing_populist_subtype
 	traits = {
@@ -105,8 +105,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Abdulmejid II"
-	desc = "POLITICS_ABDULMEJID_II_DESC"
+	name = "Süleyman Şefik Pasha"
+	desc = "POLITICS_SULEYMAN_SEFIK_PASHA_DESC"
 	picture = ""
 	expire = "1965.1.1"
 	ideology = national_syndicalist_subtype
