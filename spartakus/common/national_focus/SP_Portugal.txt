@@ -2017,7 +2017,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_cas
+		id = POR_cas_focus
 		icon = GFX_goal_bombs_away
 		relative_position_id = POR_airforce
 		prerequisite = { focus = POR_bomber } 		
@@ -2036,9 +2036,9 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_strategic_bomber
+		id = POR_strategic_bombing
 		icon = GFX_Aerial_Offensive
-		prerequisite = { focus = POR_cas } 		
+		prerequisite = { focus = POR_cas_focus } 		
 		relative_position_id = POR_airforce
 		x = 0
 		y = 3
